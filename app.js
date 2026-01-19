@@ -1,15 +1,15 @@
 import {
   loadSettings, saveSettings, resetSettings,
   loadStats, saveStats, resetDaily, resetAllStats
-} from "./core/storage.js?v=1.1";
+} from "./core/storage.js?v=1.2";
 
-import { speakJP, warmupTTS } from "./core/tts.js?v=1.1";
-import { playCorrect, playWrong, unlockAudio } from "./core/audio.js?v=1.1";
+import { speakJP, warmupTTS } from "./core/tts.js?v=1.2";
+import { playCorrect, playWrong, unlockAudio } from "./core/audio.js?v=1.2";
 
 import {
   newQuestion, recordResult, startSession,
   normalizeRomaji, pct
-} from "./core/quiz.js?v=1.1";
+} from "./core/quiz.js?v=1.2";
 
 const $ = (id) => document.getElementById(id);
 
