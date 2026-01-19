@@ -22,10 +22,8 @@
   {"hira":"いいえ","kata":"イイエ","rm":"iie","meaning":"不是"},
 
   {"hira":"いち","kata":"イチ","rm":"ichi","meaning":"一"},
-  {"hira":"に","kata":"ニ","rm":"ni","meaning":"二"},
   {"hira":"さん","kata":"サン","rm":"san","meaning":"三"},
   {"hira":"よん","kata":"ヨン","rm":"yon","meaning":"四"},
-  {"hira":"ご","kata":"ゴ","rm":"go","meaning":"五"},
   {"hira":"ろく","kata":"ロク","rm":"roku","meaning":"六"},
   {"hira":"なな","kata":"ナナ","rm":"nana","meaning":"七"},
   {"hira":"はち","kata":"ハチ","rm":"hachi","meaning":"八"},
