@@ -126,20 +126,24 @@ export function newQuestion(db, settings, stats){
       return s;
     };
 
-    // 按分数排序，取前3个
+    // 按分数排序
     const scored = pool2.map(x => ({ item: x, score: score(x) }));
     scored.sort((a, b) => b.score - a.score);
 
-    // 从高分组随机选（避免每次都选同样的）
-    const topScore = scored[0]?.score || 0;
-    const goodOnes = scored.filter(x => x.score >= topScore - 2);
-    const wrongs = shuffle(goodOnes).slice(0, 3).map(x => x.item);
+    // 按分数分层选择，保证质量
+    const wrongs = [];
+    const used = new Set();
 
-    // 如果不够3个，从剩余补充
-    if (wrongs.length < 3) {
-      const used = new Set(wrongs.map(x => x.rm));
-      const rest = shuffle(pool2.filter(x => !used.has(x.rm)));
-      wrongs.push(...rest.slice(0, 3 - wrongs.length));
+    // 分层：18+, 13+, 10+, 5+, 0+
+    const tiers = [18, 13, 10, 5, 0];
+    for (const minScore of tiers) {
+      if (wrongs.length >= 3) break;
+      const tier = scored.filter(x => x.score >= minScore && !used.has(x.item.rm));
+      const picks = shuffle(tier).slice(0, 3 - wrongs.length);
+      for (const p of picks) {
+        wrongs.push(p.item);
+        used.add(p.item.rm);
+      }
     }
 
     const choices = shuffle([correct, ...wrongs]);
