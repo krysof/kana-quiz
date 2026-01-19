@@ -4,6 +4,7 @@ import {
 } from "./core/storage.js";
 
 import { speakJP } from "./core/tts.js";
+import { playCorrect, playWrong } from "./core/audio.js";
 
 import {
   newQuestion, recordResult, startSession,
@@ -246,6 +247,9 @@ function answerChoice(idx) {
   const ok = idx === current.correctIndex;
   const kana = getKana(current.correct);
 
+  if (ok) playCorrect();
+  else playWrong();
+
   ui.result.innerHTML = ok
     ? `✅ 正确：<b>${current.correct.rm}</b> = <b>${kana}</b>`
     : `❌ 错了。正确：<b>${current.correct.rm}</b> = <b>${kana}</b>`;
@@ -275,6 +279,9 @@ function checkInput() {
   } else if (current.mode === "jp_in") {
     ok = normalizeRomaji(ans) === current.correct.rm;
   }
+
+  if (ok) playCorrect();
+  else playWrong();
 
   ui.result.innerHTML = ok
     ? `✅ 正确：<b>${current.correct.rm}</b> = <b>${kana}</b>`
