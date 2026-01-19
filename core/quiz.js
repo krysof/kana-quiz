@@ -106,32 +106,40 @@ export function newQuestion(db, settings, stats){
 
   const q = { mode, correct };
 
-  // 选择题需要干扰项，优先选字数相同的
+  // 选择题需要干扰项
   if (mode === "rm_mc" || mode === "jp_mc") {
     const allPool = [...pools.kana, ...pools.word];
     const pool2 = allPool.filter(x => x.rm !== correct.rm);
 
-    // 按字数分组选择干扰项
     const correctLen = correct.hira.length;
-    const sameLen = pool2.filter(x => x.hira.length === correctLen);
-    const similarLen = pool2.filter(x => {
-      const diff = Math.abs(x.hira.length - correctLen);
-      return diff === 1; // 只差1个字
-    });
-    const otherLen = pool2.filter(x => {
-      const diff = Math.abs(x.hira.length - correctLen);
-      return diff > 1;
-    });
+    const correctFirst = correct.hira[0]; // 第一个假名
 
-    // 优先相同字数 → 相差1字 → 其他
-    let wrongs = shuffle(sameLen).slice(0, 3);
+    // 评分函数：越高越好
+    const score = (x) => {
+      let s = 0;
+      const lenDiff = Math.abs(x.hira.length - correctLen);
+      // 字数相同 +10，相差1 +5
+      if (lenDiff === 0) s += 10;
+      else if (lenDiff === 1) s += 5;
+      // 首字相同 +8（让选项更有迷惑性）
+      if (x.hira[0] === correctFirst) s += 8;
+      return s;
+    };
+
+    // 按分数排序，取前3个
+    const scored = pool2.map(x => ({ item: x, score: score(x) }));
+    scored.sort((a, b) => b.score - a.score);
+
+    // 从高分组随机选（避免每次都选同样的）
+    const topScore = scored[0]?.score || 0;
+    const goodOnes = scored.filter(x => x.score >= topScore - 2);
+    const wrongs = shuffle(goodOnes).slice(0, 3).map(x => x.item);
+
+    // 如果不够3个，从剩余补充
     if (wrongs.length < 3) {
-      const need = 3 - wrongs.length;
-      wrongs = wrongs.concat(shuffle(similarLen).slice(0, need));
-    }
-    if (wrongs.length < 3) {
-      const need = 3 - wrongs.length;
-      wrongs = wrongs.concat(shuffle(otherLen).slice(0, need));
+      const used = new Set(wrongs.map(x => x.rm));
+      const rest = shuffle(pool2.filter(x => !used.has(x.rm)));
+      wrongs.push(...rest.slice(0, 3 - wrongs.length));
     }
 
     const choices = shuffle([correct, ...wrongs]);
