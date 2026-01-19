@@ -17,7 +17,17 @@ export function unlockAudio() {
   getAudioContext();
 }
 
+// 防止重复播放
+let lastPlayTime = 0;
+function canPlay() {
+  const now = Date.now();
+  if (now - lastPlayTime < 100) return false;
+  lastPlayTime = now;
+  return true;
+}
+
 export function playCorrect() {
+  if (!canPlay()) return;
   try {
     const ctx = getAudioContext();
     const osc = ctx.createOscillator();
@@ -40,6 +50,7 @@ export function playCorrect() {
 }
 
 export function playWrong() {
+  if (!canPlay()) return;
   try {
     const ctx = getAudioContext();
     const osc = ctx.createOscillator();
