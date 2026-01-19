@@ -50,6 +50,8 @@ const ui = {
   s_ng: $("s_ng"),
   streak: $("streak"),
   progressFill: $("progressFill"),
+  timer: $("timer"),
+  s_acc_display: $("s_acc_display"),
 
   // Stats - Start screen
   d_total_start: $("d_total_start"),
@@ -69,6 +71,33 @@ let settings = loadSettings();
 let stats = loadStats();
 let db = { kana: [], words: [] };
 let current = null;
+
+// Timer
+let timerInterval = null;
+let sessionStartTime = null;
+
+function formatTime(seconds) {
+  const m = Math.floor(seconds / 60);
+  const s = seconds % 60;
+  return `${m}:${s.toString().padStart(2, '0')}`;
+}
+
+function startTimer() {
+  sessionStartTime = Date.now();
+  if (timerInterval) clearInterval(timerInterval);
+  timerInterval = setInterval(() => {
+    const elapsed = Math.floor((Date.now() - sessionStartTime) / 1000);
+    ui.timer.textContent = formatTime(elapsed);
+  }, 1000);
+  ui.timer.textContent = "0:00";
+}
+
+function stopTimer() {
+  if (timerInterval) {
+    clearInterval(timerInterval);
+    timerInterval = null;
+  }
+}
 
 function getChecked(container) {
   return [...container.querySelectorAll('input[type="checkbox"]:checked')].map(x => x.value);
@@ -126,6 +155,9 @@ function updateDashboard() {
   ui.s_ok.textContent = stats.session.ok;
   ui.s_ng.textContent = stats.session.ng;
   ui.streak.textContent = stats.daily.streak;
+
+  // Accuracy
+  ui.s_acc_display.textContent = pct(stats.session.ok, stats.session.done);
 
   // Progress bar
   const progress = stats.session.size > 0 ? (stats.session.done / stats.session.size) * 100 : 0;
@@ -223,7 +255,9 @@ function answerChoice(idx) {
   updateDashboard();
 
   if (r.finished) {
-    ui.result.innerHTML += ` <b>（本次完成！正确率 ${pct(stats.session.ok, stats.session.done)}）</b>`;
+    stopTimer();
+    const elapsed = Math.floor((Date.now() - sessionStartTime) / 1000);
+    ui.result.innerHTML += ` <b>（完成！用时 ${formatTime(elapsed)}，正确率 ${pct(stats.session.ok, stats.session.done)}）</b>`;
   }
 }
 
@@ -252,7 +286,9 @@ function checkInput() {
 
   if (ok) speakJP(kana);
   if (r.finished) {
-    ui.result.innerHTML += ` <b>（本次完成！正确率 ${pct(stats.session.ok, stats.session.done)}）</b>`;
+    stopTimer();
+    const elapsed = Math.floor((Date.now() - sessionStartTime) / 1000);
+    ui.result.innerHTML += ` <b>（完成！用时 ${formatTime(elapsed)}，正确率 ${pct(stats.session.ok, stats.session.done)}）</b>`;
   }
 }
 
@@ -269,10 +305,12 @@ function startOrRestartSession() {
   saveStats(stats);
   updateDashboard();
   showScreen(ui.quizScreen);
+  startTimer();
   nextQuestion();
 }
 
 function backToStart() {
+  stopTimer();
   showScreen(ui.startScreen);
   updateDashboard();
 }

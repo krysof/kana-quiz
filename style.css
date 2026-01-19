@@ -210,6 +210,22 @@ body {
   font-size: 0.75rem;
 }
 
+.stat.time {
+  background: #e0e7ff;
+  color: #4338ca;
+}
+
+.stat.time::before {
+  content: "⏱";
+  margin-right: 3px;
+  font-size: 0.75rem;
+}
+
+.stat.acc {
+  background: #dbeafe;
+  color: #1d4ed8;
+}
+
 .btn-back {
   padding: 8px 12px;
   font-size: 0.875rem;
