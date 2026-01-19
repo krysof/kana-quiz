@@ -70,20 +70,50 @@ export function makeWeightedPool(pools, settings, stats){
 
 export function newQuestion(db, settings, stats){
   const pools = buildPools(db, settings);
-  const pool = makeWeightedPool(pools, settings, stats);
-  if (!pool.length) return null;
+  const wantKana = settings.content.includes("kana");
+  const wantWord = settings.content.includes("word");
+  const wantWrongBoost = settings.content.includes("wrong");
+
+  // 决定本次出题类型：kana 或 word
+  let sourcePool;
+  if (wantKana && wantWord && pools.kana.length && pools.word.length) {
+    // 两者都选时，kana 至少占 50%（保证足够练习）
+    const pickKana = Math.random() < 0.5;
+    sourcePool = pickKana ? pools.kana : pools.word;
+  } else if (wantKana && pools.kana.length) {
+    sourcePool = pools.kana;
+  } else if (wantWord && pools.word.length) {
+    sourcePool = pools.word;
+  } else {
+    sourcePool = pools.all;
+  }
+
+  // 构建加权池（错题优先）
+  const weighted = [];
+  for (const it of sourcePool) {
+    const w = stats.wrong[idOf(it)] || 0;
+    weighted.push(it);
+    if (w > 0) {
+      const extra = wantWrongBoost ? Math.min(12, w * 3) : Math.min(4, w);
+      for (let i = 0; i < extra; i++) weighted.push(it);
+    }
+  }
+
+  if (!weighted.length) return null;
 
   const mode = chooseMode(settings);
-  const correct = pickOne(pool);
+  const correct = pickOne(weighted);
 
   const q = { mode, correct };
 
-  if (mode==="rm_mc" || mode==="jp_mc"){
-    const pool2 = pool.filter(x=>x.rm !== correct.rm);
-    const wrongs = shuffle(pool2).slice(0,3);
+  // 选择题需要干扰项，从同类型池中选
+  if (mode === "rm_mc" || mode === "jp_mc") {
+    const allPool = [...pools.kana, ...pools.word];
+    const pool2 = allPool.filter(x => x.rm !== correct.rm);
+    const wrongs = shuffle(pool2).slice(0, 3);
     const choices = shuffle([correct, ...wrongs]);
     q.choices = choices;
-    q.correctIndex = choices.findIndex(x=>x.rm === correct.rm);
+    q.correctIndex = choices.findIndex(x => x.rm === correct.rm);
   }
   return q;
 }
