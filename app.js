@@ -3,7 +3,7 @@ import {
   loadStats, saveStats, resetDaily, resetAllStats
 } from "./core/storage.js";
 
-import { speakJP } from "./core/tts.js";
+import { speakJP, warmupTTS } from "./core/tts.js";
 import { playCorrect, playWrong, unlockAudio } from "./core/audio.js";
 
 import {
@@ -212,9 +212,10 @@ function renderQuestion() {
   const it = current.correct;
   const kana = getKana(it);
 
-  // 处理释义显示
+  // 处理释义显示（直接从UI读取最新状态）
+  const shouldHide = ui.hideMeaning.checked;
   if (it.type === "word" && it.meaning) {
-    if (settings.hideMeaning) {
+    if (shouldHide) {
       ui.meaning.textContent = "释义：***";
       ui.meaning.style.cursor = "pointer";
       ui.meaning.onclick = () => {
@@ -363,6 +364,7 @@ function showAnswer() {
 
 function startOrRestartSession() {
   unlockAudio(); // 解锁音频（需要用户交互）
+  warmupTTS(); // 预热TTS
   readSettingsFromUIAndSave();
   startSession(stats, settings.sessionSize);
   saveStats(stats);

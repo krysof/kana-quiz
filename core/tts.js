@@ -1,5 +1,6 @@
 let voices = [];
 let voicesLoaded = false;
+let ttsReady = false;
 
 // 预加载语音
 function loadVoices() {
@@ -12,6 +13,19 @@ function loadVoices() {
 if ("speechSynthesis" in window) {
   loadVoices();
   speechSynthesis.onvoiceschanged = loadVoices;
+}
+
+// 预热 TTS（需要用户交互后调用）
+export function warmupTTS() {
+  if (!("speechSynthesis" in window)) return;
+  if (ttsReady) return;
+
+  // 先取消，再说一个空内容来预热
+  speechSynthesis.cancel();
+  const u = new SpeechSynthesisUtterance("");
+  u.volume = 0;
+  speechSynthesis.speak(u);
+  ttsReady = true;
 }
 
 export function speakJP(text) {
