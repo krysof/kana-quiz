@@ -5,7 +5,16 @@ function getAudioContext() {
   if (!audioCtx) {
     audioCtx = new (window.AudioContext || window.webkitAudioContext)();
   }
+  // Resume if suspended (browser autoplay policy)
+  if (audioCtx.state === 'suspended') {
+    audioCtx.resume();
+  }
   return audioCtx;
+}
+
+// Call this on first user interaction to unlock audio
+export function unlockAudio() {
+  getAudioContext();
 }
 
 export function playCorrect() {

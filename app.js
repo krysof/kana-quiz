@@ -4,7 +4,7 @@ import {
 } from "./core/storage.js";
 
 import { speakJP } from "./core/tts.js";
-import { playCorrect, playWrong } from "./core/audio.js";
+import { playCorrect, playWrong, unlockAudio } from "./core/audio.js";
 
 import {
   newQuestion, recordResult, startSession,
@@ -72,6 +72,7 @@ let settings = loadSettings();
 let stats = loadStats();
 let db = { kana: [], words: [] };
 let current = null;
+let answered = false; // 是否已答题
 
 // Timer
 let timerInterval = null;
@@ -231,6 +232,12 @@ function renderQuestion() {
 }
 
 function nextQuestion() {
+  // 必须先答题才能下一题（除非是第一题）
+  if (current && !answered) {
+    ui.result.textContent = "请先答题！";
+    return;
+  }
+
   readSettingsFromUIAndSave();
 
   if (!stats.session.active) {
@@ -238,12 +245,16 @@ function nextQuestion() {
   }
 
   current = newQuestion(db, settings, stats);
+  answered = false; // 重置答题状态
   renderQuestion();
   saveStats(stats);
   updateDashboard();
 }
 
 function answerChoice(idx) {
+  if (answered) return; // 已答过，忽略
+  answered = true;
+
   const ok = idx === current.correctIndex;
   const kana = getKana(current.correct);
 
@@ -267,10 +278,12 @@ function answerChoice(idx) {
 
 function checkInput() {
   if (!current) return;
+  if (answered) return; // 已答过，忽略
 
   const ans = ui.inp.value.trim();
   if (!ans) { ui.result.textContent = "请输入答案"; return; }
 
+  answered = true;
   const kana = getKana(current.correct);
   let ok = false;
 
@@ -301,18 +314,21 @@ function checkInput() {
 
 function showAnswer() {
   if (!current) return;
+  answered = true; // 看答案也算答过
   const kana = getKana(current.correct);
   ui.result.innerHTML = `答案：<b>${current.correct.rm}</b> = <b>${kana}</b>${current.correct.meaning ? `（${current.correct.meaning}）` : ""}`;
   speakJP(kana);
 }
 
 function startOrRestartSession() {
+  unlockAudio(); // 解锁音频（需要用户交互）
   readSettingsFromUIAndSave();
   startSession(stats, settings.sessionSize);
   saveStats(stats);
   updateDashboard();
   showScreen(ui.quizScreen);
   startTimer();
+  answered = true; // 允许第一题直接开始
   nextQuestion();
 }
 
