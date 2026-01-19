@@ -106,11 +106,23 @@ export function newQuestion(db, settings, stats){
 
   const q = { mode, correct };
 
-  // 选择题需要干扰项，从同类型池中选
+  // 选择题需要干扰项，优先选字数相同的
   if (mode === "rm_mc" || mode === "jp_mc") {
     const allPool = [...pools.kana, ...pools.word];
     const pool2 = allPool.filter(x => x.rm !== correct.rm);
-    const wrongs = shuffle(pool2).slice(0, 3);
+
+    // 按字数分组选择干扰项
+    const correctLen = correct.hira.length;
+    const sameLen = pool2.filter(x => x.hira.length === correctLen);
+    const diffLen = pool2.filter(x => x.hira.length !== correctLen);
+
+    // 优先从相同字数中选，不够再从不同字数补充
+    let wrongs = shuffle(sameLen).slice(0, 3);
+    if (wrongs.length < 3) {
+      const need = 3 - wrongs.length;
+      wrongs = wrongs.concat(shuffle(diffLen).slice(0, need));
+    }
+
     const choices = shuffle([correct, ...wrongs]);
     q.choices = choices;
     q.correctIndex = choices.findIndex(x => x.rm === correct.rm);
