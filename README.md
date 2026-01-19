@@ -82,6 +82,15 @@ npx serve .
     └── words.json      # 词汇数据（200+个）
 ```
 
+## 更新说明
+
+修改代码后，需要更新版本号以清除浏览器缓存：
+
+1. `index.html` 中的 `style.css?v=x.x` 和 `app.js?v=x.x`
+2. `app.js` 中所有 import 语句的 `?v=x.x`
+
+例如：`?v=1.2` → `?v=1.3`
+
 ## 技术栈
 
 - 原生 JavaScript (ES Modules)
