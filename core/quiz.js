@@ -114,13 +114,24 @@ export function newQuestion(db, settings, stats){
     // 按字数分组选择干扰项
     const correctLen = correct.hira.length;
     const sameLen = pool2.filter(x => x.hira.length === correctLen);
-    const diffLen = pool2.filter(x => x.hira.length !== correctLen);
+    const similarLen = pool2.filter(x => {
+      const diff = Math.abs(x.hira.length - correctLen);
+      return diff === 1; // 只差1个字
+    });
+    const otherLen = pool2.filter(x => {
+      const diff = Math.abs(x.hira.length - correctLen);
+      return diff > 1;
+    });
 
-    // 优先从相同字数中选，不够再从不同字数补充
+    // 优先相同字数 → 相差1字 → 其他
     let wrongs = shuffle(sameLen).slice(0, 3);
     if (wrongs.length < 3) {
       const need = 3 - wrongs.length;
-      wrongs = wrongs.concat(shuffle(diffLen).slice(0, need));
+      wrongs = wrongs.concat(shuffle(similarLen).slice(0, need));
+    }
+    if (wrongs.length < 3) {
+      const need = 3 - wrongs.length;
+      wrongs = wrongs.concat(shuffle(otherLen).slice(0, need));
     }
 
     const choices = shuffle([correct, ...wrongs]);
