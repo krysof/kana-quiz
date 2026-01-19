@@ -219,7 +219,6 @@ function renderQuestion() {
         ? `<div class="jp">${getKana(c)}</div>`
         : `<div class="rm">${c.rm}</div>`;
       div.onclick = () => {
-        speakJP(getKana(c));
         answerChoice(idx);
       };
       ui.opts.appendChild(div);
@@ -261,6 +260,9 @@ function answerChoice(idx) {
   if (ok) playCorrect();
   else playWrong();
 
+  // 音效后播放读音
+  setTimeout(() => speakJP(kana), 300);
+
   ui.result.innerHTML = ok
     ? `✅ 正确：<b>${current.correct.rm}</b> = <b>${kana}</b>`
     : `❌ 错了。正确：<b>${current.correct.rm}</b> = <b>${kana}</b>`;
@@ -296,6 +298,9 @@ function checkInput() {
   if (ok) playCorrect();
   else playWrong();
 
+  // 音效后播放读音
+  setTimeout(() => speakJP(kana), 300);
+
   ui.result.innerHTML = ok
     ? `✅ 正确：<b>${current.correct.rm}</b> = <b>${kana}</b>`
     : `❌ 不对。正确：<b>${current.correct.rm}</b> = <b>${kana}</b>`;
@@ -304,7 +309,6 @@ function checkInput() {
   saveStats(stats);
   updateDashboard();
 
-  if (ok) speakJP(kana);
   if (r.finished) {
     stopTimer();
     const elapsed = Math.floor((Date.now() - sessionStartTime) / 1000);
