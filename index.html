@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,viewport-fit=cover" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="theme-color" content="#6366f1" />
+  <title>50音训练</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="container">
+    <!-- 开始页面 -->
+    <div id="startScreen" class="screen">
+      <div class="start-hero">
+        <div class="start-icon">あ</div>
+        <h1>50音训练</h1>
+        <p class="start-desc">练习假名和日常短词</p>
+      </div>
+
+      <section class="card">
+        <div class="grid2">
+          <div>
+            <div class="label">内容（可多选）</div>
+            <div class="checks" id="contentChecks">
+              <label class="chk"><input type="checkbox" value="kana" checked> 50音</label>
+              <label class="chk"><input type="checkbox" value="word" checked> 日常短词</label>
+              <label class="chk"><input type="checkbox" value="wrong"> 错题优先</label>
+            </div>
+          </div>
+
+          <div>
+            <div class="label">题型（可多选）</div>
+            <div class="checks" id="modeChecks">
+              <label class="chk"><input type="checkbox" value="rm_mc" checked> 罗马音→选假名</label>
+              <label class="chk"><input type="checkbox" value="jp_mc" checked> 假名→选罗马音</label>
+              <label class="chk"><input type="checkbox" value="rm_in"> 罗马音输入</label>
+              <label class="chk"><input type="checkbox" value="jp_in"> 假名输入</label>
+            </div>
+          </div>
+
+          <div>
+            <div class="label">50音集合（可多选）</div>
+            <div class="checks" id="kanaSetChecks">
+              <label class="chk"><input type="checkbox" value="seion" checked> 清音</label>
+              <label class="chk"><input type="checkbox" value="dakuon"> 浊音</label>
+              <label class="chk"><input type="checkbox" value="handakuon"> 半浊音</label>
+              <label class="chk"><input type="checkbox" value="yoon"> 拗音</label>
+            </div>
+          </div>
+
+          <div>
+            <div class="label">假名模式</div>
+            <select id="kanaMode">
+              <option value="hira">平假名</option>
+              <option value="kata">片假名</option>
+            </select>
+
+            <div class="label" style="margin-top:12px">本次题数</div>
+            <input type="number" id="sessionSize" value="20" min="5" max="200" />
+          </div>
+        </div>
+      </section>
+
+      <button class="btn-start" id="btnStartSession">开始练习</button>
+
+      <div class="start-stats">
+        <span class="pill">今日：<b id="d_total_start">0</b> 题</span>
+        <span class="pill ok">正确：<b id="d_ok_start">0</b></span>
+        <span class="pill ng">错误：<b id="d_ng_start">0</b></span>
+      </div>
+
+      <div class="start-footer">
+        <button class="btn" id="btnResetSettings">复位设置</button>
+        <button class="btn" id="btnResetDay">重置今日</button>
+        <button class="btn danger" id="btnResetAllStats">清空全部</button>
+      </div>
+    </div>
+
+    <!-- 练习页面 -->
+    <div id="quizScreen" class="screen hide">
+      <header class="quiz-header">
+        <div class="quiz-progress">
+          <div class="progress-bar">
+            <div class="progress-fill" id="progressFill"></div>
+          </div>
+          <span class="progress-text"><b id="s_done">0</b> / <b id="s_size">20</b></span>
+        </div>
+        <div class="quiz-stats">
+          <span class="stat ok" id="s_ok">0</span>
+          <span class="stat ng" id="s_ng">0</span>
+          <span class="stat streak" id="streak">0</span>
+        </div>
+        <button class="btn-back" id="btnBack">退出</button>
+      </header>
+
+      <section class="card quiz-card">
+        <div class="q" id="q">准备开始...</div>
+        <div class="meaning muted" id="meaning"></div>
+
+        <div id="opts" class="opts"></div>
+
+        <div id="inputWrap" class="hide">
+          <input type="text" id="inp" placeholder="输入答案" autocomplete="off" autocapitalize="off" />
+          <button class="btn primary" id="btnCheck">提交</button>
+          <button class="btn" id="btnShow">显示答案</button>
+        </div>
+
+        <div class="result" id="result"></div>
+
+        <div class="quiz-actions">
+          <button class="btn primary btn-next" id="btnNew">下一题</button>
+          <button class="btn" id="btnSpeak">播放发音</button>
+        </div>
+      </section>
+
+      <!-- 隐藏的统计元素 -->
+      <div class="hide">
+        <span id="d_total"></span>
+        <span id="d_ok"></span>
+        <span id="d_ng"></span>
+        <span id="d_acc"></span>
+        <span id="s_acc"></span>
+        <span id="tips"></span>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

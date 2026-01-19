@@ -1,0 +1,131 @@
+[
+  {"hira": "あ", "kata": "ア", "rm": "a", "set": "seion"},
+  {"hira": "い", "kata": "イ", "rm": "i", "set": "seion"},
+  {"hira": "う", "kata": "ウ", "rm": "u", "set": "seion"},
+  {"hira": "え", "kata": "エ", "rm": "e", "set": "seion"},
+  {"hira": "お", "kata": "オ", "rm": "o", "set": "seion"},
+
+  {"hira": "か", "kata": "カ", "rm": "ka", "set": "seion"},
+  {"hira": "き", "kata": "キ", "rm": "ki", "set": "seion"},
+  {"hira": "く", "kata": "ク", "rm": "ku", "set": "seion"},
+  {"hira": "け", "kata": "ケ", "rm": "ke", "set": "seion"},
+  {"hira": "こ", "kata": "コ", "rm": "ko", "set": "seion"},
+
+  {"hira": "さ", "kata": "サ", "rm": "sa", "set": "seion"},
+  {"hira": "し", "kata": "シ", "rm": "shi", "set": "seion"},
+  {"hira": "す", "kata": "ス", "rm": "su", "set": "seion"},
+  {"hira": "せ", "kata": "セ", "rm": "se", "set": "seion"},
+  {"hira": "そ", "kata": "ソ", "rm": "so", "set": "seion"},
+
+  {"hira": "た", "kata": "タ", "rm": "ta", "set": "seion"},
+  {"hira": "ち", "kata": "チ", "rm": "chi", "set": "seion"},
+  {"hira": "つ", "kata": "ツ", "rm": "tsu", "set": "seion"},
+  {"hira": "て", "kata": "テ", "rm": "te", "set": "seion"},
+  {"hira": "と", "kata": "ト", "rm": "to", "set": "seion"},
+
+  {"hira": "な", "kata": "ナ", "rm": "na", "set": "seion"},
+  {"hira": "に", "kata": "ニ", "rm": "ni", "set": "seion"},
+  {"hira": "ぬ", "kata": "ヌ", "rm": "nu", "set": "seion"},
+  {"hira": "ね", "kata": "ネ", "rm": "ne", "set": "seion"},
+  {"hira": "の", "kata": "ノ", "rm": "no", "set": "seion"},
+
+  {"hira": "は", "kata": "ハ", "rm": "ha", "set": "seion"},
+  {"hira": "ひ", "kata": "ヒ", "rm": "hi", "set": "seion"},
+  {"hira": "ふ", "kata": "フ", "rm": "fu", "set": "seion"},
+  {"hira": "へ", "kata": "ヘ", "rm": "he", "set": "seion"},
+  {"hira": "ほ", "kata": "ホ", "rm": "ho", "set": "seion"},
+
+  {"hira": "ま", "kata": "マ", "rm": "ma", "set": "seion"},
+  {"hira": "み", "kata": "ミ", "rm": "mi", "set": "seion"},
+  {"hira": "む", "kata": "ム", "rm": "mu", "set": "seion"},
+  {"hira": "め", "kata": "メ", "rm": "me", "set": "seion"},
+  {"hira": "も", "kata": "モ", "rm": "mo", "set": "seion"},
+
+  {"hira": "や", "kata": "ヤ", "rm": "ya", "set": "seion"},
+  {"hira": "ゆ", "kata": "ユ", "rm": "yu", "set": "seion"},
+  {"hira": "よ", "kata": "ヨ", "rm": "yo", "set": "seion"},
+
+  {"hira": "ら", "kata": "ラ", "rm": "ra", "set": "seion"},
+  {"hira": "り", "kata": "リ", "rm": "ri", "set": "seion"},
+  {"hira": "る", "kata": "ル", "rm": "ru", "set": "seion"},
+  {"hira": "れ", "kata": "レ", "rm": "re", "set": "seion"},
+  {"hira": "ろ", "kata": "ロ", "rm": "ro", "set": "seion"},
+
+  {"hira": "わ", "kata": "ワ", "rm": "wa", "set": "seion"},
+  {"hira": "を", "kata": "ヲ", "rm": "wo", "set": "seion"},
+  {"hira": "ん", "kata": "ン", "rm": "n", "set": "seion"},
+
+  {"hira": "が", "kata": "ガ", "rm": "ga", "set": "dakuon"},
+  {"hira": "ぎ", "kata": "ギ", "rm": "gi", "set": "dakuon"},
+  {"hira": "ぐ", "kata": "グ", "rm": "gu", "set": "dakuon"},
+  {"hira": "げ", "kata": "ゲ", "rm": "ge", "set": "dakuon"},
+  {"hira": "ご", "kata": "ゴ", "rm": "go", "set": "dakuon"},
+
+  {"hira": "ざ", "kata": "ザ", "rm": "za", "set": "dakuon"},
+  {"hira": "じ", "kata": "ジ", "rm": "ji", "set": "dakuon"},
+  {"hira": "ず", "kata": "ズ", "rm": "zu", "set": "dakuon"},
+  {"hira": "ぜ", "kata": "ゼ", "rm": "ze", "set": "dakuon"},
+  {"hira": "ぞ", "kata": "ゾ", "rm": "zo", "set": "dakuon"},
+
+  {"hira": "だ", "kata": "ダ", "rm": "da", "set": "dakuon"},
+  {"hira": "ぢ", "kata": "ヂ", "rm": "di", "set": "dakuon"},
+  {"hira": "づ", "kata": "ヅ", "rm": "du", "set": "dakuon"},
+  {"hira": "で", "kata": "デ", "rm": "de", "set": "dakuon"},
+  {"hira": "ど", "kata": "ド", "rm": "do", "set": "dakuon"},
+
+  {"hira": "ば", "kata": "バ", "rm": "ba", "set": "dakuon"},
+  {"hira": "び", "kata": "ビ", "rm": "bi", "set": "dakuon"},
+  {"hira": "ぶ", "kata": "ブ", "rm": "bu", "set": "dakuon"},
+  {"hira": "べ", "kata": "ベ", "rm": "be", "set": "dakuon"},
+  {"hira": "ぼ", "kata": "ボ", "rm": "bo", "set": "dakuon"},
+
+  {"hira": "ぱ", "kata": "パ", "rm": "pa", "set": "handakuon"},
+  {"hira": "ぴ", "kata": "ピ", "rm": "pi", "set": "handakuon"},
+  {"hira": "ぷ", "kata": "プ", "rm": "pu", "set": "handakuon"},
+  {"hira": "ぺ", "kata": "ペ", "rm": "pe", "set": "handakuon"},
+  {"hira": "ぽ", "kata": "ポ", "rm": "po", "set": "handakuon"},
+
+  {"hira": "きゃ", "kata": "キャ", "rm": "kya", "set": "yoon"},
+  {"hira": "きゅ", "kata": "キュ", "rm": "kyu", "set": "yoon"},
+  {"hira": "きょ", "kata": "キョ", "rm": "kyo", "set": "yoon"},
+
+  {"hira": "しゃ", "kata": "シャ", "rm": "sha", "set": "yoon"},
+  {"hira": "しゅ", "kata": "シュ", "rm": "shu", "set": "yoon"},
+  {"hira": "しょ", "kata": "ショ", "rm": "sho", "set": "yoon"},
+
+  {"hira": "ちゃ", "kata": "チャ", "rm": "cha", "set": "yoon"},
+  {"hira": "ちゅ", "kata": "チュ", "rm": "chu", "set": "yoon"},
+  {"hira": "ちょ", "kata": "チョ", "rm": "cho", "set": "yoon"},
+
+  {"hira": "にゃ", "kata": "ニャ", "rm": "nya", "set": "yoon"},
+  {"hira": "にゅ", "kata": "ニュ", "rm": "nyu", "set": "yoon"},
+  {"hira": "にょ", "kata": "ニョ", "rm": "nyo", "set": "yoon"},
+
+  {"hira": "ひゃ", "kata": "ヒャ", "rm": "hya", "set": "yoon"},
+  {"hira": "ひゅ", "kata": "ヒュ", "rm": "hyu", "set": "yoon"},
+  {"hira": "ひょ", "kata": "ヒョ", "rm": "hyo", "set": "yoon"},
+
+  {"hira": "みゃ", "kata": "ミャ", "rm": "mya", "set": "yoon"},
+  {"hira": "みゅ", "kata": "ミュ", "rm": "myu", "set": "yoon"},
+  {"hira": "みょ", "kata": "ミョ", "rm": "myo", "set": "yoon"},
+
+  {"hira": "りゃ", "kata": "リャ", "rm": "rya", "set": "yoon"},
+  {"hira": "りゅ", "kata": "リュ", "rm": "ryu", "set": "yoon"},
+  {"hira": "りょ", "kata": "リョ", "rm": "ryo", "set": "yoon"},
+
+  {"hira": "ぎゃ", "kata": "ギャ", "rm": "gya", "set": "yoon"},
+  {"hira": "ぎゅ", "kata": "ギュ", "rm": "gyu", "set": "yoon"},
+  {"hira": "ぎょ", "kata": "ギョ", "rm": "gyo", "set": "yoon"},
+
+  {"hira": "じゃ", "kata": "ジャ", "rm": "ja", "set": "yoon"},
+  {"hira": "じゅ", "kata": "ジュ", "rm": "ju", "set": "yoon"},
+  {"hira": "じょ", "kata": "ジョ", "rm": "jo", "set": "yoon"},
+
+  {"hira": "びゃ", "kata": "ビャ", "rm": "bya", "set": "yoon"},
+  {"hira": "びゅ", "kata": "ビュ", "rm": "byu", "set": "yoon"},
+  {"hira": "びょ", "kata": "ビョ", "rm": "byo", "set": "yoon"},
+
+  {"hira": "ぴゃ", "kata": "ピャ", "rm": "pya", "set": "yoon"},
+  {"hira": "ぴゅ", "kata": "ピュ", "rm": "pyu", "set": "yoon"},
+  {"hira": "ぴょ", "kata": "ピョ", "rm": "pyo", "set": "yoon"}
+]
