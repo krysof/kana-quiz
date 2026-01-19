@@ -154,7 +154,8 @@ export function newQuestion(db, settings, stats){
 }
 
 export function startSession(stats, size){
-  stats.session = { active:true, size, done:0, ok:0, ng:0 };
+  const round = (stats.daily.rounds || 0) + 1;
+  stats.session = { active:true, size, done:0, ok:0, ng:0, round };
 }
 
 export function recordResult(stats, q, ok){
@@ -175,6 +176,7 @@ export function recordResult(stats, q, ok){
 
   if (stats.session.active && stats.session.done >= stats.session.size){
     stats.session.active = false;
+    stats.daily.rounds = stats.session.round; // 完成时更新轮次
     return { finished:true };
   }
   return { finished:false };

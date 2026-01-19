@@ -58,6 +58,9 @@
 
             <div class="label" style="margin-top:12px">本次题数</div>
             <input type="number" id="sessionSize" value="20" min="5" max="200" />
+
+            <div class="label" style="margin-top:12px">其他选项</div>
+            <label class="chk"><input type="checkbox" id="hideMeaning"> 隐藏中文释义</label>
           </div>
         </div>
       </section>
@@ -68,6 +71,7 @@
         <span class="pill">今日：<b id="d_total_start">0</b> 题</span>
         <span class="pill ok">正确：<b id="d_ok_start">0</b></span>
         <span class="pill ng">错误：<b id="d_ng_start">0</b></span>
+        <span class="pill">完成：<b id="d_rounds_start">0</b> 轮</span>
       </div>
 
       <div class="start-footer">
@@ -87,6 +91,7 @@
           <span class="progress-text"><b id="s_done">0</b> / <b id="s_size">20</b></span>
         </div>
         <div class="quiz-stats">
+          <span class="stat round" id="s_round">第1轮</span>
           <span class="stat time" id="timer">0:00</span>
           <span class="stat acc" id="s_acc_display">0%</span>
           <span class="stat ok" id="s_ok">0</span>

@@ -6,7 +6,8 @@ export const DEFAULT_SETTINGS = {
   modes: ["rm_mc","jp_mc"],
   kanaMode: "hira",
   sessionSize: 20,
-  kanaSets: ["seion"] // ✅ 默认只清音
+  kanaSets: ["seion"], // ✅ 默认只清音
+  hideMeaning: false // 是否隐藏中文释义
 };
 
 export function loadSettings(){
@@ -22,6 +23,7 @@ export function loadSettings(){
       kanaSets: Array.isArray(s.kanaSets) ? s.kanaSets : DEFAULT_SETTINGS.kanaSets,
       kanaMode: (s.kanaMode === "kata") ? "kata" : "hira",
       sessionSize: Number.isFinite(+s.sessionSize) ? +s.sessionSize : DEFAULT_SETTINGS.sessionSize,
+      hideMeaning: s.hideMeaning === true,
     };
   }catch{
     return structuredClone(DEFAULT_SETTINGS);
@@ -49,8 +51,8 @@ export function loadStats(){
   const raw = localStorage.getItem(STATS_KEY);
   const fresh = {
     day: todayKey(),
-    daily: { total:0, ok:0, ng:0, streak:0 },
-    session: { active:false, size:20, done:0, ok:0, ng:0 },
+    daily: { total:0, ok:0, ng:0, streak:0, rounds:0 },
+    session: { active:false, size:20, done:0, ok:0, ng:0, round:0 },
     wrong: {} // id -> count
   };
   if (!raw) return fresh;
@@ -58,10 +60,12 @@ export function loadStats(){
     const st = JSON.parse(raw);
     if (st.day !== todayKey()){
       st.day = todayKey();
-      st.daily = { total:0, ok:0, ng:0, streak:0 };
+      st.daily = { total:0, ok:0, ng:0, streak:0, rounds:0 };
     }
     st.daily ||= fresh.daily;
+    st.daily.rounds ??= 0;
     st.session ||= fresh.session;
+    st.session.round ??= 0;
     st.wrong ||= {};
     return st;
   }catch{
@@ -75,7 +79,7 @@ export function saveStats(stats){
 
 export function resetDaily(stats){
   stats.day = todayKey();
-  stats.daily = { total:0, ok:0, ng:0, streak:0 };
+  stats.daily = { total:0, ok:0, ng:0, streak:0, rounds:0 };
   saveStats(stats);
 }
 

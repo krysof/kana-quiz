@@ -226,6 +226,11 @@ body {
   color: #1d4ed8;
 }
 
+.stat.round {
+  background: #f3e8ff;
+  color: #7c3aed;
+}
+
 .btn-back {
   padding: 8px 12px;
   font-size: 0.875rem;

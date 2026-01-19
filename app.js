@@ -32,6 +32,7 @@ const ui = {
   kanaSetChecks: $("kanaSetChecks"),
   kanaMode: $("kanaMode"),
   sessionSize: $("sessionSize"),
+  hideMeaning: $("hideMeaning"),
 
   // Buttons
   btnNew: $("btnNew"),
@@ -58,6 +59,10 @@ const ui = {
   d_total_start: $("d_total_start"),
   d_ok_start: $("d_ok_start"),
   d_ng_start: $("d_ng_start"),
+  d_rounds_start: $("d_rounds_start"),
+
+  // Stats - Quiz screen round
+  s_round: $("s_round"),
 
   // Hidden stats (for compatibility)
   d_total: $("d_total"),
@@ -124,6 +129,7 @@ function applySettingsToUI() {
   setChecked(ui.kanaSetChecks, settings.kanaSets);
   ui.kanaMode.value = settings.kanaMode || "hira";
   ui.sessionSize.value = settings.sessionSize ?? 20;
+  ui.hideMeaning.checked = settings.hideMeaning || false;
 }
 
 function readSettingsFromUIAndSave() {
@@ -137,6 +143,7 @@ function readSettingsFromUIAndSave() {
   settings.kanaMode = ui.kanaMode.value;
   settings.sessionSize = clampInt(ui.sessionSize.value, 5, 200, 20);
   ui.sessionSize.value = settings.sessionSize;
+  settings.hideMeaning = ui.hideMeaning.checked;
 
   saveSettings(settings);
 }
@@ -150,6 +157,10 @@ function updateDashboard() {
   if (ui.d_total_start) ui.d_total_start.textContent = stats.daily.total;
   if (ui.d_ok_start) ui.d_ok_start.textContent = stats.daily.ok;
   if (ui.d_ng_start) ui.d_ng_start.textContent = stats.daily.ng;
+  if (ui.d_rounds_start) ui.d_rounds_start.textContent = stats.daily.rounds || 0;
+
+  // Quiz screen round
+  if (ui.s_round) ui.s_round.textContent = `第${stats.session.round || 1}轮`;
 
   // Quiz screen stats
   ui.s_done.textContent = stats.session.done;
@@ -201,7 +212,25 @@ function renderQuestion() {
   const it = current.correct;
   const kana = getKana(it);
 
-  ui.meaning.textContent = (it.type === "word" && it.meaning) ? `释义：${it.meaning}` : "";
+  // 处理释义显示
+  if (it.type === "word" && it.meaning) {
+    if (settings.hideMeaning) {
+      ui.meaning.textContent = "释义：***";
+      ui.meaning.style.cursor = "pointer";
+      ui.meaning.onclick = () => {
+        ui.meaning.textContent = `释义：${it.meaning}`;
+        ui.meaning.style.cursor = "default";
+        ui.meaning.onclick = null;
+      };
+    } else {
+      ui.meaning.textContent = `释义：${it.meaning}`;
+      ui.meaning.style.cursor = "default";
+      ui.meaning.onclick = null;
+    }
+  } else {
+    ui.meaning.textContent = "";
+    ui.meaning.onclick = null;
+  }
   ui.result.textContent = "";
 
   if (current.mode === "rm_mc" || current.mode === "rm_in") {
@@ -234,6 +263,12 @@ function nextQuestion() {
   // 必须先答题才能下一题（除非是第一题）
   if (current && !answered) {
     ui.result.textContent = "请先答题！";
+    return;
+  }
+
+  // 如果 session 已完成，返回开始界面
+  if (!stats.session.active && stats.session.done >= stats.session.size && stats.session.done > 0) {
+    backToStart();
     return;
   }
 
@@ -275,6 +310,7 @@ function answerChoice(idx) {
     stopTimer();
     const elapsed = Math.floor((Date.now() - sessionStartTime) / 1000);
     ui.result.innerHTML += ` <b>（完成！用时 ${formatTime(elapsed)}，正确率 ${pct(stats.session.ok, stats.session.done)}）</b>`;
+    ui.btnNew.textContent = "结束";
   }
 }
 
@@ -313,6 +349,7 @@ function checkInput() {
     stopTimer();
     const elapsed = Math.floor((Date.now() - sessionStartTime) / 1000);
     ui.result.innerHTML += ` <b>（完成！用时 ${formatTime(elapsed)}，正确率 ${pct(stats.session.ok, stats.session.done)}）</b>`;
+    ui.btnNew.textContent = "结束";
   }
 }
 
@@ -332,6 +369,7 @@ function startOrRestartSession() {
   updateDashboard();
   showScreen(ui.quizScreen);
   startTimer();
+  ui.btnNew.textContent = "下一题"; // 重置按钮文字
   answered = true; // 允许第一题直接开始
   nextQuestion();
 }
@@ -356,6 +394,7 @@ function wire() {
   ui.kanaMode.addEventListener("change", () => { readSettingsFromUIAndSave(); if (current) renderQuestion(); });
   ui.sessionSize.addEventListener("change", readSettingsFromUIAndSave);
   ui.sessionSize.addEventListener("blur", readSettingsFromUIAndSave);
+  ui.hideMeaning.addEventListener("change", readSettingsFromUIAndSave);
 
   // Quiz actions
   ui.btnNew.onclick = nextQuestion;
