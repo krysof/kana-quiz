@@ -645,6 +645,12 @@ input[type="number"] {
   margin-bottom: 12px;
 }
 
+.group-card.group-disabled {
+  opacity: 0.4;
+  pointer-events: none;
+  user-select: none;
+}
+
 .group-body {
   display: flex;
   flex-direction: column;

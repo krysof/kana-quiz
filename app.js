@@ -144,9 +144,13 @@ function applySettingsToUI() {
 
 function updateGroupVisibility() {
   const content = getChecked(ui.contentChecks);
-  ui.groupKana.classList.toggle("hide", !content.includes("kana"));
-  ui.groupWord.classList.toggle("hide", !content.includes("word"));
-  ui.groupKanji.classList.toggle("hide", !content.includes("kanji"));
+  const toggle = (group, enabled) => {
+    group.classList.toggle("group-disabled", !enabled);
+    group.querySelectorAll("input, select").forEach(el => el.disabled = !enabled);
+  };
+  toggle(ui.groupKana, content.includes("kana"));
+  toggle(ui.groupWord, content.includes("word"));
+  toggle(ui.groupKanji, content.includes("kanji"));
 }
 
 function readSettingsFromUIAndSave() {
