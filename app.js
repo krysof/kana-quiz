@@ -1,17 +1,17 @@
 import {
   loadSettings, saveSettings, resetSettings,
   loadStats, saveStats, resetDaily, resetAllStats
-} from "./core/storage.js?v=1.5";
+} from "./core/storage.js?v=1.6";
 
-import { speakJP, warmupTTS } from "./core/tts.js?v=1.5";
-import { playCorrect, playWrong, unlockAudio } from "./core/audio.js?v=1.5";
+import { speakJP, warmupTTS } from "./core/tts.js?v=1.6";
+import { playCorrect, playWrong, unlockAudio } from "./core/audio.js?v=1.6";
 
 import {
   newQuestion, recordResult, startSession,
   normalizeRomaji, pct
-} from "./core/quiz.js?v=1.5";
+} from "./core/quiz.js?v=1.6";
 
-import { t, getLang, setLang, applyI18nDOM } from "./core/i18n.js?v=1.5";
+import { t, getLang, setLang, applyI18nDOM } from "./core/i18n.js?v=1.6";
 
 const $ = (id) => document.getElementById(id);
 
@@ -137,6 +137,7 @@ function getMeaning(item) {
   const lang = getLang();
   if (lang === "zh-CN") return item.meaning;
   const map = db.meanings[lang];
+  console.log("[getMeaning]", "lang=", lang, "rm=", item.rm, "map?", !!map, "val=", map?.[item.rm]);
   if (map && map[item.rm]) return map[item.rm];
   return item.meaning; // fallback to zh-CN
 }
@@ -592,9 +593,9 @@ async function init() {
 
     // Load translation meaning files
     const [zhTW, ja, en] = await Promise.all([
-      loadJSON("./data/meanings_zh_TW.json?v=1.5").catch(() => ({})),
-      loadJSON("./data/meanings_ja.json?v=1.5").catch(() => ({})),
-      loadJSON("./data/meanings_en.json?v=1.5").catch(() => ({})),
+      loadJSON("./data/meanings_zh_TW.json?v=1.6").catch(() => ({})),
+      loadJSON("./data/meanings_ja.json?v=1.6").catch(() => ({})),
+      loadJSON("./data/meanings_en.json?v=1.6").catch(() => ({})),
     ]);
     db.meanings = { "zh-TW": zhTW, ja, en };
   } catch (e) {
