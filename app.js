@@ -1,15 +1,17 @@
 import {
   loadSettings, saveSettings, resetSettings,
   loadStats, saveStats, resetDaily, resetAllStats
-} from "./core/storage.js?v=1.4";
+} from "./core/storage.js?v=1.5";
 
-import { speakJP, warmupTTS } from "./core/tts.js?v=1.4";
-import { playCorrect, playWrong, unlockAudio } from "./core/audio.js?v=1.4";
+import { speakJP, warmupTTS } from "./core/tts.js?v=1.5";
+import { playCorrect, playWrong, unlockAudio } from "./core/audio.js?v=1.5";
 
 import {
   newQuestion, recordResult, startSession,
   normalizeRomaji, pct
-} from "./core/quiz.js?v=1.4";
+} from "./core/quiz.js?v=1.5";
+
+import { t, getLang, setLang, applyI18nDOM } from "./core/i18n.js?v=1.5";
 
 const $ = (id) => document.getElementById(id);
 
@@ -81,9 +83,9 @@ const ui = {
 
 let settings = loadSettings();
 let stats = loadStats();
-let db = { kana: [], words: [], kanji: [] };
+let db = { kana: [], words: [], kanji: [], meanings: {} };
 let current = null;
-let answered = false; // 是否已答题
+let answered = false;
 
 // Timer
 let timerInterval = null;
@@ -129,9 +131,18 @@ function clampInt(v, min, max, fallback) {
   return Math.max(min, Math.min(max, n));
 }
 
+// Get meaning for an item based on current language
+function getMeaning(item) {
+  if (!item.meaning) return "";
+  const lang = getLang();
+  if (lang === "zh-CN") return item.meaning;
+  const map = db.meanings[lang];
+  if (map && map[item.rm]) return map[item.rm];
+  return item.meaning; // fallback to zh-CN
+}
+
 function applySettingsToUI() {
   setChecked(ui.contentChecks, settings.content);
-  // 分组题型：从 settings.modes 分发到各组
   setChecked(ui.modeChecksKana, settings.modes);
   setChecked(ui.modeChecksWord, settings.modes);
   setChecked(ui.modeChecksKanji, settings.modes);
@@ -151,13 +162,26 @@ function updateGroupVisibility() {
   toggle(ui.groupKana, content.includes("kana"));
   toggle(ui.groupWord, content.includes("word"));
   toggle(ui.groupKanji, content.includes("kanji"));
+
+  // Auto-select default modes when content group enabled but no modes selected
+  if (content.includes("word")) {
+    const wordModes = getChecked(ui.modeChecksWord);
+    if (wordModes.length === 0) {
+      setChecked(ui.modeChecksWord, ["rm_mc", "jp_mc"]);
+    }
+  }
+  if (content.includes("kanji")) {
+    const kanjiModes = getChecked(ui.modeChecksKanji);
+    if (kanjiModes.length === 0) {
+      setChecked(ui.modeChecksKanji, ["kanji_read", "read_kanji"]);
+    }
+  }
 }
 
 function readSettingsFromUIAndSave() {
   settings.content = getChecked(ui.contentChecks);
   updateGroupVisibility();
 
-  // 合并三组题型
   const modesKana = getChecked(ui.modeChecksKana);
   const modesWord = getChecked(ui.modeChecksWord);
   const modesKanji = getChecked(ui.modeChecksKanji);
@@ -180,30 +204,24 @@ function getKana(item) {
 }
 
 function updateDashboard() {
-  // Start screen stats
   if (ui.d_total_start) ui.d_total_start.textContent = stats.daily.total;
   if (ui.d_ok_start) ui.d_ok_start.textContent = stats.daily.ok;
   if (ui.d_ng_start) ui.d_ng_start.textContent = stats.daily.ng;
   if (ui.d_rounds_start) ui.d_rounds_start.textContent = stats.daily.rounds || 0;
 
-  // Quiz screen round
-  if (ui.s_round) ui.s_round.textContent = `第${stats.session.round || 1}轮`;
+  if (ui.s_round) ui.s_round.textContent = `${t("round_prefix")}${stats.session.round || 1}${t("round_suffix")}`;
 
-  // Quiz screen stats
   ui.s_done.textContent = stats.session.done;
   ui.s_size.textContent = stats.session.size;
   ui.s_ok.textContent = stats.session.ok;
   ui.s_ng.textContent = stats.session.ng;
   ui.streak.textContent = stats.daily.streak;
 
-  // Accuracy
   ui.s_acc_display.textContent = pct(stats.session.ok, stats.session.done);
 
-  // Progress bar
   const progress = stats.session.size > 0 ? (stats.session.done / stats.session.size) * 100 : 0;
   ui.progressFill.style.width = `${progress}%`;
 
-  // Hidden stats for compatibility
   if (ui.d_total) ui.d_total.textContent = stats.daily.total;
   if (ui.d_ok) ui.d_ok.textContent = stats.daily.ok;
   if (ui.d_ng) ui.d_ng.textContent = stats.daily.ng;
@@ -226,43 +244,40 @@ function setUIForMode(mode) {
   if (isInput) {
     ui.inp.value = "";
     ui.inp.placeholder = (mode === "rm_in")
-      ? "输入假名"
-      : "输入罗马音";
+      ? t("input_kana")
+      : t("input_romaji");
     setTimeout(() => ui.inp.focus?.(), 0);
   }
 }
 
 function renderQuestion() {
   if (!current) {
-    ui.q.textContent = "准备开始...";
+    ui.q.textContent = t("ready");
     return;
   }
   const it = current.correct;
   const kana = getKana(it);
+  const meaning = getMeaning(it);
 
-  // 处理释义显示（直接从UI读取最新状态）
   const shouldHide = ui.hideMeaning.checked;
-  // rm_mean / kanji_mean 模式下不显示释义（那是答案）
   if (current.mode === "rm_mean" || current.mode === "kanji_mean") {
     ui.meaning.textContent = "";
     ui.meaning.onclick = null;
   } else if (current.mode === "mean_rm") {
-    // mean_rm 模式下释义就是题目，不额外显示
     ui.meaning.textContent = "";
     ui.meaning.onclick = null;
   } else if (current.mode === "kanji_read" || current.mode === "read_kanji") {
-    // 汉字模式显示释义
-    if (it.meaning) {
+    if (meaning) {
       if (shouldHide) {
-        ui.meaning.textContent = "释义：***";
+        ui.meaning.textContent = t("meaning_hidden");
         ui.meaning.style.cursor = "pointer";
         ui.meaning.onclick = () => {
-          ui.meaning.textContent = `释义：${it.meaning}`;
+          ui.meaning.textContent = `${t("meaning_label")}${meaning}`;
           ui.meaning.style.cursor = "default";
           ui.meaning.onclick = null;
         };
       } else {
-        ui.meaning.textContent = `释义：${it.meaning}`;
+        ui.meaning.textContent = `${t("meaning_label")}${meaning}`;
         ui.meaning.style.cursor = "default";
         ui.meaning.onclick = null;
       }
@@ -270,17 +285,17 @@ function renderQuestion() {
       ui.meaning.textContent = "";
       ui.meaning.onclick = null;
     }
-  } else if (it.type === "word" && it.meaning) {
+  } else if (it.type === "word" && meaning) {
     if (shouldHide) {
-      ui.meaning.textContent = "释义：***";
+      ui.meaning.textContent = t("meaning_hidden");
       ui.meaning.style.cursor = "pointer";
       ui.meaning.onclick = () => {
-        ui.meaning.textContent = `释义：${it.meaning}`;
+        ui.meaning.textContent = `${t("meaning_label")}${meaning}`;
         ui.meaning.style.cursor = "default";
         ui.meaning.onclick = null;
       };
     } else {
-      ui.meaning.textContent = `释义：${it.meaning}`;
+      ui.meaning.textContent = `${t("meaning_label")}${meaning}`;
       ui.meaning.style.cursor = "default";
       ui.meaning.onclick = null;
     }
@@ -291,19 +306,19 @@ function renderQuestion() {
   ui.result.textContent = "";
 
   if (current.mode === "rm_mean") {
-    ui.q.innerHTML = `<span class="big">${kana}</span> 是什么意思？`;
+    ui.q.innerHTML = `<span class="big">${kana}</span>${t("q_what_meaning")}`;
   } else if (current.mode === "mean_rm") {
-    ui.q.innerHTML = `「${it.meaning}」怎么读？`;
+    ui.q.innerHTML = `${t("q_how_read_meaning_pre")}${meaning}${t("q_how_read_meaning")}`;
   } else if (current.mode === "kanji_read") {
-    ui.q.innerHTML = `<span class="big">${it.kanji}</span> 怎么读？`;
+    ui.q.innerHTML = `<span class="big">${it.kanji}</span>${t("q_how_read")}`;
   } else if (current.mode === "read_kanji") {
-    ui.q.innerHTML = `<span class="big">${kana}</span> 的汉字是？`;
+    ui.q.innerHTML = `<span class="big">${kana}</span>${t("q_kanji_of")}`;
   } else if (current.mode === "kanji_mean") {
-    ui.q.innerHTML = `<span class="big">${it.kanji}</span> 是什么意思？`;
+    ui.q.innerHTML = `<span class="big">${it.kanji}</span>${t("q_what_meaning")}`;
   } else if (current.mode === "rm_mc" || current.mode === "rm_in") {
-    ui.q.innerHTML = `<b>${it.rm}</b> 的${it.type === "word" ? "写法" : "假名"}是？`;
+    ui.q.innerHTML = `<b>${it.rm}</b>${it.type === "word" ? t("q_writing_of") : t("q_kana_of")}`;
   } else {
-    ui.q.innerHTML = `<span class="big">${kana}</span> 怎么读？`;
+    ui.q.innerHTML = `<span class="big">${kana}</span>${t("q_how_read")}`;
   }
 
   if (current.mode === "rm_mean") {
@@ -311,7 +326,7 @@ function renderQuestion() {
     current.choices.forEach((c, idx) => {
       const div = document.createElement("div");
       div.className = "opt";
-      div.innerHTML = `<div class="meaning-opt">${c.meaning}</div>`;
+      div.innerHTML = `<div class="meaning-opt">${getMeaning(c)}</div>`;
       div.onclick = () => answerChoice(idx);
       ui.opts.appendChild(div);
     });
@@ -347,7 +362,7 @@ function renderQuestion() {
     current.choices.forEach((c, idx) => {
       const div = document.createElement("div");
       div.className = "opt";
-      div.innerHTML = `<div class="meaning-opt">${c.meaning}</div>`;
+      div.innerHTML = `<div class="meaning-opt">${getMeaning(c)}</div>`;
       div.onclick = () => answerChoice(idx);
       ui.opts.appendChild(div);
     });
@@ -372,13 +387,11 @@ function renderQuestion() {
 }
 
 function nextQuestion() {
-  // 必须先答题才能下一题（除非是第一题）
   if (current && !answered) {
-    ui.result.textContent = "请先答题！";
+    ui.result.textContent = t("please_answer");
     return;
   }
 
-  // 如果 session 已完成，返回开始界面
   if (!stats.session.active && stats.session.done >= stats.session.size && stats.session.done > 0) {
     backToStart();
     return;
@@ -391,38 +404,37 @@ function nextQuestion() {
   }
 
   current = newQuestion(db, settings, stats);
-  answered = false; // 重置答题状态
+  answered = false;
   renderQuestion();
   saveStats(stats);
   updateDashboard();
 }
 
 function answerChoice(idx) {
-  if (answered) return; // 已答过，忽略
+  if (answered) return;
   answered = true;
 
   const ok = idx === current.correctIndex;
   const kana = getKana(current.correct);
-  const meaning = current.correct.meaning || "";
+  const meaning = getMeaning(current.correct);
 
   if (ok) playCorrect();
   else playWrong();
 
-  // 音效后播放读音
   setTimeout(() => speakJP(kana), 300);
 
   if (current.mode === "rm_mean" || current.mode === "mean_rm") {
     ui.result.innerHTML = ok
-      ? `✅ 正确：<b>${kana}</b> = <b>${meaning}</b>`
-      : `❌ 错了。正确：<b>${kana}</b> = <b>${meaning}</b>`;
+      ? `✅ ${t("result_correct")}<b>${kana}</b> = <b>${meaning}</b>`
+      : `❌ ${t("result_wrong")}<b>${kana}</b> = <b>${meaning}</b>`;
   } else if (current.mode === "kanji_read" || current.mode === "read_kanji" || current.mode === "kanji_mean") {
     ui.result.innerHTML = ok
-      ? `✅ 正确：<b>${current.correct.kanji}</b>（${kana}）= <b>${meaning}</b>`
-      : `❌ 错了。正确：<b>${current.correct.kanji}</b>（${kana}）= <b>${meaning}</b>`;
+      ? `✅ ${t("result_correct")}<b>${current.correct.kanji}</b>（${kana}）= <b>${meaning}</b>`
+      : `❌ ${t("result_wrong")}<b>${current.correct.kanji}</b>（${kana}）= <b>${meaning}</b>`;
   } else {
     ui.result.innerHTML = ok
-      ? `✅ 正确：<b>${current.correct.rm}</b> = <b>${kana}</b>`
-      : `❌ 错了。正确：<b>${current.correct.rm}</b> = <b>${kana}</b>`;
+      ? `✅ ${t("result_correct")}<b>${current.correct.rm}</b> = <b>${kana}</b>`
+      : `❌ ${t("result_wrong")}<b>${current.correct.rm}</b> = <b>${kana}</b>`;
   }
 
   const r = recordResult(stats, current, ok);
@@ -432,17 +444,17 @@ function answerChoice(idx) {
   if (r.finished) {
     stopTimer();
     const elapsed = Math.floor((Date.now() - sessionStartTime) / 1000);
-    ui.result.innerHTML += ` <b>（完成！用时 ${formatTime(elapsed)}，正确率 ${pct(stats.session.ok, stats.session.done)}）</b>`;
-    ui.btnNew.textContent = "结束";
+    ui.result.innerHTML += ` <b>（${t("finish_done")}${formatTime(elapsed)}${t("finish_acc")}${pct(stats.session.ok, stats.session.done)}）</b>`;
+    ui.btnNew.textContent = t("btn_finish");
   }
 }
 
 function checkInput() {
   if (!current) return;
-  if (answered) return; // 已答过，忽略
+  if (answered) return;
 
   const ans = ui.inp.value.trim();
-  if (!ans) { ui.result.textContent = "请输入答案"; return; }
+  if (!ans) { ui.result.textContent = t("please_input"); return; }
 
   answered = true;
   const kana = getKana(current.correct);
@@ -457,12 +469,11 @@ function checkInput() {
   if (ok) playCorrect();
   else playWrong();
 
-  // 音效后播放读音
   setTimeout(() => speakJP(kana), 300);
 
   ui.result.innerHTML = ok
-    ? `✅ 正确：<b>${current.correct.rm}</b> = <b>${kana}</b>`
-    : `❌ 不对。正确：<b>${current.correct.rm}</b> = <b>${kana}</b>`;
+    ? `✅ ${t("result_correct")}<b>${current.correct.rm}</b> = <b>${kana}</b>`
+    : `❌ ${t("result_wrong2")}<b>${current.correct.rm}</b> = <b>${kana}</b>`;
 
   const r = recordResult(stats, current, ok);
   saveStats(stats);
@@ -471,30 +482,31 @@ function checkInput() {
   if (r.finished) {
     stopTimer();
     const elapsed = Math.floor((Date.now() - sessionStartTime) / 1000);
-    ui.result.innerHTML += ` <b>（完成！用时 ${formatTime(elapsed)}，正确率 ${pct(stats.session.ok, stats.session.done)}）</b>`;
-    ui.btnNew.textContent = "结束";
+    ui.result.innerHTML += ` <b>（${t("finish_done")}${formatTime(elapsed)}${t("finish_acc")}${pct(stats.session.ok, stats.session.done)}）</b>`;
+    ui.btnNew.textContent = t("btn_finish");
   }
 }
 
 function showAnswer() {
   if (!current) return;
-  answered = true; // 看答案也算答过
+  answered = true;
   const kana = getKana(current.correct);
-  ui.result.innerHTML = `答案：<b>${current.correct.rm}</b> = <b>${kana}</b>${current.correct.meaning ? `（${current.correct.meaning}）` : ""}`;
+  const meaning = getMeaning(current.correct);
+  ui.result.innerHTML = `${t("result_answer")}<b>${current.correct.rm}</b> = <b>${kana}</b>${meaning ? `（${meaning}）` : ""}`;
   speakJP(kana);
 }
 
 function startOrRestartSession() {
-  unlockAudio(); // 解锁音频（需要用户交互）
-  warmupTTS(); // 预热TTS
+  unlockAudio();
+  warmupTTS();
   readSettingsFromUIAndSave();
   startSession(stats, settings.sessionSize);
   saveStats(stats);
   updateDashboard();
   showScreen(ui.quizScreen);
   startTimer();
-  ui.btnNew.textContent = "下一题"; // 重置按钮文字
-  answered = true; // 允许第一题直接开始
+  ui.btnNew.textContent = t("btn_next");
+  answered = true;
   nextQuestion();
 }
 
@@ -510,8 +522,14 @@ async function loadJSON(path) {
   return await res.json();
 }
 
+function switchLang(lang) {
+  setLang(lang);
+  applyI18nDOM();
+  updateDashboard();
+  if (current) renderQuestion();
+}
+
 function wire() {
-  // Settings change
   ui.contentChecks.addEventListener("change", readSettingsFromUIAndSave);
   ui.modeChecksKana.addEventListener("change", readSettingsFromUIAndSave);
   ui.modeChecksWord.addEventListener("change", readSettingsFromUIAndSave);
@@ -522,7 +540,6 @@ function wire() {
   ui.sessionSize.addEventListener("blur", readSettingsFromUIAndSave);
   ui.hideMeaning.addEventListener("change", readSettingsFromUIAndSave);
 
-  // Quiz actions
   ui.btnNew.onclick = nextQuestion;
   ui.btnSpeak.onclick = () => current && speakJP(getKana(current.correct));
   ui.btnStartSession.onclick = startOrRestartSession;
@@ -534,31 +551,36 @@ function wire() {
   ui.inp.addEventListener("keydown", (e) => { if (e.key === "Enter") checkInput(); });
   ui.q.addEventListener("click", () => current && speakJP(getKana(current.correct)));
 
-  // Reset buttons
   ui.btnResetSettings.onclick = () => {
     settings = resetSettings();
     applySettingsToUI();
-    alert("已复位设置");
+    alert(t("alert_reset_settings"));
   };
 
   ui.btnResetDay.onclick = () => {
     resetDaily(stats);
     stats = loadStats();
     updateDashboard();
-    alert("已重置今日统计");
+    alert(t("alert_reset_today"));
   };
 
   ui.btnResetAllStats.onclick = () => {
-    if (confirm("确定清空全部统计和错题记录？")) {
+    if (confirm(t("confirm_clear_all"))) {
       resetAllStats();
       stats = loadStats();
       updateDashboard();
-      alert("已清空全部数据");
+      alert(t("alert_clear_all"));
     }
   };
+
+  // Language switcher
+  document.querySelectorAll(".lang-btn").forEach(btn => {
+    btn.addEventListener("click", () => switchLang(btn.dataset.lang));
+  });
 }
 
 async function init() {
+  applyI18nDOM();
   applySettingsToUI();
   updateDashboard();
   wire();
@@ -567,9 +589,17 @@ async function init() {
     db.kana = await loadJSON("./data/kana.json");
     db.words = await loadJSON("./data/words.json");
     db.kanji = await loadJSON("./data/kanji_words.json");
+
+    // Load translation meaning files
+    const [zhTW, ja, en] = await Promise.all([
+      loadJSON("./data/meanings_zh_TW.json").catch(() => ({})),
+      loadJSON("./data/meanings_ja.json").catch(() => ({})),
+      loadJSON("./data/meanings_en.json").catch(() => ({})),
+    ]);
+    db.meanings = { "zh-TW": zhTW, ja, en };
   } catch (e) {
     console.error(e);
-    alert("加载数据失败，请确保通过 HTTP 服务器访问（如 GitHub Pages 或本地服务器）");
+    alert(t("data_error"));
   }
 }
 

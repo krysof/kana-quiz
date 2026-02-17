@@ -61,6 +61,41 @@ body {
 .start-hero {
   text-align: center;
   padding: 40px 20px 20px;
+  position: relative;
+}
+
+/* Language Switcher */
+.lang-switcher {
+  position: absolute;
+  top: 8px;
+  right: 0;
+  display: flex;
+  gap: 4px;
+}
+
+.lang-btn {
+  padding: 4px 10px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border: 1.5px solid rgba(255,255,255,0.4);
+  border-radius: 8px;
+  background: rgba(255,255,255,0.15);
+  color: rgba(255,255,255,0.7);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  touch-action: manipulation;
+}
+
+.lang-btn:hover {
+  background: rgba(255,255,255,0.25);
+  color: white;
+}
+
+.lang-btn.active {
+  background: rgba(255,255,255,0.9);
+  color: var(--primary-dark);
+  border-color: rgba(255,255,255,0.9);
+  font-weight: 700;
 }
 
 .start-icon {
@@ -567,6 +602,15 @@ input[type="number"] {
 
   .start-hero {
     padding: 30px 16px 16px;
+  }
+
+  .lang-switcher {
+    top: 4px;
+  }
+
+  .lang-btn {
+    padding: 3px 8px;
+    font-size: 0.6875rem;
   }
 
   .start-icon {
