@@ -101,8 +101,21 @@ export function newQuestion(db, settings, stats){
 
   if (!weighted.length) return null;
 
-  const mode = chooseMode(settings);
-  const correct = pickOne(weighted);
+  let mode = chooseMode(settings);
+
+  // rm_mean / mean_rm 只对 word 有效，如果当前题是 kana 则降级
+  if ((mode === "rm_mean" || mode === "mean_rm") && pools.word.length === 0) {
+    mode = "jp_mc"; // 降级
+  }
+
+  // rm_mean / mean_rm 强制从 word 池选题
+  let finalWeighted = weighted;
+  if (mode === "rm_mean" || mode === "mean_rm") {
+    finalWeighted = weighted.filter(x => x.type === "word");
+    if (!finalWeighted.length) finalWeighted = pools.word.length ? pools.word : weighted;
+  }
+
+  const correct = pickOne(finalWeighted);
 
   const q = { mode, correct };
 
@@ -126,15 +139,11 @@ export function newQuestion(db, settings, stats){
       return s;
     };
 
-    // 按分数排序
     const scored = pool2.map(x => ({ item: x, score: score(x) }));
     scored.sort((a, b) => b.score - a.score);
 
-    // 按分数分层选择，保证质量
     const wrongs = [];
     const used = new Set();
-
-    // 分层：18+, 13+, 10+, 5+, 0+
     const tiers = [18, 13, 10, 5, 0];
     for (const minScore of tiers) {
       if (wrongs.length >= 3) break;
@@ -150,6 +159,77 @@ export function newQuestion(db, settings, stats){
     q.choices = choices;
     q.correctIndex = choices.findIndex(x => x.rm === correct.rm);
   }
+
+  // 词义选择题：读音→选意思
+  if (mode === "rm_mean") {
+    const pool2 = pools.word.filter(x => x.rm !== correct.rm);
+    const correctMeanLen = (correct.meaning || "").length;
+
+    const score = (x) => {
+      let s = 0;
+      const lenDiff = Math.abs((x.meaning || "").length - correctMeanLen);
+      if (lenDiff === 0) s += 10;
+      else if (lenDiff === 1) s += 5;
+      return s;
+    };
+
+    const scored = pool2.map(x => ({ item: x, score: score(x) }));
+    scored.sort((a, b) => b.score - a.score);
+
+    const wrongs = [];
+    const used = new Set();
+    const tiers = [10, 5, 0];
+    for (const minScore of tiers) {
+      if (wrongs.length >= 3) break;
+      const tier = scored.filter(x => x.score >= minScore && !used.has(x.item.rm));
+      const picks = shuffle(tier).slice(0, 3 - wrongs.length);
+      for (const p of picks) {
+        wrongs.push(p.item);
+        used.add(p.item.rm);
+      }
+    }
+
+    const choices = shuffle([correct, ...wrongs]);
+    q.choices = choices;
+    q.correctIndex = choices.findIndex(x => x.rm === correct.rm);
+  }
+
+  // 词义选择题：意思→选读音
+  if (mode === "mean_rm") {
+    const pool2 = pools.word.filter(x => x.rm !== correct.rm);
+    const correctLen = correct.hira.length;
+    const correctFirst = correct.hira[0];
+
+    const score = (x) => {
+      let s = 0;
+      const lenDiff = Math.abs(x.hira.length - correctLen);
+      if (lenDiff === 0) s += 10;
+      else if (lenDiff === 1) s += 5;
+      if (x.hira[0] === correctFirst) s += 8;
+      return s;
+    };
+
+    const scored = pool2.map(x => ({ item: x, score: score(x) }));
+    scored.sort((a, b) => b.score - a.score);
+
+    const wrongs = [];
+    const used = new Set();
+    const tiers = [18, 13, 10, 5, 0];
+    for (const minScore of tiers) {
+      if (wrongs.length >= 3) break;
+      const tier = scored.filter(x => x.score >= minScore && !used.has(x.item.rm));
+      const picks = shuffle(tier).slice(0, 3 - wrongs.length);
+      for (const p of picks) {
+        wrongs.push(p.item);
+        used.add(p.item.rm);
+      }
+    }
+
+    const choices = shuffle([correct, ...wrongs]);
+    q.choices = choices;
+    q.correctIndex = choices.findIndex(x => x.rm === correct.rm);
+  }
+
   return q;
 }
 

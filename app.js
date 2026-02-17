@@ -1,15 +1,15 @@
 import {
   loadSettings, saveSettings, resetSettings,
   loadStats, saveStats, resetDaily, resetAllStats
-} from "./core/storage.js?v=1.2";
+} from "./core/storage.js?v=1.3";
 
-import { speakJP, warmupTTS } from "./core/tts.js?v=1.2";
-import { playCorrect, playWrong, unlockAudio } from "./core/audio.js?v=1.2";
+import { speakJP, warmupTTS } from "./core/tts.js?v=1.3";
+import { playCorrect, playWrong, unlockAudio } from "./core/audio.js?v=1.3";
 
 import {
   newQuestion, recordResult, startSession,
   normalizeRomaji, pct
-} from "./core/quiz.js?v=1.2";
+} from "./core/quiz.js?v=1.3";
 
 const $ = (id) => document.getElementById(id);
 
@@ -214,7 +214,15 @@ function renderQuestion() {
 
   // 处理释义显示（直接从UI读取最新状态）
   const shouldHide = ui.hideMeaning.checked;
-  if (it.type === "word" && it.meaning) {
+  // rm_mean 模式下不显示释义（那是答案）
+  if (current.mode === "rm_mean") {
+    ui.meaning.textContent = "";
+    ui.meaning.onclick = null;
+  } else if (current.mode === "mean_rm") {
+    // mean_rm 模式下释义就是题目，不额外显示
+    ui.meaning.textContent = "";
+    ui.meaning.onclick = null;
+  } else if (it.type === "word" && it.meaning) {
     if (shouldHide) {
       ui.meaning.textContent = "释义：***";
       ui.meaning.style.cursor = "pointer";
@@ -234,13 +242,35 @@ function renderQuestion() {
   }
   ui.result.textContent = "";
 
-  if (current.mode === "rm_mc" || current.mode === "rm_in") {
+  if (current.mode === "rm_mean") {
+    ui.q.innerHTML = `<span class="big">${kana}</span> 是什么意思？`;
+  } else if (current.mode === "mean_rm") {
+    ui.q.innerHTML = `「${it.meaning}」怎么读？`;
+  } else if (current.mode === "rm_mc" || current.mode === "rm_in") {
     ui.q.innerHTML = `<b>${it.rm}</b> 的${it.type === "word" ? "写法" : "假名"}是？`;
   } else {
     ui.q.innerHTML = `<span class="big">${kana}</span> 怎么读？`;
   }
 
-  if (current.mode === "rm_mc" || current.mode === "jp_mc") {
+  if (current.mode === "rm_mean") {
+    ui.opts.innerHTML = "";
+    current.choices.forEach((c, idx) => {
+      const div = document.createElement("div");
+      div.className = "opt";
+      div.innerHTML = `<div class="meaning-opt">${c.meaning}</div>`;
+      div.onclick = () => answerChoice(idx);
+      ui.opts.appendChild(div);
+    });
+  } else if (current.mode === "mean_rm") {
+    ui.opts.innerHTML = "";
+    current.choices.forEach((c, idx) => {
+      const div = document.createElement("div");
+      div.className = "opt";
+      div.innerHTML = `<div class="jp">${getKana(c)}</div>`;
+      div.onclick = () => answerChoice(idx);
+      ui.opts.appendChild(div);
+    });
+  } else if (current.mode === "rm_mc" || current.mode === "jp_mc") {
     ui.opts.innerHTML = "";
     current.choices.forEach((c, idx) => {
       const div = document.createElement("div");
@@ -292,6 +322,7 @@ function answerChoice(idx) {
 
   const ok = idx === current.correctIndex;
   const kana = getKana(current.correct);
+  const meaning = current.correct.meaning || "";
 
   if (ok) playCorrect();
   else playWrong();
@@ -299,9 +330,15 @@ function answerChoice(idx) {
   // 音效后播放读音
   setTimeout(() => speakJP(kana), 300);
 
-  ui.result.innerHTML = ok
-    ? `✅ 正确：<b>${current.correct.rm}</b> = <b>${kana}</b>`
-    : `❌ 错了。正确：<b>${current.correct.rm}</b> = <b>${kana}</b>`;
+  if (current.mode === "rm_mean" || current.mode === "mean_rm") {
+    ui.result.innerHTML = ok
+      ? `✅ 正确：<b>${kana}</b> = <b>${meaning}</b>`
+      : `❌ 错了。正确：<b>${kana}</b> = <b>${meaning}</b>`;
+  } else {
+    ui.result.innerHTML = ok
+      ? `✅ 正确：<b>${current.correct.rm}</b> = <b>${kana}</b>`
+      : `❌ 错了。正确：<b>${current.correct.rm}</b> = <b>${kana}</b>`;
+  }
 
   const r = recordResult(stats, current, ok);
   saveStats(stats);

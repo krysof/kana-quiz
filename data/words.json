@@ -1,304 +1,5948 @@
 [
-  {"hira":"すし","kata":"スシ","rm":"sushi","meaning":"寿司"},
-  {"hira":"みず","kata":"ミズ","rm":"mizu","meaning":"水"},
-  {"hira":"おちゃ","kata":"オチャ","rm":"ocha","meaning":"茶"},
-  {"hira":"ごはん","kata":"ゴハン","rm":"gohan","meaning":"米饭"},
-  {"hira":"いえ","kata":"イエ","rm":"ie","meaning":"家"},
-  {"hira":"ひと","kata":"ヒト","rm":"hito","meaning":"人"},
-  {"hira":"ともだち","kata":"トモダチ","rm":"tomodachi","meaning":"朋友"},
-  {"hira":"ありがとう","kata":"アリガトウ","rm":"arigatou","meaning":"谢谢"},
-  {"hira":"すみません","kata":"スミマセン","rm":"sumimasen","meaning":"对不起"},
-  {"hira":"いく","kata":"イク","rm":"iku","meaning":"去"},
-  {"hira":"くる","kata":"クル","rm":"kuru","meaning":"来"},
-  {"hira":"たべる","kata":"タベル","rm":"taberu","meaning":"吃"},
-  {"hira":"のむ","kata":"ノム","rm":"nomu","meaning":"喝"},
-
-  {"hira":"おはよう","kata":"オハヨウ","rm":"ohayou","meaning":"早上好"},
-  {"hira":"こんにちは","kata":"コンニチハ","rm":"konnichiha","meaning":"你好"},
-  {"hira":"こんばんは","kata":"コンバンハ","rm":"konbanha","meaning":"晚上好"},
-  {"hira":"おやすみ","kata":"オヤスミ","rm":"oyasumi","meaning":"晚安"},
-  {"hira":"さようなら","kata":"サヨウナラ","rm":"sayounara","meaning":"再见"},
-  {"hira":"はい","kata":"ハイ","rm":"hai","meaning":"是"},
-  {"hira":"いいえ","kata":"イイエ","rm":"iie","meaning":"不是"},
-
-  {"hira":"いち","kata":"イチ","rm":"ichi","meaning":"一"},
-  {"hira":"さん","kata":"サン","rm":"san","meaning":"三"},
-  {"hira":"よん","kata":"ヨン","rm":"yon","meaning":"四"},
-  {"hira":"ろく","kata":"ロク","rm":"roku","meaning":"六"},
-  {"hira":"なな","kata":"ナナ","rm":"nana","meaning":"七"},
-  {"hira":"はち","kata":"ハチ","rm":"hachi","meaning":"八"},
-  {"hira":"きゅう","kata":"キュウ","rm":"kyuu","meaning":"九"},
-  {"hira":"じゅう","kata":"ジュウ","rm":"juu","meaning":"十"},
-  {"hira":"ひゃく","kata":"ヒャク","rm":"hyaku","meaning":"百"},
-  {"hira":"せん","kata":"セン","rm":"sen","meaning":"千"},
-
-  {"hira":"きょう","kata":"キョウ","rm":"kyou","meaning":"今天"},
-  {"hira":"あした","kata":"アシタ","rm":"ashita","meaning":"明天"},
-  {"hira":"きのう","kata":"キノウ","rm":"kinou","meaning":"昨天"},
-  {"hira":"いま","kata":"イマ","rm":"ima","meaning":"现在"},
-  {"hira":"あさ","kata":"アサ","rm":"asa","meaning":"早上"},
-  {"hira":"ひる","kata":"ヒル","rm":"hiru","meaning":"中午"},
-  {"hira":"よる","kata":"ヨル","rm":"yoru","meaning":"晚上"},
-
-  {"hira":"あか","kata":"アカ","rm":"aka","meaning":"红色"},
-  {"hira":"あお","kata":"アオ","rm":"ao","meaning":"蓝色"},
-  {"hira":"しろ","kata":"シロ","rm":"shiro","meaning":"白色"},
-  {"hira":"くろ","kata":"クロ","rm":"kuro","meaning":"黑色"},
-  {"hira":"きいろ","kata":"キイロ","rm":"kiiro","meaning":"黄色"},
-  {"hira":"みどり","kata":"ミドリ","rm":"midori","meaning":"绿色"},
-
-  {"hira":"いぬ","kata":"イヌ","rm":"inu","meaning":"狗"},
-  {"hira":"ねこ","kata":"ネコ","rm":"neko","meaning":"猫"},
-  {"hira":"さかな","kata":"サカナ","rm":"sakana","meaning":"鱼"},
-  {"hira":"とり","kata":"トリ","rm":"tori","meaning":"鸟"},
-  {"hira":"うま","kata":"ウマ","rm":"uma","meaning":"马"},
-  {"hira":"うし","kata":"ウシ","rm":"ushi","meaning":"牛"},
-
-  {"hira":"にく","kata":"ニク","rm":"niku","meaning":"肉"},
-  {"hira":"やさい","kata":"ヤサイ","rm":"yasai","meaning":"蔬菜"},
-  {"hira":"くだもの","kata":"クダモノ","rm":"kudamono","meaning":"水果"},
-  {"hira":"たまご","kata":"タマゴ","rm":"tamago","meaning":"鸡蛋"},
-  {"hira":"パン","kata":"パン","rm":"pan","meaning":"面包"},
-  {"hira":"ラーメン","kata":"ラーメン","rm":"raamen","meaning":"拉面"},
-  {"hira":"ぎゅうにゅう","kata":"ギュウニュウ","rm":"gyuunyuu","meaning":"牛奶"},
-  {"hira":"コーヒー","kata":"コーヒー","rm":"koohii","meaning":"咖啡"},
-  {"hira":"ビール","kata":"ビール","rm":"biiru","meaning":"啤酒"},
-
-  {"hira":"ほん","kata":"ホン","rm":"hon","meaning":"书"},
-  {"hira":"でんわ","kata":"デンワ","rm":"denwa","meaning":"电话"},
-  {"hira":"かばん","kata":"カバン","rm":"kaban","meaning":"包"},
-  {"hira":"くつ","kata":"クツ","rm":"kutsu","meaning":"鞋"},
-  {"hira":"かさ","kata":"カサ","rm":"kasa","meaning":"伞"},
-  {"hira":"めがね","kata":"メガネ","rm":"megane","meaning":"眼镜"},
-  {"hira":"とけい","kata":"トケイ","rm":"tokei","meaning":"钟表"},
-  {"hira":"くるま","kata":"クルマ","rm":"kuruma","meaning":"车"},
-  {"hira":"でんしゃ","kata":"デンシャ","rm":"densha","meaning":"电车"},
-
-  {"hira":"みる","kata":"ミル","rm":"miru","meaning":"看"},
-  {"hira":"きく","kata":"キク","rm":"kiku","meaning":"听"},
-  {"hira":"はなす","kata":"ハナス","rm":"hanasu","meaning":"说"},
-  {"hira":"よむ","kata":"ヨム","rm":"yomu","meaning":"读"},
-  {"hira":"かく","kata":"カク","rm":"kaku","meaning":"写"},
-  {"hira":"あるく","kata":"アルク","rm":"aruku","meaning":"走"},
-  {"hira":"はしる","kata":"ハシル","rm":"hashiru","meaning":"跑"},
-  {"hira":"ねる","kata":"ネル","rm":"neru","meaning":"睡"},
-  {"hira":"おきる","kata":"オキル","rm":"okiru","meaning":"起床"},
-  {"hira":"つくる","kata":"ツクル","rm":"tsukuru","meaning":"做/制作"},
-  {"hira":"かう","kata":"カウ","rm":"kau","meaning":"买"},
-  {"hira":"うる","kata":"ウル","rm":"uru","meaning":"卖"},
-
-  {"hira":"おおきい","kata":"オオキイ","rm":"ookii","meaning":"大"},
-  {"hira":"ちいさい","kata":"チイサイ","rm":"chiisai","meaning":"小"},
-  {"hira":"たかい","kata":"タカイ","rm":"takai","meaning":"高/贵"},
-  {"hira":"やすい","kata":"ヤスイ","rm":"yasui","meaning":"便宜"},
-  {"hira":"あたらしい","kata":"アタラシイ","rm":"atarashii","meaning":"新"},
-  {"hira":"ふるい","kata":"フルイ","rm":"furui","meaning":"旧"},
-  {"hira":"いい","kata":"イイ","rm":"ii","meaning":"好"},
-  {"hira":"わるい","kata":"ワルイ","rm":"warui","meaning":"坏"},
-  {"hira":"あつい","kata":"アツイ","rm":"atsui","meaning":"热"},
-  {"hira":"さむい","kata":"サムイ","rm":"samui","meaning":"冷"},
-  {"hira":"おいしい","kata":"オイシイ","rm":"oishii","meaning":"好吃"},
-  {"hira":"すき","kata":"スキ","rm":"suki","meaning":"喜欢"},
-  {"hira":"きらい","kata":"キライ","rm":"kirai","meaning":"讨厌"},
-
-  {"hira":"がっこう","kata":"ガッコウ","rm":"gakkou","meaning":"学校"},
-  {"hira":"かいしゃ","kata":"カイシャ","rm":"kaisha","meaning":"公司"},
-  {"hira":"びょういん","kata":"ビョウイン","rm":"byouin","meaning":"医院"},
-  {"hira":"えき","kata":"エキ","rm":"eki","meaning":"车站"},
-  {"hira":"みせ","kata":"ミセ","rm":"mise","meaning":"商店"},
-  {"hira":"レストラン","kata":"レストラン","rm":"resutoran","meaning":"餐厅"},
-  {"hira":"ホテル","kata":"ホテル","rm":"hoteru","meaning":"酒店"},
-  {"hira":"こうえん","kata":"コウエン","rm":"kouen","meaning":"公园"},
-
-  {"hira":"せんせい","kata":"センセイ","rm":"sensei","meaning":"老师"},
-  {"hira":"がくせい","kata":"ガクセイ","rm":"gakusei","meaning":"学生"},
-  {"hira":"かぞく","kata":"カゾク","rm":"kazoku","meaning":"家人"},
-  {"hira":"おとうさん","kata":"オトウサン","rm":"otousan","meaning":"爸爸"},
-  {"hira":"おかあさん","kata":"オカアサン","rm":"okaasan","meaning":"妈妈"},
-  {"hira":"あに","kata":"アニ","rm":"ani","meaning":"哥哥"},
-  {"hira":"あね","kata":"アネ","rm":"ane","meaning":"姐姐"},
-  {"hira":"おとうと","kata":"オトウト","rm":"otouto","meaning":"弟弟"},
-  {"hira":"いもうと","kata":"イモウト","rm":"imouto","meaning":"妹妹"},
-
-  {"hira":"にほん","kata":"ニホン","rm":"nihon","meaning":"日本"},
-  {"hira":"ちゅうごく","kata":"チュウゴク","rm":"chuugoku","meaning":"中国"},
-  {"hira":"アメリカ","kata":"アメリカ","rm":"amerika","meaning":"美国"},
-  {"hira":"にほんご","kata":"ニホンゴ","rm":"nihongo","meaning":"日语"},
-  {"hira":"えいご","kata":"エイゴ","rm":"eigo","meaning":"英语"},
-
-  {"hira":"てがみ","kata":"テガミ","rm":"tegami","meaning":"信"},
-  {"hira":"てんき","kata":"テンキ","rm":"tenki","meaning":"天气"},
-  {"hira":"てつだう","kata":"テツダウ","rm":"tetsudau","meaning":"帮助"},
-  {"hira":"テレビ","kata":"テレビ","rm":"terebi","meaning":"电视"},
-
-  {"hira":"まち","kata":"マチ","rm":"machi","meaning":"城镇"},
-  {"hira":"まど","kata":"マド","rm":"mado","meaning":"窗户"},
-  {"hira":"まつ","kata":"マツ","rm":"matsu","meaning":"等待"},
-  {"hira":"まえ","kata":"マエ","rm":"mae","meaning":"前面"},
-
-  {"hira":"むし","kata":"ムシ","rm":"mushi","meaning":"虫子"},
-  {"hira":"むすめ","kata":"ムスメ","rm":"musume","meaning":"女儿"},
-  {"hira":"むすこ","kata":"ムスコ","rm":"musuko","meaning":"儿子"},
-  {"hira":"むずかしい","kata":"ムズカシイ","rm":"muzukashii","meaning":"难"},
-
-  {"hira":"もの","kata":"モノ","rm":"mono","meaning":"东西"},
-  {"hira":"もり","kata":"モリ","rm":"mori","meaning":"森林"},
-  {"hira":"もつ","kata":"モツ","rm":"motsu","meaning":"拿"},
-  {"hira":"もんだい","kata":"モンダイ","rm":"mondai","meaning":"问题"},
-
-  {"hira":"ゆき","kata":"ユキ","rm":"yuki","meaning":"雪"},
-  {"hira":"ゆめ","kata":"ユメ","rm":"yume","meaning":"梦"},
-  {"hira":"ゆうびんきょく","kata":"ユウビンキョク","rm":"yuubinkyoku","meaning":"邮局"},
-  {"hira":"ゆっくり","kata":"ユックリ","rm":"yukkuri","meaning":"慢慢地"},
-
-  {"hira":"りんご","kata":"リンゴ","rm":"ringo","meaning":"苹果"},
-  {"hira":"りょうり","kata":"リョウリ","rm":"ryouri","meaning":"料理"},
-  {"hira":"りゆう","kata":"リユウ","rm":"riyuu","meaning":"理由"},
-  {"hira":"りかい","kata":"リカイ","rm":"rikai","meaning":"理解"},
-
-  {"hira":"るす","kata":"ルス","rm":"rusu","meaning":"不在家"},
-
-  {"hira":"ろうか","kata":"ロウカ","rm":"rouka","meaning":"走廊"},
-
-  {"hira":"わたし","kata":"ワタシ","rm":"watashi","meaning":"我"},
-  {"hira":"わかる","kata":"ワカル","rm":"wakaru","meaning":"明白"},
-  {"hira":"わすれる","kata":"ワスレル","rm":"wasureru","meaning":"忘记"},
-
-  {"hira":"しごと","kata":"シゴト","rm":"shigoto","meaning":"工作"},
-  {"hira":"しんぶん","kata":"シンブン","rm":"shinbun","meaning":"报纸"},
-  {"hira":"しつもん","kata":"シツモン","rm":"shitsumon","meaning":"问题"},
-  {"hira":"した","kata":"シタ","rm":"shita","meaning":"下面"},
-
-  {"hira":"そと","kata":"ソト","rm":"soto","meaning":"外面"},
-  {"hira":"そら","kata":"ソラ","rm":"sora","meaning":"天空"},
-  {"hira":"そこ","kata":"ソコ","rm":"soko","meaning":"那里"},
-  {"hira":"そば","kata":"ソバ","rm":"soba","meaning":"旁边/荞麦面"},
-
-  {"hira":"なつ","kata":"ナツ","rm":"natsu","meaning":"夏天"},
-  {"hira":"なか","kata":"ナカ","rm":"naka","meaning":"里面"},
-  {"hira":"なまえ","kata":"ナマエ","rm":"namae","meaning":"名字"},
-  {"hira":"ならう","kata":"ナラウ","rm":"narau","meaning":"学习"},
-
-  {"hira":"ひま","kata":"ヒマ","rm":"hima","meaning":"空闲"},
-  {"hira":"ひこうき","kata":"ヒコウキ","rm":"hikouki","meaning":"飞机"},
-  {"hira":"ひだり","kata":"ヒダリ","rm":"hidari","meaning":"左边"},
-  {"hira":"ひつよう","kata":"ヒツヨウ","rm":"hitsuyou","meaning":"必要"},
-
-  {"hira":"ふね","kata":"フネ","rm":"fune","meaning":"船"},
-  {"hira":"ふゆ","kata":"フユ","rm":"fuyu","meaning":"冬天"},
-  {"hira":"ふく","kata":"フク","rm":"fuku","meaning":"衣服"},
-  {"hira":"ふたり","kata":"フタリ","rm":"futari","meaning":"两人"},
-
-  {"hira":"へや","kata":"ヘヤ","rm":"heya","meaning":"房间"},
-  {"hira":"へん","kata":"ヘン","rm":"hen","meaning":"奇怪"},
-  {"hira":"へた","kata":"ヘタ","rm":"heta","meaning":"不擅长"},
-
-  {"hira":"ほし","kata":"ホシ","rm":"hoshi","meaning":"星星"},
-  {"hira":"ほか","kata":"ホカ","rm":"hoka","meaning":"其他"},
-  {"hira":"ほんとう","kata":"ホントウ","rm":"hontou","meaning":"真的"},
-
-  {"hira":"けさ","kata":"ケサ","rm":"kesa","meaning":"今早"},
-  {"hira":"けっこん","kata":"ケッコン","rm":"kekkon","meaning":"结婚"},
-  {"hira":"けいたい","kata":"ケイタイ","rm":"keitai","meaning":"手机"},
-  {"hira":"けんこう","kata":"ケンコウ","rm":"kenkou","meaning":"健康"},
-
-  {"hira":"げんき","kata":"ゲンキ","rm":"genki","meaning":"精神/健康"},
-  {"hira":"げつようび","kata":"ゲツヨウビ","rm":"getsuyoubi","meaning":"星期一"},
-
-  {"hira":"せかい","kata":"セカイ","rm":"sekai","meaning":"世界"},
-  {"hira":"せいかつ","kata":"セイカツ","rm":"seikatsu","meaning":"生活"},
-
-  {"hira":"ぜんぶ","kata":"ゼンブ","rm":"zenbu","meaning":"全部"},
-
-  {"hira":"つぎ","kata":"ツギ","rm":"tsugi","meaning":"下一个"},
-  {"hira":"つき","kata":"ツキ","rm":"tsuki","meaning":"月亮"},
-  {"hira":"つかう","kata":"ツカウ","rm":"tsukau","meaning":"使用"},
-  {"hira":"つめたい","kata":"ツメタイ","rm":"tsumetai","meaning":"冰凉"},
-
-  {"hira":"ちず","kata":"チズ","rm":"chizu","meaning":"地图"},
-  {"hira":"ちかい","kata":"チカイ","rm":"chikai","meaning":"近"},
-  {"hira":"ちから","kata":"チカラ","rm":"chikara","meaning":"力量"},
-  {"hira":"ちがう","kata":"チガウ","rm":"chigau","meaning":"不同"},
-
-  {"hira":"だいがく","kata":"ダイガク","rm":"daigaku","meaning":"大学"},
-  {"hira":"だいじょうぶ","kata":"ダイジョウブ","rm":"daijoubu","meaning":"没问题"},
-  {"hira":"だれ","kata":"ダレ","rm":"dare","meaning":"谁"},
-
-  {"hira":"どこ","kata":"ドコ","rm":"doko","meaning":"哪里"},
-  {"hira":"どうぶつ","kata":"ドウブツ","rm":"doubutsu","meaning":"动物"},
-  {"hira":"どうぞ","kata":"ドウゾ","rm":"douzo","meaning":"请"},
-  {"hira":"どれ","kata":"ドレ","rm":"dore","meaning":"哪个"},
-
-  {"hira":"ばしょ","kata":"バショ","rm":"basho","meaning":"地方"},
-  {"hira":"ばんごはん","kata":"バンゴハン","rm":"bangohan","meaning":"晚饭"},
-
-  {"hira":"ぶんか","kata":"ブンカ","rm":"bunka","meaning":"文化"},
-
-  {"hira":"べんり","kata":"ベンリ","rm":"benri","meaning":"方便"},
-  {"hira":"べんきょう","kata":"ベンキョウ","rm":"benkyou","meaning":"学习"},
-
-  {"hira":"ぼく","kata":"ボク","rm":"boku","meaning":"我(男)"},
-
-  {"hira":"はる","kata":"ハル","rm":"haru","meaning":"春天"},
-  {"hira":"あき","kata":"アキ","rm":"aki","meaning":"秋天"},
-
-  {"hira":"かわ","kata":"カワ","rm":"kawa","meaning":"河"},
-  {"hira":"やま","kata":"ヤマ","rm":"yama","meaning":"山"},
-  {"hira":"うみ","kata":"ウミ","rm":"umi","meaning":"海"},
-
-  {"hira":"あめ","kata":"アメ","rm":"ame","meaning":"雨"},
-  {"hira":"かぜ","kata":"カゼ","rm":"kaze","meaning":"风/感冒"},
-  {"hira":"くも","kata":"クモ","rm":"kumo","meaning":"云"},
-
-  {"hira":"あたま","kata":"アタマ","rm":"atama","meaning":"头"},
-  {"hira":"かお","kata":"カオ","rm":"kao","meaning":"脸"},
-  {"hira":"め","kata":"メ","rm":"me","meaning":"眼睛"},
-  {"hira":"みみ","kata":"ミミ","rm":"mimi","meaning":"耳朵"},
-  {"hira":"はな","kata":"ハナ","rm":"hana","meaning":"鼻子/花"},
-  {"hira":"くち","kata":"クチ","rm":"kuchi","meaning":"嘴"},
-  {"hira":"て","kata":"テ","rm":"te","meaning":"手"},
-  {"hira":"あし","kata":"アシ","rm":"ashi","meaning":"脚"},
-
-  {"hira":"おかね","kata":"オカネ","rm":"okane","meaning":"钱"},
-  {"hira":"しお","kata":"シオ","rm":"shio","meaning":"盐"},
-  {"hira":"さとう","kata":"サトウ","rm":"satou","meaning":"糖"},
-
-  {"hira":"とし","kata":"トシ","rm":"toshi","meaning":"年龄/城市"},
-  {"hira":"おとな","kata":"オトナ","rm":"otona","meaning":"大人"},
-  {"hira":"こども","kata":"コドモ","rm":"kodomo","meaning":"小孩"},
-
-  {"hira":"なに","kata":"ナニ","rm":"nani","meaning":"什么"},
-  {"hira":"いつ","kata":"イツ","rm":"itsu","meaning":"什么时候"},
-  {"hira":"どう","kata":"ドウ","rm":"dou","meaning":"怎么样"},
-  {"hira":"なぜ","kata":"ナゼ","rm":"naze","meaning":"为什么"},
-
-  {"hira":"ここ","kata":"ココ","rm":"koko","meaning":"这里"},
-  {"hira":"これ","kata":"コレ","rm":"kore","meaning":"这个"},
-  {"hira":"それ","kata":"ソレ","rm":"sore","meaning":"那个"},
-  {"hira":"あれ","kata":"アレ","rm":"are","meaning":"那个(远)"},
-
-  {"hira":"みぎ","kata":"ミギ","rm":"migi","meaning":"右边"},
-  {"hira":"うえ","kata":"ウエ","rm":"ue","meaning":"上面"},
-
-  {"hira":"ねがい","kata":"ネガイ","rm":"negai","meaning":"愿望"},
-  {"hira":"のこる","kata":"ノコル","rm":"nokoru","meaning":"留下"},
-  {"hira":"ぬる","kata":"ヌル","rm":"nuru","meaning":"涂"},
-
-  {"hira":"ひく","kata":"ヒク","rm":"hiku","meaning":"拉/弹"},
-  {"hira":"ふる","kata":"フル","rm":"furu","meaning":"下(雨雪)"},
-  {"hira":"へる","kata":"ヘル","rm":"heru","meaning":"减少"},
-  {"hira":"ほる","kata":"ホル","rm":"horu","meaning":"挖"},
-
-  {"hira":"まる","kata":"マル","rm":"maru","meaning":"圆"},
-  {"hira":"みち","kata":"ミチ","rm":"michi","meaning":"路"},
-  {"hira":"むかし","kata":"ムカシ","rm":"mukashi","meaning":"从前"},
-  {"hira":"もち","kata":"モチ","rm":"mochi","meaning":"年糕"},
-
-  {"hira":"やる","kata":"ヤル","rm":"yaru","meaning":"做"},
-  {"hira":"ゆび","kata":"ユビ","rm":"yubi","meaning":"手指"},
-  {"hira":"よい","kata":"ヨイ","rm":"yoi","meaning":"好"},
-
-  {"hira":"らく","kata":"ラク","rm":"raku","meaning":"轻松"},
-  {"hira":"れい","kata":"レイ","rm":"rei","meaning":"零/礼"},
-  {"hira":"ろうじん","kata":"ロウジン","rm":"roujin","meaning":"老人"}
+  {
+    "hira": "すし",
+    "kata": "スシ",
+    "rm": "sushi",
+    "meaning": "寿司"
+  },
+  {
+    "hira": "みず",
+    "kata": "ミズ",
+    "rm": "mizu",
+    "meaning": "水"
+  },
+  {
+    "hira": "おちゃ",
+    "kata": "オチャ",
+    "rm": "ocha",
+    "meaning": "茶"
+  },
+  {
+    "hira": "ごはん",
+    "kata": "ゴハン",
+    "rm": "gohan",
+    "meaning": "米饭"
+  },
+  {
+    "hira": "いえ",
+    "kata": "イエ",
+    "rm": "ie",
+    "meaning": "家"
+  },
+  {
+    "hira": "ひと",
+    "kata": "ヒト",
+    "rm": "hito",
+    "meaning": "人"
+  },
+  {
+    "hira": "ともだち",
+    "kata": "トモダチ",
+    "rm": "tomodachi",
+    "meaning": "朋友"
+  },
+  {
+    "hira": "ありがとう",
+    "kata": "アリガトウ",
+    "rm": "arigatou",
+    "meaning": "谢谢"
+  },
+  {
+    "hira": "すみません",
+    "kata": "スミマセン",
+    "rm": "sumimasen",
+    "meaning": "对不起"
+  },
+  {
+    "hira": "いく",
+    "kata": "イク",
+    "rm": "iku",
+    "meaning": "去"
+  },
+  {
+    "hira": "くる",
+    "kata": "クル",
+    "rm": "kuru",
+    "meaning": "来"
+  },
+  {
+    "hira": "たべる",
+    "kata": "タベル",
+    "rm": "taberu",
+    "meaning": "吃"
+  },
+  {
+    "hira": "のむ",
+    "kata": "ノム",
+    "rm": "nomu",
+    "meaning": "喝"
+  },
+  {
+    "hira": "おはよう",
+    "kata": "オハヨウ",
+    "rm": "ohayou",
+    "meaning": "早上好"
+  },
+  {
+    "hira": "こんにちは",
+    "kata": "コンニチハ",
+    "rm": "konnichiha",
+    "meaning": "你好"
+  },
+  {
+    "hira": "こんばんは",
+    "kata": "コンバンハ",
+    "rm": "konbanha",
+    "meaning": "晚上好"
+  },
+  {
+    "hira": "おやすみ",
+    "kata": "オヤスミ",
+    "rm": "oyasumi",
+    "meaning": "晚安"
+  },
+  {
+    "hira": "さようなら",
+    "kata": "サヨウナラ",
+    "rm": "sayounara",
+    "meaning": "再见"
+  },
+  {
+    "hira": "はい",
+    "kata": "ハイ",
+    "rm": "hai",
+    "meaning": "是"
+  },
+  {
+    "hira": "いいえ",
+    "kata": "イイエ",
+    "rm": "iie",
+    "meaning": "不是"
+  },
+  {
+    "hira": "いち",
+    "kata": "イチ",
+    "rm": "ichi",
+    "meaning": "一"
+  },
+  {
+    "hira": "さん",
+    "kata": "サン",
+    "rm": "san",
+    "meaning": "三"
+  },
+  {
+    "hira": "よん",
+    "kata": "ヨン",
+    "rm": "yon",
+    "meaning": "四"
+  },
+  {
+    "hira": "ろく",
+    "kata": "ロク",
+    "rm": "roku",
+    "meaning": "六"
+  },
+  {
+    "hira": "なな",
+    "kata": "ナナ",
+    "rm": "nana",
+    "meaning": "七"
+  },
+  {
+    "hira": "はち",
+    "kata": "ハチ",
+    "rm": "hachi",
+    "meaning": "八"
+  },
+  {
+    "hira": "きゅう",
+    "kata": "キュウ",
+    "rm": "kyuu",
+    "meaning": "九"
+  },
+  {
+    "hira": "じゅう",
+    "kata": "ジュウ",
+    "rm": "juu",
+    "meaning": "十"
+  },
+  {
+    "hira": "ひゃく",
+    "kata": "ヒャク",
+    "rm": "hyaku",
+    "meaning": "百"
+  },
+  {
+    "hira": "せん",
+    "kata": "セン",
+    "rm": "sen",
+    "meaning": "千"
+  },
+  {
+    "hira": "きょう",
+    "kata": "キョウ",
+    "rm": "kyou",
+    "meaning": "今天"
+  },
+  {
+    "hira": "あした",
+    "kata": "アシタ",
+    "rm": "ashita",
+    "meaning": "明天"
+  },
+  {
+    "hira": "きのう",
+    "kata": "キノウ",
+    "rm": "kinou",
+    "meaning": "昨天"
+  },
+  {
+    "hira": "いま",
+    "kata": "イマ",
+    "rm": "ima",
+    "meaning": "现在"
+  },
+  {
+    "hira": "あさ",
+    "kata": "アサ",
+    "rm": "asa",
+    "meaning": "早上"
+  },
+  {
+    "hira": "ひる",
+    "kata": "ヒル",
+    "rm": "hiru",
+    "meaning": "中午"
+  },
+  {
+    "hira": "よる",
+    "kata": "ヨル",
+    "rm": "yoru",
+    "meaning": "晚上"
+  },
+  {
+    "hira": "あか",
+    "kata": "アカ",
+    "rm": "aka",
+    "meaning": "红色"
+  },
+  {
+    "hira": "あお",
+    "kata": "アオ",
+    "rm": "ao",
+    "meaning": "蓝色"
+  },
+  {
+    "hira": "しろ",
+    "kata": "シロ",
+    "rm": "shiro",
+    "meaning": "白色"
+  },
+  {
+    "hira": "くろ",
+    "kata": "クロ",
+    "rm": "kuro",
+    "meaning": "黑色"
+  },
+  {
+    "hira": "きいろ",
+    "kata": "キイロ",
+    "rm": "kiiro",
+    "meaning": "黄色"
+  },
+  {
+    "hira": "みどり",
+    "kata": "ミドリ",
+    "rm": "midori",
+    "meaning": "绿色"
+  },
+  {
+    "hira": "いぬ",
+    "kata": "イヌ",
+    "rm": "inu",
+    "meaning": "狗"
+  },
+  {
+    "hira": "ねこ",
+    "kata": "ネコ",
+    "rm": "neko",
+    "meaning": "猫"
+  },
+  {
+    "hira": "さかな",
+    "kata": "サカナ",
+    "rm": "sakana",
+    "meaning": "鱼"
+  },
+  {
+    "hira": "とり",
+    "kata": "トリ",
+    "rm": "tori",
+    "meaning": "鸟"
+  },
+  {
+    "hira": "うま",
+    "kata": "ウマ",
+    "rm": "uma",
+    "meaning": "马"
+  },
+  {
+    "hira": "うし",
+    "kata": "ウシ",
+    "rm": "ushi",
+    "meaning": "牛"
+  },
+  {
+    "hira": "にく",
+    "kata": "ニク",
+    "rm": "niku",
+    "meaning": "肉"
+  },
+  {
+    "hira": "やさい",
+    "kata": "ヤサイ",
+    "rm": "yasai",
+    "meaning": "蔬菜"
+  },
+  {
+    "hira": "くだもの",
+    "kata": "クダモノ",
+    "rm": "kudamono",
+    "meaning": "水果"
+  },
+  {
+    "hira": "たまご",
+    "kata": "タマゴ",
+    "rm": "tamago",
+    "meaning": "鸡蛋"
+  },
+  {
+    "hira": "パン",
+    "kata": "パン",
+    "rm": "pan",
+    "meaning": "面包"
+  },
+  {
+    "hira": "ラーメン",
+    "kata": "ラーメン",
+    "rm": "raamen",
+    "meaning": "拉面"
+  },
+  {
+    "hira": "ぎゅうにゅう",
+    "kata": "ギュウニュウ",
+    "rm": "gyuunyuu",
+    "meaning": "牛奶"
+  },
+  {
+    "hira": "コーヒー",
+    "kata": "コーヒー",
+    "rm": "koohii",
+    "meaning": "咖啡"
+  },
+  {
+    "hira": "ビール",
+    "kata": "ビール",
+    "rm": "biiru",
+    "meaning": "啤酒"
+  },
+  {
+    "hira": "ほん",
+    "kata": "ホン",
+    "rm": "hon",
+    "meaning": "书"
+  },
+  {
+    "hira": "でんわ",
+    "kata": "デンワ",
+    "rm": "denwa",
+    "meaning": "电话"
+  },
+  {
+    "hira": "かばん",
+    "kata": "カバン",
+    "rm": "kaban",
+    "meaning": "包"
+  },
+  {
+    "hira": "くつ",
+    "kata": "クツ",
+    "rm": "kutsu",
+    "meaning": "鞋"
+  },
+  {
+    "hira": "かさ",
+    "kata": "カサ",
+    "rm": "kasa",
+    "meaning": "伞"
+  },
+  {
+    "hira": "めがね",
+    "kata": "メガネ",
+    "rm": "megane",
+    "meaning": "眼镜"
+  },
+  {
+    "hira": "とけい",
+    "kata": "トケイ",
+    "rm": "tokei",
+    "meaning": "钟表"
+  },
+  {
+    "hira": "くるま",
+    "kata": "クルマ",
+    "rm": "kuruma",
+    "meaning": "车"
+  },
+  {
+    "hira": "でんしゃ",
+    "kata": "デンシャ",
+    "rm": "densha",
+    "meaning": "电车"
+  },
+  {
+    "hira": "みる",
+    "kata": "ミル",
+    "rm": "miru",
+    "meaning": "看"
+  },
+  {
+    "hira": "きく",
+    "kata": "キク",
+    "rm": "kiku",
+    "meaning": "听"
+  },
+  {
+    "hira": "はなす",
+    "kata": "ハナス",
+    "rm": "hanasu",
+    "meaning": "说"
+  },
+  {
+    "hira": "よむ",
+    "kata": "ヨム",
+    "rm": "yomu",
+    "meaning": "读"
+  },
+  {
+    "hira": "かく",
+    "kata": "カク",
+    "rm": "kaku",
+    "meaning": "写"
+  },
+  {
+    "hira": "あるく",
+    "kata": "アルク",
+    "rm": "aruku",
+    "meaning": "走"
+  },
+  {
+    "hira": "はしる",
+    "kata": "ハシル",
+    "rm": "hashiru",
+    "meaning": "跑"
+  },
+  {
+    "hira": "ねる",
+    "kata": "ネル",
+    "rm": "neru",
+    "meaning": "睡"
+  },
+  {
+    "hira": "おきる",
+    "kata": "オキル",
+    "rm": "okiru",
+    "meaning": "起床"
+  },
+  {
+    "hira": "つくる",
+    "kata": "ツクル",
+    "rm": "tsukuru",
+    "meaning": "做/制作"
+  },
+  {
+    "hira": "かう",
+    "kata": "カウ",
+    "rm": "kau",
+    "meaning": "买"
+  },
+  {
+    "hira": "うる",
+    "kata": "ウル",
+    "rm": "uru",
+    "meaning": "卖"
+  },
+  {
+    "hira": "おおきい",
+    "kata": "オオキイ",
+    "rm": "ookii",
+    "meaning": "大"
+  },
+  {
+    "hira": "ちいさい",
+    "kata": "チイサイ",
+    "rm": "chiisai",
+    "meaning": "小"
+  },
+  {
+    "hira": "たかい",
+    "kata": "タカイ",
+    "rm": "takai",
+    "meaning": "高/贵"
+  },
+  {
+    "hira": "やすい",
+    "kata": "ヤスイ",
+    "rm": "yasui",
+    "meaning": "便宜"
+  },
+  {
+    "hira": "あたらしい",
+    "kata": "アタラシイ",
+    "rm": "atarashii",
+    "meaning": "新"
+  },
+  {
+    "hira": "ふるい",
+    "kata": "フルイ",
+    "rm": "furui",
+    "meaning": "旧"
+  },
+  {
+    "hira": "いい",
+    "kata": "イイ",
+    "rm": "ii",
+    "meaning": "好"
+  },
+  {
+    "hira": "わるい",
+    "kata": "ワルイ",
+    "rm": "warui",
+    "meaning": "坏"
+  },
+  {
+    "hira": "あつい",
+    "kata": "アツイ",
+    "rm": "atsui",
+    "meaning": "热"
+  },
+  {
+    "hira": "さむい",
+    "kata": "サムイ",
+    "rm": "samui",
+    "meaning": "冷"
+  },
+  {
+    "hira": "おいしい",
+    "kata": "オイシイ",
+    "rm": "oishii",
+    "meaning": "好吃"
+  },
+  {
+    "hira": "すき",
+    "kata": "スキ",
+    "rm": "suki",
+    "meaning": "喜欢"
+  },
+  {
+    "hira": "きらい",
+    "kata": "キライ",
+    "rm": "kirai",
+    "meaning": "讨厌"
+  },
+  {
+    "hira": "がっこう",
+    "kata": "ガッコウ",
+    "rm": "gakkou",
+    "meaning": "学校"
+  },
+  {
+    "hira": "かいしゃ",
+    "kata": "カイシャ",
+    "rm": "kaisha",
+    "meaning": "公司"
+  },
+  {
+    "hira": "びょういん",
+    "kata": "ビョウイン",
+    "rm": "byouin",
+    "meaning": "医院"
+  },
+  {
+    "hira": "えき",
+    "kata": "エキ",
+    "rm": "eki",
+    "meaning": "车站"
+  },
+  {
+    "hira": "みせ",
+    "kata": "ミセ",
+    "rm": "mise",
+    "meaning": "商店"
+  },
+  {
+    "hira": "レストラン",
+    "kata": "レストラン",
+    "rm": "resutoran",
+    "meaning": "餐厅"
+  },
+  {
+    "hira": "ホテル",
+    "kata": "ホテル",
+    "rm": "hoteru",
+    "meaning": "酒店"
+  },
+  {
+    "hira": "こうえん",
+    "kata": "コウエン",
+    "rm": "kouen",
+    "meaning": "公园"
+  },
+  {
+    "hira": "せんせい",
+    "kata": "センセイ",
+    "rm": "sensei",
+    "meaning": "老师"
+  },
+  {
+    "hira": "がくせい",
+    "kata": "ガクセイ",
+    "rm": "gakusei",
+    "meaning": "学生"
+  },
+  {
+    "hira": "かぞく",
+    "kata": "カゾク",
+    "rm": "kazoku",
+    "meaning": "家人"
+  },
+  {
+    "hira": "おとうさん",
+    "kata": "オトウサン",
+    "rm": "otousan",
+    "meaning": "爸爸"
+  },
+  {
+    "hira": "おかあさん",
+    "kata": "オカアサン",
+    "rm": "okaasan",
+    "meaning": "妈妈"
+  },
+  {
+    "hira": "あに",
+    "kata": "アニ",
+    "rm": "ani",
+    "meaning": "哥哥"
+  },
+  {
+    "hira": "あね",
+    "kata": "アネ",
+    "rm": "ane",
+    "meaning": "姐姐"
+  },
+  {
+    "hira": "おとうと",
+    "kata": "オトウト",
+    "rm": "otouto",
+    "meaning": "弟弟"
+  },
+  {
+    "hira": "いもうと",
+    "kata": "イモウト",
+    "rm": "imouto",
+    "meaning": "妹妹"
+  },
+  {
+    "hira": "にほん",
+    "kata": "ニホン",
+    "rm": "nihon",
+    "meaning": "日本"
+  },
+  {
+    "hira": "ちゅうごく",
+    "kata": "チュウゴク",
+    "rm": "chuugoku",
+    "meaning": "中国"
+  },
+  {
+    "hira": "アメリカ",
+    "kata": "アメリカ",
+    "rm": "amerika",
+    "meaning": "美国"
+  },
+  {
+    "hira": "にほんご",
+    "kata": "ニホンゴ",
+    "rm": "nihongo",
+    "meaning": "日语"
+  },
+  {
+    "hira": "えいご",
+    "kata": "エイゴ",
+    "rm": "eigo",
+    "meaning": "英语"
+  },
+  {
+    "hira": "てがみ",
+    "kata": "テガミ",
+    "rm": "tegami",
+    "meaning": "信"
+  },
+  {
+    "hira": "てんき",
+    "kata": "テンキ",
+    "rm": "tenki",
+    "meaning": "天气"
+  },
+  {
+    "hira": "てつだう",
+    "kata": "テツダウ",
+    "rm": "tetsudau",
+    "meaning": "帮助"
+  },
+  {
+    "hira": "テレビ",
+    "kata": "テレビ",
+    "rm": "terebi",
+    "meaning": "电视"
+  },
+  {
+    "hira": "まち",
+    "kata": "マチ",
+    "rm": "machi",
+    "meaning": "城镇"
+  },
+  {
+    "hira": "まど",
+    "kata": "マド",
+    "rm": "mado",
+    "meaning": "窗户"
+  },
+  {
+    "hira": "まつ",
+    "kata": "マツ",
+    "rm": "matsu",
+    "meaning": "等待"
+  },
+  {
+    "hira": "まえ",
+    "kata": "マエ",
+    "rm": "mae",
+    "meaning": "前面"
+  },
+  {
+    "hira": "むし",
+    "kata": "ムシ",
+    "rm": "mushi",
+    "meaning": "虫子"
+  },
+  {
+    "hira": "むすめ",
+    "kata": "ムスメ",
+    "rm": "musume",
+    "meaning": "女儿"
+  },
+  {
+    "hira": "むすこ",
+    "kata": "ムスコ",
+    "rm": "musuko",
+    "meaning": "儿子"
+  },
+  {
+    "hira": "むずかしい",
+    "kata": "ムズカシイ",
+    "rm": "muzukashii",
+    "meaning": "难"
+  },
+  {
+    "hira": "もの",
+    "kata": "モノ",
+    "rm": "mono",
+    "meaning": "东西"
+  },
+  {
+    "hira": "もり",
+    "kata": "モリ",
+    "rm": "mori",
+    "meaning": "森林"
+  },
+  {
+    "hira": "もつ",
+    "kata": "モツ",
+    "rm": "motsu",
+    "meaning": "拿"
+  },
+  {
+    "hira": "もんだい",
+    "kata": "モンダイ",
+    "rm": "mondai",
+    "meaning": "问题"
+  },
+  {
+    "hira": "ゆき",
+    "kata": "ユキ",
+    "rm": "yuki",
+    "meaning": "雪"
+  },
+  {
+    "hira": "ゆめ",
+    "kata": "ユメ",
+    "rm": "yume",
+    "meaning": "梦"
+  },
+  {
+    "hira": "ゆうびんきょく",
+    "kata": "ユウビンキョク",
+    "rm": "yuubinkyoku",
+    "meaning": "邮局"
+  },
+  {
+    "hira": "ゆっくり",
+    "kata": "ユックリ",
+    "rm": "yukkuri",
+    "meaning": "慢慢地"
+  },
+  {
+    "hira": "りんご",
+    "kata": "リンゴ",
+    "rm": "ringo",
+    "meaning": "苹果"
+  },
+  {
+    "hira": "りょうり",
+    "kata": "リョウリ",
+    "rm": "ryouri",
+    "meaning": "料理"
+  },
+  {
+    "hira": "りゆう",
+    "kata": "リユウ",
+    "rm": "riyuu",
+    "meaning": "理由"
+  },
+  {
+    "hira": "りかい",
+    "kata": "リカイ",
+    "rm": "rikai",
+    "meaning": "理解"
+  },
+  {
+    "hira": "るす",
+    "kata": "ルス",
+    "rm": "rusu",
+    "meaning": "不在家"
+  },
+  {
+    "hira": "ろうか",
+    "kata": "ロウカ",
+    "rm": "rouka",
+    "meaning": "走廊"
+  },
+  {
+    "hira": "わたし",
+    "kata": "ワタシ",
+    "rm": "watashi",
+    "meaning": "我"
+  },
+  {
+    "hira": "わかる",
+    "kata": "ワカル",
+    "rm": "wakaru",
+    "meaning": "明白"
+  },
+  {
+    "hira": "わすれる",
+    "kata": "ワスレル",
+    "rm": "wasureru",
+    "meaning": "忘记"
+  },
+  {
+    "hira": "しごと",
+    "kata": "シゴト",
+    "rm": "shigoto",
+    "meaning": "工作"
+  },
+  {
+    "hira": "しんぶん",
+    "kata": "シンブン",
+    "rm": "shinbun",
+    "meaning": "报纸"
+  },
+  {
+    "hira": "しつもん",
+    "kata": "シツモン",
+    "rm": "shitsumon",
+    "meaning": "问题"
+  },
+  {
+    "hira": "した",
+    "kata": "シタ",
+    "rm": "shita",
+    "meaning": "下面"
+  },
+  {
+    "hira": "そと",
+    "kata": "ソト",
+    "rm": "soto",
+    "meaning": "外面"
+  },
+  {
+    "hira": "そら",
+    "kata": "ソラ",
+    "rm": "sora",
+    "meaning": "天空"
+  },
+  {
+    "hira": "そこ",
+    "kata": "ソコ",
+    "rm": "soko",
+    "meaning": "那里"
+  },
+  {
+    "hira": "そば",
+    "kata": "ソバ",
+    "rm": "soba",
+    "meaning": "旁边/荞麦面"
+  },
+  {
+    "hira": "なつ",
+    "kata": "ナツ",
+    "rm": "natsu",
+    "meaning": "夏天"
+  },
+  {
+    "hira": "なか",
+    "kata": "ナカ",
+    "rm": "naka",
+    "meaning": "里面"
+  },
+  {
+    "hira": "なまえ",
+    "kata": "ナマエ",
+    "rm": "namae",
+    "meaning": "名字"
+  },
+  {
+    "hira": "ならう",
+    "kata": "ナラウ",
+    "rm": "narau",
+    "meaning": "学习"
+  },
+  {
+    "hira": "ひま",
+    "kata": "ヒマ",
+    "rm": "hima",
+    "meaning": "空闲"
+  },
+  {
+    "hira": "ひこうき",
+    "kata": "ヒコウキ",
+    "rm": "hikouki",
+    "meaning": "飞机"
+  },
+  {
+    "hira": "ひだり",
+    "kata": "ヒダリ",
+    "rm": "hidari",
+    "meaning": "左边"
+  },
+  {
+    "hira": "ひつよう",
+    "kata": "ヒツヨウ",
+    "rm": "hitsuyou",
+    "meaning": "必要"
+  },
+  {
+    "hira": "ふね",
+    "kata": "フネ",
+    "rm": "fune",
+    "meaning": "船"
+  },
+  {
+    "hira": "ふゆ",
+    "kata": "フユ",
+    "rm": "fuyu",
+    "meaning": "冬天"
+  },
+  {
+    "hira": "ふく",
+    "kata": "フク",
+    "rm": "fuku",
+    "meaning": "衣服"
+  },
+  {
+    "hira": "ふたり",
+    "kata": "フタリ",
+    "rm": "futari",
+    "meaning": "两人"
+  },
+  {
+    "hira": "へや",
+    "kata": "ヘヤ",
+    "rm": "heya",
+    "meaning": "房间"
+  },
+  {
+    "hira": "へん",
+    "kata": "ヘン",
+    "rm": "hen",
+    "meaning": "奇怪"
+  },
+  {
+    "hira": "へた",
+    "kata": "ヘタ",
+    "rm": "heta",
+    "meaning": "不擅长"
+  },
+  {
+    "hira": "ほし",
+    "kata": "ホシ",
+    "rm": "hoshi",
+    "meaning": "星星"
+  },
+  {
+    "hira": "ほか",
+    "kata": "ホカ",
+    "rm": "hoka",
+    "meaning": "其他"
+  },
+  {
+    "hira": "ほんとう",
+    "kata": "ホントウ",
+    "rm": "hontou",
+    "meaning": "真的"
+  },
+  {
+    "hira": "けさ",
+    "kata": "ケサ",
+    "rm": "kesa",
+    "meaning": "今早"
+  },
+  {
+    "hira": "けっこん",
+    "kata": "ケッコン",
+    "rm": "kekkon",
+    "meaning": "结婚"
+  },
+  {
+    "hira": "けいたい",
+    "kata": "ケイタイ",
+    "rm": "keitai",
+    "meaning": "手机"
+  },
+  {
+    "hira": "けんこう",
+    "kata": "ケンコウ",
+    "rm": "kenkou",
+    "meaning": "健康"
+  },
+  {
+    "hira": "げんき",
+    "kata": "ゲンキ",
+    "rm": "genki",
+    "meaning": "精神/健康"
+  },
+  {
+    "hira": "げつようび",
+    "kata": "ゲツヨウビ",
+    "rm": "getsuyoubi",
+    "meaning": "星期一"
+  },
+  {
+    "hira": "せかい",
+    "kata": "セカイ",
+    "rm": "sekai",
+    "meaning": "世界"
+  },
+  {
+    "hira": "せいかつ",
+    "kata": "セイカツ",
+    "rm": "seikatsu",
+    "meaning": "生活"
+  },
+  {
+    "hira": "ぜんぶ",
+    "kata": "ゼンブ",
+    "rm": "zenbu",
+    "meaning": "全部"
+  },
+  {
+    "hira": "つぎ",
+    "kata": "ツギ",
+    "rm": "tsugi",
+    "meaning": "下一个"
+  },
+  {
+    "hira": "つき",
+    "kata": "ツキ",
+    "rm": "tsuki",
+    "meaning": "月亮"
+  },
+  {
+    "hira": "つかう",
+    "kata": "ツカウ",
+    "rm": "tsukau",
+    "meaning": "使用"
+  },
+  {
+    "hira": "つめたい",
+    "kata": "ツメタイ",
+    "rm": "tsumetai",
+    "meaning": "冰凉"
+  },
+  {
+    "hira": "ちず",
+    "kata": "チズ",
+    "rm": "chizu",
+    "meaning": "地图"
+  },
+  {
+    "hira": "ちかい",
+    "kata": "チカイ",
+    "rm": "chikai",
+    "meaning": "近"
+  },
+  {
+    "hira": "ちから",
+    "kata": "チカラ",
+    "rm": "chikara",
+    "meaning": "力量"
+  },
+  {
+    "hira": "ちがう",
+    "kata": "チガウ",
+    "rm": "chigau",
+    "meaning": "不同"
+  },
+  {
+    "hira": "だいがく",
+    "kata": "ダイガク",
+    "rm": "daigaku",
+    "meaning": "大学"
+  },
+  {
+    "hira": "だいじょうぶ",
+    "kata": "ダイジョウブ",
+    "rm": "daijoubu",
+    "meaning": "没问题"
+  },
+  {
+    "hira": "だれ",
+    "kata": "ダレ",
+    "rm": "dare",
+    "meaning": "谁"
+  },
+  {
+    "hira": "どこ",
+    "kata": "ドコ",
+    "rm": "doko",
+    "meaning": "哪里"
+  },
+  {
+    "hira": "どうぶつ",
+    "kata": "ドウブツ",
+    "rm": "doubutsu",
+    "meaning": "动物"
+  },
+  {
+    "hira": "どうぞ",
+    "kata": "ドウゾ",
+    "rm": "douzo",
+    "meaning": "请"
+  },
+  {
+    "hira": "どれ",
+    "kata": "ドレ",
+    "rm": "dore",
+    "meaning": "哪个"
+  },
+  {
+    "hira": "ばしょ",
+    "kata": "バショ",
+    "rm": "basho",
+    "meaning": "地方"
+  },
+  {
+    "hira": "ばんごはん",
+    "kata": "バンゴハン",
+    "rm": "bangohan",
+    "meaning": "晚饭"
+  },
+  {
+    "hira": "ぶんか",
+    "kata": "ブンカ",
+    "rm": "bunka",
+    "meaning": "文化"
+  },
+  {
+    "hira": "べんり",
+    "kata": "ベンリ",
+    "rm": "benri",
+    "meaning": "方便"
+  },
+  {
+    "hira": "べんきょう",
+    "kata": "ベンキョウ",
+    "rm": "benkyou",
+    "meaning": "学习"
+  },
+  {
+    "hira": "ぼく",
+    "kata": "ボク",
+    "rm": "boku",
+    "meaning": "我(男)"
+  },
+  {
+    "hira": "はる",
+    "kata": "ハル",
+    "rm": "haru",
+    "meaning": "春天"
+  },
+  {
+    "hira": "あき",
+    "kata": "アキ",
+    "rm": "aki",
+    "meaning": "秋天"
+  },
+  {
+    "hira": "かわ",
+    "kata": "カワ",
+    "rm": "kawa",
+    "meaning": "河"
+  },
+  {
+    "hira": "やま",
+    "kata": "ヤマ",
+    "rm": "yama",
+    "meaning": "山"
+  },
+  {
+    "hira": "うみ",
+    "kata": "ウミ",
+    "rm": "umi",
+    "meaning": "海"
+  },
+  {
+    "hira": "あめ",
+    "kata": "アメ",
+    "rm": "ame",
+    "meaning": "雨"
+  },
+  {
+    "hira": "かぜ",
+    "kata": "カゼ",
+    "rm": "kaze",
+    "meaning": "风/感冒"
+  },
+  {
+    "hira": "くも",
+    "kata": "クモ",
+    "rm": "kumo",
+    "meaning": "云"
+  },
+  {
+    "hira": "あたま",
+    "kata": "アタマ",
+    "rm": "atama",
+    "meaning": "头"
+  },
+  {
+    "hira": "かお",
+    "kata": "カオ",
+    "rm": "kao",
+    "meaning": "脸"
+  },
+  {
+    "hira": "め",
+    "kata": "メ",
+    "rm": "me",
+    "meaning": "眼睛"
+  },
+  {
+    "hira": "みみ",
+    "kata": "ミミ",
+    "rm": "mimi",
+    "meaning": "耳朵"
+  },
+  {
+    "hira": "はな",
+    "kata": "ハナ",
+    "rm": "hana",
+    "meaning": "鼻子/花"
+  },
+  {
+    "hira": "くち",
+    "kata": "クチ",
+    "rm": "kuchi",
+    "meaning": "嘴"
+  },
+  {
+    "hira": "て",
+    "kata": "テ",
+    "rm": "te",
+    "meaning": "手"
+  },
+  {
+    "hira": "あし",
+    "kata": "アシ",
+    "rm": "ashi",
+    "meaning": "脚"
+  },
+  {
+    "hira": "おかね",
+    "kata": "オカネ",
+    "rm": "okane",
+    "meaning": "钱"
+  },
+  {
+    "hira": "しお",
+    "kata": "シオ",
+    "rm": "shio",
+    "meaning": "盐"
+  },
+  {
+    "hira": "さとう",
+    "kata": "サトウ",
+    "rm": "satou",
+    "meaning": "糖"
+  },
+  {
+    "hira": "とし",
+    "kata": "トシ",
+    "rm": "toshi",
+    "meaning": "年龄/城市"
+  },
+  {
+    "hira": "おとな",
+    "kata": "オトナ",
+    "rm": "otona",
+    "meaning": "大人"
+  },
+  {
+    "hira": "こども",
+    "kata": "コドモ",
+    "rm": "kodomo",
+    "meaning": "小孩"
+  },
+  {
+    "hira": "なに",
+    "kata": "ナニ",
+    "rm": "nani",
+    "meaning": "什么"
+  },
+  {
+    "hira": "いつ",
+    "kata": "イツ",
+    "rm": "itsu",
+    "meaning": "什么时候"
+  },
+  {
+    "hira": "どう",
+    "kata": "ドウ",
+    "rm": "dou",
+    "meaning": "怎么样"
+  },
+  {
+    "hira": "なぜ",
+    "kata": "ナゼ",
+    "rm": "naze",
+    "meaning": "为什么"
+  },
+  {
+    "hira": "ここ",
+    "kata": "ココ",
+    "rm": "koko",
+    "meaning": "这里"
+  },
+  {
+    "hira": "これ",
+    "kata": "コレ",
+    "rm": "kore",
+    "meaning": "这个"
+  },
+  {
+    "hira": "それ",
+    "kata": "ソレ",
+    "rm": "sore",
+    "meaning": "那个"
+  },
+  {
+    "hira": "あれ",
+    "kata": "アレ",
+    "rm": "are",
+    "meaning": "那个(远)"
+  },
+  {
+    "hira": "みぎ",
+    "kata": "ミギ",
+    "rm": "migi",
+    "meaning": "右边"
+  },
+  {
+    "hira": "うえ",
+    "kata": "ウエ",
+    "rm": "ue",
+    "meaning": "上面"
+  },
+  {
+    "hira": "ねがい",
+    "kata": "ネガイ",
+    "rm": "negai",
+    "meaning": "愿望"
+  },
+  {
+    "hira": "のこる",
+    "kata": "ノコル",
+    "rm": "nokoru",
+    "meaning": "留下"
+  },
+  {
+    "hira": "ぬる",
+    "kata": "ヌル",
+    "rm": "nuru",
+    "meaning": "涂"
+  },
+  {
+    "hira": "ひく",
+    "kata": "ヒク",
+    "rm": "hiku",
+    "meaning": "拉/弹"
+  },
+  {
+    "hira": "ふる",
+    "kata": "フル",
+    "rm": "furu",
+    "meaning": "下(雨雪)"
+  },
+  {
+    "hira": "へる",
+    "kata": "ヘル",
+    "rm": "heru",
+    "meaning": "减少"
+  },
+  {
+    "hira": "ほる",
+    "kata": "ホル",
+    "rm": "horu",
+    "meaning": "挖"
+  },
+  {
+    "hira": "まる",
+    "kata": "マル",
+    "rm": "maru",
+    "meaning": "圆"
+  },
+  {
+    "hira": "みち",
+    "kata": "ミチ",
+    "rm": "michi",
+    "meaning": "路"
+  },
+  {
+    "hira": "むかし",
+    "kata": "ムカシ",
+    "rm": "mukashi",
+    "meaning": "从前"
+  },
+  {
+    "hira": "もち",
+    "kata": "モチ",
+    "rm": "mochi",
+    "meaning": "年糕"
+  },
+  {
+    "hira": "やる",
+    "kata": "ヤル",
+    "rm": "yaru",
+    "meaning": "做"
+  },
+  {
+    "hira": "ゆび",
+    "kata": "ユビ",
+    "rm": "yubi",
+    "meaning": "手指"
+  },
+  {
+    "hira": "よい",
+    "kata": "ヨイ",
+    "rm": "yoi",
+    "meaning": "好"
+  },
+  {
+    "hira": "らく",
+    "kata": "ラク",
+    "rm": "raku",
+    "meaning": "轻松"
+  },
+  {
+    "hira": "れい",
+    "kata": "レイ",
+    "rm": "rei",
+    "meaning": "零/礼"
+  },
+  {
+    "hira": "ろうじん",
+    "kata": "ロウジン",
+    "rm": "roujin",
+    "meaning": "老人"
+  },
+  {
+    "hira": "にわ",
+    "kata": "ニワ",
+    "rm": "niwa",
+    "meaning": "院子"
+  },
+  {
+    "hira": "だいどころ",
+    "kata": "ダイドコロ",
+    "rm": "daidokoro",
+    "meaning": "厨房"
+  },
+  {
+    "hira": "おふろ",
+    "kata": "オフロ",
+    "rm": "ofuro",
+    "meaning": "浴室"
+  },
+  {
+    "hira": "トイレ",
+    "kata": "トイレ",
+    "rm": "toire",
+    "meaning": "厕所"
+  },
+  {
+    "hira": "かいだん",
+    "kata": "カイダン",
+    "rm": "kaidan",
+    "meaning": "楼梯"
+  },
+  {
+    "hira": "やね",
+    "kata": "ヤネ",
+    "rm": "yane",
+    "meaning": "屋顶"
+  },
+  {
+    "hira": "かべ",
+    "kata": "カベ",
+    "rm": "kabe",
+    "meaning": "墙壁"
+  },
+  {
+    "hira": "ゆか",
+    "kata": "ユカ",
+    "rm": "yuka",
+    "meaning": "地板"
+  },
+  {
+    "hira": "いす",
+    "kata": "イス",
+    "rm": "isu",
+    "meaning": "椅子"
+  },
+  {
+    "hira": "つくえ",
+    "kata": "ツクエ",
+    "rm": "tsukue",
+    "meaning": "桌子"
+  },
+  {
+    "hira": "ベッド",
+    "kata": "ベッド",
+    "rm": "beddo",
+    "meaning": "床"
+  },
+  {
+    "hira": "ソファー",
+    "kata": "ソファー",
+    "rm": "sofaa",
+    "meaning": "沙发"
+  },
+  {
+    "hira": "たな",
+    "kata": "タナ",
+    "rm": "tana",
+    "meaning": "架子"
+  },
+  {
+    "hira": "カーテン",
+    "kata": "カーテン",
+    "rm": "kaaten",
+    "meaning": "窗帘"
+  },
+  {
+    "hira": "かがみ",
+    "kata": "カガミ",
+    "rm": "kagami",
+    "meaning": "镜子"
+  },
+  {
+    "hira": "せっけん",
+    "kata": "セッケン",
+    "rm": "sekken",
+    "meaning": "肥皂"
+  },
+  {
+    "hira": "タオル",
+    "kata": "タオル",
+    "rm": "taoru",
+    "meaning": "毛巾"
+  },
+  {
+    "hira": "はぶらし",
+    "kata": "ハブラシ",
+    "rm": "haburashi",
+    "meaning": "牙刷"
+  },
+  {
+    "hira": "れいぞうこ",
+    "kata": "レイゾウコ",
+    "rm": "reizouko",
+    "meaning": "冰箱"
+  },
+  {
+    "hira": "せんたくき",
+    "kata": "センタクキ",
+    "rm": "sentakuki",
+    "meaning": "洗衣机"
+  },
+  {
+    "hira": "エアコン",
+    "kata": "エアコン",
+    "rm": "eakon",
+    "meaning": "空调"
+  },
+  {
+    "hira": "でんき",
+    "kata": "デンキ",
+    "rm": "denki",
+    "meaning": "电灯"
+  },
+  {
+    "hira": "かぎ",
+    "kata": "カギ",
+    "rm": "kagi",
+    "meaning": "钥匙"
+  },
+  {
+    "hira": "さら",
+    "kata": "サラ",
+    "rm": "sara",
+    "meaning": "盘子"
+  },
+  {
+    "hira": "コップ",
+    "kata": "コップ",
+    "rm": "koppu",
+    "meaning": "杯子"
+  },
+  {
+    "hira": "はし",
+    "kata": "ハシ",
+    "rm": "hashi",
+    "meaning": "筷子"
+  },
+  {
+    "hira": "スプーン",
+    "kata": "スプーン",
+    "rm": "supuun",
+    "meaning": "勺子"
+  },
+  {
+    "hira": "フォーク",
+    "kata": "フォーク",
+    "rm": "fooku",
+    "meaning": "叉子"
+  },
+  {
+    "hira": "ナイフ",
+    "kata": "ナイフ",
+    "rm": "naifu",
+    "meaning": "刀"
+  },
+  {
+    "hira": "なべ",
+    "kata": "ナベ",
+    "rm": "nabe",
+    "meaning": "锅"
+  },
+  {
+    "hira": "ふとん",
+    "kata": "フトン",
+    "rm": "futon",
+    "meaning": "被子"
+  },
+  {
+    "hira": "まくら",
+    "kata": "マクラ",
+    "rm": "makura",
+    "meaning": "枕头"
+  },
+  {
+    "hira": "ごみ",
+    "kata": "ゴミ",
+    "rm": "gomi",
+    "meaning": "垃圾"
+  },
+  {
+    "hira": "そうじ",
+    "kata": "ソウジ",
+    "rm": "souji",
+    "meaning": "打扫"
+  },
+  {
+    "hira": "せんたく",
+    "kata": "センタク",
+    "rm": "sentaku",
+    "meaning": "洗衣"
+  },
+  {
+    "hira": "にもつ",
+    "kata": "ニモツ",
+    "rm": "nimotsu",
+    "meaning": "行李"
+  },
+  {
+    "hira": "おみやげ",
+    "kata": "オミヤゲ",
+    "rm": "omiyage",
+    "meaning": "礼物"
+  },
+  {
+    "hira": "ぬいぐるみ",
+    "kata": "ヌイグルミ",
+    "rm": "nuigurumi",
+    "meaning": "玩偶"
+  },
+  {
+    "hira": "にんぎょう",
+    "kata": "ニンギョウ",
+    "rm": "ningyou",
+    "meaning": "人偶"
+  },
+  {
+    "hira": "おもちゃ",
+    "kata": "オモチャ",
+    "rm": "omocha",
+    "meaning": "玩具"
+  },
+  {
+    "hira": "さいふ",
+    "kata": "サイフ",
+    "rm": "saifu",
+    "meaning": "钱包"
+  },
+  {
+    "hira": "ハンカチ",
+    "kata": "ハンカチ",
+    "rm": "hankachi",
+    "meaning": "手帕"
+  },
+  {
+    "hira": "ぼうし",
+    "kata": "ボウシ",
+    "rm": "boushi",
+    "meaning": "帽子"
+  },
+  {
+    "hira": "ズボン",
+    "kata": "ズボン",
+    "rm": "zubon",
+    "meaning": "裤子"
+  },
+  {
+    "hira": "スカート",
+    "kata": "スカート",
+    "rm": "sukaato",
+    "meaning": "裙子"
+  },
+  {
+    "hira": "シャツ",
+    "kata": "シャツ",
+    "rm": "shatsu",
+    "meaning": "衬衫"
+  },
+  {
+    "hira": "コート",
+    "kata": "コート",
+    "rm": "kooto",
+    "meaning": "外套"
+  },
+  {
+    "hira": "くつした",
+    "kata": "クツシタ",
+    "rm": "kutsushita",
+    "meaning": "袜子"
+  },
+  {
+    "hira": "ネクタイ",
+    "kata": "ネクタイ",
+    "rm": "nekutai",
+    "meaning": "领带"
+  },
+  {
+    "hira": "ゆびわ",
+    "kata": "ユビワ",
+    "rm": "yubiwa",
+    "meaning": "戒指"
+  },
+  {
+    "hira": "うでどけい",
+    "kata": "ウデドケイ",
+    "rm": "udedokei",
+    "meaning": "手表"
+  },
+  {
+    "hira": "かみ",
+    "kata": "カミ",
+    "rm": "kami",
+    "meaning": "纸/头发"
+  },
+  {
+    "hira": "えんぴつ",
+    "kata": "エンピツ",
+    "rm": "enpitsu",
+    "meaning": "铅笔"
+  },
+  {
+    "hira": "ペン",
+    "kata": "ペン",
+    "rm": "pen",
+    "meaning": "笔"
+  },
+  {
+    "hira": "けしゴム",
+    "kata": "ケシゴム",
+    "rm": "keshigomu",
+    "meaning": "橡皮"
+  },
+  {
+    "hira": "ノート",
+    "kata": "ノート",
+    "rm": "nooto",
+    "meaning": "笔记本"
+  },
+  {
+    "hira": "じしょ",
+    "kata": "ジショ",
+    "rm": "jisho",
+    "meaning": "词典"
+  },
+  {
+    "hira": "しゃしん",
+    "kata": "シャシン",
+    "rm": "shashin",
+    "meaning": "照片"
+  },
+  {
+    "hira": "カメラ",
+    "kata": "カメラ",
+    "rm": "kamera",
+    "meaning": "相机"
+  },
+  {
+    "hira": "パソコン",
+    "kata": "パソコン",
+    "rm": "pasokon",
+    "meaning": "电脑"
+  },
+  {
+    "hira": "でんち",
+    "kata": "デンチ",
+    "rm": "denchi",
+    "meaning": "电池"
+  },
+  {
+    "hira": "じてんしゃ",
+    "kata": "ジテンシャ",
+    "rm": "jitensha",
+    "meaning": "自行车"
+  },
+  {
+    "hira": "バス",
+    "kata": "バス",
+    "rm": "basu",
+    "meaning": "公交车"
+  },
+  {
+    "hira": "タクシー",
+    "kata": "タクシー",
+    "rm": "takushii",
+    "meaning": "出租车"
+  },
+  {
+    "hira": "ちかてつ",
+    "kata": "チカテツ",
+    "rm": "chikatetsu",
+    "meaning": "地铁"
+  },
+  {
+    "hira": "しんかんせん",
+    "kata": "シンカンセン",
+    "rm": "shinkansen",
+    "meaning": "新干线"
+  },
+  {
+    "hira": "きっぷ",
+    "kata": "キップ",
+    "rm": "kippu",
+    "meaning": "车票"
+  },
+  {
+    "hira": "パスポート",
+    "kata": "パスポート",
+    "rm": "pasupooto",
+    "meaning": "护照"
+  },
+  {
+    "hira": "くうこう",
+    "kata": "クウコウ",
+    "rm": "kuukou",
+    "meaning": "机场"
+  },
+  {
+    "hira": "みなと",
+    "kata": "ミナト",
+    "rm": "minato",
+    "meaning": "港口"
+  },
+  {
+    "hira": "はし",
+    "kata": "ハシ",
+    "rm": "hashib",
+    "meaning": "桥"
+  },
+  {
+    "hira": "こうさてん",
+    "kata": "コウサテン",
+    "rm": "kousaten",
+    "meaning": "十字路口"
+  },
+  {
+    "hira": "しんごう",
+    "kata": "シンゴウ",
+    "rm": "shingou",
+    "meaning": "红绿灯"
+  },
+  {
+    "hira": "どうろ",
+    "kata": "ドウロ",
+    "rm": "douro",
+    "meaning": "道路"
+  },
+  {
+    "hira": "こめ",
+    "kata": "コメ",
+    "rm": "kome",
+    "meaning": "米"
+  },
+  {
+    "hira": "みそ",
+    "kata": "ミソ",
+    "rm": "miso",
+    "meaning": "味噌"
+  },
+  {
+    "hira": "しょうゆ",
+    "kata": "ショウユ",
+    "rm": "shouyu",
+    "meaning": "酱油"
+  },
+  {
+    "hira": "す",
+    "kata": "ス",
+    "rm": "su",
+    "meaning": "醋"
+  },
+  {
+    "hira": "あぶら",
+    "kata": "アブラ",
+    "rm": "abura",
+    "meaning": "油"
+  },
+  {
+    "hira": "こしょう",
+    "kata": "コショウ",
+    "rm": "koshou",
+    "meaning": "胡椒"
+  },
+  {
+    "hira": "ケーキ",
+    "kata": "ケーキ",
+    "rm": "keeki",
+    "meaning": "蛋糕"
+  },
+  {
+    "hira": "チョコレート",
+    "kata": "チョコレート",
+    "rm": "chokoreeto",
+    "meaning": "巧克力"
+  },
+  {
+    "hira": "アイスクリーム",
+    "kata": "アイスクリーム",
+    "rm": "aisukuriimu",
+    "meaning": "冰淇淋"
+  },
+  {
+    "hira": "ジュース",
+    "kata": "ジュース",
+    "rm": "juusu",
+    "meaning": "果汁"
+  },
+  {
+    "hira": "ワイン",
+    "kata": "ワイン",
+    "rm": "wain",
+    "meaning": "葡萄酒"
+  },
+  {
+    "hira": "さけ",
+    "kata": "サケ",
+    "rm": "sake",
+    "meaning": "酒"
+  },
+  {
+    "hira": "ぶどう",
+    "kata": "ブドウ",
+    "rm": "budou",
+    "meaning": "葡萄"
+  },
+  {
+    "hira": "いちご",
+    "kata": "イチゴ",
+    "rm": "ichigo",
+    "meaning": "草莓"
+  },
+  {
+    "hira": "みかん",
+    "kata": "ミカン",
+    "rm": "mikan",
+    "meaning": "橘子"
+  },
+  {
+    "hira": "バナナ",
+    "kata": "バナナ",
+    "rm": "banana",
+    "meaning": "香蕉"
+  },
+  {
+    "hira": "すいか",
+    "kata": "スイカ",
+    "rm": "suika",
+    "meaning": "西瓜"
+  },
+  {
+    "hira": "もも",
+    "kata": "モモ",
+    "rm": "momo",
+    "meaning": "桃子"
+  },
+  {
+    "hira": "なし",
+    "kata": "ナシ",
+    "rm": "nashi",
+    "meaning": "梨"
+  },
+  {
+    "hira": "レモン",
+    "kata": "レモン",
+    "rm": "remon",
+    "meaning": "柠檬"
+  },
+  {
+    "hira": "トマト",
+    "kata": "トマト",
+    "rm": "tomato",
+    "meaning": "番茄"
+  },
+  {
+    "hira": "にんじん",
+    "kata": "ニンジン",
+    "rm": "ninjin",
+    "meaning": "胡萝卜"
+  },
+  {
+    "hira": "たまねぎ",
+    "kata": "タマネギ",
+    "rm": "tamanegi",
+    "meaning": "洋葱"
+  },
+  {
+    "hira": "じゃがいも",
+    "kata": "ジャガイモ",
+    "rm": "jagaimo",
+    "meaning": "土豆"
+  },
+  {
+    "hira": "きゅうり",
+    "kata": "キュウリ",
+    "rm": "kyuuri",
+    "meaning": "黄瓜"
+  },
+  {
+    "hira": "キャベツ",
+    "kata": "キャベツ",
+    "rm": "kyabetsu",
+    "meaning": "卷心菜"
+  },
+  {
+    "hira": "だいこん",
+    "kata": "ダイコン",
+    "rm": "daikon",
+    "meaning": "萝卜"
+  },
+  {
+    "hira": "とうふ",
+    "kata": "トウフ",
+    "rm": "toufu",
+    "meaning": "豆腐"
+  },
+  {
+    "hira": "ぶたにく",
+    "kata": "ブタニク",
+    "rm": "butaniku",
+    "meaning": "猪肉"
+  },
+  {
+    "hira": "とりにく",
+    "kata": "トリニク",
+    "rm": "toriniku",
+    "meaning": "鸡肉"
+  },
+  {
+    "hira": "ぎゅうにく",
+    "kata": "ギュウニク",
+    "rm": "gyuuniku",
+    "meaning": "牛肉"
+  },
+  {
+    "hira": "えび",
+    "kata": "エビ",
+    "rm": "ebi",
+    "meaning": "虾"
+  },
+  {
+    "hira": "かに",
+    "kata": "カニ",
+    "rm": "kani",
+    "meaning": "螃蟹"
+  },
+  {
+    "hira": "いか",
+    "kata": "イカ",
+    "rm": "ika",
+    "meaning": "鱿鱼"
+  },
+  {
+    "hira": "たこ",
+    "kata": "タコ",
+    "rm": "tako",
+    "meaning": "章鱼"
+  },
+  {
+    "hira": "のり",
+    "kata": "ノリ",
+    "rm": "nori",
+    "meaning": "海苔"
+  },
+  {
+    "hira": "うどん",
+    "kata": "ウドン",
+    "rm": "udon",
+    "meaning": "乌冬面"
+  },
+  {
+    "hira": "カレー",
+    "kata": "カレー",
+    "rm": "karee",
+    "meaning": "咖喱"
+  },
+  {
+    "hira": "サラダ",
+    "kata": "サラダ",
+    "rm": "sarada",
+    "meaning": "沙拉"
+  },
+  {
+    "hira": "サンドイッチ",
+    "kata": "サンドイッチ",
+    "rm": "sandoicchi",
+    "meaning": "三明治"
+  },
+  {
+    "hira": "おにぎり",
+    "kata": "オニギリ",
+    "rm": "onigiri",
+    "meaning": "饭团"
+  },
+  {
+    "hira": "てんぷら",
+    "kata": "テンプラ",
+    "rm": "tenpura",
+    "meaning": "天妇罗"
+  },
+  {
+    "hira": "やきにく",
+    "kata": "ヤキニク",
+    "rm": "yakiniku",
+    "meaning": "烤肉"
+  },
+  {
+    "hira": "おべんとう",
+    "kata": "オベントウ",
+    "rm": "obentou",
+    "meaning": "便当"
+  },
+  {
+    "hira": "あさごはん",
+    "kata": "アサゴハン",
+    "rm": "asagohan",
+    "meaning": "早饭"
+  },
+  {
+    "hira": "ひるごはん",
+    "kata": "ヒルゴハン",
+    "rm": "hirugohan",
+    "meaning": "午饭"
+  },
+  {
+    "hira": "おかし",
+    "kata": "オカシ",
+    "rm": "okashi",
+    "meaning": "点心"
+  },
+  {
+    "hira": "むぎちゃ",
+    "kata": "ムギチャ",
+    "rm": "mugicha",
+    "meaning": "麦茶"
+  },
+  {
+    "hira": "からだ",
+    "kata": "カラダ",
+    "rm": "karada",
+    "meaning": "身体"
+  },
+  {
+    "hira": "かた",
+    "kata": "カタ",
+    "rm": "kata",
+    "meaning": "肩膀"
+  },
+  {
+    "hira": "むね",
+    "kata": "ムネ",
+    "rm": "mune",
+    "meaning": "胸"
+  },
+  {
+    "hira": "おなか",
+    "kata": "オナカ",
+    "rm": "onaka",
+    "meaning": "肚子"
+  },
+  {
+    "hira": "せなか",
+    "kata": "セナカ",
+    "rm": "senaka",
+    "meaning": "背"
+  },
+  {
+    "hira": "こし",
+    "kata": "コシ",
+    "rm": "koshi",
+    "meaning": "腰"
+  },
+  {
+    "hira": "ひざ",
+    "kata": "ヒザ",
+    "rm": "hiza",
+    "meaning": "膝盖"
+  },
+  {
+    "hira": "のど",
+    "kata": "ノド",
+    "rm": "nodo",
+    "meaning": "喉咙"
+  },
+  {
+    "hira": "は",
+    "kata": "ハ",
+    "rm": "ha",
+    "meaning": "牙齿"
+  },
+  {
+    "hira": "した",
+    "kata": "シタ",
+    "rm": "shitab",
+    "meaning": "舌头"
+  },
+  {
+    "hira": "ほね",
+    "kata": "ホネ",
+    "rm": "hone",
+    "meaning": "骨头"
+  },
+  {
+    "hira": "ち",
+    "kata": "チ",
+    "rm": "chi",
+    "meaning": "血"
+  },
+  {
+    "hira": "なみだ",
+    "kata": "ナミダ",
+    "rm": "namida",
+    "meaning": "眼泪"
+  },
+  {
+    "hira": "あせ",
+    "kata": "アセ",
+    "rm": "ase",
+    "meaning": "汗"
+  },
+  {
+    "hira": "こえ",
+    "kata": "コエ",
+    "rm": "koe",
+    "meaning": "声音"
+  },
+  {
+    "hira": "いき",
+    "kata": "イキ",
+    "rm": "iki",
+    "meaning": "呼吸"
+  },
+  {
+    "hira": "びょうき",
+    "kata": "ビョウキ",
+    "rm": "byouki",
+    "meaning": "生病"
+  },
+  {
+    "hira": "かぜ",
+    "kata": "カゼ",
+    "rm": "kazeb",
+    "meaning": "感冒"
+  },
+  {
+    "hira": "ねつ",
+    "kata": "ネツ",
+    "rm": "netsu",
+    "meaning": "发烧"
+  },
+  {
+    "hira": "くすり",
+    "kata": "クスリ",
+    "rm": "kusuri",
+    "meaning": "药"
+  },
+  {
+    "hira": "いしゃ",
+    "kata": "イシャ",
+    "rm": "isha",
+    "meaning": "医生"
+  },
+  {
+    "hira": "かんごし",
+    "kata": "カンゴシ",
+    "rm": "kangoshi",
+    "meaning": "护士"
+  },
+  {
+    "hira": "けが",
+    "kata": "ケガ",
+    "rm": "kega",
+    "meaning": "受伤"
+  },
+  {
+    "hira": "いたい",
+    "kata": "イタイ",
+    "rm": "itai",
+    "meaning": "疼"
+  },
+  {
+    "hira": "きもち",
+    "kata": "キモチ",
+    "rm": "kimochi",
+    "meaning": "心情"
+  },
+  {
+    "hira": "きぶん",
+    "kata": "キブン",
+    "rm": "kibun",
+    "meaning": "情绪"
+  },
+  {
+    "hira": "うれしい",
+    "kata": "ウレシイ",
+    "rm": "ureshii",
+    "meaning": "高兴"
+  },
+  {
+    "hira": "かなしい",
+    "kata": "カナシイ",
+    "rm": "kanashii",
+    "meaning": "悲伤"
+  },
+  {
+    "hira": "さびしい",
+    "kata": "サビシイ",
+    "rm": "sabishii",
+    "meaning": "寂寞"
+  },
+  {
+    "hira": "たのしい",
+    "kata": "タノシイ",
+    "rm": "tanoshii",
+    "meaning": "快乐"
+  },
+  {
+    "hira": "こわい",
+    "kata": "コワイ",
+    "rm": "kowai",
+    "meaning": "可怕"
+  },
+  {
+    "hira": "はずかしい",
+    "kata": "ハズカシイ",
+    "rm": "hazukashii",
+    "meaning": "害羞"
+  },
+  {
+    "hira": "おこる",
+    "kata": "オコル",
+    "rm": "okoru",
+    "meaning": "生气"
+  },
+  {
+    "hira": "なく",
+    "kata": "ナク",
+    "rm": "naku",
+    "meaning": "哭"
+  },
+  {
+    "hira": "わらう",
+    "kata": "ワラウ",
+    "rm": "warau",
+    "meaning": "笑"
+  },
+  {
+    "hira": "おどろく",
+    "kata": "オドロク",
+    "rm": "odoroku",
+    "meaning": "吃惊"
+  },
+  {
+    "hira": "しんぱい",
+    "kata": "シンパイ",
+    "rm": "shinpai",
+    "meaning": "担心"
+  },
+  {
+    "hira": "あんしん",
+    "kata": "アンシン",
+    "rm": "anshin",
+    "meaning": "安心"
+  },
+  {
+    "hira": "がまん",
+    "kata": "ガマン",
+    "rm": "gaman",
+    "meaning": "忍耐"
+  },
+  {
+    "hira": "おぼえる",
+    "kata": "オボエル",
+    "rm": "oboeru",
+    "meaning": "记住"
+  },
+  {
+    "hira": "おもう",
+    "kata": "オモウ",
+    "rm": "omou",
+    "meaning": "想/认为"
+  },
+  {
+    "hira": "かんがえる",
+    "kata": "カンガエル",
+    "rm": "kangaeru",
+    "meaning": "思考"
+  },
+  {
+    "hira": "しる",
+    "kata": "シル",
+    "rm": "shiru",
+    "meaning": "知道"
+  },
+  {
+    "hira": "おしえる",
+    "kata": "オシエル",
+    "rm": "oshieru",
+    "meaning": "教"
+  },
+  {
+    "hira": "まなぶ",
+    "kata": "マナブ",
+    "rm": "manabu",
+    "meaning": "学"
+  },
+  {
+    "hira": "あそぶ",
+    "kata": "アソブ",
+    "rm": "asobu",
+    "meaning": "玩"
+  },
+  {
+    "hira": "うたう",
+    "kata": "ウタウ",
+    "rm": "utau",
+    "meaning": "唱歌"
+  },
+  {
+    "hira": "おどる",
+    "kata": "オドル",
+    "rm": "odoru",
+    "meaning": "跳舞"
+  },
+  {
+    "hira": "およぐ",
+    "kata": "オヨグ",
+    "rm": "oyogu",
+    "meaning": "游泳"
+  },
+  {
+    "hira": "のぼる",
+    "kata": "ノボル",
+    "rm": "noboru",
+    "meaning": "爬/登"
+  },
+  {
+    "hira": "おりる",
+    "kata": "オリル",
+    "rm": "oriru",
+    "meaning": "下(车)"
+  },
+  {
+    "hira": "のる",
+    "kata": "ノル",
+    "rm": "noru",
+    "meaning": "乘坐"
+  },
+  {
+    "hira": "とぶ",
+    "kata": "トブ",
+    "rm": "tobu",
+    "meaning": "飞/跳"
+  },
+  {
+    "hira": "ころぶ",
+    "kata": "コロブ",
+    "rm": "korobu",
+    "meaning": "摔倒"
+  },
+  {
+    "hira": "すわる",
+    "kata": "スワル",
+    "rm": "suwaru",
+    "meaning": "坐"
+  },
+  {
+    "hira": "たつ",
+    "kata": "タツ",
+    "rm": "tatsu",
+    "meaning": "站"
+  },
+  {
+    "hira": "あける",
+    "kata": "アケル",
+    "rm": "akeru",
+    "meaning": "打开"
+  },
+  {
+    "hira": "しめる",
+    "kata": "シメル",
+    "rm": "shimeru",
+    "meaning": "关闭"
+  },
+  {
+    "hira": "つける",
+    "kata": "ツケル",
+    "rm": "tsukeru",
+    "meaning": "开(灯)"
+  },
+  {
+    "hira": "けす",
+    "kata": "ケス",
+    "rm": "kesu",
+    "meaning": "关(灯)/擦"
+  },
+  {
+    "hira": "いれる",
+    "kata": "イレル",
+    "rm": "ireru",
+    "meaning": "放入"
+  },
+  {
+    "hira": "だす",
+    "kata": "ダス",
+    "rm": "dasu",
+    "meaning": "拿出"
+  },
+  {
+    "hira": "おく",
+    "kata": "オク",
+    "rm": "oku",
+    "meaning": "放置"
+  },
+  {
+    "hira": "とる",
+    "kata": "トル",
+    "rm": "toru",
+    "meaning": "取/拍"
+  },
+  {
+    "hira": "わたす",
+    "kata": "ワタス",
+    "rm": "watasu",
+    "meaning": "递给"
+  },
+  {
+    "hira": "もらう",
+    "kata": "モラウ",
+    "rm": "morau",
+    "meaning": "收到"
+  },
+  {
+    "hira": "あげる",
+    "kata": "アゲル",
+    "rm": "ageru",
+    "meaning": "给"
+  },
+  {
+    "hira": "かえす",
+    "kata": "カエス",
+    "rm": "kaesu",
+    "meaning": "归还"
+  },
+  {
+    "hira": "かりる",
+    "kata": "カリル",
+    "rm": "kariru",
+    "meaning": "借入"
+  },
+  {
+    "hira": "かす",
+    "kata": "カス",
+    "rm": "kasu",
+    "meaning": "借出"
+  },
+  {
+    "hira": "さがす",
+    "kata": "サガス",
+    "rm": "sagasu",
+    "meaning": "寻找"
+  },
+  {
+    "hira": "みつける",
+    "kata": "ミツケル",
+    "rm": "mitsukeru",
+    "meaning": "找到"
+  },
+  {
+    "hira": "えらぶ",
+    "kata": "エラブ",
+    "rm": "erabu",
+    "meaning": "选择"
+  },
+  {
+    "hira": "きめる",
+    "kata": "キメル",
+    "rm": "kimeru",
+    "meaning": "决定"
+  },
+  {
+    "hira": "かえる",
+    "kata": "カエル",
+    "rm": "kaeru",
+    "meaning": "回去"
+  },
+  {
+    "hira": "でかける",
+    "kata": "デカケル",
+    "rm": "dekakeru",
+    "meaning": "出门"
+  },
+  {
+    "hira": "つく",
+    "kata": "ツク",
+    "rm": "tsuku",
+    "meaning": "到达"
+  },
+  {
+    "hira": "とまる",
+    "kata": "トマル",
+    "rm": "tomaru",
+    "meaning": "停"
+  },
+  {
+    "hira": "うごく",
+    "kata": "ウゴク",
+    "rm": "ugoku",
+    "meaning": "动"
+  },
+  {
+    "hira": "まわる",
+    "kata": "マワル",
+    "rm": "mawaru",
+    "meaning": "转"
+  },
+  {
+    "hira": "おす",
+    "kata": "オス",
+    "rm": "osu",
+    "meaning": "推/按"
+  },
+  {
+    "hira": "ひっぱる",
+    "kata": "ヒッパル",
+    "rm": "hipparu",
+    "meaning": "拉"
+  },
+  {
+    "hira": "なげる",
+    "kata": "ナゲル",
+    "rm": "nageru",
+    "meaning": "扔"
+  },
+  {
+    "hira": "ける",
+    "kata": "ケル",
+    "rm": "keru",
+    "meaning": "踢"
+  },
+  {
+    "hira": "きる",
+    "kata": "キル",
+    "rm": "kiru",
+    "meaning": "切/穿"
+  },
+  {
+    "hira": "ぬぐ",
+    "kata": "ヌグ",
+    "rm": "nugu",
+    "meaning": "脱"
+  },
+  {
+    "hira": "あらう",
+    "kata": "アラウ",
+    "rm": "arau",
+    "meaning": "洗"
+  },
+  {
+    "hira": "ふく",
+    "kata": "フク",
+    "rm": "fukub",
+    "meaning": "擦拭"
+  },
+  {
+    "hira": "みがく",
+    "kata": "ミガク",
+    "rm": "migaku",
+    "meaning": "刷/磨"
+  },
+  {
+    "hira": "かわく",
+    "kata": "カワク",
+    "rm": "kawaku",
+    "meaning": "干"
+  },
+  {
+    "hira": "ぬれる",
+    "kata": "ヌレル",
+    "rm": "nureru",
+    "meaning": "湿"
+  },
+  {
+    "hira": "こわす",
+    "kata": "コワス",
+    "rm": "kowasu",
+    "meaning": "弄坏"
+  },
+  {
+    "hira": "なおす",
+    "kata": "ナオス",
+    "rm": "naosu",
+    "meaning": "修理"
+  },
+  {
+    "hira": "かわる",
+    "kata": "カワル",
+    "rm": "kawaru",
+    "meaning": "变化"
+  },
+  {
+    "hira": "はじまる",
+    "kata": "ハジマル",
+    "rm": "hajimaru",
+    "meaning": "开始"
+  },
+  {
+    "hira": "おわる",
+    "kata": "オワル",
+    "rm": "owaru",
+    "meaning": "结束"
+  },
+  {
+    "hira": "つづく",
+    "kata": "ツヅク",
+    "rm": "tsuduku",
+    "meaning": "继续"
+  },
+  {
+    "hira": "やめる",
+    "kata": "ヤメル",
+    "rm": "yameru",
+    "meaning": "停止"
+  },
+  {
+    "hira": "がんばる",
+    "kata": "ガンバル",
+    "rm": "ganbaru",
+    "meaning": "加油"
+  },
+  {
+    "hira": "てつだう",
+    "kata": "テツダウ",
+    "rm": "tetsudaub",
+    "meaning": "帮忙"
+  },
+  {
+    "hira": "たすける",
+    "kata": "タスケル",
+    "rm": "tasukeru",
+    "meaning": "救助"
+  },
+  {
+    "hira": "よぶ",
+    "kata": "ヨブ",
+    "rm": "yobu",
+    "meaning": "叫/邀请"
+  },
+  {
+    "hira": "こたえる",
+    "kata": "コタエル",
+    "rm": "kotaeru",
+    "meaning": "回答"
+  },
+  {
+    "hira": "たのむ",
+    "kata": "タノム",
+    "rm": "tanomu",
+    "meaning": "拜托"
+  },
+  {
+    "hira": "ことわる",
+    "kata": "コトワル",
+    "rm": "kotowaru",
+    "meaning": "拒绝"
+  },
+  {
+    "hira": "あう",
+    "kata": "アウ",
+    "rm": "au",
+    "meaning": "见面"
+  },
+  {
+    "hira": "わかれる",
+    "kata": "ワカレル",
+    "rm": "wakareru",
+    "meaning": "分别"
+  },
+  {
+    "hira": "おくる",
+    "kata": "オクル",
+    "rm": "okuru",
+    "meaning": "送"
+  },
+  {
+    "hira": "むかえる",
+    "kata": "ムカエル",
+    "rm": "mukaeru",
+    "meaning": "迎接"
+  },
+  {
+    "hira": "まもる",
+    "kata": "マモル",
+    "rm": "mamoru",
+    "meaning": "保护"
+  },
+  {
+    "hira": "しかる",
+    "kata": "シカル",
+    "rm": "shikaru",
+    "meaning": "批评"
+  },
+  {
+    "hira": "ほめる",
+    "kata": "ホメル",
+    "rm": "homeru",
+    "meaning": "表扬"
+  },
+  {
+    "hira": "しんじる",
+    "kata": "シンジル",
+    "rm": "shinjiru",
+    "meaning": "相信"
+  },
+  {
+    "hira": "うそ",
+    "kata": "ウソ",
+    "rm": "uso",
+    "meaning": "谎言"
+  },
+  {
+    "hira": "やくそく",
+    "kata": "ヤクソク",
+    "rm": "yakusoku",
+    "meaning": "约定"
+  },
+  {
+    "hira": "おもいだす",
+    "kata": "オモイダス",
+    "rm": "omoidasu",
+    "meaning": "想起"
+  },
+  {
+    "hira": "きこえる",
+    "kata": "キコエル",
+    "rm": "kikoeru",
+    "meaning": "听得见"
+  },
+  {
+    "hira": "みえる",
+    "kata": "ミエル",
+    "rm": "mieru",
+    "meaning": "看得见"
+  },
+  {
+    "hira": "さわる",
+    "kata": "サワル",
+    "rm": "sawaru",
+    "meaning": "触摸"
+  },
+  {
+    "hira": "ながい",
+    "kata": "ナガイ",
+    "rm": "nagai",
+    "meaning": "长"
+  },
+  {
+    "hira": "みじかい",
+    "kata": "ミジカイ",
+    "rm": "mijikai",
+    "meaning": "短"
+  },
+  {
+    "hira": "ひろい",
+    "kata": "ヒロイ",
+    "rm": "hiroi",
+    "meaning": "宽广"
+  },
+  {
+    "hira": "せまい",
+    "kata": "セマイ",
+    "rm": "semai",
+    "meaning": "狭窄"
+  },
+  {
+    "hira": "ふとい",
+    "kata": "フトイ",
+    "rm": "futoi",
+    "meaning": "粗"
+  },
+  {
+    "hira": "ほそい",
+    "kata": "ホソイ",
+    "rm": "hosoi",
+    "meaning": "细"
+  },
+  {
+    "hira": "おもい",
+    "kata": "オモイ",
+    "rm": "omoi",
+    "meaning": "重"
+  },
+  {
+    "hira": "かるい",
+    "kata": "カルイ",
+    "rm": "karui",
+    "meaning": "轻"
+  },
+  {
+    "hira": "かたい",
+    "kata": "カタイ",
+    "rm": "katai",
+    "meaning": "硬"
+  },
+  {
+    "hira": "やわらかい",
+    "kata": "ヤワラカイ",
+    "rm": "yawarakai",
+    "meaning": "软"
+  },
+  {
+    "hira": "あかるい",
+    "kata": "アカルイ",
+    "rm": "akarui",
+    "meaning": "明亮"
+  },
+  {
+    "hira": "くらい",
+    "kata": "クライ",
+    "rm": "kurai",
+    "meaning": "暗"
+  },
+  {
+    "hira": "うるさい",
+    "kata": "ウルサイ",
+    "rm": "urusai",
+    "meaning": "吵"
+  },
+  {
+    "hira": "しずか",
+    "kata": "シズカ",
+    "rm": "shizuka",
+    "meaning": "安静"
+  },
+  {
+    "hira": "きれい",
+    "kata": "キレイ",
+    "rm": "kirei",
+    "meaning": "漂亮/干净"
+  },
+  {
+    "hira": "きたない",
+    "kata": "キタナイ",
+    "rm": "kitanai",
+    "meaning": "脏"
+  },
+  {
+    "hira": "つよい",
+    "kata": "ツヨイ",
+    "rm": "tsuyoi",
+    "meaning": "强"
+  },
+  {
+    "hira": "よわい",
+    "kata": "ヨワイ",
+    "rm": "yowai",
+    "meaning": "弱"
+  },
+  {
+    "hira": "はやい",
+    "kata": "ハヤイ",
+    "rm": "hayai",
+    "meaning": "快/早"
+  },
+  {
+    "hira": "おそい",
+    "kata": "オソイ",
+    "rm": "osoi",
+    "meaning": "慢/晚"
+  },
+  {
+    "hira": "とおい",
+    "kata": "トオイ",
+    "rm": "tooi",
+    "meaning": "远"
+  },
+  {
+    "hira": "あまい",
+    "kata": "アマイ",
+    "rm": "amai",
+    "meaning": "甜"
+  },
+  {
+    "hira": "にがい",
+    "kata": "ニガイ",
+    "rm": "nigai",
+    "meaning": "苦"
+  },
+  {
+    "hira": "からい",
+    "kata": "カライ",
+    "rm": "karai",
+    "meaning": "辣"
+  },
+  {
+    "hira": "すっぱい",
+    "kata": "スッパイ",
+    "rm": "suppai",
+    "meaning": "酸"
+  },
+  {
+    "hira": "しょっぱい",
+    "kata": "ショッパイ",
+    "rm": "shoppai",
+    "meaning": "咸"
+  },
+  {
+    "hira": "あたたかい",
+    "kata": "アタタカイ",
+    "rm": "atatakai",
+    "meaning": "温暖"
+  },
+  {
+    "hira": "すずしい",
+    "kata": "スズシイ",
+    "rm": "suzushii",
+    "meaning": "凉爽"
+  },
+  {
+    "hira": "じょうず",
+    "kata": "ジョウズ",
+    "rm": "jouzu",
+    "meaning": "擅长"
+  },
+  {
+    "hira": "かんたん",
+    "kata": "カンタン",
+    "rm": "kantan",
+    "meaning": "简单"
+  },
+  {
+    "hira": "ふくざつ",
+    "kata": "フクザツ",
+    "rm": "fukuzatsu",
+    "meaning": "复杂"
+  },
+  {
+    "hira": "だいじ",
+    "kata": "ダイジ",
+    "rm": "daiji",
+    "meaning": "重要"
+  },
+  {
+    "hira": "あぶない",
+    "kata": "アブナイ",
+    "rm": "abunai",
+    "meaning": "危险"
+  },
+  {
+    "hira": "あんぜん",
+    "kata": "アンゼン",
+    "rm": "anzen",
+    "meaning": "安全"
+  },
+  {
+    "hira": "ただしい",
+    "kata": "タダシイ",
+    "rm": "tadashii",
+    "meaning": "正确"
+  },
+  {
+    "hira": "まちがい",
+    "kata": "マチガイ",
+    "rm": "machigai",
+    "meaning": "错误"
+  },
+  {
+    "hira": "すばらしい",
+    "kata": "スバラシイ",
+    "rm": "subarashii",
+    "meaning": "了不起"
+  },
+  {
+    "hira": "すごい",
+    "kata": "スゴイ",
+    "rm": "sugoi",
+    "meaning": "厉害"
+  },
+  {
+    "hira": "やさしい",
+    "kata": "ヤサシイ",
+    "rm": "yasashii",
+    "meaning": "温柔/简单"
+  },
+  {
+    "hira": "きびしい",
+    "kata": "キビシイ",
+    "rm": "kibishii",
+    "meaning": "严格"
+  },
+  {
+    "hira": "いそがしい",
+    "kata": "イソガシイ",
+    "rm": "isogashii",
+    "meaning": "忙"
+  },
+  {
+    "hira": "ひさしぶり",
+    "kata": "ヒサシブリ",
+    "rm": "hisashiburi",
+    "meaning": "好久不见"
+  },
+  {
+    "hira": "とくべつ",
+    "kata": "トクベツ",
+    "rm": "tokubetsu",
+    "meaning": "特别"
+  },
+  {
+    "hira": "ふつう",
+    "kata": "フツウ",
+    "rm": "futsuu",
+    "meaning": "普通"
+  },
+  {
+    "hira": "たいへん",
+    "kata": "タイヘン",
+    "rm": "taihen",
+    "meaning": "辛苦/严重"
+  },
+  {
+    "hira": "じゆう",
+    "kata": "ジユウ",
+    "rm": "jiyuu",
+    "meaning": "自由"
+  },
+  {
+    "hira": "まじめ",
+    "kata": "マジメ",
+    "rm": "majime",
+    "meaning": "认真"
+  },
+  {
+    "hira": "いっしょ",
+    "kata": "イッショ",
+    "rm": "issho",
+    "meaning": "一起"
+  },
+  {
+    "hira": "たくさん",
+    "kata": "タクサン",
+    "rm": "takusan",
+    "meaning": "很多"
+  },
+  {
+    "hira": "すこし",
+    "kata": "スコシ",
+    "rm": "sukoshi",
+    "meaning": "一点"
+  },
+  {
+    "hira": "ぜんぜん",
+    "kata": "ゼンゼン",
+    "rm": "zenzen",
+    "meaning": "完全不"
+  },
+  {
+    "hira": "たぶん",
+    "kata": "タブン",
+    "rm": "tabun",
+    "meaning": "大概"
+  },
+  {
+    "hira": "かならず",
+    "kata": "カナラズ",
+    "rm": "kanarazu",
+    "meaning": "一定"
+  },
+  {
+    "hira": "もちろん",
+    "kata": "モチロン",
+    "rm": "mochiron",
+    "meaning": "当然"
+  },
+  {
+    "hira": "とても",
+    "kata": "トテモ",
+    "rm": "totemo",
+    "meaning": "非常"
+  },
+  {
+    "hira": "まだ",
+    "kata": "マダ",
+    "rm": "mada",
+    "meaning": "还/尚"
+  },
+  {
+    "hira": "もう",
+    "kata": "モウ",
+    "rm": "mou",
+    "meaning": "已经"
+  },
+  {
+    "hira": "いしゃ",
+    "kata": "イシャ",
+    "rm": "ishab",
+    "meaning": "大夫"
+  },
+  {
+    "hira": "けいさつ",
+    "kata": "ケイサツ",
+    "rm": "keisatsu",
+    "meaning": "警察"
+  },
+  {
+    "hira": "うんてんしゅ",
+    "kata": "ウンテンシュ",
+    "rm": "untenshu",
+    "meaning": "司机"
+  },
+  {
+    "hira": "てんいん",
+    "kata": "テンイン",
+    "rm": "tenin",
+    "meaning": "店员"
+  },
+  {
+    "hira": "コック",
+    "kata": "コック",
+    "rm": "kokku",
+    "meaning": "厨师"
+  },
+  {
+    "hira": "かしゅ",
+    "kata": "カシュ",
+    "rm": "kashu",
+    "meaning": "歌手"
+  },
+  {
+    "hira": "はいゆう",
+    "kata": "ハイユウ",
+    "rm": "haiyuu",
+    "meaning": "演员"
+  },
+  {
+    "hira": "しゃちょう",
+    "kata": "シャチョウ",
+    "rm": "shachou",
+    "meaning": "社长"
+  },
+  {
+    "hira": "ぶちょう",
+    "kata": "ブチョウ",
+    "rm": "buchou",
+    "meaning": "部长"
+  },
+  {
+    "hira": "エンジニア",
+    "kata": "エンジニア",
+    "rm": "enjinia",
+    "meaning": "工程师"
+  },
+  {
+    "hira": "べんごし",
+    "kata": "ベンゴシ",
+    "rm": "bengoshi",
+    "meaning": "律师"
+  },
+  {
+    "hira": "のうか",
+    "kata": "ノウカ",
+    "rm": "nouka",
+    "meaning": "农民"
+  },
+  {
+    "hira": "きゃく",
+    "kata": "キャク",
+    "rm": "kyaku",
+    "meaning": "客人"
+  },
+  {
+    "hira": "かいもの",
+    "kata": "カイモノ",
+    "rm": "kaimono",
+    "meaning": "购物"
+  },
+  {
+    "hira": "ねだん",
+    "kata": "ネダン",
+    "rm": "nedan",
+    "meaning": "价格"
+  },
+  {
+    "hira": "おつり",
+    "kata": "オツリ",
+    "rm": "otsuri",
+    "meaning": "找零"
+  },
+  {
+    "hira": "レジ",
+    "kata": "レジ",
+    "rm": "reji",
+    "meaning": "收银台"
+  },
+  {
+    "hira": "セール",
+    "kata": "セール",
+    "rm": "seeru",
+    "meaning": "打折"
+  },
+  {
+    "hira": "しなもの",
+    "kata": "シナモノ",
+    "rm": "shinamono",
+    "meaning": "商品"
+  },
+  {
+    "hira": "ふくろ",
+    "kata": "フクロ",
+    "rm": "fukuro",
+    "meaning": "袋子"
+  },
+  {
+    "hira": "つつむ",
+    "kata": "ツツム",
+    "rm": "tsutsumu",
+    "meaning": "包装"
+  },
+  {
+    "hira": "はらう",
+    "kata": "ハラウ",
+    "rm": "harau",
+    "meaning": "支付"
+  },
+  {
+    "hira": "うけつけ",
+    "kata": "ウケツケ",
+    "rm": "uketsuke",
+    "meaning": "前台"
+  },
+  {
+    "hira": "サッカー",
+    "kata": "サッカー",
+    "rm": "sakkaa",
+    "meaning": "足球"
+  },
+  {
+    "hira": "やきゅう",
+    "kata": "ヤキュウ",
+    "rm": "yakyuu",
+    "meaning": "棒球"
+  },
+  {
+    "hira": "テニス",
+    "kata": "テニス",
+    "rm": "tenisu",
+    "meaning": "网球"
+  },
+  {
+    "hira": "バスケットボール",
+    "kata": "バスケットボール",
+    "rm": "basukettbooru",
+    "meaning": "篮球"
+  },
+  {
+    "hira": "すもう",
+    "kata": "スモウ",
+    "rm": "sumou",
+    "meaning": "相扑"
+  },
+  {
+    "hira": "じゅうどう",
+    "kata": "ジュウドウ",
+    "rm": "juudou",
+    "meaning": "柔道"
+  },
+  {
+    "hira": "スキー",
+    "kata": "スキー",
+    "rm": "sukii",
+    "meaning": "滑雪"
+  },
+  {
+    "hira": "えいが",
+    "kata": "エイガ",
+    "rm": "eiga",
+    "meaning": "电影"
+  },
+  {
+    "hira": "おんがく",
+    "kata": "オンガク",
+    "rm": "ongaku",
+    "meaning": "音乐"
+  },
+  {
+    "hira": "うた",
+    "kata": "ウタ",
+    "rm": "uta",
+    "meaning": "歌"
+  },
+  {
+    "hira": "え",
+    "kata": "エ",
+    "rm": "e",
+    "meaning": "画"
+  },
+  {
+    "hira": "しあい",
+    "kata": "シアイ",
+    "rm": "shiai",
+    "meaning": "比赛"
+  },
+  {
+    "hira": "れんしゅう",
+    "kata": "レンシュウ",
+    "rm": "renshuu",
+    "meaning": "练习"
+  },
+  {
+    "hira": "さんぽ",
+    "kata": "サンポ",
+    "rm": "sanpo",
+    "meaning": "散步"
+  },
+  {
+    "hira": "りょこう",
+    "kata": "リョコウ",
+    "rm": "ryokou",
+    "meaning": "旅行"
+  },
+  {
+    "hira": "きょうしつ",
+    "kata": "キョウシツ",
+    "rm": "kyoushitsu",
+    "meaning": "教室"
+  },
+  {
+    "hira": "としょかん",
+    "kata": "トショカン",
+    "rm": "toshokan",
+    "meaning": "图书馆"
+  },
+  {
+    "hira": "たいいくかん",
+    "kata": "タイイクカン",
+    "rm": "taiikukan",
+    "meaning": "体育馆"
+  },
+  {
+    "hira": "しけん",
+    "kata": "シケン",
+    "rm": "shiken",
+    "meaning": "考试"
+  },
+  {
+    "hira": "しゅくだい",
+    "kata": "シュクダイ",
+    "rm": "shukudai",
+    "meaning": "作业"
+  },
+  {
+    "hira": "じゅぎょう",
+    "kata": "ジュギョウ",
+    "rm": "jugyou",
+    "meaning": "课"
+  },
+  {
+    "hira": "せいと",
+    "kata": "セイト",
+    "rm": "seito",
+    "meaning": "学生(中小学)"
+  },
+  {
+    "hira": "こうちょう",
+    "kata": "コウチョウ",
+    "rm": "kouchou",
+    "meaning": "校长"
+  },
+  {
+    "hira": "すうがく",
+    "kata": "スウガク",
+    "rm": "suugaku",
+    "meaning": "数学"
+  },
+  {
+    "hira": "かがく",
+    "kata": "カガク",
+    "rm": "kagaku",
+    "meaning": "科学"
+  },
+  {
+    "hira": "れきし",
+    "kata": "レキシ",
+    "rm": "rekishi",
+    "meaning": "历史"
+  },
+  {
+    "hira": "ちり",
+    "kata": "チリ",
+    "rm": "chiri",
+    "meaning": "地理"
+  },
+  {
+    "hira": "たいいく",
+    "kata": "タイイク",
+    "rm": "taiiku",
+    "meaning": "体育"
+  },
+  {
+    "hira": "びじゅつ",
+    "kata": "ビジュツ",
+    "rm": "bijutsu",
+    "meaning": "美术"
+  },
+  {
+    "hira": "そつぎょう",
+    "kata": "ソツギョウ",
+    "rm": "sotsugyou",
+    "meaning": "毕业"
+  },
+  {
+    "hira": "にゅうがく",
+    "kata": "ニュウガク",
+    "rm": "nyuugaku",
+    "meaning": "入学"
+  },
+  {
+    "hira": "せいせき",
+    "kata": "セイセキ",
+    "rm": "seiseki",
+    "meaning": "成绩"
+  },
+  {
+    "hira": "はな",
+    "kata": "ハナ",
+    "rm": "hanab",
+    "meaning": "花"
+  },
+  {
+    "hira": "き",
+    "kata": "キ",
+    "rm": "ki",
+    "meaning": "树"
+  },
+  {
+    "hira": "くさ",
+    "kata": "クサ",
+    "rm": "kusa",
+    "meaning": "草"
+  },
+  {
+    "hira": "は",
+    "kata": "ハ",
+    "rm": "hab",
+    "meaning": "叶子"
+  },
+  {
+    "hira": "たね",
+    "kata": "タネ",
+    "rm": "tane",
+    "meaning": "种子"
+  },
+  {
+    "hira": "ね",
+    "kata": "ネ",
+    "rm": "ne",
+    "meaning": "根"
+  },
+  {
+    "hira": "いし",
+    "kata": "イシ",
+    "rm": "ishi",
+    "meaning": "石头"
+  },
+  {
+    "hira": "すな",
+    "kata": "スナ",
+    "rm": "suna",
+    "meaning": "沙"
+  },
+  {
+    "hira": "つち",
+    "kata": "ツチ",
+    "rm": "tsuchi",
+    "meaning": "土"
+  },
+  {
+    "hira": "いけ",
+    "kata": "イケ",
+    "rm": "ike",
+    "meaning": "池塘"
+  },
+  {
+    "hira": "みずうみ",
+    "kata": "ミズウミ",
+    "rm": "mizuumi",
+    "meaning": "湖"
+  },
+  {
+    "hira": "たき",
+    "kata": "タキ",
+    "rm": "taki",
+    "meaning": "瀑布"
+  },
+  {
+    "hira": "しま",
+    "kata": "シマ",
+    "rm": "shima",
+    "meaning": "岛"
+  },
+  {
+    "hira": "もり",
+    "kata": "モリ",
+    "rm": "morib",
+    "meaning": "森林"
+  },
+  {
+    "hira": "はやし",
+    "kata": "ハヤシ",
+    "rm": "hayashi",
+    "meaning": "树林"
+  },
+  {
+    "hira": "たいよう",
+    "kata": "タイヨウ",
+    "rm": "taiyou",
+    "meaning": "太阳"
+  },
+  {
+    "hira": "ほし",
+    "kata": "ホシ",
+    "rm": "hoshib",
+    "meaning": "星"
+  },
+  {
+    "hira": "にじ",
+    "kata": "ニジ",
+    "rm": "niji",
+    "meaning": "彩虹"
+  },
+  {
+    "hira": "かみなり",
+    "kata": "カミナリ",
+    "rm": "kaminari",
+    "meaning": "雷"
+  },
+  {
+    "hira": "たいふう",
+    "kata": "タイフウ",
+    "rm": "taifuu",
+    "meaning": "台风"
+  },
+  {
+    "hira": "じしん",
+    "kata": "ジシン",
+    "rm": "jishin",
+    "meaning": "地震"
+  },
+  {
+    "hira": "くうき",
+    "kata": "クウキ",
+    "rm": "kuuki",
+    "meaning": "空气"
+  },
+  {
+    "hira": "ひかり",
+    "kata": "ヒカリ",
+    "rm": "hikari",
+    "meaning": "光"
+  },
+  {
+    "hira": "かげ",
+    "kata": "カゲ",
+    "rm": "kage",
+    "meaning": "影子"
+  },
+  {
+    "hira": "おと",
+    "kata": "オト",
+    "rm": "oto",
+    "meaning": "声音/音"
+  },
+  {
+    "hira": "におい",
+    "kata": "ニオイ",
+    "rm": "nioi",
+    "meaning": "气味"
+  },
+  {
+    "hira": "いろ",
+    "kata": "イロ",
+    "rm": "iro",
+    "meaning": "颜色"
+  },
+  {
+    "hira": "かたち",
+    "kata": "カタチ",
+    "rm": "katachi",
+    "meaning": "形状"
+  },
+  {
+    "hira": "じかん",
+    "kata": "ジカン",
+    "rm": "jikan",
+    "meaning": "时间"
+  },
+  {
+    "hira": "ふん",
+    "kata": "フン",
+    "rm": "fun",
+    "meaning": "分钟"
+  },
+  {
+    "hira": "びょう",
+    "kata": "ビョウ",
+    "rm": "byou",
+    "meaning": "秒"
+  },
+  {
+    "hira": "しゅう",
+    "kata": "シュウ",
+    "rm": "shuu",
+    "meaning": "周"
+  },
+  {
+    "hira": "がつ",
+    "kata": "ガツ",
+    "rm": "gatsu",
+    "meaning": "月份"
+  },
+  {
+    "hira": "ねん",
+    "kata": "ネン",
+    "rm": "nen",
+    "meaning": "年"
+  },
+  {
+    "hira": "まいにち",
+    "kata": "マイニチ",
+    "rm": "mainichi",
+    "meaning": "每天"
+  },
+  {
+    "hira": "まいしゅう",
+    "kata": "マイシュウ",
+    "rm": "maishuu",
+    "meaning": "每周"
+  },
+  {
+    "hira": "まいつき",
+    "kata": "マイツキ",
+    "rm": "maitsuki",
+    "meaning": "每月"
+  },
+  {
+    "hira": "まいとし",
+    "kata": "マイトシ",
+    "rm": "maitoshi",
+    "meaning": "每年"
+  },
+  {
+    "hira": "かようび",
+    "kata": "カヨウビ",
+    "rm": "kayoubi",
+    "meaning": "星期二"
+  },
+  {
+    "hira": "すいようび",
+    "kata": "スイヨウビ",
+    "rm": "suiyoubi",
+    "meaning": "星期三"
+  },
+  {
+    "hira": "もくようび",
+    "kata": "モクヨウビ",
+    "rm": "mokuyoubi",
+    "meaning": "星期四"
+  },
+  {
+    "hira": "きんようび",
+    "kata": "キンヨウビ",
+    "rm": "kinyoubi",
+    "meaning": "星期五"
+  },
+  {
+    "hira": "どようび",
+    "kata": "ドヨウビ",
+    "rm": "doyoubi",
+    "meaning": "星期六"
+  },
+  {
+    "hira": "にちようび",
+    "kata": "ニチヨウビ",
+    "rm": "nichiyoubi",
+    "meaning": "星期日"
+  },
+  {
+    "hira": "ひとつ",
+    "kata": "ヒトツ",
+    "rm": "hitotsu",
+    "meaning": "一个"
+  },
+  {
+    "hira": "ふたつ",
+    "kata": "フタツ",
+    "rm": "futatsu",
+    "meaning": "两个"
+  },
+  {
+    "hira": "みっつ",
+    "kata": "ミッツ",
+    "rm": "mittsu",
+    "meaning": "三个"
+  },
+  {
+    "hira": "よっつ",
+    "kata": "ヨッツ",
+    "rm": "yottsu",
+    "meaning": "四个"
+  },
+  {
+    "hira": "いつつ",
+    "kata": "イツツ",
+    "rm": "itsutsu",
+    "meaning": "五个"
+  },
+  {
+    "hira": "はんぶん",
+    "kata": "ハンブン",
+    "rm": "hanbun",
+    "meaning": "一半"
+  },
+  {
+    "hira": "ぜんたい",
+    "kata": "ゼンタイ",
+    "rm": "zentai",
+    "meaning": "全体"
+  },
+  {
+    "hira": "さいご",
+    "kata": "サイゴ",
+    "rm": "saigo",
+    "meaning": "最后"
+  },
+  {
+    "hira": "さいしょ",
+    "kata": "サイショ",
+    "rm": "saisho",
+    "meaning": "最初"
+  },
+  {
+    "hira": "まんなか",
+    "kata": "マンナカ",
+    "rm": "mannaka",
+    "meaning": "正中间"
+  },
+  {
+    "hira": "うしろ",
+    "kata": "ウシロ",
+    "rm": "ushiro",
+    "meaning": "后面"
+  },
+  {
+    "hira": "となり",
+    "kata": "トナリ",
+    "rm": "tonari",
+    "meaning": "旁边"
+  },
+  {
+    "hira": "あいだ",
+    "kata": "アイダ",
+    "rm": "aida",
+    "meaning": "之间"
+  },
+  {
+    "hira": "むこう",
+    "kata": "ムコウ",
+    "rm": "mukou",
+    "meaning": "对面"
+  },
+  {
+    "hira": "ちかく",
+    "kata": "チカク",
+    "rm": "chikaku",
+    "meaning": "附近"
+  },
+  {
+    "hira": "けいざい",
+    "kata": "ケイザイ",
+    "rm": "keizai",
+    "meaning": "经济"
+  },
+  {
+    "hira": "せいじ",
+    "kata": "セイジ",
+    "rm": "seiji",
+    "meaning": "政治"
+  },
+  {
+    "hira": "しゃかい",
+    "kata": "シャカイ",
+    "rm": "shakai",
+    "meaning": "社会"
+  },
+  {
+    "hira": "ほうりつ",
+    "kata": "ホウリツ",
+    "rm": "houritsu",
+    "meaning": "法律"
+  },
+  {
+    "hira": "ニュース",
+    "kata": "ニュース",
+    "rm": "nyuusu",
+    "meaning": "新闻"
+  },
+  {
+    "hira": "きじ",
+    "kata": "キジ",
+    "rm": "kiji",
+    "meaning": "文章"
+  },
+  {
+    "hira": "じこ",
+    "kata": "ジコ",
+    "rm": "jiko",
+    "meaning": "事故"
+  },
+  {
+    "hira": "じけん",
+    "kata": "ジケン",
+    "rm": "jiken",
+    "meaning": "事件"
+  },
+  {
+    "hira": "せんそう",
+    "kata": "センソウ",
+    "rm": "sensou",
+    "meaning": "战争"
+  },
+  {
+    "hira": "へいわ",
+    "kata": "ヘイワ",
+    "rm": "heiwa",
+    "meaning": "和平"
+  },
+  {
+    "hira": "しぜん",
+    "kata": "シゼン",
+    "rm": "shizen",
+    "meaning": "自然"
+  },
+  {
+    "hira": "かんきょう",
+    "kata": "カンキョウ",
+    "rm": "kankyou",
+    "meaning": "环境"
+  },
+  {
+    "hira": "ぎじゅつ",
+    "kata": "ギジュツ",
+    "rm": "gijutsu",
+    "meaning": "技术"
+  },
+  {
+    "hira": "インターネット",
+    "kata": "インターネット",
+    "rm": "intaanetto",
+    "meaning": "互联网"
+  },
+  {
+    "hira": "メール",
+    "kata": "メール",
+    "rm": "meeru",
+    "meaning": "邮件"
+  },
+  {
+    "hira": "でんぽう",
+    "kata": "デンポウ",
+    "rm": "denpou",
+    "meaning": "电报"
+  },
+  {
+    "hira": "こうじょう",
+    "kata": "コウジョウ",
+    "rm": "koujou",
+    "meaning": "工厂"
+  },
+  {
+    "hira": "のうぎょう",
+    "kata": "ノウギョウ",
+    "rm": "nougyou",
+    "meaning": "农业"
+  },
+  {
+    "hira": "ぎんこう",
+    "kata": "ギンコウ",
+    "rm": "ginkou",
+    "meaning": "银行"
+  },
+  {
+    "hira": "ゆうびん",
+    "kata": "ユウビン",
+    "rm": "yuubin",
+    "meaning": "邮件/邮政"
+  },
+  {
+    "hira": "やくしょ",
+    "kata": "ヤクショ",
+    "rm": "yakusho",
+    "meaning": "政府机关"
+  },
+  {
+    "hira": "けいさつしょ",
+    "kata": "ケイサツショ",
+    "rm": "keisatsusho",
+    "meaning": "警察局"
+  },
+  {
+    "hira": "しょうぼうしょ",
+    "kata": "ショウボウショ",
+    "rm": "shoubousho",
+    "meaning": "消防局"
+  },
+  {
+    "hira": "としょ",
+    "kata": "トショ",
+    "rm": "tosho",
+    "meaning": "图书"
+  },
+  {
+    "hira": "ざっし",
+    "kata": "ザッシ",
+    "rm": "zasshi",
+    "meaning": "杂志"
+  },
+  {
+    "hira": "まんが",
+    "kata": "マンガ",
+    "rm": "manga",
+    "meaning": "漫画"
+  },
+  {
+    "hira": "アニメ",
+    "kata": "アニメ",
+    "rm": "anime",
+    "meaning": "动画"
+  },
+  {
+    "hira": "ゲーム",
+    "kata": "ゲーム",
+    "rm": "geemu",
+    "meaning": "游戏"
+  },
+  {
+    "hira": "おまつり",
+    "kata": "オマツリ",
+    "rm": "omatsuri",
+    "meaning": "节日"
+  },
+  {
+    "hira": "はなび",
+    "kata": "ハナビ",
+    "rm": "hanabi",
+    "meaning": "烟花"
+  },
+  {
+    "hira": "おてら",
+    "kata": "オテラ",
+    "rm": "otera",
+    "meaning": "寺庙"
+  },
+  {
+    "hira": "じんじゃ",
+    "kata": "ジンジャ",
+    "rm": "jinja",
+    "meaning": "神社"
+  },
+  {
+    "hira": "しろ",
+    "kata": "シロ",
+    "rm": "shirob",
+    "meaning": "城堡"
+  },
+  {
+    "hira": "びじゅつかん",
+    "kata": "ビジュツカン",
+    "rm": "bijutsukan",
+    "meaning": "美术馆"
+  },
+  {
+    "hira": "はくぶつかん",
+    "kata": "ハクブツカン",
+    "rm": "hakubutsukan",
+    "meaning": "博物馆"
+  },
+  {
+    "hira": "どうぶつえん",
+    "kata": "ドウブツエン",
+    "rm": "doubutsuen",
+    "meaning": "动物园"
+  },
+  {
+    "hira": "すいぞくかん",
+    "kata": "スイゾクカン",
+    "rm": "suizokukan",
+    "meaning": "水族馆"
+  },
+  {
+    "hira": "ゆうえんち",
+    "kata": "ユウエンチ",
+    "rm": "yuuenchi",
+    "meaning": "游乐园"
+  },
+  {
+    "hira": "プール",
+    "kata": "プール",
+    "rm": "puuru",
+    "meaning": "游泳池"
+  },
+  {
+    "hira": "うんどう",
+    "kata": "ウンドウ",
+    "rm": "undou",
+    "meaning": "运动"
+  },
+  {
+    "hira": "しゅみ",
+    "kata": "シュミ",
+    "rm": "shumi",
+    "meaning": "爱好"
+  },
+  {
+    "hira": "つり",
+    "kata": "ツリ",
+    "rm": "tsuri",
+    "meaning": "钓鱼"
+  },
+  {
+    "hira": "キャンプ",
+    "kata": "キャンプ",
+    "rm": "kyanpu",
+    "meaning": "露营"
+  },
+  {
+    "hira": "ピアノ",
+    "kata": "ピアノ",
+    "rm": "piano",
+    "meaning": "钢琴"
+  },
+  {
+    "hira": "ギター",
+    "kata": "ギター",
+    "rm": "gitaa",
+    "meaning": "吉他"
+  },
+  {
+    "hira": "おきゃくさん",
+    "kata": "オキャクサン",
+    "rm": "okyakusan",
+    "meaning": "客人(敬)"
+  },
+  {
+    "hira": "ともだち",
+    "kata": "トモダチ",
+    "rm": "tomodachib",
+    "meaning": "伙伴"
+  },
+  {
+    "hira": "こいびと",
+    "kata": "コイビト",
+    "rm": "koibito",
+    "meaning": "恋人"
+  },
+  {
+    "hira": "おっと",
+    "kata": "オット",
+    "rm": "otto",
+    "meaning": "丈夫"
+  },
+  {
+    "hira": "つま",
+    "kata": "ツマ",
+    "rm": "tsuma",
+    "meaning": "妻子"
+  },
+  {
+    "hira": "おじいさん",
+    "kata": "オジイサン",
+    "rm": "ojiisan",
+    "meaning": "爷爷"
+  },
+  {
+    "hira": "おばあさん",
+    "kata": "オバアサン",
+    "rm": "obaasan",
+    "meaning": "奶奶"
+  },
+  {
+    "hira": "おじさん",
+    "kata": "オジサン",
+    "rm": "ojisan",
+    "meaning": "叔叔"
+  },
+  {
+    "hira": "おばさん",
+    "kata": "オバサン",
+    "rm": "obasan",
+    "meaning": "阿姨"
+  },
+  {
+    "hira": "あかちゃん",
+    "kata": "アカチャン",
+    "rm": "akachan",
+    "meaning": "婴儿"
+  },
+  {
+    "hira": "わかもの",
+    "kata": "ワカモノ",
+    "rm": "wakamono",
+    "meaning": "年轻人"
+  },
+  {
+    "hira": "おとこ",
+    "kata": "オトコ",
+    "rm": "otoko",
+    "meaning": "男"
+  },
+  {
+    "hira": "おんな",
+    "kata": "オンナ",
+    "rm": "onna",
+    "meaning": "女"
+  },
+  {
+    "hira": "せいかく",
+    "kata": "セイカク",
+    "rm": "seikaku",
+    "meaning": "性格"
+  },
+  {
+    "hira": "しんせつ",
+    "kata": "シンセツ",
+    "rm": "shinsetsu",
+    "meaning": "亲切"
+  },
+  {
+    "hira": "ていねい",
+    "kata": "テイネイ",
+    "rm": "teinei",
+    "meaning": "礼貌"
+  },
+  {
+    "hira": "げんいん",
+    "kata": "ゲンイン",
+    "rm": "genin",
+    "meaning": "原因"
+  },
+  {
+    "hira": "けっか",
+    "kata": "ケッカ",
+    "rm": "kekka",
+    "meaning": "结果"
+  },
+  {
+    "hira": "もくてき",
+    "kata": "モクテキ",
+    "rm": "mokuteki",
+    "meaning": "目的"
+  },
+  {
+    "hira": "けいけん",
+    "kata": "ケイケン",
+    "rm": "keiken",
+    "meaning": "经验"
+  },
+  {
+    "hira": "きかい",
+    "kata": "キカイ",
+    "rm": "kikai",
+    "meaning": "机会"
+  },
+  {
+    "hira": "じゅんび",
+    "kata": "ジュンビ",
+    "rm": "junbi",
+    "meaning": "准备"
+  },
+  {
+    "hira": "けいかく",
+    "kata": "ケイカク",
+    "rm": "keikaku",
+    "meaning": "计划"
+  },
+  {
+    "hira": "せつめい",
+    "kata": "セツメイ",
+    "rm": "setsumei",
+    "meaning": "说明"
+  },
+  {
+    "hira": "そうだん",
+    "kata": "ソウダン",
+    "rm": "soudan",
+    "meaning": "商量"
+  },
+  {
+    "hira": "れんらく",
+    "kata": "レンラク",
+    "rm": "renraku",
+    "meaning": "联系"
+  },
+  {
+    "hira": "やちん",
+    "kata": "ヤチン",
+    "rm": "yachin",
+    "meaning": "房租"
+  },
+  {
+    "hira": "きゅうりょう",
+    "kata": "キュウリョウ",
+    "rm": "kyuuryou",
+    "meaning": "工资"
+  },
+  {
+    "hira": "ぜいきん",
+    "kata": "ゼイキン",
+    "rm": "zeikin",
+    "meaning": "税"
+  },
+  {
+    "hira": "にっき",
+    "kata": "ニッキ",
+    "rm": "nikki",
+    "meaning": "日记"
+  },
+  {
+    "hira": "てちょう",
+    "kata": "テチョウ",
+    "rm": "techou",
+    "meaning": "记事本"
+  },
+  {
+    "hira": "きって",
+    "kata": "キッテ",
+    "rm": "kitte",
+    "meaning": "邮票"
+  },
+  {
+    "hira": "ふうとう",
+    "kata": "フウトウ",
+    "rm": "fuutou",
+    "meaning": "信封"
+  },
+  {
+    "hira": "はがき",
+    "kata": "ハガキ",
+    "rm": "hagaki",
+    "meaning": "明信片"
+  },
+  {
+    "hira": "にわとり",
+    "kata": "ニワトリ",
+    "rm": "niwatori",
+    "meaning": "鸡"
+  },
+  {
+    "hira": "ぶた",
+    "kata": "ブタ",
+    "rm": "buta",
+    "meaning": "猪"
+  },
+  {
+    "hira": "ひつじ",
+    "kata": "ヒツジ",
+    "rm": "hitsuji",
+    "meaning": "羊"
+  },
+  {
+    "hira": "さる",
+    "kata": "サル",
+    "rm": "saru",
+    "meaning": "猴子"
+  },
+  {
+    "hira": "ぞう",
+    "kata": "ゾウ",
+    "rm": "zou",
+    "meaning": "大象"
+  },
+  {
+    "hira": "ライオン",
+    "kata": "ライオン",
+    "rm": "raion",
+    "meaning": "狮子"
+  },
+  {
+    "hira": "くま",
+    "kata": "クマ",
+    "rm": "kuma",
+    "meaning": "熊"
+  },
+  {
+    "hira": "うさぎ",
+    "kata": "ウサギ",
+    "rm": "usagi",
+    "meaning": "兔子"
+  },
+  {
+    "hira": "かめ",
+    "kata": "カメ",
+    "rm": "kame",
+    "meaning": "乌龟"
+  },
+  {
+    "hira": "へび",
+    "kata": "ヘビ",
+    "rm": "hebi",
+    "meaning": "蛇"
+  },
+  {
+    "hira": "かえる",
+    "kata": "カエル",
+    "rm": "kaerub",
+    "meaning": "青蛙"
+  },
+  {
+    "hira": "ちょう",
+    "kata": "チョウ",
+    "rm": "chou",
+    "meaning": "蝴蝶"
+  },
+  {
+    "hira": "はと",
+    "kata": "ハト",
+    "rm": "hato",
+    "meaning": "鸽子"
+  },
+  {
+    "hira": "わし",
+    "kata": "ワシ",
+    "rm": "washi",
+    "meaning": "鹰"
+  },
+  {
+    "hira": "くじら",
+    "kata": "クジラ",
+    "rm": "kujira",
+    "meaning": "鲸鱼"
+  },
+  {
+    "hira": "イルカ",
+    "kata": "イルカ",
+    "rm": "iruka",
+    "meaning": "海豚"
+  },
+  {
+    "hira": "きんぎょ",
+    "kata": "キンギョ",
+    "rm": "kingyo",
+    "meaning": "金鱼"
+  },
+  {
+    "hira": "ねずみ",
+    "kata": "ネズミ",
+    "rm": "nezumi",
+    "meaning": "老鼠"
+  },
+  {
+    "hira": "きつね",
+    "kata": "キツネ",
+    "rm": "kitsune",
+    "meaning": "狐狸"
+  },
+  {
+    "hira": "たぬき",
+    "kata": "タヌキ",
+    "rm": "tanuki",
+    "meaning": "狸"
+  },
+  {
+    "hira": "おおかみ",
+    "kata": "オオカミ",
+    "rm": "ookami",
+    "meaning": "狼"
+  },
+  {
+    "hira": "とら",
+    "kata": "トラ",
+    "rm": "tora",
+    "meaning": "老虎"
+  },
+  {
+    "hira": "しか",
+    "kata": "シカ",
+    "rm": "shika",
+    "meaning": "鹿"
+  },
+  {
+    "hira": "パンダ",
+    "kata": "パンダ",
+    "rm": "panda",
+    "meaning": "熊猫"
+  },
+  {
+    "hira": "ペンギン",
+    "kata": "ペンギン",
+    "rm": "pengin",
+    "meaning": "企鹅"
+  },
+  {
+    "hira": "こおり",
+    "kata": "コオリ",
+    "rm": "koori",
+    "meaning": "冰"
+  },
+  {
+    "hira": "ゆげ",
+    "kata": "ユゲ",
+    "rm": "yuge",
+    "meaning": "蒸汽"
+  },
+  {
+    "hira": "けむり",
+    "kata": "ケムリ",
+    "rm": "kemuri",
+    "meaning": "烟"
+  },
+  {
+    "hira": "ほのお",
+    "kata": "ホノオ",
+    "rm": "honoo",
+    "meaning": "火焰"
+  },
+  {
+    "hira": "ひ",
+    "kata": "ヒ",
+    "rm": "hi",
+    "meaning": "火"
+  },
+  {
+    "hira": "みず",
+    "kata": "ミズ",
+    "rm": "mizub",
+    "meaning": "水源"
+  },
+  {
+    "hira": "かわいい",
+    "kata": "カワイイ",
+    "rm": "kawaii",
+    "meaning": "可爱"
+  },
+  {
+    "hira": "かっこいい",
+    "kata": "カッコイイ",
+    "rm": "kakkoii",
+    "meaning": "帅"
+  },
+  {
+    "hira": "おもしろい",
+    "kata": "オモシロイ",
+    "rm": "omoshiroi",
+    "meaning": "有趣"
+  },
+  {
+    "hira": "つまらない",
+    "kata": "ツマラナイ",
+    "rm": "tsumaranai",
+    "meaning": "无聊"
+  },
+  {
+    "hira": "めずらしい",
+    "kata": "メズラシイ",
+    "rm": "mezurashii",
+    "meaning": "稀奇"
+  },
+  {
+    "hira": "なつかしい",
+    "kata": "ナツカシイ",
+    "rm": "natsukashii",
+    "meaning": "怀念"
+  },
+  {
+    "hira": "うらやましい",
+    "kata": "ウラヤマシイ",
+    "rm": "urayamashii",
+    "meaning": "羡慕"
+  },
+  {
+    "hira": "くやしい",
+    "kata": "クヤシイ",
+    "rm": "kuyashii",
+    "meaning": "不甘心"
+  },
+  {
+    "hira": "ありがたい",
+    "kata": "アリガタイ",
+    "rm": "arigatai",
+    "meaning": "感激"
+  },
+  {
+    "hira": "なまけもの",
+    "kata": "ナマケモノ",
+    "rm": "namakemono",
+    "meaning": "懒人"
+  },
+  {
+    "hira": "どりょく",
+    "kata": "ドリョク",
+    "rm": "doryoku",
+    "meaning": "努力"
+  },
+  {
+    "hira": "せいこう",
+    "kata": "セイコウ",
+    "rm": "seikou",
+    "meaning": "成功"
+  },
+  {
+    "hira": "しっぱい",
+    "kata": "シッパイ",
+    "rm": "shippai",
+    "meaning": "失败"
+  },
+  {
+    "hira": "ゆうき",
+    "kata": "ユウキ",
+    "rm": "yuuki",
+    "meaning": "勇气"
+  },
+  {
+    "hira": "きぼう",
+    "kata": "キボウ",
+    "rm": "kibou",
+    "meaning": "希望"
+  },
+  {
+    "hira": "あいさつ",
+    "kata": "アイサツ",
+    "rm": "aisatsu",
+    "meaning": "打招呼"
+  },
+  {
+    "hira": "おれい",
+    "kata": "オレイ",
+    "rm": "orei",
+    "meaning": "感谢"
+  },
+  {
+    "hira": "おいわい",
+    "kata": "オイワイ",
+    "rm": "oiwai",
+    "meaning": "庆祝"
+  },
+  {
+    "hira": "プレゼント",
+    "kata": "プレゼント",
+    "rm": "purezento",
+    "meaning": "礼物"
+  },
+  {
+    "hira": "パーティー",
+    "kata": "パーティー",
+    "rm": "paatii",
+    "meaning": "派对"
+  },
+  {
+    "hira": "たんじょうび",
+    "kata": "タンジョウビ",
+    "rm": "tanjoubi",
+    "meaning": "生日"
+  },
+  {
+    "hira": "クリスマス",
+    "kata": "クリスマス",
+    "rm": "kurisumasu",
+    "meaning": "圣诞节"
+  },
+  {
+    "hira": "しょうがつ",
+    "kata": "ショウガツ",
+    "rm": "shougatsu",
+    "meaning": "新年"
+  },
+  {
+    "hira": "なつやすみ",
+    "kata": "ナツヤスミ",
+    "rm": "natsuyasumi",
+    "meaning": "暑假"
+  },
+  {
+    "hira": "ふゆやすみ",
+    "kata": "フユヤスミ",
+    "rm": "fuyuyasumi",
+    "meaning": "寒假"
+  },
+  {
+    "hira": "やすみ",
+    "kata": "ヤスミ",
+    "rm": "yasumi",
+    "meaning": "休息/假期"
+  },
+  {
+    "hira": "しゅうまつ",
+    "kata": "シュウマツ",
+    "rm": "shuumatsu",
+    "meaning": "周末"
+  },
+  {
+    "hira": "ひっこし",
+    "kata": "ヒッコシ",
+    "rm": "hikkoshi",
+    "meaning": "搬家"
+  },
+  {
+    "hira": "そうべつかい",
+    "kata": "ソウベツカイ",
+    "rm": "soubetsukai",
+    "meaning": "送别会"
+  },
+  {
+    "hira": "かんげいかい",
+    "kata": "カンゲイカイ",
+    "rm": "kangeikai",
+    "meaning": "欢迎会"
+  },
+  {
+    "hira": "にゅういん",
+    "kata": "ニュウイン",
+    "rm": "nyuuin",
+    "meaning": "住院"
+  },
+  {
+    "hira": "たいいん",
+    "kata": "タイイン",
+    "rm": "taiin",
+    "meaning": "出院"
+  },
+  {
+    "hira": "ちゅうしゃ",
+    "kata": "チュウシャ",
+    "rm": "chuusha",
+    "meaning": "打针/停车"
+  },
+  {
+    "hira": "てんきよほう",
+    "kata": "テンキヨホウ",
+    "rm": "tenkiyohou",
+    "meaning": "天气预报"
+  },
+  {
+    "hira": "きおん",
+    "kata": "キオン",
+    "rm": "kion",
+    "meaning": "气温"
+  },
+  {
+    "hira": "しつど",
+    "kata": "シツド",
+    "rm": "shitsudo",
+    "meaning": "湿度"
+  },
+  {
+    "hira": "はれ",
+    "kata": "ハレ",
+    "rm": "hare",
+    "meaning": "晴天"
+  },
+  {
+    "hira": "くもり",
+    "kata": "クモリ",
+    "rm": "kumori",
+    "meaning": "阴天"
+  },
+  {
+    "hira": "ゆうだち",
+    "kata": "ユウダチ",
+    "rm": "yuudachi",
+    "meaning": "阵雨"
+  },
+  {
+    "hira": "きり",
+    "kata": "キリ",
+    "rm": "kiri",
+    "meaning": "雾"
+  },
+  {
+    "hira": "こうずい",
+    "kata": "コウズイ",
+    "rm": "kouzui",
+    "meaning": "洪水"
+  },
+  {
+    "hira": "かじ",
+    "kata": "カジ",
+    "rm": "kaji",
+    "meaning": "火灾"
+  },
+  {
+    "hira": "ひなん",
+    "kata": "ヒナン",
+    "rm": "hinan",
+    "meaning": "避难"
+  },
+  {
+    "hira": "ぼうさい",
+    "kata": "ボウサイ",
+    "rm": "bousai",
+    "meaning": "防灾"
+  },
+  {
+    "hira": "でんとう",
+    "kata": "デントウ",
+    "rm": "dentou",
+    "meaning": "传统"
+  },
+  {
+    "hira": "きもの",
+    "kata": "キモノ",
+    "rm": "kimono",
+    "meaning": "和服"
+  },
+  {
+    "hira": "ゆかた",
+    "kata": "ユカタ",
+    "rm": "yukata",
+    "meaning": "浴衣"
+  },
+  {
+    "hira": "おはし",
+    "kata": "オハシ",
+    "rm": "ohashi",
+    "meaning": "筷子(敬)"
+  },
+  {
+    "hira": "たたみ",
+    "kata": "タタミ",
+    "rm": "tatami",
+    "meaning": "榻榻米"
+  },
+  {
+    "hira": "ふろしき",
+    "kata": "フロシキ",
+    "rm": "furoshiki",
+    "meaning": "包袱布"
+  },
+  {
+    "hira": "おりがみ",
+    "kata": "オリガミ",
+    "rm": "origami",
+    "meaning": "折纸"
+  },
+  {
+    "hira": "いけばな",
+    "kata": "イケバナ",
+    "rm": "ikebana",
+    "meaning": "插花"
+  },
+  {
+    "hira": "さどう",
+    "kata": "サドウ",
+    "rm": "sadou",
+    "meaning": "茶道"
+  },
+  {
+    "hira": "しょどう",
+    "kata": "ショドウ",
+    "rm": "shodou",
+    "meaning": "书道"
+  },
+  {
+    "hira": "すみ",
+    "kata": "スミ",
+    "rm": "sumi",
+    "meaning": "墨"
+  },
+  {
+    "hira": "ふで",
+    "kata": "フデ",
+    "rm": "fude",
+    "meaning": "毛笔"
+  },
+  {
+    "hira": "ようちえん",
+    "kata": "ヨウチエン",
+    "rm": "youchien",
+    "meaning": "幼儿园"
+  },
+  {
+    "hira": "しょうがっこう",
+    "kata": "ショウガッコウ",
+    "rm": "shougakkou",
+    "meaning": "小学"
+  },
+  {
+    "hira": "ちゅうがっこう",
+    "kata": "チュウガッコウ",
+    "rm": "chuugakkou",
+    "meaning": "中学"
+  },
+  {
+    "hira": "こうこう",
+    "kata": "コウコウ",
+    "rm": "koukou",
+    "meaning": "高中"
+  },
+  {
+    "hira": "きょうかしょ",
+    "kata": "キョウカショ",
+    "rm": "kyoukasho",
+    "meaning": "教科书"
+  },
+  {
+    "hira": "チョーク",
+    "kata": "チョーク",
+    "rm": "chooku",
+    "meaning": "粉笔"
+  },
+  {
+    "hira": "こくばん",
+    "kata": "コクバン",
+    "rm": "kokuban",
+    "meaning": "黑板"
+  },
+  {
+    "hira": "ランドセル",
+    "kata": "ランドセル",
+    "rm": "randoseru",
+    "meaning": "书包"
+  },
+  {
+    "hira": "せいふく",
+    "kata": "セイフク",
+    "rm": "seifuku",
+    "meaning": "校服"
+  },
+  {
+    "hira": "うわばき",
+    "kata": "ウワバキ",
+    "rm": "uwabaki",
+    "meaning": "室内鞋"
+  },
+  {
+    "hira": "きゅうしょく",
+    "kata": "キュウショク",
+    "rm": "kyuushoku",
+    "meaning": "学校午餐"
+  },
+  {
+    "hira": "クラブ",
+    "kata": "クラブ",
+    "rm": "kurabu",
+    "meaning": "社团"
+  },
+  {
+    "hira": "ぶんぼうぐ",
+    "kata": "ブンボウグ",
+    "rm": "bunbougu",
+    "meaning": "文具"
+  },
+  {
+    "hira": "ものさし",
+    "kata": "モノサシ",
+    "rm": "monosashi",
+    "meaning": "尺子"
+  },
+  {
+    "hira": "はさみ",
+    "kata": "ハサミ",
+    "rm": "hasami",
+    "meaning": "剪刀"
+  },
+  {
+    "hira": "のり",
+    "kata": "ノリ",
+    "rm": "norib",
+    "meaning": "胶水"
+  },
+  {
+    "hira": "セロテープ",
+    "kata": "セロテープ",
+    "rm": "seroteepu",
+    "meaning": "透明胶带"
+  },
+  {
+    "hira": "ホッチキス",
+    "kata": "ホッチキス",
+    "rm": "hotchikisu",
+    "meaning": "订书机"
+  },
+  {
+    "hira": "でんたく",
+    "kata": "デンタク",
+    "rm": "dentaku",
+    "meaning": "计算器"
+  },
+  {
+    "hira": "こたつ",
+    "kata": "コタツ",
+    "rm": "kotatsu",
+    "meaning": "暖桌"
+  },
+  {
+    "hira": "ストーブ",
+    "kata": "ストーブ",
+    "rm": "sutoobu",
+    "meaning": "暖炉"
+  },
+  {
+    "hira": "せんぷうき",
+    "kata": "センプウキ",
+    "rm": "senpuuki",
+    "meaning": "电风扇"
+  },
+  {
+    "hira": "かでん",
+    "kata": "カデン",
+    "rm": "kaden",
+    "meaning": "家电"
+  },
+  {
+    "hira": "そうじき",
+    "kata": "ソウジキ",
+    "rm": "soujiki",
+    "meaning": "吸尘器"
+  },
+  {
+    "hira": "アイロン",
+    "kata": "アイロン",
+    "rm": "airon",
+    "meaning": "熨斗"
+  },
+  {
+    "hira": "ドライヤー",
+    "kata": "ドライヤー",
+    "rm": "doraiyaa",
+    "meaning": "吹风机"
+  },
+  {
+    "hira": "でんしレンジ",
+    "kata": "デンシレンジ",
+    "rm": "denshirenji",
+    "meaning": "微波炉"
+  },
+  {
+    "hira": "すいはんき",
+    "kata": "スイハンキ",
+    "rm": "suihanki",
+    "meaning": "电饭锅"
+  },
+  {
+    "hira": "ポット",
+    "kata": "ポット",
+    "rm": "potto",
+    "meaning": "热水壶"
+  },
+  {
+    "hira": "やかん",
+    "kata": "ヤカン",
+    "rm": "yakan",
+    "meaning": "水壶"
+  },
+  {
+    "hira": "おわん",
+    "kata": "オワン",
+    "rm": "owan",
+    "meaning": "碗"
+  },
+  {
+    "hira": "ちゃわん",
+    "kata": "チャワン",
+    "rm": "chawan",
+    "meaning": "茶碗"
+  },
+  {
+    "hira": "きゅうす",
+    "kata": "キュウス",
+    "rm": "kyuusu",
+    "meaning": "茶壶"
+  },
+  {
+    "hira": "おぼん",
+    "kata": "オボン",
+    "rm": "obon",
+    "meaning": "托盘"
+  },
+  {
+    "hira": "まないた",
+    "kata": "マナイタ",
+    "rm": "manaita",
+    "meaning": "砧板"
+  },
+  {
+    "hira": "ほうちょう",
+    "kata": "ホウチョウ",
+    "rm": "houchou",
+    "meaning": "菜刀"
+  },
+  {
+    "hira": "フライパン",
+    "kata": "フライパン",
+    "rm": "furaipan",
+    "meaning": "平底锅"
+  },
+  {
+    "hira": "ざる",
+    "kata": "ザル",
+    "rm": "zaru",
+    "meaning": "竹篮/漏勺"
+  },
+  {
+    "hira": "エプロン",
+    "kata": "エプロン",
+    "rm": "epuron",
+    "meaning": "围裙"
+  },
+  {
+    "hira": "ラップ",
+    "kata": "ラップ",
+    "rm": "rappu",
+    "meaning": "保鲜膜"
+  },
+  {
+    "hira": "かんづめ",
+    "kata": "カンヅメ",
+    "rm": "kandume",
+    "meaning": "罐头"
+  },
+  {
+    "hira": "れいとう",
+    "kata": "レイトウ",
+    "rm": "reitou",
+    "meaning": "冷冻"
+  },
+  {
+    "hira": "かいてん",
+    "kata": "カイテン",
+    "rm": "kaiten",
+    "meaning": "旋转"
+  },
+  {
+    "hira": "じどう",
+    "kata": "ジドウ",
+    "rm": "jidou",
+    "meaning": "自动"
+  },
+  {
+    "hira": "てどう",
+    "kata": "テドウ",
+    "rm": "tedou",
+    "meaning": "手动"
+  },
+  {
+    "hira": "スマホ",
+    "kata": "スマホ",
+    "rm": "sumaho",
+    "meaning": "智能手机"
+  },
+  {
+    "hira": "タブレット",
+    "kata": "タブレット",
+    "rm": "taburetto",
+    "meaning": "平板电脑"
+  },
+  {
+    "hira": "プリンター",
+    "kata": "プリンター",
+    "rm": "purintaa",
+    "meaning": "打印机"
+  },
+  {
+    "hira": "マウス",
+    "kata": "マウス",
+    "rm": "mausu",
+    "meaning": "鼠标"
+  },
+  {
+    "hira": "キーボード",
+    "kata": "キーボード",
+    "rm": "kiiboodo",
+    "meaning": "键盘"
+  },
+  {
+    "hira": "がめん",
+    "kata": "ガメン",
+    "rm": "gamen",
+    "meaning": "屏幕"
+  },
+  {
+    "hira": "でんげん",
+    "kata": "デンゲン",
+    "rm": "dengen",
+    "meaning": "电源"
+  },
+  {
+    "hira": "じゅうでん",
+    "kata": "ジュウデン",
+    "rm": "juuden",
+    "meaning": "充电"
+  },
+  {
+    "hira": "ダウンロード",
+    "kata": "ダウンロード",
+    "rm": "daunroodo",
+    "meaning": "下载"
+  },
+  {
+    "hira": "パスワード",
+    "kata": "パスワード",
+    "rm": "pasuwaado",
+    "meaning": "密码"
+  },
+  {
+    "hira": "アプリ",
+    "kata": "アプリ",
+    "rm": "apuri",
+    "meaning": "应用"
+  },
+  {
+    "hira": "サイト",
+    "kata": "サイト",
+    "rm": "saito",
+    "meaning": "网站"
+  },
+  {
+    "hira": "けんさく",
+    "kata": "ケンサク",
+    "rm": "kensaku",
+    "meaning": "搜索"
+  },
+  {
+    "hira": "こうしん",
+    "kata": "コウシン",
+    "rm": "koushin",
+    "meaning": "更新"
+  },
+  {
+    "hira": "とうろく",
+    "kata": "トウロク",
+    "rm": "touroku",
+    "meaning": "注册"
+  },
+  {
+    "hira": "ログイン",
+    "kata": "ログイン",
+    "rm": "roguin",
+    "meaning": "登录"
+  },
+  {
+    "hira": "おうだん",
+    "kata": "オウダン",
+    "rm": "oudan",
+    "meaning": "横穿"
+  },
+  {
+    "hira": "ちゅうしゃじょう",
+    "kata": "チュウシャジョウ",
+    "rm": "chuushajou",
+    "meaning": "停车场"
+  },
+  {
+    "hira": "ガソリンスタンド",
+    "kata": "ガソリンスタンド",
+    "rm": "gasorinsutando",
+    "meaning": "加油站"
+  },
+  {
+    "hira": "こうそくどうろ",
+    "kata": "コウソクドウロ",
+    "rm": "kousokudouro",
+    "meaning": "高速公路"
+  },
+  {
+    "hira": "おうふく",
+    "kata": "オウフク",
+    "rm": "oufuku",
+    "meaning": "往返"
+  },
+  {
+    "hira": "かたみち",
+    "kata": "カタミチ",
+    "rm": "katamichi",
+    "meaning": "单程"
+  },
+  {
+    "hira": "しゅっぱつ",
+    "kata": "シュッパツ",
+    "rm": "shuppatsu",
+    "meaning": "出发"
+  },
+  {
+    "hira": "とうちゃく",
+    "kata": "トウチャク",
+    "rm": "touchaku",
+    "meaning": "到达"
+  },
+  {
+    "hira": "のりかえ",
+    "kata": "ノリカエ",
+    "rm": "norikae",
+    "meaning": "换乘"
+  },
+  {
+    "hira": "じこくひょう",
+    "kata": "ジコクヒョウ",
+    "rm": "jikokuhyou",
+    "meaning": "时刻表"
+  },
+  {
+    "hira": "よやく",
+    "kata": "ヨヤク",
+    "rm": "yoyaku",
+    "meaning": "预约"
+  },
+  {
+    "hira": "キャンセル",
+    "kata": "キャンセル",
+    "rm": "kyanseru",
+    "meaning": "取消"
+  },
+  {
+    "hira": "かくにん",
+    "kata": "カクニン",
+    "rm": "kakunin",
+    "meaning": "确认"
+  },
+  {
+    "hira": "もうしこみ",
+    "kata": "モウシコミ",
+    "rm": "moushikomi",
+    "meaning": "申请"
+  },
+  {
+    "hira": "てつづき",
+    "kata": "テツヅキ",
+    "rm": "tetsuduki",
+    "meaning": "手续"
+  },
+  {
+    "hira": "しょるい",
+    "kata": "ショルイ",
+    "rm": "shorui",
+    "meaning": "文件"
+  },
+  {
+    "hira": "いんかん",
+    "kata": "インカン",
+    "rm": "inkan",
+    "meaning": "印章"
+  },
+  {
+    "hira": "サイン",
+    "kata": "サイン",
+    "rm": "sain",
+    "meaning": "签名"
+  },
+  {
+    "hira": "コピー",
+    "kata": "コピー",
+    "rm": "kopii",
+    "meaning": "复印"
+  },
+  {
+    "hira": "ファックス",
+    "kata": "ファックス",
+    "rm": "fakkusu",
+    "meaning": "传真"
+  },
+  {
+    "hira": "かいぎ",
+    "kata": "カイギ",
+    "rm": "kaigi",
+    "meaning": "会议"
+  },
+  {
+    "hira": "しゅっちょう",
+    "kata": "シュッチョウ",
+    "rm": "shucchou",
+    "meaning": "出差"
+  },
+  {
+    "hira": "ざんぎょう",
+    "kata": "ザンギョウ",
+    "rm": "zangyou",
+    "meaning": "加班"
+  },
+  {
+    "hira": "きゅうか",
+    "kata": "キュウカ",
+    "rm": "kyuuka",
+    "meaning": "休假"
+  },
+  {
+    "hira": "たいしょく",
+    "kata": "タイショク",
+    "rm": "taishoku",
+    "meaning": "退休"
+  },
+  {
+    "hira": "めんせつ",
+    "kata": "メンセツ",
+    "rm": "mensetsu",
+    "meaning": "面试"
+  },
+  {
+    "hira": "りれきしょ",
+    "kata": "リレキショ",
+    "rm": "rirekisho",
+    "meaning": "简历"
+  },
+  {
+    "hira": "きんむ",
+    "kata": "キンム",
+    "rm": "kinmu",
+    "meaning": "上班"
+  },
+  {
+    "hira": "つうきん",
+    "kata": "ツウキン",
+    "rm": "tsuukin",
+    "meaning": "通勤"
+  },
+  {
+    "hira": "ラッシュ",
+    "kata": "ラッシュ",
+    "rm": "rasshu",
+    "meaning": "高峰期"
+  },
+  {
+    "hira": "まんいん",
+    "kata": "マンイン",
+    "rm": "mannin",
+    "meaning": "满员"
+  },
+  {
+    "hira": "すいている",
+    "kata": "スイテイル",
+    "rm": "suiteiru",
+    "meaning": "空闲的"
+  },
+  {
+    "hira": "こんでいる",
+    "kata": "コンデイル",
+    "rm": "kondeiru",
+    "meaning": "拥挤的"
+  },
+  {
+    "hira": "ちこく",
+    "kata": "チコク",
+    "rm": "chikoku",
+    "meaning": "迟到"
+  },
+  {
+    "hira": "そうたい",
+    "kata": "ソウタイ",
+    "rm": "soutai",
+    "meaning": "早退"
+  },
+  {
+    "hira": "けっせき",
+    "kata": "ケッセキ",
+    "rm": "kesseki",
+    "meaning": "缺席"
+  },
+  {
+    "hira": "しゅっせき",
+    "kata": "シュッセキ",
+    "rm": "shusseki",
+    "meaning": "出席"
+  },
+  {
+    "hira": "ほうこく",
+    "kata": "ホウコク",
+    "rm": "houkoku",
+    "meaning": "报告"
+  },
+  {
+    "hira": "ていあん",
+    "kata": "テイアン",
+    "rm": "teian",
+    "meaning": "提案"
+  },
+  {
+    "hira": "さんせい",
+    "kata": "サンセイ",
+    "rm": "sansei",
+    "meaning": "赞成"
+  },
+  {
+    "hira": "はんたい",
+    "kata": "ハンタイ",
+    "rm": "hantai",
+    "meaning": "反对"
+  },
+  {
+    "hira": "ぎろん",
+    "kata": "ギロン",
+    "rm": "giron",
+    "meaning": "讨论"
+  },
+  {
+    "hira": "けつろん",
+    "kata": "ケツロン",
+    "rm": "ketsuron",
+    "meaning": "结论"
+  },
+  {
+    "hira": "ないよう",
+    "kata": "ナイヨウ",
+    "rm": "naiyou",
+    "meaning": "内容"
+  },
+  {
+    "hira": "テーマ",
+    "kata": "テーマ",
+    "rm": "teema",
+    "meaning": "主题"
+  },
+  {
+    "hira": "データ",
+    "kata": "データ",
+    "rm": "deeta",
+    "meaning": "数据"
+  },
+  {
+    "hira": "グラフ",
+    "kata": "グラフ",
+    "rm": "gurafu",
+    "meaning": "图表"
+  },
+  {
+    "hira": "ひょう",
+    "kata": "ヒョウ",
+    "rm": "hyou",
+    "meaning": "表格"
+  },
+  {
+    "hira": "しりょう",
+    "kata": "シリョウ",
+    "rm": "shiryou",
+    "meaning": "资料"
+  },
+  {
+    "hira": "さくひん",
+    "kata": "サクヒン",
+    "rm": "sakuhin",
+    "meaning": "作品"
+  },
+  {
+    "hira": "さっか",
+    "kata": "サッカ",
+    "rm": "sakka",
+    "meaning": "作家"
+  },
+  {
+    "hira": "しじん",
+    "kata": "シジン",
+    "rm": "shijin",
+    "meaning": "诗人"
+  },
+  {
+    "hira": "がか",
+    "kata": "ガカ",
+    "rm": "gaka",
+    "meaning": "画家"
+  },
+  {
+    "hira": "ちょうこく",
+    "kata": "チョウコク",
+    "rm": "choukoku",
+    "meaning": "雕刻"
+  },
+  {
+    "hira": "とうげい",
+    "kata": "トウゲイ",
+    "rm": "tougei",
+    "meaning": "陶艺"
+  },
+  {
+    "hira": "ぬの",
+    "kata": "ヌノ",
+    "rm": "nuno",
+    "meaning": "布"
+  },
+  {
+    "hira": "いと",
+    "kata": "イト",
+    "rm": "ito",
+    "meaning": "线"
+  },
+  {
+    "hira": "はり",
+    "kata": "ハリ",
+    "rm": "hari",
+    "meaning": "针"
+  },
+  {
+    "hira": "ボタン",
+    "kata": "ボタン",
+    "rm": "botan",
+    "meaning": "纽扣"
+  },
+  {
+    "hira": "ファスナー",
+    "kata": "ファスナー",
+    "rm": "fasunaa",
+    "meaning": "拉链"
+  },
+  {
+    "hira": "ポケット",
+    "kata": "ポケット",
+    "rm": "poketto",
+    "meaning": "口袋"
+  },
+  {
+    "hira": "そで",
+    "kata": "ソデ",
+    "rm": "sode",
+    "meaning": "袖子"
+  },
+  {
+    "hira": "えり",
+    "kata": "エリ",
+    "rm": "eri",
+    "meaning": "衣领"
+  },
+  {
+    "hira": "サイズ",
+    "kata": "サイズ",
+    "rm": "saizu",
+    "meaning": "尺寸"
+  },
+  {
+    "hira": "もよう",
+    "kata": "モヨウ",
+    "rm": "moyou",
+    "meaning": "花纹"
+  },
+  {
+    "hira": "しましま",
+    "kata": "シマシマ",
+    "rm": "shimashima",
+    "meaning": "条纹"
+  },
+  {
+    "hira": "みずたま",
+    "kata": "ミズタマ",
+    "rm": "mizutama",
+    "meaning": "圆点"
+  },
+  {
+    "hira": "むじ",
+    "kata": "ムジ",
+    "rm": "muji",
+    "meaning": "纯色"
+  },
+  {
+    "hira": "ちゃいろ",
+    "kata": "チャイロ",
+    "rm": "chairo",
+    "meaning": "棕色"
+  },
+  {
+    "hira": "むらさき",
+    "kata": "ムラサキ",
+    "rm": "murasaki",
+    "meaning": "紫色"
+  },
+  {
+    "hira": "オレンジ",
+    "kata": "オレンジ",
+    "rm": "orenji",
+    "meaning": "橙色"
+  },
+  {
+    "hira": "ピンク",
+    "kata": "ピンク",
+    "rm": "pinku",
+    "meaning": "粉色"
+  },
+  {
+    "hira": "はいいろ",
+    "kata": "ハイイロ",
+    "rm": "haiiro",
+    "meaning": "灰色"
+  },
+  {
+    "hira": "きん",
+    "kata": "キン",
+    "rm": "kin",
+    "meaning": "金"
+  },
+  {
+    "hira": "ぎん",
+    "kata": "ギン",
+    "rm": "gin",
+    "meaning": "银"
+  },
+  {
+    "hira": "どう",
+    "kata": "ドウ",
+    "rm": "doub",
+    "meaning": "铜"
+  },
+  {
+    "hira": "てつ",
+    "kata": "テツ",
+    "rm": "tetsu",
+    "meaning": "铁"
+  },
+  {
+    "hira": "ガラス",
+    "kata": "ガラス",
+    "rm": "garasu",
+    "meaning": "玻璃"
+  },
+  {
+    "hira": "プラスチック",
+    "kata": "プラスチック",
+    "rm": "purasuchikku",
+    "meaning": "塑料"
+  },
+  {
+    "hira": "ゴム",
+    "kata": "ゴム",
+    "rm": "gomu",
+    "meaning": "橡胶"
+  },
+  {
+    "hira": "かわ",
+    "kata": "カワ",
+    "rm": "kawab",
+    "meaning": "皮革"
+  },
+  {
+    "hira": "もめん",
+    "kata": "モメン",
+    "rm": "momen",
+    "meaning": "棉"
+  },
+  {
+    "hira": "きぬ",
+    "kata": "キヌ",
+    "rm": "kinu",
+    "meaning": "丝绸"
+  },
+  {
+    "hira": "ウール",
+    "kata": "ウール",
+    "rm": "uuru",
+    "meaning": "羊毛"
+  },
+  {
+    "hira": "たけ",
+    "kata": "タケ",
+    "rm": "take",
+    "meaning": "竹"
+  },
+  {
+    "hira": "まつ",
+    "kata": "マツ",
+    "rm": "matsub",
+    "meaning": "松树"
+  },
+  {
+    "hira": "さくら",
+    "kata": "サクラ",
+    "rm": "sakura",
+    "meaning": "樱花"
+  },
+  {
+    "hira": "うめ",
+    "kata": "ウメ",
+    "rm": "ume",
+    "meaning": "梅花"
+  },
+  {
+    "hira": "ばら",
+    "kata": "バラ",
+    "rm": "bara",
+    "meaning": "玫瑰"
+  },
+  {
+    "hira": "ひまわり",
+    "kata": "ヒマワリ",
+    "rm": "himawari",
+    "meaning": "向日葵"
+  },
+  {
+    "hira": "チューリップ",
+    "kata": "チューリップ",
+    "rm": "chuurippu",
+    "meaning": "郁金香"
+  },
+  {
+    "hira": "きく",
+    "kata": "キク",
+    "rm": "kikub",
+    "meaning": "菊花"
+  },
+  {
+    "hira": "すみれ",
+    "kata": "スミレ",
+    "rm": "sumire",
+    "meaning": "紫罗兰"
+  },
+  {
+    "hira": "あじさい",
+    "kata": "アジサイ",
+    "rm": "ajisai",
+    "meaning": "绣球花"
+  },
+  {
+    "hira": "つばき",
+    "kata": "ツバキ",
+    "rm": "tsubaki",
+    "meaning": "山茶花"
+  },
+  {
+    "hira": "もみじ",
+    "kata": "モミジ",
+    "rm": "momiji",
+    "meaning": "红叶"
+  },
+  {
+    "hira": "まつたけ",
+    "kata": "マツタケ",
+    "rm": "matsutake",
+    "meaning": "松茸"
+  },
+  {
+    "hira": "しいたけ",
+    "kata": "シイタケ",
+    "rm": "shiitake",
+    "meaning": "香菇"
+  },
+  {
+    "hira": "ねぎ",
+    "kata": "ネギ",
+    "rm": "negi",
+    "meaning": "葱"
+  },
+  {
+    "hira": "にんにく",
+    "kata": "ニンニク",
+    "rm": "ninniku",
+    "meaning": "大蒜"
+  },
+  {
+    "hira": "しょうが",
+    "kata": "ショウガ",
+    "rm": "shouga",
+    "meaning": "生姜"
+  },
+  {
+    "hira": "ごま",
+    "kata": "ゴマ",
+    "rm": "goma",
+    "meaning": "芝麻"
+  },
+  {
+    "hira": "わさび",
+    "kata": "ワサビ",
+    "rm": "wasabi",
+    "meaning": "芥末"
+  },
+  {
+    "hira": "のうみん",
+    "kata": "ノウミン",
+    "rm": "noumin",
+    "meaning": "农夫"
+  }
 ]
