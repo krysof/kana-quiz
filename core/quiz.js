@@ -256,7 +256,7 @@ export function newQuestion(db, settings, stats){
 
   // 汉字→选读音
   if (mode === "kanji_read") {
-    const pool2 = pools.kanji.filter(x => x.rm !== correct.rm);
+    const pool2 = pools.kanji.filter(x => x.rm !== correct.rm && x.hira !== correct.hira);
     const correctLen = correct.hira.length;
     const correctFirst = correct.hira[0];
 
@@ -277,11 +277,11 @@ export function newQuestion(db, settings, stats){
     const tiers = [18, 13, 10, 5, 0];
     for (const minScore of tiers) {
       if (wrongs.length >= 3) break;
-      const tier = scored.filter(x => x.score >= minScore && !used.has(x.item.rm));
+      const tier = scored.filter(x => x.score >= minScore && !used.has(x.item.hira));
       const picks = shuffle(tier).slice(0, 3 - wrongs.length);
       for (const p of picks) {
         wrongs.push(p.item);
-        used.add(p.item.rm);
+        used.add(p.item.hira);
       }
     }
 
@@ -292,7 +292,7 @@ export function newQuestion(db, settings, stats){
 
   // 读音→选汉字
   if (mode === "read_kanji") {
-    const pool2 = pools.kanji.filter(x => x.rm !== correct.rm);
+    const pool2 = pools.kanji.filter(x => x.rm !== correct.rm && x.kanji !== correct.kanji);
     const correctKanjiLen = correct.kanji.length;
 
     const score = (x) => {
@@ -311,11 +311,11 @@ export function newQuestion(db, settings, stats){
     const tiers = [10, 5, 0];
     for (const minScore of tiers) {
       if (wrongs.length >= 3) break;
-      const tier = scored.filter(x => x.score >= minScore && !used.has(x.item.rm));
+      const tier = scored.filter(x => x.score >= minScore && !used.has(x.item.kanji));
       const picks = shuffle(tier).slice(0, 3 - wrongs.length);
       for (const p of picks) {
         wrongs.push(p.item);
-        used.add(p.item.rm);
+        used.add(p.item.kanji);
       }
     }
 
@@ -326,7 +326,7 @@ export function newQuestion(db, settings, stats){
 
   // 汉字→选意思
   if (mode === "kanji_mean") {
-    const pool2 = pools.kanji.filter(x => x.rm !== correct.rm);
+    const pool2 = pools.kanji.filter(x => x.rm !== correct.rm && x.meaning !== correct.meaning);
     const correctMeanLen = (correct.meaning || "").length;
 
     const score = (x) => {
@@ -345,11 +345,11 @@ export function newQuestion(db, settings, stats){
     const tiers = [10, 5, 0];
     for (const minScore of tiers) {
       if (wrongs.length >= 3) break;
-      const tier = scored.filter(x => x.score >= minScore && !used.has(x.item.rm));
+      const tier = scored.filter(x => x.score >= minScore && !used.has(x.item.meaning));
       const picks = shuffle(tier).slice(0, 3 - wrongs.length);
       for (const p of picks) {
         wrongs.push(p.item);
-        used.add(p.item.rm);
+        used.add(p.item.meaning);
       }
     }
 
