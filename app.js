@@ -592,9 +592,9 @@ async function init() {
 
     // Load translation meaning files
     const [zhTW, ja, en] = await Promise.all([
-      loadJSON("./data/meanings_zh_TW.json").catch(() => ({})),
-      loadJSON("./data/meanings_ja.json").catch(() => ({})),
-      loadJSON("./data/meanings_en.json").catch(() => ({})),
+      loadJSON("./data/meanings_zh_TW.json?v=1.5").catch(() => ({})),
+      loadJSON("./data/meanings_ja.json?v=1.5").catch(() => ({})),
+      loadJSON("./data/meanings_en.json?v=1.5").catch(() => ({})),
     ]);
     db.meanings = { "zh-TW": zhTW, ja, en };
   } catch (e) {
