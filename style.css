@@ -175,22 +175,25 @@ body {
   box-shadow: var(--shadow);
 }
 
-.quiz-lang {
-  position: static;
+.quiz-lang-bar {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  padding: 8px 0;
 }
 
-.quiz-lang .lang-btn {
+.quiz-lang-bar .lang-btn {
   background: var(--gray-100);
   border-color: var(--gray-200);
   color: var(--gray-500);
 }
 
-.quiz-lang .lang-btn:hover {
+.quiz-lang-bar .lang-btn:hover {
   background: var(--gray-200);
   color: var(--primary);
 }
 
-.quiz-lang .lang-btn.active {
+.quiz-lang-bar .lang-btn.active {
   background: var(--primary);
   color: white;
   border-color: var(--primary);
