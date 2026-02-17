@@ -179,24 +179,25 @@ body {
   display: flex;
   justify-content: center;
   gap: 4px;
-  padding: 8px 0;
+  padding: 4px 0 8px;
+  margin-bottom: 4px;
 }
 
 .quiz-lang-bar .lang-btn {
-  background: var(--gray-100);
-  border-color: var(--gray-200);
-  color: var(--gray-500);
+  background: rgba(255,255,255,0.2);
+  border-color: rgba(255,255,255,0.3);
+  color: rgba(255,255,255,0.7);
 }
 
 .quiz-lang-bar .lang-btn:hover {
-  background: var(--gray-200);
-  color: var(--primary);
+  background: rgba(255,255,255,0.3);
+  color: white;
 }
 
 .quiz-lang-bar .lang-btn.active {
-  background: var(--primary);
-  color: white;
-  border-color: var(--primary);
+  background: rgba(255,255,255,0.9);
+  color: var(--primary-dark);
+  border-color: rgba(255,255,255,0.9);
 }
 
 .quiz-progress {
