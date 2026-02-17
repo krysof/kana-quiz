@@ -1,15 +1,15 @@
 import {
   loadSettings, saveSettings, resetSettings,
   loadStats, saveStats, resetDaily, resetAllStats
-} from "./core/storage.js?v=1.3";
+} from "./core/storage.js?v=1.4";
 
-import { speakJP, warmupTTS } from "./core/tts.js?v=1.3";
-import { playCorrect, playWrong, unlockAudio } from "./core/audio.js?v=1.3";
+import { speakJP, warmupTTS } from "./core/tts.js?v=1.4";
+import { playCorrect, playWrong, unlockAudio } from "./core/audio.js?v=1.4";
 
 import {
   newQuestion, recordResult, startSession,
   normalizeRomaji, pct
-} from "./core/quiz.js?v=1.3";
+} from "./core/quiz.js?v=1.4";
 
 const $ = (id) => document.getElementById(id);
 
@@ -75,7 +75,7 @@ const ui = {
 
 let settings = loadSettings();
 let stats = loadStats();
-let db = { kana: [], words: [] };
+let db = { kana: [], words: [], kanji: [] };
 let current = null;
 let answered = false; // 是否已答题
 
@@ -192,8 +192,9 @@ function showScreen(screen) {
 
 function setUIForMode(mode) {
   const isInput = (mode === "rm_in" || mode === "jp_in");
+  const isChoice = !isInput;
   ui.inputWrap.classList.toggle("hide", !isInput);
-  ui.opts.classList.toggle("hide", isInput);
+  ui.opts.classList.toggle("hide", !isChoice);
 
   if (isInput) {
     ui.inp.value = "";
@@ -214,14 +215,34 @@ function renderQuestion() {
 
   // 处理释义显示（直接从UI读取最新状态）
   const shouldHide = ui.hideMeaning.checked;
-  // rm_mean 模式下不显示释义（那是答案）
-  if (current.mode === "rm_mean") {
+  // rm_mean / kanji_mean 模式下不显示释义（那是答案）
+  if (current.mode === "rm_mean" || current.mode === "kanji_mean") {
     ui.meaning.textContent = "";
     ui.meaning.onclick = null;
   } else if (current.mode === "mean_rm") {
     // mean_rm 模式下释义就是题目，不额外显示
     ui.meaning.textContent = "";
     ui.meaning.onclick = null;
+  } else if (current.mode === "kanji_read" || current.mode === "read_kanji") {
+    // 汉字模式显示释义
+    if (it.meaning) {
+      if (shouldHide) {
+        ui.meaning.textContent = "释义：***";
+        ui.meaning.style.cursor = "pointer";
+        ui.meaning.onclick = () => {
+          ui.meaning.textContent = `释义：${it.meaning}`;
+          ui.meaning.style.cursor = "default";
+          ui.meaning.onclick = null;
+        };
+      } else {
+        ui.meaning.textContent = `释义：${it.meaning}`;
+        ui.meaning.style.cursor = "default";
+        ui.meaning.onclick = null;
+      }
+    } else {
+      ui.meaning.textContent = "";
+      ui.meaning.onclick = null;
+    }
   } else if (it.type === "word" && it.meaning) {
     if (shouldHide) {
       ui.meaning.textContent = "释义：***";
@@ -246,6 +267,12 @@ function renderQuestion() {
     ui.q.innerHTML = `<span class="big">${kana}</span> 是什么意思？`;
   } else if (current.mode === "mean_rm") {
     ui.q.innerHTML = `「${it.meaning}」怎么读？`;
+  } else if (current.mode === "kanji_read") {
+    ui.q.innerHTML = `<span class="big">${it.kanji}</span> 怎么读？`;
+  } else if (current.mode === "read_kanji") {
+    ui.q.innerHTML = `<span class="big">${kana}</span> 的汉字是？`;
+  } else if (current.mode === "kanji_mean") {
+    ui.q.innerHTML = `<span class="big">${it.kanji}</span> 是什么意思？`;
   } else if (current.mode === "rm_mc" || current.mode === "rm_in") {
     ui.q.innerHTML = `<b>${it.rm}</b> 的${it.type === "word" ? "写法" : "假名"}是？`;
   } else {
@@ -267,6 +294,33 @@ function renderQuestion() {
       const div = document.createElement("div");
       div.className = "opt";
       div.innerHTML = `<div class="jp">${getKana(c)}</div>`;
+      div.onclick = () => answerChoice(idx);
+      ui.opts.appendChild(div);
+    });
+  } else if (current.mode === "kanji_read") {
+    ui.opts.innerHTML = "";
+    current.choices.forEach((c, idx) => {
+      const div = document.createElement("div");
+      div.className = "opt";
+      div.innerHTML = `<div class="jp">${getKana(c)}</div>`;
+      div.onclick = () => answerChoice(idx);
+      ui.opts.appendChild(div);
+    });
+  } else if (current.mode === "read_kanji") {
+    ui.opts.innerHTML = "";
+    current.choices.forEach((c, idx) => {
+      const div = document.createElement("div");
+      div.className = "opt";
+      div.innerHTML = `<div class="jp">${c.kanji}</div>`;
+      div.onclick = () => answerChoice(idx);
+      ui.opts.appendChild(div);
+    });
+  } else if (current.mode === "kanji_mean") {
+    ui.opts.innerHTML = "";
+    current.choices.forEach((c, idx) => {
+      const div = document.createElement("div");
+      div.className = "opt";
+      div.innerHTML = `<div class="meaning-opt">${c.meaning}</div>`;
       div.onclick = () => answerChoice(idx);
       ui.opts.appendChild(div);
     });
@@ -334,6 +388,10 @@ function answerChoice(idx) {
     ui.result.innerHTML = ok
       ? `✅ 正确：<b>${kana}</b> = <b>${meaning}</b>`
       : `❌ 错了。正确：<b>${kana}</b> = <b>${meaning}</b>`;
+  } else if (current.mode === "kanji_read" || current.mode === "read_kanji" || current.mode === "kanji_mean") {
+    ui.result.innerHTML = ok
+      ? `✅ 正确：<b>${current.correct.kanji}</b>（${kana}）= <b>${meaning}</b>`
+      : `❌ 错了。正确：<b>${current.correct.kanji}</b>（${kana}）= <b>${meaning}</b>`;
   } else {
     ui.result.innerHTML = ok
       ? `✅ 正确：<b>${current.correct.rm}</b> = <b>${kana}</b>`
@@ -479,6 +537,7 @@ async function init() {
   try {
     db.kana = await loadJSON("./data/kana.json");
     db.words = await loadJSON("./data/words.json");
+    db.kanji = await loadJSON("./data/kanji_words.json");
   } catch (e) {
     console.error(e);
     alert("加载数据失败，请确保通过 HTTP 服务器访问（如 GitHub Pages 或本地服务器）");

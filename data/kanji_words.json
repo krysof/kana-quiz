@@ -1,0 +1,7009 @@
+[
+  {
+    "kanji": "食べる",
+    "hira": "たべる",
+    "kata": "タベル",
+    "rm": "taberu",
+    "meaning": "吃"
+  },
+  {
+    "kanji": "飲む",
+    "hira": "のむ",
+    "kata": "ノム",
+    "rm": "nomu",
+    "meaning": "喝"
+  },
+  {
+    "kanji": "見る",
+    "hira": "みる",
+    "kata": "ミル",
+    "rm": "miru",
+    "meaning": "看"
+  },
+  {
+    "kanji": "聞く",
+    "hira": "きく",
+    "kata": "キク",
+    "rm": "kiku",
+    "meaning": "听"
+  },
+  {
+    "kanji": "読む",
+    "hira": "よむ",
+    "kata": "ヨム",
+    "rm": "yomu",
+    "meaning": "读"
+  },
+  {
+    "kanji": "書く",
+    "hira": "かく",
+    "kata": "カク",
+    "rm": "kaku",
+    "meaning": "写"
+  },
+  {
+    "kanji": "話す",
+    "hira": "はなす",
+    "kata": "ハナス",
+    "rm": "hanasu",
+    "meaning": "说话"
+  },
+  {
+    "kanji": "行く",
+    "hira": "いく",
+    "kata": "イク",
+    "rm": "iku",
+    "meaning": "去"
+  },
+  {
+    "kanji": "来る",
+    "hira": "くる",
+    "kata": "クル",
+    "rm": "kuru",
+    "meaning": "来"
+  },
+  {
+    "kanji": "帰る",
+    "hira": "かえる",
+    "kata": "カエル",
+    "rm": "kaeru",
+    "meaning": "回去"
+  },
+  {
+    "kanji": "出る",
+    "hira": "でる",
+    "kata": "デル",
+    "rm": "deru",
+    "meaning": "出去"
+  },
+  {
+    "kanji": "入る",
+    "hira": "はいる",
+    "kata": "ハイル",
+    "rm": "hairu",
+    "meaning": "进入"
+  },
+  {
+    "kanji": "買う",
+    "hira": "かう",
+    "kata": "カウ",
+    "rm": "kau",
+    "meaning": "买"
+  },
+  {
+    "kanji": "売る",
+    "hira": "うる",
+    "kata": "ウル",
+    "rm": "uru",
+    "meaning": "卖"
+  },
+  {
+    "kanji": "作る",
+    "hira": "つくる",
+    "kata": "ツクル",
+    "rm": "tsukuru",
+    "meaning": "做"
+  },
+  {
+    "kanji": "使う",
+    "hira": "つかう",
+    "kata": "ツカウ",
+    "rm": "tsukau",
+    "meaning": "使用"
+  },
+  {
+    "kanji": "持つ",
+    "hira": "もつ",
+    "kata": "モツ",
+    "rm": "motsu",
+    "meaning": "拿"
+  },
+  {
+    "kanji": "待つ",
+    "hira": "まつ",
+    "kata": "マツ",
+    "rm": "matsu",
+    "meaning": "等待"
+  },
+  {
+    "kanji": "立つ",
+    "hira": "たつ",
+    "kata": "タツ",
+    "rm": "tatsu",
+    "meaning": "站立"
+  },
+  {
+    "kanji": "座る",
+    "hira": "すわる",
+    "kata": "スワル",
+    "rm": "suwaru",
+    "meaning": "坐"
+  },
+  {
+    "kanji": "走る",
+    "hira": "はしる",
+    "kata": "ハシル",
+    "rm": "hashiru",
+    "meaning": "跑"
+  },
+  {
+    "kanji": "歩く",
+    "hira": "あるく",
+    "kata": "アルク",
+    "rm": "aruku",
+    "meaning": "走路"
+  },
+  {
+    "kanji": "泳ぐ",
+    "hira": "およぐ",
+    "kata": "オヨグ",
+    "rm": "oyogu",
+    "meaning": "游泳"
+  },
+  {
+    "kanji": "飛ぶ",
+    "hira": "とぶ",
+    "kata": "トブ",
+    "rm": "tobu",
+    "meaning": "飞"
+  },
+  {
+    "kanji": "乗る",
+    "hira": "のる",
+    "kata": "ノル",
+    "rm": "noru",
+    "meaning": "乘坐"
+  },
+  {
+    "kanji": "降りる",
+    "hira": "おりる",
+    "kata": "オリル",
+    "rm": "oriru",
+    "meaning": "下车"
+  },
+  {
+    "kanji": "開ける",
+    "hira": "あける",
+    "kata": "アケル",
+    "rm": "akeru",
+    "meaning": "打开"
+  },
+  {
+    "kanji": "閉める",
+    "hira": "しめる",
+    "kata": "シメル",
+    "rm": "shimeru",
+    "meaning": "关闭"
+  },
+  {
+    "kanji": "始める",
+    "hira": "はじめる",
+    "kata": "ハジメル",
+    "rm": "hajimeru",
+    "meaning": "开始"
+  },
+  {
+    "kanji": "終わる",
+    "hira": "おわる",
+    "kata": "オワル",
+    "rm": "owaru",
+    "meaning": "结束"
+  },
+  {
+    "kanji": "住む",
+    "hira": "すむ",
+    "kata": "スム",
+    "rm": "sumu",
+    "meaning": "住"
+  },
+  {
+    "kanji": "働く",
+    "hira": "はたらく",
+    "kata": "ハタラク",
+    "rm": "hataraku",
+    "meaning": "工作"
+  },
+  {
+    "kanji": "休む",
+    "hira": "やすむ",
+    "kata": "ヤスム",
+    "rm": "yasumu",
+    "meaning": "休息"
+  },
+  {
+    "kanji": "遊ぶ",
+    "hira": "あそぶ",
+    "kata": "アソブ",
+    "rm": "asobu",
+    "meaning": "玩"
+  },
+  {
+    "kanji": "勉強",
+    "hira": "べんきょう",
+    "kata": "ベンキョウ",
+    "rm": "benkyou",
+    "meaning": "学习"
+  },
+  {
+    "kanji": "練習",
+    "hira": "れんしゅう",
+    "kata": "レンシュウ",
+    "rm": "renshuu",
+    "meaning": "练习"
+  },
+  {
+    "kanji": "教える",
+    "hira": "おしえる",
+    "kata": "オシエル",
+    "rm": "oshieru",
+    "meaning": "教"
+  },
+  {
+    "kanji": "習う",
+    "hira": "ならう",
+    "kata": "ナラウ",
+    "rm": "narau",
+    "meaning": "学"
+  },
+  {
+    "kanji": "覚える",
+    "hira": "おぼえる",
+    "kata": "オボエル",
+    "rm": "oboeru",
+    "meaning": "记住"
+  },
+  {
+    "kanji": "忘れる",
+    "hira": "わすれる",
+    "kata": "ワスレル",
+    "rm": "wasureru",
+    "meaning": "忘记"
+  },
+  {
+    "kanji": "考える",
+    "hira": "かんがえる",
+    "kata": "カンガエル",
+    "rm": "kangaeru",
+    "meaning": "思考"
+  },
+  {
+    "kanji": "思う",
+    "hira": "おもう",
+    "kata": "オモウ",
+    "rm": "omou",
+    "meaning": "想"
+  },
+  {
+    "kanji": "知る",
+    "hira": "しる",
+    "kata": "シル",
+    "rm": "shiru",
+    "meaning": "知道"
+  },
+  {
+    "kanji": "分かる",
+    "hira": "わかる",
+    "kata": "ワカル",
+    "rm": "wakaru",
+    "meaning": "明白"
+  },
+  {
+    "kanji": "言う",
+    "hira": "いう",
+    "kata": "イウ",
+    "rm": "iu",
+    "meaning": "说"
+  },
+  {
+    "kanji": "答える",
+    "hira": "こたえる",
+    "kata": "コタエル",
+    "rm": "kotaeru",
+    "meaning": "回答"
+  },
+  {
+    "kanji": "質問",
+    "hira": "しつもん",
+    "kata": "シツモン",
+    "rm": "shitsumon",
+    "meaning": "提问"
+  },
+  {
+    "kanji": "説明",
+    "hira": "せつめい",
+    "kata": "セツメイ",
+    "rm": "setsumei",
+    "meaning": "说明"
+  },
+  {
+    "kanji": "会う",
+    "hira": "あう",
+    "kata": "アウ",
+    "rm": "au",
+    "meaning": "见面"
+  },
+  {
+    "kanji": "別れる",
+    "hira": "わかれる",
+    "kata": "ワカレル",
+    "rm": "wakareru",
+    "meaning": "分别"
+  },
+  {
+    "kanji": "笑う",
+    "hira": "わらう",
+    "kata": "ワラウ",
+    "rm": "warau",
+    "meaning": "笑"
+  },
+  {
+    "kanji": "泣く",
+    "hira": "なく",
+    "kata": "ナク",
+    "rm": "naku",
+    "meaning": "哭"
+  },
+  {
+    "kanji": "怒る",
+    "hira": "おこる",
+    "kata": "オコル",
+    "rm": "okoru",
+    "meaning": "生气"
+  },
+  {
+    "kanji": "喜ぶ",
+    "hira": "よろこぶ",
+    "kata": "ヨロコブ",
+    "rm": "yorokobu",
+    "meaning": "高兴"
+  },
+  {
+    "kanji": "悲しむ",
+    "hira": "かなしむ",
+    "kata": "カナシム",
+    "rm": "kanashimu",
+    "meaning": "悲伤"
+  },
+  {
+    "kanji": "困る",
+    "hira": "こまる",
+    "kata": "コマル",
+    "rm": "komaru",
+    "meaning": "为难"
+  },
+  {
+    "kanji": "驚く",
+    "hira": "おどろく",
+    "kata": "オドロク",
+    "rm": "odoroku",
+    "meaning": "吃惊"
+  },
+  {
+    "kanji": "疲れる",
+    "hira": "つかれる",
+    "kata": "ツカレル",
+    "rm": "tsukareru",
+    "meaning": "疲倦"
+  },
+  {
+    "kanji": "起きる",
+    "hira": "おきる",
+    "kata": "オキル",
+    "rm": "okiru",
+    "meaning": "起床"
+  },
+  {
+    "kanji": "寝る",
+    "hira": "ねる",
+    "kata": "ネル",
+    "rm": "neru",
+    "meaning": "睡觉"
+  },
+  {
+    "kanji": "着る",
+    "hira": "きる",
+    "kata": "キル",
+    "rm": "kiru",
+    "meaning": "穿"
+  },
+  {
+    "kanji": "脱ぐ",
+    "hira": "ぬぐ",
+    "kata": "ヌグ",
+    "rm": "nugu",
+    "meaning": "脱"
+  },
+  {
+    "kanji": "洗う",
+    "hira": "あらう",
+    "kata": "アラウ",
+    "rm": "arau",
+    "meaning": "洗"
+  },
+  {
+    "kanji": "切る",
+    "hira": "きる",
+    "kata": "キル",
+    "rm": "kiru2",
+    "meaning": "切"
+  },
+  {
+    "kanji": "送る",
+    "hira": "おくる",
+    "kata": "オクル",
+    "rm": "okuru",
+    "meaning": "送"
+  },
+  {
+    "kanji": "届く",
+    "hira": "とどく",
+    "kata": "トドク",
+    "rm": "todoku",
+    "meaning": "送达"
+  },
+  {
+    "kanji": "受ける",
+    "hira": "うける",
+    "kata": "ウケル",
+    "rm": "ukeru",
+    "meaning": "接受"
+  },
+  {
+    "kanji": "渡す",
+    "hira": "わたす",
+    "kata": "ワタス",
+    "rm": "watasu",
+    "meaning": "递给"
+  },
+  {
+    "kanji": "貸す",
+    "hira": "かす",
+    "kata": "カス",
+    "rm": "kasu",
+    "meaning": "借出"
+  },
+  {
+    "kanji": "借りる",
+    "hira": "かりる",
+    "kata": "カリル",
+    "rm": "kariru",
+    "meaning": "借入"
+  },
+  {
+    "kanji": "返す",
+    "hira": "かえす",
+    "kata": "カエス",
+    "rm": "kaesu",
+    "meaning": "归还"
+  },
+  {
+    "kanji": "払う",
+    "hira": "はらう",
+    "kata": "ハラウ",
+    "rm": "harau",
+    "meaning": "支付"
+  },
+  {
+    "kanji": "選ぶ",
+    "hira": "えらぶ",
+    "kata": "エラブ",
+    "rm": "erabu",
+    "meaning": "选择"
+  },
+  {
+    "kanji": "決める",
+    "hira": "きめる",
+    "kata": "キメル",
+    "rm": "kimeru",
+    "meaning": "决定"
+  },
+  {
+    "kanji": "変わる",
+    "hira": "かわる",
+    "kata": "カワル",
+    "rm": "kawaru",
+    "meaning": "变化"
+  },
+  {
+    "kanji": "変える",
+    "hira": "かえる",
+    "kata": "カエル",
+    "rm": "kaeru2",
+    "meaning": "改变"
+  },
+  {
+    "kanji": "集める",
+    "hira": "あつめる",
+    "kata": "アツメル",
+    "rm": "atsumeru",
+    "meaning": "收集"
+  },
+  {
+    "kanji": "並ぶ",
+    "hira": "ならぶ",
+    "kata": "ナラブ",
+    "rm": "narabu",
+    "meaning": "排列"
+  },
+  {
+    "kanji": "置く",
+    "hira": "おく",
+    "kata": "オク",
+    "rm": "oku",
+    "meaning": "放置"
+  },
+  {
+    "kanji": "取る",
+    "hira": "とる",
+    "kata": "トル",
+    "rm": "toru",
+    "meaning": "拿取"
+  },
+  {
+    "kanji": "捨てる",
+    "hira": "すてる",
+    "kata": "ステル",
+    "rm": "suteru",
+    "meaning": "扔掉"
+  },
+  {
+    "kanji": "拾う",
+    "hira": "ひろう",
+    "kata": "ヒロウ",
+    "rm": "hirou",
+    "meaning": "捡起"
+  },
+  {
+    "kanji": "押す",
+    "hira": "おす",
+    "kata": "オス",
+    "rm": "osu",
+    "meaning": "推"
+  },
+  {
+    "kanji": "引く",
+    "hira": "ひく",
+    "kata": "ヒク",
+    "rm": "hiku",
+    "meaning": "拉"
+  },
+  {
+    "kanji": "上げる",
+    "hira": "あげる",
+    "kata": "アゲル",
+    "rm": "ageru",
+    "meaning": "举起"
+  },
+  {
+    "kanji": "下げる",
+    "hira": "さげる",
+    "kata": "サゲル",
+    "rm": "sageru",
+    "meaning": "降低"
+  },
+  {
+    "kanji": "落とす",
+    "hira": "おとす",
+    "kata": "オトス",
+    "rm": "otosu",
+    "meaning": "掉落"
+  },
+  {
+    "kanji": "落ちる",
+    "hira": "おちる",
+    "kata": "オチル",
+    "rm": "ochiru",
+    "meaning": "落下"
+  },
+  {
+    "kanji": "壊す",
+    "hira": "こわす",
+    "kata": "コワス",
+    "rm": "kowasu",
+    "meaning": "弄坏"
+  },
+  {
+    "kanji": "壊れる",
+    "hira": "こわれる",
+    "kata": "コワレル",
+    "rm": "kowareru",
+    "meaning": "坏掉"
+  },
+  {
+    "kanji": "直す",
+    "hira": "なおす",
+    "kata": "ナオス",
+    "rm": "naosu",
+    "meaning": "修理"
+  },
+  {
+    "kanji": "直る",
+    "hira": "なおる",
+    "kata": "ナオル",
+    "rm": "naoru",
+    "meaning": "修好"
+  },
+  {
+    "kanji": "消す",
+    "hira": "けす",
+    "kata": "ケス",
+    "rm": "kesu",
+    "meaning": "关掉"
+  },
+  {
+    "kanji": "消える",
+    "hira": "きえる",
+    "kata": "キエル",
+    "rm": "kieru",
+    "meaning": "消失"
+  },
+  {
+    "kanji": "付ける",
+    "hira": "つける",
+    "kata": "ツケル",
+    "rm": "tsukeru",
+    "meaning": "打开"
+  },
+  {
+    "kanji": "動く",
+    "hira": "うごく",
+    "kata": "ウゴク",
+    "rm": "ugoku",
+    "meaning": "动"
+  },
+  {
+    "kanji": "止まる",
+    "hira": "とまる",
+    "kata": "トマル",
+    "rm": "tomaru",
+    "meaning": "停止"
+  },
+  {
+    "kanji": "止める",
+    "hira": "とめる",
+    "kata": "トメル",
+    "rm": "tomeru",
+    "meaning": "停住"
+  },
+  {
+    "kanji": "続ける",
+    "hira": "つづける",
+    "kata": "ツヅケル",
+    "rm": "tsudukeru",
+    "meaning": "继续"
+  },
+  {
+    "kanji": "続く",
+    "hira": "つづく",
+    "kata": "ツヅク",
+    "rm": "tsuduku",
+    "meaning": "持续"
+  },
+  {
+    "kanji": "頭",
+    "hira": "あたま",
+    "kata": "アタマ",
+    "rm": "atama",
+    "meaning": "头"
+  },
+  {
+    "kanji": "顔",
+    "hira": "かお",
+    "kata": "カオ",
+    "rm": "kao",
+    "meaning": "脸"
+  },
+  {
+    "kanji": "目",
+    "hira": "め",
+    "kata": "メ",
+    "rm": "me",
+    "meaning": "眼睛"
+  },
+  {
+    "kanji": "耳",
+    "hira": "みみ",
+    "kata": "ミミ",
+    "rm": "mimi",
+    "meaning": "耳朵"
+  },
+  {
+    "kanji": "口",
+    "hira": "くち",
+    "kata": "クチ",
+    "rm": "kuchi",
+    "meaning": "嘴"
+  },
+  {
+    "kanji": "鼻",
+    "hira": "はな",
+    "kata": "ハナ",
+    "rm": "hana",
+    "meaning": "鼻子"
+  },
+  {
+    "kanji": "歯",
+    "hira": "は",
+    "kata": "ハ",
+    "rm": "ha",
+    "meaning": "牙齿"
+  },
+  {
+    "kanji": "首",
+    "hira": "くび",
+    "kata": "クビ",
+    "rm": "kubi",
+    "meaning": "脖子"
+  },
+  {
+    "kanji": "肩",
+    "hira": "かた",
+    "kata": "カタ",
+    "rm": "kata_n",
+    "meaning": "肩膀"
+  },
+  {
+    "kanji": "手",
+    "hira": "て",
+    "kata": "テ",
+    "rm": "te",
+    "meaning": "手"
+  },
+  {
+    "kanji": "指",
+    "hira": "ゆび",
+    "kata": "ユビ",
+    "rm": "yubi",
+    "meaning": "手指"
+  },
+  {
+    "kanji": "足",
+    "hira": "あし",
+    "kata": "アシ",
+    "rm": "ashi",
+    "meaning": "脚"
+  },
+  {
+    "kanji": "背中",
+    "hira": "せなか",
+    "kata": "セナカ",
+    "rm": "senaka",
+    "meaning": "背"
+  },
+  {
+    "kanji": "腹",
+    "hira": "はら",
+    "kata": "ハラ",
+    "rm": "hara",
+    "meaning": "肚子"
+  },
+  {
+    "kanji": "心",
+    "hira": "こころ",
+    "kata": "ココロ",
+    "rm": "kokoro",
+    "meaning": "心"
+  },
+  {
+    "kanji": "体",
+    "hira": "からだ",
+    "kata": "カラダ",
+    "rm": "karada",
+    "meaning": "身体"
+  },
+  {
+    "kanji": "声",
+    "hira": "こえ",
+    "kata": "コエ",
+    "rm": "koe",
+    "meaning": "声音"
+  },
+  {
+    "kanji": "力",
+    "hira": "ちから",
+    "kata": "チカラ",
+    "rm": "chikara",
+    "meaning": "力量"
+  },
+  {
+    "kanji": "命",
+    "hira": "いのち",
+    "kata": "イノチ",
+    "rm": "inochi",
+    "meaning": "生命"
+  },
+  {
+    "kanji": "血",
+    "hira": "ち",
+    "kata": "チ",
+    "rm": "chi",
+    "meaning": "血"
+  },
+  {
+    "kanji": "家族",
+    "hira": "かぞく",
+    "kata": "カゾク",
+    "rm": "kazoku",
+    "meaning": "家人"
+  },
+  {
+    "kanji": "父",
+    "hira": "ちち",
+    "kata": "チチ",
+    "rm": "chichi",
+    "meaning": "父亲"
+  },
+  {
+    "kanji": "母",
+    "hira": "はは",
+    "kata": "ハハ",
+    "rm": "haha",
+    "meaning": "母亲"
+  },
+  {
+    "kanji": "兄",
+    "hira": "あに",
+    "kata": "アニ",
+    "rm": "ani",
+    "meaning": "哥哥"
+  },
+  {
+    "kanji": "姉",
+    "hira": "あね",
+    "kata": "アネ",
+    "rm": "ane",
+    "meaning": "姐姐"
+  },
+  {
+    "kanji": "弟",
+    "hira": "おとうと",
+    "kata": "オトウト",
+    "rm": "otouto",
+    "meaning": "弟弟"
+  },
+  {
+    "kanji": "妹",
+    "hira": "いもうと",
+    "kata": "イモウト",
+    "rm": "imouto",
+    "meaning": "妹妹"
+  },
+  {
+    "kanji": "息子",
+    "hira": "むすこ",
+    "kata": "ムスコ",
+    "rm": "musuko",
+    "meaning": "儿子"
+  },
+  {
+    "kanji": "娘",
+    "hira": "むすめ",
+    "kata": "ムスメ",
+    "rm": "musume",
+    "meaning": "女儿"
+  },
+  {
+    "kanji": "夫",
+    "hira": "おっと",
+    "kata": "オット",
+    "rm": "otto",
+    "meaning": "丈夫"
+  },
+  {
+    "kanji": "妻",
+    "hira": "つま",
+    "kata": "ツマ",
+    "rm": "tsuma",
+    "meaning": "妻子"
+  },
+  {
+    "kanji": "親",
+    "hira": "おや",
+    "kata": "オヤ",
+    "rm": "oya",
+    "meaning": "父母"
+  },
+  {
+    "kanji": "子供",
+    "hira": "こども",
+    "kata": "コドモ",
+    "rm": "kodomo",
+    "meaning": "孩子"
+  },
+  {
+    "kanji": "赤ちゃん",
+    "hira": "あかちゃん",
+    "kata": "アカチャン",
+    "rm": "akachan",
+    "meaning": "婴儿"
+  },
+  {
+    "kanji": "祖父",
+    "hira": "そふ",
+    "kata": "ソフ",
+    "rm": "sofu",
+    "meaning": "祖父"
+  },
+  {
+    "kanji": "祖母",
+    "hira": "そぼ",
+    "kata": "ソボ",
+    "rm": "sobo",
+    "meaning": "祖母"
+  },
+  {
+    "kanji": "叔父",
+    "hira": "おじ",
+    "kata": "オジ",
+    "rm": "oji",
+    "meaning": "叔叔"
+  },
+  {
+    "kanji": "叔母",
+    "hira": "おば",
+    "kata": "オバ",
+    "rm": "oba",
+    "meaning": "阿姨"
+  },
+  {
+    "kanji": "友達",
+    "hira": "ともだち",
+    "kata": "トモダチ",
+    "rm": "tomodachi",
+    "meaning": "朋友"
+  },
+  {
+    "kanji": "彼",
+    "hira": "かれ",
+    "kata": "カレ",
+    "rm": "kare",
+    "meaning": "他"
+  },
+  {
+    "kanji": "彼女",
+    "hira": "かのじょ",
+    "kata": "カノジョ",
+    "rm": "kanojo",
+    "meaning": "她"
+  },
+  {
+    "kanji": "先生",
+    "hira": "せんせい",
+    "kata": "センセイ",
+    "rm": "sensei",
+    "meaning": "老师"
+  },
+  {
+    "kanji": "生徒",
+    "hira": "せいと",
+    "kata": "セイト",
+    "rm": "seito",
+    "meaning": "学生"
+  },
+  {
+    "kanji": "学生",
+    "hira": "がくせい",
+    "kata": "ガクセイ",
+    "rm": "gakusei",
+    "meaning": "大学生"
+  },
+  {
+    "kanji": "医者",
+    "hira": "いしゃ",
+    "kata": "イシャ",
+    "rm": "isha",
+    "meaning": "医生"
+  },
+  {
+    "kanji": "会社員",
+    "hira": "かいしゃいん",
+    "kata": "カイシャイン",
+    "rm": "kaishain",
+    "meaning": "公司职员"
+  },
+  {
+    "kanji": "店員",
+    "hira": "てんいん",
+    "kata": "テンイン",
+    "rm": "tenin",
+    "meaning": "店员"
+  },
+  {
+    "kanji": "警察",
+    "hira": "けいさつ",
+    "kata": "ケイサツ",
+    "rm": "keisatsu",
+    "meaning": "警察"
+  },
+  {
+    "kanji": "男",
+    "hira": "おとこ",
+    "kata": "オトコ",
+    "rm": "otoko",
+    "meaning": "男人"
+  },
+  {
+    "kanji": "女",
+    "hira": "おんな",
+    "kata": "オンナ",
+    "rm": "onna",
+    "meaning": "女人"
+  },
+  {
+    "kanji": "人",
+    "hira": "ひと",
+    "kata": "ヒト",
+    "rm": "hito",
+    "meaning": "人"
+  },
+  {
+    "kanji": "大人",
+    "hira": "おとな",
+    "kata": "オトナ",
+    "rm": "otona",
+    "meaning": "大人"
+  },
+  {
+    "kanji": "今日",
+    "hira": "きょう",
+    "kata": "キョウ",
+    "rm": "kyou",
+    "meaning": "今天"
+  },
+  {
+    "kanji": "明日",
+    "hira": "あした",
+    "kata": "アシタ",
+    "rm": "ashita",
+    "meaning": "明天"
+  },
+  {
+    "kanji": "昨日",
+    "hira": "きのう",
+    "kata": "キノウ",
+    "rm": "kinou",
+    "meaning": "昨天"
+  },
+  {
+    "kanji": "今朝",
+    "hira": "けさ",
+    "kata": "ケサ",
+    "rm": "kesa",
+    "meaning": "今天早上"
+  },
+  {
+    "kanji": "今晩",
+    "hira": "こんばん",
+    "kata": "コンバン",
+    "rm": "konban",
+    "meaning": "今晚"
+  },
+  {
+    "kanji": "毎日",
+    "hira": "まいにち",
+    "kata": "マイニチ",
+    "rm": "mainichi",
+    "meaning": "每天"
+  },
+  {
+    "kanji": "毎朝",
+    "hira": "まいあさ",
+    "kata": "マイアサ",
+    "rm": "maiasa",
+    "meaning": "每天早上"
+  },
+  {
+    "kanji": "毎晩",
+    "hira": "まいばん",
+    "kata": "マイバン",
+    "rm": "maiban",
+    "meaning": "每晚"
+  },
+  {
+    "kanji": "毎週",
+    "hira": "まいしゅう",
+    "kata": "マイシュウ",
+    "rm": "maishuu",
+    "meaning": "每周"
+  },
+  {
+    "kanji": "毎月",
+    "hira": "まいつき",
+    "kata": "マイツキ",
+    "rm": "maitsuki",
+    "meaning": "每月"
+  },
+  {
+    "kanji": "毎年",
+    "hira": "まいとし",
+    "kata": "マイトシ",
+    "rm": "maitoshi",
+    "meaning": "每年"
+  },
+  {
+    "kanji": "今週",
+    "hira": "こんしゅう",
+    "kata": "コンシュウ",
+    "rm": "konshuu",
+    "meaning": "这周"
+  },
+  {
+    "kanji": "来週",
+    "hira": "らいしゅう",
+    "kata": "ライシュウ",
+    "rm": "raishuu",
+    "meaning": "下周"
+  },
+  {
+    "kanji": "先週",
+    "hira": "せんしゅう",
+    "kata": "センシュウ",
+    "rm": "senshuu",
+    "meaning": "上周"
+  },
+  {
+    "kanji": "今月",
+    "hira": "こんげつ",
+    "kata": "コンゲツ",
+    "rm": "kongetsu",
+    "meaning": "这个月"
+  },
+  {
+    "kanji": "来月",
+    "hira": "らいげつ",
+    "kata": "ライゲツ",
+    "rm": "raigetsu",
+    "meaning": "下个月"
+  },
+  {
+    "kanji": "先月",
+    "hira": "せんげつ",
+    "kata": "センゲツ",
+    "rm": "sengetsu",
+    "meaning": "上个月"
+  },
+  {
+    "kanji": "今年",
+    "hira": "ことし",
+    "kata": "コトシ",
+    "rm": "kotoshi",
+    "meaning": "今年"
+  },
+  {
+    "kanji": "来年",
+    "hira": "らいねん",
+    "kata": "ライネン",
+    "rm": "rainen",
+    "meaning": "明年"
+  },
+  {
+    "kanji": "去年",
+    "hira": "きょねん",
+    "kata": "キョネン",
+    "rm": "kyonen",
+    "meaning": "去年"
+  },
+  {
+    "kanji": "朝",
+    "hira": "あさ",
+    "kata": "アサ",
+    "rm": "asa",
+    "meaning": "早上"
+  },
+  {
+    "kanji": "昼",
+    "hira": "ひる",
+    "kata": "ヒル",
+    "rm": "hiru",
+    "meaning": "中午"
+  },
+  {
+    "kanji": "夜",
+    "hira": "よる",
+    "kata": "ヨル",
+    "rm": "yoru",
+    "meaning": "晚上"
+  },
+  {
+    "kanji": "午前",
+    "hira": "ごぜん",
+    "kata": "ゴゼン",
+    "rm": "gozen",
+    "meaning": "上午"
+  },
+  {
+    "kanji": "午後",
+    "hira": "ごご",
+    "kata": "ゴゴ",
+    "rm": "gogo",
+    "meaning": "下午"
+  },
+  {
+    "kanji": "時間",
+    "hira": "じかん",
+    "kata": "ジカン",
+    "rm": "jikan",
+    "meaning": "时间"
+  },
+  {
+    "kanji": "分",
+    "hira": "ふん",
+    "kata": "フン",
+    "rm": "fun",
+    "meaning": "分钟"
+  },
+  {
+    "kanji": "秒",
+    "hira": "びょう",
+    "kata": "ビョウ",
+    "rm": "byou",
+    "meaning": "秒"
+  },
+  {
+    "kanji": "半",
+    "hira": "はん",
+    "kata": "ハン",
+    "rm": "han",
+    "meaning": "半"
+  },
+  {
+    "kanji": "月曜日",
+    "hira": "げつようび",
+    "kata": "ゲツヨウビ",
+    "rm": "getsuyoubi",
+    "meaning": "星期一"
+  },
+  {
+    "kanji": "火曜日",
+    "hira": "かようび",
+    "kata": "カヨウビ",
+    "rm": "kayoubi",
+    "meaning": "星期二"
+  },
+  {
+    "kanji": "水曜日",
+    "hira": "すいようび",
+    "kata": "スイヨウビ",
+    "rm": "suiyoubi",
+    "meaning": "星期三"
+  },
+  {
+    "kanji": "木曜日",
+    "hira": "もくようび",
+    "kata": "モクヨウビ",
+    "rm": "mokuyoubi",
+    "meaning": "星期四"
+  },
+  {
+    "kanji": "金曜日",
+    "hira": "きんようび",
+    "kata": "キンヨウビ",
+    "rm": "kinyoubi",
+    "meaning": "星期五"
+  },
+  {
+    "kanji": "土曜日",
+    "hira": "どようび",
+    "kata": "ドヨウビ",
+    "rm": "doyoubi",
+    "meaning": "星期六"
+  },
+  {
+    "kanji": "日曜日",
+    "hira": "にちようび",
+    "kata": "ニチヨウビ",
+    "rm": "nichiyoubi",
+    "meaning": "星期日"
+  },
+  {
+    "kanji": "誕生日",
+    "hira": "たんじょうび",
+    "kata": "タンジョウビ",
+    "rm": "tanjoubi",
+    "meaning": "生日"
+  },
+  {
+    "kanji": "休日",
+    "hira": "きゅうじつ",
+    "kata": "キュウジツ",
+    "rm": "kyuujitsu",
+    "meaning": "休息日"
+  },
+  {
+    "kanji": "学校",
+    "hira": "がっこう",
+    "kata": "ガッコウ",
+    "rm": "gakkou",
+    "meaning": "学校"
+  },
+  {
+    "kanji": "大学",
+    "hira": "だいがく",
+    "kata": "ダイガク",
+    "rm": "daigaku",
+    "meaning": "大学"
+  },
+  {
+    "kanji": "病院",
+    "hira": "びょういん",
+    "kata": "ビョウイン",
+    "rm": "byouin",
+    "meaning": "医院"
+  },
+  {
+    "kanji": "駅",
+    "hira": "えき",
+    "kata": "エキ",
+    "rm": "eki",
+    "meaning": "车站"
+  },
+  {
+    "kanji": "空港",
+    "hira": "くうこう",
+    "kata": "クウコウ",
+    "rm": "kuukou",
+    "meaning": "机场"
+  },
+  {
+    "kanji": "銀行",
+    "hira": "ぎんこう",
+    "kata": "ギンコウ",
+    "rm": "ginkou",
+    "meaning": "银行"
+  },
+  {
+    "kanji": "郵便局",
+    "hira": "ゆうびんきょく",
+    "kata": "ユウビンキョク",
+    "rm": "yuubinkyoku",
+    "meaning": "邮局"
+  },
+  {
+    "kanji": "図書館",
+    "hira": "としょかん",
+    "kata": "トショカン",
+    "rm": "toshokan",
+    "meaning": "图书馆"
+  },
+  {
+    "kanji": "公園",
+    "hira": "こうえん",
+    "kata": "コウエン",
+    "rm": "kouen",
+    "meaning": "公园"
+  },
+  {
+    "kanji": "会社",
+    "hira": "かいしゃ",
+    "kata": "カイシャ",
+    "rm": "kaisha",
+    "meaning": "公司"
+  },
+  {
+    "kanji": "店",
+    "hira": "みせ",
+    "kata": "ミセ",
+    "rm": "mise",
+    "meaning": "店"
+  },
+  {
+    "kanji": "家",
+    "hira": "いえ",
+    "kata": "イエ",
+    "rm": "ie",
+    "meaning": "家"
+  },
+  {
+    "kanji": "部屋",
+    "hira": "へや",
+    "kata": "ヘヤ",
+    "rm": "heya",
+    "meaning": "房间"
+  },
+  {
+    "kanji": "台所",
+    "hira": "だいどころ",
+    "kata": "ダイドコロ",
+    "rm": "daidokoro",
+    "meaning": "厨房"
+  },
+  {
+    "kanji": "玄関",
+    "hira": "げんかん",
+    "kata": "ゲンカン",
+    "rm": "genkan",
+    "meaning": "玄关"
+  },
+  {
+    "kanji": "庭",
+    "hira": "にわ",
+    "kata": "ニワ",
+    "rm": "niwa",
+    "meaning": "院子"
+  },
+  {
+    "kanji": "階段",
+    "hira": "かいだん",
+    "kata": "カイダン",
+    "rm": "kaidan",
+    "meaning": "楼梯"
+  },
+  {
+    "kanji": "窓",
+    "hira": "まど",
+    "kata": "マド",
+    "rm": "mado",
+    "meaning": "窗户"
+  },
+  {
+    "kanji": "門",
+    "hira": "もん",
+    "kata": "モン",
+    "rm": "mon",
+    "meaning": "门"
+  },
+  {
+    "kanji": "橋",
+    "hira": "はし",
+    "kata": "ハシ",
+    "rm": "hashi",
+    "meaning": "桥"
+  },
+  {
+    "kanji": "道",
+    "hira": "みち",
+    "kata": "ミチ",
+    "rm": "michi",
+    "meaning": "路"
+  },
+  {
+    "kanji": "町",
+    "hira": "まち",
+    "kata": "マチ",
+    "rm": "machi",
+    "meaning": "城镇"
+  },
+  {
+    "kanji": "村",
+    "hira": "むら",
+    "kata": "ムラ",
+    "rm": "mura",
+    "meaning": "村庄"
+  },
+  {
+    "kanji": "国",
+    "hira": "くに",
+    "kata": "クニ",
+    "rm": "kuni",
+    "meaning": "国家"
+  },
+  {
+    "kanji": "世界",
+    "hira": "せかい",
+    "kata": "セカイ",
+    "rm": "sekai",
+    "meaning": "世界"
+  },
+  {
+    "kanji": "教室",
+    "hira": "きょうしつ",
+    "kata": "キョウシツ",
+    "rm": "kyoushitsu",
+    "meaning": "教室"
+  },
+  {
+    "kanji": "食堂",
+    "hira": "しょくどう",
+    "kata": "ショクドウ",
+    "rm": "shokudou",
+    "meaning": "食堂"
+  },
+  {
+    "kanji": "入口",
+    "hira": "いりぐち",
+    "kata": "イリグチ",
+    "rm": "iriguchi",
+    "meaning": "入口"
+  },
+  {
+    "kanji": "出口",
+    "hira": "でぐち",
+    "kata": "デグチ",
+    "rm": "deguchi",
+    "meaning": "出口"
+  },
+  {
+    "kanji": "映画館",
+    "hira": "えいがかん",
+    "kata": "エイガカン",
+    "rm": "eigakan",
+    "meaning": "电影院"
+  },
+  {
+    "kanji": "山",
+    "hira": "やま",
+    "kata": "ヤマ",
+    "rm": "yama",
+    "meaning": "山"
+  },
+  {
+    "kanji": "川",
+    "hira": "かわ",
+    "kata": "カワ",
+    "rm": "kawa",
+    "meaning": "河"
+  },
+  {
+    "kanji": "海",
+    "hira": "うみ",
+    "kata": "ウミ",
+    "rm": "umi",
+    "meaning": "海"
+  },
+  {
+    "kanji": "空",
+    "hira": "そら",
+    "kata": "ソラ",
+    "rm": "sora",
+    "meaning": "天空"
+  },
+  {
+    "kanji": "星",
+    "hira": "ほし",
+    "kata": "ホシ",
+    "rm": "hoshi",
+    "meaning": "星星"
+  },
+  {
+    "kanji": "月",
+    "hira": "つき",
+    "kata": "ツキ",
+    "rm": "tsuki",
+    "meaning": "月亮"
+  },
+  {
+    "kanji": "太陽",
+    "hira": "たいよう",
+    "kata": "タイヨウ",
+    "rm": "taiyou",
+    "meaning": "太阳"
+  },
+  {
+    "kanji": "花",
+    "hira": "はな",
+    "kata": "ハナ",
+    "rm": "hana2",
+    "meaning": "花"
+  },
+  {
+    "kanji": "木",
+    "hira": "き",
+    "kata": "キ",
+    "rm": "ki",
+    "meaning": "树"
+  },
+  {
+    "kanji": "森",
+    "hira": "もり",
+    "kata": "モリ",
+    "rm": "mori",
+    "meaning": "森林"
+  },
+  {
+    "kanji": "林",
+    "hira": "はやし",
+    "kata": "ハヤシ",
+    "rm": "hayashi",
+    "meaning": "树林"
+  },
+  {
+    "kanji": "草",
+    "hira": "くさ",
+    "kata": "クサ",
+    "rm": "kusa",
+    "meaning": "草"
+  },
+  {
+    "kanji": "石",
+    "hira": "いし",
+    "kata": "イシ",
+    "rm": "ishi",
+    "meaning": "石头"
+  },
+  {
+    "kanji": "土",
+    "hira": "つち",
+    "kata": "ツチ",
+    "rm": "tsuchi",
+    "meaning": "土"
+  },
+  {
+    "kanji": "火",
+    "hira": "ひ",
+    "kata": "ヒ",
+    "rm": "hi",
+    "meaning": "火"
+  },
+  {
+    "kanji": "水",
+    "hira": "みず",
+    "kata": "ミズ",
+    "rm": "mizu2",
+    "meaning": "水"
+  },
+  {
+    "kanji": "風",
+    "hira": "かぜ",
+    "kata": "カゼ",
+    "rm": "kaze",
+    "meaning": "风"
+  },
+  {
+    "kanji": "雨",
+    "hira": "あめ",
+    "kata": "アメ",
+    "rm": "ame",
+    "meaning": "雨"
+  },
+  {
+    "kanji": "雪",
+    "hira": "ゆき",
+    "kata": "ユキ",
+    "rm": "yuki",
+    "meaning": "雪"
+  },
+  {
+    "kanji": "雲",
+    "hira": "くも",
+    "kata": "クモ",
+    "rm": "kumo",
+    "meaning": "云"
+  },
+  {
+    "kanji": "天気",
+    "hira": "てんき",
+    "kata": "テンキ",
+    "rm": "tenki",
+    "meaning": "天气"
+  },
+  {
+    "kanji": "台風",
+    "hira": "たいふう",
+    "kata": "タイフウ",
+    "rm": "taifuu",
+    "meaning": "台风"
+  },
+  {
+    "kanji": "地震",
+    "hira": "じしん",
+    "kata": "ジシン",
+    "rm": "jishin",
+    "meaning": "地震"
+  },
+  {
+    "kanji": "島",
+    "hira": "しま",
+    "kata": "シマ",
+    "rm": "shima",
+    "meaning": "岛"
+  },
+  {
+    "kanji": "池",
+    "hira": "いけ",
+    "kata": "イケ",
+    "rm": "ike",
+    "meaning": "池塘"
+  },
+  {
+    "kanji": "湖",
+    "hira": "みずうみ",
+    "kata": "ミズウミ",
+    "rm": "mizuumi",
+    "meaning": "湖"
+  },
+  {
+    "kanji": "畑",
+    "hira": "はたけ",
+    "kata": "ハタケ",
+    "rm": "hatake",
+    "meaning": "田地"
+  },
+  {
+    "kanji": "田",
+    "hira": "た",
+    "kata": "タ",
+    "rm": "ta",
+    "meaning": "稻田"
+  },
+  {
+    "kanji": "動物",
+    "hira": "どうぶつ",
+    "kata": "ドウブツ",
+    "rm": "doubutsu",
+    "meaning": "动物"
+  },
+  {
+    "kanji": "犬",
+    "hira": "いぬ",
+    "kata": "イヌ",
+    "rm": "inu",
+    "meaning": "狗"
+  },
+  {
+    "kanji": "猫",
+    "hira": "ねこ",
+    "kata": "ネコ",
+    "rm": "neko",
+    "meaning": "猫"
+  },
+  {
+    "kanji": "鳥",
+    "hira": "とり",
+    "kata": "トリ",
+    "rm": "tori",
+    "meaning": "鸟"
+  },
+  {
+    "kanji": "魚",
+    "hira": "さかな",
+    "kata": "サカナ",
+    "rm": "sakana",
+    "meaning": "鱼"
+  },
+  {
+    "kanji": "虫",
+    "hira": "むし",
+    "kata": "ムシ",
+    "rm": "mushi",
+    "meaning": "虫"
+  },
+  {
+    "kanji": "馬",
+    "hira": "うま",
+    "kata": "ウマ",
+    "rm": "uma",
+    "meaning": "马"
+  },
+  {
+    "kanji": "牛",
+    "hira": "うし",
+    "kata": "ウシ",
+    "rm": "ushi",
+    "meaning": "牛"
+  },
+  {
+    "kanji": "肉",
+    "hira": "にく",
+    "kata": "ニク",
+    "rm": "niku",
+    "meaning": "肉"
+  },
+  {
+    "kanji": "牛肉",
+    "hira": "ぎゅうにく",
+    "kata": "ギュウニク",
+    "rm": "gyuuniku",
+    "meaning": "牛肉"
+  },
+  {
+    "kanji": "豚肉",
+    "hira": "ぶたにく",
+    "kata": "ブタニク",
+    "rm": "butaniku",
+    "meaning": "猪肉"
+  },
+  {
+    "kanji": "鶏肉",
+    "hira": "とりにく",
+    "kata": "トリニク",
+    "rm": "toriniku",
+    "meaning": "鸡肉"
+  },
+  {
+    "kanji": "野菜",
+    "hira": "やさい",
+    "kata": "ヤサイ",
+    "rm": "yasai",
+    "meaning": "蔬菜"
+  },
+  {
+    "kanji": "果物",
+    "hira": "くだもの",
+    "kata": "クダモノ",
+    "rm": "kudamono",
+    "meaning": "水果"
+  },
+  {
+    "kanji": "米",
+    "hira": "こめ",
+    "kata": "コメ",
+    "rm": "kome",
+    "meaning": "米"
+  },
+  {
+    "kanji": "卵",
+    "hira": "たまご",
+    "kata": "タマゴ",
+    "rm": "tamago",
+    "meaning": "鸡蛋"
+  },
+  {
+    "kanji": "塩",
+    "hira": "しお",
+    "kata": "シオ",
+    "rm": "shio",
+    "meaning": "盐"
+  },
+  {
+    "kanji": "砂糖",
+    "hira": "さとう",
+    "kata": "サトウ",
+    "rm": "satou",
+    "meaning": "糖"
+  },
+  {
+    "kanji": "醤油",
+    "hira": "しょうゆ",
+    "kata": "ショウユ",
+    "rm": "shouyu",
+    "meaning": "酱油"
+  },
+  {
+    "kanji": "味噌",
+    "hira": "みそ",
+    "kata": "ミソ",
+    "rm": "miso",
+    "meaning": "味噌"
+  },
+  {
+    "kanji": "酒",
+    "hira": "さけ",
+    "kata": "サケ",
+    "rm": "sake",
+    "meaning": "酒"
+  },
+  {
+    "kanji": "牛乳",
+    "hira": "ぎゅうにゅう",
+    "kata": "ギュウニュウ",
+    "rm": "gyuunyuu",
+    "meaning": "牛奶"
+  },
+  {
+    "kanji": "茶",
+    "hira": "ちゃ",
+    "kata": "チャ",
+    "rm": "cha",
+    "meaning": "茶"
+  },
+  {
+    "kanji": "紅茶",
+    "hira": "こうちゃ",
+    "kata": "コウチャ",
+    "rm": "koucha",
+    "meaning": "红茶"
+  },
+  {
+    "kanji": "料理",
+    "hira": "りょうり",
+    "kata": "リョウリ",
+    "rm": "ryouri",
+    "meaning": "料理"
+  },
+  {
+    "kanji": "食事",
+    "hira": "しょくじ",
+    "kata": "ショクジ",
+    "rm": "shokuji",
+    "meaning": "饭"
+  },
+  {
+    "kanji": "弁当",
+    "hira": "べんとう",
+    "kata": "ベントウ",
+    "rm": "bentou",
+    "meaning": "便当"
+  },
+  {
+    "kanji": "味",
+    "hira": "あじ",
+    "kata": "アジ",
+    "rm": "aji",
+    "meaning": "味道"
+  },
+  {
+    "kanji": "匂い",
+    "hira": "におい",
+    "kata": "ニオイ",
+    "rm": "nioi",
+    "meaning": "气味"
+  },
+  {
+    "kanji": "色",
+    "hira": "いろ",
+    "kata": "イロ",
+    "rm": "iro",
+    "meaning": "颜色"
+  },
+  {
+    "kanji": "赤",
+    "hira": "あか",
+    "kata": "アカ",
+    "rm": "aka",
+    "meaning": "红色"
+  },
+  {
+    "kanji": "青",
+    "hira": "あお",
+    "kata": "アオ",
+    "rm": "ao",
+    "meaning": "蓝色"
+  },
+  {
+    "kanji": "白",
+    "hira": "しろ",
+    "kata": "シロ",
+    "rm": "shiro",
+    "meaning": "白色"
+  },
+  {
+    "kanji": "黒",
+    "hira": "くろ",
+    "kata": "クロ",
+    "rm": "kuro",
+    "meaning": "黑色"
+  },
+  {
+    "kanji": "黄色",
+    "hira": "きいろ",
+    "kata": "キイロ",
+    "rm": "kiiro",
+    "meaning": "黄色"
+  },
+  {
+    "kanji": "緑",
+    "hira": "みどり",
+    "kata": "ミドリ",
+    "rm": "midori",
+    "meaning": "绿色"
+  },
+  {
+    "kanji": "茶色",
+    "hira": "ちゃいろ",
+    "kata": "チャイロ",
+    "rm": "chairo",
+    "meaning": "棕色"
+  },
+  {
+    "kanji": "灰色",
+    "hira": "はいいろ",
+    "kata": "ハイイロ",
+    "rm": "haiiro",
+    "meaning": "灰色"
+  },
+  {
+    "kanji": "一つ",
+    "hira": "ひとつ",
+    "kata": "ヒトツ",
+    "rm": "hitotsu",
+    "meaning": "一个"
+  },
+  {
+    "kanji": "二つ",
+    "hira": "ふたつ",
+    "kata": "フタツ",
+    "rm": "futatsu",
+    "meaning": "两个"
+  },
+  {
+    "kanji": "三つ",
+    "hira": "みっつ",
+    "kata": "ミッツ",
+    "rm": "mittsu",
+    "meaning": "三个"
+  },
+  {
+    "kanji": "四つ",
+    "hira": "よっつ",
+    "kata": "ヨッツ",
+    "rm": "yottsu",
+    "meaning": "四个"
+  },
+  {
+    "kanji": "五つ",
+    "hira": "いつつ",
+    "kata": "イツツ",
+    "rm": "itsutsu",
+    "meaning": "五个"
+  },
+  {
+    "kanji": "六つ",
+    "hira": "むっつ",
+    "kata": "ムッツ",
+    "rm": "muttsu",
+    "meaning": "六个"
+  },
+  {
+    "kanji": "七つ",
+    "hira": "ななつ",
+    "kata": "ナナツ",
+    "rm": "nanatsu",
+    "meaning": "七个"
+  },
+  {
+    "kanji": "八つ",
+    "hira": "やっつ",
+    "kata": "ヤッツ",
+    "rm": "yattsu",
+    "meaning": "八个"
+  },
+  {
+    "kanji": "九つ",
+    "hira": "ここのつ",
+    "kata": "ココノツ",
+    "rm": "kokonotsu",
+    "meaning": "九个"
+  },
+  {
+    "kanji": "十",
+    "hira": "じゅう",
+    "kata": "ジュウ",
+    "rm": "juu",
+    "meaning": "十"
+  },
+  {
+    "kanji": "百",
+    "hira": "ひゃく",
+    "kata": "ヒャク",
+    "rm": "hyaku",
+    "meaning": "百"
+  },
+  {
+    "kanji": "千",
+    "hira": "せん",
+    "kata": "セン",
+    "rm": "sen",
+    "meaning": "千"
+  },
+  {
+    "kanji": "万",
+    "hira": "まん",
+    "kata": "マン",
+    "rm": "man",
+    "meaning": "万"
+  },
+  {
+    "kanji": "一人",
+    "hira": "ひとり",
+    "kata": "ヒトリ",
+    "rm": "hitori",
+    "meaning": "一个人"
+  },
+  {
+    "kanji": "二人",
+    "hira": "ふたり",
+    "kata": "フタリ",
+    "rm": "futari",
+    "meaning": "两个人"
+  },
+  {
+    "kanji": "一回",
+    "hira": "いっかい",
+    "kata": "イッカイ",
+    "rm": "ikkai",
+    "meaning": "一次"
+  },
+  {
+    "kanji": "半分",
+    "hira": "はんぶん",
+    "kata": "ハンブン",
+    "rm": "hanbun",
+    "meaning": "一半"
+  },
+  {
+    "kanji": "全部",
+    "hira": "ぜんぶ",
+    "kata": "ゼンブ",
+    "rm": "zenbu",
+    "meaning": "全部"
+  },
+  {
+    "kanji": "番号",
+    "hira": "ばんごう",
+    "kata": "バンゴウ",
+    "rm": "bangou",
+    "meaning": "号码"
+  },
+  {
+    "kanji": "電車",
+    "hira": "でんしゃ",
+    "kata": "デンシャ",
+    "rm": "densha",
+    "meaning": "电车"
+  },
+  {
+    "kanji": "車",
+    "hira": "くるま",
+    "kata": "クルマ",
+    "rm": "kuruma",
+    "meaning": "车"
+  },
+  {
+    "kanji": "自転車",
+    "hira": "じてんしゃ",
+    "kata": "ジテンシャ",
+    "rm": "jitensha",
+    "meaning": "自行车"
+  },
+  {
+    "kanji": "飛行機",
+    "hira": "ひこうき",
+    "kata": "ヒコウキ",
+    "rm": "hikouki",
+    "meaning": "飞机"
+  },
+  {
+    "kanji": "船",
+    "hira": "ふね",
+    "kata": "フネ",
+    "rm": "fune",
+    "meaning": "船"
+  },
+  {
+    "kanji": "地下鉄",
+    "hira": "ちかてつ",
+    "kata": "チカテツ",
+    "rm": "chikatetsu",
+    "meaning": "地铁"
+  },
+  {
+    "kanji": "切符",
+    "hira": "きっぷ",
+    "kata": "キップ",
+    "rm": "kippu",
+    "meaning": "票"
+  },
+  {
+    "kanji": "席",
+    "hira": "せき",
+    "kata": "セキ",
+    "rm": "seki",
+    "meaning": "座位"
+  },
+  {
+    "kanji": "信号",
+    "hira": "しんごう",
+    "kata": "シンゴウ",
+    "rm": "shingou",
+    "meaning": "信号灯"
+  },
+  {
+    "kanji": "交差点",
+    "hira": "こうさてん",
+    "kata": "コウサテン",
+    "rm": "kousaten",
+    "meaning": "十字路口"
+  },
+  {
+    "kanji": "地図",
+    "hira": "ちず",
+    "kata": "チズ",
+    "rm": "chizu",
+    "meaning": "地图"
+  },
+  {
+    "kanji": "荷物",
+    "hira": "にもつ",
+    "kata": "ニモツ",
+    "rm": "nimotsu",
+    "meaning": "行李"
+  },
+  {
+    "kanji": "電話",
+    "hira": "でんわ",
+    "kata": "デンワ",
+    "rm": "denwa",
+    "meaning": "电话"
+  },
+  {
+    "kanji": "写真",
+    "hira": "しゃしん",
+    "kata": "シャシン",
+    "rm": "shashin",
+    "meaning": "照片"
+  },
+  {
+    "kanji": "音楽",
+    "hira": "おんがく",
+    "kata": "オンガク",
+    "rm": "ongaku",
+    "meaning": "音乐"
+  },
+  {
+    "kanji": "映画",
+    "hira": "えいが",
+    "kata": "エイガ",
+    "rm": "eiga",
+    "meaning": "电影"
+  },
+  {
+    "kanji": "新聞",
+    "hira": "しんぶん",
+    "kata": "シンブン",
+    "rm": "shinbun",
+    "meaning": "报纸"
+  },
+  {
+    "kanji": "雑誌",
+    "hira": "ざっし",
+    "kata": "ザッシ",
+    "rm": "zasshi",
+    "meaning": "杂志"
+  },
+  {
+    "kanji": "手紙",
+    "hira": "てがみ",
+    "kata": "テガミ",
+    "rm": "tegami",
+    "meaning": "信"
+  },
+  {
+    "kanji": "本",
+    "hira": "ほん",
+    "kata": "ホン",
+    "rm": "hon",
+    "meaning": "书"
+  },
+  {
+    "kanji": "辞書",
+    "hira": "じしょ",
+    "kata": "ジショ",
+    "rm": "jisho",
+    "meaning": "词典"
+  },
+  {
+    "kanji": "鍵",
+    "hira": "かぎ",
+    "kata": "カギ",
+    "rm": "kagi",
+    "meaning": "钥匙"
+  },
+  {
+    "kanji": "傘",
+    "hira": "かさ",
+    "kata": "カサ",
+    "rm": "kasa",
+    "meaning": "伞"
+  },
+  {
+    "kanji": "鏡",
+    "hira": "かがみ",
+    "kata": "カガミ",
+    "rm": "kagami",
+    "meaning": "镜子"
+  },
+  {
+    "kanji": "時計",
+    "hira": "とけい",
+    "kata": "トケイ",
+    "rm": "tokei",
+    "meaning": "钟表"
+  },
+  {
+    "kanji": "眼鏡",
+    "hira": "めがね",
+    "kata": "メガネ",
+    "rm": "megane",
+    "meaning": "眼镜"
+  },
+  {
+    "kanji": "財布",
+    "hira": "さいふ",
+    "kata": "サイフ",
+    "rm": "saifu",
+    "meaning": "钱包"
+  },
+  {
+    "kanji": "机",
+    "hira": "つくえ",
+    "kata": "ツクエ",
+    "rm": "tsukue",
+    "meaning": "桌子"
+  },
+  {
+    "kanji": "椅子",
+    "hira": "いす",
+    "kata": "イス",
+    "rm": "isu",
+    "meaning": "椅子"
+  },
+  {
+    "kanji": "棚",
+    "hira": "たな",
+    "kata": "タナ",
+    "rm": "tana",
+    "meaning": "架子"
+  },
+  {
+    "kanji": "箱",
+    "hira": "はこ",
+    "kata": "ハコ",
+    "rm": "hako",
+    "meaning": "箱子"
+  },
+  {
+    "kanji": "袋",
+    "hira": "ふくろ",
+    "kata": "フクロ",
+    "rm": "fukuro",
+    "meaning": "袋子"
+  },
+  {
+    "kanji": "皿",
+    "hira": "さら",
+    "kata": "サラ",
+    "rm": "sara",
+    "meaning": "盘子"
+  },
+  {
+    "kanji": "茶碗",
+    "hira": "ちゃわん",
+    "kata": "チャワン",
+    "rm": "chawan",
+    "meaning": "碗"
+  },
+  {
+    "kanji": "箸",
+    "hira": "はし",
+    "kata": "ハシ",
+    "rm": "hashi2",
+    "meaning": "筷子"
+  },
+  {
+    "kanji": "布団",
+    "hira": "ふとん",
+    "kata": "フトン",
+    "rm": "futon",
+    "meaning": "被褥"
+  },
+  {
+    "kanji": "枕",
+    "hira": "まくら",
+    "kata": "マクラ",
+    "rm": "makura",
+    "meaning": "枕头"
+  },
+  {
+    "kanji": "石鹸",
+    "hira": "せっけん",
+    "kata": "セッケン",
+    "rm": "sekken",
+    "meaning": "肥皂"
+  },
+  {
+    "kanji": "薬",
+    "hira": "くすり",
+    "kata": "クスリ",
+    "rm": "kusuri",
+    "meaning": "药"
+  },
+  {
+    "kanji": "服",
+    "hira": "ふく",
+    "kata": "フク",
+    "rm": "fuku",
+    "meaning": "衣服"
+  },
+  {
+    "kanji": "靴",
+    "hira": "くつ",
+    "kata": "クツ",
+    "rm": "kutsu",
+    "meaning": "鞋"
+  },
+  {
+    "kanji": "帽子",
+    "hira": "ぼうし",
+    "kata": "ボウシ",
+    "rm": "boushi",
+    "meaning": "帽子"
+  },
+  {
+    "kanji": "鞄",
+    "hira": "かばん",
+    "kata": "カバン",
+    "rm": "kaban",
+    "meaning": "包"
+  },
+  {
+    "kanji": "上着",
+    "hira": "うわぎ",
+    "kata": "ウワギ",
+    "rm": "uwagi",
+    "meaning": "外套"
+  },
+  {
+    "kanji": "下着",
+    "hira": "したぎ",
+    "kata": "シタギ",
+    "rm": "shitagi",
+    "meaning": "内衣"
+  },
+  {
+    "kanji": "靴下",
+    "hira": "くつした",
+    "kata": "クツシタ",
+    "rm": "kutsushita",
+    "meaning": "袜子"
+  },
+  {
+    "kanji": "手袋",
+    "hira": "てぶくろ",
+    "kata": "テブクロ",
+    "rm": "tebukuro",
+    "meaning": "手套"
+  },
+  {
+    "kanji": "授業",
+    "hira": "じゅぎょう",
+    "kata": "ジュギョウ",
+    "rm": "jugyou",
+    "meaning": "课"
+  },
+  {
+    "kanji": "宿題",
+    "hira": "しゅくだい",
+    "kata": "シュクダイ",
+    "rm": "shukudai",
+    "meaning": "作业"
+  },
+  {
+    "kanji": "試験",
+    "hira": "しけん",
+    "kata": "シケン",
+    "rm": "shiken",
+    "meaning": "考试"
+  },
+  {
+    "kanji": "問題",
+    "hira": "もんだい",
+    "kata": "モンダイ",
+    "rm": "mondai",
+    "meaning": "问题"
+  },
+  {
+    "kanji": "答え",
+    "hira": "こたえ",
+    "kata": "コタエ",
+    "rm": "kotae",
+    "meaning": "答案"
+  },
+  {
+    "kanji": "意味",
+    "hira": "いみ",
+    "kata": "イミ",
+    "rm": "imi",
+    "meaning": "意思"
+  },
+  {
+    "kanji": "文法",
+    "hira": "ぶんぽう",
+    "kata": "ブンポウ",
+    "rm": "bunpou",
+    "meaning": "语法"
+  },
+  {
+    "kanji": "文字",
+    "hira": "もじ",
+    "kata": "モジ",
+    "rm": "moji",
+    "meaning": "文字"
+  },
+  {
+    "kanji": "漢字",
+    "hira": "かんじ",
+    "kata": "カンジ",
+    "rm": "kanji_n",
+    "meaning": "汉字"
+  },
+  {
+    "kanji": "言葉",
+    "hira": "ことば",
+    "kata": "コトバ",
+    "rm": "kotoba",
+    "meaning": "语言"
+  },
+  {
+    "kanji": "会議",
+    "hira": "かいぎ",
+    "kata": "カイギ",
+    "rm": "kaigi",
+    "meaning": "会议"
+  },
+  {
+    "kanji": "仕事",
+    "hira": "しごと",
+    "kata": "シゴト",
+    "rm": "shigoto",
+    "meaning": "工作"
+  },
+  {
+    "kanji": "約束",
+    "hira": "やくそく",
+    "kata": "ヤクソク",
+    "rm": "yakusoku",
+    "meaning": "约定"
+  },
+  {
+    "kanji": "予定",
+    "hira": "よてい",
+    "kata": "ヨテイ",
+    "rm": "yotei",
+    "meaning": "计划"
+  },
+  {
+    "kanji": "準備",
+    "hira": "じゅんび",
+    "kata": "ジュンビ",
+    "rm": "junbi",
+    "meaning": "准备"
+  },
+  {
+    "kanji": "経験",
+    "hira": "けいけん",
+    "kata": "ケイケン",
+    "rm": "keiken",
+    "meaning": "经验"
+  },
+  {
+    "kanji": "研究",
+    "hira": "けんきゅう",
+    "kata": "ケンキュウ",
+    "rm": "kenkyuu",
+    "meaning": "研究"
+  },
+  {
+    "kanji": "卒業",
+    "hira": "そつぎょう",
+    "kata": "ソツギョウ",
+    "rm": "sotsugyou",
+    "meaning": "毕业"
+  },
+  {
+    "kanji": "入学",
+    "hira": "にゅうがく",
+    "kata": "ニュウガク",
+    "rm": "nyuugaku",
+    "meaning": "入学"
+  },
+  {
+    "kanji": "出席",
+    "hira": "しゅっせき",
+    "kata": "シュッセキ",
+    "rm": "shusseki",
+    "meaning": "出席"
+  },
+  {
+    "kanji": "欠席",
+    "hira": "けっせき",
+    "kata": "ケッセキ",
+    "rm": "kesseki",
+    "meaning": "缺席"
+  },
+  {
+    "kanji": "成績",
+    "hira": "せいせき",
+    "kata": "セイセキ",
+    "rm": "seiseki",
+    "meaning": "成绩"
+  },
+  {
+    "kanji": "教科書",
+    "hira": "きょうかしょ",
+    "kata": "キョウカショ",
+    "rm": "kyoukasho",
+    "meaning": "教科书"
+  },
+  {
+    "kanji": "黒板",
+    "hira": "こくばん",
+    "kata": "コクバン",
+    "rm": "kokuban",
+    "meaning": "黑板"
+  },
+  {
+    "kanji": "鉛筆",
+    "hira": "えんぴつ",
+    "kata": "エンピツ",
+    "rm": "enpitsu",
+    "meaning": "铅笔"
+  },
+  {
+    "kanji": "消しゴム",
+    "hira": "けしごむ",
+    "kata": "ケシゴム",
+    "rm": "keshigomu",
+    "meaning": "橡皮"
+  },
+  {
+    "kanji": "紙",
+    "hira": "かみ",
+    "kata": "カミ",
+    "rm": "kami",
+    "meaning": "纸"
+  },
+  {
+    "kanji": "封筒",
+    "hira": "ふうとう",
+    "kata": "フウトウ",
+    "rm": "fuutou",
+    "meaning": "信封"
+  },
+  {
+    "kanji": "切手",
+    "hira": "きって",
+    "kata": "キッテ",
+    "rm": "kitte",
+    "meaning": "邮票"
+  },
+  {
+    "kanji": "値段",
+    "hira": "ねだん",
+    "kata": "ネダン",
+    "rm": "nedan",
+    "meaning": "价格"
+  },
+  {
+    "kanji": "金",
+    "hira": "かね",
+    "kata": "カネ",
+    "rm": "kane",
+    "meaning": "钱"
+  },
+  {
+    "kanji": "円",
+    "hira": "えん",
+    "kata": "エン",
+    "rm": "en",
+    "meaning": "日元"
+  },
+  {
+    "kanji": "釣り",
+    "hira": "つり",
+    "kata": "ツリ",
+    "rm": "tsuri",
+    "meaning": "找零"
+  },
+  {
+    "kanji": "買い物",
+    "hira": "かいもの",
+    "kata": "カイモノ",
+    "rm": "kaimono",
+    "meaning": "购物"
+  },
+  {
+    "kanji": "品物",
+    "hira": "しなもの",
+    "kata": "シナモノ",
+    "rm": "shinamono",
+    "meaning": "商品"
+  },
+  {
+    "kanji": "割引",
+    "hira": "わりびき",
+    "kata": "ワリビキ",
+    "rm": "waribiki",
+    "meaning": "折扣"
+  },
+  {
+    "kanji": "税金",
+    "hira": "ぜいきん",
+    "kata": "ゼイキン",
+    "rm": "zeikin",
+    "meaning": "税"
+  },
+  {
+    "kanji": "領収書",
+    "hira": "りょうしゅうしょ",
+    "kata": "リョウシュウショ",
+    "rm": "ryoushuusho",
+    "meaning": "收据"
+  },
+  {
+    "kanji": "名前",
+    "hira": "なまえ",
+    "kata": "ナマエ",
+    "rm": "namae",
+    "meaning": "名字"
+  },
+  {
+    "kanji": "住所",
+    "hira": "じゅうしょ",
+    "kata": "ジュウショ",
+    "rm": "juusho",
+    "meaning": "地址"
+  },
+  {
+    "kanji": "電話番号",
+    "hira": "でんわばんごう",
+    "kata": "デンワバンゴウ",
+    "rm": "denwabangou",
+    "meaning": "电话号码"
+  },
+  {
+    "kanji": "理由",
+    "hira": "りゆう",
+    "kata": "リユウ",
+    "rm": "riyuu",
+    "meaning": "理由"
+  },
+  {
+    "kanji": "目的",
+    "hira": "もくてき",
+    "kata": "モクテキ",
+    "rm": "mokuteki",
+    "meaning": "目的"
+  },
+  {
+    "kanji": "方法",
+    "hira": "ほうほう",
+    "kata": "ホウホウ",
+    "rm": "houhou",
+    "meaning": "方法"
+  },
+  {
+    "kanji": "関係",
+    "hira": "かんけい",
+    "kata": "カンケイ",
+    "rm": "kankei",
+    "meaning": "关系"
+  },
+  {
+    "kanji": "気持ち",
+    "hira": "きもち",
+    "kata": "キモチ",
+    "rm": "kimochi",
+    "meaning": "心情"
+  },
+  {
+    "kanji": "興味",
+    "hira": "きょうみ",
+    "kata": "キョウミ",
+    "rm": "kyoumi",
+    "meaning": "兴趣"
+  },
+  {
+    "kanji": "趣味",
+    "hira": "しゅみ",
+    "kata": "シュミ",
+    "rm": "shumi",
+    "meaning": "爱好"
+  },
+  {
+    "kanji": "夢",
+    "hira": "ゆめ",
+    "kata": "ユメ",
+    "rm": "yume",
+    "meaning": "梦"
+  },
+  {
+    "kanji": "希望",
+    "hira": "きぼう",
+    "kata": "キボウ",
+    "rm": "kibou",
+    "meaning": "希望"
+  },
+  {
+    "kanji": "自由",
+    "hira": "じゆう",
+    "kata": "ジユウ",
+    "rm": "jiyuu",
+    "meaning": "自由"
+  },
+  {
+    "kanji": "平和",
+    "hira": "へいわ",
+    "kata": "ヘイワ",
+    "rm": "heiwa",
+    "meaning": "和平"
+  },
+  {
+    "kanji": "安全",
+    "hira": "あんぜん",
+    "kata": "アンゼン",
+    "rm": "anzen",
+    "meaning": "安全"
+  },
+  {
+    "kanji": "危険",
+    "hira": "きけん",
+    "kata": "キケン",
+    "rm": "kiken",
+    "meaning": "危险"
+  },
+  {
+    "kanji": "事故",
+    "hira": "じこ",
+    "kata": "ジコ",
+    "rm": "jiko",
+    "meaning": "事故"
+  },
+  {
+    "kanji": "病気",
+    "hira": "びょうき",
+    "kata": "ビョウキ",
+    "rm": "byouki",
+    "meaning": "生病"
+  },
+  {
+    "kanji": "怪我",
+    "hira": "けが",
+    "kata": "ケガ",
+    "rm": "kega",
+    "meaning": "受伤"
+  },
+  {
+    "kanji": "生活",
+    "hira": "せいかつ",
+    "kata": "セイカツ",
+    "rm": "seikatsu",
+    "meaning": "生活"
+  },
+  {
+    "kanji": "文化",
+    "hira": "ぶんか",
+    "kata": "ブンカ",
+    "rm": "bunka",
+    "meaning": "文化"
+  },
+  {
+    "kanji": "歴史",
+    "hira": "れきし",
+    "kata": "レキシ",
+    "rm": "rekishi",
+    "meaning": "历史"
+  },
+  {
+    "kanji": "社会",
+    "hira": "しゃかい",
+    "kata": "シャカイ",
+    "rm": "shakai",
+    "meaning": "社会"
+  },
+  {
+    "kanji": "政治",
+    "hira": "せいじ",
+    "kata": "セイジ",
+    "rm": "seiji",
+    "meaning": "政治"
+  },
+  {
+    "kanji": "経済",
+    "hira": "けいざい",
+    "kata": "ケイザイ",
+    "rm": "keizai",
+    "meaning": "经济"
+  },
+  {
+    "kanji": "技術",
+    "hira": "ぎじゅつ",
+    "kata": "ギジュツ",
+    "rm": "gijutsu",
+    "meaning": "技术"
+  },
+  {
+    "kanji": "科学",
+    "hira": "かがく",
+    "kata": "カガク",
+    "rm": "kagaku",
+    "meaning": "科学"
+  },
+  {
+    "kanji": "数学",
+    "hira": "すうがく",
+    "kata": "スウガク",
+    "rm": "suugaku",
+    "meaning": "数学"
+  },
+  {
+    "kanji": "地理",
+    "hira": "ちり",
+    "kata": "チリ",
+    "rm": "chiri",
+    "meaning": "地理"
+  },
+  {
+    "kanji": "音",
+    "hira": "おと",
+    "kata": "オト",
+    "rm": "oto",
+    "meaning": "声音"
+  },
+  {
+    "kanji": "光",
+    "hira": "ひかり",
+    "kata": "ヒカリ",
+    "rm": "hikari",
+    "meaning": "光"
+  },
+  {
+    "kanji": "影",
+    "hira": "かげ",
+    "kata": "カゲ",
+    "rm": "kage",
+    "meaning": "影子"
+  },
+  {
+    "kanji": "大きい",
+    "hira": "おおきい",
+    "kata": "オオキイ",
+    "rm": "ookii",
+    "meaning": "大的"
+  },
+  {
+    "kanji": "小さい",
+    "hira": "ちいさい",
+    "kata": "チイサイ",
+    "rm": "chiisai",
+    "meaning": "小的"
+  },
+  {
+    "kanji": "高い",
+    "hira": "たかい",
+    "kata": "タカイ",
+    "rm": "takai",
+    "meaning": "高的/贵的"
+  },
+  {
+    "kanji": "安い",
+    "hira": "やすい",
+    "kata": "ヤスイ",
+    "rm": "yasui",
+    "meaning": "便宜的"
+  },
+  {
+    "kanji": "低い",
+    "hira": "ひくい",
+    "kata": "ヒクイ",
+    "rm": "hikui",
+    "meaning": "低的"
+  },
+  {
+    "kanji": "長い",
+    "hira": "ながい",
+    "kata": "ナガイ",
+    "rm": "nagai",
+    "meaning": "长的"
+  },
+  {
+    "kanji": "短い",
+    "hira": "みじかい",
+    "kata": "ミジカイ",
+    "rm": "mijikai",
+    "meaning": "短的"
+  },
+  {
+    "kanji": "新しい",
+    "hira": "あたらしい",
+    "kata": "アタラシイ",
+    "rm": "atarashii",
+    "meaning": "新的"
+  },
+  {
+    "kanji": "古い",
+    "hira": "ふるい",
+    "kata": "フルイ",
+    "rm": "furui",
+    "meaning": "旧的"
+  },
+  {
+    "kanji": "良い",
+    "hira": "よい",
+    "kata": "ヨイ",
+    "rm": "yoi",
+    "meaning": "好的"
+  },
+  {
+    "kanji": "悪い",
+    "hira": "わるい",
+    "kata": "ワルイ",
+    "rm": "warui",
+    "meaning": "坏的"
+  },
+  {
+    "kanji": "多い",
+    "hira": "おおい",
+    "kata": "オオイ",
+    "rm": "ooi",
+    "meaning": "多的"
+  },
+  {
+    "kanji": "少ない",
+    "hira": "すくない",
+    "kata": "スクナイ",
+    "rm": "sukunai",
+    "meaning": "少的"
+  },
+  {
+    "kanji": "広い",
+    "hira": "ひろい",
+    "kata": "ヒロイ",
+    "rm": "hiroi",
+    "meaning": "宽广的"
+  },
+  {
+    "kanji": "狭い",
+    "hira": "せまい",
+    "kata": "セマイ",
+    "rm": "semai",
+    "meaning": "狭窄的"
+  },
+  {
+    "kanji": "太い",
+    "hira": "ふとい",
+    "kata": "フトイ",
+    "rm": "futoi",
+    "meaning": "粗的"
+  },
+  {
+    "kanji": "細い",
+    "hira": "ほそい",
+    "kata": "ホソイ",
+    "rm": "hosoi",
+    "meaning": "细的"
+  },
+  {
+    "kanji": "重い",
+    "hira": "おもい",
+    "kata": "オモイ",
+    "rm": "omoi",
+    "meaning": "重的"
+  },
+  {
+    "kanji": "軽い",
+    "hira": "かるい",
+    "kata": "カルイ",
+    "rm": "karui",
+    "meaning": "轻的"
+  },
+  {
+    "kanji": "速い",
+    "hira": "はやい",
+    "kata": "ハヤイ",
+    "rm": "hayai",
+    "meaning": "快的"
+  },
+  {
+    "kanji": "遅い",
+    "hira": "おそい",
+    "kata": "オソイ",
+    "rm": "osoi",
+    "meaning": "慢的/晚的"
+  },
+  {
+    "kanji": "早い",
+    "hira": "はやい",
+    "kata": "ハヤイ",
+    "rm": "hayai2",
+    "meaning": "早的"
+  },
+  {
+    "kanji": "近い",
+    "hira": "ちかい",
+    "kata": "チカイ",
+    "rm": "chikai",
+    "meaning": "近的"
+  },
+  {
+    "kanji": "遠い",
+    "hira": "とおい",
+    "kata": "トオイ",
+    "rm": "tooi",
+    "meaning": "远的"
+  },
+  {
+    "kanji": "暑い",
+    "hira": "あつい",
+    "kata": "アツイ",
+    "rm": "atsui",
+    "meaning": "热的"
+  },
+  {
+    "kanji": "寒い",
+    "hira": "さむい",
+    "kata": "サムイ",
+    "rm": "samui",
+    "meaning": "冷的"
+  },
+  {
+    "kanji": "暖かい",
+    "hira": "あたたかい",
+    "kata": "アタタカイ",
+    "rm": "atatakai",
+    "meaning": "温暖的"
+  },
+  {
+    "kanji": "涼しい",
+    "hira": "すずしい",
+    "kata": "スズシイ",
+    "rm": "suzushii",
+    "meaning": "凉爽的"
+  },
+  {
+    "kanji": "冷たい",
+    "hira": "つめたい",
+    "kata": "ツメタイ",
+    "rm": "tsumetai",
+    "meaning": "冰凉的"
+  },
+  {
+    "kanji": "熱い",
+    "hira": "あつい",
+    "kata": "アツイ",
+    "rm": "atsui2",
+    "meaning": "烫的"
+  },
+  {
+    "kanji": "明るい",
+    "hira": "あかるい",
+    "kata": "アカルイ",
+    "rm": "akarui",
+    "meaning": "明亮的"
+  },
+  {
+    "kanji": "暗い",
+    "hira": "くらい",
+    "kata": "クライ",
+    "rm": "kurai",
+    "meaning": "暗的"
+  },
+  {
+    "kanji": "嬉しい",
+    "hira": "うれしい",
+    "kata": "ウレシイ",
+    "rm": "ureshii",
+    "meaning": "高兴的"
+  },
+  {
+    "kanji": "悲しい",
+    "hira": "かなしい",
+    "kata": "カナシイ",
+    "rm": "kanashii",
+    "meaning": "悲伤的"
+  },
+  {
+    "kanji": "楽しい",
+    "hira": "たのしい",
+    "kata": "タノシイ",
+    "rm": "tanoshii",
+    "meaning": "快乐的"
+  },
+  {
+    "kanji": "苦しい",
+    "hira": "くるしい",
+    "kata": "クルシイ",
+    "rm": "kurushii",
+    "meaning": "痛苦的"
+  },
+  {
+    "kanji": "寂しい",
+    "hira": "さびしい",
+    "kata": "サビシイ",
+    "rm": "sabishii",
+    "meaning": "寂寞的"
+  },
+  {
+    "kanji": "恥ずかしい",
+    "hira": "はずかしい",
+    "kata": "ハズカシイ",
+    "rm": "hazukashii",
+    "meaning": "害羞的"
+  },
+  {
+    "kanji": "怖い",
+    "hira": "こわい",
+    "kata": "コワイ",
+    "rm": "kowai",
+    "meaning": "可怕的"
+  },
+  {
+    "kanji": "痛い",
+    "hira": "いたい",
+    "kata": "イタイ",
+    "rm": "itai",
+    "meaning": "疼的"
+  },
+  {
+    "kanji": "眠い",
+    "hira": "ねむい",
+    "kata": "ネムイ",
+    "rm": "nemui",
+    "meaning": "困的"
+  },
+  {
+    "kanji": "忙しい",
+    "hira": "いそがしい",
+    "kata": "イソガシイ",
+    "rm": "isogashii",
+    "meaning": "忙的"
+  },
+  {
+    "kanji": "難しい",
+    "hira": "むずかしい",
+    "kata": "ムズカシイ",
+    "rm": "muzukashii",
+    "meaning": "难的"
+  },
+  {
+    "kanji": "易しい",
+    "hira": "やさしい",
+    "kata": "ヤサシイ",
+    "rm": "yasashii",
+    "meaning": "简单的"
+  },
+  {
+    "kanji": "優しい",
+    "hira": "やさしい",
+    "kata": "ヤサシイ",
+    "rm": "yasashii2",
+    "meaning": "温柔的"
+  },
+  {
+    "kanji": "厳しい",
+    "hira": "きびしい",
+    "kata": "キビシイ",
+    "rm": "kibishii",
+    "meaning": "严格的"
+  },
+  {
+    "kanji": "正しい",
+    "hira": "ただしい",
+    "kata": "タダシイ",
+    "rm": "tadashii",
+    "meaning": "正确的"
+  },
+  {
+    "kanji": "珍しい",
+    "hira": "めずらしい",
+    "kata": "メズラシイ",
+    "rm": "mezurashii",
+    "meaning": "稀奇的"
+  },
+  {
+    "kanji": "美味しい",
+    "hira": "おいしい",
+    "kata": "オイシイ",
+    "rm": "oishii",
+    "meaning": "好吃的"
+  },
+  {
+    "kanji": "不味い",
+    "hira": "まずい",
+    "kata": "マズイ",
+    "rm": "mazui",
+    "meaning": "难吃的"
+  },
+  {
+    "kanji": "丸い",
+    "hira": "まるい",
+    "kata": "マルイ",
+    "rm": "marui",
+    "meaning": "圆的"
+  },
+  {
+    "kanji": "若い",
+    "hira": "わかい",
+    "kata": "ワカイ",
+    "rm": "wakai",
+    "meaning": "年轻的"
+  },
+  {
+    "kanji": "強い",
+    "hira": "つよい",
+    "kata": "ツヨイ",
+    "rm": "tsuyoi",
+    "meaning": "强的"
+  },
+  {
+    "kanji": "弱い",
+    "hira": "よわい",
+    "kata": "ヨワイ",
+    "rm": "yowai",
+    "meaning": "弱的"
+  },
+  {
+    "kanji": "硬い",
+    "hira": "かたい",
+    "kata": "カタイ",
+    "rm": "katai",
+    "meaning": "硬的"
+  },
+  {
+    "kanji": "柔らかい",
+    "hira": "やわらかい",
+    "kata": "ヤワラカイ",
+    "rm": "yawarakai",
+    "meaning": "柔软的"
+  },
+  {
+    "kanji": "汚い",
+    "hira": "きたない",
+    "kata": "キタナイ",
+    "rm": "kitanai",
+    "meaning": "脏的"
+  },
+  {
+    "kanji": "美しい",
+    "hira": "うつくしい",
+    "kata": "ウツクシイ",
+    "rm": "utsukushii",
+    "meaning": "美丽的"
+  },
+  {
+    "kanji": "可愛い",
+    "hira": "かわいい",
+    "kata": "カワイイ",
+    "rm": "kawaii",
+    "meaning": "可爱的"
+  },
+  {
+    "kanji": "面白い",
+    "hira": "おもしろい",
+    "kata": "オモシロイ",
+    "rm": "omoshiroi",
+    "meaning": "有趣的"
+  },
+  {
+    "kanji": "詰まらない",
+    "hira": "つまらない",
+    "kata": "ツマラナイ",
+    "rm": "tsumaranai",
+    "meaning": "无聊的"
+  },
+  {
+    "kanji": "素晴らしい",
+    "hira": "すばらしい",
+    "kata": "スバラシイ",
+    "rm": "subarashii",
+    "meaning": "了不起的"
+  },
+  {
+    "kanji": "危ない",
+    "hira": "あぶない",
+    "kata": "アブナイ",
+    "rm": "abunai",
+    "meaning": "危险的"
+  },
+  {
+    "kanji": "うるさい",
+    "hira": "うるさい",
+    "kata": "ウルサイ",
+    "rm": "urusai",
+    "meaning": "吵的"
+  },
+  {
+    "kanji": "甘い",
+    "hira": "あまい",
+    "kata": "アマイ",
+    "rm": "amai",
+    "meaning": "甜的"
+  },
+  {
+    "kanji": "辛い",
+    "hira": "からい",
+    "kata": "カライ",
+    "rm": "karai",
+    "meaning": "辣的"
+  },
+  {
+    "kanji": "苦い",
+    "hira": "にがい",
+    "kata": "ニガイ",
+    "rm": "nigai",
+    "meaning": "苦的"
+  },
+  {
+    "kanji": "酸っぱい",
+    "hira": "すっぱい",
+    "kata": "スッパイ",
+    "rm": "suppai",
+    "meaning": "酸的"
+  },
+  {
+    "kanji": "深い",
+    "hira": "ふかい",
+    "kata": "フカイ",
+    "rm": "fukai",
+    "meaning": "深的"
+  },
+  {
+    "kanji": "浅い",
+    "hira": "あさい",
+    "kata": "アサイ",
+    "rm": "asai",
+    "meaning": "浅的"
+  },
+  {
+    "kanji": "元気",
+    "hira": "げんき",
+    "kata": "ゲンキ",
+    "rm": "genki",
+    "meaning": "精神好的"
+  },
+  {
+    "kanji": "静か",
+    "hira": "しずか",
+    "kata": "シズカ",
+    "rm": "shizuka",
+    "meaning": "安静的"
+  },
+  {
+    "kanji": "賑やか",
+    "hira": "にぎやか",
+    "kata": "ニギヤカ",
+    "rm": "nigiyaka",
+    "meaning": "热闹的"
+  },
+  {
+    "kanji": "有名",
+    "hira": "ゆうめい",
+    "kata": "ユウメイ",
+    "rm": "yuumei",
+    "meaning": "有名的"
+  },
+  {
+    "kanji": "便利",
+    "hira": "べんり",
+    "kata": "ベンリ",
+    "rm": "benri",
+    "meaning": "方便的"
+  },
+  {
+    "kanji": "不便",
+    "hira": "ふべん",
+    "kata": "フベン",
+    "rm": "fuben",
+    "meaning": "不方便的"
+  },
+  {
+    "kanji": "親切",
+    "hira": "しんせつ",
+    "kata": "シンセツ",
+    "rm": "shinsetsu",
+    "meaning": "亲切的"
+  },
+  {
+    "kanji": "丁寧",
+    "hira": "ていねい",
+    "kata": "テイネイ",
+    "rm": "teinei",
+    "meaning": "礼貌的"
+  },
+  {
+    "kanji": "簡単",
+    "hira": "かんたん",
+    "kata": "カンタン",
+    "rm": "kantan",
+    "meaning": "简单的"
+  },
+  {
+    "kanji": "複雑",
+    "hira": "ふくざつ",
+    "kata": "フクザツ",
+    "rm": "fukuzatsu",
+    "meaning": "复杂的"
+  },
+  {
+    "kanji": "大切",
+    "hira": "たいせつ",
+    "kata": "タイセツ",
+    "rm": "taisetsu",
+    "meaning": "重要的"
+  },
+  {
+    "kanji": "大丈夫",
+    "hira": "だいじょうぶ",
+    "kata": "ダイジョウブ",
+    "rm": "daijoubu",
+    "meaning": "没问题的"
+  },
+  {
+    "kanji": "必要",
+    "hira": "ひつよう",
+    "kata": "ヒツヨウ",
+    "rm": "hitsuyou",
+    "meaning": "必要的"
+  },
+  {
+    "kanji": "特別",
+    "hira": "とくべつ",
+    "kata": "トクベツ",
+    "rm": "tokubetsu",
+    "meaning": "特别的"
+  },
+  {
+    "kanji": "普通",
+    "hira": "ふつう",
+    "kata": "フツウ",
+    "rm": "futsuu",
+    "meaning": "普通的"
+  },
+  {
+    "kanji": "上手",
+    "hira": "じょうず",
+    "kata": "ジョウズ",
+    "rm": "jouzu",
+    "meaning": "擅长的"
+  },
+  {
+    "kanji": "下手",
+    "hira": "へた",
+    "kata": "ヘタ",
+    "rm": "heta",
+    "meaning": "不擅长的"
+  },
+  {
+    "kanji": "好き",
+    "hira": "すき",
+    "kata": "スキ",
+    "rm": "suki",
+    "meaning": "喜欢的"
+  },
+  {
+    "kanji": "嫌い",
+    "hira": "きらい",
+    "kata": "キライ",
+    "rm": "kirai",
+    "meaning": "讨厌的"
+  },
+  {
+    "kanji": "綺麗",
+    "hira": "きれい",
+    "kata": "キレイ",
+    "rm": "kirei",
+    "meaning": "漂亮的"
+  },
+  {
+    "kanji": "暇",
+    "hira": "ひま",
+    "kata": "ヒマ",
+    "rm": "hima",
+    "meaning": "空闲的"
+  },
+  {
+    "kanji": "真面目",
+    "hira": "まじめ",
+    "kata": "マジメ",
+    "rm": "majime",
+    "meaning": "认真的"
+  },
+  {
+    "kanji": "立派",
+    "hira": "りっぱ",
+    "kata": "リッパ",
+    "rm": "rippa",
+    "meaning": "出色的"
+  },
+  {
+    "kanji": "素敵",
+    "hira": "すてき",
+    "kata": "ステキ",
+    "rm": "suteki",
+    "meaning": "美好的"
+  },
+  {
+    "kanji": "残念",
+    "hira": "ざんねん",
+    "kata": "ザンネン",
+    "rm": "zannen",
+    "meaning": "遗憾的"
+  },
+  {
+    "kanji": "心配",
+    "hira": "しんぱい",
+    "kata": "シンパイ",
+    "rm": "shinpai",
+    "meaning": "担心的"
+  },
+  {
+    "kanji": "無理",
+    "hira": "むり",
+    "kata": "ムリ",
+    "rm": "muri",
+    "meaning": "勉强的"
+  },
+  {
+    "kanji": "駄目",
+    "hira": "だめ",
+    "kata": "ダメ",
+    "rm": "dame",
+    "meaning": "不行的"
+  },
+  {
+    "kanji": "十分",
+    "hira": "じゅうぶん",
+    "kata": "ジュウブン",
+    "rm": "juubun",
+    "meaning": "充分的"
+  },
+  {
+    "kanji": "適当",
+    "hira": "てきとう",
+    "kata": "テキトウ",
+    "rm": "tekitou",
+    "meaning": "适当的"
+  },
+  {
+    "kanji": "少し",
+    "hira": "すこし",
+    "kata": "スコシ",
+    "rm": "sukoshi",
+    "meaning": "一点"
+  },
+  {
+    "kanji": "沢山",
+    "hira": "たくさん",
+    "kata": "タクサン",
+    "rm": "takusan",
+    "meaning": "很多"
+  },
+  {
+    "kanji": "全然",
+    "hira": "ぜんぜん",
+    "kata": "ゼンゼン",
+    "rm": "zenzen",
+    "meaning": "完全"
+  },
+  {
+    "kanji": "本当",
+    "hira": "ほんとう",
+    "kata": "ホントウ",
+    "rm": "hontou",
+    "meaning": "真的"
+  },
+  {
+    "kanji": "多分",
+    "hira": "たぶん",
+    "kata": "タブン",
+    "rm": "tabun",
+    "meaning": "大概"
+  },
+  {
+    "kanji": "絶対",
+    "hira": "ぜったい",
+    "kata": "ゼッタイ",
+    "rm": "zettai",
+    "meaning": "绝对"
+  },
+  {
+    "kanji": "最初",
+    "hira": "さいしょ",
+    "kata": "サイショ",
+    "rm": "saisho",
+    "meaning": "最初"
+  },
+  {
+    "kanji": "最後",
+    "hira": "さいご",
+    "kata": "サイゴ",
+    "rm": "saigo",
+    "meaning": "最后"
+  },
+  {
+    "kanji": "最近",
+    "hira": "さいきん",
+    "kata": "サイキン",
+    "rm": "saikin",
+    "meaning": "最近"
+  },
+  {
+    "kanji": "突然",
+    "hira": "とつぜん",
+    "kata": "トツゼン",
+    "rm": "totsuzen",
+    "meaning": "突然"
+  },
+  {
+    "kanji": "普段",
+    "hira": "ふだん",
+    "kata": "フダン",
+    "rm": "fudan",
+    "meaning": "平时"
+  },
+  {
+    "kanji": "特に",
+    "hira": "とくに",
+    "kata": "トクニ",
+    "rm": "tokuni",
+    "meaning": "特别"
+  },
+  {
+    "kanji": "必ず",
+    "hira": "かならず",
+    "kata": "カナラズ",
+    "rm": "kanarazu",
+    "meaning": "一定"
+  },
+  {
+    "kanji": "丁度",
+    "hira": "ちょうど",
+    "kata": "チョウド",
+    "rm": "choudo",
+    "meaning": "正好"
+  },
+  {
+    "kanji": "大体",
+    "hira": "だいたい",
+    "kata": "ダイタイ",
+    "rm": "daitai",
+    "meaning": "大致"
+  },
+  {
+    "kanji": "随分",
+    "hira": "ずいぶん",
+    "kata": "ズイブン",
+    "rm": "zuibun",
+    "meaning": "相当"
+  },
+  {
+    "kanji": "段々",
+    "hira": "だんだん",
+    "kata": "ダンダン",
+    "rm": "dandan",
+    "meaning": "渐渐"
+  },
+  {
+    "kanji": "時々",
+    "hira": "ときどき",
+    "kata": "トキドキ",
+    "rm": "tokidoki",
+    "meaning": "有时"
+  },
+  {
+    "kanji": "初めて",
+    "hira": "はじめて",
+    "kata": "ハジメテ",
+    "rm": "hajimete",
+    "meaning": "第一次"
+  },
+  {
+    "kanji": "久しぶり",
+    "hira": "ひさしぶり",
+    "kata": "ヒサシブリ",
+    "rm": "hisashiburi",
+    "meaning": "好久不见"
+  },
+  {
+    "kanji": "探す",
+    "hira": "さがす",
+    "kata": "サガス",
+    "rm": "sagasu",
+    "meaning": "寻找"
+  },
+  {
+    "kanji": "見つける",
+    "hira": "みつける",
+    "kata": "ミツケル",
+    "rm": "mitsukeru",
+    "meaning": "找到"
+  },
+  {
+    "kanji": "見つかる",
+    "hira": "みつかる",
+    "kata": "ミツカル",
+    "rm": "mitsukaru",
+    "meaning": "被找到"
+  },
+  {
+    "kanji": "調べる",
+    "hira": "しらべる",
+    "kata": "シラベル",
+    "rm": "shiraberu",
+    "meaning": "调查"
+  },
+  {
+    "kanji": "比べる",
+    "hira": "くらべる",
+    "kata": "クラベル",
+    "rm": "kuraberu",
+    "meaning": "比较"
+  },
+  {
+    "kanji": "伝える",
+    "hira": "つたえる",
+    "kata": "ツタエル",
+    "rm": "tsutaeru",
+    "meaning": "传达"
+  },
+  {
+    "kanji": "届ける",
+    "hira": "とどける",
+    "kata": "トドケル",
+    "rm": "todokeru",
+    "meaning": "送到"
+  },
+  {
+    "kanji": "預ける",
+    "hira": "あずける",
+    "kata": "アズケル",
+    "rm": "azukeru",
+    "meaning": "寄存"
+  },
+  {
+    "kanji": "預かる",
+    "hira": "あずかる",
+    "kata": "アズカル",
+    "rm": "azukaru",
+    "meaning": "保管"
+  },
+  {
+    "kanji": "申す",
+    "hira": "もうす",
+    "kata": "モウス",
+    "rm": "mousu",
+    "meaning": "说(敬)"
+  },
+  {
+    "kanji": "参る",
+    "hira": "まいる",
+    "kata": "マイル",
+    "rm": "mairu",
+    "meaning": "去(敬)"
+  },
+  {
+    "kanji": "頂く",
+    "hira": "いただく",
+    "kata": "イタダク",
+    "rm": "itadaku",
+    "meaning": "收到(敬)"
+  },
+  {
+    "kanji": "差し上げる",
+    "hira": "さしあげる",
+    "kata": "サシアゲル",
+    "rm": "sashiageru",
+    "meaning": "给(敬)"
+  },
+  {
+    "kanji": "召し上がる",
+    "hira": "めしあがる",
+    "kata": "メシアガル",
+    "rm": "meshiagaru",
+    "meaning": "吃(敬)"
+  },
+  {
+    "kanji": "御覧になる",
+    "hira": "ごらんになる",
+    "kata": "ゴランニナル",
+    "rm": "goranninaru",
+    "meaning": "看(敬)"
+  },
+  {
+    "kanji": "触る",
+    "hira": "さわる",
+    "kata": "サワル",
+    "rm": "sawaru",
+    "meaning": "触摸"
+  },
+  {
+    "kanji": "叩く",
+    "hira": "たたく",
+    "kata": "タタク",
+    "rm": "tataku",
+    "meaning": "敲打"
+  },
+  {
+    "kanji": "投げる",
+    "hira": "なげる",
+    "kata": "ナゲル",
+    "rm": "nageru",
+    "meaning": "扔"
+  },
+  {
+    "kanji": "捕まえる",
+    "hira": "つかまえる",
+    "kata": "ツカマエル",
+    "rm": "tsukamaeru",
+    "meaning": "抓住"
+  },
+  {
+    "kanji": "逃げる",
+    "hira": "にげる",
+    "kata": "ニゲル",
+    "rm": "nigeru",
+    "meaning": "逃跑"
+  },
+  {
+    "kanji": "隠す",
+    "hira": "かくす",
+    "kata": "カクス",
+    "rm": "kakusu",
+    "meaning": "隐藏"
+  },
+  {
+    "kanji": "隠れる",
+    "hira": "かくれる",
+    "kata": "カクレル",
+    "rm": "kakureru",
+    "meaning": "躲藏"
+  },
+  {
+    "kanji": "守る",
+    "hira": "まもる",
+    "kata": "マモル",
+    "rm": "mamoru",
+    "meaning": "保护"
+  },
+  {
+    "kanji": "戦う",
+    "hira": "たたかう",
+    "kata": "タタカウ",
+    "rm": "tatakau",
+    "meaning": "战斗"
+  },
+  {
+    "kanji": "勝つ",
+    "hira": "かつ",
+    "kata": "カツ",
+    "rm": "katsu",
+    "meaning": "赢"
+  },
+  {
+    "kanji": "負ける",
+    "hira": "まける",
+    "kata": "マケル",
+    "rm": "makeru",
+    "meaning": "输"
+  },
+  {
+    "kanji": "諦める",
+    "hira": "あきらめる",
+    "kata": "アキラメル",
+    "rm": "akirameru",
+    "meaning": "放弃"
+  },
+  {
+    "kanji": "頑張る",
+    "hira": "がんばる",
+    "kata": "ガンバル",
+    "rm": "ganbaru",
+    "meaning": "加油"
+  },
+  {
+    "kanji": "信じる",
+    "hira": "しんじる",
+    "kata": "シンジル",
+    "rm": "shinjiru",
+    "meaning": "相信"
+  },
+  {
+    "kanji": "祈る",
+    "hira": "いのる",
+    "kata": "イノル",
+    "rm": "inoru",
+    "meaning": "祈祷"
+  },
+  {
+    "kanji": "助ける",
+    "hira": "たすける",
+    "kata": "タスケル",
+    "rm": "tasukeru",
+    "meaning": "帮助"
+  },
+  {
+    "kanji": "手伝う",
+    "hira": "てつだう",
+    "kata": "テツダウ",
+    "rm": "tetsudau",
+    "meaning": "帮忙"
+  },
+  {
+    "kanji": "頼む",
+    "hira": "たのむ",
+    "kata": "タノム",
+    "rm": "tanomu",
+    "meaning": "拜托"
+  },
+  {
+    "kanji": "断る",
+    "hira": "ことわる",
+    "kata": "コトワル",
+    "rm": "kotowaru",
+    "meaning": "拒绝"
+  },
+  {
+    "kanji": "許す",
+    "hira": "ゆるす",
+    "kata": "ユルス",
+    "rm": "yurusu",
+    "meaning": "原谅"
+  },
+  {
+    "kanji": "謝る",
+    "hira": "あやまる",
+    "kata": "アヤマル",
+    "rm": "ayamaru",
+    "meaning": "道歉"
+  },
+  {
+    "kanji": "褒める",
+    "hira": "ほめる",
+    "kata": "ホメル",
+    "rm": "homeru",
+    "meaning": "表扬"
+  },
+  {
+    "kanji": "叱る",
+    "hira": "しかる",
+    "kata": "シカル",
+    "rm": "shikaru",
+    "meaning": "批评"
+  },
+  {
+    "kanji": "育てる",
+    "hira": "そだてる",
+    "kata": "ソダテル",
+    "rm": "sodateru",
+    "meaning": "培养"
+  },
+  {
+    "kanji": "育つ",
+    "hira": "そだつ",
+    "kata": "ソダツ",
+    "rm": "sodatsu",
+    "meaning": "成长"
+  },
+  {
+    "kanji": "生まれる",
+    "hira": "うまれる",
+    "kata": "ウマレル",
+    "rm": "umareru",
+    "meaning": "出生"
+  },
+  {
+    "kanji": "死ぬ",
+    "hira": "しぬ",
+    "kata": "シヌ",
+    "rm": "shinu",
+    "meaning": "死"
+  },
+  {
+    "kanji": "生きる",
+    "hira": "いきる",
+    "kata": "イキル",
+    "rm": "ikiru",
+    "meaning": "活"
+  },
+  {
+    "kanji": "暮らす",
+    "hira": "くらす",
+    "kata": "クラス",
+    "rm": "kurasu",
+    "meaning": "生活"
+  },
+  {
+    "kanji": "引っ越す",
+    "hira": "ひっこす",
+    "kata": "ヒッコス",
+    "rm": "hikkosu",
+    "meaning": "搬家"
+  },
+  {
+    "kanji": "通う",
+    "hira": "かよう",
+    "kata": "カヨウ",
+    "rm": "kayou",
+    "meaning": "上学/上班"
+  },
+  {
+    "kanji": "通る",
+    "hira": "とおる",
+    "kata": "トオル",
+    "rm": "tooru",
+    "meaning": "通过"
+  },
+  {
+    "kanji": "渡る",
+    "hira": "わたる",
+    "kata": "ワタル",
+    "rm": "wataru",
+    "meaning": "过(桥/路)"
+  },
+  {
+    "kanji": "曲がる",
+    "hira": "まがる",
+    "kata": "マガル",
+    "rm": "magaru",
+    "meaning": "转弯"
+  },
+  {
+    "kanji": "進む",
+    "hira": "すすむ",
+    "kata": "ススム",
+    "rm": "susumu",
+    "meaning": "前进"
+  },
+  {
+    "kanji": "戻る",
+    "hira": "もどる",
+    "kata": "モドル",
+    "rm": "modoru",
+    "meaning": "返回"
+  },
+  {
+    "kanji": "届く",
+    "hira": "とどく",
+    "kata": "トドク",
+    "rm": "todoku2",
+    "meaning": "到达"
+  },
+  {
+    "kanji": "間に合う",
+    "hira": "まにあう",
+    "kata": "マニアウ",
+    "rm": "maniau",
+    "meaning": "赶上"
+  },
+  {
+    "kanji": "遅れる",
+    "hira": "おくれる",
+    "kata": "オクレル",
+    "rm": "okureru",
+    "meaning": "迟到"
+  },
+  {
+    "kanji": "急ぐ",
+    "hira": "いそぐ",
+    "kata": "イソグ",
+    "rm": "isogu",
+    "meaning": "赶紧"
+  },
+  {
+    "kanji": "慣れる",
+    "hira": "なれる",
+    "kata": "ナレル",
+    "rm": "nareru",
+    "meaning": "习惯"
+  },
+  {
+    "kanji": "太る",
+    "hira": "ふとる",
+    "kata": "フトル",
+    "rm": "futoru",
+    "meaning": "胖"
+  },
+  {
+    "kanji": "痩せる",
+    "hira": "やせる",
+    "kata": "ヤセル",
+    "rm": "yaseru",
+    "meaning": "瘦"
+  },
+  {
+    "kanji": "治る",
+    "hira": "なおる",
+    "kata": "ナオル",
+    "rm": "naoru2",
+    "meaning": "痊愈"
+  },
+  {
+    "kanji": "治す",
+    "hira": "なおす",
+    "kata": "ナオス",
+    "rm": "naosu2",
+    "meaning": "治疗"
+  },
+  {
+    "kanji": "咲く",
+    "hira": "さく",
+    "kata": "サク",
+    "rm": "saku",
+    "meaning": "开花"
+  },
+  {
+    "kanji": "枯れる",
+    "hira": "かれる",
+    "kata": "カレル",
+    "rm": "kareru",
+    "meaning": "枯萎"
+  },
+  {
+    "kanji": "光る",
+    "hira": "ひかる",
+    "kata": "ヒカル",
+    "rm": "hikaru",
+    "meaning": "发光"
+  },
+  {
+    "kanji": "鳴る",
+    "hira": "なる",
+    "kata": "ナル",
+    "rm": "naru",
+    "meaning": "响"
+  },
+  {
+    "kanji": "鳴く",
+    "hira": "なく",
+    "kata": "ナク",
+    "rm": "naku2",
+    "meaning": "叫(动物)"
+  },
+  {
+    "kanji": "噛む",
+    "hira": "かむ",
+    "kata": "カム",
+    "rm": "kamu",
+    "meaning": "咬"
+  },
+  {
+    "kanji": "吸う",
+    "hira": "すう",
+    "kata": "スウ",
+    "rm": "suu",
+    "meaning": "吸"
+  },
+  {
+    "kanji": "吹く",
+    "hira": "ふく",
+    "kata": "フク",
+    "rm": "fuku2",
+    "meaning": "吹"
+  },
+  {
+    "kanji": "乾く",
+    "hira": "かわく",
+    "kata": "カワク",
+    "rm": "kawaku",
+    "meaning": "干"
+  },
+  {
+    "kanji": "濡れる",
+    "hira": "ぬれる",
+    "kata": "ヌレル",
+    "rm": "nureru",
+    "meaning": "湿"
+  },
+  {
+    "kanji": "混ぜる",
+    "hira": "まぜる",
+    "kata": "マゼル",
+    "rm": "mazeru",
+    "meaning": "混合"
+  },
+  {
+    "kanji": "焼く",
+    "hira": "やく",
+    "kata": "ヤク",
+    "rm": "yaku",
+    "meaning": "烤"
+  },
+  {
+    "kanji": "煮る",
+    "hira": "にる",
+    "kata": "ニル",
+    "rm": "niru",
+    "meaning": "煮"
+  },
+  {
+    "kanji": "揚げる",
+    "hira": "あげる",
+    "kata": "アゲル",
+    "rm": "ageru2",
+    "meaning": "炸"
+  },
+  {
+    "kanji": "蒸す",
+    "hira": "むす",
+    "kata": "ムス",
+    "rm": "musu",
+    "meaning": "蒸"
+  },
+  {
+    "kanji": "炒める",
+    "hira": "いためる",
+    "kata": "イタメル",
+    "rm": "itameru",
+    "meaning": "炒"
+  },
+  {
+    "kanji": "沸かす",
+    "hira": "わかす",
+    "kata": "ワカス",
+    "rm": "wakasu",
+    "meaning": "烧开"
+  },
+  {
+    "kanji": "冷ます",
+    "hira": "さます",
+    "kata": "サマス",
+    "rm": "samasu",
+    "meaning": "冷却"
+  },
+  {
+    "kanji": "包む",
+    "hira": "つつむ",
+    "kata": "ツツム",
+    "rm": "tsutsumu",
+    "meaning": "包"
+  },
+  {
+    "kanji": "結ぶ",
+    "hira": "むすぶ",
+    "kata": "ムスブ",
+    "rm": "musubu",
+    "meaning": "系/结"
+  },
+  {
+    "kanji": "天井",
+    "hira": "てんじょう",
+    "kata": "テンジョウ",
+    "rm": "tenjou",
+    "meaning": "天花板"
+  },
+  {
+    "kanji": "床",
+    "hira": "ゆか",
+    "kata": "ユカ",
+    "rm": "yuka",
+    "meaning": "地板"
+  },
+  {
+    "kanji": "壁",
+    "hira": "かべ",
+    "kata": "カベ",
+    "rm": "kabe",
+    "meaning": "墙壁"
+  },
+  {
+    "kanji": "屋根",
+    "hira": "やね",
+    "kata": "ヤネ",
+    "rm": "yane",
+    "meaning": "屋顶"
+  },
+  {
+    "kanji": "柱",
+    "hira": "はしら",
+    "kata": "ハシラ",
+    "rm": "hashira",
+    "meaning": "柱子"
+  },
+  {
+    "kanji": "角",
+    "hira": "かど",
+    "kata": "カド",
+    "rm": "kado",
+    "meaning": "角落"
+  },
+  {
+    "kanji": "隣",
+    "hira": "となり",
+    "kata": "トナリ",
+    "rm": "tonari",
+    "meaning": "隔壁"
+  },
+  {
+    "kanji": "向こう",
+    "hira": "むこう",
+    "kata": "ムコウ",
+    "rm": "mukou",
+    "meaning": "对面"
+  },
+  {
+    "kanji": "周り",
+    "hira": "まわり",
+    "kata": "マワリ",
+    "rm": "mawari",
+    "meaning": "周围"
+  },
+  {
+    "kanji": "真ん中",
+    "hira": "まんなか",
+    "kata": "マンナカ",
+    "rm": "mannaka",
+    "meaning": "正中间"
+  },
+  {
+    "kanji": "表",
+    "hira": "おもて",
+    "kata": "オモテ",
+    "rm": "omote",
+    "meaning": "表面"
+  },
+  {
+    "kanji": "裏",
+    "hira": "うら",
+    "kata": "ウラ",
+    "rm": "ura",
+    "meaning": "背面"
+  },
+  {
+    "kanji": "上",
+    "hira": "うえ",
+    "kata": "ウエ",
+    "rm": "ue",
+    "meaning": "上面"
+  },
+  {
+    "kanji": "下",
+    "hira": "した",
+    "kata": "シタ",
+    "rm": "shita",
+    "meaning": "下面"
+  },
+  {
+    "kanji": "右",
+    "hira": "みぎ",
+    "kata": "ミギ",
+    "rm": "migi",
+    "meaning": "右"
+  },
+  {
+    "kanji": "左",
+    "hira": "ひだり",
+    "kata": "ヒダリ",
+    "rm": "hidari",
+    "meaning": "左"
+  },
+  {
+    "kanji": "前",
+    "hira": "まえ",
+    "kata": "マエ",
+    "rm": "mae",
+    "meaning": "前面"
+  },
+  {
+    "kanji": "後ろ",
+    "hira": "うしろ",
+    "kata": "ウシロ",
+    "rm": "ushiro",
+    "meaning": "后面"
+  },
+  {
+    "kanji": "外",
+    "hira": "そと",
+    "kata": "ソト",
+    "rm": "soto",
+    "meaning": "外面"
+  },
+  {
+    "kanji": "中",
+    "hira": "なか",
+    "kata": "ナカ",
+    "rm": "naka",
+    "meaning": "里面"
+  },
+  {
+    "kanji": "奥",
+    "hira": "おく",
+    "kata": "オク",
+    "rm": "oku2",
+    "meaning": "里面深处"
+  },
+  {
+    "kanji": "横",
+    "hira": "よこ",
+    "kata": "ヨコ",
+    "rm": "yoko",
+    "meaning": "旁边"
+  },
+  {
+    "kanji": "側",
+    "hira": "そば",
+    "kata": "ソバ",
+    "rm": "soba",
+    "meaning": "旁边"
+  },
+  {
+    "kanji": "間",
+    "hira": "あいだ",
+    "kata": "アイダ",
+    "rm": "aida",
+    "meaning": "之间"
+  },
+  {
+    "kanji": "先",
+    "hira": "さき",
+    "kata": "サキ",
+    "rm": "saki",
+    "meaning": "前方"
+  },
+  {
+    "kanji": "端",
+    "hira": "はし",
+    "kata": "ハシ",
+    "rm": "hashi3",
+    "meaning": "边缘"
+  },
+  {
+    "kanji": "春",
+    "hira": "はる",
+    "kata": "ハル",
+    "rm": "haru",
+    "meaning": "春天"
+  },
+  {
+    "kanji": "夏",
+    "hira": "なつ",
+    "kata": "ナツ",
+    "rm": "natsu",
+    "meaning": "夏天"
+  },
+  {
+    "kanji": "秋",
+    "hira": "あき",
+    "kata": "アキ",
+    "rm": "aki",
+    "meaning": "秋天"
+  },
+  {
+    "kanji": "冬",
+    "hira": "ふゆ",
+    "kata": "フユ",
+    "rm": "fuyu",
+    "meaning": "冬天"
+  },
+  {
+    "kanji": "季節",
+    "hira": "きせつ",
+    "kata": "キセツ",
+    "rm": "kisetsu",
+    "meaning": "季节"
+  },
+  {
+    "kanji": "正月",
+    "hira": "しょうがつ",
+    "kata": "ショウガツ",
+    "rm": "shougatsu",
+    "meaning": "新年"
+  },
+  {
+    "kanji": "祭り",
+    "hira": "まつり",
+    "kata": "マツリ",
+    "rm": "matsuri",
+    "meaning": "祭典"
+  },
+  {
+    "kanji": "旅行",
+    "hira": "りょこう",
+    "kata": "リョコウ",
+    "rm": "ryokou",
+    "meaning": "旅行"
+  },
+  {
+    "kanji": "散歩",
+    "hira": "さんぽ",
+    "kata": "サンポ",
+    "rm": "sanpo",
+    "meaning": "散步"
+  },
+  {
+    "kanji": "運動",
+    "hira": "うんどう",
+    "kata": "ウンドウ",
+    "rm": "undou",
+    "meaning": "运动"
+  },
+  {
+    "kanji": "水泳",
+    "hira": "すいえい",
+    "kata": "スイエイ",
+    "rm": "suiei",
+    "meaning": "游泳"
+  },
+  {
+    "kanji": "野球",
+    "hira": "やきゅう",
+    "kata": "ヤキュウ",
+    "rm": "yakyuu",
+    "meaning": "棒球"
+  },
+  {
+    "kanji": "試合",
+    "hira": "しあい",
+    "kata": "シアイ",
+    "rm": "shiai",
+    "meaning": "比赛"
+  },
+  {
+    "kanji": "選手",
+    "hira": "せんしゅ",
+    "kata": "センシュ",
+    "rm": "senshu",
+    "meaning": "选手"
+  },
+  {
+    "kanji": "練習",
+    "hira": "れんしゅう",
+    "kata": "レンシュウ",
+    "rm": "renshuu2",
+    "meaning": "练习"
+  },
+  {
+    "kanji": "電気",
+    "hira": "でんき",
+    "kata": "デンキ",
+    "rm": "denki",
+    "meaning": "电"
+  },
+  {
+    "kanji": "冷蔵庫",
+    "hira": "れいぞうこ",
+    "kata": "レイゾウコ",
+    "rm": "reizouko",
+    "meaning": "冰箱"
+  },
+  {
+    "kanji": "洗濯機",
+    "hira": "せんたくき",
+    "kata": "センタクキ",
+    "rm": "sentakuki",
+    "meaning": "洗衣机"
+  },
+  {
+    "kanji": "掃除機",
+    "hira": "そうじき",
+    "kata": "ソウジキ",
+    "rm": "soujiki",
+    "meaning": "吸尘器"
+  },
+  {
+    "kanji": "掃除",
+    "hira": "そうじ",
+    "kata": "ソウジ",
+    "rm": "souji",
+    "meaning": "打扫"
+  },
+  {
+    "kanji": "洗濯",
+    "hira": "せんたく",
+    "kata": "センタク",
+    "rm": "sentaku",
+    "meaning": "洗衣服"
+  },
+  {
+    "kanji": "料理",
+    "hira": "りょうり",
+    "kata": "リョウリ",
+    "rm": "ryouri2",
+    "meaning": "做饭"
+  },
+  {
+    "kanji": "買い物",
+    "hira": "かいもの",
+    "kata": "カイモノ",
+    "rm": "kaimono2",
+    "meaning": "购物"
+  },
+  {
+    "kanji": "引き出し",
+    "hira": "ひきだし",
+    "kata": "ヒキダシ",
+    "rm": "hikidashi",
+    "meaning": "抽屉"
+  },
+  {
+    "kanji": "押し入れ",
+    "hira": "おしいれ",
+    "kata": "オシイレ",
+    "rm": "oshiire",
+    "meaning": "壁橱"
+  },
+  {
+    "kanji": "戸",
+    "hira": "と",
+    "kata": "ト",
+    "rm": "to",
+    "meaning": "门"
+  },
+  {
+    "kanji": "障子",
+    "hira": "しょうじ",
+    "kata": "ショウジ",
+    "rm": "shouji",
+    "meaning": "纸拉门"
+  },
+  {
+    "kanji": "畳",
+    "hira": "たたみ",
+    "kata": "タタミ",
+    "rm": "tatami",
+    "meaning": "榻榻米"
+  },
+  {
+    "kanji": "幸せ",
+    "hira": "しあわせ",
+    "kata": "シアワセ",
+    "rm": "shiawase",
+    "meaning": "幸福"
+  },
+  {
+    "kanji": "不幸",
+    "hira": "ふこう",
+    "kata": "フコウ",
+    "rm": "fukou",
+    "meaning": "不幸"
+  },
+  {
+    "kanji": "感動",
+    "hira": "かんどう",
+    "kata": "カンドウ",
+    "rm": "kandou",
+    "meaning": "感动"
+  },
+  {
+    "kanji": "感謝",
+    "hira": "かんしゃ",
+    "kata": "カンシャ",
+    "rm": "kansha",
+    "meaning": "感谢"
+  },
+  {
+    "kanji": "後悔",
+    "hira": "こうかい",
+    "kata": "コウカイ",
+    "rm": "koukai",
+    "meaning": "后悔"
+  },
+  {
+    "kanji": "緊張",
+    "hira": "きんちょう",
+    "kata": "キンチョウ",
+    "rm": "kinchou",
+    "meaning": "紧张"
+  },
+  {
+    "kanji": "退屈",
+    "hira": "たいくつ",
+    "kata": "タイクツ",
+    "rm": "taikutsu",
+    "meaning": "无聊"
+  },
+  {
+    "kanji": "満足",
+    "hira": "まんぞく",
+    "kata": "マンゾク",
+    "rm": "manzoku",
+    "meaning": "满足"
+  },
+  {
+    "kanji": "不満",
+    "hira": "ふまん",
+    "kata": "フマン",
+    "rm": "fuman",
+    "meaning": "不满"
+  },
+  {
+    "kanji": "我慢",
+    "hira": "がまん",
+    "kata": "ガマン",
+    "rm": "gaman",
+    "meaning": "忍耐"
+  },
+  {
+    "kanji": "反対",
+    "hira": "はんたい",
+    "kata": "ハンタイ",
+    "rm": "hantai",
+    "meaning": "反对"
+  },
+  {
+    "kanji": "賛成",
+    "hira": "さんせい",
+    "kata": "サンセイ",
+    "rm": "sansei",
+    "meaning": "赞成"
+  },
+  {
+    "kanji": "失敗",
+    "hira": "しっぱい",
+    "kata": "シッパイ",
+    "rm": "shippai",
+    "meaning": "失败"
+  },
+  {
+    "kanji": "成功",
+    "hira": "せいこう",
+    "kata": "セイコウ",
+    "rm": "seikou",
+    "meaning": "成功"
+  },
+  {
+    "kanji": "努力",
+    "hira": "どりょく",
+    "kata": "ドリョク",
+    "rm": "doryoku",
+    "meaning": "努力"
+  },
+  {
+    "kanji": "注意",
+    "hira": "ちゅうい",
+    "kata": "チュウイ",
+    "rm": "chuui",
+    "meaning": "注意"
+  },
+  {
+    "kanji": "用意",
+    "hira": "ようい",
+    "kata": "ヨウイ",
+    "rm": "youi",
+    "meaning": "准备"
+  },
+  {
+    "kanji": "連絡",
+    "hira": "れんらく",
+    "kata": "レンラク",
+    "rm": "renraku",
+    "meaning": "联系"
+  },
+  {
+    "kanji": "相談",
+    "hira": "そうだん",
+    "kata": "ソウダン",
+    "rm": "soudan",
+    "meaning": "商量"
+  },
+  {
+    "kanji": "紹介",
+    "hira": "しょうかい",
+    "kata": "ショウカイ",
+    "rm": "shoukai",
+    "meaning": "介绍"
+  },
+  {
+    "kanji": "案内",
+    "hira": "あんない",
+    "kata": "アンナイ",
+    "rm": "annai",
+    "meaning": "引导"
+  },
+  {
+    "kanji": "招待",
+    "hira": "しょうたい",
+    "kata": "ショウタイ",
+    "rm": "shoutai",
+    "meaning": "邀请"
+  },
+  {
+    "kanji": "出発",
+    "hira": "しゅっぱつ",
+    "kata": "シュッパツ",
+    "rm": "shuppatsu",
+    "meaning": "出发"
+  },
+  {
+    "kanji": "到着",
+    "hira": "とうちゃく",
+    "kata": "トウチャク",
+    "rm": "touchaku",
+    "meaning": "到达"
+  },
+  {
+    "kanji": "出張",
+    "hira": "しゅっちょう",
+    "kata": "シュッチョウ",
+    "rm": "shucchou",
+    "meaning": "出差"
+  },
+  {
+    "kanji": "予約",
+    "hira": "よやく",
+    "kata": "ヨヤク",
+    "rm": "yoyaku",
+    "meaning": "预约"
+  },
+  {
+    "kanji": "受付",
+    "hira": "うけつけ",
+    "kata": "ウケツケ",
+    "rm": "uketsuke",
+    "meaning": "接待处"
+  },
+  {
+    "kanji": "返事",
+    "hira": "へんじ",
+    "kata": "ヘンジ",
+    "rm": "henji",
+    "meaning": "回复"
+  },
+  {
+    "kanji": "挨拶",
+    "hira": "あいさつ",
+    "kata": "アイサツ",
+    "rm": "aisatsu",
+    "meaning": "打招呼"
+  },
+  {
+    "kanji": "礼",
+    "hira": "れい",
+    "kata": "レイ",
+    "rm": "rei",
+    "meaning": "礼"
+  },
+  {
+    "kanji": "お祝い",
+    "hira": "おいわい",
+    "kata": "オイワイ",
+    "rm": "oiwai",
+    "meaning": "祝贺"
+  },
+  {
+    "kanji": "お見舞い",
+    "hira": "おみまい",
+    "kata": "オミマイ",
+    "rm": "omimai",
+    "meaning": "探病"
+  },
+  {
+    "kanji": "葬式",
+    "hira": "そうしき",
+    "kata": "ソウシキ",
+    "rm": "soushiki",
+    "meaning": "葬礼"
+  },
+  {
+    "kanji": "結婚",
+    "hira": "けっこん",
+    "kata": "ケッコン",
+    "rm": "kekkon",
+    "meaning": "结婚"
+  },
+  {
+    "kanji": "離婚",
+    "hira": "りこん",
+    "kata": "リコン",
+    "rm": "rikon",
+    "meaning": "离婚"
+  },
+  {
+    "kanji": "恋愛",
+    "hira": "れんあい",
+    "kata": "レンアイ",
+    "rm": "renai",
+    "meaning": "恋爱"
+  },
+  {
+    "kanji": "集まる",
+    "hira": "あつまる",
+    "kata": "アツマル",
+    "rm": "atsumaru",
+    "meaning": "聚集"
+  },
+  {
+    "kanji": "別れる",
+    "hira": "わかれる",
+    "kata": "ワカレル",
+    "rm": "wakareru2",
+    "meaning": "分手"
+  },
+  {
+    "kanji": "付き合う",
+    "hira": "つきあう",
+    "kata": "ツキアウ",
+    "rm": "tsukiau",
+    "meaning": "交往"
+  },
+  {
+    "kanji": "出会う",
+    "hira": "であう",
+    "kata": "デアウ",
+    "rm": "deau",
+    "meaning": "相遇"
+  },
+  {
+    "kanji": "迎える",
+    "hira": "むかえる",
+    "kata": "ムカエル",
+    "rm": "mukaeru",
+    "meaning": "迎接"
+  },
+  {
+    "kanji": "見送る",
+    "hira": "みおくる",
+    "kata": "ミオクル",
+    "rm": "miokuru",
+    "meaning": "送行"
+  },
+  {
+    "kanji": "片付ける",
+    "hira": "かたづける",
+    "kata": "カタヅケル",
+    "rm": "katadukeru",
+    "meaning": "收拾"
+  },
+  {
+    "kanji": "汚す",
+    "hira": "よごす",
+    "kata": "ヨゴス",
+    "rm": "yogosu",
+    "meaning": "弄脏"
+  },
+  {
+    "kanji": "磨く",
+    "hira": "みがく",
+    "kata": "ミガク",
+    "rm": "migaku",
+    "meaning": "刷/磨"
+  },
+  {
+    "kanji": "干す",
+    "hira": "ほす",
+    "kata": "ホス",
+    "rm": "hosu",
+    "meaning": "晒"
+  },
+  {
+    "kanji": "畳む",
+    "hira": "たたむ",
+    "kata": "タタム",
+    "rm": "tatamu",
+    "meaning": "叠"
+  },
+  {
+    "kanji": "縫う",
+    "hira": "ぬう",
+    "kata": "ヌウ",
+    "rm": "nuu",
+    "meaning": "缝"
+  },
+  {
+    "kanji": "編む",
+    "hira": "あむ",
+    "kata": "アム",
+    "rm": "amu",
+    "meaning": "编织"
+  },
+  {
+    "kanji": "描く",
+    "hira": "えがく",
+    "kata": "エガク",
+    "rm": "egaku",
+    "meaning": "画"
+  },
+  {
+    "kanji": "歌う",
+    "hira": "うたう",
+    "kata": "ウタウ",
+    "rm": "utau",
+    "meaning": "唱歌"
+  },
+  {
+    "kanji": "踊る",
+    "hira": "おどる",
+    "kata": "オドル",
+    "rm": "odoru",
+    "meaning": "跳舞"
+  },
+  {
+    "kanji": "弾く",
+    "hira": "ひく",
+    "kata": "ヒク",
+    "rm": "hiku2",
+    "meaning": "弹(乐器)"
+  },
+  {
+    "kanji": "撮る",
+    "hira": "とる",
+    "kata": "トル",
+    "rm": "toru2",
+    "meaning": "拍照"
+  },
+  {
+    "kanji": "釣る",
+    "hira": "つる",
+    "kata": "ツル",
+    "rm": "tsuru",
+    "meaning": "钓鱼"
+  },
+  {
+    "kanji": "植える",
+    "hira": "うえる",
+    "kata": "ウエル",
+    "rm": "ueru",
+    "meaning": "种植"
+  },
+  {
+    "kanji": "育てる",
+    "hira": "そだてる",
+    "kata": "ソダテル",
+    "rm": "sodateru2",
+    "meaning": "培育"
+  },
+  {
+    "kanji": "飼う",
+    "hira": "かう",
+    "kata": "カウ",
+    "rm": "kau2",
+    "meaning": "饲养"
+  },
+  {
+    "kanji": "数える",
+    "hira": "かぞえる",
+    "kata": "カゾエル",
+    "rm": "kazoeru",
+    "meaning": "数数"
+  },
+  {
+    "kanji": "測る",
+    "hira": "はかる",
+    "kata": "ハカル",
+    "rm": "hakaru",
+    "meaning": "测量"
+  },
+  {
+    "kanji": "計算",
+    "hira": "けいさん",
+    "kata": "ケイサン",
+    "rm": "keisan",
+    "meaning": "计算"
+  },
+  {
+    "kanji": "翻訳",
+    "hira": "ほんやく",
+    "kata": "ホンヤク",
+    "rm": "honyaku",
+    "meaning": "翻译"
+  },
+  {
+    "kanji": "発表",
+    "hira": "はっぴょう",
+    "kata": "ハッピョウ",
+    "rm": "happyou",
+    "meaning": "发表"
+  },
+  {
+    "kanji": "報告",
+    "hira": "ほうこく",
+    "kata": "ホウコク",
+    "rm": "houkoku",
+    "meaning": "报告"
+  },
+  {
+    "kanji": "記録",
+    "hira": "きろく",
+    "kata": "キロク",
+    "rm": "kiroku",
+    "meaning": "记录"
+  },
+  {
+    "kanji": "登録",
+    "hira": "とうろく",
+    "kata": "トウロク",
+    "rm": "touroku",
+    "meaning": "登记"
+  },
+  {
+    "kanji": "申し込む",
+    "hira": "もうしこむ",
+    "kata": "モウシコム",
+    "rm": "moushikomu",
+    "meaning": "申请"
+  },
+  {
+    "kanji": "取り消す",
+    "hira": "とりけす",
+    "kata": "トリケス",
+    "rm": "torikesu",
+    "meaning": "取消"
+  },
+  {
+    "kanji": "空気",
+    "hira": "くうき",
+    "kata": "クウキ",
+    "rm": "kuuki",
+    "meaning": "空气"
+  },
+  {
+    "kanji": "温度",
+    "hira": "おんど",
+    "kata": "オンド",
+    "rm": "ondo",
+    "meaning": "温度"
+  },
+  {
+    "kanji": "湿度",
+    "hira": "しつど",
+    "kata": "シツド",
+    "rm": "shitsudo",
+    "meaning": "湿度"
+  },
+  {
+    "kanji": "速度",
+    "hira": "そくど",
+    "kata": "ソクド",
+    "rm": "sokudo",
+    "meaning": "速度"
+  },
+  {
+    "kanji": "距離",
+    "hira": "きょり",
+    "kata": "キョリ",
+    "rm": "kyori",
+    "meaning": "距离"
+  },
+  {
+    "kanji": "面積",
+    "hira": "めんせき",
+    "kata": "メンセキ",
+    "rm": "menseki",
+    "meaning": "面积"
+  },
+  {
+    "kanji": "重さ",
+    "hira": "おもさ",
+    "kata": "オモサ",
+    "rm": "omosa",
+    "meaning": "重量"
+  },
+  {
+    "kanji": "長さ",
+    "hira": "ながさ",
+    "kata": "ナガサ",
+    "rm": "nagasa",
+    "meaning": "长度"
+  },
+  {
+    "kanji": "高さ",
+    "hira": "たかさ",
+    "kata": "タカサ",
+    "rm": "takasa",
+    "meaning": "高度"
+  },
+  {
+    "kanji": "深さ",
+    "hira": "ふかさ",
+    "kata": "フカサ",
+    "rm": "fukasa",
+    "meaning": "深度"
+  },
+  {
+    "kanji": "形",
+    "hira": "かたち",
+    "kata": "カタチ",
+    "rm": "katachi",
+    "meaning": "形状"
+  },
+  {
+    "kanji": "種類",
+    "hira": "しゅるい",
+    "kata": "シュルイ",
+    "rm": "shurui",
+    "meaning": "种类"
+  },
+  {
+    "kanji": "材料",
+    "hira": "ざいりょう",
+    "kata": "ザイリョウ",
+    "rm": "zairyou",
+    "meaning": "材料"
+  },
+  {
+    "kanji": "道具",
+    "hira": "どうぐ",
+    "kata": "ドウグ",
+    "rm": "dougu",
+    "meaning": "工具"
+  },
+  {
+    "kanji": "機械",
+    "hira": "きかい",
+    "kata": "キカイ",
+    "rm": "kikai",
+    "meaning": "机器"
+  },
+  {
+    "kanji": "製品",
+    "hira": "せいひん",
+    "kata": "セイヒン",
+    "rm": "seihin",
+    "meaning": "产品"
+  },
+  {
+    "kanji": "原因",
+    "hira": "げんいん",
+    "kata": "ゲンイン",
+    "rm": "genin",
+    "meaning": "原因"
+  },
+  {
+    "kanji": "結果",
+    "hira": "けっか",
+    "kata": "ケッカ",
+    "rm": "kekka",
+    "meaning": "结果"
+  },
+  {
+    "kanji": "影響",
+    "hira": "えいきょう",
+    "kata": "エイキョウ",
+    "rm": "eikyou",
+    "meaning": "影响"
+  },
+  {
+    "kanji": "効果",
+    "hira": "こうか",
+    "kata": "コウカ",
+    "rm": "kouka",
+    "meaning": "效果"
+  },
+  {
+    "kanji": "条件",
+    "hira": "じょうけん",
+    "kata": "ジョウケン",
+    "rm": "jouken",
+    "meaning": "条件"
+  },
+  {
+    "kanji": "規則",
+    "hira": "きそく",
+    "kata": "キソク",
+    "rm": "kisoku",
+    "meaning": "规则"
+  },
+  {
+    "kanji": "法律",
+    "hira": "ほうりつ",
+    "kata": "ホウリツ",
+    "rm": "houritsu",
+    "meaning": "法律"
+  },
+  {
+    "kanji": "権利",
+    "hira": "けんり",
+    "kata": "ケンリ",
+    "rm": "kenri",
+    "meaning": "权利"
+  },
+  {
+    "kanji": "義務",
+    "hira": "ぎむ",
+    "kata": "ギム",
+    "rm": "gimu",
+    "meaning": "义务"
+  },
+  {
+    "kanji": "責任",
+    "hira": "せきにん",
+    "kata": "セキニン",
+    "rm": "sekinin",
+    "meaning": "责任"
+  },
+  {
+    "kanji": "態度",
+    "hira": "たいど",
+    "kata": "タイド",
+    "rm": "taido",
+    "meaning": "态度"
+  },
+  {
+    "kanji": "性格",
+    "hira": "せいかく",
+    "kata": "セイカク",
+    "rm": "seikaku",
+    "meaning": "性格"
+  },
+  {
+    "kanji": "能力",
+    "hira": "のうりょく",
+    "kata": "ノウリョク",
+    "rm": "nouryoku",
+    "meaning": "能力"
+  },
+  {
+    "kanji": "才能",
+    "hira": "さいのう",
+    "kata": "サイノウ",
+    "rm": "sainou",
+    "meaning": "才能"
+  },
+  {
+    "kanji": "知識",
+    "hira": "ちしき",
+    "kata": "チシキ",
+    "rm": "chishiki",
+    "meaning": "知识"
+  },
+  {
+    "kanji": "常識",
+    "hira": "じょうしき",
+    "kata": "ジョウシキ",
+    "rm": "joushiki",
+    "meaning": "常识"
+  },
+  {
+    "kanji": "記憶",
+    "hira": "きおく",
+    "kata": "キオク",
+    "rm": "kioku",
+    "meaning": "记忆"
+  },
+  {
+    "kanji": "想像",
+    "hira": "そうぞう",
+    "kata": "ソウゾウ",
+    "rm": "souzou",
+    "meaning": "想象"
+  },
+  {
+    "kanji": "印象",
+    "hira": "いんしょう",
+    "kata": "インショウ",
+    "rm": "inshou",
+    "meaning": "印象"
+  },
+  {
+    "kanji": "表現",
+    "hira": "ひょうげん",
+    "kata": "ヒョウゲン",
+    "rm": "hyougen",
+    "meaning": "表达"
+  },
+  {
+    "kanji": "意見",
+    "hira": "いけん",
+    "kata": "イケン",
+    "rm": "iken",
+    "meaning": "意见"
+  },
+  {
+    "kanji": "感想",
+    "hira": "かんそう",
+    "kata": "カンソウ",
+    "rm": "kansou",
+    "meaning": "感想"
+  },
+  {
+    "kanji": "情報",
+    "hira": "じょうほう",
+    "kata": "ジョウホウ",
+    "rm": "jouhou",
+    "meaning": "信息"
+  },
+  {
+    "kanji": "事実",
+    "hira": "じじつ",
+    "kata": "ジジツ",
+    "rm": "jijitsu",
+    "meaning": "事实"
+  },
+  {
+    "kanji": "証拠",
+    "hira": "しょうこ",
+    "kata": "ショウコ",
+    "rm": "shouko",
+    "meaning": "证据"
+  },
+  {
+    "kanji": "秘密",
+    "hira": "ひみつ",
+    "kata": "ヒミツ",
+    "rm": "himitsu",
+    "meaning": "秘密"
+  },
+  {
+    "kanji": "噂",
+    "hira": "うわさ",
+    "kata": "ウワサ",
+    "rm": "uwasa",
+    "meaning": "传闻"
+  },
+  {
+    "kanji": "話",
+    "hira": "はなし",
+    "kata": "ハナシ",
+    "rm": "hanashi",
+    "meaning": "话题"
+  },
+  {
+    "kanji": "物語",
+    "hira": "ものがたり",
+    "kata": "モノガタリ",
+    "rm": "monogatari",
+    "meaning": "故事"
+  },
+  {
+    "kanji": "小説",
+    "hira": "しょうせつ",
+    "kata": "ショウセツ",
+    "rm": "shousetsu",
+    "meaning": "小说"
+  },
+  {
+    "kanji": "詩",
+    "hira": "し",
+    "kata": "シ",
+    "rm": "shi",
+    "meaning": "诗"
+  },
+  {
+    "kanji": "絵",
+    "hira": "え",
+    "kata": "エ",
+    "rm": "e",
+    "meaning": "画"
+  },
+  {
+    "kanji": "歌",
+    "hira": "うた",
+    "kata": "ウタ",
+    "rm": "uta",
+    "meaning": "歌"
+  },
+  {
+    "kanji": "踊り",
+    "hira": "おどり",
+    "kata": "オドリ",
+    "rm": "odori",
+    "meaning": "舞蹈"
+  },
+  {
+    "kanji": "芝居",
+    "hira": "しばい",
+    "kata": "シバイ",
+    "rm": "shibai",
+    "meaning": "戏剧"
+  },
+  {
+    "kanji": "番組",
+    "hira": "ばんぐみ",
+    "kata": "バングミ",
+    "rm": "bangumi",
+    "meaning": "节目"
+  },
+  {
+    "kanji": "席",
+    "hira": "せき",
+    "kata": "セキ",
+    "rm": "seki2",
+    "meaning": "座位"
+  },
+  {
+    "kanji": "健康",
+    "hira": "けんこう",
+    "kata": "ケンコウ",
+    "rm": "kenkou",
+    "meaning": "健康"
+  },
+  {
+    "kanji": "風邪",
+    "hira": "かぜ",
+    "kata": "カゼ",
+    "rm": "kaze2",
+    "meaning": "感冒"
+  },
+  {
+    "kanji": "熱",
+    "hira": "ねつ",
+    "kata": "ネツ",
+    "rm": "netsu",
+    "meaning": "发烧"
+  },
+  {
+    "kanji": "咳",
+    "hira": "せき",
+    "kata": "セキ",
+    "rm": "seki3",
+    "meaning": "咳嗽"
+  },
+  {
+    "kanji": "頭痛",
+    "hira": "ずつう",
+    "kata": "ズツウ",
+    "rm": "zutsuu",
+    "meaning": "头痛"
+  },
+  {
+    "kanji": "腹痛",
+    "hira": "ふくつう",
+    "kata": "フクツウ",
+    "rm": "fukutsuu",
+    "meaning": "肚子痛"
+  },
+  {
+    "kanji": "注射",
+    "hira": "ちゅうしゃ",
+    "kata": "チュウシャ",
+    "rm": "chuusha",
+    "meaning": "打针"
+  },
+  {
+    "kanji": "手術",
+    "hira": "しゅじゅつ",
+    "kata": "シュジュツ",
+    "rm": "shujutsu",
+    "meaning": "手术"
+  },
+  {
+    "kanji": "入院",
+    "hira": "にゅういん",
+    "kata": "ニュウイン",
+    "rm": "nyuuin",
+    "meaning": "住院"
+  },
+  {
+    "kanji": "退院",
+    "hira": "たいいん",
+    "kata": "タイイン",
+    "rm": "taiin",
+    "meaning": "出院"
+  },
+  {
+    "kanji": "診察",
+    "hira": "しんさつ",
+    "kata": "シンサツ",
+    "rm": "shinsatsu",
+    "meaning": "诊察"
+  },
+  {
+    "kanji": "処方",
+    "hira": "しょほう",
+    "kata": "ショホウ",
+    "rm": "shohou",
+    "meaning": "处方"
+  },
+  {
+    "kanji": "社長",
+    "hira": "しゃちょう",
+    "kata": "シャチョウ",
+    "rm": "shachou",
+    "meaning": "社长"
+  },
+  {
+    "kanji": "部長",
+    "hira": "ぶちょう",
+    "kata": "ブチョウ",
+    "rm": "buchou",
+    "meaning": "部长"
+  },
+  {
+    "kanji": "課長",
+    "hira": "かちょう",
+    "kata": "カチョウ",
+    "rm": "kachou",
+    "meaning": "课长"
+  },
+  {
+    "kanji": "同僚",
+    "hira": "どうりょう",
+    "kata": "ドウリョウ",
+    "rm": "douryou",
+    "meaning": "同事"
+  },
+  {
+    "kanji": "上司",
+    "hira": "じょうし",
+    "kata": "ジョウシ",
+    "rm": "joushi",
+    "meaning": "上司"
+  },
+  {
+    "kanji": "部下",
+    "hira": "ぶか",
+    "kata": "ブカ",
+    "rm": "buka",
+    "meaning": "下属"
+  },
+  {
+    "kanji": "客",
+    "hira": "きゃく",
+    "kata": "キャク",
+    "rm": "kyaku",
+    "meaning": "客人"
+  },
+  {
+    "kanji": "相手",
+    "hira": "あいて",
+    "kata": "アイテ",
+    "rm": "aite",
+    "meaning": "对方"
+  },
+  {
+    "kanji": "味方",
+    "hira": "みかた",
+    "kata": "ミカタ",
+    "rm": "mikata",
+    "meaning": "伙伴"
+  },
+  {
+    "kanji": "敵",
+    "hira": "てき",
+    "kata": "テキ",
+    "rm": "teki",
+    "meaning": "敌人"
+  },
+  {
+    "kanji": "仲間",
+    "hira": "なかま",
+    "kata": "ナカマ",
+    "rm": "nakama",
+    "meaning": "伙伴"
+  },
+  {
+    "kanji": "隣人",
+    "hira": "りんじん",
+    "kata": "リンジン",
+    "rm": "rinjin",
+    "meaning": "邻居"
+  },
+  {
+    "kanji": "市民",
+    "hira": "しみん",
+    "kata": "シミン",
+    "rm": "shimin",
+    "meaning": "市民"
+  },
+  {
+    "kanji": "国民",
+    "hira": "こくみん",
+    "kata": "コクミン",
+    "rm": "kokumin",
+    "meaning": "国民"
+  },
+  {
+    "kanji": "給料",
+    "hira": "きゅうりょう",
+    "kata": "キュウリョウ",
+    "rm": "kyuuryou",
+    "meaning": "工资"
+  },
+  {
+    "kanji": "収入",
+    "hira": "しゅうにゅう",
+    "kata": "シュウニュウ",
+    "rm": "shuunyuu",
+    "meaning": "收入"
+  },
+  {
+    "kanji": "支出",
+    "hira": "ししゅつ",
+    "kata": "シシュツ",
+    "rm": "shishutsu",
+    "meaning": "支出"
+  },
+  {
+    "kanji": "貯金",
+    "hira": "ちょきん",
+    "kata": "チョキン",
+    "rm": "chokin",
+    "meaning": "存款"
+  },
+  {
+    "kanji": "借金",
+    "hira": "しゃっきん",
+    "kata": "シャッキン",
+    "rm": "shakkin",
+    "meaning": "借款"
+  },
+  {
+    "kanji": "契約",
+    "hira": "けいやく",
+    "kata": "ケイヤク",
+    "rm": "keiyaku",
+    "meaning": "合同"
+  },
+  {
+    "kanji": "届け",
+    "hira": "とどけ",
+    "kata": "トドケ",
+    "rm": "todoke",
+    "meaning": "申报"
+  },
+  {
+    "kanji": "届出",
+    "hira": "とどけで",
+    "kata": "トドケデ",
+    "rm": "todokede",
+    "meaning": "申报书"
+  },
+  {
+    "kanji": "許可",
+    "hira": "きょか",
+    "kata": "キョカ",
+    "rm": "kyoka",
+    "meaning": "许可"
+  },
+  {
+    "kanji": "禁止",
+    "hira": "きんし",
+    "kata": "キンシ",
+    "rm": "kinshi",
+    "meaning": "禁止"
+  },
+  {
+    "kanji": "命令",
+    "hira": "めいれい",
+    "kata": "メイレイ",
+    "rm": "meirei",
+    "meaning": "命令"
+  },
+  {
+    "kanji": "場所",
+    "hira": "ばしょ",
+    "kata": "バショ",
+    "rm": "basho",
+    "meaning": "地方"
+  },
+  {
+    "kanji": "場合",
+    "hira": "ばあい",
+    "kata": "バアイ",
+    "rm": "baai",
+    "meaning": "场合"
+  },
+  {
+    "kanji": "機会",
+    "hira": "きかい",
+    "kata": "キカイ",
+    "rm": "kikai2",
+    "meaning": "机会"
+  },
+  {
+    "kanji": "都合",
+    "hira": "つごう",
+    "kata": "ツゴウ",
+    "rm": "tsugou",
+    "meaning": "方便"
+  },
+  {
+    "kanji": "用事",
+    "hira": "ようじ",
+    "kata": "ヨウジ",
+    "rm": "youji",
+    "meaning": "事情"
+  },
+  {
+    "kanji": "事情",
+    "hira": "じじょう",
+    "kata": "ジジョウ",
+    "rm": "jijou",
+    "meaning": "情况"
+  },
+  {
+    "kanji": "状態",
+    "hira": "じょうたい",
+    "kata": "ジョウタイ",
+    "rm": "joutai",
+    "meaning": "状态"
+  },
+  {
+    "kanji": "様子",
+    "hira": "ようす",
+    "kata": "ヨウス",
+    "rm": "yousu",
+    "meaning": "样子"
+  },
+  {
+    "kanji": "程度",
+    "hira": "ていど",
+    "kata": "テイド",
+    "rm": "teido",
+    "meaning": "程度"
+  },
+  {
+    "kanji": "割合",
+    "hira": "わりあい",
+    "kata": "ワリアイ",
+    "rm": "wariai",
+    "meaning": "比例"
+  },
+  {
+    "kanji": "平均",
+    "hira": "へいきん",
+    "kata": "ヘイキン",
+    "rm": "heikin",
+    "meaning": "平均"
+  },
+  {
+    "kanji": "合計",
+    "hira": "ごうけい",
+    "kata": "ゴウケイ",
+    "rm": "goukei",
+    "meaning": "合计"
+  },
+  {
+    "kanji": "以上",
+    "hira": "いじょう",
+    "kata": "イジョウ",
+    "rm": "ijou",
+    "meaning": "以上"
+  },
+  {
+    "kanji": "以下",
+    "hira": "いか",
+    "kata": "イカ",
+    "rm": "ika",
+    "meaning": "以下"
+  },
+  {
+    "kanji": "以内",
+    "hira": "いない",
+    "kata": "イナイ",
+    "rm": "inai",
+    "meaning": "以内"
+  },
+  {
+    "kanji": "以外",
+    "hira": "いがい",
+    "kata": "イガイ",
+    "rm": "igai",
+    "meaning": "以外"
+  },
+  {
+    "kanji": "途中",
+    "hira": "とちゅう",
+    "kata": "トチュウ",
+    "rm": "tochuu",
+    "meaning": "途中"
+  },
+  {
+    "kanji": "最中",
+    "hira": "さいちゅう",
+    "kata": "サイチュウ",
+    "rm": "saichuu",
+    "meaning": "正在…中"
+  },
+  {
+    "kanji": "将来",
+    "hira": "しょうらい",
+    "kata": "ショウライ",
+    "rm": "shourai",
+    "meaning": "将来"
+  },
+  {
+    "kanji": "過去",
+    "hira": "かこ",
+    "kata": "カコ",
+    "rm": "kako",
+    "meaning": "过去"
+  },
+  {
+    "kanji": "現在",
+    "hira": "げんざい",
+    "kata": "ゲンザイ",
+    "rm": "genzai",
+    "meaning": "现在"
+  },
+  {
+    "kanji": "未来",
+    "hira": "みらい",
+    "kata": "ミライ",
+    "rm": "mirai",
+    "meaning": "未来"
+  },
+  {
+    "kanji": "倒れる",
+    "hira": "たおれる",
+    "kata": "タオレル",
+    "rm": "taoreru",
+    "meaning": "倒下"
+  },
+  {
+    "kanji": "倒す",
+    "hira": "たおす",
+    "kata": "タオス",
+    "rm": "taosu",
+    "meaning": "推倒"
+  },
+  {
+    "kanji": "転ぶ",
+    "hira": "ころぶ",
+    "kata": "コロブ",
+    "rm": "korobu",
+    "meaning": "摔倒"
+  },
+  {
+    "kanji": "滑る",
+    "hira": "すべる",
+    "kata": "スベル",
+    "rm": "suberu",
+    "meaning": "滑"
+  },
+  {
+    "kanji": "登る",
+    "hira": "のぼる",
+    "kata": "ノボル",
+    "rm": "noboru",
+    "meaning": "爬"
+  },
+  {
+    "kanji": "下りる",
+    "hira": "おりる",
+    "kata": "オリル",
+    "rm": "oriru2",
+    "meaning": "下来"
+  },
+  {
+    "kanji": "跳ぶ",
+    "hira": "とぶ",
+    "kata": "トブ",
+    "rm": "tobu2",
+    "meaning": "跳"
+  },
+  {
+    "kanji": "潜る",
+    "hira": "もぐる",
+    "kata": "モグル",
+    "rm": "moguru",
+    "meaning": "潜水"
+  },
+  {
+    "kanji": "浮かぶ",
+    "hira": "うかぶ",
+    "kata": "ウカブ",
+    "rm": "ukabu",
+    "meaning": "浮起"
+  },
+  {
+    "kanji": "沈む",
+    "hira": "しずむ",
+    "kata": "シズム",
+    "rm": "shizumu",
+    "meaning": "沉没"
+  },
+  {
+    "kanji": "溶ける",
+    "hira": "とける",
+    "kata": "トケル",
+    "rm": "tokeru",
+    "meaning": "融化"
+  },
+  {
+    "kanji": "凍る",
+    "hira": "こおる",
+    "kata": "コオル",
+    "rm": "kooru",
+    "meaning": "结冰"
+  },
+  {
+    "kanji": "燃える",
+    "hira": "もえる",
+    "kata": "モエル",
+    "rm": "moeru",
+    "meaning": "燃烧"
+  },
+  {
+    "kanji": "消える",
+    "hira": "きえる",
+    "kata": "キエル",
+    "rm": "kieru2",
+    "meaning": "熄灭"
+  },
+  {
+    "kanji": "輝く",
+    "hira": "かがやく",
+    "kata": "カガヤク",
+    "rm": "kagayaku",
+    "meaning": "闪耀"
+  },
+  {
+    "kanji": "響く",
+    "hira": "ひびく",
+    "kata": "ヒビク",
+    "rm": "hibiku",
+    "meaning": "回响"
+  },
+  {
+    "kanji": "震える",
+    "hira": "ふるえる",
+    "kata": "フルエル",
+    "rm": "furueru",
+    "meaning": "颤抖"
+  },
+  {
+    "kanji": "揺れる",
+    "hira": "ゆれる",
+    "kata": "ユレル",
+    "rm": "yureru",
+    "meaning": "摇晃"
+  },
+  {
+    "kanji": "回る",
+    "hira": "まわる",
+    "kata": "マワル",
+    "rm": "mawaru",
+    "meaning": "转"
+  },
+  {
+    "kanji": "回す",
+    "hira": "まわす",
+    "kata": "マワス",
+    "rm": "mawasu",
+    "meaning": "转动"
+  },
+  {
+    "kanji": "広がる",
+    "hira": "ひろがる",
+    "kata": "ヒロガル",
+    "rm": "hirogaru",
+    "meaning": "扩展"
+  },
+  {
+    "kanji": "広げる",
+    "hira": "ひろげる",
+    "kata": "ヒロゲル",
+    "rm": "hirogeru",
+    "meaning": "展开"
+  },
+  {
+    "kanji": "縮む",
+    "hira": "ちぢむ",
+    "kata": "チヂム",
+    "rm": "chijimu",
+    "meaning": "缩小"
+  },
+  {
+    "kanji": "伸びる",
+    "hira": "のびる",
+    "kata": "ノビル",
+    "rm": "nobiru",
+    "meaning": "伸展"
+  },
+  {
+    "kanji": "伸ばす",
+    "hira": "のばす",
+    "kata": "ノバス",
+    "rm": "nobasu",
+    "meaning": "伸长"
+  },
+  {
+    "kanji": "増える",
+    "hira": "ふえる",
+    "kata": "フエル",
+    "rm": "fueru",
+    "meaning": "增加"
+  },
+  {
+    "kanji": "増やす",
+    "hira": "ふやす",
+    "kata": "フヤス",
+    "rm": "fuyasu",
+    "meaning": "增多"
+  },
+  {
+    "kanji": "減る",
+    "hira": "へる",
+    "kata": "ヘル",
+    "rm": "heru",
+    "meaning": "减少"
+  },
+  {
+    "kanji": "減らす",
+    "hira": "へらす",
+    "kata": "ヘラス",
+    "rm": "herasu",
+    "meaning": "减少"
+  },
+  {
+    "kanji": "足りる",
+    "hira": "たりる",
+    "kata": "タリル",
+    "rm": "tariru",
+    "meaning": "足够"
+  },
+  {
+    "kanji": "余る",
+    "hira": "あまる",
+    "kata": "アマル",
+    "rm": "amaru",
+    "meaning": "剩余"
+  },
+  {
+    "kanji": "残る",
+    "hira": "のこる",
+    "kata": "ノコル",
+    "rm": "nokoru",
+    "meaning": "留下"
+  },
+  {
+    "kanji": "残す",
+    "hira": "のこす",
+    "kata": "ノコス",
+    "rm": "nokosu",
+    "meaning": "留下"
+  },
+  {
+    "kanji": "失う",
+    "hira": "うしなう",
+    "kata": "ウシナウ",
+    "rm": "ushinau",
+    "meaning": "失去"
+  },
+  {
+    "kanji": "得る",
+    "hira": "える",
+    "kata": "エル",
+    "rm": "eru",
+    "meaning": "获得"
+  },
+  {
+    "kanji": "与える",
+    "hira": "あたえる",
+    "kata": "アタエル",
+    "rm": "ataeru",
+    "meaning": "给予"
+  },
+  {
+    "kanji": "奪う",
+    "hira": "うばう",
+    "kata": "ウバウ",
+    "rm": "ubau",
+    "meaning": "夺取"
+  },
+  {
+    "kanji": "盗む",
+    "hira": "ぬすむ",
+    "kata": "ヌスム",
+    "rm": "nusumu",
+    "meaning": "偷"
+  },
+  {
+    "kanji": "騙す",
+    "hira": "だます",
+    "kata": "ダマス",
+    "rm": "damasu",
+    "meaning": "骗"
+  },
+  {
+    "kanji": "疑う",
+    "hira": "うたがう",
+    "kata": "ウタガウ",
+    "rm": "utagau",
+    "meaning": "怀疑"
+  },
+  {
+    "kanji": "確かめる",
+    "hira": "たしかめる",
+    "kata": "タシカメル",
+    "rm": "tashikameru",
+    "meaning": "确认"
+  },
+  {
+    "kanji": "認める",
+    "hira": "みとめる",
+    "kata": "ミトメル",
+    "rm": "mitomeru",
+    "meaning": "承认"
+  },
+  {
+    "kanji": "気付く",
+    "hira": "きづく",
+    "kata": "キヅク",
+    "rm": "kiduku",
+    "meaning": "注意到"
+  },
+  {
+    "kanji": "思い出す",
+    "hira": "おもいだす",
+    "kata": "オモイダス",
+    "rm": "omoidasu",
+    "meaning": "想起"
+  },
+  {
+    "kanji": "忘れ物",
+    "hira": "わすれもの",
+    "kata": "ワスレモノ",
+    "rm": "wasuremono",
+    "meaning": "遗忘物"
+  },
+  {
+    "kanji": "落とし物",
+    "hira": "おとしもの",
+    "kata": "オトシモノ",
+    "rm": "otoshimono",
+    "meaning": "失物"
+  },
+  {
+    "kanji": "交通",
+    "hira": "こうつう",
+    "kata": "コウツウ",
+    "rm": "koutsuu",
+    "meaning": "交通"
+  },
+  {
+    "kanji": "事件",
+    "hira": "じけん",
+    "kata": "ジケン",
+    "rm": "jiken",
+    "meaning": "事件"
+  },
+  {
+    "kanji": "犯罪",
+    "hira": "はんざい",
+    "kata": "ハンザイ",
+    "rm": "hanzai",
+    "meaning": "犯罪"
+  },
+  {
+    "kanji": "被害",
+    "hira": "ひがい",
+    "kata": "ヒガイ",
+    "rm": "higai",
+    "meaning": "受害"
+  },
+  {
+    "kanji": "災害",
+    "hira": "さいがい",
+    "kata": "サイガイ",
+    "rm": "saigai",
+    "meaning": "灾害"
+  },
+  {
+    "kanji": "避難",
+    "hira": "ひなん",
+    "kata": "ヒナン",
+    "rm": "hinan",
+    "meaning": "避难"
+  },
+  {
+    "kanji": "救急",
+    "hira": "きゅうきゅう",
+    "kata": "キュウキュウ",
+    "rm": "kyuukyuu",
+    "meaning": "急救"
+  },
+  {
+    "kanji": "消防",
+    "hira": "しょうぼう",
+    "kata": "ショウボウ",
+    "rm": "shoubou",
+    "meaning": "消防"
+  },
+  {
+    "kanji": "教育",
+    "hira": "きょういく",
+    "kata": "キョウイク",
+    "rm": "kyouiku",
+    "meaning": "教育"
+  },
+  {
+    "kanji": "制度",
+    "hira": "せいど",
+    "kata": "セイド",
+    "rm": "seido",
+    "meaning": "制度"
+  },
+  {
+    "kanji": "組織",
+    "hira": "そしき",
+    "kata": "ソシキ",
+    "rm": "soshiki",
+    "meaning": "组织"
+  },
+  {
+    "kanji": "団体",
+    "hira": "だんたい",
+    "kata": "ダンタイ",
+    "rm": "dantai",
+    "meaning": "团体"
+  },
+  {
+    "kanji": "会員",
+    "hira": "かいいん",
+    "kata": "カイイン",
+    "rm": "kaiin",
+    "meaning": "会员"
+  },
+  {
+    "kanji": "参加",
+    "hira": "さんか",
+    "kata": "サンカ",
+    "rm": "sanka",
+    "meaning": "参加"
+  },
+  {
+    "kanji": "活動",
+    "hira": "かつどう",
+    "kata": "カツドウ",
+    "rm": "katsudou",
+    "meaning": "活动"
+  },
+  {
+    "kanji": "目標",
+    "hira": "もくひょう",
+    "kata": "モクヒョウ",
+    "rm": "mokuhyou",
+    "meaning": "目标"
+  },
+  {
+    "kanji": "計画",
+    "hira": "けいかく",
+    "kata": "ケイカク",
+    "rm": "keikaku",
+    "meaning": "计划"
+  },
+  {
+    "kanji": "実行",
+    "hira": "じっこう",
+    "kata": "ジッコウ",
+    "rm": "jikkou",
+    "meaning": "执行"
+  },
+  {
+    "kanji": "完成",
+    "hira": "かんせい",
+    "kata": "カンセイ",
+    "rm": "kansei",
+    "meaning": "完成"
+  },
+  {
+    "kanji": "進歩",
+    "hira": "しんぽ",
+    "kata": "シンポ",
+    "rm": "shinpo",
+    "meaning": "进步"
+  },
+  {
+    "kanji": "発展",
+    "hira": "はってん",
+    "kata": "ハッテン",
+    "rm": "hatten",
+    "meaning": "发展"
+  },
+  {
+    "kanji": "変化",
+    "hira": "へんか",
+    "kata": "ヘンカ",
+    "rm": "henka",
+    "meaning": "变化"
+  },
+  {
+    "kanji": "改善",
+    "hira": "かいぜん",
+    "kata": "カイゼン",
+    "rm": "kaizen",
+    "meaning": "改善"
+  },
+  {
+    "kanji": "解決",
+    "hira": "かいけつ",
+    "kata": "カイケツ",
+    "rm": "kaiketsu",
+    "meaning": "解决"
+  },
+  {
+    "kanji": "問い合わせ",
+    "hira": "といあわせ",
+    "kata": "トイアワセ",
+    "rm": "toiawase",
+    "meaning": "咨询"
+  },
+  {
+    "kanji": "手続き",
+    "hira": "てつづき",
+    "kata": "テツヅキ",
+    "rm": "tetsuduki",
+    "meaning": "手续"
+  },
+  {
+    "kanji": "届け出",
+    "hira": "とどけで",
+    "kata": "トドケデ",
+    "rm": "todokede2",
+    "meaning": "申报"
+  },
+  {
+    "kanji": "届出",
+    "hira": "とどけで",
+    "kata": "トドケデ",
+    "rm": "todokede3",
+    "meaning": "报告"
+  },
+  {
+    "kanji": "申請",
+    "hira": "しんせい",
+    "kata": "シンセイ",
+    "rm": "shinsei",
+    "meaning": "申请"
+  },
+  {
+    "kanji": "許可証",
+    "hira": "きょかしょう",
+    "kata": "キョカショウ",
+    "rm": "kyokashou",
+    "meaning": "许可证"
+  },
+  {
+    "kanji": "免許",
+    "hira": "めんきょ",
+    "kata": "メンキョ",
+    "rm": "menkyo",
+    "meaning": "执照"
+  },
+  {
+    "kanji": "資格",
+    "hira": "しかく",
+    "kata": "シカク",
+    "rm": "shikaku",
+    "meaning": "资格"
+  },
+  {
+    "kanji": "経歴",
+    "hira": "けいれき",
+    "kata": "ケイレキ",
+    "rm": "keireki",
+    "meaning": "经历"
+  },
+  {
+    "kanji": "履歴書",
+    "hira": "りれきしょ",
+    "kata": "リレキショ",
+    "rm": "rirekisho",
+    "meaning": "简历"
+  },
+  {
+    "kanji": "面接",
+    "hira": "めんせつ",
+    "kata": "メンセツ",
+    "rm": "mensetsu",
+    "meaning": "面试"
+  },
+  {
+    "kanji": "採用",
+    "hira": "さいよう",
+    "kata": "サイヨウ",
+    "rm": "saiyou",
+    "meaning": "录用"
+  },
+  {
+    "kanji": "退職",
+    "hira": "たいしょく",
+    "kata": "タイショク",
+    "rm": "taishoku",
+    "meaning": "辞职"
+  },
+  {
+    "kanji": "転職",
+    "hira": "てんしょく",
+    "kata": "テンショク",
+    "rm": "tenshoku",
+    "meaning": "换工作"
+  },
+  {
+    "kanji": "昇進",
+    "hira": "しょうしん",
+    "kata": "ショウシン",
+    "rm": "shoushin",
+    "meaning": "升职"
+  },
+  {
+    "kanji": "異動",
+    "hira": "いどう",
+    "kata": "イドウ",
+    "rm": "idou",
+    "meaning": "调动"
+  },
+  {
+    "kanji": "出勤",
+    "hira": "しゅっきん",
+    "kata": "シュッキン",
+    "rm": "shukkin",
+    "meaning": "上班"
+  },
+  {
+    "kanji": "退勤",
+    "hira": "たいきん",
+    "kata": "タイキン",
+    "rm": "taikin",
+    "meaning": "下班"
+  },
+  {
+    "kanji": "残業",
+    "hira": "ざんぎょう",
+    "kata": "ザンギョウ",
+    "rm": "zangyou",
+    "meaning": "加班"
+  },
+  {
+    "kanji": "休憩",
+    "hira": "きゅうけい",
+    "kata": "キュウケイ",
+    "rm": "kyuukei",
+    "meaning": "休息"
+  },
+  {
+    "kanji": "有給",
+    "hira": "ゆうきゅう",
+    "kata": "ユウキュウ",
+    "rm": "yuukyuu",
+    "meaning": "带薪假"
+  },
+  {
+    "kanji": "挑戦",
+    "hira": "ちょうせん",
+    "kata": "チョウセン",
+    "rm": "chousen",
+    "meaning": "挑战"
+  },
+  {
+    "kanji": "冒険",
+    "hira": "ぼうけん",
+    "kata": "ボウケン",
+    "rm": "bouken",
+    "meaning": "冒险"
+  },
+  {
+    "kanji": "発見",
+    "hira": "はっけん",
+    "kata": "ハッケン",
+    "rm": "hakken",
+    "meaning": "发现"
+  },
+  {
+    "kanji": "発明",
+    "hira": "はつめい",
+    "kata": "ハツメイ",
+    "rm": "hatsumei",
+    "meaning": "发明"
+  },
+  {
+    "kanji": "創造",
+    "hira": "そうぞう",
+    "kata": "ソウゾウ",
+    "rm": "souzou2",
+    "meaning": "创造"
+  },
+  {
+    "kanji": "破壊",
+    "hira": "はかい",
+    "kata": "ハカイ",
+    "rm": "hakai",
+    "meaning": "破坏"
+  },
+  {
+    "kanji": "修理",
+    "hira": "しゅうり",
+    "kata": "シュウリ",
+    "rm": "shuuri",
+    "meaning": "修理"
+  },
+  {
+    "kanji": "建設",
+    "hira": "けんせつ",
+    "kata": "ケンセツ",
+    "rm": "kensetsu",
+    "meaning": "建设"
+  },
+  {
+    "kanji": "工事",
+    "hira": "こうじ",
+    "kata": "コウジ",
+    "rm": "kouji",
+    "meaning": "工程"
+  },
+  {
+    "kanji": "設計",
+    "hira": "せっけい",
+    "kata": "セッケイ",
+    "rm": "sekkei",
+    "meaning": "设计"
+  },
+  {
+    "kanji": "製造",
+    "hira": "せいぞう",
+    "kata": "セイゾウ",
+    "rm": "seizou",
+    "meaning": "制造"
+  },
+  {
+    "kanji": "輸出",
+    "hira": "ゆしゅつ",
+    "kata": "ユシュツ",
+    "rm": "yushutsu",
+    "meaning": "出口"
+  },
+  {
+    "kanji": "輸入",
+    "hira": "ゆにゅう",
+    "kata": "ユニュウ",
+    "rm": "yunyuu",
+    "meaning": "进口"
+  },
+  {
+    "kanji": "貿易",
+    "hira": "ぼうえき",
+    "kata": "ボウエキ",
+    "rm": "boueki",
+    "meaning": "贸易"
+  },
+  {
+    "kanji": "産業",
+    "hira": "さんぎょう",
+    "kata": "サンギョウ",
+    "rm": "sangyou",
+    "meaning": "产业"
+  },
+  {
+    "kanji": "農業",
+    "hira": "のうぎょう",
+    "kata": "ノウギョウ",
+    "rm": "nougyou",
+    "meaning": "农业"
+  },
+  {
+    "kanji": "工業",
+    "hira": "こうぎょう",
+    "kata": "コウギョウ",
+    "rm": "kougyou",
+    "meaning": "工业"
+  },
+  {
+    "kanji": "商業",
+    "hira": "しょうぎょう",
+    "kata": "ショウギョウ",
+    "rm": "shougyou",
+    "meaning": "商业"
+  },
+  {
+    "kanji": "広告",
+    "hira": "こうこく",
+    "kata": "コウコク",
+    "rm": "koukoku",
+    "meaning": "广告"
+  },
+  {
+    "kanji": "宣伝",
+    "hira": "せんでん",
+    "kata": "センデン",
+    "rm": "senden",
+    "meaning": "宣传"
+  },
+  {
+    "kanji": "競争",
+    "hira": "きょうそう",
+    "kata": "キョウソウ",
+    "rm": "kyousou",
+    "meaning": "竞争"
+  },
+  {
+    "kanji": "協力",
+    "hira": "きょうりょく",
+    "kata": "キョウリョク",
+    "rm": "kyouryoku",
+    "meaning": "合作"
+  },
+  {
+    "kanji": "交流",
+    "hira": "こうりゅう",
+    "kata": "コウリュウ",
+    "rm": "kouryuu",
+    "meaning": "交流"
+  },
+  {
+    "kanji": "通訳",
+    "hira": "つうやく",
+    "kata": "ツウヤク",
+    "rm": "tsuuyaku",
+    "meaning": "口译"
+  },
+  {
+    "kanji": "留学",
+    "hira": "りゅうがく",
+    "kata": "リュウガク",
+    "rm": "ryuugaku",
+    "meaning": "留学"
+  },
+  {
+    "kanji": "帰国",
+    "hira": "きこく",
+    "kata": "キコク",
+    "rm": "kikoku",
+    "meaning": "回国"
+  },
+  {
+    "kanji": "出国",
+    "hira": "しゅっこく",
+    "kata": "シュッコク",
+    "rm": "shukkoku",
+    "meaning": "出国"
+  },
+  {
+    "kanji": "入国",
+    "hira": "にゅうこく",
+    "kata": "ニュウコク",
+    "rm": "nyuukoku",
+    "meaning": "入境"
+  },
+  {
+    "kanji": "国籍",
+    "hira": "こくせき",
+    "kata": "コクセキ",
+    "rm": "kokuseki",
+    "meaning": "国籍"
+  },
+  {
+    "kanji": "外国",
+    "hira": "がいこく",
+    "kata": "ガイコク",
+    "rm": "gaikoku",
+    "meaning": "外国"
+  },
+  {
+    "kanji": "外国人",
+    "hira": "がいこくじん",
+    "kata": "ガイコクジン",
+    "rm": "gaikokujin",
+    "meaning": "外国人"
+  },
+  {
+    "kanji": "日本語",
+    "hira": "にほんご",
+    "kata": "ニホンゴ",
+    "rm": "nihongo",
+    "meaning": "日语"
+  },
+  {
+    "kanji": "英語",
+    "hira": "えいご",
+    "kata": "エイゴ",
+    "rm": "eigo",
+    "meaning": "英语"
+  },
+  {
+    "kanji": "中国語",
+    "hira": "ちゅうごくご",
+    "kata": "チュウゴクゴ",
+    "rm": "chuugokugo",
+    "meaning": "中文"
+  },
+  {
+    "kanji": "会話",
+    "hira": "かいわ",
+    "kata": "カイワ",
+    "rm": "kaiwa",
+    "meaning": "会话"
+  },
+  {
+    "kanji": "文章",
+    "hira": "ぶんしょう",
+    "kata": "ブンショウ",
+    "rm": "bunshou",
+    "meaning": "文章"
+  },
+  {
+    "kanji": "段落",
+    "hira": "だんらく",
+    "kata": "ダンラク",
+    "rm": "danraku",
+    "meaning": "段落"
+  },
+  {
+    "kanji": "単語",
+    "hira": "たんご",
+    "kata": "タンゴ",
+    "rm": "tango",
+    "meaning": "单词"
+  },
+  {
+    "kanji": "発音",
+    "hira": "はつおん",
+    "kata": "ハツオン",
+    "rm": "hatsuon",
+    "meaning": "发音"
+  },
+  {
+    "kanji": "文法",
+    "hira": "ぶんぽう",
+    "kata": "ブンポウ",
+    "rm": "bunpou2",
+    "meaning": "语法"
+  },
+  {
+    "kanji": "作文",
+    "hira": "さくぶん",
+    "kata": "サクブン",
+    "rm": "sakubun",
+    "meaning": "作文"
+  },
+  {
+    "kanji": "日記",
+    "hira": "にっき",
+    "kata": "ニッキ",
+    "rm": "nikki",
+    "meaning": "日记"
+  },
+  {
+    "kanji": "手帳",
+    "hira": "てちょう",
+    "kata": "テチョウ",
+    "rm": "techou",
+    "meaning": "记事本"
+  },
+  {
+    "kanji": "教科書",
+    "hira": "きょうかしょ",
+    "kata": "キョウカショ",
+    "rm": "kyoukasho2",
+    "meaning": "课本"
+  },
+  {
+    "kanji": "参考書",
+    "hira": "さんこうしょ",
+    "kata": "サンコウショ",
+    "rm": "sankousho",
+    "meaning": "参考书"
+  },
+  {
+    "kanji": "問題集",
+    "hira": "もんだいしゅう",
+    "kata": "モンダイシュウ",
+    "rm": "mondaishuu",
+    "meaning": "习题集"
+  },
+  {
+    "kanji": "辞典",
+    "hira": "じてん",
+    "kata": "ジテン",
+    "rm": "jiten",
+    "meaning": "辞典"
+  },
+  {
+    "kanji": "百科事典",
+    "hira": "ひゃっかじてん",
+    "kata": "ヒャッカジテン",
+    "rm": "hyakkajiten",
+    "meaning": "百科全书"
+  },
+  {
+    "kanji": "図鑑",
+    "hira": "ずかん",
+    "kata": "ズカン",
+    "rm": "zukan",
+    "meaning": "图鉴"
+  },
+  {
+    "kanji": "地球",
+    "hira": "ちきゅう",
+    "kata": "チキュウ",
+    "rm": "chikyuu",
+    "meaning": "地球"
+  },
+  {
+    "kanji": "宇宙",
+    "hira": "うちゅう",
+    "kata": "ウチュウ",
+    "rm": "uchuu",
+    "meaning": "宇宙"
+  },
+  {
+    "kanji": "太陽系",
+    "hira": "たいようけい",
+    "kata": "タイヨウケイ",
+    "rm": "taiyoukei",
+    "meaning": "太阳系"
+  },
+  {
+    "kanji": "環境",
+    "hira": "かんきょう",
+    "kata": "カンキョウ",
+    "rm": "kankyou",
+    "meaning": "环境"
+  },
+  {
+    "kanji": "自然",
+    "hira": "しぜん",
+    "kata": "シゼン",
+    "rm": "shizen",
+    "meaning": "自然"
+  }
+]

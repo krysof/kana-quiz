@@ -24,7 +24,8 @@ export function buildPools(db, settings){
     .map(x => ({ ...x, type:"kana" }));
 
   const word = db.words.map(x => ({ ...x, type:"word" }));
-  return { kana, word, all:[...kana, ...word] };
+  const kanji = (db.kanji || []).map(x => ({ ...x, type:"kanji" }));
+  return { kana, word, kanji, all:[...kana, ...word, ...kanji] };
 }
 
 function pickOne(arr){ return arr[Math.floor(Math.random()*arr.length)]; }
@@ -72,18 +73,18 @@ export function newQuestion(db, settings, stats){
   const pools = buildPools(db, settings);
   const wantKana = settings.content.includes("kana");
   const wantWord = settings.content.includes("word");
+  const wantKanji = settings.content.includes("kanji");
   const wantWrongBoost = settings.content.includes("wrong");
 
-  // 决定本次出题类型：kana 或 word
+  // 决定本次出题类型：kana / word / kanji
   let sourcePool;
-  if (wantKana && wantWord && pools.kana.length && pools.word.length) {
-    // 两者都选时，kana 至少占 50%（保证足够练习）
-    const pickKana = Math.random() < 0.5;
-    sourcePool = pickKana ? pools.kana : pools.word;
-  } else if (wantKana && pools.kana.length) {
-    sourcePool = pools.kana;
-  } else if (wantWord && pools.word.length) {
-    sourcePool = pools.word;
+  const candidates = [];
+  if (wantKana && pools.kana.length) candidates.push(pools.kana);
+  if (wantWord && pools.word.length) candidates.push(pools.word);
+  if (wantKanji && pools.kanji.length) candidates.push(pools.kanji);
+
+  if (candidates.length > 0) {
+    sourcePool = candidates[Math.floor(Math.random() * candidates.length)];
   } else {
     sourcePool = pools.all;
   }
@@ -108,11 +109,22 @@ export function newQuestion(db, settings, stats){
     mode = "jp_mc"; // 降级
   }
 
+  // kanji 模式需要 kanji 池，否则降级
+  if ((mode === "kanji_read" || mode === "read_kanji" || mode === "kanji_mean") && pools.kanji.length === 0) {
+    mode = "jp_mc"; // 降级
+  }
+
   // rm_mean / mean_rm 强制从 word 池选题
   let finalWeighted = weighted;
   if (mode === "rm_mean" || mode === "mean_rm") {
     finalWeighted = weighted.filter(x => x.type === "word");
     if (!finalWeighted.length) finalWeighted = pools.word.length ? pools.word : weighted;
+  }
+
+  // kanji 模式强制从 kanji 池选题
+  if (mode === "kanji_read" || mode === "read_kanji" || mode === "kanji_mean") {
+    finalWeighted = weighted.filter(x => x.type === "kanji");
+    if (!finalWeighted.length) finalWeighted = pools.kanji.length ? pools.kanji : weighted;
   }
 
   const correct = pickOne(finalWeighted);
@@ -215,6 +227,110 @@ export function newQuestion(db, settings, stats){
     const wrongs = [];
     const used = new Set();
     const tiers = [18, 13, 10, 5, 0];
+    for (const minScore of tiers) {
+      if (wrongs.length >= 3) break;
+      const tier = scored.filter(x => x.score >= minScore && !used.has(x.item.rm));
+      const picks = shuffle(tier).slice(0, 3 - wrongs.length);
+      for (const p of picks) {
+        wrongs.push(p.item);
+        used.add(p.item.rm);
+      }
+    }
+
+    const choices = shuffle([correct, ...wrongs]);
+    q.choices = choices;
+    q.correctIndex = choices.findIndex(x => x.rm === correct.rm);
+  }
+
+  // 汉字→选读音
+  if (mode === "kanji_read") {
+    const pool2 = pools.kanji.filter(x => x.rm !== correct.rm);
+    const correctLen = correct.hira.length;
+    const correctFirst = correct.hira[0];
+
+    const score = (x) => {
+      let s = 0;
+      const lenDiff = Math.abs(x.hira.length - correctLen);
+      if (lenDiff === 0) s += 10;
+      else if (lenDiff === 1) s += 5;
+      if (x.hira[0] === correctFirst) s += 8;
+      return s;
+    };
+
+    const scored = pool2.map(x => ({ item: x, score: score(x) }));
+    scored.sort((a, b) => b.score - a.score);
+
+    const wrongs = [];
+    const used = new Set();
+    const tiers = [18, 13, 10, 5, 0];
+    for (const minScore of tiers) {
+      if (wrongs.length >= 3) break;
+      const tier = scored.filter(x => x.score >= minScore && !used.has(x.item.rm));
+      const picks = shuffle(tier).slice(0, 3 - wrongs.length);
+      for (const p of picks) {
+        wrongs.push(p.item);
+        used.add(p.item.rm);
+      }
+    }
+
+    const choices = shuffle([correct, ...wrongs]);
+    q.choices = choices;
+    q.correctIndex = choices.findIndex(x => x.rm === correct.rm);
+  }
+
+  // 读音→选汉字
+  if (mode === "read_kanji") {
+    const pool2 = pools.kanji.filter(x => x.rm !== correct.rm);
+    const correctKanjiLen = correct.kanji.length;
+
+    const score = (x) => {
+      let s = 0;
+      const lenDiff = Math.abs(x.kanji.length - correctKanjiLen);
+      if (lenDiff === 0) s += 10;
+      else if (lenDiff === 1) s += 5;
+      return s;
+    };
+
+    const scored = pool2.map(x => ({ item: x, score: score(x) }));
+    scored.sort((a, b) => b.score - a.score);
+
+    const wrongs = [];
+    const used = new Set();
+    const tiers = [10, 5, 0];
+    for (const minScore of tiers) {
+      if (wrongs.length >= 3) break;
+      const tier = scored.filter(x => x.score >= minScore && !used.has(x.item.rm));
+      const picks = shuffle(tier).slice(0, 3 - wrongs.length);
+      for (const p of picks) {
+        wrongs.push(p.item);
+        used.add(p.item.rm);
+      }
+    }
+
+    const choices = shuffle([correct, ...wrongs]);
+    q.choices = choices;
+    q.correctIndex = choices.findIndex(x => x.rm === correct.rm);
+  }
+
+  // 汉字→选意思
+  if (mode === "kanji_mean") {
+    const pool2 = pools.kanji.filter(x => x.rm !== correct.rm);
+    const correctMeanLen = (correct.meaning || "").length;
+
+    const score = (x) => {
+      let s = 0;
+      const lenDiff = Math.abs((x.meaning || "").length - correctMeanLen);
+      if (lenDiff === 0) s += 10;
+      else if (lenDiff === 1) s += 5;
+      return s;
+    };
+
+    const scored = pool2.map(x => ({ item: x, score: score(x) }));
+    scored.sort((a, b) => b.score - a.score);
+
+    const wrongs = [];
+    const used = new Set();
+    const tiers = [10, 5, 0];
     for (const minScore of tiers) {
       if (wrongs.length >= 3) break;
       const tier = scored.filter(x => x.score >= minScore && !used.has(x.item.rm));
