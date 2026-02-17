@@ -102,27 +102,39 @@ export function newQuestion(db, settings, stats){
 
   if (!weighted.length) return null;
 
+  const kanjiModes = ["kanji_read", "read_kanji", "kanji_mean"];
+  const wordModes = ["rm_mean", "mean_rm"];
+  const kanaModes = ["rm_mc", "jp_mc", "rm_in", "jp_in"];
+
   let mode = chooseMode(settings);
 
-  // rm_mean / mean_rm 只对 word 有效，如果当前题是 kana 则降级
-  if ((mode === "rm_mean" || mode === "mean_rm") && pools.word.length === 0) {
-    mode = "jp_mc"; // 降级
-  }
+  // 题型与内容池不匹配时自动适配
+  const hasKana = pools.kana.length > 0 && wantKana;
+  const hasWord = pools.word.length > 0 && wantWord;
+  const hasKanji = pools.kanji.length > 0 && wantKanji;
 
-  // kanji 模式需要 kanji 池，否则降级
-  if ((mode === "kanji_read" || mode === "read_kanji" || mode === "kanji_mean") && pools.kanji.length === 0) {
-    mode = "jp_mc"; // 降级
+  // kanji 题型需要 kanji 池
+  if (kanjiModes.includes(mode) && !hasKanji) {
+    mode = hasWord ? pickOne(wordModes) : "jp_mc";
+  }
+  // word 题型需要 word 池
+  if (wordModes.includes(mode) && !hasWord) {
+    mode = hasKanji ? pickOne(kanjiModes) : "jp_mc";
+  }
+  // kana 题型遇到纯 kanji 内容时，切换到 kanji 题型
+  if (kanaModes.includes(mode) && !hasKana && !hasWord && hasKanji) {
+    mode = pickOne(kanjiModes);
   }
 
   // rm_mean / mean_rm 强制从 word 池选题
   let finalWeighted = weighted;
-  if (mode === "rm_mean" || mode === "mean_rm") {
+  if (wordModes.includes(mode)) {
     finalWeighted = weighted.filter(x => x.type === "word");
     if (!finalWeighted.length) finalWeighted = pools.word.length ? pools.word : weighted;
   }
 
   // kanji 模式强制从 kanji 池选题
-  if (mode === "kanji_read" || mode === "read_kanji" || mode === "kanji_mean") {
+  if (kanjiModes.includes(mode)) {
     finalWeighted = weighted.filter(x => x.type === "kanji");
     if (!finalWeighted.length) finalWeighted = pools.kanji.length ? pools.kanji : weighted;
   }
