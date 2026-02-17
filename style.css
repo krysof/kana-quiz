@@ -177,17 +177,16 @@ body {
 
 .quiz-lang {
   position: static;
-  margin-left: auto;
 }
 
 .quiz-lang .lang-btn {
-  background: rgba(99,102,241,0.1);
-  border-color: rgba(99,102,241,0.2);
+  background: var(--gray-100);
+  border-color: var(--gray-200);
   color: var(--gray-500);
 }
 
 .quiz-lang .lang-btn:hover {
-  background: rgba(99,102,241,0.2);
+  background: var(--gray-200);
   color: var(--primary);
 }
 
