@@ -370,6 +370,8 @@ export function applyI18nDOM() {
       el.textContent = t(key);
     }
   });
+  // Update page title
+  document.title = t("title");
   // Update lang switcher active state
   document.querySelectorAll(".lang-btn").forEach(btn => {
     btn.classList.toggle("active", btn.dataset.lang === currentLang);
