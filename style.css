@@ -628,6 +628,29 @@ input[type="number"] {
   to { opacity: 1; transform: translateY(0); }
 }
 
+/* Group Cards */
+.group-card {
+  border-left: 3px solid var(--primary);
+  transition: all 0.2s ease;
+}
+
+.group-card.hide {
+  display: none !important;
+}
+
+.group-title {
+  font-size: 0.9375rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 12px;
+}
+
+.group-body {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
 /* Scrollbar */
 ::-webkit-scrollbar {
   width: 6px;

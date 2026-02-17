@@ -19,34 +19,29 @@
       </div>
 
       <section class="card">
-        <div class="grid2">
-          <div>
-            <div class="label">内容（可多选）</div>
-            <div class="checks" id="contentChecks">
-              <label class="chk"><input type="checkbox" value="kana" checked> 50音</label>
-              <label class="chk"><input type="checkbox" value="word" checked> 日常短词</label>
-              <label class="chk"><input type="checkbox" value="kanji"> 汉字短词</label>
-              <label class="chk"><input type="checkbox" value="wrong"> 错题优先</label>
-            </div>
-          </div>
+        <div class="label">内容（可多选）</div>
+        <div class="checks" id="contentChecks">
+          <label class="chk"><input type="checkbox" value="kana" checked> 50音</label>
+          <label class="chk"><input type="checkbox" value="word" checked> 日常短词</label>
+          <label class="chk"><input type="checkbox" value="kanji"> 汉字短词</label>
+          <label class="chk"><input type="checkbox" value="wrong"> 错题优先</label>
+        </div>
+      </section>
 
+      <section class="card group-card" id="groupKana">
+        <div class="group-title">50音设置</div>
+        <div class="group-body">
           <div>
-            <div class="label">题型（可多选）</div>
-            <div class="checks" id="modeChecks">
+            <div class="label">题型</div>
+            <div class="checks" id="modeChecksKana">
               <label class="chk"><input type="checkbox" value="rm_mc" checked> 罗马音→选假名</label>
               <label class="chk"><input type="checkbox" value="jp_mc" checked> 假名→选罗马音</label>
               <label class="chk"><input type="checkbox" value="rm_in"> 罗马音输入</label>
               <label class="chk"><input type="checkbox" value="jp_in"> 假名输入</label>
-              <label class="chk"><input type="checkbox" value="rm_mean"> 读音→选意思</label>
-              <label class="chk"><input type="checkbox" value="mean_rm"> 意思→选读音</label>
-              <label class="chk"><input type="checkbox" value="kanji_read"> 汉字→选读音</label>
-              <label class="chk"><input type="checkbox" value="read_kanji"> 读音→选汉字</label>
-              <label class="chk"><input type="checkbox" value="kanji_mean"> 汉字→选意思</label>
             </div>
           </div>
-
           <div>
-            <div class="label">50音集合（可多选）</div>
+            <div class="label">集合</div>
             <div class="checks" id="kanaSetChecks">
               <label class="chk"><input type="checkbox" value="seion" checked> 清音</label>
               <label class="chk"><input type="checkbox" value="dakuon"> 浊音</label>
@@ -54,22 +49,56 @@
               <label class="chk"><input type="checkbox" value="yoon"> 拗音</label>
             </div>
           </div>
+        </div>
+      </section>
 
+      <section class="card group-card" id="groupWord">
+        <div class="group-title">日常短词设置</div>
+        <div class="group-body">
+          <div class="label">题型</div>
+          <div class="checks" id="modeChecksWord">
+            <label class="chk"><input type="checkbox" value="rm_mc" checked> 罗马音→选假名</label>
+            <label class="chk"><input type="checkbox" value="jp_mc" checked> 假名→选罗马音</label>
+            <label class="chk"><input type="checkbox" value="rm_mean"> 读音→选意思</label>
+            <label class="chk"><input type="checkbox" value="mean_rm"> 意思→选读音</label>
+          </div>
+        </div>
+      </section>
+
+      <section class="card group-card" id="groupKanji">
+        <div class="group-title">汉字短词设置</div>
+        <div class="group-body">
+          <div class="label">题型</div>
+          <div class="checks" id="modeChecksKanji">
+            <label class="chk"><input type="checkbox" value="kanji_read" checked> 汉字→选读音</label>
+            <label class="chk"><input type="checkbox" value="read_kanji" checked> 读音→选汉字</label>
+            <label class="chk"><input type="checkbox" value="kanji_mean"> 汉字→选意思</label>
+          </div>
+        </div>
+      </section>
+
+      <section class="card">
+        <div class="grid2">
           <div>
             <div class="label">假名模式</div>
             <select id="kanaMode">
               <option value="hira">平假名</option>
               <option value="kata">片假名</option>
             </select>
-
-            <div class="label" style="margin-top:12px">本次题数</div>
+          </div>
+          <div>
+            <div class="label">本次题数</div>
             <input type="number" id="sessionSize" value="20" min="5" max="200" />
-
-            <div class="label" style="margin-top:12px">其他选项</div>
+          </div>
+          <div>
+            <div class="label">其他选项</div>
             <label class="chk"><input type="checkbox" id="hideMeaning"> 隐藏中文释义</label>
           </div>
         </div>
       </section>
+
+      <!-- 隐藏的合并modeChecks容器 -->
+      <div class="hide" id="modeChecks"></div>
 
       <button class="btn-start" id="btnStartSession">开始练习</button>
 

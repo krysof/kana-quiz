@@ -29,6 +29,12 @@ const ui = {
   // Settings
   contentChecks: $("contentChecks"),
   modeChecks: $("modeChecks"),
+  modeChecksKana: $("modeChecksKana"),
+  modeChecksWord: $("modeChecksWord"),
+  modeChecksKanji: $("modeChecksKanji"),
+  groupKana: $("groupKana"),
+  groupWord: $("groupWord"),
+  groupKanji: $("groupKanji"),
   kanaSetChecks: $("kanaSetChecks"),
   kanaMode: $("kanaMode"),
   sessionSize: $("sessionSize"),
@@ -125,16 +131,33 @@ function clampInt(v, min, max, fallback) {
 
 function applySettingsToUI() {
   setChecked(ui.contentChecks, settings.content);
-  setChecked(ui.modeChecks, settings.modes);
+  // 分组题型：从 settings.modes 分发到各组
+  setChecked(ui.modeChecksKana, settings.modes);
+  setChecked(ui.modeChecksWord, settings.modes);
+  setChecked(ui.modeChecksKanji, settings.modes);
   setChecked(ui.kanaSetChecks, settings.kanaSets);
   ui.kanaMode.value = settings.kanaMode || "hira";
   ui.sessionSize.value = settings.sessionSize ?? 20;
   ui.hideMeaning.checked = settings.hideMeaning || false;
+  updateGroupVisibility();
+}
+
+function updateGroupVisibility() {
+  const content = getChecked(ui.contentChecks);
+  ui.groupKana.classList.toggle("hide", !content.includes("kana"));
+  ui.groupWord.classList.toggle("hide", !content.includes("word"));
+  ui.groupKanji.classList.toggle("hide", !content.includes("kanji"));
 }
 
 function readSettingsFromUIAndSave() {
   settings.content = getChecked(ui.contentChecks);
-  settings.modes = getChecked(ui.modeChecks);
+  updateGroupVisibility();
+
+  // 合并三组题型
+  const modesKana = getChecked(ui.modeChecksKana);
+  const modesWord = getChecked(ui.modeChecksWord);
+  const modesKanji = getChecked(ui.modeChecksKanji);
+  settings.modes = [...new Set([...modesKana, ...modesWord, ...modesKanji])];
 
   const sets = getChecked(ui.kanaSetChecks);
   settings.kanaSets = sets.length ? sets : ["seion"];
@@ -486,7 +509,9 @@ async function loadJSON(path) {
 function wire() {
   // Settings change
   ui.contentChecks.addEventListener("change", readSettingsFromUIAndSave);
-  ui.modeChecks.addEventListener("change", readSettingsFromUIAndSave);
+  ui.modeChecksKana.addEventListener("change", readSettingsFromUIAndSave);
+  ui.modeChecksWord.addEventListener("change", readSettingsFromUIAndSave);
+  ui.modeChecksKanji.addEventListener("change", readSettingsFromUIAndSave);
   ui.kanaSetChecks.addEventListener("change", readSettingsFromUIAndSave);
   ui.kanaMode.addEventListener("change", () => { readSettingsFromUIAndSave(); if (current) renderQuestion(); });
   ui.sessionSize.addEventListener("change", readSettingsFromUIAndSave);
