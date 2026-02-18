@@ -137,7 +137,6 @@ function getMeaning(item) {
   const lang = getLang();
   if (lang === "zh-CN") return item.meaning;
   const map = db.meanings[lang];
-  console.log("[getMeaning]", "lang=", lang, "rm=", item.rm, "map?", !!map, "val=", map?.[item.rm]);
   if (map && map[item.rm]) return map[item.rm];
   return item.meaning; // fallback to zh-CN
 }
