@@ -1,0 +1,2802 @@
+[
+  {
+    "id": 271,
+    "cat": "kanji_reading",
+    "sentence": "荷物が無事に届いたかどうか確認してください。",
+    "target": "届く",
+    "options": ["とどく", "つづく", "もどく", "ひびく"],
+    "answer": 0
+  },
+  {
+    "id": 272,
+    "cat": "kanji_reading",
+    "sentence": "二つの製品の性能を比較してみましょう。",
+    "target": "比較",
+    "options": ["ひかく", "ひこう", "びかく", "ひがく"],
+    "answer": 0
+  },
+  {
+    "id": 273,
+    "cat": "kanji_reading",
+    "sentence": "子供を一人で育てるのは大変なことだ。",
+    "target": "育てる",
+    "options": ["そだてる", "たてる", "あてる", "すてる"],
+    "answer": 0
+  },
+  {
+    "id": 274,
+    "cat": "kanji_reading",
+    "sentence": "友人の誘いをやむを得ず断ることにした。",
+    "target": "断る",
+    "options": ["ことわる", "さわる", "はかる", "あずかる"],
+    "answer": 0
+  },
+  {
+    "id": 275,
+    "cat": "kanji_reading",
+    "sentence": "出張の間、子供をおばあさんに預けた。",
+    "target": "預ける",
+    "options": ["あずける", "つづける", "もうける", "かたづける"],
+    "answer": 0
+  },
+  {
+    "id": 276,
+    "cat": "kanji_reading",
+    "sentence": "上司はその提案の有効性を認めた。",
+    "target": "認める",
+    "options": ["みとめる", "もとめる", "きわめる", "あらためる"],
+    "answer": 0
+  },
+  {
+    "id": 277,
+    "cat": "kanji_reading",
+    "sentence": "この飲料水にはミネラルを多く含むそうだ。",
+    "target": "含む",
+    "options": ["ふくむ", "はさむ", "つつむ", "たたむ"],
+    "answer": 0
+  },
+  {
+    "id": 278,
+    "cat": "kanji_reading",
+    "sentence": "この会社は市場の半分以上を占めている。",
+    "target": "占める",
+    "options": ["しめる", "せめる", "きめる", "ひめる"],
+    "answer": 0
+  },
+  {
+    "id": 279,
+    "cat": "kanji_reading",
+    "sentence": "大臣は記者会見で自らの意見を述べた。",
+    "target": "述べる",
+    "options": ["のべる", "くべる", "しらべる", "なべる"],
+    "answer": 0
+  },
+  {
+    "id": 280,
+    "cat": "kanji_reading",
+    "sentence": "来月、京都に友人を訪ねる予定です。",
+    "target": "訪ねる",
+    "options": ["たずねる", "かさねる", "つらねる", "おさねる"],
+    "answer": 0
+  },
+  {
+    "id": 281,
+    "cat": "kanji_reading",
+    "sentence": "犯人は警察の追跡から逃げることに成功した。",
+    "target": "逃げる",
+    "options": ["にげる", "すげる", "つげる", "こげる"],
+    "answer": 0
+  },
+  {
+    "id": 282,
+    "cat": "kanji_reading",
+    "sentence": "同じ失敗を繰り返さないように注意しなさい。",
+    "target": "繰り返す",
+    "options": ["くりかえす", "とりかえす", "ふりかえす", "きりかえす"],
+    "answer": 0
+  },
+  {
+    "id": 283,
+    "cat": "kanji_reading",
+    "sentence": "将来のために毎月少しずつ貯金している。",
+    "target": "貯金",
+    "options": ["ちょきん", "じょきん", "ちきん", "ちょうきん"],
+    "answer": 0
+  },
+  {
+    "id": 284,
+    "cat": "kanji_reading",
+    "sentence": "この小説は英語から日本語に翻訳された。",
+    "target": "翻訳",
+    "options": ["ほんやく", "はんやく", "ほんわく", "へんやく"],
+    "answer": 0
+  },
+  {
+    "id": 285,
+    "cat": "kanji_reading",
+    "sentence": "健康を維持するために毎日運動している。",
+    "target": "維持",
+    "options": ["いじ", "ゆうじ", "いち", "いし"],
+    "answer": 0
+  },
+  {
+    "id": 286,
+    "cat": "kanji_reading",
+    "sentence": "来週、大阪へ出張することになった。",
+    "target": "出張",
+    "options": ["しゅっちょう", "しゅちょう", "でちょう", "しゅっちゅう"],
+    "answer": 0
+  },
+  {
+    "id": 287,
+    "cat": "kanji_reading",
+    "sentence": "海外で働いた経験は、彼のキャリアに役立った。",
+    "target": "経験",
+    "options": ["けいけん", "けっけん", "きょうけん", "けいげん"],
+    "answer": 0
+  },
+  {
+    "id": 288,
+    "cat": "kanji_reading",
+    "sentence": "彼女はコンサートでピアノを演奏した。",
+    "target": "演奏",
+    "options": ["えんそう", "えんしゅう", "えんぞう", "いんそう"],
+    "answer": 0
+  },
+  {
+    "id": 289,
+    "cat": "kanji_reading",
+    "sentence": "地球温暖化は世界中に影響を与えている。",
+    "target": "影響",
+    "options": ["えいきょう", "いんきょう", "えいひびき", "えいごう"],
+    "answer": 0
+  },
+  {
+    "id": 290,
+    "cat": "kanji_reading",
+    "sentence": "古くなった部品を新しいものと交換した。",
+    "target": "交換",
+    "options": ["こうかん", "こうけん", "こうがん", "きょうかん"],
+    "answer": 0
+  },
+  {
+    "id": 291,
+    "cat": "kanji_reading",
+    "sentence": "チームは長年の目標をついに達成した。",
+    "target": "達成",
+    "options": ["たっせい", "たつせい", "だっせい", "たちせい"],
+    "answer": 0
+  },
+  {
+    "id": 292,
+    "cat": "kanji_reading",
+    "sentence": "パスポートで身分を証明する必要がある。",
+    "target": "証明",
+    "options": ["しょうめい", "しょうみょう", "せいめい", "しゅうめい"],
+    "answer": 0
+  },
+  {
+    "id": 293,
+    "cat": "kanji_reading",
+    "sentence": "出発前にチケットの予約を確認してください。",
+    "target": "確認",
+    "options": ["かくにん", "がくにん", "かくじん", "かくめい"],
+    "answer": 0
+  },
+  {
+    "id": 294,
+    "cat": "kanji_reading",
+    "sentence": "この地域はIT産業の発展が目覚ましい。",
+    "target": "発展",
+    "options": ["はってん", "はつてん", "はっけん", "ばってん"],
+    "answer": 0
+  },
+  {
+    "id": 295,
+    "cat": "kanji_reading",
+    "sentence": "未来の生活がどうなるか想像してみてください。",
+    "target": "想像",
+    "options": ["そうぞう", "そうじょう", "しょうぞう", "そうどう"],
+    "answer": 0
+  },
+  {
+    "id": 296,
+    "cat": "kanji_reading",
+    "sentence": "その国は長い間、一つの王朝に支配されていた。",
+    "target": "支配",
+    "options": ["しはい", "しばい", "しぱい", "じはい"],
+    "answer": 0
+  },
+  {
+    "id": 297,
+    "cat": "kanji_reading",
+    "sentence": "話し合いによって問題を解決することができた。",
+    "target": "解決",
+    "options": ["かいけつ", "かいきつ", "かいせつ", "げけつ"],
+    "answer": 0
+  },
+  {
+    "id": 298,
+    "cat": "kanji_reading",
+    "sentence": "研究者はデータを詳しく分析した。",
+    "target": "分析",
+    "options": ["ぶんせき", "ふんせき", "ぶんかい", "ぶんさい"],
+    "answer": 0
+  },
+  {
+    "id": 299,
+    "cat": "kanji_reading",
+    "sentence": "ベテランの教師が新人の指導に当たっている。",
+    "target": "指導",
+    "options": ["しどう", "してい", "しゅどう", "しとう"],
+    "answer": 0
+  },
+  {
+    "id": 300,
+    "cat": "kanji_reading",
+    "sentence": "近年、高齢者の人口が増加している。",
+    "target": "増加",
+    "options": ["ぞうか", "そうか", "ますか", "じょうか"],
+    "answer": 0
+  },
+  {
+    "id": 301,
+    "cat": "kanji_reading",
+    "sentence": "出生率の低下により人口が減少している。",
+    "target": "減少",
+    "options": ["げんしょう", "かんしょう", "けんしょう", "げんじょう"],
+    "answer": 0
+  },
+  {
+    "id": 302,
+    "cat": "kanji_reading",
+    "sentence": "このビルは有名な建築家が設計した。",
+    "target": "設計",
+    "options": ["せっけい", "せいけい", "せつけい", "せっかい"],
+    "answer": 0
+  },
+  {
+    "id": 303,
+    "cat": "kanji_reading",
+    "sentence": "この論文は三つの章で構成されている。",
+    "target": "構成",
+    "options": ["こうせい", "こうじょう", "こうぜい", "ぐせい"],
+    "answer": 0
+  },
+  {
+    "id": 304,
+    "cat": "kanji_reading",
+    "sentence": "彼は試合で実力を十分に発揮した。",
+    "target": "発揮",
+    "options": ["はっき", "はつき", "はっぴ", "ばっき"],
+    "answer": 0
+  },
+  {
+    "id": 305,
+    "cat": "kanji_reading",
+    "sentence": "教授が優秀な学生を大学院に推薦した。",
+    "target": "推薦",
+    "options": ["すいせん", "すいけん", "しいせん", "すいぜん"],
+    "answer": 0
+  },
+  {
+    "id": 306,
+    "cat": "kanji_reading",
+    "sentence": "彼はサッカー部に所属している。",
+    "target": "所属",
+    "options": ["しょぞく", "しょくぞく", "そぞく", "しょうぞく"],
+    "answer": 0
+  },
+  {
+    "id": 307,
+    "cat": "kanji_reading",
+    "sentence": "言葉で気持ちを表現するのは難しい。",
+    "target": "表現",
+    "options": ["ひょうげん", "ひょうけん", "ひょうかん", "びょうげん"],
+    "answer": 0
+  },
+  {
+    "id": 308,
+    "cat": "kanji_reading",
+    "sentence": "長年の夢がやっと実現した。",
+    "target": "実現",
+    "options": ["じつげん", "じっけん", "しつげん", "じっげん"],
+    "answer": 0
+  },
+  {
+    "id": 309,
+    "cat": "kanji_reading",
+    "sentence": "ボランティア団体が被災地に食料を提供した。",
+    "target": "提供",
+    "options": ["ていきょう", "ていぐう", "だいきょう", "ていくう"],
+    "answer": 0
+  },
+  {
+    "id": 310,
+    "cat": "kanji_reading",
+    "sentence": "新しい技術を活用して仕事の効率を上げた。",
+    "target": "活用",
+    "options": ["かつよう", "かつゆう", "がつよう", "かっよう"],
+    "answer": 0
+  },
+  {
+    "id": 311,
+    "cat": "kanji_reading",
+    "sentence": "会議のスケジュールを調整してもらえますか。",
+    "target": "調整",
+    "options": ["ちょうせい", "ちょうぜい", "しらせい", "ちゅうせい"],
+    "answer": 0
+  },
+  {
+    "id": 312,
+    "cat": "kanji_reading",
+    "sentence": "事業を全国的に展開する計画を立てた。",
+    "target": "展開",
+    "options": ["てんかい", "てんがい", "でんかい", "てんけい"],
+    "answer": 0
+  },
+  {
+    "id": 313,
+    "cat": "kanji_reading",
+    "sentence": "大量のデータをコンピュータで処理した。",
+    "target": "処理",
+    "options": ["しょり", "そり", "しゅり", "じょり"],
+    "answer": 0
+  },
+  {
+    "id": 314,
+    "cat": "kanji_reading",
+    "sentence": "映画は時代の空気をよく反映している。",
+    "target": "反映",
+    "options": ["はんえい", "はんかい", "へんえい", "はんめい"],
+    "answer": 0
+  },
+  {
+    "id": 315,
+    "cat": "kanji_reading",
+    "sentence": "絶滅の危機にある動物を保護するべきだ。",
+    "target": "保護",
+    "options": ["ほご", "ほうご", "ぼご", "はご"],
+    "answer": 0
+  },
+  {
+    "id": 316,
+    "cat": "kanji_reading",
+    "sentence": "経済成長を促進するための政策が発表された。",
+    "target": "促進",
+    "options": ["そくしん", "しょくしん", "ぞくしん", "そくじん"],
+    "answer": 0
+  },
+  {
+    "id": 317,
+    "cat": "kanji_reading",
+    "sentence": "労働環境の改善に向けて議論が行われている。",
+    "target": "改善",
+    "options": ["かいぜん", "かいせん", "がいぜん", "かいねん"],
+    "answer": 0
+  },
+  {
+    "id": 318,
+    "cat": "kanji_reading",
+    "sentence": "来年度の事業計画を策定中です。",
+    "target": "計画",
+    "options": ["けいかく", "けいがく", "けいわく", "きかく"],
+    "answer": 0
+  },
+  {
+    "id": 319,
+    "cat": "kanji_reading",
+    "sentence": "調査の結果を上司に報告した。",
+    "target": "報告",
+    "options": ["ほうこく", "ほうごく", "ぼうこく", "ほうかく"],
+    "answer": 0
+  },
+  {
+    "id": 320,
+    "cat": "kanji_reading",
+    "sentence": "新しいプロジェクトの内容について説明を受けた。",
+    "target": "説明",
+    "options": ["せつめい", "せいめい", "せつみょう", "ぜつめい"],
+    "answer": 0
+  },
+  {
+    "id": 321,
+    "cat": "kanji_reading",
+    "sentence": "困ったことがあれば、先輩に相談してください。",
+    "target": "相談",
+    "options": ["そうだん", "しょうだん", "そうたん", "そうかん"],
+    "answer": 0
+  },
+  {
+    "id": 322,
+    "cat": "kanji_reading",
+    "sentence": "新しい案について社内で検討する必要がある。",
+    "target": "検討",
+    "options": ["けんとう", "けんどう", "けんちょう", "げんとう"],
+    "answer": 0
+  },
+  {
+    "id": 323,
+    "cat": "kanji_reading",
+    "sentence": "作文コンテストに応募したいと思っている。",
+    "target": "応募",
+    "options": ["おうぼ", "おうも", "おうほ", "のうぼ"],
+    "answer": 0
+  },
+  {
+    "id": 324,
+    "cat": "kanji_reading",
+    "sentence": "地域のボランティア活動に参加した。",
+    "target": "参加",
+    "options": ["さんか", "しんか", "さんが", "さんく"],
+    "answer": 0
+  },
+  {
+    "id": 325,
+    "cat": "kanji_reading",
+    "sentence": "試験前は勉強に集中しなければならない。",
+    "target": "集中",
+    "options": ["しゅうちゅう", "しゅちゅう", "しゅうじゅう", "しゅうなか"],
+    "answer": 0
+  },
+  {
+    "id": 326,
+    "cat": "kanji_reading",
+    "sentence": "災害時には冷静に行動することが大切だ。",
+    "target": "行動",
+    "options": ["こうどう", "ぎょうどう", "こうとう", "ぎどう"],
+    "answer": 0
+  },
+  {
+    "id": 327,
+    "cat": "kanji_reading",
+    "sentence": "イベントの運営を学生たちに任せた。",
+    "target": "運営",
+    "options": ["うんえい", "うんかい", "うんめい", "うんい"],
+    "answer": 0
+  },
+  {
+    "id": 328,
+    "cat": "kanji_reading",
+    "sentence": "顧客情報を適切に管理しなければならない。",
+    "target": "管理",
+    "options": ["かんり", "がんり", "くだり", "かんれい"],
+    "answer": 0
+  },
+  {
+    "id": 329,
+    "cat": "kanji_reading",
+    "sentence": "彼は会議で自分の意見を強く主張した。",
+    "target": "主張",
+    "options": ["しゅちょう", "しゅうちょう", "じゅちょう", "しゅじょう"],
+    "answer": 0
+  },
+  {
+    "id": 330,
+    "cat": "kanji_reading",
+    "sentence": "状況を正確に判断する能力が求められる。",
+    "target": "判断",
+    "options": ["はんだん", "ばんだん", "はんたん", "はんざん"],
+    "answer": 0
+  },
+  {
+    "id": 331,
+    "cat": "kanji_reading",
+    "sentence": "生物学者は動物の行動を注意深く観察した。",
+    "target": "観察",
+    "options": ["かんさつ", "がんさつ", "かんざつ", "かんさく"],
+    "answer": 0
+  },
+  {
+    "id": 332,
+    "cat": "kanji_reading",
+    "sentence": "会議の内容を議事録に記録した。",
+    "target": "記録",
+    "options": ["きろく", "きろう", "ぎろく", "きりょく"],
+    "answer": 0
+  },
+  {
+    "id": 333,
+    "cat": "kanji_reading",
+    "sentence": "お客様の苦情に迅速に対応した。",
+    "target": "対応",
+    "options": ["たいおう", "たいよう", "だいおう", "たいのう"],
+    "answer": 0
+  },
+  {
+    "id": 334,
+    "cat": "kanji_reading",
+    "sentence": "旅行のサービスに十分に満足した。",
+    "target": "満足",
+    "options": ["まんぞく", "まんそく", "ばんぞく", "まんぞう"],
+    "answer": 0
+  },
+  {
+    "id": 335,
+    "cat": "kanji_reading",
+    "sentence": "二つの問題には共通する原因がある。",
+    "target": "共通",
+    "options": ["きょうつう", "ぐうつう", "きょうどう", "くつう"],
+    "answer": 0
+  },
+  {
+    "id": 336,
+    "cat": "kanji_reading",
+    "sentence": "時間の都合上、一部の内容を省略します。",
+    "target": "省略",
+    "options": ["しょうりゃく", "せいりゃく", "しょうらく", "そうりゃく"],
+    "answer": 0
+  },
+  {
+    "id": 337,
+    "cat": "kanji_reading",
+    "sentence": "工事のため、道路の利用期間が延長された。",
+    "target": "延長",
+    "options": ["えんちょう", "いんちょう", "のびちょう", "えんじょう"],
+    "answer": 0
+  },
+  {
+    "id": 338,
+    "cat": "kanji_reading",
+    "sentence": "この地域では車の速度が制限されている。",
+    "target": "制限",
+    "options": ["せいげん", "せいかん", "せいけん", "しげん"],
+    "answer": 0
+  },
+  {
+    "id": 339,
+    "cat": "kanji_reading",
+    "sentence": "地球の環境を守ることは私たちの責任だ。",
+    "target": "環境",
+    "options": ["かんきょう", "がんきょう", "かんけい", "かんごう"],
+    "answer": 0
+  },
+  {
+    "id": 340,
+    "cat": "kanji_reading",
+    "sentence": "学校の規則をしっかり守ってください。",
+    "target": "規則",
+    "options": ["きそく", "ぎそく", "きぞく", "きしょく"],
+    "answer": 0
+  },
+  {
+    "id": 341,
+    "cat": "kanji_reading",
+    "sentence": "新しい年金制度が来年から始まる。",
+    "target": "制度",
+    "options": ["せいど", "せいと", "ぜいど", "しど"],
+    "answer": 0
+  },
+  {
+    "id": 342,
+    "cat": "kanji_reading",
+    "sentence": "政府は感染症への対策を強化した。",
+    "target": "対策",
+    "options": ["たいさく", "たいしゃく", "だいさく", "たいさい"],
+    "answer": 0
+  },
+  {
+    "id": 343,
+    "cat": "kanji_reading",
+    "sentence": "会社の経営方針が大きく変わった。",
+    "target": "方針",
+    "options": ["ほうしん", "ほうはり", "ぼうしん", "ほうじん"],
+    "answer": 0
+  },
+  {
+    "id": 344,
+    "cat": "kanji_reading",
+    "sentence": "最先端の技術を使って製品を開発した。",
+    "target": "技術",
+    "options": ["ぎじゅつ", "きじゅつ", "きじつ", "ぎじつ"],
+    "answer": 0
+  },
+  {
+    "id": 345,
+    "cat": "kanji_reading",
+    "sentence": "仕事をこなす能力が高く評価されている。",
+    "target": "能力",
+    "options": ["のうりょく", "のうりき", "どうりょく", "のうりつ"],
+    "answer": 0
+  },
+  {
+    "id": 346,
+    "cat": "kanji_reading",
+    "sentence": "社員の業績に対する評価が行われた。",
+    "target": "評価",
+    "options": ["ひょうか", "ひょうけ", "ひょうが", "びょうか"],
+    "answer": 0
+  },
+  {
+    "id": 347,
+    "cat": "kanji_reading",
+    "sentence": "面接での彼の態度は非常に丁寧だった。",
+    "target": "態度",
+    "options": ["たいど", "だいど", "たいと", "たど"],
+    "answer": 0
+  },
+  {
+    "id": 348,
+    "cat": "kanji_reading",
+    "sentence": "彼女の話し方は良い印象を与えた。",
+    "target": "印象",
+    "options": ["いんしょう", "いんぞう", "いんしゅう", "いんそう"],
+    "answer": 0
+  },
+  {
+    "id": 349,
+    "cat": "kanji_reading",
+    "sentence": "子供のころの記憶がだんだん薄れてきた。",
+    "target": "記憶",
+    "options": ["きおく", "きよく", "ぎおく", "きおき"],
+    "answer": 0
+  },
+  {
+    "id": 350,
+    "cat": "kanji_reading",
+    "sentence": "この仕事は私の責任で最後までやり遂げます。",
+    "target": "責任",
+    "options": ["せきにん", "しゃくにん", "せいにん", "せきじん"],
+    "answer": 0
+  },
+  {
+    "id": 351,
+    "cat": "kanji_reading",
+    "sentence": "納税は国民の義務です。",
+    "target": "義務",
+    "options": ["ぎむ", "きむ", "ぎぶ", "ぎめい"],
+    "answer": 0
+  },
+  {
+    "id": 352,
+    "cat": "kanji_reading",
+    "sentence": "すべての人には平等な権利がある。",
+    "target": "権利",
+    "options": ["けんり", "げんり", "けんれい", "ごんり"],
+    "answer": 0
+  },
+  {
+    "id": 353,
+    "cat": "kanji_reading",
+    "sentence": "企業間の競争がますます激しくなっている。",
+    "target": "競争",
+    "options": ["きょうそう", "けいそう", "きそう", "きょうぞう"],
+    "answer": 0
+  },
+  {
+    "id": 354,
+    "cat": "kanji_reading",
+    "sentence": "国際的な協力なしには解決できない問題だ。",
+    "target": "協力",
+    "options": ["きょうりょく", "ぎょうりょく", "きょうりき", "きょうりゅう"],
+    "answer": 0
+  },
+  {
+    "id": 355,
+    "cat": "kanji_reading",
+    "sentence": "その政策は国民から強い批判を受けた。",
+    "target": "批判",
+    "options": ["ひはん", "ひばん", "びはん", "ひだん"],
+    "answer": 0
+  },
+  {
+    "id": 356,
+    "cat": "kanji_reading",
+    "sentence": "専門家たちの議論は夜遅くまで続いた。",
+    "target": "議論",
+    "options": ["ぎろん", "きろん", "ごろん", "ぎりん"],
+    "answer": 0
+  },
+  {
+    "id": 357,
+    "cat": "kanji_reading",
+    "sentence": "会議で新しい提案が出された。",
+    "target": "提案",
+    "options": ["ていあん", "だいあん", "ていかん", "ちょうあん"],
+    "answer": 0
+  },
+  {
+    "id": 358,
+    "cat": "kanji_reading",
+    "sentence": "転職したことで収入が増えた。",
+    "target": "収入",
+    "options": ["しゅうにゅう", "しゅにゅう", "しゅうにう", "しゅうにん"],
+    "answer": 0
+  },
+  {
+    "id": 359,
+    "cat": "kanji_reading",
+    "sentence": "毎月の支出を記録するようにしている。",
+    "target": "支出",
+    "options": ["ししゅつ", "しでる", "しじゅつ", "しすい"],
+    "answer": 0
+  },
+  {
+    "id": 360,
+    "cat": "kanji_reading",
+    "sentence": "最近の景気は回復傾向にある。",
+    "target": "景気",
+    "options": ["けいき", "きょうき", "けき", "けいぎ"],
+    "answer": 0
+  },
+  {
+    "id": 361,
+    "cat": "kanji_reading",
+    "sentence": "台風による被害は甚大だった。",
+    "target": "被害",
+    "options": ["ひがい", "びがい", "ひかい", "ひげい"],
+    "answer": 0
+  },
+  {
+    "id": 362,
+    "cat": "kanji_reading",
+    "sentence": "この薬の効果はすぐに現れるでしょう。",
+    "target": "効果",
+    "options": ["こうか", "こうが", "こうけ", "きょうか"],
+    "answer": 0
+  },
+  {
+    "id": 363,
+    "cat": "kanji_reading",
+    "sentence": "気温の上昇は自然な現象とは言えない。",
+    "target": "現象",
+    "options": ["げんしょう", "げんぞう", "けんしょう", "げんじょう"],
+    "answer": 0
+  },
+  {
+    "id": 364,
+    "cat": "kanji_reading",
+    "sentence": "若者の間で海外留学の傾向が強まっている。",
+    "target": "傾向",
+    "options": ["けいこう", "きょうこう", "けいきょう", "けいごう"],
+    "answer": 0
+  },
+  {
+    "id": 365,
+    "cat": "kanji_reading",
+    "sentence": "研究は幅広い分野にわたっている。",
+    "target": "分野",
+    "options": ["ぶんや", "ぶんの", "ふんや", "ぶんば"],
+    "answer": 0
+  },
+  {
+    "id": 366,
+    "cat": "kanji_reading",
+    "sentence": "調査の範囲を全国に広げた。",
+    "target": "範囲",
+    "options": ["はんい", "ばんい", "はんに", "はんかい"],
+    "answer": 0
+  },
+  {
+    "id": 367,
+    "cat": "kanji_reading",
+    "sentence": "この問題を異なる観点から分析する必要がある。",
+    "target": "観点",
+    "options": ["かんてん", "がんてん", "かんでん", "かんちょう"],
+    "answer": 0
+  },
+  {
+    "id": 368,
+    "cat": "kanji_reading",
+    "sentence": "議論を進めるには前提を共有しなければならない。",
+    "target": "前提",
+    "options": ["ぜんてい", "まえてい", "せんてい", "ぜんだい"],
+    "answer": 0
+  },
+  {
+    "id": 369,
+    "cat": "kanji_reading",
+    "sentence": "その主張には科学的な根拠がある。",
+    "target": "根拠",
+    "options": ["こんきょ", "ねきょ", "こんこ", "ごんきょ"],
+    "answer": 0
+  },
+  {
+    "id": 370,
+    "cat": "kanji_reading",
+    "sentence": "問題の本質を見極めることが重要だ。",
+    "target": "本質",
+    "options": ["ほんしつ", "ほんしち", "ぼんしつ", "ほんちつ"],
+    "answer": 0
+  },
+  {
+    "id": 371,
+    "cat": "kanji_reading",
+    "sentence": "成功にはさまざまな要素が関係している。",
+    "target": "要素",
+    "options": ["ようそ", "ようす", "ようしょ", "よそ"],
+    "answer": 0
+  },
+  {
+    "id": 372,
+    "cat": "kanji_reading",
+    "sentence": "橋の構造に問題がないか検査した。",
+    "target": "構造",
+    "options": ["こうぞう", "こうそう", "くぞう", "こうじょう"],
+    "answer": 0
+  },
+  {
+    "id": 373,
+    "cat": "kanji_reading",
+    "sentence": "このアプリには便利な機能がたくさんある。",
+    "target": "機能",
+    "options": ["きのう", "きどう", "ぎのう", "きよう"],
+    "answer": 0
+  },
+  {
+    "id": 374,
+    "cat": "kanji_reading",
+    "sentence": "この製品の特徴は軽さと耐久性だ。",
+    "target": "特徴",
+    "options": ["とくちょう", "とっちょう", "どくちょう", "とくしょう"],
+    "answer": 0
+  },
+  {
+    "id": 375,
+    "cat": "kanji_reading",
+    "sentence": "安全性の基準を満たしているか確認した。",
+    "target": "基準",
+    "options": ["きじゅん", "きしゅん", "もとじゅん", "きぜん"],
+    "answer": 0
+  },
+  {
+    "id": 376,
+    "cat": "kanji_reading",
+    "sentence": "目的を達成するための手段を考えよう。",
+    "target": "手段",
+    "options": ["しゅだん", "してだん", "しゅうだん", "しゅたん"],
+    "answer": 0
+  },
+  {
+    "id": 377,
+    "cat": "kanji_reading",
+    "sentence": "新製品の開発過程を報告書にまとめた。",
+    "target": "過程",
+    "options": ["かてい", "かせい", "かほど", "かつう"],
+    "answer": 0
+  },
+  {
+    "id": 378,
+    "cat": "kanji_reading",
+    "sentence": "プロジェクトは最終段階に入っている。",
+    "target": "段階",
+    "options": ["だんかい", "たんかい", "だんがい", "だんかん"],
+    "answer": 0
+  },
+  {
+    "id": 379,
+    "cat": "kanji_reading",
+    "sentence": "その事件の背景には複雑な事情がある。",
+    "target": "背景",
+    "options": ["はいけい", "はいきょう", "せけい", "はいけん"],
+    "answer": 0
+  },
+  {
+    "id": 380,
+    "cat": "kanji_reading",
+    "sentence": "現在の状況を正しく把握する必要がある。",
+    "target": "状況",
+    "options": ["じょうきょう", "しょうきょう", "じょうごう", "じょうきゅう"],
+    "answer": 0
+  },
+  {
+    "id": 381,
+    "cat": "kanji_reading",
+    "sentence": "参加するにはいくつかの条件を満たす必要がある。",
+    "target": "条件",
+    "options": ["じょうけん", "じょうかん", "しょうけん", "じょうげん"],
+    "answer": 0
+  },
+  {
+    "id": 382,
+    "cat": "kanji_reading",
+    "sentence": "地域社会が抱える課題について話し合った。",
+    "target": "課題",
+    "options": ["かだい", "がだい", "かてい", "かざい"],
+    "answer": 0
+  },
+  {
+    "id": 383,
+    "cat": "kanji_reading",
+    "sentence": "今回の研究で素晴らしい成果が得られた。",
+    "target": "成果",
+    "options": ["せいか", "じょうか", "なりか", "せいが"],
+    "answer": 0
+  },
+  {
+    "id": 384,
+    "cat": "kanji_reading",
+    "sentence": "専門的な知識がなければこの仕事はできない。",
+    "target": "知識",
+    "options": ["ちしき", "ちき", "しき", "ちしょく"],
+    "answer": 0
+  },
+  {
+    "id": 385,
+    "cat": "kanji_reading",
+    "sentence": "最新の情報をインターネットで調べた。",
+    "target": "情報",
+    "options": ["じょうほう", "しょうほう", "せいほう", "じょうぼう"],
+    "answer": 0
+  },
+  {
+    "id": 386,
+    "cat": "kanji_reading",
+    "sentence": "世界的な経済の不況が続いている。",
+    "target": "経済",
+    "options": ["けいざい", "きょうざい", "けいさい", "きざい"],
+    "answer": 0
+  },
+  {
+    "id": 387,
+    "cat": "kanji_reading",
+    "sentence": "市民は政治に対してもっと関心を持つべきだ。",
+    "target": "政治",
+    "options": ["せいじ", "しょうじ", "せいち", "せいし"],
+    "answer": 0
+  },
+  {
+    "id": 388,
+    "cat": "kanji_reading",
+    "sentence": "異なる文化を理解し尊重することが大切だ。",
+    "target": "文化",
+    "options": ["ぶんか", "もんか", "ぶんけ", "ぶんが"],
+    "answer": 0
+  },
+  {
+    "id": 389,
+    "cat": "kanji_reading",
+    "sentence": "教育の質を向上させるための取り組みが必要だ。",
+    "target": "教育",
+    "options": ["きょういく", "きゅういく", "こういく", "きょうそだ"],
+    "answer": 0
+  },
+  {
+    "id": 390,
+    "cat": "kanji_reading",
+    "sentence": "自動車産業はこの地域の経済を支えている。",
+    "target": "産業",
+    "options": ["さんぎょう", "さんごう", "さんきょう", "さぎょう"],
+    "answer": 0
+  },
+  {
+    "id": 391,
+    "cat": "kanji_reading",
+    "sentence": "農業の発展には水資源の管理が欠かせない。",
+    "target": "農業",
+    "options": ["のうぎょう", "のうごう", "のぎょう", "のうこう"],
+    "answer": 0
+  },
+  {
+    "id": 392,
+    "cat": "kanji_reading",
+    "sentence": "この通りには多くの商業施設が並んでいる。",
+    "target": "商業",
+    "options": ["しょうぎょう", "しょうこう", "しょうごう", "しゅうぎょう"],
+    "answer": 0
+  },
+  {
+    "id": 393,
+    "cat": "kanji_reading",
+    "sentence": "大都市では交通渋滞が大きな問題だ。",
+    "target": "交通",
+    "options": ["こうつう", "こうとう", "こつう", "きょうつう"],
+    "answer": 0
+  },
+  {
+    "id": 394,
+    "cat": "kanji_reading",
+    "sentence": "通信技術の進歩により世界が近くなった。",
+    "target": "通信",
+    "options": ["つうしん", "とうしん", "つしん", "つうじん"],
+    "answer": 0
+  },
+  {
+    "id": 395,
+    "cat": "kanji_reading",
+    "sentence": "日本の人口は減少の一途をたどっている。",
+    "target": "人口",
+    "options": ["じんこう", "にんこう", "じんく", "ひとくち"],
+    "answer": 0
+  },
+  {
+    "id": 396,
+    "cat": "kanji_reading",
+    "sentence": "天然資源を大切に使わなければならない。",
+    "target": "資源",
+    "options": ["しげん", "じげん", "しけん", "しえん"],
+    "answer": 0
+  },
+  {
+    "id": 397,
+    "cat": "kanji_reading",
+    "sentence": "工場からの公害が住民の健康を脅かしている。",
+    "target": "公害",
+    "options": ["こうがい", "くうがい", "こうかい", "こがい"],
+    "answer": 0
+  },
+  {
+    "id": 398,
+    "cat": "kanji_reading",
+    "sentence": "地震による災害に備えて訓練を行った。",
+    "target": "災害",
+    "options": ["さいがい", "ざいがい", "さいかい", "さいげい"],
+    "answer": 0
+  },
+  {
+    "id": 399,
+    "cat": "kanji_reading",
+    "sentence": "交差点で交通事故が発生した。",
+    "target": "事故",
+    "options": ["じこ", "しこ", "じっこ", "じご"],
+    "answer": 0
+  },
+  {
+    "id": 400,
+    "cat": "kanji_reading",
+    "sentence": "その事件は全国的に大きな注目を集めた。",
+    "target": "事件",
+    "options": ["じけん", "しけん", "じげん", "じかん"],
+    "answer": 0
+  },
+  {
+    "id": 401,
+    "cat": "kanji_reading",
+    "sentence": "早起きの習慣を身につけるようにしている。",
+    "target": "習慣",
+    "options": ["しゅうかん", "しゅかん", "しゅうがん", "じゅうかん"],
+    "answer": 0
+  },
+  {
+    "id": 402,
+    "cat": "kanji_reading",
+    "sentence": "この祭りは古い伝統を受け継いでいる。",
+    "target": "伝統",
+    "options": ["でんとう", "てんとう", "でんどう", "でんちょう"],
+    "answer": 0
+  },
+  {
+    "id": 403,
+    "cat": "kanji_reading",
+    "sentence": "この地域にはさまざまな宗教が共存している。",
+    "target": "宗教",
+    "options": ["しゅうきょう", "そうきょう", "すうきょう", "しゅきょう"],
+    "answer": 0
+  },
+  {
+    "id": 404,
+    "cat": "kanji_reading",
+    "sentence": "この美術館には近代の芸術作品が展示されている。",
+    "target": "芸術",
+    "options": ["げいじゅつ", "けいじゅつ", "げいじつ", "げいしゅつ"],
+    "answer": 0
+  },
+  {
+    "id": 405,
+    "cat": "kanji_reading",
+    "sentence": "彼女は大学で日本文学を専攻している。",
+    "target": "文学",
+    "options": ["ぶんがく", "もんがく", "ぶんかく", "ふんがく"],
+    "answer": 0
+  },
+  {
+    "id": 406,
+    "cat": "kanji_reading",
+    "sentence": "科学の進歩が生活を大きく変えた。",
+    "target": "科学",
+    "options": ["かがく", "きがく", "かかく", "こがく"],
+    "answer": 0
+  },
+  {
+    "id": 407,
+    "cat": "kanji_reading",
+    "sentence": "医学の発達により多くの病気が治療できるようになった。",
+    "target": "医学",
+    "options": ["いがく", "いかく", "いきょう", "えがく"],
+    "answer": 0
+  },
+  {
+    "id": 408,
+    "cat": "kanji_reading",
+    "sentence": "西洋哲学を大学で深く学んだ。",
+    "target": "哲学",
+    "options": ["てつがく", "てきがく", "てっかく", "せつがく"],
+    "answer": 0
+  },
+  {
+    "id": 409,
+    "cat": "kanji_reading",
+    "sentence": "犯罪者の心理を理解するのは容易ではない。",
+    "target": "心理",
+    "options": ["しんり", "こころり", "じんり", "しんれい"],
+    "answer": 0
+  },
+  {
+    "id": 410,
+    "cat": "kanji_reading",
+    "sentence": "数学の問題を論理的に考える習慣をつけよう。",
+    "target": "論理",
+    "options": ["ろんり", "ろんれい", "ろうり", "りんり"],
+    "answer": 0
+  },
+  {
+    "id": 411,
+    "cat": "kanji_reading",
+    "sentence": "医療における倫理の問題が議論されている。",
+    "target": "倫理",
+    "options": ["りんり", "ろんり", "れんり", "りんれい"],
+    "answer": 0
+  },
+  {
+    "id": 412,
+    "cat": "kanji_reading",
+    "sentence": "彼の思想は多くの人々に影響を与えた。",
+    "target": "思想",
+    "options": ["しそう", "しそ", "じそう", "しぞう"],
+    "answer": 0
+  },
+  {
+    "id": 413,
+    "cat": "kanji_reading",
+    "sentence": "自由という概念は時代とともに変化してきた。",
+    "target": "概念",
+    "options": ["がいねん", "かいねん", "がいでん", "げんねん"],
+    "answer": 0
+  },
+  {
+    "id": 414,
+    "cat": "kanji_reading",
+    "sentence": "新しい理論を証明するための実験が行われた。",
+    "target": "理論",
+    "options": ["りろん", "りうん", "りごん", "れろん"],
+    "answer": 0
+  },
+  {
+    "id": 415,
+    "cat": "kanji_reading",
+    "sentence": "この用語の定義を辞書で調べた。",
+    "target": "定義",
+    "options": ["ていぎ", "じょうぎ", "ていき", "ていけい"],
+    "answer": 0
+  },
+  {
+    "id": 416,
+    "cat": "kanji_reading",
+    "sentence": "この報告書は客観的な証拠に基づいている。",
+    "target": "証拠",
+    "options": ["しょうこ", "しょうきょ", "せいこ", "しょうご"],
+    "answer": 0
+  },
+  {
+    "id": 417,
+    "cat": "kanji_reading",
+    "sentence": "報道は事実に基づくべきだ。",
+    "target": "事実",
+    "options": ["じじつ", "しじつ", "じじち", "じみ"],
+    "answer": 0
+  },
+  {
+    "id": 418,
+    "cat": "kanji_reading",
+    "sentence": "やがて真実が明らかになるだろう。",
+    "target": "真実",
+    "options": ["しんじつ", "しんみ", "まじつ", "しんしつ"],
+    "answer": 0
+  },
+  {
+    "id": 419,
+    "cat": "kanji_reading",
+    "sentence": "理想と現実の間にはギャップがある。",
+    "target": "現実",
+    "options": ["げんじつ", "げんしつ", "けんじつ", "げんみ"],
+    "answer": 0
+  },
+  {
+    "id": 420,
+    "cat": "kanji_reading",
+    "sentence": "理想を追い求めるだけでは前に進めない。",
+    "target": "理想",
+    "options": ["りそう", "りぞう", "りしょう", "りっそう"],
+    "answer": 0
+  },
+  {
+    "id": 421,
+    "cat": "kanji_reading",
+    "sentence": "今年の目標は毎日30分運動することだ。",
+    "target": "目標",
+    "options": ["もくひょう", "めひょう", "もくびょう", "もっぴょう"],
+    "answer": 0
+  },
+  {
+    "id": 422,
+    "cat": "kanji_reading",
+    "sentence": "効率的な方法を見つけて作業を進めた。",
+    "target": "方法",
+    "options": ["ほうほう", "ほうぼう", "ぼうほう", "ほうはつ"],
+    "answer": 0
+  },
+  {
+    "id": 423,
+    "cat": "kanji_reading",
+    "sentence": "長い議論の末にようやく結論が出た。",
+    "target": "結論",
+    "options": ["けつろん", "けっろん", "けいろん", "けつうん"],
+    "answer": 0
+  },
+  {
+    "id": 424,
+    "cat": "kanji_reading",
+    "sentence": "原則として、すべての人が規則を守るべきだ。",
+    "target": "原則",
+    "options": ["げんそく", "がんそく", "げんのり", "けんそく"],
+    "answer": 0
+  },
+  {
+    "id": 425,
+    "cat": "kanji_reading",
+    "sentence": "この規則にはいくつかの例外がある。",
+    "target": "例外",
+    "options": ["れいがい", "れいげ", "れいそと", "れいかい"],
+    "answer": 0
+  },
+  {
+    "id": 426,
+    "cat": "kanji_reading",
+    "sentence": "両者の意見には大きな相違がある。",
+    "target": "相違",
+    "options": ["そうい", "そうちがい", "しょうい", "そうぎ"],
+    "answer": 0
+  },
+  {
+    "id": 427,
+    "cat": "kanji_reading",
+    "sentence": "彼の言動には矛盾が見られる。",
+    "target": "矛盾",
+    "options": ["むじゅん", "ぼうじゅん", "むとん", "ほこじゅん"],
+    "answer": 0
+  },
+  {
+    "id": 428,
+    "cat": "kanji_reading",
+    "sentence": "需要と供給の均衡が崩れている。",
+    "target": "均衡",
+    "options": ["きんこう", "いんこう", "きんぼう", "くんこう"],
+    "answer": 0
+  },
+  {
+    "id": 429,
+    "cat": "kanji_reading",
+    "sentence": "男女の比率はほぼ半々だった。",
+    "target": "比率",
+    "options": ["ひりつ", "びりつ", "ひそつ", "ひれい"],
+    "answer": 0
+  },
+  {
+    "id": 430,
+    "cat": "kanji_reading",
+    "sentence": "高齢者の割合が年々増えている。",
+    "target": "割合",
+    "options": ["わりあい", "かつあい", "かつごう", "わりごう"],
+    "answer": 0
+  },
+  {
+    "id": 431,
+    "cat": "kanji_reading",
+    "sentence": "嵐の夜は風雨が激しかった。",
+    "target": "激しい",
+    "options": ["はげしい", "きびしい", "むずかしい", "くわしい"],
+    "answer": 0
+  },
+  {
+    "id": 432,
+    "cat": "kanji_reading",
+    "sentence": "今年の冬は寒さが厳しい。",
+    "target": "厳しい",
+    "options": ["きびしい", "はげしい", "けわしい", "まずしい"],
+    "answer": 0
+  },
+  {
+    "id": 433,
+    "cat": "kanji_reading",
+    "sentence": "山の頂上からの眺めは素晴らしかった。",
+    "target": "素晴らしい",
+    "options": ["すばらしい", "すさまじい", "そばらしい", "すぼらしい"],
+    "answer": 0
+  },
+  {
+    "id": 434,
+    "cat": "kanji_reading",
+    "sentence": "この数年間で技術は著しく進歩した。",
+    "target": "著しい",
+    "options": ["いちじるしい", "したしい", "ちじるしい", "あらわしい"],
+    "answer": 0
+  },
+  {
+    "id": 435,
+    "cat": "kanji_reading",
+    "sentence": "戦後、国民の生活は貧しかった。",
+    "target": "貧しい",
+    "options": ["まずしい", "くるしい", "さびしい", "むなしい"],
+    "answer": 0
+  },
+  {
+    "id": 436,
+    "cat": "kanji_reading",
+    "sentence": "彼女は鋭い質問で議論をリードした。",
+    "target": "鋭い",
+    "options": ["するどい", "にぶい", "かたい", "つよい"],
+    "answer": 0
+  },
+  {
+    "id": 437,
+    "cat": "kanji_reading",
+    "sentence": "幼い子供を一人で留守番させてはいけない。",
+    "target": "幼い",
+    "options": ["おさない", "あどけない", "わかい", "ちいさい"],
+    "answer": 0
+  },
+  {
+    "id": 438,
+    "cat": "kanji_reading",
+    "sentence": "人前で失敗して恥ずかしい思いをした。",
+    "target": "恥ずかしい",
+    "options": ["はずかしい", "くやしい", "うらやましい", "おそろしい"],
+    "answer": 0
+  },
+  {
+    "id": 439,
+    "cat": "kanji_reading",
+    "sentence": "決勝で負けたのが本当に悔しい。",
+    "target": "悔しい",
+    "options": ["くやしい", "はずかしい", "おしい", "かなしい"],
+    "answer": 0
+  },
+  {
+    "id": 440,
+    "cat": "kanji_reading",
+    "sentence": "あの人の行動はどうも怪しい。",
+    "target": "怪しい",
+    "options": ["あやしい", "おかしい", "さびしい", "くわしい"],
+    "answer": 0
+  },
+  {
+    "id": 441,
+    "cat": "kanji_reading",
+    "sentence": "彼は反応が鈍いところがある。",
+    "target": "鈍い",
+    "options": ["にぶい", "するどい", "ぬるい", "あつい"],
+    "answer": 0
+  },
+  {
+    "id": 442,
+    "cat": "kanji_reading",
+    "sentence": "あと一歩のところで負けて惜しい試合だった。",
+    "target": "惜しい",
+    "options": ["おしい", "くやしい", "かなしい", "いとしい"],
+    "answer": 0
+  },
+  {
+    "id": 443,
+    "cat": "kanji_reading",
+    "sentence": "彼女とは学生時代から親しい間柄だ。",
+    "target": "親しい",
+    "options": ["したしい", "やさしい", "いとしい", "うつくしい"],
+    "answer": 0
+  },
+  {
+    "id": 444,
+    "cat": "kanji_reading",
+    "sentence": "全員の能力が等しく評価されるべきだ。",
+    "target": "等しい",
+    "options": ["ひとしい", "たのしい", "うつくしい", "やさしい"],
+    "answer": 0
+  },
+  {
+    "id": 445,
+    "cat": "kanji_reading",
+    "sentence": "この地域は水資源が乏しい。",
+    "target": "乏しい",
+    "options": ["とぼしい", "まずしい", "くるしい", "さびしい"],
+    "answer": 0
+  },
+  {
+    "id": 446,
+    "cat": "kanji_reading",
+    "sentence": "被害が甚だしく、復旧には時間がかかる。",
+    "target": "甚だしい",
+    "options": ["はなはだしい", "いちじるしい", "おびただしい", "そうぞうしい"],
+    "answer": 0
+  },
+  {
+    "id": 447,
+    "cat": "kanji_reading",
+    "sentence": "外交問題には好ましい解決策が必要だ。",
+    "target": "好ましい",
+    "options": ["このましい", "たのましい", "よろこばしい", "やかましい"],
+    "answer": 0
+  },
+  {
+    "id": 448,
+    "cat": "kanji_reading",
+    "sentence": "朝から慌ただしい一日が始まった。",
+    "target": "慌ただしい",
+    "options": ["あわただしい", "さわがしい", "はなはだしい", "むずかしい"],
+    "answer": 0
+  },
+  {
+    "id": 449,
+    "cat": "kanji_reading",
+    "sentence": "隣の部屋が騒がしくて勉強に集中できない。",
+    "target": "騒がしい",
+    "options": ["さわがしい", "あわただしい", "うるわしい", "やかましい"],
+    "answer": 0
+  },
+  {
+    "id": 450,
+    "cat": "kanji_reading",
+    "sentence": "手続きが煩わしくて嫌になった。",
+    "target": "煩わしい",
+    "options": ["わずらわしい", "そうぞうしい", "うるわしい", "かまわしい"],
+    "answer": 0
+  },
+  {
+    "id": 451,
+    "cat": "kanji_reading",
+    "sentence": "春風が快い季節になった。",
+    "target": "快い",
+    "options": ["こころよい", "いさぎよい", "かるい", "よろこばしい"],
+    "answer": 0
+  },
+  {
+    "id": 452,
+    "cat": "kanji_reading",
+    "sentence": "彼は潔く自分の過ちを認めた。",
+    "target": "潔い",
+    "options": ["いさぎよい", "こころよい", "うつくしい", "きよい"],
+    "answer": 0
+  },
+  {
+    "id": 453,
+    "cat": "kanji_reading",
+    "sentence": "彼は体格が逞しく、スポーツ万能だ。",
+    "target": "逞しい",
+    "options": ["たくましい", "いさましい", "はげしい", "おそろしい"],
+    "answer": 0
+  },
+  {
+    "id": 454,
+    "cat": "kanji_reading",
+    "sentence": "兵士たちの勇ましい姿に感動した。",
+    "target": "勇ましい",
+    "options": ["いさましい", "たくましい", "はげましい", "のぞましい"],
+    "answer": 0
+  },
+  {
+    "id": 455,
+    "cat": "kanji_reading",
+    "sentence": "朝の清々しい空気を吸って気持ちが良い。",
+    "target": "清々しい",
+    "options": ["すがすがしい", "きよきよしい", "そうそうしい", "さわさわしい"],
+    "answer": 0
+  },
+  {
+    "id": 456,
+    "cat": "kanji_reading",
+    "sentence": "努力が報われず空しい気持ちになった。",
+    "target": "空しい",
+    "options": ["むなしい", "さびしい", "かなしい", "そらしい"],
+    "answer": 0
+  },
+  {
+    "id": 457,
+    "cat": "kanji_reading",
+    "sentence": "若くして亡くなった彼の人生は儚かった。",
+    "target": "儚い",
+    "options": ["はかない", "むなしい", "せつない", "かなしい"],
+    "answer": 0
+  },
+  {
+    "id": 458,
+    "cat": "kanji_reading",
+    "sentence": "別れの場面を見て切ない気持ちになった。",
+    "target": "切ない",
+    "options": ["せつない", "はかない", "くやしい", "むなしい"],
+    "answer": 0
+  },
+  {
+    "id": 459,
+    "cat": "kanji_reading",
+    "sentence": "事故の知らせを受けて直ちに現場へ向かった。",
+    "target": "直ちに",
+    "options": ["ただちに", "じきちに", "なおちに", "すぐちに"],
+    "answer": 0
+  },
+  {
+    "id": 460,
+    "cat": "kanji_reading",
+    "sentence": "彼の体調は次第に良くなっている。",
+    "target": "次第に",
+    "options": ["しだいに", "つぎだいに", "じだいに", "しだに"],
+    "answer": 0
+  },
+  {
+    "id": 461,
+    "cat": "kanji_reading",
+    "sentence": "彼女は常にポジティブな姿勢を保っている。",
+    "target": "常に",
+    "options": ["つねに", "とこに", "じょうに", "とわに"],
+    "answer": 0
+  },
+  {
+    "id": 462,
+    "cat": "kanji_reading",
+    "sentence": "批判するよりも、むしろ自分で行動すべきだ。",
+    "target": "むしろ",
+    "options": ["むしろ", "むしら", "むしり", "むしれ"],
+    "answer": 0
+  },
+  {
+    "id": 463,
+    "cat": "kanji_reading",
+    "sentence": "辛うじて最終電車に間に合った。",
+    "target": "辛うじて",
+    "options": ["かろうじて", "つらうじて", "からうじて", "しんうじて"],
+    "answer": 0
+  },
+  {
+    "id": 464,
+    "cat": "kanji_reading",
+    "sentence": "調査結果は概ね予想通りだった。",
+    "target": "概ね",
+    "options": ["おおむね", "がいね", "あらむね", "おもむね"],
+    "answer": 0
+  },
+  {
+    "id": 465,
+    "cat": "kanji_reading",
+    "sentence": "旅行の準備は予め済ませておいた方がいい。",
+    "target": "予め",
+    "options": ["あらかじめ", "かねめ", "まえめ", "よめ"],
+    "answer": 0
+  },
+  {
+    "id": 466,
+    "cat": "kanji_reading",
+    "sentence": "反対意見があっても敢えて提案した。",
+    "target": "敢えて",
+    "options": ["あえて", "かえて", "たえて", "まえて"],
+    "answer": 0
+  },
+  {
+    "id": 467,
+    "cat": "kanji_reading",
+    "sentence": "彼は専ら研究活動に時間を費やしている。",
+    "target": "専ら",
+    "options": ["もっぱら", "せんら", "もはら", "むしら"],
+    "answer": 0
+  },
+  {
+    "id": 468,
+    "cat": "kanji_reading",
+    "sentence": "気温が僅かに上昇した。",
+    "target": "僅かに",
+    "options": ["わずかに", "かすかに", "ひそかに", "ほのかに"],
+    "answer": 0
+  },
+  {
+    "id": 469,
+    "cat": "kanji_reading",
+    "sentence": "チームメンバーが互いに助け合った。",
+    "target": "互いに",
+    "options": ["たがいに", "あいに", "ごいに", "そいに"],
+    "answer": 0
+  },
+  {
+    "id": 470,
+    "cat": "kanji_reading",
+    "sentence": "スケジュールを改めて確認させてください。",
+    "target": "改めて",
+    "options": ["あらためて", "きわめて", "はじめて", "つとめて"],
+    "answer": 0
+  },
+  {
+    "id": 471,
+    "cat": "kanji_reading",
+    "sentence": "この問題は極めて重要だ。",
+    "target": "極めて",
+    "options": ["きわめて", "あらためて", "つとめて", "はじめて"],
+    "answer": 0
+  },
+  {
+    "id": 472,
+    "cat": "kanji_reading",
+    "sentence": "成績が良いからといって必ずしも優秀とは限らない。",
+    "target": "必ずしも",
+    "options": ["かならずしも", "ひつずしも", "かならじも", "ひっすしも"],
+    "answer": 0
+  },
+  {
+    "id": 473,
+    "cat": "kanji_reading",
+    "sentence": "合図とともに全員が一斉に走り出した。",
+    "target": "一斉に",
+    "options": ["いっせいに", "いちさいに", "いっせに", "いちせいに"],
+    "answer": 0
+  },
+  {
+    "id": 474,
+    "cat": "kanji_reading",
+    "sentence": "一応、明日の天気予報を確認しておこう。",
+    "target": "一応",
+    "options": ["いちおう", "いっぽう", "いっとう", "いちよう"],
+    "answer": 0
+  },
+  {
+    "id": 475,
+    "cat": "kanji_reading",
+    "sentence": "わざわざ遠くからお越しいただきありがとうございます。",
+    "target": "わざわざ",
+    "options": ["わざわざ", "わぜわぜ", "わずわず", "わじわじ"],
+    "answer": 0
+  },
+  {
+    "id": 476,
+    "cat": "kanji_reading",
+    "sentence": "長い交渉の末、ようやく合意に達した。",
+    "target": "ようやく",
+    "options": ["ようやく", "ゆうやく", "よやく", "やうやく"],
+    "answer": 0
+  },
+  {
+    "id": 477,
+    "cat": "kanji_reading",
+    "sentence": "新入社員に仕事の手順を伝える役割を任された。",
+    "target": "伝える",
+    "options": ["つたえる", "かかえる", "たえる", "そなえる"],
+    "answer": 0
+  },
+  {
+    "id": 478,
+    "cat": "kanji_reading",
+    "sentence": "この地域の気候は農作物の栽培に適している。",
+    "target": "栽培",
+    "options": ["さいばい", "せいばい", "さいはい", "さいまい"],
+    "answer": 0
+  },
+  {
+    "id": 479,
+    "cat": "kanji_reading",
+    "sentence": "会議室の予約状況を確認してください。",
+    "target": "予約",
+    "options": ["よやく", "よわく", "よきゃく", "よあく"],
+    "answer": 0
+  },
+  {
+    "id": 480,
+    "cat": "kanji_reading",
+    "sentence": "彼女は文章を正確に翻訳する能力を持っている。",
+    "target": "正確",
+    "options": ["せいかく", "しょうかく", "せいがく", "せいこく"],
+    "answer": 0
+  },
+  {
+    "id": 481,
+    "cat": "kanji_reading",
+    "sentence": "退職後は趣味の陶芸を楽しんでいる。",
+    "target": "退職",
+    "options": ["たいしょく", "だいしょく", "たいしき", "たいそく"],
+    "answer": 0
+  },
+  {
+    "id": 482,
+    "cat": "kanji_reading",
+    "sentence": "都市部の住宅価格は依然として高い。",
+    "target": "依然",
+    "options": ["いぜん", "いねん", "えぜん", "いそん"],
+    "answer": 0
+  },
+  {
+    "id": 483,
+    "cat": "kanji_reading",
+    "sentence": "彼は祖父から受け継いだ遺産で事業を始めた。",
+    "target": "遺産",
+    "options": ["いさん", "えさん", "いざん", "いかん"],
+    "answer": 0
+  },
+  {
+    "id": 484,
+    "cat": "kanji_reading",
+    "sentence": "不規則な生活が原因で体調を崩した。",
+    "target": "原因",
+    "options": ["げんいん", "げいいん", "がんいん", "げんにん"],
+    "answer": 0
+  },
+  {
+    "id": 485,
+    "cat": "kanji_reading",
+    "sentence": "実験によって得られた結果は有力な手がかりだ。",
+    "target": "有力",
+    "options": ["ゆうりょく", "うりょく", "ゆうりき", "ゆりょく"],
+    "answer": 0
+  },
+  {
+    "id": 486,
+    "cat": "kanji_reading",
+    "sentence": "子供のころから天文学に興味を持っていた。",
+    "target": "興味",
+    "options": ["きょうみ", "きょうあじ", "こうみ", "きゅうみ"],
+    "answer": 0
+  },
+  {
+    "id": 487,
+    "cat": "kanji_reading",
+    "sentence": "両国間の文化交流を促進するイベントが開催された。",
+    "target": "開催",
+    "options": ["かいさい", "かいせい", "がいさい", "かいざい"],
+    "answer": 0
+  },
+  {
+    "id": 488,
+    "cat": "kanji_reading",
+    "sentence": "緊急事態が発生し、住民は速やかに避難した。",
+    "target": "避難",
+    "options": ["ひなん", "ひかん", "びなん", "ひだん"],
+    "answer": 0
+  },
+  {
+    "id": 489,
+    "cat": "kanji_reading",
+    "sentence": "この湖は冬になると徐々に凍っていく。",
+    "target": "徐々に",
+    "options": ["じょじょに", "しょしょに", "じゅじゅに", "ぜぜに"],
+    "answer": 0
+  },
+  {
+    "id": 490,
+    "cat": "kanji_reading",
+    "sentence": "彼は新しいことに果敢に挑戦している。",
+    "target": "挑戦",
+    "options": ["ちょうせん", "とうせん", "ちゅうせん", "ちょうぜん"],
+    "answer": 0
+  },
+  {
+    "id": 491,
+    "cat": "kanji_reading",
+    "sentence": "新しいビジネスモデルの構築に取り組んでいる。",
+    "target": "構築",
+    "options": ["こうちく", "こうきく", "こうつく", "ぐちく"],
+    "answer": 0
+  },
+  {
+    "id": 492,
+    "cat": "kanji_reading",
+    "sentence": "彼は長年の功績により表彰された。",
+    "target": "功績",
+    "options": ["こうせき", "こうじゃく", "くうせき", "こうあと"],
+    "answer": 0
+  },
+  {
+    "id": 493,
+    "cat": "kanji_reading",
+    "sentence": "その学者は幅広い見識を持っている。",
+    "target": "見識",
+    "options": ["けんしき", "みしき", "けんしょく", "げんしき"],
+    "answer": 0
+  },
+  {
+    "id": 494,
+    "cat": "kanji_reading",
+    "sentence": "新しい法律の施行が来月に迫っている。",
+    "target": "施行",
+    "options": ["しこう", "せこう", "しぎょう", "しいく"],
+    "answer": 0
+  },
+  {
+    "id": 495,
+    "cat": "kanji_reading",
+    "sentence": "合格の可能性が高いと言われて安堵した。",
+    "target": "安堵",
+    "options": ["あんど", "あんと", "あんず", "やすど"],
+    "answer": 0
+  },
+  {
+    "id": 496,
+    "cat": "kanji_reading",
+    "sentence": "毎月の家計の収支を把握することが大切だ。",
+    "target": "収支",
+    "options": ["しゅうし", "しゅし", "しゅうじ", "しゅっし"],
+    "answer": 0
+  },
+  {
+    "id": 497,
+    "cat": "kanji_reading",
+    "sentence": "住民の意見を尊重して計画を見直した。",
+    "target": "尊重",
+    "options": ["そんちょう", "そんじゅう", "とうちょう", "そんちゅう"],
+    "answer": 0
+  },
+  {
+    "id": 498,
+    "cat": "kanji_reading",
+    "sentence": "新しい薬の臨床試験が行われている。",
+    "target": "臨床",
+    "options": ["りんしょう", "りんとこ", "りんじょう", "いんしょう"],
+    "answer": 0
+  },
+  {
+    "id": 499,
+    "cat": "kanji_reading",
+    "sentence": "彼女は受験に合格し、喜びを噛みしめた。",
+    "target": "合格",
+    "options": ["ごうかく", "がっかく", "ごうこく", "ごかく"],
+    "answer": 0
+  },
+  {
+    "id": 500,
+    "cat": "kanji_reading",
+    "sentence": "社長は全社員に向けて訓示を述べた。",
+    "target": "訓示",
+    "options": ["くんじ", "くんし", "きんし", "くんじん"],
+    "answer": 0
+  },
+  {
+    "id": 501,
+    "cat": "kanji_reading",
+    "sentence": "この地域の地形は複雑で険しい。",
+    "target": "地形",
+    "options": ["ちけい", "じけい", "ちかた", "ちぎょう"],
+    "answer": 0
+  },
+  {
+    "id": 502,
+    "cat": "kanji_reading",
+    "sentence": "温泉で疲労を回復させた。",
+    "target": "疲労",
+    "options": ["ひろう", "びろう", "ひうつ", "ひるう"],
+    "answer": 0
+  },
+  {
+    "id": 503,
+    "cat": "kanji_reading",
+    "sentence": "彼は優秀な成績で大学を卒業した。",
+    "target": "優秀",
+    "options": ["ゆうしゅう", "うしゅう", "ゆうしゅ", "ゆうすう"],
+    "answer": 0
+  },
+  {
+    "id": 504,
+    "cat": "kanji_reading",
+    "sentence": "政府は新しい経済政策を発表した。",
+    "target": "政策",
+    "options": ["せいさく", "しょうさく", "せいしゃく", "せいきゃく"],
+    "answer": 0
+  },
+  {
+    "id": 505,
+    "cat": "kanji_reading",
+    "sentence": "工事現場では安全対策を徹底しなければならない。",
+    "target": "徹底",
+    "options": ["てってい", "てっち", "てつてい", "でってい"],
+    "answer": 0
+  },
+  {
+    "id": 506,
+    "cat": "kanji_reading",
+    "sentence": "感染症の拡大を防止する措置が取られた。",
+    "target": "防止",
+    "options": ["ぼうし", "ほうし", "ぼうじ", "ほうじ"],
+    "answer": 0
+  },
+  {
+    "id": 507,
+    "cat": "kanji_reading",
+    "sentence": "地震に備えて非常食を備蓄している。",
+    "target": "備蓄",
+    "options": ["びちく", "びたく", "ひちく", "びつく"],
+    "answer": 0
+  },
+  {
+    "id": 508,
+    "cat": "kanji_reading",
+    "sentence": "彼は社会貢献活動に積極的に参加している。",
+    "target": "貢献",
+    "options": ["こうけん", "くうけん", "こうかん", "きょうけん"],
+    "answer": 0
+  },
+  {
+    "id": 509,
+    "cat": "kanji_reading",
+    "sentence": "書類を提出する期限が迫っている。",
+    "target": "期限",
+    "options": ["きげん", "きかん", "きけん", "きぎん"],
+    "answer": 0
+  },
+  {
+    "id": 510,
+    "cat": "kanji_reading",
+    "sentence": "若者の就職難が深刻な問題になっている。",
+    "target": "深刻",
+    "options": ["しんこく", "じんこく", "しんかく", "しんごく"],
+    "answer": 0
+  },
+  {
+    "id": 511,
+    "cat": "kanji_reading",
+    "sentence": "この製品は品質が保証されている。",
+    "target": "保証",
+    "options": ["ほしょう", "ほうしょう", "ぼしょう", "ほじょう"],
+    "answer": 0
+  },
+  {
+    "id": 512,
+    "cat": "kanji_reading",
+    "sentence": "彼女は任務を忠実に遂行した。",
+    "target": "遂行",
+    "options": ["すいこう", "ついこう", "じゅこう", "ずいこう"],
+    "answer": 0
+  },
+  {
+    "id": 513,
+    "cat": "kanji_reading",
+    "sentence": "新しい制度の導入について議論が続いている。",
+    "target": "導入",
+    "options": ["どうにゅう", "どうにう", "しゅうにゅう", "どういり"],
+    "answer": 0
+  },
+  {
+    "id": 514,
+    "cat": "kanji_reading",
+    "sentence": "今後の対応について慎重に検討している。",
+    "target": "慎重",
+    "options": ["しんちょう", "じんちょう", "しんじゅう", "ちんちょう"],
+    "answer": 0
+  },
+  {
+    "id": 515,
+    "cat": "kanji_reading",
+    "sentence": "彼の独創的なアイデアが高く評価された。",
+    "target": "独創",
+    "options": ["どくそう", "どくしょう", "どっそう", "どくじょう"],
+    "answer": 0
+  },
+  {
+    "id": 516,
+    "cat": "kanji_reading",
+    "sentence": "この地域は自然が豊富で観光客が多い。",
+    "target": "豊富",
+    "options": ["ほうふ", "ゆうふ", "ほうとみ", "ぼうふ"],
+    "answer": 0
+  },
+  {
+    "id": 517,
+    "cat": "kanji_reading",
+    "sentence": "彼女は冷静に状況を分析した。",
+    "target": "冷静",
+    "options": ["れいせい", "れいじょう", "ひやせい", "れいしず"],
+    "answer": 0
+  },
+  {
+    "id": 518,
+    "cat": "kanji_reading",
+    "sentence": "裁判所は被告に対して有罪の判決を下した。",
+    "target": "判決",
+    "options": ["はんけつ", "ばんけつ", "はんきつ", "はんげつ"],
+    "answer": 0
+  },
+  {
+    "id": 519,
+    "cat": "kanji_reading",
+    "sentence": "その企業は急速に成長している。",
+    "target": "急速",
+    "options": ["きゅうそく", "ぎゅうそく", "きゅうぞく", "きっそく"],
+    "answer": 0
+  },
+  {
+    "id": 520,
+    "cat": "kanji_reading",
+    "sentence": "市民の安全を確保するために警備が強化された。",
+    "target": "確保",
+    "options": ["かくほ", "かくぼ", "がくほ", "かくも"],
+    "answer": 0
+  },
+  {
+    "id": 521,
+    "cat": "kanji_reading",
+    "sentence": "会議で今後の方向性について議論した。",
+    "target": "方向",
+    "options": ["ほうこう", "ほうきょう", "ぼうこう", "ほうかう"],
+    "answer": 0
+  },
+  {
+    "id": 522,
+    "cat": "kanji_reading",
+    "sentence": "予算の不足が事業の障害となっている。",
+    "target": "障害",
+    "options": ["しょうがい", "そうがい", "しょうかい", "じょうがい"],
+    "answer": 0
+  },
+  {
+    "id": 523,
+    "cat": "kanji_reading",
+    "sentence": "入社試験の面接で緊張してうまく話せなかった。",
+    "target": "緊張",
+    "options": ["きんちょう", "きんぞう", "けんちょう", "ぎんちょう"],
+    "answer": 0
+  },
+  {
+    "id": 524,
+    "cat": "kanji_reading",
+    "sentence": "外交官としての豊かな経歴を持っている。",
+    "target": "経歴",
+    "options": ["けいれき", "きょうれき", "けいりき", "けいりゃく"],
+    "answer": 0
+  },
+  {
+    "id": 525,
+    "cat": "kanji_reading",
+    "sentence": "社員の勤務態度を評価する制度がある。",
+    "target": "勤務",
+    "options": ["きんむ", "きんぶ", "ごんむ", "きんめ"],
+    "answer": 0
+  },
+  {
+    "id": 526,
+    "cat": "kanji_reading",
+    "sentence": "日本の伝統芸能を海外に紹介する活動をしている。",
+    "target": "紹介",
+    "options": ["しょうかい", "しゅうかい", "しょうがい", "せいかい"],
+    "answer": 0
+  },
+  {
+    "id": 527,
+    "cat": "kanji_reading",
+    "sentence": "新しい技術の普及により生活が便利になった。",
+    "target": "普及",
+    "options": ["ふきゅう", "ふぎゅう", "ぼきゅう", "ふかい"],
+    "answer": 0
+  },
+  {
+    "id": 528,
+    "cat": "kanji_reading",
+    "sentence": "大学で講義を受けて知識を深めた。",
+    "target": "講義",
+    "options": ["こうぎ", "こうき", "きょうぎ", "こうけい"],
+    "answer": 0
+  },
+  {
+    "id": 529,
+    "cat": "kanji_reading",
+    "sentence": "仕事と私生活の調和を保つことが大切だ。",
+    "target": "調和",
+    "options": ["ちょうわ", "ちょうか", "しらわ", "ちゅうわ"],
+    "answer": 0
+  },
+  {
+    "id": 530,
+    "cat": "kanji_reading",
+    "sentence": "通勤時間を短縮するために引っ越しを考えている。",
+    "target": "短縮",
+    "options": ["たんしゅく", "たんしょく", "たんぞく", "だんしゅく"],
+    "answer": 0
+  },
+  {
+    "id": 531,
+    "cat": "kanji_reading",
+    "sentence": "担当者に書類を提出してください。",
+    "target": "提出",
+    "options": ["ていしゅつ", "だいしゅつ", "ていしゅう", "ていしゅち"],
+    "answer": 0
+  },
+  {
+    "id": 532,
+    "cat": "kanji_reading",
+    "sentence": "研究の成果を学術雑誌に掲載した。",
+    "target": "掲載",
+    "options": ["けいさい", "かいさい", "けっさい", "げさい"],
+    "answer": 0
+  },
+  {
+    "id": 533,
+    "cat": "kanji_reading",
+    "sentence": "地震で倒壊した建物の撤去が進んでいる。",
+    "target": "撤去",
+    "options": ["てっきょ", "てつきょ", "てつこ", "せっきょ"],
+    "answer": 0
+  },
+  {
+    "id": 534,
+    "cat": "kanji_reading",
+    "sentence": "都市部では住宅の需要が高まっている。",
+    "target": "需要",
+    "options": ["じゅよう", "しゅよう", "じゅうよう", "すよう"],
+    "answer": 0
+  },
+  {
+    "id": 535,
+    "cat": "kanji_reading",
+    "sentence": "若い世代の投票率が低いことが懸念されている。",
+    "target": "懸念",
+    "options": ["けねん", "けんねん", "かんねん", "げんねん"],
+    "answer": 0
+  },
+  {
+    "id": 536,
+    "cat": "kanji_reading",
+    "sentence": "社会の秩序を維持するために法律がある。",
+    "target": "秩序",
+    "options": ["ちつじょ", "しつじょ", "ちっぜ", "ちつおさ"],
+    "answer": 0
+  },
+  {
+    "id": 537,
+    "cat": "kanji_reading",
+    "sentence": "彼の演説は聴衆に深い感銘を与えた。",
+    "target": "感銘",
+    "options": ["かんめい", "かんみょう", "がんめい", "かんめ"],
+    "answer": 0
+  },
+  {
+    "id": 538,
+    "cat": "kanji_reading",
+    "sentence": "企業の利益が前年より大幅に増えた。",
+    "target": "利益",
+    "options": ["りえき", "りやく", "りかい", "りがい"],
+    "answer": 0
+  },
+  {
+    "id": 539,
+    "cat": "kanji_reading",
+    "sentence": "新しい条約の批准を国会で審議している。",
+    "target": "審議",
+    "options": ["しんぎ", "しんき", "ちんぎ", "じんぎ"],
+    "answer": 0
+  },
+  {
+    "id": 540,
+    "cat": "kanji_reading",
+    "sentence": "彼は自分の過失を素直に謝罪した。",
+    "target": "謝罪",
+    "options": ["しゃざい", "しゃさい", "じゃざい", "しゃぜい"],
+    "answer": 0
+  },
+  {
+    "id": 541,
+    "cat": "kanji_reading",
+    "sentence": "この問題の解答を裏のページに記載しています。",
+    "target": "記載",
+    "options": ["きさい", "きざい", "ぎさい", "きせい"],
+    "answer": 0
+  },
+  {
+    "id": 542,
+    "cat": "kanji_reading",
+    "sentence": "社員全員の意見を把握するのは難しい。",
+    "target": "把握",
+    "options": ["はあく", "ばあく", "はかく", "はやく"],
+    "answer": 0
+  },
+  {
+    "id": 543,
+    "cat": "kanji_reading",
+    "sentence": "顧客の満足度を向上させる取り組みを行っている。",
+    "target": "向上",
+    "options": ["こうじょう", "きょうじょう", "こうのぼ", "こうあが"],
+    "answer": 0
+  },
+  {
+    "id": 544,
+    "cat": "kanji_reading",
+    "sentence": "国際会議で各国の代表が発言した。",
+    "target": "代表",
+    "options": ["だいひょう", "たいひょう", "だいびょう", "だいぴょう"],
+    "answer": 0
+  },
+  {
+    "id": 545,
+    "cat": "kanji_reading",
+    "sentence": "国民の福祉を充実させる政策が求められている。",
+    "target": "福祉",
+    "options": ["ふくし", "ふくじ", "ぶくし", "ふくち"],
+    "answer": 0
+  },
+  {
+    "id": 546,
+    "cat": "kanji_reading",
+    "sentence": "この薬は副作用が少ないとされている。",
+    "target": "副作用",
+    "options": ["ふくさよう", "ふさよう", "ふくさくよう", "びくさよう"],
+    "answer": 0
+  },
+  {
+    "id": 547,
+    "cat": "kanji_reading",
+    "sentence": "その実験の結果は予想に反していた。",
+    "target": "予想",
+    "options": ["よそう", "よしょう", "よぞう", "よもう"],
+    "answer": 0
+  },
+  {
+    "id": 548,
+    "cat": "kanji_reading",
+    "sentence": "新しい制度は来年度から順次導入される。",
+    "target": "順次",
+    "options": ["じゅんじ", "じゅんし", "しゅんじ", "じゅんつぎ"],
+    "answer": 0
+  },
+  {
+    "id": 549,
+    "cat": "kanji_reading",
+    "sentence": "この法律は国民の権利を保障するものだ。",
+    "target": "保障",
+    "options": ["ほしょう", "ほじょう", "ぼしょう", "ほうしょう"],
+    "answer": 0
+  },
+  {
+    "id": 550,
+    "cat": "kanji_reading",
+    "sentence": "環境汚染の実態を明らかにする調査が行われた。",
+    "target": "実態",
+    "options": ["じったい", "じつたい", "しったい", "じつだい"],
+    "answer": 0
+  },
+  {
+    "id": 551,
+    "cat": "kanji_reading",
+    "sentence": "彼女は留学先で異文化に触れて視野が広がった。",
+    "target": "視野",
+    "options": ["しや", "しの", "じや", "しば"],
+    "answer": 0
+  },
+  {
+    "id": 552,
+    "cat": "kanji_reading",
+    "sentence": "新幹線の開通により地域の交流が活発になった。",
+    "target": "交流",
+    "options": ["こうりゅう", "こうるう", "きょうりゅう", "こうりゅ"],
+    "answer": 0
+  },
+  {
+    "id": 553,
+    "cat": "kanji_reading",
+    "sentence": "市長は市民との対話を重視している。",
+    "target": "対話",
+    "options": ["たいわ", "たいご", "だいわ", "ついわ"],
+    "answer": 0
+  },
+  {
+    "id": 554,
+    "cat": "kanji_reading",
+    "sentence": "契約書の内容を十分に理解してから署名した。",
+    "target": "契約",
+    "options": ["けいやく", "かいやく", "きやく", "けつやく"],
+    "answer": 0
+  },
+  {
+    "id": 555,
+    "cat": "kanji_reading",
+    "sentence": "大雨で河川が氾濫する恐れがある。",
+    "target": "氾濫",
+    "options": ["はんらん", "ぼんらん", "はんだん", "ばんらん"],
+    "answer": 0
+  },
+  {
+    "id": 556,
+    "cat": "kanji_reading",
+    "sentence": "選挙の結果が国の将来を左右する。",
+    "target": "選挙",
+    "options": ["せんきょ", "せんこ", "しんきょ", "せんけ"],
+    "answer": 0
+  },
+  {
+    "id": 557,
+    "cat": "kanji_reading",
+    "sentence": "研修を通じて専門知識を習得した。",
+    "target": "習得",
+    "options": ["しゅうとく", "しゅとく", "しゅうどく", "じゅうとく"],
+    "answer": 0
+  },
+  {
+    "id": 558,
+    "cat": "kanji_reading",
+    "sentence": "社会的な偏見をなくすための教育が必要だ。",
+    "target": "偏見",
+    "options": ["へんけん", "びんけん", "へんかん", "へんげん"],
+    "answer": 0
+  },
+  {
+    "id": 559,
+    "cat": "kanji_reading",
+    "sentence": "彼の主張は多くの人の共感を得た。",
+    "target": "共感",
+    "options": ["きょうかん", "くうかん", "ぐうかん", "きょうがん"],
+    "answer": 0
+  },
+  {
+    "id": 560,
+    "cat": "kanji_reading",
+    "sentence": "新しい事業の採算が取れるかどうか検討中だ。",
+    "target": "採算",
+    "options": ["さいさん", "しゅさん", "さいざん", "さいかん"],
+    "answer": 0
+  },
+  {
+    "id": 561,
+    "cat": "kanji_reading",
+    "sentence": "被災地の復興に向けた支援が続いている。",
+    "target": "復興",
+    "options": ["ふっこう", "ふくこう", "ふっきょう", "ばっこう"],
+    "answer": 0
+  },
+  {
+    "id": 562,
+    "cat": "kanji_reading",
+    "sentence": "夏休みに故郷へ帰省する予定だ。",
+    "target": "帰省",
+    "options": ["きせい", "かえしょう", "きしょう", "きそう"],
+    "answer": 0
+  },
+  {
+    "id": 563,
+    "cat": "kanji_reading",
+    "sentence": "交通事故の原因を究明する調査が始まった。",
+    "target": "究明",
+    "options": ["きゅうめい", "くうめい", "きゅうみょう", "きめい"],
+    "answer": 0
+  },
+  {
+    "id": 564,
+    "cat": "kanji_reading",
+    "sentence": "この地域では人手不足が深刻な課題だ。",
+    "target": "不足",
+    "options": ["ふそく", "ぶそく", "ふたり", "ふぞく"],
+    "answer": 0
+  },
+  {
+    "id": 565,
+    "cat": "kanji_reading",
+    "sentence": "健康診断の結果に異常はなかった。",
+    "target": "診断",
+    "options": ["しんだん", "じんだん", "しんたん", "しんかん"],
+    "answer": 0
+  },
+  {
+    "id": 566,
+    "cat": "kanji_reading",
+    "sentence": "彼女の歌声は透明感があり、聴衆を魅了した。",
+    "target": "魅了",
+    "options": ["みりょう", "びりょう", "めりょう", "みよう"],
+    "answer": 0
+  },
+  {
+    "id": 567,
+    "cat": "kanji_reading",
+    "sentence": "新しい空港の建設が承認された。",
+    "target": "承認",
+    "options": ["しょうにん", "じょうにん", "しょうみん", "しゅうにん"],
+    "answer": 0
+  },
+  {
+    "id": 568,
+    "cat": "kanji_reading",
+    "sentence": "近代建築の巨匠が設計した美術館を訪れた。",
+    "target": "巨匠",
+    "options": ["きょしょう", "こしょう", "きょじょう", "おおしょう"],
+    "answer": 0
+  },
+  {
+    "id": 569,
+    "cat": "kanji_reading",
+    "sentence": "大学入試の倍率が年々上がっている。",
+    "target": "倍率",
+    "options": ["ばいりつ", "はいりつ", "ばいそつ", "ばいれつ"],
+    "answer": 0
+  },
+  {
+    "id": 570,
+    "cat": "kanji_reading",
+    "sentence": "彼は仕事に対する姿勢が非常に真剣だ。",
+    "target": "姿勢",
+    "options": ["しせい", "しぜい", "じせい", "すせい"],
+    "answer": 0
+  },
+  {
+    "id": 571,
+    "cat": "kanji_reading",
+    "sentence": "地域の繁栄のために商業活動を支援している。",
+    "target": "繁栄",
+    "options": ["はんえい", "ばんえい", "はんかい", "はんさか"],
+    "answer": 0
+  },
+  {
+    "id": 572,
+    "cat": "kanji_reading",
+    "sentence": "この仕事は忍耐力が必要だ。",
+    "target": "忍耐",
+    "options": ["にんたい", "にんだい", "しんたい", "じんたい"],
+    "answer": 0
+  },
+  {
+    "id": 573,
+    "cat": "kanji_reading",
+    "sentence": "彼女は常に誠実な態度で仕事をしている。",
+    "target": "誠実",
+    "options": ["せいじつ", "しんじつ", "しょうじつ", "せいみ"],
+    "answer": 0
+  },
+  {
+    "id": 574,
+    "cat": "kanji_reading",
+    "sentence": "市の予算を削減するための方策が議論されている。",
+    "target": "削減",
+    "options": ["さくげん", "しゃくげん", "さくかん", "さっけん"],
+    "answer": 0
+  },
+  {
+    "id": 575,
+    "cat": "kanji_reading",
+    "sentence": "寄付金の一部は奨学金に充てられる。",
+    "target": "奨学金",
+    "options": ["しょうがくきん", "じょうがくきん", "しょがくきん", "しゅがくきん"],
+    "answer": 0
+  },
+  {
+    "id": 576,
+    "cat": "kanji_reading",
+    "sentence": "消費者の嗜好を調査して商品を開発した。",
+    "target": "嗜好",
+    "options": ["しこう", "じこう", "しごう", "しきょう"],
+    "answer": 0
+  },
+  {
+    "id": 577,
+    "cat": "kanji_reading",
+    "sentence": "新商品の販売が順調に推移している。",
+    "target": "推移",
+    "options": ["すいい", "ついい", "しゅい", "すいうつ"],
+    "answer": 0
+  },
+  {
+    "id": 578,
+    "cat": "kanji_reading",
+    "sentence": "この地域は豊かな自然に恵まれている。",
+    "target": "恵まれる",
+    "options": ["めぐまれる", "けいまれる", "あまれる", "えまれる"],
+    "answer": 0
+  },
+  {
+    "id": 579,
+    "cat": "kanji_reading",
+    "sentence": "大臣の発言が物議を醸した。",
+    "target": "醸す",
+    "options": ["かもす", "じょうす", "なます", "もどす"],
+    "answer": 0
+  },
+  {
+    "id": 580,
+    "cat": "kanji_reading",
+    "sentence": "社長は事業の拡大に意欲を見せている。",
+    "target": "拡大",
+    "options": ["かくだい", "こうだい", "がくだい", "きゅうだい"],
+    "answer": 0
+  },
+  {
+    "id": 581,
+    "cat": "kanji_reading",
+    "sentence": "環境保全のための規制が強化された。",
+    "target": "規制",
+    "options": ["きせい", "ぎせい", "きぜい", "きさい"],
+    "answer": 0
+  },
+  {
+    "id": 582,
+    "cat": "kanji_reading",
+    "sentence": "新入社員の研修期間は三か月だ。",
+    "target": "研修",
+    "options": ["けんしゅう", "けんしゅ", "かんしゅう", "けんしゅく"],
+    "answer": 0
+  },
+  {
+    "id": 583,
+    "cat": "kanji_reading",
+    "sentence": "卒業後の進路について真剣に悩んでいる。",
+    "target": "進路",
+    "options": ["しんろ", "じんろ", "しんみち", "しんじ"],
+    "answer": 0
+  },
+  {
+    "id": 584,
+    "cat": "kanji_reading",
+    "sentence": "この論文の趣旨がよく分からない。",
+    "target": "趣旨",
+    "options": ["しゅし", "しゅじ", "すし", "しゅうし"],
+    "answer": 0
+  },
+  {
+    "id": 585,
+    "cat": "kanji_reading",
+    "sentence": "高齢化社会における介護の問題が深刻だ。",
+    "target": "介護",
+    "options": ["かいご", "がいご", "かいこ", "きょうご"],
+    "answer": 0
+  },
+  {
+    "id": 586,
+    "cat": "kanji_reading",
+    "sentence": "この映画は戦争の悲惨さを描いている。",
+    "target": "悲惨",
+    "options": ["ひさん", "びさん", "ひざん", "ひかん"],
+    "answer": 0
+  },
+  {
+    "id": 587,
+    "cat": "kanji_reading",
+    "sentence": "技術革新によって産業構造が変化した。",
+    "target": "革新",
+    "options": ["かくしん", "がくしん", "かくじん", "かっしん"],
+    "answer": 0
+  },
+  {
+    "id": 588,
+    "cat": "kanji_reading",
+    "sentence": "国際協調の精神を大切にすべきだ。",
+    "target": "協調",
+    "options": ["きょうちょう", "ぎょうちょう", "きょうしらべ", "きょうどう"],
+    "answer": 0
+  },
+  {
+    "id": 589,
+    "cat": "kanji_reading",
+    "sentence": "あの政治家は有権者の信頼を勝ち取った。",
+    "target": "信頼",
+    "options": ["しんらい", "しんれい", "じんらい", "しんたい"],
+    "answer": 0
+  },
+  {
+    "id": 590,
+    "cat": "kanji_reading",
+    "sentence": "新しい薬の効能について詳しく説明を受けた。",
+    "target": "効能",
+    "options": ["こうのう", "こうどう", "きょうのう", "こうおう"],
+    "answer": 0
+  },
+  {
+    "id": 591,
+    "cat": "kanji_reading",
+    "sentence": "犯罪の抑止力として防犯カメラが設置された。",
+    "target": "抑止",
+    "options": ["よくし", "おくし", "よくじ", "いくし"],
+    "answer": 0
+  },
+  {
+    "id": 592,
+    "cat": "kanji_reading",
+    "sentence": "彼の言い訳に誰も納得しなかった。",
+    "target": "納得",
+    "options": ["なっとく", "のうとく", "なとく", "なっどく"],
+    "answer": 0
+  },
+  {
+    "id": 593,
+    "cat": "kanji_reading",
+    "sentence": "この問題については慎重に対処すべきだ。",
+    "target": "対処",
+    "options": ["たいしょ", "だいしょ", "たいち", "ついしょ"],
+    "answer": 0
+  },
+  {
+    "id": 594,
+    "cat": "kanji_reading",
+    "sentence": "景気の悪化により失業率が上昇した。",
+    "target": "上昇",
+    "options": ["じょうしょう", "じょうのぼ", "じょうせい", "しょうしょう"],
+    "answer": 0
+  },
+  {
+    "id": 595,
+    "cat": "kanji_reading",
+    "sentence": "あの科学者は世界的に著名な人物だ。",
+    "target": "著名",
+    "options": ["ちょめい", "じょめい", "ちょみょう", "じゃめい"],
+    "answer": 0
+  },
+  {
+    "id": 596,
+    "cat": "kanji_reading",
+    "sentence": "過労による健康被害が社会問題になっている。",
+    "target": "過労",
+    "options": ["かろう", "からお", "ころう", "かつう"],
+    "answer": 0
+  },
+  {
+    "id": 597,
+    "cat": "kanji_reading",
+    "sentence": "この地域の特産品は全国的に有名だ。",
+    "target": "特産",
+    "options": ["とくさん", "どくさん", "とくざん", "とさん"],
+    "answer": 0
+  },
+  {
+    "id": 598,
+    "cat": "kanji_reading",
+    "sentence": "新しい法案の審議が国会で始まった。",
+    "target": "法案",
+    "options": ["ほうあん", "ほうかん", "はつあん", "ほうがん"],
+    "answer": 0
+  },
+  {
+    "id": 599,
+    "cat": "kanji_reading",
+    "sentence": "彼女は逆境にも負けず努力を重ねた。",
+    "target": "逆境",
+    "options": ["ぎゃっきょう", "ぎゃくきょう", "げききょう", "ぎゃくけい"],
+    "answer": 0
+  },
+  {
+    "id": 600,
+    "cat": "kanji_reading",
+    "sentence": "試験に合格するためにはたゆまぬ努力が必要だ。",
+    "target": "努力",
+    "options": ["どりょく", "のりょく", "どうりょく", "つとりょく"],
+    "answer": 0
+  },
+  {
+    "id": 601,
+    "cat": "kanji_reading",
+    "sentence": "法律に違反した者は罰せられる。",
+    "target": "違反",
+    "options": ["いはん", "ゆいはん", "いばん", "いぼん"],
+    "answer": 0
+  },
+  {
+    "id": 602,
+    "cat": "kanji_reading",
+    "sentence": "彼は学問に対する探求心が非常に強い。",
+    "target": "探求",
+    "options": ["たんきゅう", "たんぐう", "さがきゅう", "だんきゅう"],
+    "answer": 0
+  },
+  {
+    "id": 603,
+    "cat": "kanji_reading",
+    "sentence": "今回の成功は全員の協力のおかげだと感謝している。",
+    "target": "感謝",
+    "options": ["かんしゃ", "がんしゃ", "かんじゃ", "かんせき"],
+    "answer": 0
+  },
+  {
+    "id": 604,
+    "cat": "kanji_reading",
+    "sentence": "この建物は耐震設計がしっかりしている。",
+    "target": "耐震",
+    "options": ["たいしん", "だいしん", "たいじん", "ないしん"],
+    "answer": 0
+  },
+  {
+    "id": 605,
+    "cat": "kanji_reading",
+    "sentence": "消費税の増税に反対する声が上がっている。",
+    "target": "増税",
+    "options": ["ぞうぜい", "ぞうせい", "そうぜい", "じょうぜい"],
+    "answer": 0
+  },
+  {
+    "id": 606,
+    "cat": "kanji_reading",
+    "sentence": "この仕事には高度な専門知識が要求される。",
+    "target": "要求",
+    "options": ["ようきゅう", "ようぐう", "ようもと", "ようきゅ"],
+    "answer": 0
+  },
+  {
+    "id": 607,
+    "cat": "kanji_reading",
+    "sentence": "祖母は伝統的な手芸に精通している。",
+    "target": "精通",
+    "options": ["せいつう", "しょうつう", "せいどう", "せいとう"],
+    "answer": 0
+  },
+  {
+    "id": 608,
+    "cat": "kanji_reading",
+    "sentence": "新しい教材を授業に採用することにした。",
+    "target": "採用",
+    "options": ["さいよう", "しゅよう", "さよう", "さいゆう"],
+    "answer": 0
+  },
+  {
+    "id": 609,
+    "cat": "kanji_reading",
+    "sentence": "国境を越えた人道的な支援が行われている。",
+    "target": "人道",
+    "options": ["じんどう", "にんどう", "じんみち", "ひとどう"],
+    "answer": 0
+  },
+  {
+    "id": 610,
+    "cat": "kanji_reading",
+    "sentence": "食料品の価格が高騰している。",
+    "target": "高騰",
+    "options": ["こうとう", "こうちょう", "こうどう", "たかとう"],
+    "answer": 0
+  },
+  {
+    "id": 611,
+    "cat": "kanji_reading",
+    "sentence": "彼女は会社の経営を一手に担っている。",
+    "target": "経営",
+    "options": ["けいえい", "きょうえい", "けいかい", "けいまい"],
+    "answer": 0
+  },
+  {
+    "id": 612,
+    "cat": "kanji_reading",
+    "sentence": "天然記念物の保存に力を入れている。",
+    "target": "保存",
+    "options": ["ほぞん", "ほうぞん", "ぼぞん", "ほうそん"],
+    "answer": 0
+  },
+  {
+    "id": 613,
+    "cat": "kanji_reading",
+    "sentence": "この問題は複数の要因が絡み合っている。",
+    "target": "要因",
+    "options": ["よういん", "よいん", "ようこん", "よういつ"],
+    "answer": 0
+  },
+  {
+    "id": 614,
+    "cat": "kanji_reading",
+    "sentence": "彼は朝から晩まで勤勉に働いている。",
+    "target": "勤勉",
+    "options": ["きんべん", "ぎんべん", "きんめん", "くんべん"],
+    "answer": 0
+  },
+  {
+    "id": 615,
+    "cat": "kanji_reading",
+    "sentence": "試合前に選手たちの士気が高まった。",
+    "target": "士気",
+    "options": ["しき", "じき", "さむき", "しけ"],
+    "answer": 0
+  },
+  {
+    "id": 616,
+    "cat": "kanji_reading",
+    "sentence": "あの店は伝統的な和菓子を製造している。",
+    "target": "製造",
+    "options": ["せいぞう", "せいそう", "さいぞう", "せいじょう"],
+    "answer": 0
+  },
+  {
+    "id": 617,
+    "cat": "kanji_reading",
+    "sentence": "彼の横暴な振る舞いに周囲は困惑している。",
+    "target": "困惑",
+    "options": ["こんわく", "こんかく", "くんわく", "こんまど"],
+    "answer": 0
+  },
+  {
+    "id": 618,
+    "cat": "kanji_reading",
+    "sentence": "自然災害の予知は現代科学でも難しい。",
+    "target": "予知",
+    "options": ["よち", "よし", "えち", "よじ"],
+    "answer": 0
+  },
+  {
+    "id": 619,
+    "cat": "kanji_reading",
+    "sentence": "新技術の恩恵を多くの人が受けている。",
+    "target": "恩恵",
+    "options": ["おんけい", "おんかい", "おんめい", "おんえ"],
+    "answer": 0
+  },
+  {
+    "id": 620,
+    "cat": "kanji_reading",
+    "sentence": "住民投票により新しい条例が制定された。",
+    "target": "制定",
+    "options": ["せいてい", "ぜいてい", "せいちょう", "せいじょう"],
+    "answer": 0
+  }
+]

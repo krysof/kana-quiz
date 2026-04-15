@@ -810,13 +810,20 @@ async function init() {
     db.words = await loadJSON("./data/words.json");
     db.kanji = await loadJSON("./data/kanji_words.json");
 
-    // Load N2 exam questions (3 files merged)
-    const [qReading, qVocab, qGrammar] = await Promise.all([
+    // Load N2 exam questions (all files merged)
+    const n2Files = await Promise.all([
       loadJSON("./data/n2_q_reading.json").catch(() => []),
       loadJSON("./data/n2_q_vocab.json").catch(() => []),
       loadJSON("./data/n2_q_grammar.json").catch(() => []),
+      loadJSON("./data/n2_q_reading_ext.json").catch(() => []),
+      loadJSON("./data/n2_q_ortho_ext.json").catch(() => []),
+      loadJSON("./data/n2_q_context_ext.json").catch(() => []),
+      loadJSON("./data/n2_q_para_ext.json").catch(() => []),
+      loadJSON("./data/n2_q_usage_ext.json").catch(() => []),
+      loadJSON("./data/n2_q_grammar_ext1.json").catch(() => []),
+      loadJSON("./data/n2_q_grammar_ext2.json").catch(() => []),
     ]);
-    db.n2Questions = [...qReading, ...qVocab, ...qGrammar];
+    db.n2Questions = n2Files.flat();
 
     // Load translation meaning files
     const [zhTW, ja, en] = await Promise.all([
