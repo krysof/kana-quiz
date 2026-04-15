@@ -384,6 +384,9 @@ function answerN2Choice(idx) {
   if (ok) playCorrect();
   else playWrong();
 
+  // Read the sentence aloud
+  setTimeout(() => speakJP(nq.sentence || correctText), 300);
+
   // Build result message
   if (ok) {
     ui.result.innerHTML = `✅ ${t("result_correct")}<b>${correctText}</b>`;
@@ -752,7 +755,10 @@ function wire() {
   // Quiz buttons
   ui.btnNew.onclick = nextQuestion;
   ui.btnSpeak.onclick = () => {
-    if (current && current.mode !== "n2_exam") {
+    if (!current) return;
+    if (current.mode === "n2_exam") {
+      speakJP(current.n2Q.sentence || current.n2Q.options[current.n2Q.answer]);
+    } else {
       speakJP(getKana(current.correct));
     }
   };
@@ -764,7 +770,10 @@ function wire() {
 
   ui.inp.addEventListener("keydown", (e) => { if (e.key === "Enter") checkInput(); });
   ui.q.addEventListener("click", () => {
-    if (current && current.mode !== "n2_exam") {
+    if (!current) return;
+    if (current.mode === "n2_exam") {
+      speakJP(current.n2Q.sentence || current.n2Q.options[current.n2Q.answer]);
+    } else {
       speakJP(getKana(current.correct));
     }
   });
