@@ -3,15 +3,17 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,viewport-fit=cover" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="mobile-web-app-capable" content="yes" />
   <meta name="theme-color" content="#6366f1" />
   <title>50音训练</title>
-  <link rel="stylesheet" href="./style.css?v=1.6" />
+  <link rel="manifest" href="./pwa/manifest.json" />
+  <link rel="apple-touch-icon" href="./pwa/icons/icon-192.png" />
+  <link rel="stylesheet" href="./style.css?v=2.0" />
 </head>
 <body>
   <div class="container">
-    <!-- 开始页面 -->
-    <div id="startScreen" class="screen">
+    <!-- ========== 模块选择页面 ========== -->
+    <div id="moduleScreen" class="screen">
       <div class="start-hero">
         <div class="lang-switcher">
           <button class="lang-btn active" data-lang="zh-CN">简</button>
@@ -21,68 +23,104 @@
         </div>
         <div class="start-icon">あ</div>
         <h1 data-i18n="title">50音训练</h1>
-        <p class="start-desc" data-i18n="subtitle">练习假名和日常短词</p>
+        <p class="start-desc" data-i18n="subtitle">选择练习模块</p>
       </div>
 
-      <section class="card">
-        <div class="label" data-i18n="content_label">内容（可多选）</div>
-        <div class="checks" id="contentChecks">
-          <label class="chk" data-i18n="content_kana"><input type="checkbox" value="kana" checked> 50音</label>
-          <label class="chk" data-i18n="content_word"><input type="checkbox" value="word" checked> 日常短词</label>
-          <label class="chk" data-i18n="content_kanji"><input type="checkbox" value="kanji"> 汉字短词</label>
-          <label class="chk" data-i18n="content_wrong"><input type="checkbox" value="wrong"> 错题优先</label>
+      <div class="module-grid">
+        <div class="module-card" data-module="kana">
+          <div class="module-icon">あ</div>
+          <div class="module-name" data-i18n="mod_kana">50音基础</div>
+          <div class="module-desc" data-i18n="mod_kana_desc">清音・浊音・拗音</div>
+        </div>
+        <div class="module-card" data-module="word">
+          <div class="module-icon">言</div>
+          <div class="module-name" data-i18n="mod_word">日常短词</div>
+          <div class="module-desc" data-i18n="mod_word_desc">常用词汇练习</div>
+        </div>
+        <div class="module-card" data-module="kanji">
+          <div class="module-icon">漢</div>
+          <div class="module-name" data-i18n="mod_kanji">汉字短词</div>
+          <div class="module-desc" data-i18n="mod_kanji_desc">汉字读写训练</div>
+        </div>
+        <div class="module-card" data-module="n2">
+          <div class="module-icon">N2</div>
+          <div class="module-name" data-i18n="mod_n2">N2刷题</div>
+          <div class="module-desc" data-i18n="mod_n2_desc">JLPT N2词汇</div>
+        </div>
+      </div>
+
+      <div class="start-stats">
+        <span class="pill"><span data-i18n="today_label">今日：</span><b id="d_total_start">0</b><span data-i18n="today_unit"> 题</span></span>
+        <span class="pill ok"><span data-i18n="correct_label">正确：</span><b id="d_ok_start">0</b></span>
+        <span class="pill ng"><span data-i18n="wrong_label">错误：</span><b id="d_ng_start">0</b></span>
+        <span class="pill"><span data-i18n="done_label">完成：</span><b id="d_rounds_start">0</b><span data-i18n="rounds_unit"> 轮</span></span>
+      </div>
+
+      <div class="start-footer">
+        <button class="btn" id="btnResetSettings" data-i18n="reset_settings">复位设置</button>
+        <button class="btn" id="btnResetDay" data-i18n="reset_today">重置今日</button>
+        <button class="btn danger" id="btnResetAllStats" data-i18n="clear_all">清空全部</button>
+      </div>
+    </div>
+
+    <!-- ========== 设置页面 ========== -->
+    <div id="settingsScreen" class="screen hide">
+      <div class="settings-header">
+        <button class="btn-back" id="btnBackToModules">&#8592;</button>
+        <h2 class="settings-title" id="settingsTitle" data-i18n="mod_kana">50音基础</h2>
+      </div>
+
+      <!-- 50音设置 -->
+      <section class="card" id="settingsKana">
+        <div class="label" data-i18n="mode_type">题型</div>
+        <div class="checks" id="modeChecksKana">
+          <label class="chk" data-i18n="mode_rm_mc"><input type="checkbox" value="rm_mc" checked> 罗马音→选假名</label>
+          <label class="chk" data-i18n="mode_jp_mc"><input type="checkbox" value="jp_mc" checked> 假名→选罗马音</label>
+          <label class="chk" data-i18n="mode_rm_in"><input type="checkbox" value="rm_in"> 罗马音输入</label>
+          <label class="chk" data-i18n="mode_jp_in"><input type="checkbox" value="jp_in"> 假名输入</label>
+        </div>
+        <div class="label" style="margin-top:12px" data-i18n="set_label">集合</div>
+        <div class="checks" id="kanaSetChecks">
+          <label class="chk" data-i18n="set_seion"><input type="checkbox" value="seion" checked> 清音</label>
+          <label class="chk" data-i18n="set_dakuon"><input type="checkbox" value="dakuon"> 浊音</label>
+          <label class="chk" data-i18n="set_handakuon"><input type="checkbox" value="handakuon"> 半浊音</label>
+          <label class="chk" data-i18n="set_yoon"><input type="checkbox" value="yoon"> 拗音</label>
         </div>
       </section>
 
-      <section class="card group-card" id="groupKana">
-        <div class="group-title" data-i18n="group_kana_title">50音设置</div>
-        <div class="group-body">
-          <div>
-            <div class="label" data-i18n="mode_type">题型</div>
-            <div class="checks" id="modeChecksKana">
-              <label class="chk" data-i18n="mode_rm_mc"><input type="checkbox" value="rm_mc" checked> 罗马音→选假名</label>
-              <label class="chk" data-i18n="mode_jp_mc"><input type="checkbox" value="jp_mc" checked> 假名→选罗马音</label>
-              <label class="chk" data-i18n="mode_rm_in"><input type="checkbox" value="rm_in"> 罗马音输入</label>
-              <label class="chk" data-i18n="mode_jp_in"><input type="checkbox" value="jp_in"> 假名输入</label>
-            </div>
-          </div>
-          <div>
-            <div class="label" data-i18n="set_label">集合</div>
-            <div class="checks" id="kanaSetChecks">
-              <label class="chk" data-i18n="set_seion"><input type="checkbox" value="seion" checked> 清音</label>
-              <label class="chk" data-i18n="set_dakuon"><input type="checkbox" value="dakuon"> 浊音</label>
-              <label class="chk" data-i18n="set_handakuon"><input type="checkbox" value="handakuon"> 半浊音</label>
-              <label class="chk" data-i18n="set_yoon"><input type="checkbox" value="yoon"> 拗音</label>
-            </div>
-          </div>
+      <!-- 日常短词设置 -->
+      <section class="card" id="settingsWord">
+        <div class="label" data-i18n="mode_type">题型</div>
+        <div class="checks" id="modeChecksWord">
+          <label class="chk" data-i18n="mode_rm_mc"><input type="checkbox" value="rm_mc" checked> 罗马音→选假名</label>
+          <label class="chk" data-i18n="mode_jp_mc"><input type="checkbox" value="jp_mc" checked> 假名→选罗马音</label>
+          <label class="chk" data-i18n="mode_rm_mean"><input type="checkbox" value="rm_mean"> 读音→选意思</label>
+          <label class="chk" data-i18n="mode_mean_rm"><input type="checkbox" value="mean_rm"> 意思→选读音</label>
         </div>
       </section>
 
-      <section class="card group-card" id="groupWord">
-        <div class="group-title" data-i18n="group_word_title">日常短词设置</div>
-        <div class="group-body">
-          <div class="label" data-i18n="mode_type">题型</div>
-          <div class="checks" id="modeChecksWord">
-            <label class="chk" data-i18n="mode_rm_mc"><input type="checkbox" value="rm_mc" checked> 罗马音→选假名</label>
-            <label class="chk" data-i18n="mode_jp_mc"><input type="checkbox" value="jp_mc" checked> 假名→选罗马音</label>
-            <label class="chk" data-i18n="mode_rm_mean"><input type="checkbox" value="rm_mean"> 读音→选意思</label>
-            <label class="chk" data-i18n="mode_mean_rm"><input type="checkbox" value="mean_rm"> 意思→选读音</label>
-          </div>
+      <!-- 汉字短词设置 -->
+      <section class="card" id="settingsKanji">
+        <div class="label" data-i18n="mode_type">题型</div>
+        <div class="checks" id="modeChecksKanji">
+          <label class="chk" data-i18n="mode_kanji_read"><input type="checkbox" value="kanji_read" checked> 汉字→选读音</label>
+          <label class="chk" data-i18n="mode_read_kanji"><input type="checkbox" value="read_kanji" checked> 读音→选汉字</label>
+          <label class="chk" data-i18n="mode_kanji_mean"><input type="checkbox" value="kanji_mean"> 汉字→选意思</label>
         </div>
       </section>
 
-      <section class="card group-card" id="groupKanji">
-        <div class="group-title" data-i18n="group_kanji_title">汉字短词设置</div>
-        <div class="group-body">
-          <div class="label" data-i18n="mode_type">题型</div>
-          <div class="checks" id="modeChecksKanji">
-            <label class="chk" data-i18n="mode_kanji_read"><input type="checkbox" value="kanji_read" checked> 汉字→选读音</label>
-            <label class="chk" data-i18n="mode_read_kanji"><input type="checkbox" value="read_kanji" checked> 读音→选汉字</label>
-            <label class="chk" data-i18n="mode_kanji_mean"><input type="checkbox" value="kanji_mean"> 汉字→选意思</label>
-          </div>
+      <!-- N2设置 -->
+      <section class="card" id="settingsN2">
+        <div class="label" data-i18n="mode_type">题型</div>
+        <div class="checks" id="modeChecksN2">
+          <label class="chk" data-i18n="mode_kanji_read"><input type="checkbox" value="kanji_read" checked> 汉字→选读音</label>
+          <label class="chk" data-i18n="mode_read_kanji"><input type="checkbox" value="read_kanji" checked> 读音→选汉字</label>
+          <label class="chk" data-i18n="mode_kanji_mean"><input type="checkbox" value="kanji_mean"> 汉字→选意思</label>
+          <label class="chk" data-i18n="mode_mean_rm"><input type="checkbox" value="mean_rm"> 意思→选读音</label>
         </div>
       </section>
 
+      <!-- 通用设置 -->
       <section class="card">
         <div class="grid2">
           <div>
@@ -99,6 +137,7 @@
           <div>
             <div class="label" data-i18n="other_options">其他选项</div>
             <label class="chk" data-i18n="hide_meaning"><input type="checkbox" id="hideMeaning"> 隐藏中文释义</label>
+            <label class="chk" style="margin-top:8px" data-i18n="content_wrong"><input type="checkbox" id="wrongFirst"> 错题优先</label>
           </div>
         </div>
       </section>
@@ -107,22 +146,9 @@
       <div class="hide" id="modeChecks"></div>
 
       <button class="btn-start" id="btnStartSession" data-i18n="start_btn">开始练习</button>
-
-      <div class="start-stats">
-        <span class="pill"><span data-i18n="today_label">今日：</span><b id="d_total_start">0</b><span data-i18n="today_unit"> 题</span></span>
-        <span class="pill ok"><span data-i18n="correct_label">正确：</span><b id="d_ok_start">0</b></span>
-        <span class="pill ng"><span data-i18n="wrong_label">错误：</span><b id="d_ng_start">0</b></span>
-        <span class="pill"><span data-i18n="done_label">完成：</span><b id="d_rounds_start">0</b><span data-i18n="rounds_unit"> 轮</span></span>
-      </div>
-
-      <div class="start-footer">
-        <button class="btn" id="btnResetSettings" data-i18n="reset_settings">复位设置</button>
-        <button class="btn" id="btnResetDay" data-i18n="reset_today">重置今日</button>
-        <button class="btn danger" id="btnResetAllStats" data-i18n="clear_all">清空全部</button>
-      </div>
     </div>
 
-    <!-- 练习页面 -->
+    <!-- ========== 练习页面 ========== -->
     <div id="quizScreen" class="screen hide">
       <div class="quiz-lang-bar">
         <button class="lang-btn active" data-lang="zh-CN">简</button>
@@ -180,6 +206,11 @@
     </div>
   </div>
 
-  <script type="module" src="./app.js?v=1.6"></script>
+  <script type="module" src="./app.js?v=2.0"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('./sw.js');
+    }
+  </script>
 </body>
 </html>

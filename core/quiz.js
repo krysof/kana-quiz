@@ -15,7 +15,6 @@ export function idOf(item){
 }
 
 export function buildPools(db, settings){
-  // ✅ 50音按集合过滤：seion / dakuon / handakuon
   const wantSets = (settings.kanaSets?.length ? settings.kanaSets : ["seion"]);
   const setAllow = new Set(wantSets);
 
@@ -25,7 +24,8 @@ export function buildPools(db, settings){
 
   const word = db.words.map(x => ({ ...x, type:"word" }));
   const kanji = (db.kanji || []).map(x => ({ ...x, type:"kanji" }));
-  return { kana, word, kanji, all:[...kana, ...word, ...kanji] };
+  const n2 = (db.n2 || []).map(x => ({ ...x, type:"n2" }));
+  return { kana, word, kanji, n2, all:[...kana, ...word, ...kanji, ...n2] };
 }
 
 function pickOne(arr){ return arr[Math.floor(Math.random()*arr.length)]; }
@@ -43,45 +43,21 @@ export function chooseMode(settings){
   return pickOne(ms);
 }
 
-export function makeWeightedPool(pools, settings, stats){
-  const wantWrongBoost = settings.content.includes("wrong");
-  const wantKana = settings.content.includes("kana");
-  const wantWord = settings.content.includes("word");
-
-  let base = [];
-  if (wantKana) base = base.concat(pools.kana);
-  if (wantWord) base = base.concat(pools.word);
-  if (!base.length) base = pools.all;
-
-  const weighted = [];
-  for (const it of base){
-    const w = stats.wrong[idOf(it)] || 0;
-
-    // 保底一次：所有题都有机会出现
-    weighted.push(it);
-
-    // 错题权重：勾“错题优先”更强
-    if (w > 0){
-      const extra = wantWrongBoost ? Math.min(12, w * 3) : Math.min(4, w);
-      for (let i=0;i<extra;i++) weighted.push(it);
-    }
-  }
-  return weighted;
-}
-
 export function newQuestion(db, settings, stats){
   const pools = buildPools(db, settings);
   const wantKana = settings.content.includes("kana");
   const wantWord = settings.content.includes("word");
   const wantKanji = settings.content.includes("kanji");
-  const wantWrongBoost = settings.content.includes("wrong");
+  const wantN2 = settings.content.includes("n2");
+  const wantWrongBoost = settings.wrongFirst === true;
 
-  // 决定本次出题类型：kana / word / kanji
+  // Decide source pool
   let sourcePool;
   const candidates = [];
   if (wantKana && pools.kana.length) candidates.push(pools.kana);
   if (wantWord && pools.word.length) candidates.push(pools.word);
   if (wantKanji && pools.kanji.length) candidates.push(pools.kanji);
+  if (wantN2 && pools.n2.length) candidates.push(pools.n2);
 
   if (candidates.length > 0) {
     sourcePool = candidates[Math.floor(Math.random() * candidates.length)];
@@ -89,7 +65,7 @@ export function newQuestion(db, settings, stats){
     sourcePool = pools.all;
   }
 
-  // 构建加权池（错题优先）
+  // Build weighted pool (wrong-first boost)
   const weighted = [];
   for (const it of sourcePool) {
     const w = stats.wrong[idOf(it)] || 0;
@@ -108,57 +84,64 @@ export function newQuestion(db, settings, stats){
 
   let mode = chooseMode(settings);
 
-  // 题型与内容池不匹配时自动适配
+  // Pool availability
   const hasKana = pools.kana.length > 0 && wantKana;
   const hasWord = pools.word.length > 0 && wantWord;
   const hasKanji = pools.kanji.length > 0 && wantKanji;
+  const hasN2 = pools.n2.length > 0 && wantN2;
+  const hasKanjiLike = hasKanji || hasN2;
 
-  // kanji 题型需要 kanji 池
-  if (kanjiModes.includes(mode) && !hasKanji) {
+  // Auto-adapt mode to available pools
+  if (kanjiModes.includes(mode) && !hasKanjiLike) {
     mode = hasWord ? pickOne(wordModes) : "jp_mc";
   }
-  // word 题型需要 word 池
-  if (wordModes.includes(mode) && !hasWord) {
-    mode = hasKanji ? pickOne(kanjiModes) : "jp_mc";
+  if (wordModes.includes(mode) && !hasWord && !hasKanjiLike) {
+    mode = "jp_mc";
   }
-  // kana 题型遇到纯 kanji 内容时，切换到 kanji 题型
-  if (kanaModes.includes(mode) && !hasKana && !hasWord && hasKanji) {
+  // mean_rm can also work with kanjiLike items
+  if (mode === "mean_rm" && !hasWord && hasKanjiLike) {
+    mode = pickOne(kanjiModes);
+  }
+  if (kanaModes.includes(mode) && !hasKana && !hasWord && hasKanjiLike) {
     mode = pickOne(kanjiModes);
   }
 
-  // rm_mean / mean_rm 强制从 word 池选题
+  // Force correct pool for mode
   let finalWeighted = weighted;
   if (wordModes.includes(mode)) {
     finalWeighted = weighted.filter(x => x.type === "word");
     if (!finalWeighted.length) finalWeighted = pools.word.length ? pools.word : weighted;
   }
 
-  // kanji 模式强制从 kanji 池选题
   if (kanjiModes.includes(mode)) {
-    finalWeighted = weighted.filter(x => x.type === "kanji");
-    if (!finalWeighted.length) finalWeighted = pools.kanji.length ? pools.kanji : weighted;
+    finalWeighted = weighted.filter(x => x.type === "kanji" || x.type === "n2");
+    if (!finalWeighted.length) {
+      const kanjiLikePool = [...pools.kanji, ...pools.n2];
+      finalWeighted = kanjiLikePool.length ? kanjiLikePool : weighted;
+    }
   }
 
   const correct = pickOne(finalWeighted);
 
   const q = { mode, correct };
 
-  // 选择题需要干扰项
+  // Combined kanji-like pool for distractors
+  const kanjiLikePool = [...pools.kanji, ...pools.n2];
+
+  // === Choice generation ===
+
   if (mode === "rm_mc" || mode === "jp_mc") {
     const allPool = [...pools.kana, ...pools.word];
     const pool2 = allPool.filter(x => x.rm !== correct.rm);
 
     const correctLen = correct.hira.length;
-    const correctFirst = correct.hira[0]; // 第一个假名
+    const correctFirst = correct.hira[0];
 
-    // 评分函数：越高越好
     const score = (x) => {
       let s = 0;
       const lenDiff = Math.abs(x.hira.length - correctLen);
-      // 字数相同 +10，相差1 +5
       if (lenDiff === 0) s += 10;
       else if (lenDiff === 1) s += 5;
-      // 首字相同 +8（让选项更有迷惑性）
       if (x.hira[0] === correctFirst) s += 8;
       return s;
     };
@@ -184,7 +167,6 @@ export function newQuestion(db, settings, stats){
     q.correctIndex = choices.findIndex(x => x.rm === correct.rm);
   }
 
-  // 词义选择题：读音→选意思
   if (mode === "rm_mean") {
     const pool2 = pools.word.filter(x => x.rm !== correct.rm);
     const correctMeanLen = (correct.meaning || "").length;
@@ -218,7 +200,6 @@ export function newQuestion(db, settings, stats){
     q.correctIndex = choices.findIndex(x => x.rm === correct.rm);
   }
 
-  // 词义选择题：意思→选读音
   if (mode === "mean_rm") {
     const pool2 = pools.word.filter(x => x.rm !== correct.rm);
     const correctLen = correct.hira.length;
@@ -254,9 +235,8 @@ export function newQuestion(db, settings, stats){
     q.correctIndex = choices.findIndex(x => x.rm === correct.rm);
   }
 
-  // 汉字→选读音
   if (mode === "kanji_read") {
-    const pool2 = pools.kanji.filter(x => x.rm !== correct.rm && x.hira !== correct.hira);
+    const pool2 = kanjiLikePool.filter(x => x.rm !== correct.rm && x.hira !== correct.hira);
     const correctLen = correct.hira.length;
     const correctFirst = correct.hira[0];
 
@@ -290,9 +270,8 @@ export function newQuestion(db, settings, stats){
     q.correctIndex = choices.findIndex(x => x.rm === correct.rm);
   }
 
-  // 读音→选汉字
   if (mode === "read_kanji") {
-    const pool2 = pools.kanji.filter(x => x.rm !== correct.rm && x.kanji !== correct.kanji);
+    const pool2 = kanjiLikePool.filter(x => x.rm !== correct.rm && x.kanji !== correct.kanji);
     const correctKanjiLen = correct.kanji.length;
 
     const score = (x) => {
@@ -324,9 +303,8 @@ export function newQuestion(db, settings, stats){
     q.correctIndex = choices.findIndex(x => x.rm === correct.rm);
   }
 
-  // 汉字→选意思
   if (mode === "kanji_mean") {
-    const pool2 = pools.kanji.filter(x => x.rm !== correct.rm && x.meaning !== correct.meaning);
+    const pool2 = kanjiLikePool.filter(x => x.rm !== correct.rm && x.meaning !== correct.meaning);
     const correctMeanLen = (correct.meaning || "").length;
 
     const score = (x) => {
@@ -384,7 +362,7 @@ export function recordResult(stats, q, ok){
 
   if (stats.session.active && stats.session.done >= stats.session.size){
     stats.session.active = false;
-    stats.daily.rounds = stats.session.round; // 完成时更新轮次
+    stats.daily.rounds = stats.session.round;
     return { finished:true };
   }
   return { finished:false };

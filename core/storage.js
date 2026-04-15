@@ -2,12 +2,18 @@ export const STORAGE_KEY = "kana_quiz_settings_v2";
 export const STATS_KEY   = "kana_quiz_stats_v2";
 
 export const DEFAULT_SETTINGS = {
-  content: ["kana","word"],
+  module: "kana",
+  content: ["kana"],
   modes: ["rm_mc","jp_mc"],
+  modesKana: ["rm_mc","jp_mc"],
+  modesWord: ["rm_mc","jp_mc"],
+  modesKanji: ["kanji_read","read_kanji"],
+  modesN2: ["kanji_read","read_kanji"],
   kanaMode: "hira",
   sessionSize: 20,
-  kanaSets: ["seion"], // ✅ 默认只清音
-  hideMeaning: false // 是否隐藏中文释义
+  kanaSets: ["seion"],
+  hideMeaning: false,
+  wrongFirst: false,
 };
 
 export function loadSettings(){
@@ -18,12 +24,18 @@ export function loadSettings(){
     return {
       ...structuredClone(DEFAULT_SETTINGS),
       ...s,
+      module: s.module || "kana",
       content: Array.isArray(s.content) ? s.content : DEFAULT_SETTINGS.content,
       modes: Array.isArray(s.modes) ? s.modes : DEFAULT_SETTINGS.modes,
+      modesKana: Array.isArray(s.modesKana) ? s.modesKana : DEFAULT_SETTINGS.modesKana,
+      modesWord: Array.isArray(s.modesWord) ? s.modesWord : DEFAULT_SETTINGS.modesWord,
+      modesKanji: Array.isArray(s.modesKanji) ? s.modesKanji : DEFAULT_SETTINGS.modesKanji,
+      modesN2: Array.isArray(s.modesN2) ? s.modesN2 : DEFAULT_SETTINGS.modesN2,
       kanaSets: Array.isArray(s.kanaSets) ? s.kanaSets : DEFAULT_SETTINGS.kanaSets,
       kanaMode: (s.kanaMode === "kata") ? "kata" : "hira",
       sessionSize: Number.isFinite(+s.sessionSize) ? +s.sessionSize : DEFAULT_SETTINGS.sessionSize,
       hideMeaning: s.hideMeaning === true,
+      wrongFirst: s.wrongFirst === true,
     };
   }catch{
     return structuredClone(DEFAULT_SETTINGS);

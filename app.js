@@ -1,24 +1,35 @@
 import {
   loadSettings, saveSettings, resetSettings,
   loadStats, saveStats, resetDaily, resetAllStats
-} from "./core/storage.js?v=1.6";
+} from "./core/storage.js?v=2.0";
 
-import { speakJP, warmupTTS } from "./core/tts.js?v=1.6";
-import { playCorrect, playWrong, unlockAudio } from "./core/audio.js?v=1.6";
+import { speakJP, warmupTTS } from "./core/tts.js?v=2.0";
+import { playCorrect, playWrong, unlockAudio } from "./core/audio.js?v=2.0";
 
 import {
   newQuestion, recordResult, startSession,
   normalizeRomaji, pct
-} from "./core/quiz.js?v=1.6";
+} from "./core/quiz.js?v=2.0";
 
-import { t, getLang, setLang, applyI18nDOM } from "./core/i18n.js?v=1.6";
+import { t, getLang, setLang, applyI18nDOM } from "./core/i18n.js?v=2.0";
 
 const $ = (id) => document.getElementById(id);
 
 const ui = {
   // Screens
-  startScreen: $("startScreen"),
+  moduleScreen: $("moduleScreen"),
+  settingsScreen: $("settingsScreen"),
   quizScreen: $("quizScreen"),
+
+  // Settings header
+  settingsTitle: $("settingsTitle"),
+  btnBackToModules: $("btnBackToModules"),
+
+  // Per-module settings sections
+  settingsKana: $("settingsKana"),
+  settingsWord: $("settingsWord"),
+  settingsKanji: $("settingsKanji"),
+  settingsN2: $("settingsN2"),
 
   // Quiz elements
   q: $("q"),
@@ -28,19 +39,21 @@ const ui = {
   inp: $("inp"),
   result: $("result"),
 
-  // Settings
-  contentChecks: $("contentChecks"),
-  modeChecks: $("modeChecks"),
+  // Mode checks per module
   modeChecksKana: $("modeChecksKana"),
   modeChecksWord: $("modeChecksWord"),
   modeChecksKanji: $("modeChecksKanji"),
-  groupKana: $("groupKana"),
-  groupWord: $("groupWord"),
-  groupKanji: $("groupKanji"),
+  modeChecksN2: $("modeChecksN2"),
+  modeChecks: $("modeChecks"),
+
+  // Kana-specific
   kanaSetChecks: $("kanaSetChecks"),
+
+  // Common settings
   kanaMode: $("kanaMode"),
   sessionSize: $("sessionSize"),
   hideMeaning: $("hideMeaning"),
+  wrongFirst: $("wrongFirst"),
 
   // Buttons
   btnNew: $("btnNew"),
@@ -63,7 +76,7 @@ const ui = {
   timer: $("timer"),
   s_acc_display: $("s_acc_display"),
 
-  // Stats - Start screen
+  // Stats - Module screen
   d_total_start: $("d_total_start"),
   d_ok_start: $("d_ok_start"),
   d_ng_start: $("d_ng_start"),
@@ -83,9 +96,10 @@ const ui = {
 
 let settings = loadSettings();
 let stats = loadStats();
-let db = { kana: [], words: [], kanji: [], meanings: {} };
+let db = { kana: [], words: [], kanji: [], n2: [], meanings: {}, n2Meanings: {} };
 let current = null;
 let answered = false;
+let currentModule = settings.module || "kana";
 
 // Timer
 let timerInterval = null;
@@ -131,61 +145,71 @@ function clampInt(v, min, max, fallback) {
   return Math.max(min, Math.min(max, n));
 }
 
+// Module title i18n keys
+const MODULE_TITLE_KEYS = {
+  kana: "mod_kana",
+  word: "mod_word",
+  kanji: "mod_kanji",
+  n2: "mod_n2",
+};
+
 // Get meaning for an item based on current language
 function getMeaning(item) {
   if (!item.meaning) return "";
   const lang = getLang();
   if (lang === "zh-CN") return item.meaning;
+
+  // Check N2 meanings first for n2 type items
+  if (item.type === "n2") {
+    const n2map = db.n2Meanings[lang];
+    if (n2map && n2map[item.rm]) return n2map[item.rm];
+  }
+
   const map = db.meanings[lang];
   if (map && map[item.rm]) return map[item.rm];
   return item.meaning; // fallback to zh-CN
 }
 
+// ==================== Module Selection ====================
+
+function selectModule(mod) {
+  currentModule = mod;
+  settings.module = mod;
+  saveSettings(settings);
+
+  // Update title
+  ui.settingsTitle.setAttribute("data-i18n", MODULE_TITLE_KEYS[mod]);
+  ui.settingsTitle.textContent = t(MODULE_TITLE_KEYS[mod]);
+
+  // Show/hide per-module settings
+  ui.settingsKana.classList.toggle("hide", mod !== "kana");
+  ui.settingsWord.classList.toggle("hide", mod !== "word");
+  ui.settingsKanji.classList.toggle("hide", mod !== "kanji");
+  ui.settingsN2.classList.toggle("hide", mod !== "n2");
+
+  // Apply saved modes for this module
+  applySettingsToUI();
+
+  showScreen(ui.settingsScreen);
+}
+
 function applySettingsToUI() {
-  setChecked(ui.contentChecks, settings.content);
-  setChecked(ui.modeChecksKana, settings.modes);
-  setChecked(ui.modeChecksWord, settings.modes);
-  setChecked(ui.modeChecksKanji, settings.modes);
+  setChecked(ui.modeChecksKana, settings.modesKana);
+  setChecked(ui.modeChecksWord, settings.modesWord);
+  setChecked(ui.modeChecksKanji, settings.modesKanji);
+  setChecked(ui.modeChecksN2, settings.modesN2);
   setChecked(ui.kanaSetChecks, settings.kanaSets);
   ui.kanaMode.value = settings.kanaMode || "hira";
   ui.sessionSize.value = settings.sessionSize ?? 20;
   ui.hideMeaning.checked = settings.hideMeaning || false;
-  updateGroupVisibility();
-}
-
-function updateGroupVisibility() {
-  const content = getChecked(ui.contentChecks);
-  const toggle = (group, enabled) => {
-    group.classList.toggle("group-disabled", !enabled);
-    group.querySelectorAll("input, select").forEach(el => el.disabled = !enabled);
-  };
-  toggle(ui.groupKana, content.includes("kana"));
-  toggle(ui.groupWord, content.includes("word"));
-  toggle(ui.groupKanji, content.includes("kanji"));
-
-  // Auto-select default modes when content group enabled but no modes selected
-  if (content.includes("word")) {
-    const wordModes = getChecked(ui.modeChecksWord);
-    if (wordModes.length === 0) {
-      setChecked(ui.modeChecksWord, ["rm_mc", "jp_mc"]);
-    }
-  }
-  if (content.includes("kanji")) {
-    const kanjiModes = getChecked(ui.modeChecksKanji);
-    if (kanjiModes.length === 0) {
-      setChecked(ui.modeChecksKanji, ["kanji_read", "read_kanji"]);
-    }
-  }
+  ui.wrongFirst.checked = settings.wrongFirst || false;
 }
 
 function readSettingsFromUIAndSave() {
-  settings.content = getChecked(ui.contentChecks);
-  updateGroupVisibility();
-
-  const modesKana = getChecked(ui.modeChecksKana);
-  const modesWord = getChecked(ui.modeChecksWord);
-  const modesKanji = getChecked(ui.modeChecksKanji);
-  settings.modes = [...new Set([...modesKana, ...modesWord, ...modesKanji])];
+  settings.modesKana = getChecked(ui.modeChecksKana);
+  settings.modesWord = getChecked(ui.modeChecksWord);
+  settings.modesKanji = getChecked(ui.modeChecksKanji);
+  settings.modesN2 = getChecked(ui.modeChecksN2);
 
   const sets = getChecked(ui.kanaSetChecks);
   settings.kanaSets = sets.length ? sets : ["seion"];
@@ -195,6 +219,25 @@ function readSettingsFromUIAndSave() {
   settings.sessionSize = clampInt(ui.sessionSize.value, 5, 200, 20);
   ui.sessionSize.value = settings.sessionSize;
   settings.hideMeaning = ui.hideMeaning.checked;
+  settings.wrongFirst = ui.wrongFirst.checked;
+
+  // Set content and modes based on current module
+  settings.module = currentModule;
+  settings.content = [currentModule];
+  switch (currentModule) {
+    case "kana":
+      settings.modes = settings.modesKana.length ? settings.modesKana : ["rm_mc", "jp_mc"];
+      break;
+    case "word":
+      settings.modes = settings.modesWord.length ? settings.modesWord : ["rm_mc", "jp_mc"];
+      break;
+    case "kanji":
+      settings.modes = settings.modesKanji.length ? settings.modesKanji : ["kanji_read", "read_kanji"];
+      break;
+    case "n2":
+      settings.modes = settings.modesN2.length ? settings.modesN2 : ["kanji_read", "read_kanji"];
+      break;
+  }
 
   saveSettings(settings);
 }
@@ -230,7 +273,8 @@ function updateDashboard() {
 }
 
 function showScreen(screen) {
-  ui.startScreen.classList.add("hide");
+  ui.moduleScreen.classList.add("hide");
+  ui.settingsScreen.classList.add("hide");
   ui.quizScreen.classList.add("hide");
   screen.classList.remove("hide");
 }
@@ -285,7 +329,7 @@ function renderQuestion() {
       ui.meaning.textContent = "";
       ui.meaning.onclick = null;
     }
-  } else if (it.type === "word" && meaning) {
+  } else if ((it.type === "word" || it.type === "n2") && meaning) {
     if (shouldHide) {
       ui.meaning.textContent = t("meaning_hidden");
       ui.meaning.style.cursor = "pointer";
@@ -393,7 +437,7 @@ function nextQuestion() {
   }
 
   if (!stats.session.active && stats.session.done >= stats.session.size && stats.session.done > 0) {
-    backToStart();
+    backToModules();
     return;
   }
 
@@ -510,10 +554,15 @@ function startOrRestartSession() {
   nextQuestion();
 }
 
-function backToStart() {
+function backToModules() {
   stopTimer();
-  showScreen(ui.startScreen);
+  showScreen(ui.moduleScreen);
   updateDashboard();
+}
+
+function backToSettings() {
+  stopTimer();
+  selectModule(currentModule);
 }
 
 async function loadJSON(path) {
@@ -525,25 +574,45 @@ async function loadJSON(path) {
 function switchLang(lang) {
   setLang(lang);
   applyI18nDOM();
+  // Update settings title for current module
+  if (!ui.settingsScreen.classList.contains("hide")) {
+    ui.settingsTitle.textContent = t(MODULE_TITLE_KEYS[currentModule]);
+  }
   updateDashboard();
   if (current) renderQuestion();
 }
 
 function wire() {
-  ui.contentChecks.addEventListener("change", readSettingsFromUIAndSave);
+  // Module card clicks
+  document.querySelectorAll(".module-card").forEach(card => {
+    card.addEventListener("click", () => {
+      selectModule(card.dataset.module);
+    });
+  });
+
+  // Settings back button
+  ui.btnBackToModules.onclick = () => {
+    readSettingsFromUIAndSave();
+    showScreen(ui.moduleScreen);
+  };
+
+  // Settings change listeners
   ui.modeChecksKana.addEventListener("change", readSettingsFromUIAndSave);
   ui.modeChecksWord.addEventListener("change", readSettingsFromUIAndSave);
   ui.modeChecksKanji.addEventListener("change", readSettingsFromUIAndSave);
+  ui.modeChecksN2.addEventListener("change", readSettingsFromUIAndSave);
   ui.kanaSetChecks.addEventListener("change", readSettingsFromUIAndSave);
   ui.kanaMode.addEventListener("change", () => { readSettingsFromUIAndSave(); if (current) renderQuestion(); });
   ui.sessionSize.addEventListener("change", readSettingsFromUIAndSave);
   ui.sessionSize.addEventListener("blur", readSettingsFromUIAndSave);
   ui.hideMeaning.addEventListener("change", readSettingsFromUIAndSave);
+  ui.wrongFirst.addEventListener("change", readSettingsFromUIAndSave);
 
+  // Quiz buttons
   ui.btnNew.onclick = nextQuestion;
   ui.btnSpeak.onclick = () => current && speakJP(getKana(current.correct));
   ui.btnStartSession.onclick = startOrRestartSession;
-  ui.btnBack.onclick = backToStart;
+  ui.btnBack.onclick = backToModules;
 
   ui.btnCheck.onclick = checkInput;
   ui.btnShow.onclick = showAnswer;
@@ -551,8 +620,10 @@ function wire() {
   ui.inp.addEventListener("keydown", (e) => { if (e.key === "Enter") checkInput(); });
   ui.q.addEventListener("click", () => current && speakJP(getKana(current.correct)));
 
+  // Module screen footer buttons
   ui.btnResetSettings.onclick = () => {
     settings = resetSettings();
+    currentModule = "kana";
     applySettingsToUI();
     alert(t("alert_reset_settings"));
   };
@@ -590,13 +661,23 @@ async function init() {
     db.words = await loadJSON("./data/words.json");
     db.kanji = await loadJSON("./data/kanji_words.json");
 
+    // Load N2 data
+    db.n2 = await loadJSON("./data/n2_words.json").catch(() => []);
+
     // Load translation meaning files
     const [zhTW, ja, en] = await Promise.all([
-      loadJSON("./data/meanings_zh_TW.json?v=1.6").catch(() => ({})),
-      loadJSON("./data/meanings_ja.json?v=1.6").catch(() => ({})),
-      loadJSON("./data/meanings_en.json?v=1.6").catch(() => ({})),
+      loadJSON("./data/meanings_zh_TW.json?v=2.0").catch(() => ({})),
+      loadJSON("./data/meanings_ja.json?v=2.0").catch(() => ({})),
+      loadJSON("./data/meanings_en.json?v=2.0").catch(() => ({})),
     ]);
     db.meanings = { "zh-TW": zhTW, ja, en };
+
+    // Load N2 translation files
+    const [n2Ja, n2En] = await Promise.all([
+      loadJSON("./data/n2_meanings_ja.json?v=2.0").catch(() => ({})),
+      loadJSON("./data/n2_meanings_en.json?v=2.0").catch(() => ({})),
+    ]);
+    db.n2Meanings = { ja: n2Ja, en: n2En };
   } catch (e) {
     console.error(e);
     alert(t("data_error"));
