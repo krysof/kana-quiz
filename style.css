@@ -782,6 +782,65 @@ input[type="number"] {
   }
 }
 
+/* N2 Exam Question */
+.n2-sentence {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--gray-900);
+  padding: 8px 0;
+}
+
+.n2-sentence .n2-target {
+  text-decoration: underline;
+  text-decoration-color: var(--primary);
+  text-underline-offset: 4px;
+  text-decoration-thickness: 2px;
+  font-weight: 700;
+  color: var(--primary-dark);
+}
+
+.n2-sentence .n2-blank {
+  display: inline-block;
+  min-width: 80px;
+  border-bottom: 2px dashed var(--primary);
+  text-align: center;
+  padding: 0 8px;
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.n2-hint {
+  font-size: 0.85rem;
+  color: var(--gray-500);
+  margin-bottom: 4px;
+  font-style: italic;
+}
+
+.n2-cat-tag {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: var(--primary-bg);
+  color: var(--primary);
+  margin-bottom: 8px;
+}
+
+/* N2 usage options (full sentences) */
+.opt.opt-sentence {
+  text-align: left;
+  padding: 14px 16px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.opt.opt-sentence .jp {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--gray-700);
+}
+
 /* Animations */
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(10px); }

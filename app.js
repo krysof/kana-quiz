@@ -43,8 +43,10 @@ const ui = {
   modeChecksKana: $("modeChecksKana"),
   modeChecksWord: $("modeChecksWord"),
   modeChecksKanji: $("modeChecksKanji"),
-  modeChecksN2: $("modeChecksN2"),
   modeChecks: $("modeChecks"),
+
+  // N2 category checks
+  n2CatChecks: $("n2CatChecks"),
 
   // Kana-specific
   kanaSetChecks: $("kanaSetChecks"),
@@ -96,10 +98,13 @@ const ui = {
 
 let settings = loadSettings();
 let stats = loadStats();
-let db = { kana: [], words: [], kanji: [], n2: [], meanings: {}, n2Meanings: {} };
+let db = { kana: [], words: [], kanji: [], n2Questions: [], meanings: {} };
 let current = null;
 let answered = false;
 let currentModule = settings.module || "kana";
+
+// N2 session tracking: avoid repeating questions
+let n2AnsweredIds = new Set();
 
 // Timer
 let timerInterval = null;
@@ -153,21 +158,34 @@ const MODULE_TITLE_KEYS = {
   n2: "mod_n2",
 };
 
+// N2 category hint i18n keys
+const N2_CAT_HINT = {
+  kanji_reading: "n2_q_reading",
+  orthography: "n2_q_ortho",
+  context_vocab: "n2_q_context",
+  paraphrase: "n2_q_para",
+  usage: "n2_q_usage",
+  grammar: "n2_q_grammar",
+};
+
+// N2 category display names
+const N2_CAT_NAMES = {
+  kanji_reading: "漢字読み",
+  orthography: "表記",
+  context_vocab: "文脈規定",
+  paraphrase: "言い換え",
+  usage: "用法",
+  grammar: "文法",
+};
+
 // Get meaning for an item based on current language
 function getMeaning(item) {
   if (!item.meaning) return "";
   const lang = getLang();
   if (lang === "zh-CN") return item.meaning;
-
-  // Check N2 meanings first for n2 type items
-  if (item.type === "n2") {
-    const n2map = db.n2Meanings[lang];
-    if (n2map && n2map[item.rm]) return n2map[item.rm];
-  }
-
   const map = db.meanings[lang];
   if (map && map[item.rm]) return map[item.rm];
-  return item.meaning; // fallback to zh-CN
+  return item.meaning;
 }
 
 // ==================== Module Selection ====================
@@ -187,9 +205,7 @@ function selectModule(mod) {
   ui.settingsKanji.classList.toggle("hide", mod !== "kanji");
   ui.settingsN2.classList.toggle("hide", mod !== "n2");
 
-  // Apply saved modes for this module
   applySettingsToUI();
-
   showScreen(ui.settingsScreen);
 }
 
@@ -197,7 +213,7 @@ function applySettingsToUI() {
   setChecked(ui.modeChecksKana, settings.modesKana);
   setChecked(ui.modeChecksWord, settings.modesWord);
   setChecked(ui.modeChecksKanji, settings.modesKanji);
-  setChecked(ui.modeChecksN2, settings.modesN2);
+  setChecked(ui.n2CatChecks, settings.n2Cats);
   setChecked(ui.kanaSetChecks, settings.kanaSets);
   ui.kanaMode.value = settings.kanaMode || "hira";
   ui.sessionSize.value = settings.sessionSize ?? 20;
@@ -209,7 +225,7 @@ function readSettingsFromUIAndSave() {
   settings.modesKana = getChecked(ui.modeChecksKana);
   settings.modesWord = getChecked(ui.modeChecksWord);
   settings.modesKanji = getChecked(ui.modeChecksKanji);
-  settings.modesN2 = getChecked(ui.modeChecksN2);
+  settings.n2Cats = getChecked(ui.n2CatChecks);
 
   const sets = getChecked(ui.kanaSetChecks);
   settings.kanaSets = sets.length ? sets : ["seion"];
@@ -235,7 +251,7 @@ function readSettingsFromUIAndSave() {
       settings.modes = settings.modesKanji.length ? settings.modesKanji : ["kanji_read", "read_kanji"];
       break;
     case "n2":
-      settings.modes = settings.modesN2.length ? settings.modesN2 : ["kanji_read", "read_kanji"];
+      settings.modes = ["n2_exam"];
       break;
   }
 
@@ -280,6 +296,11 @@ function showScreen(screen) {
 }
 
 function setUIForMode(mode) {
+  if (mode === "n2_exam") {
+    ui.inputWrap.classList.add("hide");
+    ui.opts.classList.remove("hide");
+    return;
+  }
   const isInput = (mode === "rm_in" || mode === "jp_in");
   const isChoice = !isInput;
   ui.inputWrap.classList.toggle("hide", !isInput);
@@ -294,11 +315,110 @@ function setUIForMode(mode) {
   }
 }
 
+// ==================== N2 Exam Question ====================
+
+function pickN2Question() {
+  const cats = new Set(settings.n2Cats?.length ? settings.n2Cats : ["kanji_reading", "orthography", "context_vocab", "grammar"]);
+  const pool = db.n2Questions.filter(q => cats.has(q.cat) && !n2AnsweredIds.has(q.id));
+
+  // If all questions answered, reset
+  if (!pool.length) {
+    n2AnsweredIds.clear();
+    const resetPool = db.n2Questions.filter(q => cats.has(q.cat));
+    if (!resetPool.length) return null;
+    return resetPool[Math.floor(Math.random() * resetPool.length)];
+  }
+
+  return pool[Math.floor(Math.random() * pool.length)];
+}
+
+function renderN2Question() {
+  const nq = current.n2Q;
+  ui.meaning.textContent = "";
+  ui.meaning.onclick = null;
+  ui.result.textContent = "";
+
+  // Category tag
+  const catName = N2_CAT_NAMES[nq.cat] || nq.cat;
+  const hint = t(N2_CAT_HINT[nq.cat] || "n2_q_context");
+
+  // Build question HTML
+  let sentenceHtml = "";
+  if (nq.target && nq.sentence.includes(nq.target)) {
+    sentenceHtml = nq.sentence.replace(
+      nq.target,
+      `<span class="n2-target">${nq.target}</span>`
+    );
+  } else {
+    sentenceHtml = nq.sentence;
+  }
+
+  ui.q.innerHTML = `<span class="n2-cat-tag">${catName}</span><div class="n2-hint">${hint}</div><div class="n2-sentence">${sentenceHtml}</div>`;
+
+  // Build options
+  const isUsage = nq.cat === "usage";
+  ui.opts.innerHTML = "";
+  nq.options.forEach((opt, idx) => {
+    const div = document.createElement("div");
+    div.className = isUsage ? "opt opt-sentence" : "opt";
+    div.innerHTML = isUsage
+      ? `<div class="jp">${opt}</div>`
+      : `<div class="jp">${idx + 1}. ${opt}</div>`;
+    div.onclick = () => answerN2Choice(idx);
+    ui.opts.appendChild(div);
+  });
+
+  setUIForMode("n2_exam");
+}
+
+function answerN2Choice(idx) {
+  if (answered) return;
+  answered = true;
+
+  const nq = current.n2Q;
+  const ok = idx === nq.answer;
+  const correctText = nq.options[nq.answer];
+
+  n2AnsweredIds.add(nq.id);
+
+  if (ok) playCorrect();
+  else playWrong();
+
+  // Build result message
+  if (ok) {
+    ui.result.innerHTML = `✅ ${t("result_correct")}<b>${correctText}</b>`;
+  } else {
+    ui.result.innerHTML = `❌ ${t("result_wrong")}<b>${correctText}</b>`;
+  }
+
+  // Record stats
+  const fakeCorrect = { type: "n2", rm: `n2_${nq.id}`, hira: `n2_${nq.id}` };
+  const r = recordResult(stats, { correct: fakeCorrect }, ok);
+  saveStats(stats);
+  updateDashboard();
+
+  if (r.finished) {
+    stopTimer();
+    const elapsed = Math.floor((Date.now() - sessionStartTime) / 1000);
+    ui.result.innerHTML += ` <b>（${t("finish_done")}${formatTime(elapsed)}${t("finish_acc")}${pct(stats.session.ok, stats.session.done)}）</b>`;
+    ui.btnNew.textContent = t("btn_finish");
+  }
+}
+
+// ==================== Standard Question Rendering ====================
+
 function renderQuestion() {
   if (!current) {
     ui.q.textContent = t("ready");
     return;
   }
+
+  // N2 exam mode
+  if (current.mode === "n2_exam") {
+    renderN2Question();
+    return;
+  }
+
   const it = current.correct;
   const kana = getKana(it);
   const meaning = getMeaning(it);
@@ -329,7 +449,7 @@ function renderQuestion() {
       ui.meaning.textContent = "";
       ui.meaning.onclick = null;
     }
-  } else if ((it.type === "word" || it.type === "n2") && meaning) {
+  } else if (it.type === "word" && meaning) {
     if (shouldHide) {
       ui.meaning.textContent = t("meaning_hidden");
       ui.meaning.style.cursor = "pointer";
@@ -418,9 +538,7 @@ function renderQuestion() {
       div.innerHTML = (current.mode === "rm_mc")
         ? `<div class="jp">${getKana(c)}</div>`
         : `<div class="rm">${c.rm}</div>`;
-      div.onclick = () => {
-        answerChoice(idx);
-      };
+      div.onclick = () => answerChoice(idx);
       ui.opts.appendChild(div);
     });
   } else {
@@ -445,6 +563,21 @@ function nextQuestion() {
 
   if (!stats.session.active) {
     stats.session.size = settings.sessionSize;
+  }
+
+  // N2 exam mode
+  if (currentModule === "n2") {
+    const nq = pickN2Question();
+    if (!nq) {
+      ui.q.textContent = "No questions available";
+      return;
+    }
+    current = { mode: "n2_exam", n2Q: nq, correct: { type: "n2", rm: `n2_${nq.id}`, hira: `n2_${nq.id}` } };
+    answered = false;
+    renderQuestion();
+    saveStats(stats);
+    updateDashboard();
+    return;
   }
 
   current = newQuestion(db, settings, stats);
@@ -533,6 +666,14 @@ function checkInput() {
 
 function showAnswer() {
   if (!current) return;
+  if (current.mode === "n2_exam") {
+    answered = true;
+    const nq = current.n2Q;
+    const correctText = nq.options[nq.answer];
+    ui.result.innerHTML = `${t("result_answer")}<b>${correctText}</b>`;
+    n2AnsweredIds.add(nq.id);
+    return;
+  }
   answered = true;
   const kana = getKana(current.correct);
   const meaning = getMeaning(current.correct);
@@ -544,6 +685,12 @@ function startOrRestartSession() {
   unlockAudio();
   warmupTTS();
   readSettingsFromUIAndSave();
+
+  // Reset N2 tracking on new session
+  if (currentModule === "n2") {
+    n2AnsweredIds.clear();
+  }
+
   startSession(stats, settings.sessionSize);
   saveStats(stats);
   updateDashboard();
@@ -560,11 +707,6 @@ function backToModules() {
   updateDashboard();
 }
 
-function backToSettings() {
-  stopTimer();
-  selectModule(currentModule);
-}
-
 async function loadJSON(path) {
   const res = await fetch(path, { cache: "no-store" });
   if (!res.ok) throw new Error(`${path} load failed`);
@@ -574,7 +716,6 @@ async function loadJSON(path) {
 function switchLang(lang) {
   setLang(lang);
   applyI18nDOM();
-  // Update settings title for current module
   if (!ui.settingsScreen.classList.contains("hide")) {
     ui.settingsTitle.textContent = t(MODULE_TITLE_KEYS[currentModule]);
   }
@@ -600,7 +741,7 @@ function wire() {
   ui.modeChecksKana.addEventListener("change", readSettingsFromUIAndSave);
   ui.modeChecksWord.addEventListener("change", readSettingsFromUIAndSave);
   ui.modeChecksKanji.addEventListener("change", readSettingsFromUIAndSave);
-  ui.modeChecksN2.addEventListener("change", readSettingsFromUIAndSave);
+  ui.n2CatChecks.addEventListener("change", readSettingsFromUIAndSave);
   ui.kanaSetChecks.addEventListener("change", readSettingsFromUIAndSave);
   ui.kanaMode.addEventListener("change", () => { readSettingsFromUIAndSave(); if (current) renderQuestion(); });
   ui.sessionSize.addEventListener("change", readSettingsFromUIAndSave);
@@ -610,7 +751,11 @@ function wire() {
 
   // Quiz buttons
   ui.btnNew.onclick = nextQuestion;
-  ui.btnSpeak.onclick = () => current && speakJP(getKana(current.correct));
+  ui.btnSpeak.onclick = () => {
+    if (current && current.mode !== "n2_exam") {
+      speakJP(getKana(current.correct));
+    }
+  };
   ui.btnStartSession.onclick = startOrRestartSession;
   ui.btnBack.onclick = backToModules;
 
@@ -618,7 +763,11 @@ function wire() {
   ui.btnShow.onclick = showAnswer;
 
   ui.inp.addEventListener("keydown", (e) => { if (e.key === "Enter") checkInput(); });
-  ui.q.addEventListener("click", () => current && speakJP(getKana(current.correct)));
+  ui.q.addEventListener("click", () => {
+    if (current && current.mode !== "n2_exam") {
+      speakJP(getKana(current.correct));
+    }
+  });
 
   // Module screen footer buttons
   ui.btnResetSettings.onclick = () => {
@@ -661,8 +810,13 @@ async function init() {
     db.words = await loadJSON("./data/words.json");
     db.kanji = await loadJSON("./data/kanji_words.json");
 
-    // Load N2 data
-    db.n2 = await loadJSON("./data/n2_words.json").catch(() => []);
+    // Load N2 exam questions (3 files merged)
+    const [qReading, qVocab, qGrammar] = await Promise.all([
+      loadJSON("./data/n2_q_reading.json").catch(() => []),
+      loadJSON("./data/n2_q_vocab.json").catch(() => []),
+      loadJSON("./data/n2_q_grammar.json").catch(() => []),
+    ]);
+    db.n2Questions = [...qReading, ...qVocab, ...qGrammar];
 
     // Load translation meaning files
     const [zhTW, ja, en] = await Promise.all([
@@ -671,13 +825,6 @@ async function init() {
       loadJSON("./data/meanings_en.json?v=2.0").catch(() => ({})),
     ]);
     db.meanings = { "zh-TW": zhTW, ja, en };
-
-    // Load N2 translation files
-    const [n2Ja, n2En] = await Promise.all([
-      loadJSON("./data/n2_meanings_ja.json?v=2.0").catch(() => ({})),
-      loadJSON("./data/n2_meanings_en.json?v=2.0").catch(() => ({})),
-    ]);
-    db.n2Meanings = { ja: n2Ja, en: n2En };
   } catch (e) {
     console.error(e);
     alert(t("data_error"));

@@ -1,0 +1,1172 @@
+[
+  {
+    "id": 1,
+    "cat": "kanji_reading",
+    "sentence": "荷物を友人の家に届けることにした。",
+    "target": "届ける",
+    "options": [
+      "もうける",
+      "つづける",
+      "かたづける",
+      "とどける"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 2,
+    "cat": "kanji_reading",
+    "sentence": "彼は自分の気持ちをうまく伝えられなかった。",
+    "target": "伝える",
+    "options": [
+      "かかえる",
+      "たえる",
+      "つたえる",
+      "そなえる"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 3,
+    "cat": "kanji_reading",
+    "sentence": "二つの製品を比較して、どちらがいいか決めよう。",
+    "target": "比較",
+    "options": [
+      "ひこう",
+      "ひきょう",
+      "びかく",
+      "ひかく"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 4,
+    "cat": "kanji_reading",
+    "sentence": "彼女は三人の子どもを一人で育てた。",
+    "target": "育てた",
+    "options": [
+      "たてた",
+      "あてた",
+      "そだてた",
+      "はてた"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 5,
+    "cat": "kanji_reading",
+    "sentence": "急な誘いだったが、丁寧に断った。",
+    "target": "断った",
+    "options": [
+      "たった",
+      "わかった",
+      "まわった",
+      "ことわった"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 6,
+    "cat": "kanji_reading",
+    "sentence": "旅行中、大切な荷物を友人に預けた。",
+    "target": "預けた",
+    "options": [
+      "あつけた",
+      "つけた",
+      "よけた",
+      "あずけた"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 7,
+    "cat": "kanji_reading",
+    "sentence": "上司は彼の努力を認めてくれた。",
+    "target": "認めて",
+    "options": [
+      "もとめて",
+      "あらためて",
+      "みとめて",
+      "つとめて"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 8,
+    "cat": "kanji_reading",
+    "sentence": "この飲み物にはビタミンが多く含まれている。",
+    "target": "含まれて",
+    "options": [
+      "こまれて",
+      "はまれて",
+      "ふくまれて",
+      "くまれて"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 9,
+    "cat": "kanji_reading",
+    "sentence": "この産業は国内生産の三割を占めている。",
+    "target": "占めて",
+    "options": [
+      "しめて",
+      "とめて",
+      "そめて",
+      "きめて"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 10,
+    "cat": "kanji_reading",
+    "sentence": "首相は記者会見で自分の意見を述べた。",
+    "target": "述べた",
+    "options": [
+      "じゅつべた",
+      "しゅべた",
+      "のべた",
+      "のばた"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 11,
+    "cat": "kanji_reading",
+    "sentence": "久しぶりに恩師を訪ねた。",
+    "target": "訪ねた",
+    "options": [
+      "おさねた",
+      "かさねた",
+      "たねた",
+      "たずねた"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 12,
+    "cat": "kanji_reading",
+    "sentence": "猫が窓から逃げてしまった。",
+    "target": "逃げて",
+    "options": [
+      "すげて",
+      "ちょうげて",
+      "のげて",
+      "にげて"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 13,
+    "cat": "kanji_reading",
+    "sentence": "同じ失敗を繰り返さないように注意してください。",
+    "target": "繰り返さない",
+    "options": [
+      "くりかわさない",
+      "くりもどさない",
+      "くりかえさない",
+      "くりなおさない"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 14,
+    "cat": "kanji_reading",
+    "sentence": "将来のために毎月貯金している。",
+    "target": "貯金",
+    "options": [
+      "ちきん",
+      "しょきん",
+      "じょきん",
+      "ちょきん"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 15,
+    "cat": "kanji_reading",
+    "sentence": "この小説を英語に翻訳するのは難しい。",
+    "target": "翻訳",
+    "options": [
+      "ほんやく",
+      "はんやく",
+      "はんえき",
+      "ほんえき"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 16,
+    "cat": "kanji_reading",
+    "sentence": "健康を維持するために毎日運動している。",
+    "target": "維持",
+    "options": [
+      "ゆうじ",
+      "いじ",
+      "いち",
+      "ゆいじ"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 17,
+    "cat": "kanji_reading",
+    "sentence": "来週、大阪へ出張する予定です。",
+    "target": "出張",
+    "options": [
+      "しゅつちょう",
+      "でばり",
+      "でちょう",
+      "しゅっちょう"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 18,
+    "cat": "kanji_reading",
+    "sentence": "海外で働いた経験が役に立った。",
+    "target": "経験",
+    "options": [
+      "きょうけん",
+      "きょうげん",
+      "けいけん",
+      "けいげん"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 19,
+    "cat": "kanji_reading",
+    "sentence": "彼女はコンサートでピアノを演奏した。",
+    "target": "演奏",
+    "options": [
+      "えんぞう",
+      "えんしゅう",
+      "えんかなで",
+      "えんそう"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 20,
+    "cat": "kanji_reading",
+    "sentence": "この法律は社会全体に影響を与える。",
+    "target": "影響",
+    "options": [
+      "えいきょう",
+      "えいひびき",
+      "いんきょう",
+      "いんひびき"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 21,
+    "cat": "kanji_reading",
+    "sentence": "地球の環境を守ることは私たちの責任だ。",
+    "target": "環境",
+    "options": [
+      "かんきょう",
+      "がんきょう",
+      "かんけん",
+      "かんけい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 22,
+    "cat": "kanji_reading",
+    "sentence": "学校の規則を守らなければならない。",
+    "target": "規則",
+    "options": [
+      "きそく",
+      "きそう",
+      "きのり",
+      "ぎそく"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 23,
+    "cat": "kanji_reading",
+    "sentence": "新しい制度が来年から実施される。",
+    "target": "制度",
+    "options": [
+      "さいど",
+      "さいたく",
+      "せいたく",
+      "せいど"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 24,
+    "cat": "kanji_reading",
+    "sentence": "政府は災害への対策を急いでいる。",
+    "target": "対策",
+    "options": [
+      "たいしゃく",
+      "ついしゃく",
+      "たいさく",
+      "ついさく"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 25,
+    "cat": "kanji_reading",
+    "sentence": "会社の方針に従って行動してください。",
+    "target": "方針",
+    "options": [
+      "かたしん",
+      "ほうしん",
+      "ほうばり",
+      "ほうじん"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 26,
+    "cat": "kanji_reading",
+    "sentence": "日本の技術は世界的に評価されている。",
+    "target": "技術",
+    "options": [
+      "きじゅつ",
+      "きすべ",
+      "ぎじゅつ",
+      "ぎすべ"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 27,
+    "cat": "kanji_reading",
+    "sentence": "彼女は語学の能力が非常に高い。",
+    "target": "能力",
+    "options": [
+      "どうりき",
+      "どうりょく",
+      "のうりき",
+      "のうりょく"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 28,
+    "cat": "kanji_reading",
+    "sentence": "上司の評価が昇進に影響する。",
+    "target": "評価",
+    "options": [
+      "へいか",
+      "へいけ",
+      "ひょうか",
+      "ひょうけ"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 29,
+    "cat": "kanji_reading",
+    "sentence": "彼の態度に不満を感じた人が多かった。",
+    "target": "態度",
+    "options": [
+      "だいと",
+      "たいと",
+      "たいど",
+      "だいど"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 30,
+    "cat": "kanji_reading",
+    "sentence": "初対面の印象はとても大切だ。",
+    "target": "印象",
+    "options": [
+      "いんしょう",
+      "いんぞう",
+      "しるしょう",
+      "しるぞう"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 31,
+    "cat": "kanji_reading",
+    "sentence": "子どものころの記憶がだんだん薄れてきた。",
+    "target": "記憶",
+    "options": [
+      "しるおく",
+      "きおく",
+      "しるよく",
+      "きよく"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 32,
+    "cat": "kanji_reading",
+    "sentence": "想像もしなかった結果になった。",
+    "target": "想像",
+    "options": [
+      "そうぞう",
+      "しょうしょう",
+      "そうしょう",
+      "しょうぞう"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 33,
+    "cat": "kanji_reading",
+    "sentence": "この問題の責任は管理者にある。",
+    "target": "責任",
+    "options": [
+      "せきにん",
+      "しゃくにん",
+      "せきじん",
+      "しゃくじん"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 34,
+    "cat": "kanji_reading",
+    "sentence": "国民には投票する義務がある。",
+    "target": "義務",
+    "options": [
+      "ぎぶ",
+      "きぶ",
+      "ぎむ",
+      "きむ"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 35,
+    "cat": "kanji_reading",
+    "sentence": "すべての人に教育を受ける権利がある。",
+    "target": "権利",
+    "options": [
+      "ごんり",
+      "けんれい",
+      "けんり",
+      "ごんれい"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 36,
+    "cat": "kanji_reading",
+    "sentence": "企業間の競争がますます激しくなっている。",
+    "target": "競争",
+    "options": [
+      "けいそう",
+      "きょうあらそい",
+      "けいあらそい",
+      "きょうそう"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 37,
+    "cat": "kanji_reading",
+    "sentence": "地域住民の協力のおかげで祭りが成功した。",
+    "target": "協力",
+    "options": [
+      "きょうりき",
+      "きょうりょく",
+      "ごうりょく",
+      "ごうりき"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 38,
+    "cat": "kanji_reading",
+    "sentence": "メディアの批判を受けて、大臣が辞任した。",
+    "target": "批判",
+    "options": [
+      "ひはん",
+      "びはん",
+      "ひばん",
+      "びばん"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 39,
+    "cat": "kanji_reading",
+    "sentence": "この問題について長時間議論が続いた。",
+    "target": "議論",
+    "options": [
+      "ぎりん",
+      "ぎろん",
+      "きりん",
+      "きろん"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 40,
+    "cat": "kanji_reading",
+    "sentence": "部長が新しいプロジェクトの提案をした。",
+    "target": "提案",
+    "options": [
+      "だいかん",
+      "だいあん",
+      "ていかん",
+      "ていあん"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 41,
+    "cat": "kanji_reading",
+    "sentence": "今年は収入が去年より増えた。",
+    "target": "収入",
+    "options": [
+      "しゅいり",
+      "しゅにゅう",
+      "しゅうにゅう",
+      "しゅういり"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 42,
+    "cat": "kanji_reading",
+    "sentence": "台風による被害が各地で報告された。",
+    "target": "被害",
+    "options": [
+      "ひかい",
+      "びがい",
+      "ひがい",
+      "びかい"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 43,
+    "cat": "kanji_reading",
+    "sentence": "この薬の効果はすぐに現れた。",
+    "target": "効果",
+    "options": [
+      "きょうが",
+      "こうが",
+      "きょうか",
+      "こうか"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 44,
+    "cat": "kanji_reading",
+    "sentence": "地球温暖化は深刻な現象である。",
+    "target": "現象",
+    "options": [
+      "けんぞう",
+      "げんしょう",
+      "けんしょう",
+      "げんぞう"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 45,
+    "cat": "kanji_reading",
+    "sentence": "最近、高齢化の傾向がますます強まっている。",
+    "target": "傾向",
+    "options": [
+      "きょうこう",
+      "けいこう",
+      "きょうむき",
+      "けいむき"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 46,
+    "cat": "kanji_reading",
+    "sentence": "昨夜の嵐はとても激しかった。",
+    "target": "激しかった",
+    "options": [
+      "ひどしかった",
+      "はげしかった",
+      "するどしかった",
+      "きびしかった"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 47,
+    "cat": "kanji_reading",
+    "sentence": "この業界の厳しい競争を乗り越えなければならない。",
+    "target": "厳しい",
+    "options": [
+      "くるしい",
+      "はげしい",
+      "まずしい",
+      "きびしい"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 48,
+    "cat": "kanji_reading",
+    "sentence": "彼のスピーチは素晴らしかった。",
+    "target": "素晴らしかった",
+    "options": [
+      "そばらしかった",
+      "すはらしかった",
+      "すばらしかった",
+      "そはらしかった"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 49,
+    "cat": "kanji_reading",
+    "sentence": "この分野の研究は近年著しく進歩した。",
+    "target": "著しく",
+    "options": [
+      "おびただしく",
+      "いちじるしく",
+      "きびしく",
+      "はなはだしく"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 50,
+    "cat": "kanji_reading",
+    "sentence": "幼い子どもには大人の見守りが必要だ。",
+    "target": "幼い",
+    "options": [
+      "おとない",
+      "いとけない",
+      "ちいさい",
+      "おさない"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 51,
+    "cat": "orthography",
+    "sentence": "この問題をかいけつする方法を考えよう。",
+    "target": "かいけつ",
+    "options": [
+      "回決",
+      "開決",
+      "介決",
+      "解決"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 52,
+    "cat": "orthography",
+    "sentence": "電車がじこで遅れている。",
+    "target": "じこ",
+    "options": [
+      "自故",
+      "次故",
+      "時故",
+      "事故"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 53,
+    "cat": "orthography",
+    "sentence": "彼はかならず約束を守る人だ。",
+    "target": "かならず",
+    "options": [
+      "必ず",
+      "定ず",
+      "決ず",
+      "要ず"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 54,
+    "cat": "orthography",
+    "sentence": "この地域のちあんは良い方だ。",
+    "target": "ちあん",
+    "options": [
+      "治安",
+      "地安",
+      "置安",
+      "知安"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 55,
+    "cat": "orthography",
+    "sentence": "先生にそうだんしてから決めたい。",
+    "target": "そうだん",
+    "options": [
+      "層談",
+      "相談",
+      "総談",
+      "想談"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 56,
+    "cat": "orthography",
+    "sentence": "子どもの教育にかんしんを持つ親が増えている。",
+    "target": "かんしん",
+    "options": [
+      "関心",
+      "間心",
+      "感心",
+      "観心"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 57,
+    "cat": "orthography",
+    "sentence": "新しい法律がしこうされた。",
+    "target": "しこう",
+    "options": [
+      "施行",
+      "試行",
+      "思考",
+      "志向"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 58,
+    "cat": "orthography",
+    "sentence": "この問題はふくざつで簡単には解けない。",
+    "target": "ふくざつ",
+    "options": [
+      "腹雑",
+      "復雑",
+      "副雑",
+      "複雑"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 59,
+    "cat": "orthography",
+    "sentence": "けいざいの発展には教育が重要だ。",
+    "target": "けいざい",
+    "options": [
+      "形済",
+      "係済",
+      "計済",
+      "経済"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 60,
+    "cat": "orthography",
+    "sentence": "新商品のせんでんに力を入れている。",
+    "target": "せんでん",
+    "options": [
+      "選伝",
+      "宣伝",
+      "洗伝",
+      "先伝"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 61,
+    "cat": "orthography",
+    "sentence": "彼女はいっしょうけんめい勉強している。",
+    "target": "いっしょうけんめい",
+    "options": [
+      "一升懸命",
+      "一正懸命",
+      "一章懸命",
+      "一生懸命"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 62,
+    "cat": "orthography",
+    "sentence": "この計画をじっしするには予算が足りない。",
+    "target": "じっし",
+    "options": [
+      "実試",
+      "実使",
+      "実施",
+      "実始"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 63,
+    "cat": "orthography",
+    "sentence": "市役所でしょるいを提出した。",
+    "target": "しょるい",
+    "options": [
+      "所類",
+      "処類",
+      "書類",
+      "初類"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 64,
+    "cat": "orthography",
+    "sentence": "このきかいを逃さないようにしたい。",
+    "target": "きかい",
+    "options": [
+      "機会",
+      "期会",
+      "記会",
+      "気会"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 65,
+    "cat": "orthography",
+    "sentence": "工事のえいきょうで道が混んでいる。",
+    "target": "えいきょう",
+    "options": [
+      "永響",
+      "影響",
+      "英響",
+      "映響"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 66,
+    "cat": "orthography",
+    "sentence": "祖母のかんびょうのために帰省した。",
+    "target": "かんびょう",
+    "options": [
+      "感病",
+      "観病",
+      "看病",
+      "間病"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 67,
+    "cat": "orthography",
+    "sentence": "彼の行動はしゅういの人を驚かせた。",
+    "target": "しゅうい",
+    "options": [
+      "周意",
+      "集囲",
+      "周囲",
+      "収囲"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 68,
+    "cat": "orthography",
+    "sentence": "この仕事にはけいけんが必要です。",
+    "target": "けいけん",
+    "options": [
+      "係験",
+      "計験",
+      "形験",
+      "経験"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 69,
+    "cat": "orthography",
+    "sentence": "駅前にちゅうしゃじょうが新しくできた。",
+    "target": "ちゅうしゃじょう",
+    "options": [
+      "駐車場",
+      "柱車場",
+      "注車場",
+      "中車場"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 70,
+    "cat": "orthography",
+    "sentence": "この道具はべんりで毎日使っている。",
+    "target": "べんり",
+    "options": [
+      "弁利",
+      "便利",
+      "勉利",
+      "辺利"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 71,
+    "cat": "orthography",
+    "sentence": "会議のないようをまとめてください。",
+    "target": "ないよう",
+    "options": [
+      "内用",
+      "内要",
+      "内様",
+      "内容"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 72,
+    "cat": "orthography",
+    "sentence": "彼は会社にこうけんした人物として知られている。",
+    "target": "こうけん",
+    "options": [
+      "公献",
+      "講献",
+      "貢献",
+      "功献"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 73,
+    "cat": "orthography",
+    "sentence": "この製品のひんしつは非常に高い。",
+    "target": "ひんしつ",
+    "options": [
+      "頻質",
+      "浜質",
+      "品質",
+      "貧質"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 74,
+    "cat": "orthography",
+    "sentence": "交通じゅうたいで会議に遅れてしまった。",
+    "target": "じゅうたい",
+    "options": [
+      "住滞",
+      "渋滞",
+      "従滞",
+      "重滞"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 75,
+    "cat": "orthography",
+    "sentence": "しぜんの中で過ごす時間は大切だ。",
+    "target": "しぜん",
+    "options": [
+      "紫然",
+      "自然",
+      "至然",
+      "志然"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 76,
+    "cat": "orthography",
+    "sentence": "この店はふんいきがとてもいい。",
+    "target": "ふんいき",
+    "options": [
+      "分囲気",
+      "奮囲気",
+      "粉囲気",
+      "雰囲気"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 77,
+    "cat": "orthography",
+    "sentence": "新しいせいさくが発表された。",
+    "target": "せいさく",
+    "options": [
+      "制策",
+      "正策",
+      "成策",
+      "政策"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 78,
+    "cat": "orthography",
+    "sentence": "外国でのせいかつに少しずつ慣れてきた。",
+    "target": "せいかつ",
+    "options": [
+      "成活",
+      "正活",
+      "清活",
+      "生活"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 79,
+    "cat": "orthography",
+    "sentence": "この映画のかんとくは有名な人だ。",
+    "target": "かんとく",
+    "options": [
+      "監督",
+      "感督",
+      "観督",
+      "管督"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 80,
+    "cat": "orthography",
+    "sentence": "田中さんはせいかくが明るくて人気がある。",
+    "target": "せいかく",
+    "options": [
+      "成格",
+      "性格",
+      "清格",
+      "正格"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 81,
+    "cat": "orthography",
+    "sentence": "兄はいしゃになるのが夢だった。",
+    "target": "いしゃ",
+    "options": [
+      "衣者",
+      "医者",
+      "委者",
+      "意者"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 82,
+    "cat": "orthography",
+    "sentence": "このけんきゅうの結果は学会で発表される。",
+    "target": "けんきゅう",
+    "options": [
+      "研究",
+      "見究",
+      "検究",
+      "建究"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 83,
+    "cat": "orthography",
+    "sentence": "新しいほうほうを試してみよう。",
+    "target": "ほうほう",
+    "options": [
+      "方法",
+      "報法",
+      "法方",
+      "放法"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 84,
+    "cat": "orthography",
+    "sentence": "この地域のでんとうを守りたい。",
+    "target": "でんとう",
+    "options": [
+      "殿統",
+      "田統",
+      "伝統",
+      "電統"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 85,
+    "cat": "orthography",
+    "sentence": "社会のへんかに対応する力が求められている。",
+    "target": "へんか",
+    "options": [
+      "編化",
+      "偏化",
+      "変化",
+      "返化"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 86,
+    "cat": "orthography",
+    "sentence": "彼はちしきが豊富で頼りになる。",
+    "target": "ちしき",
+    "options": [
+      "地識",
+      "置識",
+      "知識",
+      "値識"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 87,
+    "cat": "orthography",
+    "sentence": "大学でけんちくを学んでいる。",
+    "target": "けんちく",
+    "options": [
+      "検築",
+      "建築",
+      "見築",
+      "権築"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 88,
+    "cat": "orthography",
+    "sentence": "このきじは多くの人に読まれている。",
+    "target": "きじ",
+    "options": [
+      "気事",
+      "起事",
+      "期事",
+      "記事"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 89,
+    "cat": "orthography",
+    "sentence": "会社のぎょうせきが大幅に改善された。",
+    "target": "ぎょうせき",
+    "options": [
+      "仰績",
+      "凝績",
+      "業績",
+      "行績"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 90,
+    "cat": "orthography",
+    "sentence": "交通きかんが発達していて便利な町だ。",
+    "target": "きかん",
+    "options": [
+      "器関",
+      "機関",
+      "気関",
+      "期関"
+    ],
+    "answer": 1
+  }
+]
