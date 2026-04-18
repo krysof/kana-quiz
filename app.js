@@ -47,6 +47,7 @@ const ui = {
 
   // N2 category checks
   n2CatChecks: $("n2CatChecks"),
+  jlptLevelChecks: $("jlptLevelChecks"),
 
   // Kana-specific
   kanaSetChecks: $("kanaSetChecks"),
@@ -98,7 +99,7 @@ const ui = {
 
 let settings = loadSettings();
 let stats = loadStats();
-let db = { kana: [], words: [], kanji: [], n2Questions: [], meanings: {} };
+let db = { kana: [], words: [], kanji: [], n2Questions: [], jlptBanks: {}, meanings: {} };
 let current = null;
 let answered = false;
 let currentModule = settings.module || "kana";
@@ -215,6 +216,11 @@ function applySettingsToUI() {
   setChecked(ui.modeChecksKanji, settings.modesKanji);
   setChecked(ui.n2CatChecks, settings.n2Cats);
   setChecked(ui.kanaSetChecks, settings.kanaSets);
+  // Set JLPT level radio
+  const lvl = settings.jlptLevel || "n2";
+  ui.jlptLevelChecks.querySelectorAll('input[type="radio"]').forEach(r => {
+    r.checked = (r.value === lvl);
+  });
   ui.kanaMode.value = settings.kanaMode || "hira";
   ui.sessionSize.value = settings.sessionSize ?? 20;
   ui.hideMeaning.checked = settings.hideMeaning || false;
@@ -226,6 +232,9 @@ function readSettingsFromUIAndSave() {
   settings.modesWord = getChecked(ui.modeChecksWord);
   settings.modesKanji = getChecked(ui.modeChecksKanji);
   settings.n2Cats = getChecked(ui.n2CatChecks);
+  // Read JLPT level
+  const selectedLevel = ui.jlptLevelChecks.querySelector('input[type="radio"]:checked');
+  settings.jlptLevel = selectedLevel ? selectedLevel.value : (settings.jlptLevel || "n2");
 
   const sets = getChecked(ui.kanaSetChecks);
   settings.kanaSets = sets.length ? sets : ["seion"];
@@ -319,12 +328,14 @@ function setUIForMode(mode) {
 
 function pickN2Question() {
   const cats = new Set(settings.n2Cats?.length ? settings.n2Cats : ["kanji_reading", "orthography", "context_vocab", "grammar"]);
-  const pool = db.n2Questions.filter(q => cats.has(q.cat) && !n2AnsweredIds.has(q.id));
+  const level = settings.jlptLevel || "n2";
+  const bank = db.jlptBanks[level] || db.n2Questions || [];
+  const pool = bank.filter(q => cats.has(q.cat) && !n2AnsweredIds.has(`${level}_${q.id}`));
 
   // If all questions answered, reset
   if (!pool.length) {
     n2AnsweredIds.clear();
-    const resetPool = db.n2Questions.filter(q => cats.has(q.cat));
+    const resetPool = bank.filter(q => cats.has(q.cat));
     if (!resetPool.length) return null;
     return resetPool[Math.floor(Math.random() * resetPool.length)];
   }
@@ -379,7 +390,7 @@ function answerN2Choice(idx) {
   const ok = idx === nq.answer;
   const correctText = nq.options[nq.answer];
 
-  n2AnsweredIds.add(nq.id);
+  n2AnsweredIds.add(`${settings.jlptLevel || "n2"}_${nq.id}`);
 
   if (ok) playCorrect();
   else playWrong();
@@ -674,7 +685,7 @@ function showAnswer() {
     const nq = current.n2Q;
     const correctText = nq.options[nq.answer];
     ui.result.innerHTML = `${t("result_answer")}<b>${correctText}</b>`;
-    n2AnsweredIds.add(nq.id);
+    n2AnsweredIds.add(`${settings.jlptLevel || "n2"}_${nq.id}`);
     return;
   }
   answered = true;
@@ -745,6 +756,10 @@ function wire() {
   ui.modeChecksWord.addEventListener("change", readSettingsFromUIAndSave);
   ui.modeChecksKanji.addEventListener("change", readSettingsFromUIAndSave);
   ui.n2CatChecks.addEventListener("change", readSettingsFromUIAndSave);
+  ui.jlptLevelChecks.addEventListener("change", () => {
+    readSettingsFromUIAndSave();
+    n2AnsweredIds.clear();
+  });
   ui.kanaSetChecks.addEventListener("change", readSettingsFromUIAndSave);
   ui.kanaMode.addEventListener("change", () => { readSettingsFromUIAndSave(); if (current) renderQuestion(); });
   ui.sessionSize.addEventListener("change", readSettingsFromUIAndSave);
@@ -833,6 +848,27 @@ async function init() {
       loadJSON("./data/n2_q_grammar_ext2.json").catch(() => []),
     ]);
     db.n2Questions = n2Files.flat();
+    db.jlptBanks.n2 = db.n2Questions;
+
+    // Load N1, N3, N4, N5 banks (4 files per level)
+    const loadLevel = async (lvl) => {
+      const files = await Promise.all([
+        loadJSON(`./data/${lvl}_q_reading.json`).catch(() => []),
+        loadJSON(`./data/${lvl}_q_ortho_context.json`).catch(() => []),
+        loadJSON(`./data/${lvl}_q_context_para.json`).catch(() => []),
+        loadJSON(`./data/${lvl}_q_usage_grammar.json`).catch(() => []),
+        loadJSON(`./data/${lvl}_q_grammar.json`).catch(() => []),
+        loadJSON(`./data/${lvl}_q_fill.json`).catch(() => []),
+      ]);
+      return files.flat();
+    };
+    const [n1Bank, n3Bank, n4Bank, n5Bank] = await Promise.all([
+      loadLevel("n1"), loadLevel("n3"), loadLevel("n4"), loadLevel("n5")
+    ]);
+    db.jlptBanks.n1 = n1Bank;
+    db.jlptBanks.n3 = n3Bank;
+    db.jlptBanks.n4 = n4Bank;
+    db.jlptBanks.n5 = n5Bank;
 
     // Load translation meaning files
     const [zhTW, ja, en] = await Promise.all([

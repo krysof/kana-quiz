@@ -1,0 +1,2589 @@
+[
+  {
+    "id": 501,
+    "cat": "orthography",
+    "sentence": "問題を速やかに（かいけつ）する必要がある。",
+    "target": "かいけつ",
+    "options": [
+      "解決",
+      "開決",
+      "介決",
+      "回決"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 502,
+    "cat": "orthography",
+    "sentence": "彼の意見に全面的に（さんせい）した。",
+    "target": "さんせい",
+    "options": [
+      "賛成",
+      "参成",
+      "産成",
+      "散成"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 503,
+    "cat": "orthography",
+    "sentence": "新しい法律が（せこう）された。",
+    "target": "せこう",
+    "options": [
+      "施行",
+      "施工",
+      "実行",
+      "執行"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 504,
+    "cat": "orthography",
+    "sentence": "彼は長年の研究を（いとな）んでいる。",
+    "target": "いとな",
+    "options": [
+      "営",
+      "宮",
+      "堂",
+      "常"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 505,
+    "cat": "orthography",
+    "sentence": "業務の（とどこお）りを解消した。",
+    "target": "とどこお",
+    "options": [
+      "滞",
+      "帯",
+      "滞",
+      "滯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 506,
+    "cat": "orthography",
+    "sentence": "子供の教育を（おこた）ってはいけない。",
+    "target": "おこた",
+    "options": [
+      "怠",
+      "息",
+      "忠",
+      "忽"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 507,
+    "cat": "orthography",
+    "sentence": "彼は研究に多くの時間を（つい）やした。",
+    "target": "つい",
+    "options": [
+      "費",
+      "貴",
+      "資",
+      "賃"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 508,
+    "cat": "orthography",
+    "sentence": "この事業に長年（たずさ）わってきた。",
+    "target": "たずさ",
+    "options": [
+      "携",
+      "推",
+      "持",
+      "授"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 509,
+    "cat": "orthography",
+    "sentence": "判断を彼に（ゆだ）ねることにした。",
+    "target": "ゆだ",
+    "options": [
+      "委",
+      "任",
+      "託",
+      "預"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 510,
+    "cat": "orthography",
+    "sentence": "初志を（つらぬ）くことが肝要だ。",
+    "target": "つらぬ",
+    "options": [
+      "貫",
+      "慣",
+      "貴",
+      "賞"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 511,
+    "cat": "orthography",
+    "sentence": "念願を（と）げることができた。",
+    "target": "と",
+    "options": [
+      "遂",
+      "逐",
+      "逓",
+      "遣"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 512,
+    "cat": "orthography",
+    "sentence": "責任を（まっと）うする覚悟だ。",
+    "target": "まっと",
+    "options": [
+      "全",
+      "完",
+      "滿",
+      "万"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 513,
+    "cat": "orthography",
+    "sentence": "工事を（うけお）う会社を選定する。",
+    "target": "うけお",
+    "options": [
+      "請負",
+      "受負",
+      "請追",
+      "受追"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 514,
+    "cat": "orthography",
+    "sentence": "彼の作品を（てが）けた編集者だ。",
+    "target": "てが",
+    "options": [
+      "手掛",
+      "手懸",
+      "手架",
+      "手卦"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 515,
+    "cat": "orthography",
+    "sentence": "不正行為を（とりし）まる。",
+    "target": "とりし",
+    "options": [
+      "取締",
+      "取捺",
+      "取縮",
+      "取絞"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 516,
+    "cat": "orthography",
+    "sentence": "社会の（りんり）観が問われている。",
+    "target": "りんり",
+    "options": [
+      "倫理",
+      "論理",
+      "輪理",
+      "綸理"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 517,
+    "cat": "orthography",
+    "sentence": "（どうぎ）的な観点から批判された。",
+    "target": "どうぎ",
+    "options": [
+      "道義",
+      "道儀",
+      "導義",
+      "同義"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 518,
+    "cat": "orthography",
+    "sentence": "彼の（どうとく）心に感銘を受けた。",
+    "target": "どうとく",
+    "options": [
+      "道徳",
+      "道得",
+      "導徳",
+      "道特"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 519,
+    "cat": "orthography",
+    "sentence": "（ぎり）を欠いた行動は許されない。",
+    "target": "ぎり",
+    "options": [
+      "義理",
+      "儀理",
+      "議理",
+      "犠理"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 520,
+    "cat": "orthography",
+    "sentence": "日本の（にんじょう）に触れる物語だ。",
+    "target": "にんじょう",
+    "options": [
+      "人情",
+      "人場",
+      "人状",
+      "任情"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 521,
+    "cat": "orthography",
+    "sentence": "彼女の（じょうちょ）が不安定だ。",
+    "target": "じょうちょ",
+    "options": [
+      "情緒",
+      "情諸",
+      "情著",
+      "情署"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 522,
+    "cat": "orthography",
+    "sentence": "豊かな（じょうそう）を育てる。",
+    "target": "じょうそう",
+    "options": [
+      "情操",
+      "情繰",
+      "情燥",
+      "情操"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 523,
+    "cat": "orthography",
+    "sentence": "仕事への（じょうねつ）を失わない。",
+    "target": "じょうねつ",
+    "options": [
+      "情熱",
+      "情然",
+      "情燃",
+      "情烈"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 524,
+    "cat": "orthography",
+    "sentence": "地域の（ふうぞく）を調査する。",
+    "target": "ふうぞく",
+    "options": [
+      "風俗",
+      "風続",
+      "風族",
+      "風属"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 525,
+    "cat": "orthography",
+    "sentence": "時代の（ふうちょう）を反映している。",
+    "target": "ふうちょう",
+    "options": [
+      "風潮",
+      "風朝",
+      "風調",
+      "風長"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 526,
+    "cat": "orthography",
+    "sentence": "秋の（ふぜい）を楽しむ。",
+    "target": "ふぜい",
+    "options": [
+      "風情",
+      "風性",
+      "風勢",
+      "風精"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 527,
+    "cat": "orthography",
+    "sentence": "堂々たる（ふうかく）を備えている。",
+    "target": "ふうかく",
+    "options": [
+      "風格",
+      "風角",
+      "風閣",
+      "風確"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 528,
+    "cat": "orthography",
+    "sentence": "彼の（きしつ）は優しい。",
+    "target": "きしつ",
+    "options": [
+      "気質",
+      "気室",
+      "機質",
+      "器質"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 529,
+    "cat": "orthography",
+    "sentence": "彼女は（きひん）ある振る舞いをする。",
+    "target": "きひん",
+    "options": [
+      "気品",
+      "気貧",
+      "貴品",
+      "機品"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 530,
+    "cat": "orthography",
+    "sentence": "改革に取り組む（きがい）がある。",
+    "target": "きがい",
+    "options": [
+      "気概",
+      "気慨",
+      "気害",
+      "気概"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 531,
+    "cat": "orthography",
+    "sentence": "迫力ある（きはく）を感じた。",
+    "target": "きはく",
+    "options": [
+      "気迫",
+      "気薄",
+      "気泊",
+      "気拍"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 532,
+    "cat": "orthography",
+    "sentence": "周囲への（きがね）を捨てた。",
+    "target": "きがね",
+    "options": [
+      "気兼",
+      "気鐘",
+      "気鉦",
+      "気釘"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 533,
+    "cat": "orthography",
+    "sentence": "決定を（ちゅうちょ）している場合ではない。",
+    "target": "ちゅうちょ",
+    "options": [
+      "躊躇",
+      "踌躇",
+      "注著",
+      "中著"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 534,
+    "cat": "orthography",
+    "sentence": "彼は（しゅんじゅん）の末、辞職した。",
+    "target": "しゅんじゅん",
+    "options": [
+      "逡巡",
+      "俊巡",
+      "峻巡",
+      "駿巡"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 535,
+    "cat": "orthography",
+    "sentence": "将来への（けねん）を抱く。",
+    "target": "けねん",
+    "options": [
+      "懸念",
+      "件念",
+      "研念",
+      "検念"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 536,
+    "cat": "orthography",
+    "sentence": "事態を（ゆうりょ）している。",
+    "target": "ゆうりょ",
+    "options": [
+      "憂慮",
+      "有慮",
+      "融慮",
+      "優慮"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 537,
+    "cat": "orthography",
+    "sentence": "食糧不足が（きぐ）される。",
+    "target": "きぐ",
+    "options": [
+      "危惧",
+      "危愚",
+      "危具",
+      "危倶"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 538,
+    "cat": "orthography",
+    "sentence": "深く（しあん）した結果だ。",
+    "target": "しあん",
+    "options": [
+      "思案",
+      "思安",
+      "私案",
+      "試案"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 539,
+    "cat": "orthography",
+    "sentence": "哲学的な（しさく）に耽る。",
+    "target": "しさく",
+    "options": [
+      "思索",
+      "試作",
+      "施策",
+      "思策"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 540,
+    "cat": "orthography",
+    "sentence": "彼の（しりょ）深さに学ぶ。",
+    "target": "しりょ",
+    "options": [
+      "思慮",
+      "試慮",
+      "思旅",
+      "思虜"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 541,
+    "cat": "orthography",
+    "sentence": "独自の（しそう）を展開する。",
+    "target": "しそう",
+    "options": [
+      "思想",
+      "志向",
+      "志想",
+      "思象"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 542,
+    "cat": "orthography",
+    "sentence": "固定（かんねん）にとらわれない。",
+    "target": "かんねん",
+    "options": [
+      "観念",
+      "感念",
+      "関念",
+      "貫念"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 543,
+    "cat": "orthography",
+    "sentence": "新しい（がいねん）を提示する。",
+    "target": "がいねん",
+    "options": [
+      "概念",
+      "該念",
+      "慨念",
+      "涯念"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 544,
+    "cat": "orthography",
+    "sentence": "会社の経営（りねん）を明確にする。",
+    "target": "りねん",
+    "options": [
+      "理念",
+      "利念",
+      "離念",
+      "履念"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 545,
+    "cat": "orthography",
+    "sentence": "固い（しんねん）を持って取り組む。",
+    "target": "しんねん",
+    "options": [
+      "信念",
+      "新念",
+      "真念",
+      "心念"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 546,
+    "cat": "orthography",
+    "sentence": "（ざつねん）を払って集中する。",
+    "target": "ざつねん",
+    "options": [
+      "雑念",
+      "殺念",
+      "察念",
+      "擦念"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 547,
+    "cat": "orthography",
+    "sentence": "現実逃避の（もうそう）にふける。",
+    "target": "もうそう",
+    "options": [
+      "妄想",
+      "盲想",
+      "望想",
+      "猛想"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 548,
+    "cat": "orthography",
+    "sentence": "子供の（くうそう）力は豊かだ。",
+    "target": "くうそう",
+    "options": [
+      "空想",
+      "空相",
+      "空創",
+      "空層"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 549,
+    "cat": "orthography",
+    "sentence": "美しい（げんそう）的な風景だ。",
+    "target": "げんそう",
+    "options": [
+      "幻想",
+      "現想",
+      "玄想",
+      "幻相"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 550,
+    "cat": "orthography",
+    "sentence": "視覚の（さっかく）を利用した絵だ。",
+    "target": "さっかく",
+    "options": [
+      "錯覚",
+      "錯角",
+      "錯確",
+      "錯各"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 551,
+    "cat": "orthography",
+    "sentence": "事実の（ごかい）を招いた。",
+    "target": "ごかい",
+    "options": [
+      "誤解",
+      "語解",
+      "呉解",
+      "互解"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 552,
+    "cat": "orthography",
+    "sentence": "（きょっかい）された発言を訂正する。",
+    "target": "きょっかい",
+    "options": [
+      "曲解",
+      "曲会",
+      "局解",
+      "極解"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 553,
+    "cat": "orthography",
+    "sentence": "（うよきょくせつ）を経て成功した。",
+    "target": "うよきょくせつ",
+    "options": [
+      "紆余曲折",
+      "迂余曲折",
+      "宇余曲折",
+      "有余曲折"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 554,
+    "cat": "orthography",
+    "sentence": "感情の（はらん）に富んだ人生。",
+    "target": "はらん",
+    "options": [
+      "波瀾",
+      "波欄",
+      "波乱",
+      "波藍"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 555,
+    "cat": "orthography",
+    "sentence": "経済の（きふく）が激しい。",
+    "target": "きふく",
+    "options": [
+      "起伏",
+      "気伏",
+      "機伏",
+      "基伏"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 556,
+    "cat": "orthography",
+    "sentence": "業界の（ふちん）を占う。",
+    "target": "ふちん",
+    "options": [
+      "浮沈",
+      "浮沉",
+      "富沈",
+      "扶沈"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 557,
+    "cat": "orthography",
+    "sentence": "景気の（ちんたい）が続く。",
+    "target": "ちんたい",
+    "options": [
+      "沈滞",
+      "鎮滞",
+      "珍滞",
+      "賃滞"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 558,
+    "cat": "orthography",
+    "sentence": "彼は（もっぱ）ら研究に没頭している。",
+    "target": "もっぱ",
+    "options": [
+      "専",
+      "尊",
+      "博",
+      "傅"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 559,
+    "cat": "orthography",
+    "sentence": "（し）いて言えば賛成だ。",
+    "target": "し",
+    "options": [
+      "強",
+      "推",
+      "押",
+      "強"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 560,
+    "cat": "orthography",
+    "sentence": "（あ）えて反論する必要はない。",
+    "target": "あ",
+    "options": [
+      "敢",
+      "感",
+      "勘",
+      "堪"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 561,
+    "cat": "orthography",
+    "sentence": "計画は（おおむ）ね順調だ。",
+    "target": "おおむ",
+    "options": [
+      "概",
+      "慨",
+      "該",
+      "蓋"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 562,
+    "cat": "orthography",
+    "sentence": "この議論は（もっと）もだ。",
+    "target": "もっと",
+    "options": [
+      "尤",
+      "最",
+      "持",
+      "元"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 563,
+    "cat": "orthography",
+    "sentence": "（いちがい）には言えない問題だ。",
+    "target": "いちがい",
+    "options": [
+      "一概",
+      "一外",
+      "一害",
+      "一階"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 564,
+    "cat": "orthography",
+    "sentence": "（いっこう）に改善の兆しがない。",
+    "target": "いっこう",
+    "options": [
+      "一向",
+      "一考",
+      "一項",
+      "一行"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 565,
+    "cat": "orthography",
+    "sentence": "（いっさい）の責任を負う。",
+    "target": "いっさい",
+    "options": [
+      "一切",
+      "一斉",
+      "一際",
+      "一祭"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 566,
+    "cat": "orthography",
+    "sentence": "物価が（いっそう）上昇した。",
+    "target": "いっそう",
+    "options": [
+      "一層",
+      "一掃",
+      "一相",
+      "一双"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 567,
+    "cat": "orthography",
+    "sentence": "（しだい）に明らかになった。",
+    "target": "しだい",
+    "options": [
+      "次第",
+      "仕第",
+      "始第",
+      "資第"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 568,
+    "cat": "orthography",
+    "sentence": "雪が（ぜんじ）溶けていった。",
+    "target": "ぜんじ",
+    "options": [
+      "漸次",
+      "前次",
+      "全次",
+      "善次"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 569,
+    "cat": "orthography",
+    "sentence": "会議が（えんえん）と続いた。",
+    "target": "えんえん",
+    "options": [
+      "延々",
+      "炎々",
+      "沿々",
+      "演々"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 570,
+    "cat": "orthography",
+    "sentence": "人々が（ぞくぞく）と集まってきた。",
+    "target": "ぞくぞく",
+    "options": [
+      "続々",
+      "族々",
+      "属々",
+      "俗々"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 571,
+    "cat": "orthography",
+    "sentence": "事件が（つぎつぎ）に発生する。",
+    "target": "つぎつぎ",
+    "options": [
+      "次々",
+      "継々",
+      "接々",
+      "連々"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 572,
+    "cat": "orthography",
+    "sentence": "（およ）その予算を算出する。",
+    "target": "およ",
+    "options": [
+      "凡",
+      "及",
+      "汎",
+      "範"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 573,
+    "cat": "orthography",
+    "sentence": "資料を（あらかじ）め用意する。",
+    "target": "あらかじ",
+    "options": [
+      "予",
+      "兼",
+      "備",
+      "先"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 574,
+    "cat": "orthography",
+    "sentence": "（かろ）うじて終電に間に合った。",
+    "target": "かろ",
+    "options": [
+      "辛",
+      "軽",
+      "幸",
+      "苦"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 575,
+    "cat": "orthography",
+    "sentence": "彼は（とりわ）け優秀だ。",
+    "target": "とりわ",
+    "options": [
+      "取分",
+      "取別",
+      "取訳",
+      "取割"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 576,
+    "cat": "orthography",
+    "sentence": "彼女は（ひときわ）目立っていた。",
+    "target": "ひときわ",
+    "options": [
+      "一際",
+      "一切",
+      "一層",
+      "一沿"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 577,
+    "cat": "orthography",
+    "sentence": "（ことさら）強調する必要はない。",
+    "target": "ことさら",
+    "options": [
+      "殊更",
+      "言更",
+      "異更",
+      "別更"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 578,
+    "cat": "orthography",
+    "sentence": "（とうてい）理解できない。",
+    "target": "とうてい",
+    "options": [
+      "到底",
+      "当底",
+      "頭底",
+      "統底"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 579,
+    "cat": "orthography",
+    "sentence": "（かり）にも責任者としての自覚を持て。",
+    "target": "かり",
+    "options": [
+      "仮",
+      "借",
+      "貸",
+      "狩"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 580,
+    "cat": "orthography",
+    "sentence": "（あたか）も夢のような光景だ。",
+    "target": "あたか",
+    "options": [
+      "恰",
+      "宛",
+      "似",
+      "丁"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 581,
+    "cat": "orthography",
+    "sentence": "彼の言う通り、（まさ）しく真実だ。",
+    "target": "まさ",
+    "options": [
+      "正",
+      "真",
+      "将",
+      "当"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 582,
+    "cat": "orthography",
+    "sentence": "（まぎ）れもなく彼の筆跡だ。",
+    "target": "まぎ",
+    "options": [
+      "紛",
+      "粉",
+      "扮",
+      "雰"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 583,
+    "cat": "orthography",
+    "sentence": "新しい事業に（きばん）を置く。",
+    "target": "きばん",
+    "options": [
+      "基盤",
+      "基板",
+      "機盤",
+      "器盤"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 584,
+    "cat": "orthography",
+    "sentence": "社会の（へんかく）が求められる。",
+    "target": "へんかく",
+    "options": [
+      "変革",
+      "変格",
+      "変角",
+      "編革"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 585,
+    "cat": "orthography",
+    "sentence": "伝統の（けいしょう）に努める。",
+    "target": "けいしょう",
+    "options": [
+      "継承",
+      "継昇",
+      "系承",
+      "啓承"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 586,
+    "cat": "orthography",
+    "sentence": "優れた技術を（しゅうとく）した。",
+    "target": "しゅうとく",
+    "options": [
+      "習得",
+      "取得",
+      "修得",
+      "収得"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 587,
+    "cat": "orthography",
+    "sentence": "（こうけん）度の高い人物だ。",
+    "target": "こうけん",
+    "options": [
+      "貢献",
+      "公献",
+      "功献",
+      "交献"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 588,
+    "cat": "orthography",
+    "sentence": "長年の功績を（しょうさん）する。",
+    "target": "しょうさん",
+    "options": [
+      "称賛",
+      "称参",
+      "賞賛",
+      "承賛"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 589,
+    "cat": "orthography",
+    "sentence": "彼を全面的に（しじ）する。",
+    "target": "しじ",
+    "options": [
+      "支持",
+      "指示",
+      "支字",
+      "師事"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 590,
+    "cat": "orthography",
+    "sentence": "権威に（ていこう）する姿勢。",
+    "target": "ていこう",
+    "options": [
+      "抵抗",
+      "低抗",
+      "底抗",
+      "堤抗"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 591,
+    "cat": "orthography",
+    "sentence": "会議の（しんこう）を妨げる。",
+    "target": "しんこう",
+    "options": [
+      "進行",
+      "信仰",
+      "侵攻",
+      "振興"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 592,
+    "cat": "orthography",
+    "sentence": "学問の（しんこう）に貢献する。",
+    "target": "しんこう",
+    "options": [
+      "振興",
+      "進行",
+      "信仰",
+      "侵攻"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 593,
+    "cat": "orthography",
+    "sentence": "宗教的な（しんこう）に生きる。",
+    "target": "しんこう",
+    "options": [
+      "信仰",
+      "進行",
+      "侵攻",
+      "振興"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 594,
+    "cat": "orthography",
+    "sentence": "隣国への（しんこう）が始まった。",
+    "target": "しんこう",
+    "options": [
+      "侵攻",
+      "進行",
+      "信仰",
+      "振興"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 595,
+    "cat": "orthography",
+    "sentence": "政治の（ふはい）を糾弾する。",
+    "target": "ふはい",
+    "options": [
+      "腐敗",
+      "腐廃",
+      "付敗",
+      "不敗"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 596,
+    "cat": "orthography",
+    "sentence": "経済の（ていめい）が長引く。",
+    "target": "ていめい",
+    "options": [
+      "低迷",
+      "低明",
+      "停迷",
+      "定迷"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 597,
+    "cat": "orthography",
+    "sentence": "市場の（きょうそう）が激化する。",
+    "target": "きょうそう",
+    "options": [
+      "競争",
+      "共争",
+      "協争",
+      "強争"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 598,
+    "cat": "orthography",
+    "sentence": "業界の（きょうりょく）関係を築く。",
+    "target": "きょうりょく",
+    "options": [
+      "協力",
+      "強力",
+      "競力",
+      "共力"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 599,
+    "cat": "orthography",
+    "sentence": "共同（きょうぎ）で解決策を探る。",
+    "target": "きょうぎ",
+    "options": [
+      "協議",
+      "競技",
+      "狭義",
+      "共議"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 600,
+    "cat": "orthography",
+    "sentence": "商品の（きょうきゅう）が不足する。",
+    "target": "きょうきゅう",
+    "options": [
+      "供給",
+      "共給",
+      "協給",
+      "恭給"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 601,
+    "cat": "orthography",
+    "sentence": "需要の（そうきゅう）な増加に対応する。",
+    "target": "そうきゅう",
+    "options": [
+      "早急",
+      "総急",
+      "双急",
+      "走急"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 602,
+    "cat": "orthography",
+    "sentence": "問題の（ほんしつ）を見極める。",
+    "target": "ほんしつ",
+    "options": [
+      "本質",
+      "本実",
+      "本室",
+      "本失"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 603,
+    "cat": "orthography",
+    "sentence": "状況を（はあく）する必要がある。",
+    "target": "はあく",
+    "options": [
+      "把握",
+      "把悪",
+      "波握",
+      "派握"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 604,
+    "cat": "orthography",
+    "sentence": "データを（ぶんせき）する。",
+    "target": "ぶんせき",
+    "options": [
+      "分析",
+      "分折",
+      "文析",
+      "分析"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 605,
+    "cat": "orthography",
+    "sentence": "研究の（せいか）を発表する。",
+    "target": "せいか",
+    "options": [
+      "成果",
+      "青果",
+      "正果",
+      "精果"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 606,
+    "cat": "orthography",
+    "sentence": "（けんちょ）な成果を上げた。",
+    "target": "けんちょ",
+    "options": [
+      "顕著",
+      "献著",
+      "健著",
+      "憲著"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 607,
+    "cat": "orthography",
+    "sentence": "（ひんぱん）に連絡を取り合う。",
+    "target": "ひんぱん",
+    "options": [
+      "頻繁",
+      "頻煩",
+      "貧繁",
+      "品繁"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 608,
+    "cat": "orthography",
+    "sentence": "（きゅうげき）な変化に対応する。",
+    "target": "きゅうげき",
+    "options": [
+      "急激",
+      "急撃",
+      "急劇",
+      "究激"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 609,
+    "cat": "orthography",
+    "sentence": "（だいたん）な発想が必要だ。",
+    "target": "だいたん",
+    "options": [
+      "大胆",
+      "大担",
+      "大端",
+      "大丹"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 610,
+    "cat": "orthography",
+    "sentence": "（しんちょう）に判断する。",
+    "target": "しんちょう",
+    "options": [
+      "慎重",
+      "身長",
+      "新長",
+      "信重"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 611,
+    "cat": "orthography",
+    "sentence": "結果を（かんしん）に観察する。",
+    "target": "かんしん",
+    "options": [
+      "関心",
+      "感心",
+      "歓心",
+      "寒心"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 612,
+    "cat": "orthography",
+    "sentence": "彼の努力に（かんしん）した。",
+    "target": "かんしん",
+    "options": [
+      "感心",
+      "関心",
+      "歓心",
+      "寒心"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 613,
+    "cat": "orthography",
+    "sentence": "上司の（かんしん）を買う。",
+    "target": "かんしん",
+    "options": [
+      "歓心",
+      "関心",
+      "感心",
+      "寒心"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 614,
+    "cat": "orthography",
+    "sentence": "結論を（どうにゅう）する。",
+    "target": "どうにゅう",
+    "options": [
+      "導入",
+      "同入",
+      "道入",
+      "動入"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 615,
+    "cat": "orthography",
+    "sentence": "新技術を（かいはつ）する。",
+    "target": "かいはつ",
+    "options": [
+      "開発",
+      "解発",
+      "改発",
+      "回発"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 616,
+    "cat": "orthography",
+    "sentence": "計画を（じっし）する。",
+    "target": "じっし",
+    "options": [
+      "実施",
+      "実視",
+      "実詩",
+      "実紙"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 617,
+    "cat": "orthography",
+    "sentence": "（こうりつ）を高める工夫。",
+    "target": "こうりつ",
+    "options": [
+      "効率",
+      "公立",
+      "効立",
+      "高率"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 618,
+    "cat": "orthography",
+    "sentence": "目標を（たっせい）する。",
+    "target": "たっせい",
+    "options": [
+      "達成",
+      "達制",
+      "到成",
+      "立成"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 619,
+    "cat": "orthography",
+    "sentence": "（みっせつ）な関係を保つ。",
+    "target": "みっせつ",
+    "options": [
+      "密接",
+      "密切",
+      "密折",
+      "密節"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 620,
+    "cat": "orthography",
+    "sentence": "計画は（じゅんちょう）に進む。",
+    "target": "じゅんちょう",
+    "options": [
+      "順調",
+      "純調",
+      "巡調",
+      "準調"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 621,
+    "cat": "orthography",
+    "sentence": "（ていあん）を受け入れる。",
+    "target": "ていあん",
+    "options": [
+      "提案",
+      "提安",
+      "定案",
+      "呈案"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 622,
+    "cat": "orthography",
+    "sentence": "会議で（はつげん）する。",
+    "target": "はつげん",
+    "options": [
+      "発言",
+      "発現",
+      "発原",
+      "発源"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 623,
+    "cat": "orthography",
+    "sentence": "新商品を（はっぴょう）する。",
+    "target": "はっぴょう",
+    "options": [
+      "発表",
+      "発評",
+      "発票",
+      "発標"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 624,
+    "cat": "orthography",
+    "sentence": "事実を（しょうめい）する。",
+    "target": "しょうめい",
+    "options": [
+      "証明",
+      "照明",
+      "正明",
+      "詳明"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 625,
+    "cat": "orthography",
+    "sentence": "部屋の（しょうめい）が暗い。",
+    "target": "しょうめい",
+    "options": [
+      "照明",
+      "証明",
+      "正明",
+      "詳明"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 626,
+    "cat": "orthography",
+    "sentence": "政策を（けんとう）する。",
+    "target": "けんとう",
+    "options": [
+      "検討",
+      "見当",
+      "健闘",
+      "剣道"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 627,
+    "cat": "orthography",
+    "sentence": "優勝候補が（けんとう）した。",
+    "target": "けんとう",
+    "options": [
+      "健闘",
+      "検討",
+      "見当",
+      "剣道"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 628,
+    "cat": "orthography",
+    "sentence": "見通しの（けんとう）をつける。",
+    "target": "けんとう",
+    "options": [
+      "見当",
+      "検討",
+      "健闘",
+      "剣道"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 629,
+    "cat": "orthography",
+    "sentence": "業務を（かいぜん）する。",
+    "target": "かいぜん",
+    "options": [
+      "改善",
+      "改全",
+      "開善",
+      "回善"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 630,
+    "cat": "orthography",
+    "sentence": "組織を（かいかく）する。",
+    "target": "かいかく",
+    "options": [
+      "改革",
+      "改格",
+      "解革",
+      "開革"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 631,
+    "cat": "orthography",
+    "sentence": "制度を（はいし）する。",
+    "target": "はいし",
+    "options": [
+      "廃止",
+      "排止",
+      "配止",
+      "拝止"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 632,
+    "cat": "orthography",
+    "sentence": "疲労が（ちくせき）する。",
+    "target": "ちくせき",
+    "options": [
+      "蓄積",
+      "畜積",
+      "築積",
+      "竹積"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 633,
+    "cat": "orthography",
+    "sentence": "経験を（そくしん）する。",
+    "target": "そくしん",
+    "options": [
+      "促進",
+      "即進",
+      "束進",
+      "測進"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 634,
+    "cat": "orthography",
+    "sentence": "発展を（そがい）する。",
+    "target": "そがい",
+    "options": [
+      "阻害",
+      "疎外",
+      "祖害",
+      "租害"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 635,
+    "cat": "orthography",
+    "sentence": "集団から（そがい）される。",
+    "target": "そがい",
+    "options": [
+      "疎外",
+      "阻害",
+      "祖外",
+      "租外"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 636,
+    "cat": "orthography",
+    "sentence": "業績が（あっか）する。",
+    "target": "あっか",
+    "options": [
+      "悪化",
+      "圧加",
+      "握加",
+      "圧化"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 637,
+    "cat": "orthography",
+    "sentence": "景気が（かいふく）する。",
+    "target": "かいふく",
+    "options": [
+      "回復",
+      "快復",
+      "開復",
+      "改復"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 638,
+    "cat": "orthography",
+    "sentence": "病から（かいふく）する。",
+    "target": "かいふく",
+    "options": [
+      "快復",
+      "回復",
+      "開復",
+      "改復"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 639,
+    "cat": "orthography",
+    "sentence": "努力が（むだ）になる。",
+    "target": "むだ",
+    "options": [
+      "無駄",
+      "無汰",
+      "無沱",
+      "武駄"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 640,
+    "cat": "orthography",
+    "sentence": "（もはん）的な行動を取る。",
+    "target": "もはん",
+    "options": [
+      "模範",
+      "摸範",
+      "模板",
+      "模板"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 641,
+    "cat": "orthography",
+    "sentence": "（どくそう）的な発想。",
+    "target": "どくそう",
+    "options": [
+      "独創",
+      "独奏",
+      "独走",
+      "独相"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 642,
+    "cat": "orthography",
+    "sentence": "ピアノの（どくそう）を聴く。",
+    "target": "どくそう",
+    "options": [
+      "独奏",
+      "独創",
+      "独走",
+      "独相"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 643,
+    "cat": "orthography",
+    "sentence": "彼の論文は（どくそう）性が高い。",
+    "target": "どくそう",
+    "options": [
+      "独創",
+      "独奏",
+      "独走",
+      "独相"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 644,
+    "cat": "orthography",
+    "sentence": "（そうぞう）力を養う。",
+    "target": "そうぞう",
+    "options": [
+      "想像",
+      "創造",
+      "相像",
+      "送像"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 645,
+    "cat": "orthography",
+    "sentence": "新しい文化を（そうぞう）する。",
+    "target": "そうぞう",
+    "options": [
+      "創造",
+      "想像",
+      "相像",
+      "送像"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 646,
+    "cat": "orthography",
+    "sentence": "芸術の（そうぞう）性。",
+    "target": "そうぞう",
+    "options": [
+      "創造",
+      "想像",
+      "相像",
+      "送像"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 647,
+    "cat": "orthography",
+    "sentence": "（げんみつ）な審査を行う。",
+    "target": "げんみつ",
+    "options": [
+      "厳密",
+      "厳蜜",
+      "嚴密",
+      "原密"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 648,
+    "cat": "orthography",
+    "sentence": "（めいかく）な指示を出す。",
+    "target": "めいかく",
+    "options": [
+      "明確",
+      "名確",
+      "命確",
+      "銘確"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 649,
+    "cat": "orthography",
+    "sentence": "（せいみつ）な機械を扱う。",
+    "target": "せいみつ",
+    "options": [
+      "精密",
+      "精蜜",
+      "清密",
+      "性密"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 650,
+    "cat": "orthography",
+    "sentence": "（てっていてき）に調べる。",
+    "target": "てっていてき",
+    "options": [
+      "徹底的",
+      "鉄底的",
+      "撤底的",
+      "轍底的"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 651,
+    "cat": "orthography",
+    "sentence": "意見の（たいりつ）が深まる。",
+    "target": "たいりつ",
+    "options": [
+      "対立",
+      "体立",
+      "代立",
+      "退立"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 652,
+    "cat": "orthography",
+    "sentence": "意見を（とうごう）する。",
+    "target": "とうごう",
+    "options": [
+      "統合",
+      "統号",
+      "統合",
+      "当合"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 653,
+    "cat": "orthography",
+    "sentence": "情報を（とうせい）する。",
+    "target": "とうせい",
+    "options": [
+      "統制",
+      "統政",
+      "統性",
+      "統生"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 654,
+    "cat": "orthography",
+    "sentence": "（かんけつ）にまとめる。",
+    "target": "かんけつ",
+    "options": [
+      "簡潔",
+      "簡決",
+      "完潔",
+      "官潔"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 655,
+    "cat": "orthography",
+    "sentence": "計画が（ざせつ）する。",
+    "target": "ざせつ",
+    "options": [
+      "挫折",
+      "座折",
+      "挫切",
+      "坐折"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 656,
+    "cat": "orthography",
+    "sentence": "困難に（くっせつ）した。",
+    "target": "くっせつ",
+    "options": [
+      "屈折",
+      "屈切",
+      "崛折",
+      "掘折"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 657,
+    "cat": "orthography",
+    "sentence": "心情が（くっせつ）している。",
+    "target": "くっせつ",
+    "options": [
+      "屈折",
+      "屈切",
+      "崛折",
+      "掘折"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 658,
+    "cat": "orthography",
+    "sentence": "制度に（くっぷく）する。",
+    "target": "くっぷく",
+    "options": [
+      "屈服",
+      "屈伏",
+      "窟服",
+      "掘服"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 659,
+    "cat": "orthography",
+    "sentence": "議案を（しゅうせい）する。",
+    "target": "しゅうせい",
+    "options": [
+      "修正",
+      "収正",
+      "終正",
+      "習正"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 660,
+    "cat": "orthography",
+    "sentence": "古い建物を（しゅうふく）する。",
+    "target": "しゅうふく",
+    "options": [
+      "修復",
+      "修復",
+      "終復",
+      "習復"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 661,
+    "cat": "orthography",
+    "sentence": "関係を（しゅうふく）する。",
+    "target": "しゅうふく",
+    "options": [
+      "修復",
+      "修復",
+      "終復",
+      "習復"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 662,
+    "cat": "orthography",
+    "sentence": "作業を（ちゅうだん）する。",
+    "target": "ちゅうだん",
+    "options": [
+      "中断",
+      "中段",
+      "注断",
+      "忠断"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 663,
+    "cat": "orthography",
+    "sentence": "試合を（ちゅうし）する。",
+    "target": "ちゅうし",
+    "options": [
+      "中止",
+      "注視",
+      "中死",
+      "忠止"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 664,
+    "cat": "orthography",
+    "sentence": "彼を（ちゅうし）する目が鋭い。",
+    "target": "ちゅうし",
+    "options": [
+      "注視",
+      "中止",
+      "中死",
+      "忠止"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 665,
+    "cat": "orthography",
+    "sentence": "事態を（かんし）する。",
+    "target": "かんし",
+    "options": [
+      "監視",
+      "看視",
+      "感視",
+      "関視"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 666,
+    "cat": "orthography",
+    "sentence": "患者を（かんご）する。",
+    "target": "かんご",
+    "options": [
+      "看護",
+      "監護",
+      "管護",
+      "観護"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 667,
+    "cat": "orthography",
+    "sentence": "幼児を（ほご）する。",
+    "target": "ほご",
+    "options": [
+      "保護",
+      "補護",
+      "保互",
+      "保午"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 668,
+    "cat": "orthography",
+    "sentence": "環境を（いじ）する。",
+    "target": "いじ",
+    "options": [
+      "維持",
+      "意地",
+      "異字",
+      "遺児"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 669,
+    "cat": "orthography",
+    "sentence": "（いじ）を張る性格だ。",
+    "target": "いじ",
+    "options": [
+      "意地",
+      "維持",
+      "異字",
+      "遺児"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 670,
+    "cat": "orthography",
+    "sentence": "平和を（いじ）する努力。",
+    "target": "いじ",
+    "options": [
+      "維持",
+      "意地",
+      "異字",
+      "遺児"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 671,
+    "cat": "orthography",
+    "sentence": "（けんぜん）な財政を保つ。",
+    "target": "けんぜん",
+    "options": [
+      "健全",
+      "健然",
+      "剣全",
+      "建全"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 672,
+    "cat": "orthography",
+    "sentence": "（たくえつ）した才能を持つ。",
+    "target": "たくえつ",
+    "options": [
+      "卓越",
+      "拓越",
+      "託越",
+      "宅越"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 673,
+    "cat": "orthography",
+    "sentence": "（ゆうえつ）感に浸る。",
+    "target": "ゆうえつ",
+    "options": [
+      "優越",
+      "有越",
+      "友越",
+      "郵越"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 674,
+    "cat": "orthography",
+    "sentence": "（ごうまん）な態度を改める。",
+    "target": "ごうまん",
+    "options": [
+      "傲慢",
+      "豪慢",
+      "合慢",
+      "剛慢"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 675,
+    "cat": "orthography",
+    "sentence": "（けんきょ）な姿勢を保つ。",
+    "target": "けんきょ",
+    "options": [
+      "謙虚",
+      "険虚",
+      "検虚",
+      "倹虚"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 676,
+    "cat": "orthography",
+    "sentence": "成功を（じまん）する。",
+    "target": "じまん",
+    "options": [
+      "自慢",
+      "自満",
+      "自漫",
+      "自蔓"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 677,
+    "cat": "orthography",
+    "sentence": "（たつじん）の域に達する。",
+    "target": "たつじん",
+    "options": [
+      "達人",
+      "立人",
+      "達仁",
+      "辰人"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 678,
+    "cat": "orthography",
+    "sentence": "事実を（かくにん）する。",
+    "target": "かくにん",
+    "options": [
+      "確認",
+      "覚認",
+      "核認",
+      "閣認"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 679,
+    "cat": "orthography",
+    "sentence": "計画を（しょうにん）する。",
+    "target": "しょうにん",
+    "options": [
+      "承認",
+      "証人",
+      "昇任",
+      "商人"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 680,
+    "cat": "orthography",
+    "sentence": "裁判の（しょうにん）を務める。",
+    "target": "しょうにん",
+    "options": [
+      "証人",
+      "承認",
+      "昇任",
+      "商人"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 681,
+    "cat": "orthography",
+    "sentence": "権限を（いにん）する。",
+    "target": "いにん",
+    "options": [
+      "委任",
+      "依任",
+      "維任",
+      "意任"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 682,
+    "cat": "orthography",
+    "sentence": "外部に（いたく）する業務。",
+    "target": "いたく",
+    "options": [
+      "委託",
+      "依託",
+      "慰託",
+      "意託"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 683,
+    "cat": "orthography",
+    "sentence": "専門家に（いらい）する。",
+    "target": "いらい",
+    "options": [
+      "依頼",
+      "委頼",
+      "意頼",
+      "維頼"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 684,
+    "cat": "orthography",
+    "sentence": "他国に（いぞん）する。",
+    "target": "いぞん",
+    "options": [
+      "依存",
+      "異存",
+      "意存",
+      "遺存"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 685,
+    "cat": "orthography",
+    "sentence": "意見に（いぞん）はない。",
+    "target": "いぞん",
+    "options": [
+      "異存",
+      "依存",
+      "意存",
+      "遺存"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 686,
+    "cat": "orthography",
+    "sentence": "根拠に（いきょ）する。",
+    "target": "いきょ",
+    "options": [
+      "依拠",
+      "委拠",
+      "意拠",
+      "維拠"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 687,
+    "cat": "orthography",
+    "sentence": "法令に（じゅん）ずる。",
+    "target": "じゅん",
+    "options": [
+      "準",
+      "順",
+      "巡",
+      "純"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 688,
+    "cat": "orthography",
+    "sentence": "要請に（おう）じる。",
+    "target": "おう",
+    "options": [
+      "応",
+      "欧",
+      "奥",
+      "旺"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 689,
+    "cat": "orthography",
+    "sentence": "運命に（あま）んじる。",
+    "target": "あま",
+    "options": [
+      "甘",
+      "天",
+      "雨",
+      "尼"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 690,
+    "cat": "orthography",
+    "sentence": "伝統を（おも）んじる。",
+    "target": "おも",
+    "options": [
+      "重",
+      "想",
+      "思",
+      "面"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 691,
+    "cat": "orthography",
+    "sentence": "彼を（うと）んじる人が多い。",
+    "target": "うと",
+    "options": [
+      "疎",
+      "宇",
+      "雨",
+      "有"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 692,
+    "cat": "orthography",
+    "sentence": "計画を（な）し遂げた。",
+    "target": "な",
+    "options": [
+      "成",
+      "為",
+      "済",
+      "完"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 693,
+    "cat": "orthography",
+    "sentence": "仕事を（な）し得る人物。",
+    "target": "な",
+    "options": [
+      "成",
+      "為",
+      "済",
+      "完"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 694,
+    "cat": "orthography",
+    "sentence": "理論が（な）り立つ。",
+    "target": "な",
+    "options": [
+      "成",
+      "為",
+      "済",
+      "完"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 695,
+    "cat": "orthography",
+    "sentence": "事態の（な）り行きを見守る。",
+    "target": "な",
+    "options": [
+      "成",
+      "為",
+      "済",
+      "完"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 696,
+    "cat": "orthography",
+    "sentence": "廃墟と（な）り果てた。",
+    "target": "な",
+    "options": [
+      "成",
+      "為",
+      "済",
+      "完"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 697,
+    "cat": "orthography",
+    "sentence": "親に（な）り代わって発言する。",
+    "target": "な",
+    "options": [
+      "成",
+      "為",
+      "済",
+      "完"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 698,
+    "cat": "orthography",
+    "sentence": "責任を（ひ）き受ける。",
+    "target": "ひ",
+    "options": [
+      "引",
+      "挽",
+      "弾",
+      "曳"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 699,
+    "cat": "orthography",
+    "sentence": "権利を（てばな）す。",
+    "target": "てばな",
+    "options": [
+      "手放",
+      "手離",
+      "手脱",
+      "手解"
+    ],
+    "answer": 0
+  }
+]
