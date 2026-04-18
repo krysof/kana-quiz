@@ -1,1 +1,6437 @@
-[{"id":1,"cat":"kanji_reading","sentence":"毎日パンを食べる。","target":"食べる","options":["たべる","たまべる","はべる","しょくべる"],"answer":0},{"id":2,"cat":"kanji_reading","sentence":"水を飲む。","target":"飲む","options":["よむ","いむ","はむ","のむ"],"answer":3},{"id":3,"cat":"kanji_reading","sentence":"テレビを見る。","target":"見る","options":["みえる","ける","みる","にる"],"answer":2},{"id":4,"cat":"kanji_reading","sentence":"音楽を聞く。","target":"聞く","options":["しく","きく","ぶんく","もんく"],"answer":1},{"id":5,"cat":"kanji_reading","sentence":"本を読む。","target":"読む","options":["よむ","どくむ","ほんむ","とむ"],"answer":0},{"id":6,"cat":"kanji_reading","sentence":"手紙を書く。","target":"書く","options":["しょく","きく","ひく","かく"],"answer":3},{"id":7,"cat":"kanji_reading","sentence":"友達と話す。","target":"話す","options":["だんす","ごす","はなす","わす"],"answer":2},{"id":8,"cat":"kanji_reading","sentence":"先生に言う。","target":"言う","options":["ことう","いう","ゆう","げんう"],"answer":1},{"id":9,"cat":"kanji_reading","sentence":"野菜を買う。","target":"買う","options":["かう","ばいう","うう","もう"],"answer":0},{"id":10,"cat":"kanji_reading","sentence":"車を売る。","target":"売る","options":["ばいる","かる","まる","うる"],"answer":3},{"id":11,"cat":"kanji_reading","sentence":"学校へ行く。","target":"行く","options":["ぎょうく","きく","いく","こうく"],"answer":2},{"id":12,"cat":"kanji_reading","sentence":"友達が来る。","target":"来る","options":["こる","くる","らいる","きる"],"answer":1},{"id":13,"cat":"kanji_reading","sentence":"家へ帰る。","target":"帰る","options":["かえる","きる","もどる","はんる"],"answer":0},{"id":14,"cat":"kanji_reading","sentence":"部屋を出る。","target":"出る","options":["しゅつる","だる","いる","でる"],"answer":3},{"id":15,"cat":"kanji_reading","sentence":"教室に入る。","target":"入る","options":["いれる","でる","はいる","にゅうる"],"answer":2},{"id":16,"cat":"kanji_reading","sentence":"椅子から立つ。","target":"立つ","options":["けつ","たつ","りつつ","だつ"],"answer":1},{"id":17,"cat":"kanji_reading","sentence":"椅子に座る。","target":"座る","options":["すわる","ざる","いる","おる"],"answer":0},{"id":18,"cat":"kanji_reading","sentence":"公園を歩く。","target":"歩く","options":["ほく","ぽく","ある","あるく"],"answer":3},{"id":19,"cat":"kanji_reading","sentence":"駅まで走る。","target":"走る","options":["はやる","かける","はしる","そうる"],"answer":2},{"id":20,"cat":"kanji_reading","sentence":"海で泳ぐ。","target":"泳ぐ","options":["うぐ","およぐ","えいぐ","すいぐ"],"answer":1},{"id":21,"cat":"kanji_reading","sentence":"鳥が飛ぶ。","target":"飛ぶ","options":["とぶ","ひぶ","あぶ","はぶ"],"answer":0},{"id":22,"cat":"kanji_reading","sentence":"友達に会う。","target":"会う","options":["かいう","えう","ごう","あう"],"answer":3},{"id":23,"cat":"kanji_reading","sentence":"バスを待つ。","target":"待つ","options":["じつ","もつ","まつ","たいつ"],"answer":2},{"id":24,"cat":"kanji_reading","sentence":"名前を知る。","target":"知る","options":["きる","しる","ちる","じる"],"answer":1},{"id":25,"cat":"kanji_reading","sentence":"そう思う。","target":"思う","options":["おもう","しう","そうう","もう"],"answer":0},{"id":26,"cat":"kanji_reading","sentence":"よく考える。","target":"考える","options":["こうえる","しんえる","あんえる","かんがえる"],"answer":3},{"id":27,"cat":"kanji_reading","sentence":"鍵を忘れる。","target":"忘れる","options":["もうれる","やすれる","わすれる","ぼうれる"],"answer":2},{"id":28,"cat":"kanji_reading","sentence":"単語を覚える。","target":"覚える","options":["ゆめえる","おぼえる","かくえる","さとえる"],"answer":1},{"id":29,"cat":"kanji_reading","sentence":"英語を教える。","target":"教える","options":["おしえる","きょうえる","おそえる","つたえる"],"answer":0},{"id":30,"cat":"kanji_reading","sentence":"ピアノを習う。","target":"習う","options":["しゅうう","まねう","けいう","ならう"],"answer":3},{"id":31,"cat":"kanji_reading","sentence":"日本語を勉強する。","target":"勉強する","options":["めんきょうする","びんきょうする","べんきょうする","べんごうする"],"answer":2},{"id":32,"cat":"kanji_reading","sentence":"毎日練習する。","target":"練習する","options":["れんしょうする","れんしゅうする","れんしゅする","ねんしゅうする"],"answer":1},{"id":33,"cat":"kanji_reading","sentence":"会社で働く。","target":"働く","options":["はたらく","どうく","ろうく","うごく"],"answer":0},{"id":34,"cat":"kanji_reading","sentence":"日曜日は休む。","target":"休む","options":["きゅうむ","いこむ","ねむ","やすむ"],"answer":3},{"id":35,"cat":"kanji_reading","sentence":"朝七時に起きる。","target":"起きる","options":["たきる","はきる","おきる","きる"],"answer":2},{"id":36,"cat":"kanji_reading","sentence":"十一時に寝る。","target":"寝る","options":["ぬる","ねる","しんる","みる"],"answer":1},{"id":37,"cat":"kanji_reading","sentence":"ケーキを作る。","target":"作る","options":["つくる","さくる","さる","ぞうる"],"answer":0},{"id":38,"cat":"kanji_reading","sentence":"箸を使う。","target":"使う","options":["しう","ようう","しようう","つかう"],"answer":3},{"id":39,"cat":"kanji_reading","sentence":"鞄を持つ。","target":"持つ","options":["たつ","ぢつ","もつ","じつ"],"answer":2},{"id":40,"cat":"kanji_reading","sentence":"写真を取る。","target":"取る","options":["える","とる","しゅる","さる"],"answer":1},{"id":41,"cat":"kanji_reading","sentence":"本を机に置く。","target":"置く","options":["おく","ちく","たく","いく"],"answer":0},{"id":42,"cat":"kanji_reading","sentence":"友達に渡す。","target":"渡す","options":["とす","どす","こす","わたす"],"answer":3},{"id":43,"cat":"kanji_reading","sentence":"本を返す。","target":"返す","options":["もどす","きす","かえす","へんす"],"answer":2},{"id":44,"cat":"kanji_reading","sentence":"荷物を送る。","target":"送る","options":["さる","おくる","そうる","ふる"],"answer":1},{"id":45,"cat":"kanji_reading","sentence":"試験を受ける。","target":"受ける","options":["うける","じゅける","ひける","よける"],"answer":0},{"id":46,"cat":"kanji_reading","sentence":"授業を始める。","target":"始める","options":["しめる","そめる","ぞめる","はじめる"],"answer":3},{"id":47,"cat":"kanji_reading","sentence":"会議が終わる。","target":"終わる","options":["すえわる","きわる","おわる","しゅうわる"],"answer":2},{"id":48,"cat":"kanji_reading","sentence":"窓を開ける。","target":"開ける","options":["さける","あける","かいける","ひらける"],"answer":1},{"id":49,"cat":"kanji_reading","sentence":"ドアを閉める。","target":"閉める","options":["しめる","へいめる","とじめる","かめる"],"answer":0},{"id":50,"cat":"kanji_reading","sentence":"花が開く。","target":"開く","options":["かいく","あく","はく","ひらく"],"answer":3},{"id":51,"cat":"kanji_reading","sentence":"本を閉じる。","target":"閉じる","options":["しじる","こじる","とじる","へいじる"],"answer":2},{"id":52,"cat":"kanji_reading","sentence":"電気が消える。","target":"消える","options":["くえる","きえる","しょうえる","けえる"],"answer":1},{"id":53,"cat":"kanji_reading","sentence":"電気を消す。","target":"消す","options":["けす","しょうす","きす","さす"],"answer":0},{"id":54,"cat":"kanji_reading","sentence":"電気を付ける。","target":"付ける","options":["ふける","つうける","とける","つける"],"answer":3},{"id":55,"cat":"kanji_reading","sentence":"紙を切る。","target":"切る","options":["かる","しる","きる","せつる"],"answer":2},{"id":56,"cat":"kanji_reading","sentence":"バスに乗る。","target":"乗る","options":["はる","のる","じょうる","のぼる"],"answer":1},{"id":57,"cat":"kanji_reading","sentence":"電車を降りる。","target":"降りる","options":["おりる","こうりる","さがりる","くだりる"],"answer":0},{"id":58,"cat":"kanji_reading","sentence":"荷物を運ぶ。","target":"運ぶ","options":["うんぶ","こぶ","やぶ","はこぶ"],"answer":3},{"id":59,"cat":"kanji_reading","sentence":"手を洗う。","target":"洗う","options":["ねう","よう","あらう","せんう"],"answer":2},{"id":60,"cat":"kanji_reading","sentence":"服を着る。","target":"着る","options":["ける","きる","ちゃくる","つる"],"answer":1},{"id":61,"cat":"kanji_reading","sentence":"靴を脱ぐ。","target":"脱ぐ","options":["ぬぐ","だつぐ","ほぐ","すぐ"],"answer":0},{"id":62,"cat":"kanji_reading","sentence":"鞄に入れる。","target":"入れる","options":["にゅうれる","はいれる","のれる","いれる"],"answer":3},{"id":63,"cat":"kanji_reading","sentence":"手紙を出す。","target":"出す","options":["でつす","いだす","だす","しゅつす"],"answer":2},{"id":64,"cat":"kanji_reading","sentence":"鍵を探す。","target":"探す","options":["もす","さがす","たんす","みす"],"answer":1},{"id":65,"cat":"kanji_reading","sentence":"財布を見つける。","target":"見つける","options":["みつける","けんつける","みえつける","かんつける"],"answer":0},{"id":66,"cat":"kanji_reading","sentence":"お金を払う。","target":"払う","options":["ふつう","ばらう","ひう","はらう"],"answer":3},{"id":67,"cat":"kanji_reading","sentence":"本を借りる。","target":"借りる","options":["やくりる","つくりる","かりる","しゃくりる"],"answer":2},{"id":68,"cat":"kanji_reading","sentence":"お金を貸す。","target":"貸す","options":["もす","かす","たいす","よす"],"answer":1},{"id":69,"cat":"kanji_reading","sentence":"時計を直す。","target":"直す","options":["なおす","ちょくす","まっす","さす"],"answer":0},{"id":70,"cat":"kanji_reading","sentence":"車が直る。","target":"直る","options":["ちょくる","まっる","もどる","なおる"],"answer":3},{"id":71,"cat":"kanji_reading","sentence":"花瓶を壊す。","target":"壊す","options":["そす","くずす","こわす","かいす"],"answer":2},{"id":72,"cat":"kanji_reading","sentence":"機械が壊れる。","target":"壊れる","options":["くずれる","こわれる","かいれる","やぶれる"],"answer":1},{"id":73,"cat":"kanji_reading","sentence":"本を選ぶ。","target":"選ぶ","options":["えらぶ","せんぶ","よぶ","もぶ"],"answer":0},{"id":74,"cat":"kanji_reading","sentence":"レジに並ぶ。","target":"並ぶ","options":["へいぶ","つらぶ","かさぶ","ならぶ"],"answer":3},{"id":75,"cat":"kanji_reading","sentence":"右に曲がる。","target":"曲がる","options":["おれがる","まげがる","まがる","きょくがる"],"answer":2},{"id":76,"cat":"kanji_reading","sentence":"車が止まる。","target":"止まる","options":["とどまる","とまる","ししまる","やまる"],"answer":1},{"id":77,"cat":"kanji_reading","sentence":"車を止める。","target":"止める","options":["とめる","しめる","やめる","とどめる"],"answer":0},{"id":78,"cat":"kanji_reading","sentence":"毎日学校に行く。","target":"学校","options":["がくこう","かっこう","かくこう","がっこう"],"answer":3},{"id":79,"cat":"kanji_reading","sentence":"教室で勉強する。","target":"教室","options":["きょうじつ","こうじつ","きょうしつ","こうしつ"],"answer":2},{"id":80,"cat":"kanji_reading","sentence":"父の会社は東京にある。","target":"会社","options":["ごうしゃ","かいしゃ","かいじゃ","えしゃ"],"answer":1},{"id":81,"cat":"kanji_reading","sentence":"この部屋は広い。","target":"部屋","options":["へや","ぶや","へおく","ぶおく"],"answer":0},{"id":82,"cat":"kanji_reading","sentence":"台所で料理する。","target":"台所","options":["たいどころ","だいしょ","だいじょ","だいどころ"],"answer":3},{"id":83,"cat":"kanji_reading","sentence":"家に帰る。","target":"家","options":["や","うち","いえ","か"],"answer":2},{"id":84,"cat":"kanji_reading","sentence":"家族は四人だ。","target":"家族","options":["やぞく","かぞく","いえぞく","かじょく"],"answer":1},{"id":85,"cat":"kanji_reading","sentence":"父は医者だ。","target":"父","options":["ちち","ふ","とう","はは"],"answer":0},{"id":86,"cat":"kanji_reading","sentence":"母は先生だ。","target":"母","options":["ぼ","ちち","かあ","はは"],"answer":3},{"id":87,"cat":"kanji_reading","sentence":"兄は学生だ。","target":"兄","options":["けい","にい","あに","きょう"],"answer":2},{"id":88,"cat":"kanji_reading","sentence":"姉は会社員だ。","target":"姉","options":["しま","あね","し","ねえ"],"answer":1},{"id":89,"cat":"kanji_reading","sentence":"弟は高校生だ。","target":"弟","options":["おとうと","だい","てい","おと"],"answer":0},{"id":90,"cat":"kanji_reading","sentence":"妹は小学生だ。","target":"妹","options":["まい","まいと","いも","いもうと"],"answer":3},{"id":91,"cat":"kanji_reading","sentence":"友達と話す。","target":"友達","options":["ともたつ","ゆうだち","ともだち","ゆうたつ"],"answer":2},{"id":92,"cat":"kanji_reading","sentence":"先生は優しい。","target":"先生","options":["せんしょう","せんせい","さきせい","ぜんせい"],"answer":1},{"id":93,"cat":"kanji_reading","sentence":"私は学生だ。","target":"学生","options":["がくせい","がっせい","がくしょう","まなびせい"],"answer":0},{"id":94,"cat":"kanji_reading","sentence":"この学校の生徒だ。","target":"生徒","options":["いきと","しょうと","なまと","せいと"],"answer":3},{"id":95,"cat":"kanji_reading","sentence":"公園で子供が遊ぶ。","target":"子供","options":["ことも","こく","こども","しきょう"],"answer":2},{"id":96,"cat":"kanji_reading","sentence":"大人になる。","target":"大人","options":["おおひと","おとな","だいじん","たいじん"],"answer":1},{"id":97,"cat":"kanji_reading","sentence":"男の人が立っている。","target":"男","options":["おとこ","だん","なん","おこ"],"answer":0},{"id":98,"cat":"kanji_reading","sentence":"女の人が歩く。","target":"女","options":["じょ","にょ","めな","おんな"],"answer":3},{"id":99,"cat":"kanji_reading","sentence":"あの人は誰ですか。","target":"人","options":["にん","ひ","ひと","じん"],"answer":2},{"id":100,"cat":"kanji_reading","sentence":"名前を書く。","target":"名前","options":["なぜん","なまえ","めいぜん","みょうぜん"],"answer":1},{"id":101,"cat":"kanji_reading","sentence":"来年で二十年だ。","target":"年","options":["とし","ねん","どし","せい"],"answer":0},{"id":102,"cat":"kanji_reading","sentence":"月がきれいだ。","target":"月","options":["げつ","がつ","げっ","つき"],"answer":3},{"id":103,"cat":"kanji_reading","sentence":"良い日だ。","target":"日","options":["じつ","び","ひ","にち"],"answer":2},{"id":104,"cat":"kanji_reading","sentence":"今日は何曜日ですか。","target":"曜日","options":["ひび","ようび","よおび","どうび"],"answer":1},{"id":105,"cat":"kanji_reading","sentence":"時が過ぎる。","target":"時","options":["とき","じ","じかん","どき"],"answer":0},{"id":106,"cat":"kanji_reading","sentence":"五分待つ。","target":"分","options":["ぶん","ぷん","わけ","ふん"],"answer":3},{"id":107,"cat":"kanji_reading","sentence":"朝ご飯を食べる。","target":"朝","options":["あけ","しょう","あさ","ちょう"],"answer":2},{"id":108,"cat":"kanji_reading","sentence":"昼は暑い。","target":"昼","options":["ぴる","ひる","ちゅう","ひま"],"answer":1},{"id":109,"cat":"kanji_reading","sentence":"夜は涼しい。","target":"夜","options":["よる","や","ばん","よ"],"answer":0},{"id":110,"cat":"kanji_reading","sentence":"時間がない。","target":"時間","options":["じま","ときま","じげん","じかん"],"answer":3},{"id":111,"cat":"kanji_reading","sentence":"今日は晴れだ。","target":"今日","options":["こんにち","きょうじつ","きょう","いまひ"],"answer":2},{"id":112,"cat":"kanji_reading","sentence":"明日は雨だ。","target":"明日","options":["あさひ","あした","めいじつ","あけひ"],"answer":1},{"id":113,"cat":"kanji_reading","sentence":"昨日映画を見た。","target":"昨日","options":["きのう","さくじつ","きのひ","さくひ"],"answer":0},{"id":114,"cat":"kanji_reading","sentence":"去年京都へ行った。","target":"去年","options":["きょとし","こねん","さくねん","きょねん"],"answer":3},{"id":115,"cat":"kanji_reading","sentence":"今年は寒い。","target":"今年","options":["いまとし","きんねん","ことし","こんねん"],"answer":2},{"id":116,"cat":"kanji_reading","sentence":"来年日本へ行く。","target":"来年","options":["くねん","らいねん","きねん","きたるとし"],"answer":1},{"id":117,"cat":"kanji_reading","sentence":"今週は忙しい。","target":"今週","options":["こんしゅう","いましゅう","こんしゅ","きんしゅう"],"answer":0},{"id":118,"cat":"kanji_reading","sentence":"先週休んだ。","target":"先週","options":["さきしゅう","ぜんしゅう","せんしゅ","せんしゅう"],"answer":3},{"id":119,"cat":"kanji_reading","sentence":"来週試験がある。","target":"来週","options":["くしゅう","きたしゅう","らいしゅう","きしゅう"],"answer":2},{"id":120,"cat":"kanji_reading","sentence":"今日の天気はいい。","target":"天気","options":["あまき","てんき","てんぎ","でんき"],"answer":1},{"id":121,"cat":"kanji_reading","sentence":"雨が降る。","target":"雨","options":["あめ","う","あま","さめ"],"answer":0},{"id":122,"cat":"kanji_reading","sentence":"雪が降る。","target":"雪","options":["せつ","ゆ","せっ","ゆき"],"answer":3},{"id":123,"cat":"kanji_reading","sentence":"風が強い。","target":"風","options":["かざ","ふ","かぜ","ふう"],"answer":2},{"id":124,"cat":"kanji_reading","sentence":"雲が多い。","target":"雲","options":["くむ","くも","うん","ぐも"],"answer":1},{"id":125,"cat":"kanji_reading","sentence":"空が青い。","target":"空","options":["そら","くう","から","あき"],"answer":0},{"id":126,"cat":"kanji_reading","sentence":"海で泳ぐ。","target":"海","options":["かい","み","うな","うみ"],"answer":3},{"id":127,"cat":"kanji_reading","sentence":"川で釣る。","target":"川","options":["がわ","か","かわ","せん"],"answer":2},{"id":128,"cat":"kanji_reading","sentence":"山に登る。","target":"山","options":["やぶ","やま","さん","ざん"],"answer":1},{"id":129,"cat":"kanji_reading","sentence":"森を歩く。","target":"森","options":["もり","しん","はやし","もく"],"answer":0},{"id":130,"cat":"kanji_reading","sentence":"花がきれいだ。","target":"花","options":["か","け","ばな","はな"],"answer":3},{"id":131,"cat":"kanji_reading","sentence":"木が高い。","target":"木","options":["ぼく","こ","き","もく"],"answer":2},{"id":132,"cat":"kanji_reading","sentence":"草が多い。","target":"草","options":["きく","くさ","そう","ぐさ"],"answer":1},{"id":133,"cat":"kanji_reading","sentence":"鳥が鳴く。","target":"鳥","options":["とり","ちょう","どり","かり"],"answer":0},{"id":134,"cat":"kanji_reading","sentence":"魚を食べる。","target":"魚","options":["ぎょ","うお","ざかな","さかな"],"answer":3},{"id":135,"cat":"kanji_reading","sentence":"動物園へ行く。","target":"動物","options":["うごぶつ","とうぶつ","どうぶつ","どうもの"],"answer":2},{"id":136,"cat":"kanji_reading","sentence":"犬を飼う。","target":"犬","options":["いん","いぬ","けん","ぬ"],"answer":1},{"id":137,"cat":"kanji_reading","sentence":"猫が寝る。","target":"猫","options":["ねこ","びょう","みょう","ねこう"],"answer":0},{"id":138,"cat":"kanji_reading","sentence":"食べ物を買う。","target":"食べ物","options":["しょくぶつ","たべぶつ","しょくもの","たべもの"],"answer":3},{"id":139,"cat":"kanji_reading","sentence":"飲み物を注文する。","target":"飲み物","options":["のみぶつ","いんもの","のみもの","いんぶつ"],"answer":2},{"id":140,"cat":"kanji_reading","sentence":"水を飲む。","target":"水","options":["ず","みず","すい","みぞ"],"answer":1},{"id":141,"cat":"kanji_reading","sentence":"茶を飲む。","target":"茶","options":["ちゃ","さ","ちゃく","ちゃあ"],"answer":0},{"id":142,"cat":"kanji_reading","sentence":"牛乳を飲む。","target":"牛乳","options":["うしにゅう","ぎゅうにゅ","ぎょうにゅう","ぎゅうにゅう"],"answer":3},{"id":143,"cat":"kanji_reading","sentence":"肉を食べる。","target":"肉","options":["しし","ぬく","にく","じく"],"answer":2},{"id":144,"cat":"kanji_reading","sentence":"米を買う。","target":"米","options":["よね","こめ","べい","まい"],"answer":1},{"id":145,"cat":"kanji_reading","sentence":"野菜を食べる。","target":"野菜","options":["やさい","のさい","やざい","のざい"],"answer":0},{"id":146,"cat":"kanji_reading","sentence":"果物が好きだ。","target":"果物","options":["かぶつ","かもの","くだぶつ","くだもの"],"answer":3},{"id":147,"cat":"kanji_reading","sentence":"朝ご飯を食べる。","target":"朝ご飯","options":["あさごめし","ちょうはん","あさごはん","ちょうごはん"],"answer":2},{"id":148,"cat":"kanji_reading","sentence":"昼ご飯はパンだ。","target":"昼ご飯","options":["ひるはん","ひるごはん","ちゅうごはん","ひるめし"],"answer":1},{"id":149,"cat":"kanji_reading","sentence":"夕飯を作る。","target":"夕飯","options":["ゆうはん","ゆうめし","せきはん","ゆうご"],"answer":0},{"id":150,"cat":"kanji_reading","sentence":"料理を習う。","target":"料理","options":["りょおり","りゅうり","れうり","りょうり"],"answer":3},{"id":151,"cat":"kanji_reading","sentence":"電話をかける。","target":"電話","options":["でんはな","でんご","でんわ","でんば"],"answer":2},{"id":152,"cat":"kanji_reading","sentence":"手紙を書く。","target":"手紙","options":["しゅがみ","てがみ","しゅし","てし"],"answer":1},{"id":153,"cat":"kanji_reading","sentence":"新聞を読む。","target":"新聞","options":["しんぶん","しんもん","あたぶん","しんぶ"],"answer":0},{"id":154,"cat":"kanji_reading","sentence":"本を読む。","target":"本","options":["ぼん","もと","ぽん","ほん"],"answer":3},{"id":155,"cat":"kanji_reading","sentence":"雑誌を買う。","target":"雑誌","options":["ぞうし","さつし","ざっし","ざつし"],"answer":2},{"id":156,"cat":"kanji_reading","sentence":"映画を見る。","target":"映画","options":["えいか","えいが","えいかく","ようが"],"answer":1},{"id":157,"cat":"kanji_reading","sentence":"音楽を聞く。","target":"音楽","options":["おんがく","ねがく","おんらく","いんがく"],"answer":0},{"id":158,"cat":"kanji_reading","sentence":"歌を歌う。","target":"歌","options":["か","え","が","うた"],"answer":3},{"id":159,"cat":"kanji_reading","sentence":"写真を撮る。","target":"写真","options":["うつしん","しゃまこと","しゃしん","しゃじん"],"answer":2},{"id":160,"cat":"kanji_reading","sentence":"買い物に行く。","target":"買い物","options":["ばいぶつ","かいもの","ばいもの","かいぶつ"],"answer":1},{"id":161,"cat":"kanji_reading","sentence":"旅行に行く。","target":"旅行","options":["りょこう","たびこう","りょぎょう","りょうこう"],"answer":0},{"id":162,"cat":"kanji_reading","sentence":"休みが欲しい。","target":"休み","options":["きゅうみ","いこみ","ねみ","やすみ"],"answer":3},{"id":163,"cat":"kanji_reading","sentence":"授業に出る。","target":"授業","options":["しゅぎょう","じゅぎゅう","じゅぎょう","じゅごう"],"answer":2},{"id":164,"cat":"kanji_reading","sentence":"試験を受ける。","target":"試験","options":["ためけん","しけん","しげん","しき"],"answer":1},{"id":165,"cat":"kanji_reading","sentence":"宿題をする。","target":"宿題","options":["しゅくだい","やどだい","しゅうだい","しゅくてい"],"answer":0},{"id":166,"cat":"kanji_reading","sentence":"質問に答える。","target":"質問","options":["しちもん","しっとい","じつもん","しつもん"],"answer":3},{"id":167,"cat":"kanji_reading","sentence":"答えを書く。","target":"答え","options":["だえ","あたえ","こたえ","とうえ"],"answer":2},{"id":168,"cat":"kanji_reading","sentence":"問題が難しい。","target":"問題","options":["もんてい","もんだい","ぶんだい","といだい"],"answer":1},{"id":169,"cat":"kanji_reading","sentence":"言葉の意味を調べる。","target":"意味","options":["いみ","いあじ","おもみ","しみ"],"answer":0},{"id":170,"cat":"kanji_reading","sentence":"先生の話を聞く。","target":"話","options":["わ","だん","ごと","はなし"],"answer":3},{"id":171,"cat":"kanji_reading","sentence":"日本語の言葉を覚える。","target":"言葉","options":["げんよう","いば","ことば","げんば"],"answer":2},{"id":172,"cat":"kanji_reading","sentence":"大きな音がする。","target":"音","options":["おん","おと","いん","ね"],"answer":1},{"id":173,"cat":"kanji_reading","sentence":"大きな声で話す。","target":"声","options":["こえ","せい","しょう","おとえ"],"answer":0},{"id":174,"cat":"kanji_reading","sentence":"この色が好きだ。","target":"色","options":["しょく","しき","いれ","いろ"],"answer":3},{"id":175,"cat":"kanji_reading","sentence":"丸い形だ。","target":"形","options":["ぎょう","かた","かたち","けい"],"answer":2},{"id":176,"cat":"kanji_reading","sentence":"この料理の味はいい。","target":"味","options":["あい","あじ","み","び"],"answer":1},{"id":177,"cat":"kanji_reading","sentence":"大きい家に住む。","target":"大きい","options":["おおきい","だいきい","たいきい","おきい"],"answer":0},{"id":178,"cat":"kanji_reading","sentence":"小さい犬が好きだ。","target":"小さい","options":["しょうさい","こさい","ちさい","ちいさい"],"answer":3},{"id":179,"cat":"kanji_reading","sentence":"この山は高い。","target":"高い","options":["だかい","たがい","たかい","こうい"],"answer":2},{"id":180,"cat":"kanji_reading","sentence":"低い声で話す。","target":"低い","options":["ひきい","ひくい","ていい","さがい"],"answer":1},{"id":181,"cat":"kanji_reading","sentence":"長い時間待った。","target":"長い","options":["ながい","ちょうい","なかい","ちょうがい"],"answer":0},{"id":182,"cat":"kanji_reading","sentence":"短い話をする。","target":"短い","options":["たんい","みじい","じかい","みじかい"],"answer":3},{"id":183,"cat":"kanji_reading","sentence":"新しい車を買う。","target":"新しい","options":["あらたしい","にいしい","あたらしい","しんしい"],"answer":2},{"id":184,"cat":"kanji_reading","sentence":"古い本を読む。","target":"古い","options":["もとい","ふるい","こい","ぐい"],"answer":1},{"id":185,"cat":"kanji_reading","sentence":"若い人が多い。","target":"若い","options":["わかい","じゃくい","ねんい","にゃくい"],"answer":0},{"id":186,"cat":"kanji_reading","sentence":"夏は暑い。","target":"暑い","options":["しょい","ねつい","あそい","あつい"],"answer":3},{"id":187,"cat":"kanji_reading","sentence":"冬は寒い。","target":"寒い","options":["すむい","ひえい","さむい","かんい"],"answer":2},{"id":188,"cat":"kanji_reading","sentence":"熱いお茶を飲む。","target":"熱い","options":["しょい","あつい","ねつい","ねつあい"],"answer":1},{"id":189,"cat":"kanji_reading","sentence":"冷たい水を飲む。","target":"冷たい","options":["つめたい","れいたい","ひえたい","さむたい"],"answer":0},{"id":190,"cat":"kanji_reading","sentence":"仕事が忙しい。","target":"忙しい","options":["ぼうしい","いそぎしい","もうしい","いそがしい"],"answer":3},{"id":191,"cat":"kanji_reading","sentence":"朝は早い。","target":"早い","options":["そくい","しゃい","はやい","そうい"],"answer":2},{"id":192,"cat":"kanji_reading","sentence":"夜は遅い。","target":"遅い","options":["じい","おそい","ちい","ちおそい"],"answer":1},{"id":193,"cat":"kanji_reading","sentence":"車が速い。","target":"速い","options":["はやい","そくい","そうい","さやい"],"answer":0},{"id":194,"cat":"kanji_reading","sentence":"風が強い。","target":"強い","options":["きょうい","ごうい","つよあい","つよい"],"answer":3},{"id":195,"cat":"kanji_reading","sentence":"体が弱い。","target":"弱い","options":["よあい","ねわい","よわい","じゃくい"],"answer":2},{"id":196,"cat":"kanji_reading","sentence":"駅は近い。","target":"近い","options":["ちがい","ちかい","きんい","ちかあい"],"answer":1},{"id":197,"cat":"kanji_reading","sentence":"学校は遠い。","target":"遠い","options":["とおい","えんい","おんい","おおい"],"answer":0},{"id":198,"cat":"kanji_reading","sentence":"人が多い。","target":"多い","options":["たい","おおあい","だい","おおい"],"answer":3},{"id":199,"cat":"kanji_reading","sentence":"お金が少ない。","target":"少ない","options":["すこない","しょない","すくない","しょうない"],"answer":2},{"id":200,"cat":"kanji_reading","sentence":"鞄が重い。","target":"重い","options":["もい","おもい","じゅうい","ちょうい"],"answer":1},{"id":201,"cat":"kanji_reading","sentence":"鞄が軽い。","target":"軽い","options":["かるい","けいい","かろい","きょうい"],"answer":0},{"id":202,"cat":"kanji_reading","sentence":"部屋が明るい。","target":"明るい","options":["めいるい","あかりい","みょうるい","あかるい"],"answer":3},{"id":203,"cat":"kanji_reading","sentence":"夜は暗い。","target":"暗い","options":["くろい","めいい","くらい","あんい"],"answer":2},{"id":204,"cat":"kanji_reading","sentence":"公園が広い。","target":"広い","options":["くろい","ひろい","こうい","ひらい"],"answer":1},{"id":205,"cat":"kanji_reading","sentence":"部屋が狭い。","target":"狭い","options":["せまい","きょうい","せばい","さくい"],"answer":0},{"id":206,"cat":"kanji_reading","sentence":"海が深い。","target":"深い","options":["しんい","ふくい","ふけい","ふかい"],"answer":3},{"id":207,"cat":"kanji_reading","sentence":"川が浅い。","target":"浅い","options":["あしい","あざい","あさい","せんい"],"answer":2},{"id":208,"cat":"kanji_reading","sentence":"厚い本を読む。","target":"厚い","options":["どい","あつい","こうい","あそい"],"answer":1},{"id":209,"cat":"kanji_reading","sentence":"薄い紙を使う。","target":"薄い","options":["うすい","はくい","うさい","すすい"],"answer":0},{"id":210,"cat":"kanji_reading","sentence":"易しい問題だ。","target":"易しい","options":["えきしい","いしい","やすしい","やさしい"],"answer":3},{"id":211,"cat":"kanji_reading","sentence":"難しい問題だ。","target":"難しい","options":["むつかしい","むじかしい","むずかしい","なんしい"],"answer":2},{"id":212,"cat":"kanji_reading","sentence":"旅行は楽しい。","target":"楽しい","options":["たのしむい","たのしい","らくしい","がくしい"],"answer":1},{"id":213,"cat":"kanji_reading","sentence":"悲しい話を聞く。","target":"悲しい","options":["かなしい","ひしい","かのしい","ひかなしい"],"answer":0},{"id":214,"cat":"kanji_reading","sentence":"合格して嬉しい。","target":"嬉しい","options":["きしい","うれいしい","よろしい","うれしい"],"answer":3},{"id":215,"cat":"kanji_reading","sentence":"怖い映画を見る。","target":"怖い","options":["ぶい","こあい","こわい","ふい"],"answer":2},{"id":216,"cat":"kanji_reading","sentence":"静かな公園だ。","target":"静か","options":["じょか","しずか","せいか","しずけ"],"answer":1},{"id":217,"cat":"kanji_reading","sentence":"有名な人に会う。","target":"有名","options":["ゆうめい","ゆうみょう","うめい","ゆめい"],"answer":0},{"id":218,"cat":"kanji_reading","sentence":"便利な道具だ。","target":"便利","options":["びんり","べんとし","へんり","べんり"],"answer":3},{"id":219,"cat":"kanji_reading","sentence":"親切な人だ。","target":"親切","options":["しんぜつ","ちかせつ","しんせつ","おやせつ"],"answer":2},{"id":220,"cat":"kanji_reading","sentence":"犬が好きだ。","target":"好き","options":["このき","すき","こうき","ずき"],"answer":1},{"id":221,"cat":"kanji_reading","sentence":"虫が嫌いだ。","target":"嫌い","options":["きらい","けんい","いやい","きらあい"],"answer":0},{"id":222,"cat":"kanji_reading","sentence":"料理が上手だ。","target":"上手","options":["じょうしゅ","うえて","じょうしょう","じょうず"],"answer":3},{"id":223,"cat":"kanji_reading","sentence":"歌が下手だ。","target":"下手","options":["げしゅ","かしゅ","へた","したて"],"answer":2},{"id":224,"cat":"kanji_reading","sentence":"子供は元気だ。","target":"元気","options":["がんき","げんき","もとき","げんぎ"],"answer":1},{"id":225,"cat":"kanji_reading","sentence":"犬を飼う。","target":"飼う","options":["かう","しう","ぼくう","やしなう"],"answer":0},{"id":226,"cat":"kanji_reading","sentence":"東京に住む。","target":"住む","options":["じゅうむ","すうむ","いむ","すむ"],"answer":3},{"id":227,"cat":"kanji_reading","sentence":"魚が死ぬ。","target":"死ぬ","options":["ぼうぬ","かぬ","しぬ","しにぬ"],"answer":2},{"id":228,"cat":"kanji_reading","sentence":"赤ちゃんが生まれる。","target":"生まれる","options":["しょうまれる","うまれる","せいまれる","いきまれる"],"answer":1},{"id":229,"cat":"kanji_reading","sentence":"子供を育てる。","target":"育てる","options":["そだてる","いくてる","やしないてる","ようてる"],"answer":0},{"id":230,"cat":"kanji_reading","sentence":"来年結婚する。","target":"結婚する","options":["けつこんする","けっごんする","けつごんする","けっこんする"],"answer":3},{"id":231,"cat":"kanji_reading","sentence":"離婚することにした。","target":"離婚する","options":["はなこんする","りっこんする","りこんする","りごんする"],"answer":2},{"id":232,"cat":"kanji_reading","sentence":"東京に引っ越す。","target":"引っ越す","options":["いんこす","ひっこす","いっこす","ひきこす"],"answer":1},{"id":233,"cat":"kanji_reading","sentence":"母を手伝う。","target":"手伝う","options":["てつだう","しゅでんう","てづだう","しゅだう"],"answer":0},{"id":234,"cat":"kanji_reading","sentence":"お金がなくて困る。","target":"困る","options":["こんる","くるまる","こむる","こまる"],"answer":3},{"id":235,"cat":"kanji_reading","sentence":"大きな音に驚く。","target":"驚く","options":["おどるく","けいく","おどろく","きょうく"],"answer":2},{"id":236,"cat":"kanji_reading","sentence":"みんなで笑う。","target":"笑う","options":["にこう","わらう","しょうう","えう"],"answer":1},{"id":237,"cat":"kanji_reading","sentence":"子供が泣く。","target":"泣く","options":["なく","きゅうく","きつく","めいく"],"answer":0},{"id":238,"cat":"kanji_reading","sentence":"父が怒る。","target":"怒る","options":["どる","いかる","ぬる","おこる"],"answer":3},{"id":239,"cat":"kanji_reading","sentence":"合格して喜ぶ。","target":"喜ぶ","options":["きしぶ","えんぶ","よろこぶ","きぶ"],"answer":2},{"id":240,"cat":"kanji_reading","sentence":"寒さを感じる。","target":"感じる","options":["しんじる","かんじる","かんずる","おもじる"],"answer":1},{"id":241,"cat":"kanji_reading","sentence":"友達を信じる。","target":"信じる","options":["しんじる","しんずる","まことじる","ほんじる"],"answer":0},{"id":242,"cat":"kanji_reading","sentence":"行くことを決める。","target":"決める","options":["けつめる","さだめる","けっめる","きめる"],"answer":3},{"id":243,"cat":"kanji_reading","sentence":"言葉の意味を調べる。","target":"調べる","options":["ととのえる","しりべる","しらべる","ちょうべる"],"answer":2},{"id":244,"cat":"kanji_reading","sentence":"値段を比べる。","target":"比べる","options":["ならべる","くらべる","ひべる","くらぶる"],"answer":1},{"id":245,"cat":"kanji_reading","sentence":"意味が分かる。","target":"分かる","options":["わかる","ぶんる","わける","ふんる"],"answer":0},{"id":246,"cat":"kanji_reading","sentence":"答えが違う。","target":"違う","options":["いう","ちがい","いがう","ちがう"],"answer":3},{"id":247,"cat":"kanji_reading","sentence":"答えが合う。","target":"合う","options":["あい","かう","あう","ごう"],"answer":2},{"id":248,"cat":"kanji_reading","sentence":"母に似る。","target":"似る","options":["にあう","にる","じる","しる"],"answer":1},{"id":249,"cat":"kanji_reading","sentence":"新しい生活に慣れる。","target":"慣れる","options":["なれる","かんれる","しゅうれる","ならいれる"],"answer":0},{"id":250,"cat":"kanji_reading","sentence":"忘れ物に気を付ける。","target":"忘れ物","options":["ぼうれもの","もうれもの","わすれぶつ","わすれもの"],"answer":3},{"id":251,"cat":"kanji_reading","sentence":"山が見える。","target":"見える","options":["けんえる","けえる","みえる","にえる"],"answer":2},{"id":252,"cat":"kanji_reading","sentence":"音が聞こえる。","target":"聞こえる","options":["もんこえる","きこえる","ききこえる","ぶんこえる"],"answer":1},{"id":253,"cat":"kanji_reading","sentence":"星が光る。","target":"光る","options":["ひかる","こうる","かがる","てる"],"answer":0},{"id":254,"cat":"kanji_reading","sentence":"鳥が鳴く。","target":"鳴く","options":["めいく","なぐ","きく","なく"],"answer":3},{"id":255,"cat":"kanji_reading","sentence":"雨が降る。","target":"降る","options":["くだる","おる","ふる","こうる"],"answer":2},{"id":256,"cat":"kanji_reading","sentence":"風が吹く。","target":"吹く","options":["かく","ふく","すいく","いく"],"answer":1},{"id":257,"cat":"kanji_reading","sentence":"花が咲く。","target":"咲く","options":["さく","しょうく","すく","えく"],"answer":0},{"id":258,"cat":"kanji_reading","sentence":"服が濡れる。","target":"濡れる","options":["じゅれる","うれる","しれる","ぬれる"],"answer":3},{"id":259,"cat":"kanji_reading","sentence":"洗濯物が乾く。","target":"乾く","options":["ほく","ぼく","かわく","かんく"],"answer":2},{"id":260,"cat":"kanji_reading","sentence":"肉を焼く。","target":"焼く","options":["ねく","やく","しょうく","ぐつく"],"answer":1},{"id":261,"cat":"kanji_reading","sentence":"体が冷える。","target":"冷える","options":["ひえる","れいえる","つめえる","さむえる"],"answer":0},{"id":262,"cat":"kanji_reading","sentence":"お湯が沸く。","target":"沸く","options":["ふつく","ふっく","にく","わく"],"answer":3},{"id":263,"cat":"kanji_reading","sentence":"卵を茹でる。","target":"茹でる","options":["にでる","わでる","ゆでる","じょでる"],"answer":2},{"id":264,"cat":"kanji_reading","sentence":"材料を混ぜる。","target":"混ぜる","options":["ごちゃぜる","まぜる","こんぜる","まじぜる"],"answer":1},{"id":265,"cat":"kanji_reading","sentence":"子供が育つ。","target":"育つ","options":["そだつ","いくつ","ようつ","ゆだつ"],"answer":0},{"id":266,"cat":"kanji_reading","sentence":"ゴミを捨てる。","target":"捨てる","options":["しゃてる","おてる","ぼうてる","すてる"],"answer":3},{"id":267,"cat":"kanji_reading","sentence":"ゴミを拾う。","target":"拾う","options":["ひりう","あう","ひろう","しゅうう"],"answer":2},{"id":268,"cat":"kanji_reading","sentence":"ボールを投げる。","target":"投げる","options":["とげる","なげる","とうげる","なぎる"],"answer":1},{"id":269,"cat":"kanji_reading","sentence":"ボタンを押す。","target":"押す","options":["おす","あっす","おうす","ひす"],"answer":0},{"id":270,"cat":"kanji_reading","sentence":"ドアを引く。","target":"引く","options":["いんく","ひっく","いく","ひく"],"answer":3},{"id":271,"cat":"kanji_reading","sentence":"前を向く。","target":"向く","options":["むけく","こく","むく","こうく"],"answer":2},{"id":272,"cat":"kanji_reading","sentence":"学校に向かう。","target":"向かう","options":["むこう","むかう","こうかう","むけう"],"answer":1},{"id":273,"cat":"kanji_reading","sentence":"家に戻る。","target":"戻る","options":["もどる","れいる","もうる","かえる"],"answer":0},{"id":274,"cat":"kanji_reading","sentence":"本を棚に戻す。","target":"戻す","options":["れいす","もうす","かえす","もどす"],"answer":3},{"id":275,"cat":"kanji_reading","sentence":"橋を渡る。","target":"渡る","options":["どる","こえる","わたる","とる"],"answer":2},{"id":276,"cat":"kanji_reading","sentence":"道を通る。","target":"通る","options":["どおる","とおる","つうる","かよる"],"answer":1},{"id":277,"cat":"kanji_reading","sentence":"学校に通う。","target":"通う","options":["かよう","つうう","つかう","とおう"],"answer":0},{"id":278,"cat":"kanji_reading","sentence":"駅で迎える。","target":"迎える","options":["げいえる","むかいえる","むこえる","むかえる"],"answer":3},{"id":279,"cat":"kanji_reading","sentence":"木が倒れる。","target":"倒れる","options":["ころれる","だおれる","たおれる","とうれる"],"answer":2},{"id":280,"cat":"kanji_reading","sentence":"葉が落ちる。","target":"落ちる","options":["おちいる","おちる","らくちる","おっちる"],"answer":1},{"id":281,"cat":"kanji_reading","sentence":"鍵を落とす。","target":"落とす","options":["おとす","らくとす","おっとす","ぼとす"],"answer":0},{"id":282,"cat":"kanji_reading","sentence":"皿を割る。","target":"割る","options":["かつる","ぶつる","きる","わる"],"answer":3},{"id":283,"cat":"kanji_reading","sentence":"ガラスが割れる。","target":"割れる","options":["ぶつれる","やぶれる","われる","かつれる"],"answer":2},{"id":284,"cat":"kanji_reading","sentence":"紙を破る。","target":"破る","options":["こわる","やぶる","はる","はぶる"],"answer":1},{"id":285,"cat":"kanji_reading","sentence":"紙が破れる。","target":"破れる","options":["やぶれる","はれる","はぶれる","こわれる"],"answer":0},{"id":286,"cat":"kanji_reading","sentence":"店が閉まる。","target":"閉まる","options":["へいまる","とじまる","しめまる","しまる"],"answer":3},{"id":287,"cat":"kanji_reading","sentence":"雨が続く。","target":"続く","options":["つずく","づつく","つづく","ぞくく"],"answer":2},{"id":288,"cat":"kanji_reading","sentence":"勉強を続ける。","target":"続ける","options":["づつける","つづける","ぞくける","つずける"],"answer":1},{"id":289,"cat":"kanji_reading","sentence":"授業が始まる。","target":"始まる","options":["はじまる","しまる","そまる","せまる"],"answer":0},{"id":290,"cat":"kanji_reading","sentence":"切手を集める。","target":"集める","options":["しゅうめる","あたまる","すめる","あつめる"],"answer":3},{"id":291,"cat":"kanji_reading","sentence":"人が集まる。","target":"集まる","options":["あたまる","すまる","あつまる","しゅうまる"],"answer":2},{"id":292,"cat":"kanji_reading","sentence":"友達と別れる。","target":"別れる","options":["はなれる","わかれる","べつれる","わけれる"],"answer":1},{"id":293,"cat":"kanji_reading","sentence":"お菓子を別ける。","target":"別ける","options":["わける","べつける","わかれる","はなける"],"answer":0},{"id":294,"cat":"kanji_reading","sentence":"人口が増える。","target":"増える","options":["ぞうえる","ますえる","まえる","ふえる"],"answer":3},{"id":295,"cat":"kanji_reading","sentence":"お金が減る。","target":"減る","options":["ぶる","すくる","へる","げんる"],"answer":2},{"id":296,"cat":"kanji_reading","sentence":"予定を変える。","target":"変える","options":["へえる","かえる","へんえる","ばけえる"],"answer":1},{"id":297,"cat":"kanji_reading","sentence":"季節が変わる。","target":"変わる","options":["かわる","へんわる","ばけわる","へわる"],"answer":0},{"id":298,"cat":"kanji_reading","sentence":"前に進む。","target":"進む","options":["しんむ","さきむ","しんすむ","すすむ"],"answer":3},{"id":299,"cat":"kanji_reading","sentence":"電車が遅れる。","target":"遅れる","options":["おそれる","おしれる","おくれる","ちれる"],"answer":2},{"id":300,"cat":"kanji_reading","sentence":"電車に間に合う。","target":"間に合う","options":["まにごう","まにあう","かんにあう","あいにあう"],"answer":1},{"id":301,"cat":"kanji_reading","sentence":"車に気を付ける。","target":"気を付ける","options":["きをつける","きおつける","きにつける","きをふける"],"answer":0},{"id":302,"cat":"kanji_reading","sentence":"お金を引き出す。","target":"引き出す","options":["いんきだす","ひきいだす","ひきしゅつす","ひきだす"],"answer":3},{"id":303,"cat":"kanji_reading","sentence":"友達を呼ぶ。","target":"呼ぶ","options":["きょぶ","さけぶ","よぶ","こぶ"],"answer":2},{"id":304,"cat":"kanji_reading","sentence":"大きな声で叫ぶ。","target":"叫ぶ","options":["おらぶ","さけぶ","きょうぶ","よぶ"],"answer":1},{"id":305,"cat":"kanji_reading","sentence":"質問に答える。","target":"答える","options":["こたえる","とうえる","だえる","あたえる"],"answer":0},{"id":306,"cat":"kanji_reading","sentence":"公園で遊ぶ。","target":"公園","options":["こうおん","くうえん","きょうえん","こうえん"],"answer":3},{"id":307,"cat":"kanji_reading","sentence":"病院へ行く。","target":"病院","options":["へいいん","びんいん","びょういん","びょうしょ"],"answer":2},{"id":308,"cat":"kanji_reading","sentence":"銀行でお金を下ろす。","target":"銀行","options":["ぎんぎょう","ぎんこう","ぎんごう","きんこう"],"answer":1},{"id":309,"cat":"kanji_reading","sentence":"駅で待つ。","target":"駅","options":["えき","えし","やく","えぎ"],"answer":0},{"id":310,"cat":"kanji_reading","sentence":"店で買い物する。","target":"店","options":["てん","でん","まち","みせ"],"answer":3},{"id":311,"cat":"kanji_reading","sentence":"市場で魚を買う。","target":"市場","options":["いちじょう","しじょう","いちば","ししょう"],"answer":2},{"id":312,"cat":"kanji_reading","sentence":"町は静かだ。","target":"町","options":["どう","まち","ちょう","まき"],"answer":1},{"id":313,"cat":"kanji_reading","sentence":"小さい村に住む。","target":"村","options":["むら","そん","ぞん","まら"],"answer":0},{"id":314,"cat":"kanji_reading","sentence":"大きな都市に住む。","target":"都市","options":["とち","つし","みやこし","とし"],"answer":3},{"id":315,"cat":"kanji_reading","sentence":"外国に行く。","target":"国","options":["ごく","けん","くに","こく"],"answer":2},{"id":316,"cat":"kanji_reading","sentence":"外国へ旅行する。","target":"外国","options":["がくこく","がいこく","そとこく","がいごく"],"answer":1},{"id":317,"cat":"kanji_reading","sentence":"都合が悪い。","target":"都合","options":["つごう","とごう","とあい","つあい"],"answer":0},{"id":318,"cat":"kanji_reading","sentence":"静かな所に住む。","target":"所","options":["しょ","じょ","とこ","ところ"],"answer":3},{"id":319,"cat":"kanji_reading","sentence":"会う場所を決める。","target":"場所","options":["ばじょ","ばところ","ばしょ","じょうしょ"],"answer":2},{"id":320,"cat":"kanji_reading","sentence":"地図を見る。","target":"地図","options":["ちまる","ちず","じず","ちとう"],"answer":1},{"id":321,"cat":"kanji_reading","sentence":"道を歩く。","target":"道","options":["みち","どう","みぞ","とう"],"answer":0},{"id":322,"cat":"kanji_reading","sentence":"橋を渡る。","target":"橋","options":["きょう","ばし","しょう","はし"],"answer":3},{"id":323,"cat":"kanji_reading","sentence":"交番で聞く。","target":"交番","options":["きょうばん","こうぱん","こうばん","こうはん"],"answer":2},{"id":324,"cat":"kanji_reading","sentence":"郵便局で手紙を出す。","target":"郵便局","options":["ゆうびんきょう","ゆうびんきょく","ゆうべんきょく","ゆうびんぎょく"],"answer":1},{"id":325,"cat":"kanji_reading","sentence":"図書館で本を借りる。","target":"図書館","options":["としょかん","としょがん","ずしょかん","としょうかん"],"answer":0},{"id":326,"cat":"kanji_reading","sentence":"美術館へ行く。","target":"美術館","options":["みじゅつかん","びじゅかん","びすじゅかん","びじゅつかん"],"answer":3},{"id":327,"cat":"kanji_reading","sentence":"博物館を見学する。","target":"博物館","options":["はくもつかん","はくぶつがん","はくぶつかん","ばくぶつかん"],"answer":2},{"id":328,"cat":"kanji_reading","sentence":"空港で待つ。","target":"空港","options":["くうみなと","くうこう","そらこう","くうごう"],"answer":1},{"id":329,"cat":"kanji_reading","sentence":"港に船がある。","target":"港","options":["みなと","こう","こうみなと","はく"],"answer":0},{"id":330,"cat":"kanji_reading","sentence":"工場で働く。","target":"工場","options":["こうば","くじょう","こうしょう","こうじょう"],"answer":3},{"id":331,"cat":"kanji_reading","sentence":"市役所へ行く。","target":"市役所","options":["いちやくしょ","しやくじょ","しやくしょ","しえきしょ"],"answer":2},{"id":332,"cat":"kanji_reading","sentence":"信号を守る。","target":"信号","options":["しんがく","しんごう","しんこう","しんごう"],"answer":1},{"id":333,"cat":"kanji_reading","sentence":"交差点で止まる。","target":"交差点","options":["こうさてん","きょうさてん","こうさでん","こうしゃてん"],"answer":0},{"id":334,"cat":"kanji_reading","sentence":"車を運転する。","target":"車","options":["しゃ","じしゃ","くま","くるま"],"answer":3},{"id":335,"cat":"kanji_reading","sentence":"電車に乗る。","target":"電車","options":["でんくるま","いなずま","でんしゃ","でんじゃ"],"answer":2},{"id":336,"cat":"kanji_reading","sentence":"飛行機に乗る。","target":"飛行機","options":["ひこうぎ","ひこうき","ひきょうき","ひゆき"],"answer":1},{"id":337,"cat":"kanji_reading","sentence":"自転車に乗る。","target":"自転車","options":["じてんしゃ","じどうしゃ","じてんじゃ","じでんしゃ"],"answer":0},{"id":338,"cat":"kanji_reading","sentence":"自動車を買う。","target":"自動車","options":["じてんしゃ","じどうじゃ","じうごしゃ","じどうしゃ"],"answer":3},{"id":339,"cat":"kanji_reading","sentence":"地下鉄に乗る。","target":"地下鉄","options":["ちしたてつ","ちかでつ","ちかてつ","じかてつ"],"answer":2},{"id":340,"cat":"kanji_reading","sentence":"船で海を渡る。","target":"船","options":["ふな","ふね","せん","ぶね"],"answer":1},{"id":341,"cat":"kanji_reading","sentence":"駐車場に車を止める。","target":"駐車場","options":["ちゅうしゃじょう","ちゅうしゃしょう","じゅしゃじょう","ちゅしゃじょう"],"answer":0},{"id":342,"cat":"kanji_reading","sentence":"切符を買う。","target":"切符","options":["きりふ","きっぷう","せつふ","きっぷ"],"answer":3},{"id":343,"cat":"kanji_reading","sentence":"机の上に本がある。","target":"机","options":["づくえ","きづ","つくえ","き"],"answer":2},{"id":344,"cat":"kanji_reading","sentence":"椅子に座る。","target":"椅子","options":["いず","いす","ぎし","いじ"],"answer":1},{"id":345,"cat":"kanji_reading","sentence":"窓を開ける。","target":"窓","options":["まど","そう","まと","ど"],"answer":0},{"id":346,"cat":"kanji_reading","sentence":"扉を閉める。","target":"扉","options":["ひ","ど","とあ","とびら"],"answer":3},{"id":347,"cat":"kanji_reading","sentence":"鍵を忘れる。","target":"鍵","options":["けい","かき","かぎ","けん"],"answer":2},{"id":348,"cat":"kanji_reading","sentence":"鞄を持つ。","target":"鞄","options":["かまん","かばん","ほう","ぽう"],"answer":1},{"id":349,"cat":"kanji_reading","sentence":"財布を落とす。","target":"財布","options":["さいふ","ざいふ","さいぷ","ざいぶ"],"answer":0},{"id":350,"cat":"kanji_reading","sentence":"傘を差す。","target":"傘","options":["さん","が","かざ","かさ"],"answer":3},{"id":351,"cat":"kanji_reading","sentence":"眼鏡をかける。","target":"眼鏡","options":["めかがみ","めがん","めがね","がんきょう"],"answer":2},{"id":352,"cat":"kanji_reading","sentence":"時計を見る。","target":"時計","options":["ときどき","とけい","じけい","じとき"],"answer":1},{"id":353,"cat":"kanji_reading","sentence":"帽子をかぶる。","target":"帽子","options":["ぼうし","ぼうじ","もうし","ぽうし"],"answer":0},{"id":354,"cat":"kanji_reading","sentence":"靴を履く。","target":"靴","options":["か","か","くちゅ","くつ"],"answer":3},{"id":355,"cat":"kanji_reading","sentence":"服を着る。","target":"服","options":["ぷく","もの","ふく","ぶく"],"answer":2},{"id":356,"cat":"kanji_reading","sentence":"洋服を買う。","target":"洋服","options":["ようもの","ようふく","ようぶく","よぶく"],"answer":1},{"id":357,"cat":"kanji_reading","sentence":"背広を着る。","target":"背広","options":["せびろ","はいこう","せひろ","はいひろ"],"answer":0},{"id":358,"cat":"kanji_reading","sentence":"靴下を履く。","target":"靴下","options":["かした","くつか","くつげ","くつした"],"answer":3},{"id":359,"cat":"kanji_reading","sentence":"手袋をする。","target":"手袋","options":["しゅふくろ","てたい","てぶくろ","しゅたい"],"answer":2},{"id":360,"cat":"kanji_reading","sentence":"鉛筆で書く。","target":"鉛筆","options":["なまりふで","えんぴつ","えんびつ","えんひつ"],"answer":1},{"id":361,"cat":"kanji_reading","sentence":"消しゴムを使う。","target":"消しゴム","options":["けしゴム","しょうしゴム","きしゴム","けゴム"],"answer":0},{"id":362,"cat":"kanji_reading","sentence":"紙に書く。","target":"紙","options":["し","がみ","じ","かみ"],"answer":3},{"id":363,"cat":"kanji_reading","sentence":"ノートに書く。","target":"ノート","options":["ノウト","ノト","ノート","ノオト"],"answer":2},{"id":364,"cat":"kanji_reading","sentence":"本棚に本を置く。","target":"本棚","options":["ほんて","ほんだな","ほんたな","もとだな"],"answer":1},{"id":365,"cat":"kanji_reading","sentence":"冷蔵庫に入れる。","target":"冷蔵庫","options":["れいぞうこ","れいぞく","ひえぞうこ","れいそうこ"],"answer":0},{"id":366,"cat":"kanji_reading","sentence":"洗濯機を使う。","target":"洗濯機","options":["せんたっき","あらいき","せんだくき","せんたくき"],"answer":3},{"id":367,"cat":"kanji_reading","sentence":"電気を消す。","target":"電気","options":["でんけ","でんあ","でんき","でんぎ"],"answer":2},{"id":368,"cat":"kanji_reading","sentence":"電灯が暗い。","target":"電灯","options":["でんひかり","でんとう","でんどう","でんひ"],"answer":1},{"id":369,"cat":"kanji_reading","sentence":"絵を描く。","target":"絵","options":["え","かい","え","えが"],"answer":0},{"id":370,"cat":"kanji_reading","sentence":"字を書く。","target":"字","options":["し","あざ","じい","じ"],"answer":3},{"id":371,"cat":"kanji_reading","sentence":"漢字を覚える。","target":"漢字","options":["かんし","はんじ","かんじ","からじ"],"answer":2},{"id":372,"cat":"kanji_reading","sentence":"地震が起きる。","target":"地震","options":["じじん","じしん","ちしん","じふる"],"answer":1},{"id":373,"cat":"kanji_reading","sentence":"火が消える。","target":"火","options":["ひ","か","ほ","び"],"answer":0},{"id":374,"cat":"kanji_reading","sentence":"火事に気を付ける。","target":"火事","options":["ひごと","かし","ほじ","かじ"],"answer":3},{"id":375,"cat":"kanji_reading","sentence":"地下に駐車する。","target":"地下","options":["ちした","じした","ちか","じか"],"answer":2},{"id":376,"cat":"kanji_reading","sentence":"地理を勉強する。","target":"地理","options":["ちとし","ちり","じり","ちり"],"answer":1},{"id":377,"cat":"kanji_reading","sentence":"歴史を学ぶ。","target":"歴史","options":["れきし","れきじ","りゃくし","こよみし"],"answer":0},{"id":378,"cat":"kanji_reading","sentence":"日本の文化を学ぶ。","target":"文化","options":["ぶんけ","ふんか","もんか","ぶんか"],"answer":3},{"id":379,"cat":"kanji_reading","sentence":"政治に関心がある。","target":"政治","options":["せいち","まつじ","せいじ","しょうじ"],"answer":2},{"id":380,"cat":"kanji_reading","sentence":"経済を勉強する。","target":"経済","options":["けいぞい","けいざい","きょうざい","けいさい"],"answer":1},{"id":381,"cat":"kanji_reading","sentence":"社会のルールを守る。","target":"社会","options":["しゃかい","しゃえ","しゃごう","さかい"],"answer":0},{"id":382,"cat":"kanji_reading","sentence":"科学は面白い。","target":"科学","options":["きょうがく","かかく","かぎょう","かがく"],"answer":3},{"id":383,"cat":"kanji_reading","sentence":"医学を学ぶ。","target":"医学","options":["いさがく","くすりがく","いがく","いがっく"],"answer":2},{"id":384,"cat":"kanji_reading","sentence":"医者になる。","target":"医者","options":["くすりしゃ","いしゃ","いじゃ","いさ"],"answer":1},{"id":385,"cat":"kanji_reading","sentence":"看護師になりたい。","target":"看護師","options":["かんごし","かんごじ","かんほうし","みごし"],"answer":0},{"id":386,"cat":"kanji_reading","sentence":"警察を呼ぶ。","target":"警察","options":["けいざつ","きんさつ","きょうさつ","けいさつ"],"answer":3},{"id":387,"cat":"kanji_reading","sentence":"泥棒を捕まえる。","target":"泥棒","options":["どろぽう","にどぼう","どろぼう","でいぼう"],"answer":2},{"id":388,"cat":"kanji_reading","sentence":"お金が足りない。","target":"お金","options":["おかん","おかね","おぎん","おきん"],"answer":1},{"id":389,"cat":"kanji_reading","sentence":"お茶を飲む。","target":"お茶","options":["おちゃ","おさ","おちゃく","おちゃい"],"answer":0},{"id":390,"cat":"kanji_reading","sentence":"紅茶を淹れる。","target":"紅茶","options":["べにちゃ","こうさ","こうち","こうちゃ"],"answer":3},{"id":391,"cat":"kanji_reading","sentence":"酒を飲む。","target":"酒","options":["さか","さい","さけ","しゅ"],"answer":2},{"id":392,"cat":"kanji_reading","sentence":"卵を買う。","target":"卵","options":["らんこ","たまご","らん","たまあ"],"answer":1},{"id":393,"cat":"kanji_reading","sentence":"砂糖を入れる。","target":"砂糖","options":["さとう","すなとう","しゃとう","さとお"],"answer":0},{"id":394,"cat":"kanji_reading","sentence":"塩を入れる。","target":"塩","options":["えん","しょ","ほ","しお"],"answer":3},{"id":395,"cat":"kanji_reading","sentence":"味噌汁を作る。","target":"味噌","options":["みしょ","みその","みそ","あじそ"],"answer":2},{"id":396,"cat":"kanji_reading","sentence":"醤油をかける。","target":"醤油","options":["そうゆ","しょうゆ","しょうあぶら","じょうゆ"],"answer":1},{"id":397,"cat":"kanji_reading","sentence":"箸で食べる。","target":"箸","options":["はし","ちょ","ばし","はす"],"answer":0},{"id":398,"cat":"kanji_reading","sentence":"皿を洗う。","target":"皿","options":["べい","ざら","ばん","さら"],"answer":3},{"id":399,"cat":"kanji_reading","sentence":"茶碗でご飯を食べる。","target":"茶碗","options":["ちゃわ","さわん","ちゃわん","ちゃまる"],"answer":2},{"id":400,"cat":"kanji_reading","sentence":"鍋で煮る。","target":"鍋","options":["のう","なべ","か","かべ"],"answer":1},{"id":401,"cat":"kanji_reading","sentence":"包丁を使う。","target":"包丁","options":["ほうちょう","ぽうちょう","ほうてい","ほうちゅう"],"answer":0},{"id":402,"cat":"kanji_reading","sentence":"果物屋で買う。","target":"果物屋","options":["かぶつや","かものや","くだぶつや","くだものや"],"answer":3},{"id":403,"cat":"kanji_reading","sentence":"八百屋で野菜を買う。","target":"八百屋","options":["やひゃくや","はっぴゃくや","やおや","はちひゃくや"],"answer":2},{"id":404,"cat":"kanji_reading","sentence":"肉屋で肉を買う。","target":"肉屋","options":["にくてん","にくや","じくや","ししや"],"answer":1},{"id":405,"cat":"kanji_reading","sentence":"魚屋で魚を買う。","target":"魚屋","options":["さかなや","ぎょや","うおや","ざかなや"],"answer":0},{"id":406,"cat":"kanji_reading","sentence":"本屋で本を買う。","target":"本屋","options":["ぼんや","もとや","ほんてん","ほんや"],"answer":3},{"id":407,"cat":"kanji_reading","sentence":"花屋で花を買う。","target":"花屋","options":["けや","ばなや","はなや","かや"],"answer":2},{"id":408,"cat":"kanji_reading","sentence":"喫茶店で話す。","target":"喫茶店","options":["きっさでん","きっさてん","きさてん","きっちゃてん"],"answer":1},{"id":409,"cat":"kanji_reading","sentence":"食堂で食べる。","target":"食堂","options":["しょくどう","しょくとう","たべどう","しょくじどう"],"answer":0},{"id":410,"cat":"kanji_reading","sentence":"旅館に泊まる。","target":"旅館","options":["たびかん","りょがん","りょうかん","りょかん"],"answer":3},{"id":411,"cat":"kanji_reading","sentence":"食事をする。","target":"食事","options":["しょうじ","くいじ","しょくじ","しょくごと"],"answer":2},{"id":412,"cat":"kanji_reading","sentence":"お菓子を食べる。","target":"お菓子","options":["おかい","おかし","おかじ","おがし"],"answer":1},{"id":413,"cat":"kanji_reading","sentence":"お土産を買う。","target":"お土産","options":["おみやげ","おどさん","おとさん","おみやさん"],"answer":0},{"id":414,"cat":"kanji_reading","sentence":"駅員に聞く。","target":"駅員","options":["えきにん","やくいん","えきひと","えきいん"],"answer":3},{"id":415,"cat":"kanji_reading","sentence":"店員に聞く。","target":"店員","options":["まちいん","てんひと","てんいん","でんいん"],"answer":2},{"id":416,"cat":"kanji_reading","sentence":"会社員になる。","target":"会社員","options":["かいしゃひと","かいしゃいん","かいしゃにん","えしゃいん"],"answer":1},{"id":417,"cat":"kanji_reading","sentence":"公務員になりたい。","target":"公務員","options":["こうむいん","くむいん","こうぶいん","こうむにん"],"answer":0},{"id":418,"cat":"kanji_reading","sentence":"社長に会う。","target":"社長","options":["しゃじょう","しゃうど","やしろちょう","しゃちょう"],"answer":3},{"id":419,"cat":"kanji_reading","sentence":"社員は百人だ。","target":"社員","options":["やしろいん","しゃひと","しゃいん","しゃにん"],"answer":2},{"id":420,"cat":"kanji_reading","sentence":"部長に報告する。","target":"部長","options":["ぶかしら","ぶちょう","ぶじょう","ぶどう"],"answer":1},{"id":421,"cat":"kanji_reading","sentence":"課長に話す。","target":"課長","options":["かちょう","かじょう","かどう","かかしら"],"answer":0},{"id":422,"cat":"kanji_reading","sentence":"手を洗う。","target":"手","options":["しゅ","たて","ず","て"],"answer":3},{"id":423,"cat":"kanji_reading","sentence":"足が痛い。","target":"足","options":["た","あい","あし","そく"],"answer":2},{"id":424,"cat":"kanji_reading","sentence":"目が赤い。","target":"目","options":["ぼく","め","もく","ま"],"answer":1},{"id":425,"cat":"kanji_reading","sentence":"口を開ける。","target":"口","options":["くち","こう","く","ち"],"answer":0},{"id":426,"cat":"kanji_reading","sentence":"耳が痛い。","target":"耳","options":["じ","にじ","に","みみ"],"answer":3},{"id":427,"cat":"kanji_reading","sentence":"鼻が高い。","target":"鼻","options":["ばな","はの","はな","び"],"answer":2},{"id":428,"cat":"kanji_reading","sentence":"顔を洗う。","target":"顔","options":["かん","かお","がん","がお"],"answer":1},{"id":429,"cat":"kanji_reading","sentence":"頭が痛い。","target":"頭","options":["あたま","ず","とう","かしら"],"answer":0},{"id":430,"cat":"kanji_reading","sentence":"首が長い。","target":"首","options":["しゅ","こう","くし","くび"],"answer":3},{"id":431,"cat":"kanji_reading","sentence":"肩が痛い。","target":"肩","options":["がた","かだ","かた","けん"],"answer":2},{"id":432,"cat":"kanji_reading","sentence":"背が高い。","target":"背","options":["はく","せ","はい","せい"],"answer":1},{"id":433,"cat":"kanji_reading","sentence":"胸が痛い。","target":"胸","options":["むね","きょう","ぬね","ぶね"],"answer":0},{"id":434,"cat":"kanji_reading","sentence":"腹が空く。","target":"腹","options":["ふく","ばら","ぷく","はら"],"answer":3},{"id":435,"cat":"kanji_reading","sentence":"指が長い。","target":"指","options":["さし","じ","ゆび","し"],"answer":2},{"id":436,"cat":"kanji_reading","sentence":"体が大きい。","target":"体","options":["がら","からだ","たい","てい"],"answer":1},{"id":437,"cat":"kanji_reading","sentence":"血が出る。","target":"血","options":["ち","けつ","ぢ","じ"],"answer":0},{"id":438,"cat":"kanji_reading","sentence":"骨が折れる。","target":"骨","options":["こつ","ぼね","きょつ","ほね"],"answer":3},{"id":439,"cat":"kanji_reading","sentence":"皮をむく。","target":"皮","options":["がわ","はだ","かわ","ひ"],"answer":2},{"id":440,"cat":"kanji_reading","sentence":"歯を磨く。","target":"歯","options":["が","は","し","しい"],"answer":1},{"id":441,"cat":"kanji_reading","sentence":"髪が長い。","target":"髪","options":["かみ","はつ","がみ","はい"],"answer":0},{"id":442,"cat":"kanji_reading","sentence":"空気がきれい。","target":"空気","options":["そらき","くうぎ","からき","くうき"],"answer":3},{"id":443,"cat":"kanji_reading","sentence":"星がきれい。","target":"星","options":["ほせ","ぼし","ほし","せい"],"answer":2},{"id":444,"cat":"kanji_reading","sentence":"太陽がまぶしい。","target":"太陽","options":["たいひ","たいよう","たよう","おおよう"],"answer":1},{"id":445,"cat":"kanji_reading","sentence":"昔の話をする。","target":"昔","options":["むかし","せき","せい","こし"],"answer":0},{"id":446,"cat":"kanji_reading","sentence":"秋は涼しい。","target":"秋","options":["しゅう","ちゅう","あ","あき"],"answer":3},{"id":447,"cat":"kanji_reading","sentence":"冬は寒い。","target":"冬","options":["ぶゆ","ひゅ","ふゆ","とう"],"answer":2},{"id":448,"cat":"kanji_reading","sentence":"春が来る。","target":"春","options":["ばる","はる","しゅん","はり"],"answer":1},{"id":449,"cat":"kanji_reading","sentence":"夏は暑い。","target":"夏","options":["なつ","か","げ","なん"],"answer":0},{"id":450,"cat":"kanji_reading","sentence":"季節が変わる。","target":"季節","options":["きぜつ","きせい","きもの","きせつ"],"answer":3},{"id":451,"cat":"kanji_reading","sentence":"午前中に行く。","target":"午前","options":["うまぜん","ごまえ","ごぜん","ごせん"],"answer":2},{"id":452,"cat":"kanji_reading","sentence":"午後から出かける。","target":"午後","options":["ごうご","ごご","ごあと","うまご"],"answer":1},{"id":453,"cat":"kanji_reading","sentence":"夕方に会う。","target":"夕方","options":["ゆうがた","ゆうほう","せきがた","ゆかた"],"answer":0},{"id":454,"cat":"kanji_reading","sentence":"晩に電話する。","target":"晩","options":["はん","まん","ぼん","ばん"],"answer":3},{"id":455,"cat":"kanji_reading","sentence":"毎週日曜日に会う。","target":"週","options":["じゅう","あまね","しゅう","しゅ"],"answer":2},{"id":456,"cat":"kanji_reading","sentence":"週末は休みだ。","target":"週末","options":["じゅまつ","しゅうまつ","しゅうすえ","しゅまつ"],"answer":1},{"id":457,"cat":"kanji_reading","sentence":"年末は忙しい。","target":"年末","options":["ねんまつ","としまつ","ねんすえ","ねんしゅう"],"answer":0},{"id":458,"cat":"kanji_reading","sentence":"一番好きな色だ。","target":"一番","options":["いちはん","ひとばん","いちぱん","いちばん"],"answer":3},{"id":459,"cat":"kanji_reading","sentence":"電話番号を聞く。","target":"番号","options":["はんごう","ばんじゅ","ばんごう","ばんこう"],"answer":2},{"id":460,"cat":"kanji_reading","sentence":"住所を書く。","target":"住所","options":["じゅうじょ","じゅうしょ","すみしょ","じゅしょう"],"answer":1},{"id":461,"cat":"kanji_reading","sentence":"切手を貼る。","target":"切手","options":["きって","きりて","せつしゅ","せっしゅ"],"answer":0},{"id":462,"cat":"kanji_reading","sentence":"葉書を送る。","target":"葉書","options":["ようしょ","はしょ","はかき","はがき"],"answer":3},{"id":463,"cat":"kanji_reading","sentence":"封筒に入れる。","target":"封筒","options":["ふどう","ふうつつ","ふうとう","ほうとう"],"answer":2},{"id":464,"cat":"kanji_reading","sentence":"小包を送る。","target":"小包","options":["こほう","こづつみ","しょうほう","こつつみ"],"answer":1},{"id":465,"cat":"kanji_reading","sentence":"荷物を送る。","target":"荷物","options":["にもつ","かもつ","にぶつ","にしな"],"answer":0},{"id":466,"cat":"kanji_reading","sentence":"約束を守る。","target":"約束","options":["やくたば","やっそく","わかそく","やくそく"],"answer":3},{"id":467,"cat":"kanji_reading","sentence":"先生に相談する。","target":"相談","options":["しょうだん","あいだん","そうだん","そうたん"],"answer":2},{"id":468,"cat":"kanji_reading","sentence":"心配しないでください。","target":"心配","options":["しんぱ","しんぱい","こころはい","しんばい"],"answer":1},{"id":469,"cat":"kanji_reading","sentence":"安心しました。","target":"安心","options":["あんしん","やすしん","あんこころ","あんき"],"answer":0},{"id":470,"cat":"kanji_reading","sentence":"いい気持ちだ。","target":"気持ち","options":["きじ","きぶん","きもち","きもち"],"answer":2},{"id":471,"cat":"kanji_reading","sentence":"気分がいい。","target":"気分","options":["きぶ","きわけ","きぶん","きふん"],"answer":2},{"id":472,"cat":"kanji_reading","sentence":"用事がある。","target":"用事","options":["もちごと","ようじ","ようごと","もちいじ"],"answer":1},{"id":473,"cat":"kanji_reading","sentence":"予定を立てる。","target":"予定","options":["よてい","よさだ","よじょう","あらかじてい"],"answer":0},{"id":474,"cat":"kanji_reading","sentence":"計画を立てる。","target":"計画","options":["けいが","けいかい","はかりかく","けいかく"],"answer":3},{"id":475,"cat":"kanji_reading","sentence":"理由を聞く。","target":"理由","options":["ことわゆう","ことわりゆう","りゆう","りゆ"],"answer":2},{"id":476,"cat":"kanji_reading","sentence":"原因を調べる。","target":"原因","options":["けんいん","げんいん","もといん","げいん"],"answer":1},{"id":477,"cat":"kanji_reading","sentence":"結果を見る。","target":"結果","options":["けっか","けつが","けっこう","むすびか"],"answer":0},{"id":478,"cat":"kanji_reading","sentence":"成績がいい。","target":"成績","options":["せいぜき","じょうせき","なりせき","せいせき"],"answer":3},{"id":479,"cat":"kanji_reading","sentence":"百点を取る。","target":"点","options":["た","てっ","てん","でん"],"answer":2},{"id":480,"cat":"kanji_reading","sentence":"席に座る。","target":"席","options":["さい","せき","しき","さき"],"answer":1},{"id":481,"cat":"kanji_reading","sentence":"入口から入る。","target":"入口","options":["いりぐち","にゅうぐち","いれぐち","いりこう"],"answer":0},{"id":482,"cat":"kanji_reading","sentence":"出口から出る。","target":"出口","options":["しゅつぐち","だぐち","でこう","でぐち"],"answer":3},{"id":483,"cat":"kanji_reading","sentence":"三階に行く。","target":"階","options":["きざ","がい","かい","だん"],"answer":2},{"id":484,"cat":"kanji_reading","sentence":"階段を上る。","target":"階段","options":["がいだん","かいだん","かいたん","きざだん"],"answer":1},{"id":485,"cat":"kanji_reading","sentence":"屋上で休む。","target":"屋上","options":["おくじょう","やうえ","おくうえ","おくしょう"],"answer":0},{"id":486,"cat":"kanji_reading","sentence":"庭に花がある。","target":"庭","options":["てい","にば","だい","にわ"],"answer":3},{"id":487,"cat":"kanji_reading","sentence":"池に魚がいる。","target":"池","options":["じ","けい","いけ","ち"],"answer":2},{"id":488,"cat":"kanji_reading","sentence":"高い建物がある。","target":"建物","options":["たちもの","たてもの","けんぶつ","けんもの"],"answer":1},{"id":489,"cat":"kanji_reading","sentence":"教会に行く。","target":"教会","options":["きょうかい","きょうえ","けいかい","おしえかい"],"answer":0},{"id":490,"cat":"kanji_reading","sentence":"寺に行く。","target":"寺","options":["じ","し","でら","てら"],"answer":3},{"id":491,"cat":"kanji_reading","sentence":"神社に参る。","target":"神社","options":["しんじゃ","じんやしろ","じんじゃ","かみしゃ"],"answer":2},{"id":492,"cat":"kanji_reading","sentence":"部屋代を払う。","target":"部屋代","options":["ぶおくだい","へやだい","ぶやだい","へやしろ"],"answer":1},{"id":493,"cat":"kanji_reading","sentence":"案内をする。","target":"案内","options":["あんない","あんうち","あんだい","かんない"],"answer":0},{"id":494,"cat":"kanji_reading","sentence":"世界を旅する。","target":"世界","options":["せっかい","せがい","よかい","せかい"],"answer":3},{"id":495,"cat":"kanji_reading","sentence":"友達を紹介する。","target":"紹介","options":["しょうがい","そうかい","しょうかい","じょうかい"],"answer":2},{"id":496,"cat":"kanji_reading","sentence":"説明を聞く。","target":"説明","options":["せっめい","せつめい","せつみょう","とくめい"],"answer":1},{"id":497,"cat":"kanji_reading","sentence":"注意してください。","target":"注意","options":["ちゅうい","ちゅい","そそい","ちゅうおも"],"answer":0},{"id":498,"cat":"kanji_reading","sentence":"必要な物を買う。","target":"必要","options":["ひちよう","ひつえ","かなようよ","ひつよう"],"answer":3},{"id":499,"cat":"kanji_reading","sentence":"大切な物をなくす。","target":"大切","options":["たいせき","おおせつ","たいせつ","だいせつ"],"answer":2},{"id":500,"cat":"kanji_reading","sentence":"大変忙しい。","target":"大変","options":["たいか","たいへん","だいへん","おおへん"],"answer":1}]
+[
+  {
+    "id": 1,
+    "cat": "kanji_reading",
+    "sentence": "毎日パンを食べる。",
+    "target": "食べる",
+    "options": [
+      "たべる",
+      "たまべる",
+      "はべる",
+      "しょくべる"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 2,
+    "cat": "kanji_reading",
+    "sentence": "水を飲む。",
+    "target": "飲む",
+    "options": [
+      "よむ",
+      "いむ",
+      "はむ",
+      "のむ"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 3,
+    "cat": "kanji_reading",
+    "sentence": "テレビを見る。",
+    "target": "見る",
+    "options": [
+      "みえる",
+      "ける",
+      "みる",
+      "にる"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 4,
+    "cat": "kanji_reading",
+    "sentence": "音楽を聞く。",
+    "target": "聞く",
+    "options": [
+      "しく",
+      "きく",
+      "ぶんく",
+      "もんく"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 5,
+    "cat": "kanji_reading",
+    "sentence": "本を読む。",
+    "target": "読む",
+    "options": [
+      "よむ",
+      "どくむ",
+      "ほんむ",
+      "とむ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 6,
+    "cat": "kanji_reading",
+    "sentence": "手紙を書く。",
+    "target": "書く",
+    "options": [
+      "しょく",
+      "きく",
+      "ひく",
+      "かく"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 7,
+    "cat": "kanji_reading",
+    "sentence": "友達と話す。",
+    "target": "話す",
+    "options": [
+      "だんす",
+      "ごす",
+      "はなす",
+      "わす"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 8,
+    "cat": "kanji_reading",
+    "sentence": "先生に言う。",
+    "target": "言う",
+    "options": [
+      "ことう",
+      "いう",
+      "ゆう",
+      "げんう"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 9,
+    "cat": "kanji_reading",
+    "sentence": "野菜を買う。",
+    "target": "買う",
+    "options": [
+      "かう",
+      "ばいう",
+      "うう",
+      "もう"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 10,
+    "cat": "kanji_reading",
+    "sentence": "車を売る。",
+    "target": "売る",
+    "options": [
+      "ばいる",
+      "かる",
+      "まる",
+      "うる"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 11,
+    "cat": "kanji_reading",
+    "sentence": "学校へ行く。",
+    "target": "行く",
+    "options": [
+      "ぎょうく",
+      "きく",
+      "いく",
+      "こうく"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 12,
+    "cat": "kanji_reading",
+    "sentence": "友達が来る。",
+    "target": "来る",
+    "options": [
+      "こる",
+      "くる",
+      "らいる",
+      "きる"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 13,
+    "cat": "kanji_reading",
+    "sentence": "家へ帰る。",
+    "target": "帰る",
+    "options": [
+      "かえる",
+      "きる",
+      "もどる",
+      "はんる"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 14,
+    "cat": "kanji_reading",
+    "sentence": "部屋を出る。",
+    "target": "出る",
+    "options": [
+      "しゅつる",
+      "だる",
+      "いる",
+      "でる"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 15,
+    "cat": "kanji_reading",
+    "sentence": "教室に入る。",
+    "target": "入る",
+    "options": [
+      "いれる",
+      "でる",
+      "はいる",
+      "にゅうる"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 16,
+    "cat": "kanji_reading",
+    "sentence": "椅子から立つ。",
+    "target": "立つ",
+    "options": [
+      "けつ",
+      "たつ",
+      "りつつ",
+      "だつ"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 17,
+    "cat": "kanji_reading",
+    "sentence": "椅子に座る。",
+    "target": "座る",
+    "options": [
+      "すわる",
+      "ざる",
+      "いる",
+      "おる"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 18,
+    "cat": "kanji_reading",
+    "sentence": "公園を歩く。",
+    "target": "歩く",
+    "options": [
+      "ほく",
+      "ぽく",
+      "ある",
+      "あるく"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 19,
+    "cat": "kanji_reading",
+    "sentence": "駅まで走る。",
+    "target": "走る",
+    "options": [
+      "はやる",
+      "かける",
+      "はしる",
+      "そうる"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 20,
+    "cat": "kanji_reading",
+    "sentence": "海で泳ぐ。",
+    "target": "泳ぐ",
+    "options": [
+      "うぐ",
+      "およぐ",
+      "えいぐ",
+      "すいぐ"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 21,
+    "cat": "kanji_reading",
+    "sentence": "鳥が飛ぶ。",
+    "target": "飛ぶ",
+    "options": [
+      "とぶ",
+      "ひぶ",
+      "あぶ",
+      "はぶ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 22,
+    "cat": "kanji_reading",
+    "sentence": "友達に会う。",
+    "target": "会う",
+    "options": [
+      "かいう",
+      "えう",
+      "ごう",
+      "あう"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 23,
+    "cat": "kanji_reading",
+    "sentence": "バスを待つ。",
+    "target": "待つ",
+    "options": [
+      "じつ",
+      "もつ",
+      "まつ",
+      "たいつ"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 24,
+    "cat": "kanji_reading",
+    "sentence": "名前を知る。",
+    "target": "知る",
+    "options": [
+      "きる",
+      "しる",
+      "ちる",
+      "じる"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 25,
+    "cat": "kanji_reading",
+    "sentence": "そう思う。",
+    "target": "思う",
+    "options": [
+      "おもう",
+      "しう",
+      "そうう",
+      "もう"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 26,
+    "cat": "kanji_reading",
+    "sentence": "よく考える。",
+    "target": "考える",
+    "options": [
+      "こうえる",
+      "しんえる",
+      "あんえる",
+      "かんがえる"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 27,
+    "cat": "kanji_reading",
+    "sentence": "鍵を忘れる。",
+    "target": "忘れる",
+    "options": [
+      "もうれる",
+      "やすれる",
+      "わすれる",
+      "ぼうれる"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 28,
+    "cat": "kanji_reading",
+    "sentence": "単語を覚える。",
+    "target": "覚える",
+    "options": [
+      "ゆめえる",
+      "おぼえる",
+      "かくえる",
+      "さとえる"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 29,
+    "cat": "kanji_reading",
+    "sentence": "英語を教える。",
+    "target": "教える",
+    "options": [
+      "おしえる",
+      "きょうえる",
+      "おそえる",
+      "つたえる"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 30,
+    "cat": "kanji_reading",
+    "sentence": "ピアノを習う。",
+    "target": "習う",
+    "options": [
+      "しゅうう",
+      "まねう",
+      "けいう",
+      "ならう"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 31,
+    "cat": "kanji_reading",
+    "sentence": "日本語を勉強する。",
+    "target": "勉強する",
+    "options": [
+      "めんきょうする",
+      "びんきょうする",
+      "べんきょうする",
+      "べんごうする"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 32,
+    "cat": "kanji_reading",
+    "sentence": "毎日練習する。",
+    "target": "練習する",
+    "options": [
+      "れんしょうする",
+      "れんしゅうする",
+      "れんしゅする",
+      "ねんしゅうする"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 33,
+    "cat": "kanji_reading",
+    "sentence": "会社で働く。",
+    "target": "働く",
+    "options": [
+      "はたらく",
+      "どうく",
+      "ろうく",
+      "うごく"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 34,
+    "cat": "kanji_reading",
+    "sentence": "日曜日は休む。",
+    "target": "休む",
+    "options": [
+      "きゅうむ",
+      "いこむ",
+      "ねむ",
+      "やすむ"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 35,
+    "cat": "kanji_reading",
+    "sentence": "朝七時に起きる。",
+    "target": "起きる",
+    "options": [
+      "たきる",
+      "はきる",
+      "おきる",
+      "きる"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 36,
+    "cat": "kanji_reading",
+    "sentence": "十一時に寝る。",
+    "target": "寝る",
+    "options": [
+      "ぬる",
+      "ねる",
+      "しんる",
+      "みる"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 37,
+    "cat": "kanji_reading",
+    "sentence": "ケーキを作る。",
+    "target": "作る",
+    "options": [
+      "つくる",
+      "さくる",
+      "さる",
+      "ぞうる"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 38,
+    "cat": "kanji_reading",
+    "sentence": "箸を使う。",
+    "target": "使う",
+    "options": [
+      "しう",
+      "ようう",
+      "しようう",
+      "つかう"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 39,
+    "cat": "kanji_reading",
+    "sentence": "鞄を持つ。",
+    "target": "持つ",
+    "options": [
+      "たつ",
+      "ぢつ",
+      "もつ",
+      "じつ"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 40,
+    "cat": "kanji_reading",
+    "sentence": "写真を取る。",
+    "target": "取る",
+    "options": [
+      "える",
+      "とる",
+      "しゅる",
+      "さる"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 41,
+    "cat": "kanji_reading",
+    "sentence": "本を机に置く。",
+    "target": "置く",
+    "options": [
+      "おく",
+      "ちく",
+      "たく",
+      "いく"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 42,
+    "cat": "kanji_reading",
+    "sentence": "友達に渡す。",
+    "target": "渡す",
+    "options": [
+      "とす",
+      "どす",
+      "こす",
+      "わたす"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 43,
+    "cat": "kanji_reading",
+    "sentence": "本を返す。",
+    "target": "返す",
+    "options": [
+      "もどす",
+      "きす",
+      "かえす",
+      "へんす"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 44,
+    "cat": "kanji_reading",
+    "sentence": "荷物を送る。",
+    "target": "送る",
+    "options": [
+      "さる",
+      "おくる",
+      "そうる",
+      "ふる"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 45,
+    "cat": "kanji_reading",
+    "sentence": "試験を受ける。",
+    "target": "受ける",
+    "options": [
+      "うける",
+      "じゅける",
+      "ひける",
+      "よける"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 46,
+    "cat": "kanji_reading",
+    "sentence": "授業を始める。",
+    "target": "始める",
+    "options": [
+      "しめる",
+      "そめる",
+      "ぞめる",
+      "はじめる"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 47,
+    "cat": "kanji_reading",
+    "sentence": "会議が終わる。",
+    "target": "終わる",
+    "options": [
+      "すえわる",
+      "きわる",
+      "おわる",
+      "しゅうわる"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 48,
+    "cat": "kanji_reading",
+    "sentence": "窓を開ける。",
+    "target": "開ける",
+    "options": [
+      "さける",
+      "あける",
+      "かいける",
+      "ひらける"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 49,
+    "cat": "kanji_reading",
+    "sentence": "ドアを閉める。",
+    "target": "閉める",
+    "options": [
+      "しめる",
+      "へいめる",
+      "とじめる",
+      "かめる"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 50,
+    "cat": "kanji_reading",
+    "sentence": "花が開く。",
+    "target": "開く",
+    "options": [
+      "かいく",
+      "あく",
+      "はく",
+      "ひらく"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 51,
+    "cat": "kanji_reading",
+    "sentence": "本を閉じる。",
+    "target": "閉じる",
+    "options": [
+      "しじる",
+      "こじる",
+      "とじる",
+      "へいじる"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 52,
+    "cat": "kanji_reading",
+    "sentence": "電気が消える。",
+    "target": "消える",
+    "options": [
+      "くえる",
+      "きえる",
+      "しょうえる",
+      "けえる"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 53,
+    "cat": "kanji_reading",
+    "sentence": "電気を消す。",
+    "target": "消す",
+    "options": [
+      "けす",
+      "しょうす",
+      "きす",
+      "さす"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 54,
+    "cat": "kanji_reading",
+    "sentence": "電気を付ける。",
+    "target": "付ける",
+    "options": [
+      "ふける",
+      "つうける",
+      "とける",
+      "つける"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 55,
+    "cat": "kanji_reading",
+    "sentence": "紙を切る。",
+    "target": "切る",
+    "options": [
+      "かる",
+      "しる",
+      "きる",
+      "せつる"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 56,
+    "cat": "kanji_reading",
+    "sentence": "バスに乗る。",
+    "target": "乗る",
+    "options": [
+      "はる",
+      "のる",
+      "じょうる",
+      "のぼる"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 57,
+    "cat": "kanji_reading",
+    "sentence": "電車を降りる。",
+    "target": "降りる",
+    "options": [
+      "おりる",
+      "こうりる",
+      "さがりる",
+      "くだりる"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 58,
+    "cat": "kanji_reading",
+    "sentence": "荷物を運ぶ。",
+    "target": "運ぶ",
+    "options": [
+      "うんぶ",
+      "こぶ",
+      "やぶ",
+      "はこぶ"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 59,
+    "cat": "kanji_reading",
+    "sentence": "手を洗う。",
+    "target": "洗う",
+    "options": [
+      "ねう",
+      "よう",
+      "あらう",
+      "せんう"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 60,
+    "cat": "kanji_reading",
+    "sentence": "服を着る。",
+    "target": "着る",
+    "options": [
+      "ける",
+      "きる",
+      "ちゃくる",
+      "つる"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 61,
+    "cat": "kanji_reading",
+    "sentence": "靴を脱ぐ。",
+    "target": "脱ぐ",
+    "options": [
+      "ぬぐ",
+      "だつぐ",
+      "ほぐ",
+      "すぐ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 62,
+    "cat": "kanji_reading",
+    "sentence": "鞄に入れる。",
+    "target": "入れる",
+    "options": [
+      "にゅうれる",
+      "はいれる",
+      "のれる",
+      "いれる"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 63,
+    "cat": "kanji_reading",
+    "sentence": "手紙を出す。",
+    "target": "出す",
+    "options": [
+      "でつす",
+      "いだす",
+      "だす",
+      "しゅつす"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 64,
+    "cat": "kanji_reading",
+    "sentence": "鍵を探す。",
+    "target": "探す",
+    "options": [
+      "もす",
+      "さがす",
+      "たんす",
+      "みす"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 65,
+    "cat": "kanji_reading",
+    "sentence": "財布を見つける。",
+    "target": "見つける",
+    "options": [
+      "みつける",
+      "けんつける",
+      "みえつける",
+      "かんつける"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 66,
+    "cat": "kanji_reading",
+    "sentence": "お金を払う。",
+    "target": "払う",
+    "options": [
+      "ふつう",
+      "ばらう",
+      "ひう",
+      "はらう"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 67,
+    "cat": "kanji_reading",
+    "sentence": "本を借りる。",
+    "target": "借りる",
+    "options": [
+      "やくりる",
+      "つくりる",
+      "かりる",
+      "しゃくりる"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 68,
+    "cat": "kanji_reading",
+    "sentence": "お金を貸す。",
+    "target": "貸す",
+    "options": [
+      "もす",
+      "かす",
+      "たいす",
+      "よす"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 69,
+    "cat": "kanji_reading",
+    "sentence": "時計を直す。",
+    "target": "直す",
+    "options": [
+      "なおす",
+      "ちょくす",
+      "まっす",
+      "さす"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 70,
+    "cat": "kanji_reading",
+    "sentence": "車が直る。",
+    "target": "直る",
+    "options": [
+      "ちょくる",
+      "まっる",
+      "もどる",
+      "なおる"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 71,
+    "cat": "kanji_reading",
+    "sentence": "花瓶を壊す。",
+    "target": "壊す",
+    "options": [
+      "そす",
+      "くずす",
+      "こわす",
+      "かいす"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 72,
+    "cat": "kanji_reading",
+    "sentence": "機械が壊れる。",
+    "target": "壊れる",
+    "options": [
+      "くずれる",
+      "こわれる",
+      "かいれる",
+      "やぶれる"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 73,
+    "cat": "kanji_reading",
+    "sentence": "本を選ぶ。",
+    "target": "選ぶ",
+    "options": [
+      "えらぶ",
+      "せんぶ",
+      "よぶ",
+      "もぶ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 74,
+    "cat": "kanji_reading",
+    "sentence": "レジに並ぶ。",
+    "target": "並ぶ",
+    "options": [
+      "へいぶ",
+      "つらぶ",
+      "かさぶ",
+      "ならぶ"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 75,
+    "cat": "kanji_reading",
+    "sentence": "右に曲がる。",
+    "target": "曲がる",
+    "options": [
+      "おれがる",
+      "まげがる",
+      "まがる",
+      "きょくがる"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 76,
+    "cat": "kanji_reading",
+    "sentence": "車が止まる。",
+    "target": "止まる",
+    "options": [
+      "とどまる",
+      "とまる",
+      "ししまる",
+      "やまる"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 77,
+    "cat": "kanji_reading",
+    "sentence": "車を止める。",
+    "target": "止める",
+    "options": [
+      "とめる",
+      "しめる",
+      "やめる",
+      "とどめる"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 78,
+    "cat": "kanji_reading",
+    "sentence": "毎日学校に行く。",
+    "target": "学校",
+    "options": [
+      "がくこう",
+      "かっこう",
+      "かくこう",
+      "がっこう"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 79,
+    "cat": "kanji_reading",
+    "sentence": "教室で勉強する。",
+    "target": "教室",
+    "options": [
+      "きょうじつ",
+      "こうじつ",
+      "きょうしつ",
+      "こうしつ"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 80,
+    "cat": "kanji_reading",
+    "sentence": "父の会社は東京にある。",
+    "target": "会社",
+    "options": [
+      "ごうしゃ",
+      "かいしゃ",
+      "かいじゃ",
+      "えしゃ"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 81,
+    "cat": "kanji_reading",
+    "sentence": "この部屋は広い。",
+    "target": "部屋",
+    "options": [
+      "へや",
+      "ぶや",
+      "へおく",
+      "ぶおく"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 82,
+    "cat": "kanji_reading",
+    "sentence": "台所で料理する。",
+    "target": "台所",
+    "options": [
+      "たいどころ",
+      "だいしょ",
+      "だいじょ",
+      "だいどころ"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 83,
+    "cat": "kanji_reading",
+    "sentence": "家に帰る。",
+    "target": "家",
+    "options": [
+      "や",
+      "うち",
+      "いえ",
+      "か"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 84,
+    "cat": "kanji_reading",
+    "sentence": "家族は四人だ。",
+    "target": "家族",
+    "options": [
+      "やぞく",
+      "かぞく",
+      "いえぞく",
+      "かじょく"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 85,
+    "cat": "kanji_reading",
+    "sentence": "父は医者だ。",
+    "target": "父",
+    "options": [
+      "ちち",
+      "ふ",
+      "とう",
+      "はは"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 86,
+    "cat": "kanji_reading",
+    "sentence": "母は先生だ。",
+    "target": "母",
+    "options": [
+      "ぼ",
+      "ちち",
+      "かあ",
+      "はは"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 87,
+    "cat": "kanji_reading",
+    "sentence": "兄は学生だ。",
+    "target": "兄",
+    "options": [
+      "けい",
+      "にい",
+      "あに",
+      "きょう"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 88,
+    "cat": "kanji_reading",
+    "sentence": "姉は会社員だ。",
+    "target": "姉",
+    "options": [
+      "しま",
+      "あね",
+      "し",
+      "ねえ"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 89,
+    "cat": "kanji_reading",
+    "sentence": "弟は高校生だ。",
+    "target": "弟",
+    "options": [
+      "おとうと",
+      "だい",
+      "てい",
+      "おと"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 90,
+    "cat": "kanji_reading",
+    "sentence": "妹は小学生だ。",
+    "target": "妹",
+    "options": [
+      "まい",
+      "まいと",
+      "いも",
+      "いもうと"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 91,
+    "cat": "kanji_reading",
+    "sentence": "友達と話す。",
+    "target": "友達",
+    "options": [
+      "ともたつ",
+      "ゆうだち",
+      "ともだち",
+      "ゆうたつ"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 92,
+    "cat": "kanji_reading",
+    "sentence": "先生は優しい。",
+    "target": "先生",
+    "options": [
+      "せんしょう",
+      "せんせい",
+      "さきせい",
+      "ぜんせい"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 93,
+    "cat": "kanji_reading",
+    "sentence": "私は学生だ。",
+    "target": "学生",
+    "options": [
+      "がくせい",
+      "がっせい",
+      "がくしょう",
+      "まなびせい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 94,
+    "cat": "kanji_reading",
+    "sentence": "この学校の生徒だ。",
+    "target": "生徒",
+    "options": [
+      "いきと",
+      "しょうと",
+      "なまと",
+      "せいと"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 95,
+    "cat": "kanji_reading",
+    "sentence": "公園で子供が遊ぶ。",
+    "target": "子供",
+    "options": [
+      "ことも",
+      "こく",
+      "こども",
+      "しきょう"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 96,
+    "cat": "kanji_reading",
+    "sentence": "大人になる。",
+    "target": "大人",
+    "options": [
+      "おおひと",
+      "おとな",
+      "だいじん",
+      "たいじん"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 97,
+    "cat": "kanji_reading",
+    "sentence": "男の人が立っている。",
+    "target": "男",
+    "options": [
+      "おとこ",
+      "だん",
+      "なん",
+      "おこ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 98,
+    "cat": "kanji_reading",
+    "sentence": "女の人が歩く。",
+    "target": "女",
+    "options": [
+      "じょ",
+      "にょ",
+      "めな",
+      "おんな"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 99,
+    "cat": "kanji_reading",
+    "sentence": "あの人は誰ですか。",
+    "target": "人",
+    "options": [
+      "にん",
+      "ひ",
+      "ひと",
+      "じん"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 100,
+    "cat": "kanji_reading",
+    "sentence": "名前を書く。",
+    "target": "名前",
+    "options": [
+      "なぜん",
+      "なまえ",
+      "めいぜん",
+      "みょうぜん"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 101,
+    "cat": "kanji_reading",
+    "sentence": "来年で二十年だ。",
+    "target": "年",
+    "options": [
+      "とし",
+      "ねん",
+      "どし",
+      "せい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 102,
+    "cat": "kanji_reading",
+    "sentence": "月がきれいだ。",
+    "target": "月",
+    "options": [
+      "げつ",
+      "がつ",
+      "げっ",
+      "つき"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 103,
+    "cat": "kanji_reading",
+    "sentence": "良い日だ。",
+    "target": "日",
+    "options": [
+      "じつ",
+      "び",
+      "ひ",
+      "にち"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 104,
+    "cat": "kanji_reading",
+    "sentence": "今日は何曜日ですか。",
+    "target": "曜日",
+    "options": [
+      "ひび",
+      "ようび",
+      "よおび",
+      "どうび"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 105,
+    "cat": "kanji_reading",
+    "sentence": "時が過ぎる。",
+    "target": "時",
+    "options": [
+      "とき",
+      "じ",
+      "じかん",
+      "どき"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 106,
+    "cat": "kanji_reading",
+    "sentence": "五分待つ。",
+    "target": "分",
+    "options": [
+      "ぶん",
+      "ぷん",
+      "わけ",
+      "ふん"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 107,
+    "cat": "kanji_reading",
+    "sentence": "朝ご飯を食べる。",
+    "target": "朝",
+    "options": [
+      "あけ",
+      "しょう",
+      "あさ",
+      "ちょう"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 108,
+    "cat": "kanji_reading",
+    "sentence": "昼は暑い。",
+    "target": "昼",
+    "options": [
+      "ぴる",
+      "ひる",
+      "ちゅう",
+      "ひま"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 109,
+    "cat": "kanji_reading",
+    "sentence": "夜は涼しい。",
+    "target": "夜",
+    "options": [
+      "よる",
+      "や",
+      "ばん",
+      "よ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 110,
+    "cat": "kanji_reading",
+    "sentence": "時間がない。",
+    "target": "時間",
+    "options": [
+      "じま",
+      "ときま",
+      "じげん",
+      "じかん"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 111,
+    "cat": "kanji_reading",
+    "sentence": "今日は晴れだ。",
+    "target": "今日",
+    "options": [
+      "こんにち",
+      "きょうじつ",
+      "きょう",
+      "いまひ"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 112,
+    "cat": "kanji_reading",
+    "sentence": "明日は雨だ。",
+    "target": "明日",
+    "options": [
+      "あさひ",
+      "あした",
+      "めいじつ",
+      "あけひ"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 113,
+    "cat": "kanji_reading",
+    "sentence": "昨日映画を見た。",
+    "target": "昨日",
+    "options": [
+      "きのう",
+      "さくじつ",
+      "きのひ",
+      "さくひ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 114,
+    "cat": "kanji_reading",
+    "sentence": "去年京都へ行った。",
+    "target": "去年",
+    "options": [
+      "きょとし",
+      "こねん",
+      "さくねん",
+      "きょねん"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 115,
+    "cat": "kanji_reading",
+    "sentence": "今年は寒い。",
+    "target": "今年",
+    "options": [
+      "いまとし",
+      "きんねん",
+      "ことし",
+      "こんねん"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 116,
+    "cat": "kanji_reading",
+    "sentence": "来年日本へ行く。",
+    "target": "来年",
+    "options": [
+      "くねん",
+      "らいねん",
+      "きねん",
+      "きたるとし"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 117,
+    "cat": "kanji_reading",
+    "sentence": "今週は忙しい。",
+    "target": "今週",
+    "options": [
+      "こんしゅう",
+      "いましゅう",
+      "こんしゅ",
+      "きんしゅう"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 118,
+    "cat": "kanji_reading",
+    "sentence": "先週休んだ。",
+    "target": "先週",
+    "options": [
+      "さきしゅう",
+      "ぜんしゅう",
+      "せんしゅ",
+      "せんしゅう"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 119,
+    "cat": "kanji_reading",
+    "sentence": "来週試験がある。",
+    "target": "来週",
+    "options": [
+      "くしゅう",
+      "きたしゅう",
+      "らいしゅう",
+      "きしゅう"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 120,
+    "cat": "kanji_reading",
+    "sentence": "今日の天気はいい。",
+    "target": "天気",
+    "options": [
+      "あまき",
+      "てんき",
+      "てんぎ",
+      "でんき"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 121,
+    "cat": "kanji_reading",
+    "sentence": "雨が降る。",
+    "target": "雨",
+    "options": [
+      "あめ",
+      "う",
+      "あま",
+      "さめ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 122,
+    "cat": "kanji_reading",
+    "sentence": "雪が降る。",
+    "target": "雪",
+    "options": [
+      "せつ",
+      "ゆ",
+      "せっ",
+      "ゆき"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 123,
+    "cat": "kanji_reading",
+    "sentence": "風が強い。",
+    "target": "風",
+    "options": [
+      "かざ",
+      "ふ",
+      "かぜ",
+      "ふう"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 124,
+    "cat": "kanji_reading",
+    "sentence": "雲が多い。",
+    "target": "雲",
+    "options": [
+      "くむ",
+      "くも",
+      "うん",
+      "ぐも"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 125,
+    "cat": "kanji_reading",
+    "sentence": "空が青い。",
+    "target": "空",
+    "options": [
+      "そら",
+      "くう",
+      "から",
+      "あき"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 126,
+    "cat": "kanji_reading",
+    "sentence": "海で泳ぐ。",
+    "target": "海",
+    "options": [
+      "かい",
+      "み",
+      "うな",
+      "うみ"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 127,
+    "cat": "kanji_reading",
+    "sentence": "川で釣る。",
+    "target": "川",
+    "options": [
+      "がわ",
+      "か",
+      "かわ",
+      "せん"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 128,
+    "cat": "kanji_reading",
+    "sentence": "山に登る。",
+    "target": "山",
+    "options": [
+      "やぶ",
+      "やま",
+      "さん",
+      "ざん"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 129,
+    "cat": "kanji_reading",
+    "sentence": "森を歩く。",
+    "target": "森",
+    "options": [
+      "もり",
+      "しん",
+      "はやし",
+      "もく"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 130,
+    "cat": "kanji_reading",
+    "sentence": "花がきれいだ。",
+    "target": "花",
+    "options": [
+      "か",
+      "け",
+      "ばな",
+      "はな"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 131,
+    "cat": "kanji_reading",
+    "sentence": "木が高い。",
+    "target": "木",
+    "options": [
+      "ぼく",
+      "こ",
+      "き",
+      "もく"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 132,
+    "cat": "kanji_reading",
+    "sentence": "草が多い。",
+    "target": "草",
+    "options": [
+      "きく",
+      "くさ",
+      "そう",
+      "ぐさ"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 133,
+    "cat": "kanji_reading",
+    "sentence": "鳥が鳴く。",
+    "target": "鳥",
+    "options": [
+      "とり",
+      "ちょう",
+      "どり",
+      "かり"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 134,
+    "cat": "kanji_reading",
+    "sentence": "魚を食べる。",
+    "target": "魚",
+    "options": [
+      "ぎょ",
+      "うお",
+      "ざかな",
+      "さかな"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 135,
+    "cat": "kanji_reading",
+    "sentence": "動物園へ行く。",
+    "target": "動物",
+    "options": [
+      "うごぶつ",
+      "とうぶつ",
+      "どうぶつ",
+      "どうもの"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 136,
+    "cat": "kanji_reading",
+    "sentence": "犬を飼う。",
+    "target": "犬",
+    "options": [
+      "いん",
+      "いぬ",
+      "けん",
+      "ぬ"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 137,
+    "cat": "kanji_reading",
+    "sentence": "猫が寝る。",
+    "target": "猫",
+    "options": [
+      "ねこ",
+      "びょう",
+      "みょう",
+      "ねこう"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 138,
+    "cat": "kanji_reading",
+    "sentence": "食べ物を買う。",
+    "target": "食べ物",
+    "options": [
+      "しょくぶつ",
+      "たべぶつ",
+      "しょくもの",
+      "たべもの"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 139,
+    "cat": "kanji_reading",
+    "sentence": "飲み物を注文する。",
+    "target": "飲み物",
+    "options": [
+      "のみぶつ",
+      "いんもの",
+      "のみもの",
+      "いんぶつ"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 140,
+    "cat": "kanji_reading",
+    "sentence": "水を飲む。",
+    "target": "水",
+    "options": [
+      "ず",
+      "みず",
+      "すい",
+      "みぞ"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 141,
+    "cat": "kanji_reading",
+    "sentence": "茶を飲む。",
+    "target": "茶",
+    "options": [
+      "ちゃ",
+      "さ",
+      "ちゃく",
+      "ちゃあ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 142,
+    "cat": "kanji_reading",
+    "sentence": "牛乳を飲む。",
+    "target": "牛乳",
+    "options": [
+      "うしにゅう",
+      "ぎゅうにゅ",
+      "ぎょうにゅう",
+      "ぎゅうにゅう"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 143,
+    "cat": "kanji_reading",
+    "sentence": "肉を食べる。",
+    "target": "肉",
+    "options": [
+      "しし",
+      "ぬく",
+      "にく",
+      "じく"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 144,
+    "cat": "kanji_reading",
+    "sentence": "米を買う。",
+    "target": "米",
+    "options": [
+      "よね",
+      "こめ",
+      "べい",
+      "まい"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 145,
+    "cat": "kanji_reading",
+    "sentence": "野菜を食べる。",
+    "target": "野菜",
+    "options": [
+      "やさい",
+      "のさい",
+      "やざい",
+      "のざい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 146,
+    "cat": "kanji_reading",
+    "sentence": "果物が好きだ。",
+    "target": "果物",
+    "options": [
+      "かぶつ",
+      "かもの",
+      "くだぶつ",
+      "くだもの"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 147,
+    "cat": "kanji_reading",
+    "sentence": "朝ご飯を食べる。",
+    "target": "朝ご飯",
+    "options": [
+      "あさごめし",
+      "ちょうはん",
+      "あさごはん",
+      "ちょうごはん"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 148,
+    "cat": "kanji_reading",
+    "sentence": "昼ご飯はパンだ。",
+    "target": "昼ご飯",
+    "options": [
+      "ひるはん",
+      "ひるごはん",
+      "ちゅうごはん",
+      "ひるめし"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 149,
+    "cat": "kanji_reading",
+    "sentence": "夕飯を作る。",
+    "target": "夕飯",
+    "options": [
+      "ゆうはん",
+      "ゆうめし",
+      "せきはん",
+      "ゆうご"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 150,
+    "cat": "kanji_reading",
+    "sentence": "料理を習う。",
+    "target": "料理",
+    "options": [
+      "りょおり",
+      "りゅうり",
+      "れうり",
+      "りょうり"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 151,
+    "cat": "kanji_reading",
+    "sentence": "電話をかける。",
+    "target": "電話",
+    "options": [
+      "でんはな",
+      "でんご",
+      "でんわ",
+      "でんば"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 152,
+    "cat": "kanji_reading",
+    "sentence": "手紙を書く。",
+    "target": "手紙",
+    "options": [
+      "しゅがみ",
+      "てがみ",
+      "しゅし",
+      "てし"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 153,
+    "cat": "kanji_reading",
+    "sentence": "新聞を読む。",
+    "target": "新聞",
+    "options": [
+      "しんぶん",
+      "しんもん",
+      "あたぶん",
+      "しんぶ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 154,
+    "cat": "kanji_reading",
+    "sentence": "本を読む。",
+    "target": "本",
+    "options": [
+      "ぼん",
+      "もと",
+      "ぽん",
+      "ほん"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 155,
+    "cat": "kanji_reading",
+    "sentence": "雑誌を買う。",
+    "target": "雑誌",
+    "options": [
+      "ぞうし",
+      "さつし",
+      "ざっし",
+      "ざつし"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 156,
+    "cat": "kanji_reading",
+    "sentence": "映画を見る。",
+    "target": "映画",
+    "options": [
+      "えいか",
+      "えいが",
+      "えいかく",
+      "ようが"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 157,
+    "cat": "kanji_reading",
+    "sentence": "音楽を聞く。",
+    "target": "音楽",
+    "options": [
+      "おんがく",
+      "ねがく",
+      "おんらく",
+      "いんがく"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 158,
+    "cat": "kanji_reading",
+    "sentence": "歌を歌う。",
+    "target": "歌",
+    "options": [
+      "か",
+      "え",
+      "が",
+      "うた"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 159,
+    "cat": "kanji_reading",
+    "sentence": "写真を撮る。",
+    "target": "写真",
+    "options": [
+      "うつしん",
+      "しゃまこと",
+      "しゃしん",
+      "しゃじん"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 160,
+    "cat": "kanji_reading",
+    "sentence": "買い物に行く。",
+    "target": "買い物",
+    "options": [
+      "ばいぶつ",
+      "かいもの",
+      "ばいもの",
+      "かいぶつ"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 161,
+    "cat": "kanji_reading",
+    "sentence": "旅行に行く。",
+    "target": "旅行",
+    "options": [
+      "りょこう",
+      "たびこう",
+      "りょぎょう",
+      "りょうこう"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 162,
+    "cat": "kanji_reading",
+    "sentence": "休みが欲しい。",
+    "target": "休み",
+    "options": [
+      "きゅうみ",
+      "いこみ",
+      "ねみ",
+      "やすみ"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 163,
+    "cat": "kanji_reading",
+    "sentence": "授業に出る。",
+    "target": "授業",
+    "options": [
+      "しゅぎょう",
+      "じゅぎゅう",
+      "じゅぎょう",
+      "じゅごう"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 164,
+    "cat": "kanji_reading",
+    "sentence": "試験を受ける。",
+    "target": "試験",
+    "options": [
+      "ためけん",
+      "しけん",
+      "しげん",
+      "しき"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 165,
+    "cat": "kanji_reading",
+    "sentence": "宿題をする。",
+    "target": "宿題",
+    "options": [
+      "しゅくだい",
+      "やどだい",
+      "しゅうだい",
+      "しゅくてい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 166,
+    "cat": "kanji_reading",
+    "sentence": "質問に答える。",
+    "target": "質問",
+    "options": [
+      "しちもん",
+      "しっとい",
+      "じつもん",
+      "しつもん"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 167,
+    "cat": "kanji_reading",
+    "sentence": "答えを書く。",
+    "target": "答え",
+    "options": [
+      "だえ",
+      "あたえ",
+      "こたえ",
+      "とうえ"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 168,
+    "cat": "kanji_reading",
+    "sentence": "問題が難しい。",
+    "target": "問題",
+    "options": [
+      "もんてい",
+      "もんだい",
+      "ぶんだい",
+      "といだい"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 169,
+    "cat": "kanji_reading",
+    "sentence": "言葉の意味を調べる。",
+    "target": "意味",
+    "options": [
+      "いみ",
+      "いあじ",
+      "おもみ",
+      "しみ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 170,
+    "cat": "kanji_reading",
+    "sentence": "先生の話を聞く。",
+    "target": "話",
+    "options": [
+      "わ",
+      "だん",
+      "ごと",
+      "はなし"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 171,
+    "cat": "kanji_reading",
+    "sentence": "日本語の言葉を覚える。",
+    "target": "言葉",
+    "options": [
+      "げんよう",
+      "いば",
+      "ことば",
+      "げんば"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 172,
+    "cat": "kanji_reading",
+    "sentence": "大きな音がする。",
+    "target": "音",
+    "options": [
+      "おん",
+      "おと",
+      "いん",
+      "ね"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 173,
+    "cat": "kanji_reading",
+    "sentence": "大きな声で話す。",
+    "target": "声",
+    "options": [
+      "こえ",
+      "せい",
+      "しょう",
+      "おとえ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 174,
+    "cat": "kanji_reading",
+    "sentence": "この色が好きだ。",
+    "target": "色",
+    "options": [
+      "しょく",
+      "しき",
+      "いれ",
+      "いろ"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 175,
+    "cat": "kanji_reading",
+    "sentence": "丸い形だ。",
+    "target": "形",
+    "options": [
+      "ぎょう",
+      "かた",
+      "かたち",
+      "けい"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 176,
+    "cat": "kanji_reading",
+    "sentence": "この料理の味はいい。",
+    "target": "味",
+    "options": [
+      "あい",
+      "あじ",
+      "み",
+      "び"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 177,
+    "cat": "kanji_reading",
+    "sentence": "大きい家に住む。",
+    "target": "大きい",
+    "options": [
+      "おおきい",
+      "だいきい",
+      "たいきい",
+      "おきい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 178,
+    "cat": "kanji_reading",
+    "sentence": "小さい犬が好きだ。",
+    "target": "小さい",
+    "options": [
+      "しょうさい",
+      "こさい",
+      "ちさい",
+      "ちいさい"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 179,
+    "cat": "kanji_reading",
+    "sentence": "この山は高い。",
+    "target": "高い",
+    "options": [
+      "だかい",
+      "たがい",
+      "たかい",
+      "こうい"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 180,
+    "cat": "kanji_reading",
+    "sentence": "低い声で話す。",
+    "target": "低い",
+    "options": [
+      "ひきい",
+      "ひくい",
+      "ていい",
+      "さがい"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 181,
+    "cat": "kanji_reading",
+    "sentence": "長い時間待った。",
+    "target": "長い",
+    "options": [
+      "ながい",
+      "ちょうい",
+      "なかい",
+      "ちょうがい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 182,
+    "cat": "kanji_reading",
+    "sentence": "短い話をする。",
+    "target": "短い",
+    "options": [
+      "たんい",
+      "みじい",
+      "じかい",
+      "みじかい"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 183,
+    "cat": "kanji_reading",
+    "sentence": "新しい車を買う。",
+    "target": "新しい",
+    "options": [
+      "あらたしい",
+      "にいしい",
+      "あたらしい",
+      "しんしい"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 184,
+    "cat": "kanji_reading",
+    "sentence": "古い本を読む。",
+    "target": "古い",
+    "options": [
+      "もとい",
+      "ふるい",
+      "こい",
+      "ぐい"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 185,
+    "cat": "kanji_reading",
+    "sentence": "若い人が多い。",
+    "target": "若い",
+    "options": [
+      "わかい",
+      "じゃくい",
+      "ねんい",
+      "にゃくい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 186,
+    "cat": "kanji_reading",
+    "sentence": "夏は暑い。",
+    "target": "暑い",
+    "options": [
+      "しょい",
+      "ねつい",
+      "あそい",
+      "あつい"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 187,
+    "cat": "kanji_reading",
+    "sentence": "冬は寒い。",
+    "target": "寒い",
+    "options": [
+      "すむい",
+      "ひえい",
+      "さむい",
+      "かんい"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 188,
+    "cat": "kanji_reading",
+    "sentence": "熱いお茶を飲む。",
+    "target": "熱い",
+    "options": [
+      "しょい",
+      "あつい",
+      "ねつい",
+      "ねつあい"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 189,
+    "cat": "kanji_reading",
+    "sentence": "冷たい水を飲む。",
+    "target": "冷たい",
+    "options": [
+      "つめたい",
+      "れいたい",
+      "ひえたい",
+      "さむたい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 190,
+    "cat": "kanji_reading",
+    "sentence": "仕事が忙しい。",
+    "target": "忙しい",
+    "options": [
+      "ぼうしい",
+      "いそぎしい",
+      "もうしい",
+      "いそがしい"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 191,
+    "cat": "kanji_reading",
+    "sentence": "朝は早い。",
+    "target": "早い",
+    "options": [
+      "そくい",
+      "しゃい",
+      "はやい",
+      "そうい"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 192,
+    "cat": "kanji_reading",
+    "sentence": "夜は遅い。",
+    "target": "遅い",
+    "options": [
+      "じい",
+      "おそい",
+      "ちい",
+      "ちおそい"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 193,
+    "cat": "kanji_reading",
+    "sentence": "車が速い。",
+    "target": "速い",
+    "options": [
+      "はやい",
+      "そくい",
+      "そうい",
+      "さやい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 194,
+    "cat": "kanji_reading",
+    "sentence": "風が強い。",
+    "target": "強い",
+    "options": [
+      "きょうい",
+      "ごうい",
+      "つよあい",
+      "つよい"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 195,
+    "cat": "kanji_reading",
+    "sentence": "体が弱い。",
+    "target": "弱い",
+    "options": [
+      "よあい",
+      "ねわい",
+      "よわい",
+      "じゃくい"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 196,
+    "cat": "kanji_reading",
+    "sentence": "駅は近い。",
+    "target": "近い",
+    "options": [
+      "ちがい",
+      "ちかい",
+      "きんい",
+      "ちかあい"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 197,
+    "cat": "kanji_reading",
+    "sentence": "学校は遠い。",
+    "target": "遠い",
+    "options": [
+      "とおい",
+      "えんい",
+      "おんい",
+      "おおい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 198,
+    "cat": "kanji_reading",
+    "sentence": "人が多い。",
+    "target": "多い",
+    "options": [
+      "たい",
+      "おおあい",
+      "だい",
+      "おおい"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 199,
+    "cat": "kanji_reading",
+    "sentence": "お金が少ない。",
+    "target": "少ない",
+    "options": [
+      "すこない",
+      "しょない",
+      "すくない",
+      "しょうない"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 200,
+    "cat": "kanji_reading",
+    "sentence": "鞄が重い。",
+    "target": "重い",
+    "options": [
+      "もい",
+      "おもい",
+      "じゅうい",
+      "ちょうい"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 201,
+    "cat": "kanji_reading",
+    "sentence": "鞄が軽い。",
+    "target": "軽い",
+    "options": [
+      "かるい",
+      "けいい",
+      "かろい",
+      "きょうい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 202,
+    "cat": "kanji_reading",
+    "sentence": "部屋が明るい。",
+    "target": "明るい",
+    "options": [
+      "めいるい",
+      "あかりい",
+      "みょうるい",
+      "あかるい"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 203,
+    "cat": "kanji_reading",
+    "sentence": "夜は暗い。",
+    "target": "暗い",
+    "options": [
+      "くろい",
+      "めいい",
+      "くらい",
+      "あんい"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 204,
+    "cat": "kanji_reading",
+    "sentence": "公園が広い。",
+    "target": "広い",
+    "options": [
+      "くろい",
+      "ひろい",
+      "こうい",
+      "ひらい"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 205,
+    "cat": "kanji_reading",
+    "sentence": "部屋が狭い。",
+    "target": "狭い",
+    "options": [
+      "せまい",
+      "きょうい",
+      "せばい",
+      "さくい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 206,
+    "cat": "kanji_reading",
+    "sentence": "海が深い。",
+    "target": "深い",
+    "options": [
+      "しんい",
+      "ふくい",
+      "ふけい",
+      "ふかい"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 207,
+    "cat": "kanji_reading",
+    "sentence": "川が浅い。",
+    "target": "浅い",
+    "options": [
+      "あしい",
+      "あざい",
+      "あさい",
+      "せんい"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 208,
+    "cat": "kanji_reading",
+    "sentence": "厚い本を読む。",
+    "target": "厚い",
+    "options": [
+      "どい",
+      "あつい",
+      "こうい",
+      "あそい"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 209,
+    "cat": "kanji_reading",
+    "sentence": "薄い紙を使う。",
+    "target": "薄い",
+    "options": [
+      "うすい",
+      "はくい",
+      "うさい",
+      "すすい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 210,
+    "cat": "kanji_reading",
+    "sentence": "易しい問題だ。",
+    "target": "易しい",
+    "options": [
+      "えきしい",
+      "いしい",
+      "やすしい",
+      "やさしい"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 211,
+    "cat": "kanji_reading",
+    "sentence": "難しい問題だ。",
+    "target": "難しい",
+    "options": [
+      "むつかしい",
+      "むじかしい",
+      "むずかしい",
+      "なんしい"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 212,
+    "cat": "kanji_reading",
+    "sentence": "旅行は楽しい。",
+    "target": "楽しい",
+    "options": [
+      "たのしむい",
+      "たのしい",
+      "らくしい",
+      "がくしい"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 213,
+    "cat": "kanji_reading",
+    "sentence": "悲しい話を聞く。",
+    "target": "悲しい",
+    "options": [
+      "かなしい",
+      "ひしい",
+      "かのしい",
+      "ひかなしい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 214,
+    "cat": "kanji_reading",
+    "sentence": "合格して嬉しい。",
+    "target": "嬉しい",
+    "options": [
+      "きしい",
+      "うれいしい",
+      "よろしい",
+      "うれしい"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 215,
+    "cat": "kanji_reading",
+    "sentence": "怖い映画を見る。",
+    "target": "怖い",
+    "options": [
+      "ぶい",
+      "こあい",
+      "こわい",
+      "ふい"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 216,
+    "cat": "kanji_reading",
+    "sentence": "静かな公園だ。",
+    "target": "静か",
+    "options": [
+      "じょか",
+      "しずか",
+      "せいか",
+      "しずけ"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 217,
+    "cat": "kanji_reading",
+    "sentence": "有名な人に会う。",
+    "target": "有名",
+    "options": [
+      "ゆうめい",
+      "ゆうみょう",
+      "うめい",
+      "ゆめい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 218,
+    "cat": "kanji_reading",
+    "sentence": "便利な道具だ。",
+    "target": "便利",
+    "options": [
+      "びんり",
+      "べんとし",
+      "へんり",
+      "べんり"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 219,
+    "cat": "kanji_reading",
+    "sentence": "親切な人だ。",
+    "target": "親切",
+    "options": [
+      "しんぜつ",
+      "ちかせつ",
+      "しんせつ",
+      "おやせつ"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 220,
+    "cat": "kanji_reading",
+    "sentence": "犬が好きだ。",
+    "target": "好き",
+    "options": [
+      "このき",
+      "すき",
+      "こうき",
+      "ずき"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 221,
+    "cat": "kanji_reading",
+    "sentence": "虫が嫌いだ。",
+    "target": "嫌い",
+    "options": [
+      "きらい",
+      "けんい",
+      "いやい",
+      "きらあい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 222,
+    "cat": "kanji_reading",
+    "sentence": "料理が上手だ。",
+    "target": "上手",
+    "options": [
+      "じょうしゅ",
+      "うえて",
+      "じょうしょう",
+      "じょうず"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 223,
+    "cat": "kanji_reading",
+    "sentence": "歌が下手だ。",
+    "target": "下手",
+    "options": [
+      "げしゅ",
+      "かしゅ",
+      "へた",
+      "したて"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 224,
+    "cat": "kanji_reading",
+    "sentence": "子供は元気だ。",
+    "target": "元気",
+    "options": [
+      "がんき",
+      "げんき",
+      "もとき",
+      "げんぎ"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 225,
+    "cat": "kanji_reading",
+    "sentence": "犬を飼う。",
+    "target": "飼う",
+    "options": [
+      "かう",
+      "しう",
+      "ぼくう",
+      "やしなう"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 226,
+    "cat": "kanji_reading",
+    "sentence": "東京に住む。",
+    "target": "住む",
+    "options": [
+      "じゅうむ",
+      "すうむ",
+      "いむ",
+      "すむ"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 227,
+    "cat": "kanji_reading",
+    "sentence": "魚が死ぬ。",
+    "target": "死ぬ",
+    "options": [
+      "ぼうぬ",
+      "かぬ",
+      "しぬ",
+      "しにぬ"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 228,
+    "cat": "kanji_reading",
+    "sentence": "赤ちゃんが生まれる。",
+    "target": "生まれる",
+    "options": [
+      "しょうまれる",
+      "うまれる",
+      "せいまれる",
+      "いきまれる"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 229,
+    "cat": "kanji_reading",
+    "sentence": "子供を育てる。",
+    "target": "育てる",
+    "options": [
+      "そだてる",
+      "いくてる",
+      "やしないてる",
+      "ようてる"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 230,
+    "cat": "kanji_reading",
+    "sentence": "来年結婚する。",
+    "target": "結婚する",
+    "options": [
+      "けつこんする",
+      "けっごんする",
+      "けつごんする",
+      "けっこんする"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 231,
+    "cat": "kanji_reading",
+    "sentence": "離婚することにした。",
+    "target": "離婚する",
+    "options": [
+      "はなこんする",
+      "りっこんする",
+      "りこんする",
+      "りごんする"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 232,
+    "cat": "kanji_reading",
+    "sentence": "東京に引っ越す。",
+    "target": "引っ越す",
+    "options": [
+      "いんこす",
+      "ひっこす",
+      "いっこす",
+      "ひきこす"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 233,
+    "cat": "kanji_reading",
+    "sentence": "母を手伝う。",
+    "target": "手伝う",
+    "options": [
+      "てつだう",
+      "しゅでんう",
+      "てづだう",
+      "しゅだう"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 234,
+    "cat": "kanji_reading",
+    "sentence": "お金がなくて困る。",
+    "target": "困る",
+    "options": [
+      "こんる",
+      "くるまる",
+      "こむる",
+      "こまる"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 235,
+    "cat": "kanji_reading",
+    "sentence": "大きな音に驚く。",
+    "target": "驚く",
+    "options": [
+      "おどるく",
+      "けいく",
+      "おどろく",
+      "きょうく"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 236,
+    "cat": "kanji_reading",
+    "sentence": "みんなで笑う。",
+    "target": "笑う",
+    "options": [
+      "にこう",
+      "わらう",
+      "しょうう",
+      "えう"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 237,
+    "cat": "kanji_reading",
+    "sentence": "子供が泣く。",
+    "target": "泣く",
+    "options": [
+      "なく",
+      "きゅうく",
+      "きつく",
+      "めいく"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 238,
+    "cat": "kanji_reading",
+    "sentence": "父が怒る。",
+    "target": "怒る",
+    "options": [
+      "どる",
+      "いかる",
+      "ぬる",
+      "おこる"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 239,
+    "cat": "kanji_reading",
+    "sentence": "合格して喜ぶ。",
+    "target": "喜ぶ",
+    "options": [
+      "きしぶ",
+      "えんぶ",
+      "よろこぶ",
+      "きぶ"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 240,
+    "cat": "kanji_reading",
+    "sentence": "寒さを感じる。",
+    "target": "感じる",
+    "options": [
+      "しんじる",
+      "かんじる",
+      "かんずる",
+      "おもじる"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 241,
+    "cat": "kanji_reading",
+    "sentence": "友達を信じる。",
+    "target": "信じる",
+    "options": [
+      "しんじる",
+      "しんずる",
+      "まことじる",
+      "ほんじる"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 242,
+    "cat": "kanji_reading",
+    "sentence": "行くことを決める。",
+    "target": "決める",
+    "options": [
+      "けつめる",
+      "さだめる",
+      "けっめる",
+      "きめる"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 243,
+    "cat": "kanji_reading",
+    "sentence": "言葉の意味を調べる。",
+    "target": "調べる",
+    "options": [
+      "ととのえる",
+      "しりべる",
+      "しらべる",
+      "ちょうべる"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 244,
+    "cat": "kanji_reading",
+    "sentence": "値段を比べる。",
+    "target": "比べる",
+    "options": [
+      "ならべる",
+      "くらべる",
+      "ひべる",
+      "くらぶる"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 245,
+    "cat": "kanji_reading",
+    "sentence": "意味が分かる。",
+    "target": "分かる",
+    "options": [
+      "わかる",
+      "ぶんる",
+      "わける",
+      "ふんる"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 246,
+    "cat": "kanji_reading",
+    "sentence": "答えが違う。",
+    "target": "違う",
+    "options": [
+      "いう",
+      "ちがい",
+      "いがう",
+      "ちがう"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 247,
+    "cat": "kanji_reading",
+    "sentence": "答えが合う。",
+    "target": "合う",
+    "options": [
+      "あい",
+      "かう",
+      "あう",
+      "ごう"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 248,
+    "cat": "kanji_reading",
+    "sentence": "母に似る。",
+    "target": "似る",
+    "options": [
+      "にあう",
+      "にる",
+      "じる",
+      "しる"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 249,
+    "cat": "kanji_reading",
+    "sentence": "新しい生活に慣れる。",
+    "target": "慣れる",
+    "options": [
+      "なれる",
+      "かんれる",
+      "しゅうれる",
+      "ならいれる"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 250,
+    "cat": "kanji_reading",
+    "sentence": "忘れ物に気を付ける。",
+    "target": "忘れ物",
+    "options": [
+      "ぼうれもの",
+      "もうれもの",
+      "わすれぶつ",
+      "わすれもの"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 251,
+    "cat": "kanji_reading",
+    "sentence": "山が見える。",
+    "target": "見える",
+    "options": [
+      "けんえる",
+      "けえる",
+      "みえる",
+      "にえる"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 252,
+    "cat": "kanji_reading",
+    "sentence": "音が聞こえる。",
+    "target": "聞こえる",
+    "options": [
+      "もんこえる",
+      "きこえる",
+      "ききこえる",
+      "ぶんこえる"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 253,
+    "cat": "kanji_reading",
+    "sentence": "星が光る。",
+    "target": "光る",
+    "options": [
+      "ひかる",
+      "こうる",
+      "かがる",
+      "てる"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 254,
+    "cat": "kanji_reading",
+    "sentence": "鳥が鳴く。",
+    "target": "鳴く",
+    "options": [
+      "めいく",
+      "なぐ",
+      "きく",
+      "なく"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 255,
+    "cat": "kanji_reading",
+    "sentence": "雨が降る。",
+    "target": "降る",
+    "options": [
+      "くだる",
+      "おる",
+      "ふる",
+      "こうる"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 256,
+    "cat": "kanji_reading",
+    "sentence": "風が吹く。",
+    "target": "吹く",
+    "options": [
+      "かく",
+      "ふく",
+      "すいく",
+      "いく"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 257,
+    "cat": "kanji_reading",
+    "sentence": "花が咲く。",
+    "target": "咲く",
+    "options": [
+      "さく",
+      "しょうく",
+      "すく",
+      "えく"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 258,
+    "cat": "kanji_reading",
+    "sentence": "服が濡れる。",
+    "target": "濡れる",
+    "options": [
+      "じゅれる",
+      "うれる",
+      "しれる",
+      "ぬれる"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 259,
+    "cat": "kanji_reading",
+    "sentence": "洗濯物が乾く。",
+    "target": "乾く",
+    "options": [
+      "ほく",
+      "ぼく",
+      "かわく",
+      "かんく"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 260,
+    "cat": "kanji_reading",
+    "sentence": "肉を焼く。",
+    "target": "焼く",
+    "options": [
+      "ねく",
+      "やく",
+      "しょうく",
+      "ぐつく"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 261,
+    "cat": "kanji_reading",
+    "sentence": "体が冷える。",
+    "target": "冷える",
+    "options": [
+      "ひえる",
+      "れいえる",
+      "つめえる",
+      "さむえる"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 262,
+    "cat": "kanji_reading",
+    "sentence": "お湯が沸く。",
+    "target": "沸く",
+    "options": [
+      "ふつく",
+      "ふっく",
+      "にく",
+      "わく"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 263,
+    "cat": "kanji_reading",
+    "sentence": "卵を茹でる。",
+    "target": "茹でる",
+    "options": [
+      "にでる",
+      "わでる",
+      "ゆでる",
+      "じょでる"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 264,
+    "cat": "kanji_reading",
+    "sentence": "材料を混ぜる。",
+    "target": "混ぜる",
+    "options": [
+      "ごちゃぜる",
+      "まぜる",
+      "こんぜる",
+      "まじぜる"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 265,
+    "cat": "kanji_reading",
+    "sentence": "子供が育つ。",
+    "target": "育つ",
+    "options": [
+      "そだつ",
+      "いくつ",
+      "ようつ",
+      "ゆだつ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 266,
+    "cat": "kanji_reading",
+    "sentence": "ゴミを捨てる。",
+    "target": "捨てる",
+    "options": [
+      "しゃてる",
+      "おてる",
+      "ぼうてる",
+      "すてる"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 267,
+    "cat": "kanji_reading",
+    "sentence": "ゴミを拾う。",
+    "target": "拾う",
+    "options": [
+      "ひりう",
+      "あう",
+      "ひろう",
+      "しゅうう"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 268,
+    "cat": "kanji_reading",
+    "sentence": "ボールを投げる。",
+    "target": "投げる",
+    "options": [
+      "とげる",
+      "なげる",
+      "とうげる",
+      "なぎる"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 269,
+    "cat": "kanji_reading",
+    "sentence": "ボタンを押す。",
+    "target": "押す",
+    "options": [
+      "おす",
+      "あっす",
+      "おうす",
+      "ひす"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 270,
+    "cat": "kanji_reading",
+    "sentence": "ドアを引く。",
+    "target": "引く",
+    "options": [
+      "いんく",
+      "ひっく",
+      "いく",
+      "ひく"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 271,
+    "cat": "kanji_reading",
+    "sentence": "前を向く。",
+    "target": "向く",
+    "options": [
+      "むけく",
+      "こく",
+      "むく",
+      "こうく"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 272,
+    "cat": "kanji_reading",
+    "sentence": "学校に向かう。",
+    "target": "向かう",
+    "options": [
+      "むこう",
+      "むかう",
+      "こうかう",
+      "むけう"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 273,
+    "cat": "kanji_reading",
+    "sentence": "家に戻る。",
+    "target": "戻る",
+    "options": [
+      "もどる",
+      "れいる",
+      "もうる",
+      "かえる"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 274,
+    "cat": "kanji_reading",
+    "sentence": "本を棚に戻す。",
+    "target": "戻す",
+    "options": [
+      "れいす",
+      "もうす",
+      "かえす",
+      "もどす"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 275,
+    "cat": "kanji_reading",
+    "sentence": "橋を渡る。",
+    "target": "渡る",
+    "options": [
+      "どる",
+      "こえる",
+      "わたる",
+      "とる"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 276,
+    "cat": "kanji_reading",
+    "sentence": "道を通る。",
+    "target": "通る",
+    "options": [
+      "どおる",
+      "とおる",
+      "つうる",
+      "かよる"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 277,
+    "cat": "kanji_reading",
+    "sentence": "学校に通う。",
+    "target": "通う",
+    "options": [
+      "かよう",
+      "つうう",
+      "つかう",
+      "とおう"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 278,
+    "cat": "kanji_reading",
+    "sentence": "駅で迎える。",
+    "target": "迎える",
+    "options": [
+      "げいえる",
+      "むかいえる",
+      "むこえる",
+      "むかえる"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 279,
+    "cat": "kanji_reading",
+    "sentence": "木が倒れる。",
+    "target": "倒れる",
+    "options": [
+      "ころれる",
+      "だおれる",
+      "たおれる",
+      "とうれる"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 280,
+    "cat": "kanji_reading",
+    "sentence": "葉が落ちる。",
+    "target": "落ちる",
+    "options": [
+      "おちいる",
+      "おちる",
+      "らくちる",
+      "おっちる"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 281,
+    "cat": "kanji_reading",
+    "sentence": "鍵を落とす。",
+    "target": "落とす",
+    "options": [
+      "おとす",
+      "らくとす",
+      "おっとす",
+      "ぼとす"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 282,
+    "cat": "kanji_reading",
+    "sentence": "皿を割る。",
+    "target": "割る",
+    "options": [
+      "かつる",
+      "ぶつる",
+      "きる",
+      "わる"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 283,
+    "cat": "kanji_reading",
+    "sentence": "ガラスが割れる。",
+    "target": "割れる",
+    "options": [
+      "ぶつれる",
+      "やぶれる",
+      "われる",
+      "かつれる"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 284,
+    "cat": "kanji_reading",
+    "sentence": "紙を破る。",
+    "target": "破る",
+    "options": [
+      "こわる",
+      "やぶる",
+      "はる",
+      "はぶる"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 285,
+    "cat": "kanji_reading",
+    "sentence": "紙が破れる。",
+    "target": "破れる",
+    "options": [
+      "やぶれる",
+      "はれる",
+      "はぶれる",
+      "こわれる"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 286,
+    "cat": "kanji_reading",
+    "sentence": "店が閉まる。",
+    "target": "閉まる",
+    "options": [
+      "へいまる",
+      "とじまる",
+      "しめまる",
+      "しまる"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 287,
+    "cat": "kanji_reading",
+    "sentence": "雨が続く。",
+    "target": "続く",
+    "options": [
+      "つずく",
+      "づつく",
+      "つづく",
+      "ぞくく"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 288,
+    "cat": "kanji_reading",
+    "sentence": "勉強を続ける。",
+    "target": "続ける",
+    "options": [
+      "づつける",
+      "つづける",
+      "ぞくける",
+      "つずける"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 289,
+    "cat": "kanji_reading",
+    "sentence": "授業が始まる。",
+    "target": "始まる",
+    "options": [
+      "はじまる",
+      "しまる",
+      "そまる",
+      "せまる"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 290,
+    "cat": "kanji_reading",
+    "sentence": "切手を集める。",
+    "target": "集める",
+    "options": [
+      "しゅうめる",
+      "あたまる",
+      "すめる",
+      "あつめる"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 291,
+    "cat": "kanji_reading",
+    "sentence": "人が集まる。",
+    "target": "集まる",
+    "options": [
+      "あたまる",
+      "すまる",
+      "あつまる",
+      "しゅうまる"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 292,
+    "cat": "kanji_reading",
+    "sentence": "友達と別れる。",
+    "target": "別れる",
+    "options": [
+      "はなれる",
+      "わかれる",
+      "べつれる",
+      "わけれる"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 293,
+    "cat": "kanji_reading",
+    "sentence": "お菓子を別ける。",
+    "target": "別ける",
+    "options": [
+      "わける",
+      "べつける",
+      "わかれる",
+      "はなける"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 294,
+    "cat": "kanji_reading",
+    "sentence": "人口が増える。",
+    "target": "増える",
+    "options": [
+      "ぞうえる",
+      "ますえる",
+      "まえる",
+      "ふえる"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 295,
+    "cat": "kanji_reading",
+    "sentence": "お金が減る。",
+    "target": "減る",
+    "options": [
+      "ぶる",
+      "すくる",
+      "へる",
+      "げんる"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 296,
+    "cat": "kanji_reading",
+    "sentence": "予定を変える。",
+    "target": "変える",
+    "options": [
+      "へえる",
+      "かえる",
+      "へんえる",
+      "ばけえる"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 297,
+    "cat": "kanji_reading",
+    "sentence": "季節が変わる。",
+    "target": "変わる",
+    "options": [
+      "かわる",
+      "へんわる",
+      "ばけわる",
+      "へわる"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 298,
+    "cat": "kanji_reading",
+    "sentence": "前に進む。",
+    "target": "進む",
+    "options": [
+      "しんむ",
+      "さきむ",
+      "しんすむ",
+      "すすむ"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 299,
+    "cat": "kanji_reading",
+    "sentence": "電車が遅れる。",
+    "target": "遅れる",
+    "options": [
+      "おそれる",
+      "おしれる",
+      "おくれる",
+      "ちれる"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 300,
+    "cat": "kanji_reading",
+    "sentence": "電車に間に合う。",
+    "target": "間に合う",
+    "options": [
+      "まにごう",
+      "まにあう",
+      "かんにあう",
+      "あいにあう"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 301,
+    "cat": "kanji_reading",
+    "sentence": "車に気を付ける。",
+    "target": "気を付ける",
+    "options": [
+      "きをつける",
+      "きおつける",
+      "きにつける",
+      "きをふける"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 302,
+    "cat": "kanji_reading",
+    "sentence": "お金を引き出す。",
+    "target": "引き出す",
+    "options": [
+      "いんきだす",
+      "ひきいだす",
+      "ひきしゅつす",
+      "ひきだす"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 303,
+    "cat": "kanji_reading",
+    "sentence": "友達を呼ぶ。",
+    "target": "呼ぶ",
+    "options": [
+      "きょぶ",
+      "さけぶ",
+      "よぶ",
+      "こぶ"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 304,
+    "cat": "kanji_reading",
+    "sentence": "大きな声で叫ぶ。",
+    "target": "叫ぶ",
+    "options": [
+      "おらぶ",
+      "さけぶ",
+      "きょうぶ",
+      "よぶ"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 305,
+    "cat": "kanji_reading",
+    "sentence": "質問に答える。",
+    "target": "答える",
+    "options": [
+      "こたえる",
+      "とうえる",
+      "だえる",
+      "あたえる"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 306,
+    "cat": "kanji_reading",
+    "sentence": "公園で遊ぶ。",
+    "target": "公園",
+    "options": [
+      "こうおん",
+      "くうえん",
+      "きょうえん",
+      "こうえん"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 307,
+    "cat": "kanji_reading",
+    "sentence": "病院へ行く。",
+    "target": "病院",
+    "options": [
+      "へいいん",
+      "びんいん",
+      "びょういん",
+      "びょうしょ"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 308,
+    "cat": "kanji_reading",
+    "sentence": "銀行でお金を下ろす。",
+    "target": "銀行",
+    "options": [
+      "ぎんぎょう",
+      "ぎんこう",
+      "ぎんごう",
+      "きんこう"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 309,
+    "cat": "kanji_reading",
+    "sentence": "駅で待つ。",
+    "target": "駅",
+    "options": [
+      "えき",
+      "えし",
+      "やく",
+      "えぎ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 310,
+    "cat": "kanji_reading",
+    "sentence": "店で買い物する。",
+    "target": "店",
+    "options": [
+      "てん",
+      "でん",
+      "まち",
+      "みせ"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 311,
+    "cat": "kanji_reading",
+    "sentence": "市場で魚を買う。",
+    "target": "市場",
+    "options": [
+      "いちじょう",
+      "しじょう",
+      "いちば",
+      "ししょう"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 312,
+    "cat": "kanji_reading",
+    "sentence": "町は静かだ。",
+    "target": "町",
+    "options": [
+      "どう",
+      "まち",
+      "ちょう",
+      "まき"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 313,
+    "cat": "kanji_reading",
+    "sentence": "小さい村に住む。",
+    "target": "村",
+    "options": [
+      "むら",
+      "そん",
+      "ぞん",
+      "まら"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 314,
+    "cat": "kanji_reading",
+    "sentence": "大きな都市に住む。",
+    "target": "都市",
+    "options": [
+      "とち",
+      "つし",
+      "みやこし",
+      "とし"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 315,
+    "cat": "kanji_reading",
+    "sentence": "外国に行く。",
+    "target": "国",
+    "options": [
+      "ごく",
+      "けん",
+      "くに",
+      "こく"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 316,
+    "cat": "kanji_reading",
+    "sentence": "外国へ旅行する。",
+    "target": "外国",
+    "options": [
+      "がくこく",
+      "がいこく",
+      "そとこく",
+      "がいごく"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 317,
+    "cat": "kanji_reading",
+    "sentence": "都合が悪い。",
+    "target": "都合",
+    "options": [
+      "つごう",
+      "とごう",
+      "とあい",
+      "つあい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 318,
+    "cat": "kanji_reading",
+    "sentence": "静かな所に住む。",
+    "target": "所",
+    "options": [
+      "しょ",
+      "じょ",
+      "とこ",
+      "ところ"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 319,
+    "cat": "kanji_reading",
+    "sentence": "会う場所を決める。",
+    "target": "場所",
+    "options": [
+      "ばじょ",
+      "ばところ",
+      "ばしょ",
+      "じょうしょ"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 320,
+    "cat": "kanji_reading",
+    "sentence": "地図を見る。",
+    "target": "地図",
+    "options": [
+      "ちまる",
+      "ちず",
+      "じず",
+      "ちとう"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 321,
+    "cat": "kanji_reading",
+    "sentence": "道を歩く。",
+    "target": "道",
+    "options": [
+      "みち",
+      "どう",
+      "みぞ",
+      "とう"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 322,
+    "cat": "kanji_reading",
+    "sentence": "橋を渡る。",
+    "target": "橋",
+    "options": [
+      "きょう",
+      "ばし",
+      "しょう",
+      "はし"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 323,
+    "cat": "kanji_reading",
+    "sentence": "交番で聞く。",
+    "target": "交番",
+    "options": [
+      "きょうばん",
+      "こうぱん",
+      "こうばん",
+      "こうはん"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 324,
+    "cat": "kanji_reading",
+    "sentence": "郵便局で手紙を出す。",
+    "target": "郵便局",
+    "options": [
+      "ゆうびんきょう",
+      "ゆうびんきょく",
+      "ゆうべんきょく",
+      "ゆうびんぎょく"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 325,
+    "cat": "kanji_reading",
+    "sentence": "図書館で本を借りる。",
+    "target": "図書館",
+    "options": [
+      "としょかん",
+      "としょがん",
+      "ずしょかん",
+      "としょうかん"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 326,
+    "cat": "kanji_reading",
+    "sentence": "美術館へ行く。",
+    "target": "美術館",
+    "options": [
+      "みじゅつかん",
+      "びじゅかん",
+      "びすじゅかん",
+      "びじゅつかん"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 327,
+    "cat": "kanji_reading",
+    "sentence": "博物館を見学する。",
+    "target": "博物館",
+    "options": [
+      "はくもつかん",
+      "はくぶつがん",
+      "はくぶつかん",
+      "ばくぶつかん"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 328,
+    "cat": "kanji_reading",
+    "sentence": "空港で待つ。",
+    "target": "空港",
+    "options": [
+      "くうみなと",
+      "くうこう",
+      "そらこう",
+      "くうごう"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 329,
+    "cat": "kanji_reading",
+    "sentence": "港に船がある。",
+    "target": "港",
+    "options": [
+      "みなと",
+      "こう",
+      "こうみなと",
+      "はく"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 330,
+    "cat": "kanji_reading",
+    "sentence": "工場で働く。",
+    "target": "工場",
+    "options": [
+      "こうば",
+      "くじょう",
+      "こうしょう",
+      "こうじょう"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 331,
+    "cat": "kanji_reading",
+    "sentence": "市役所へ行く。",
+    "target": "市役所",
+    "options": [
+      "いちやくしょ",
+      "しやくじょ",
+      "しやくしょ",
+      "しえきしょ"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 333,
+    "cat": "kanji_reading",
+    "sentence": "交差点で止まる。",
+    "target": "交差点",
+    "options": [
+      "こうさてん",
+      "きょうさてん",
+      "こうさでん",
+      "こうしゃてん"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 334,
+    "cat": "kanji_reading",
+    "sentence": "車を運転する。",
+    "target": "車",
+    "options": [
+      "しゃ",
+      "じしゃ",
+      "くま",
+      "くるま"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 335,
+    "cat": "kanji_reading",
+    "sentence": "電車に乗る。",
+    "target": "電車",
+    "options": [
+      "でんくるま",
+      "いなずま",
+      "でんしゃ",
+      "でんじゃ"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 336,
+    "cat": "kanji_reading",
+    "sentence": "飛行機に乗る。",
+    "target": "飛行機",
+    "options": [
+      "ひこうぎ",
+      "ひこうき",
+      "ひきょうき",
+      "ひゆき"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 337,
+    "cat": "kanji_reading",
+    "sentence": "自転車に乗る。",
+    "target": "自転車",
+    "options": [
+      "じてんしゃ",
+      "じどうしゃ",
+      "じてんじゃ",
+      "じでんしゃ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 338,
+    "cat": "kanji_reading",
+    "sentence": "自動車を買う。",
+    "target": "自動車",
+    "options": [
+      "じてんしゃ",
+      "じどうじゃ",
+      "じうごしゃ",
+      "じどうしゃ"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 339,
+    "cat": "kanji_reading",
+    "sentence": "地下鉄に乗る。",
+    "target": "地下鉄",
+    "options": [
+      "ちしたてつ",
+      "ちかでつ",
+      "ちかてつ",
+      "じかてつ"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 340,
+    "cat": "kanji_reading",
+    "sentence": "船で海を渡る。",
+    "target": "船",
+    "options": [
+      "ふな",
+      "ふね",
+      "せん",
+      "ぶね"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 341,
+    "cat": "kanji_reading",
+    "sentence": "駐車場に車を止める。",
+    "target": "駐車場",
+    "options": [
+      "ちゅうしゃじょう",
+      "ちゅうしゃしょう",
+      "じゅしゃじょう",
+      "ちゅしゃじょう"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 342,
+    "cat": "kanji_reading",
+    "sentence": "切符を買う。",
+    "target": "切符",
+    "options": [
+      "きりふ",
+      "きっぷう",
+      "せつふ",
+      "きっぷ"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 343,
+    "cat": "kanji_reading",
+    "sentence": "机の上に本がある。",
+    "target": "机",
+    "options": [
+      "づくえ",
+      "きづ",
+      "つくえ",
+      "き"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 344,
+    "cat": "kanji_reading",
+    "sentence": "椅子に座る。",
+    "target": "椅子",
+    "options": [
+      "いず",
+      "いす",
+      "ぎし",
+      "いじ"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 345,
+    "cat": "kanji_reading",
+    "sentence": "窓を開ける。",
+    "target": "窓",
+    "options": [
+      "まど",
+      "そう",
+      "まと",
+      "ど"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 346,
+    "cat": "kanji_reading",
+    "sentence": "扉を閉める。",
+    "target": "扉",
+    "options": [
+      "ひ",
+      "ど",
+      "とあ",
+      "とびら"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 347,
+    "cat": "kanji_reading",
+    "sentence": "鍵を忘れる。",
+    "target": "鍵",
+    "options": [
+      "けい",
+      "かき",
+      "かぎ",
+      "けん"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 348,
+    "cat": "kanji_reading",
+    "sentence": "鞄を持つ。",
+    "target": "鞄",
+    "options": [
+      "かまん",
+      "かばん",
+      "ほう",
+      "ぽう"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 349,
+    "cat": "kanji_reading",
+    "sentence": "財布を落とす。",
+    "target": "財布",
+    "options": [
+      "さいふ",
+      "ざいふ",
+      "さいぷ",
+      "ざいぶ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 350,
+    "cat": "kanji_reading",
+    "sentence": "傘を差す。",
+    "target": "傘",
+    "options": [
+      "さん",
+      "が",
+      "かざ",
+      "かさ"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 351,
+    "cat": "kanji_reading",
+    "sentence": "眼鏡をかける。",
+    "target": "眼鏡",
+    "options": [
+      "めかがみ",
+      "めがん",
+      "めがね",
+      "がんきょう"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 352,
+    "cat": "kanji_reading",
+    "sentence": "時計を見る。",
+    "target": "時計",
+    "options": [
+      "ときどき",
+      "とけい",
+      "じけい",
+      "じとき"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 353,
+    "cat": "kanji_reading",
+    "sentence": "帽子をかぶる。",
+    "target": "帽子",
+    "options": [
+      "ぼうし",
+      "ぼうじ",
+      "もうし",
+      "ぽうし"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 355,
+    "cat": "kanji_reading",
+    "sentence": "服を着る。",
+    "target": "服",
+    "options": [
+      "ぷく",
+      "もの",
+      "ふく",
+      "ぶく"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 356,
+    "cat": "kanji_reading",
+    "sentence": "洋服を買う。",
+    "target": "洋服",
+    "options": [
+      "ようもの",
+      "ようふく",
+      "ようぶく",
+      "よぶく"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 357,
+    "cat": "kanji_reading",
+    "sentence": "背広を着る。",
+    "target": "背広",
+    "options": [
+      "せびろ",
+      "はいこう",
+      "せひろ",
+      "はいひろ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 358,
+    "cat": "kanji_reading",
+    "sentence": "靴下を履く。",
+    "target": "靴下",
+    "options": [
+      "かした",
+      "くつか",
+      "くつげ",
+      "くつした"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 359,
+    "cat": "kanji_reading",
+    "sentence": "手袋をする。",
+    "target": "手袋",
+    "options": [
+      "しゅふくろ",
+      "てたい",
+      "てぶくろ",
+      "しゅたい"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 360,
+    "cat": "kanji_reading",
+    "sentence": "鉛筆で書く。",
+    "target": "鉛筆",
+    "options": [
+      "なまりふで",
+      "えんぴつ",
+      "えんびつ",
+      "えんひつ"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 361,
+    "cat": "kanji_reading",
+    "sentence": "消しゴムを使う。",
+    "target": "消しゴム",
+    "options": [
+      "けしゴム",
+      "しょうしゴム",
+      "きしゴム",
+      "けゴム"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 362,
+    "cat": "kanji_reading",
+    "sentence": "紙に書く。",
+    "target": "紙",
+    "options": [
+      "し",
+      "がみ",
+      "じ",
+      "かみ"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 363,
+    "cat": "kanji_reading",
+    "sentence": "ノートに書く。",
+    "target": "ノート",
+    "options": [
+      "ノウト",
+      "ノト",
+      "ノート",
+      "ノオト"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 364,
+    "cat": "kanji_reading",
+    "sentence": "本棚に本を置く。",
+    "target": "本棚",
+    "options": [
+      "ほんて",
+      "ほんだな",
+      "ほんたな",
+      "もとだな"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 365,
+    "cat": "kanji_reading",
+    "sentence": "冷蔵庫に入れる。",
+    "target": "冷蔵庫",
+    "options": [
+      "れいぞうこ",
+      "れいぞく",
+      "ひえぞうこ",
+      "れいそうこ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 366,
+    "cat": "kanji_reading",
+    "sentence": "洗濯機を使う。",
+    "target": "洗濯機",
+    "options": [
+      "せんたっき",
+      "あらいき",
+      "せんだくき",
+      "せんたくき"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 367,
+    "cat": "kanji_reading",
+    "sentence": "電気を消す。",
+    "target": "電気",
+    "options": [
+      "でんけ",
+      "でんあ",
+      "でんき",
+      "でんぎ"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 368,
+    "cat": "kanji_reading",
+    "sentence": "電灯が暗い。",
+    "target": "電灯",
+    "options": [
+      "でんひかり",
+      "でんとう",
+      "でんどう",
+      "でんひ"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 370,
+    "cat": "kanji_reading",
+    "sentence": "字を書く。",
+    "target": "字",
+    "options": [
+      "し",
+      "あざ",
+      "じい",
+      "じ"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 371,
+    "cat": "kanji_reading",
+    "sentence": "漢字を覚える。",
+    "target": "漢字",
+    "options": [
+      "かんし",
+      "はんじ",
+      "かんじ",
+      "からじ"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 372,
+    "cat": "kanji_reading",
+    "sentence": "地震が起きる。",
+    "target": "地震",
+    "options": [
+      "じじん",
+      "じしん",
+      "ちしん",
+      "じふる"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 373,
+    "cat": "kanji_reading",
+    "sentence": "火が消える。",
+    "target": "火",
+    "options": [
+      "ひ",
+      "か",
+      "ほ",
+      "び"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 374,
+    "cat": "kanji_reading",
+    "sentence": "火事に気を付ける。",
+    "target": "火事",
+    "options": [
+      "ひごと",
+      "かし",
+      "ほじ",
+      "かじ"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 375,
+    "cat": "kanji_reading",
+    "sentence": "地下に駐車する。",
+    "target": "地下",
+    "options": [
+      "ちした",
+      "じした",
+      "ちか",
+      "じか"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 377,
+    "cat": "kanji_reading",
+    "sentence": "歴史を学ぶ。",
+    "target": "歴史",
+    "options": [
+      "れきし",
+      "れきじ",
+      "りゃくし",
+      "こよみし"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 378,
+    "cat": "kanji_reading",
+    "sentence": "日本の文化を学ぶ。",
+    "target": "文化",
+    "options": [
+      "ぶんけ",
+      "ふんか",
+      "もんか",
+      "ぶんか"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 379,
+    "cat": "kanji_reading",
+    "sentence": "政治に関心がある。",
+    "target": "政治",
+    "options": [
+      "せいち",
+      "まつじ",
+      "せいじ",
+      "しょうじ"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 380,
+    "cat": "kanji_reading",
+    "sentence": "経済を勉強する。",
+    "target": "経済",
+    "options": [
+      "けいぞい",
+      "けいざい",
+      "きょうざい",
+      "けいさい"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 381,
+    "cat": "kanji_reading",
+    "sentence": "社会のルールを守る。",
+    "target": "社会",
+    "options": [
+      "しゃかい",
+      "しゃえ",
+      "しゃごう",
+      "さかい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 382,
+    "cat": "kanji_reading",
+    "sentence": "科学は面白い。",
+    "target": "科学",
+    "options": [
+      "きょうがく",
+      "かかく",
+      "かぎょう",
+      "かがく"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 383,
+    "cat": "kanji_reading",
+    "sentence": "医学を学ぶ。",
+    "target": "医学",
+    "options": [
+      "いさがく",
+      "くすりがく",
+      "いがく",
+      "いがっく"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 384,
+    "cat": "kanji_reading",
+    "sentence": "医者になる。",
+    "target": "医者",
+    "options": [
+      "くすりしゃ",
+      "いしゃ",
+      "いじゃ",
+      "いさ"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 385,
+    "cat": "kanji_reading",
+    "sentence": "看護師になりたい。",
+    "target": "看護師",
+    "options": [
+      "かんごし",
+      "かんごじ",
+      "かんほうし",
+      "みごし"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 386,
+    "cat": "kanji_reading",
+    "sentence": "警察を呼ぶ。",
+    "target": "警察",
+    "options": [
+      "けいざつ",
+      "きんさつ",
+      "きょうさつ",
+      "けいさつ"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 387,
+    "cat": "kanji_reading",
+    "sentence": "泥棒を捕まえる。",
+    "target": "泥棒",
+    "options": [
+      "どろぽう",
+      "にどぼう",
+      "どろぼう",
+      "でいぼう"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 388,
+    "cat": "kanji_reading",
+    "sentence": "お金が足りない。",
+    "target": "お金",
+    "options": [
+      "おかん",
+      "おかね",
+      "おぎん",
+      "おきん"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 389,
+    "cat": "kanji_reading",
+    "sentence": "お茶を飲む。",
+    "target": "お茶",
+    "options": [
+      "おちゃ",
+      "おさ",
+      "おちゃく",
+      "おちゃい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 390,
+    "cat": "kanji_reading",
+    "sentence": "紅茶を淹れる。",
+    "target": "紅茶",
+    "options": [
+      "べにちゃ",
+      "こうさ",
+      "こうち",
+      "こうちゃ"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 391,
+    "cat": "kanji_reading",
+    "sentence": "酒を飲む。",
+    "target": "酒",
+    "options": [
+      "さか",
+      "さい",
+      "さけ",
+      "しゅ"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 392,
+    "cat": "kanji_reading",
+    "sentence": "卵を買う。",
+    "target": "卵",
+    "options": [
+      "らんこ",
+      "たまご",
+      "らん",
+      "たまあ"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 393,
+    "cat": "kanji_reading",
+    "sentence": "砂糖を入れる。",
+    "target": "砂糖",
+    "options": [
+      "さとう",
+      "すなとう",
+      "しゃとう",
+      "さとお"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 394,
+    "cat": "kanji_reading",
+    "sentence": "塩を入れる。",
+    "target": "塩",
+    "options": [
+      "えん",
+      "しょ",
+      "ほ",
+      "しお"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 395,
+    "cat": "kanji_reading",
+    "sentence": "味噌汁を作る。",
+    "target": "味噌",
+    "options": [
+      "みしょ",
+      "みその",
+      "みそ",
+      "あじそ"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 396,
+    "cat": "kanji_reading",
+    "sentence": "醤油をかける。",
+    "target": "醤油",
+    "options": [
+      "そうゆ",
+      "しょうゆ",
+      "しょうあぶら",
+      "じょうゆ"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 397,
+    "cat": "kanji_reading",
+    "sentence": "箸で食べる。",
+    "target": "箸",
+    "options": [
+      "はし",
+      "ちょ",
+      "ばし",
+      "はす"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 398,
+    "cat": "kanji_reading",
+    "sentence": "皿を洗う。",
+    "target": "皿",
+    "options": [
+      "べい",
+      "ざら",
+      "ばん",
+      "さら"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 399,
+    "cat": "kanji_reading",
+    "sentence": "茶碗でご飯を食べる。",
+    "target": "茶碗",
+    "options": [
+      "ちゃわ",
+      "さわん",
+      "ちゃわん",
+      "ちゃまる"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 400,
+    "cat": "kanji_reading",
+    "sentence": "鍋で煮る。",
+    "target": "鍋",
+    "options": [
+      "のう",
+      "なべ",
+      "か",
+      "かべ"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 401,
+    "cat": "kanji_reading",
+    "sentence": "包丁を使う。",
+    "target": "包丁",
+    "options": [
+      "ほうちょう",
+      "ぽうちょう",
+      "ほうてい",
+      "ほうちゅう"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 402,
+    "cat": "kanji_reading",
+    "sentence": "果物屋で買う。",
+    "target": "果物屋",
+    "options": [
+      "かぶつや",
+      "かものや",
+      "くだぶつや",
+      "くだものや"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 403,
+    "cat": "kanji_reading",
+    "sentence": "八百屋で野菜を買う。",
+    "target": "八百屋",
+    "options": [
+      "やひゃくや",
+      "はっぴゃくや",
+      "やおや",
+      "はちひゃくや"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 404,
+    "cat": "kanji_reading",
+    "sentence": "肉屋で肉を買う。",
+    "target": "肉屋",
+    "options": [
+      "にくてん",
+      "にくや",
+      "じくや",
+      "ししや"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 405,
+    "cat": "kanji_reading",
+    "sentence": "魚屋で魚を買う。",
+    "target": "魚屋",
+    "options": [
+      "さかなや",
+      "ぎょや",
+      "うおや",
+      "ざかなや"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 406,
+    "cat": "kanji_reading",
+    "sentence": "本屋で本を買う。",
+    "target": "本屋",
+    "options": [
+      "ぼんや",
+      "もとや",
+      "ほんてん",
+      "ほんや"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 407,
+    "cat": "kanji_reading",
+    "sentence": "花屋で花を買う。",
+    "target": "花屋",
+    "options": [
+      "けや",
+      "ばなや",
+      "はなや",
+      "かや"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 408,
+    "cat": "kanji_reading",
+    "sentence": "喫茶店で話す。",
+    "target": "喫茶店",
+    "options": [
+      "きっさでん",
+      "きっさてん",
+      "きさてん",
+      "きっちゃてん"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 409,
+    "cat": "kanji_reading",
+    "sentence": "食堂で食べる。",
+    "target": "食堂",
+    "options": [
+      "しょくどう",
+      "しょくとう",
+      "たべどう",
+      "しょくじどう"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 410,
+    "cat": "kanji_reading",
+    "sentence": "旅館に泊まる。",
+    "target": "旅館",
+    "options": [
+      "たびかん",
+      "りょがん",
+      "りょうかん",
+      "りょかん"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 411,
+    "cat": "kanji_reading",
+    "sentence": "食事をする。",
+    "target": "食事",
+    "options": [
+      "しょうじ",
+      "くいじ",
+      "しょくじ",
+      "しょくごと"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 412,
+    "cat": "kanji_reading",
+    "sentence": "お菓子を食べる。",
+    "target": "お菓子",
+    "options": [
+      "おかい",
+      "おかし",
+      "おかじ",
+      "おがし"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 413,
+    "cat": "kanji_reading",
+    "sentence": "お土産を買う。",
+    "target": "お土産",
+    "options": [
+      "おみやげ",
+      "おどさん",
+      "おとさん",
+      "おみやさん"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 414,
+    "cat": "kanji_reading",
+    "sentence": "駅員に聞く。",
+    "target": "駅員",
+    "options": [
+      "えきにん",
+      "やくいん",
+      "えきひと",
+      "えきいん"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 415,
+    "cat": "kanji_reading",
+    "sentence": "店員に聞く。",
+    "target": "店員",
+    "options": [
+      "まちいん",
+      "てんひと",
+      "てんいん",
+      "でんいん"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 416,
+    "cat": "kanji_reading",
+    "sentence": "会社員になる。",
+    "target": "会社員",
+    "options": [
+      "かいしゃひと",
+      "かいしゃいん",
+      "かいしゃにん",
+      "えしゃいん"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 417,
+    "cat": "kanji_reading",
+    "sentence": "公務員になりたい。",
+    "target": "公務員",
+    "options": [
+      "こうむいん",
+      "くむいん",
+      "こうぶいん",
+      "こうむにん"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 418,
+    "cat": "kanji_reading",
+    "sentence": "社長に会う。",
+    "target": "社長",
+    "options": [
+      "しゃじょう",
+      "しゃうど",
+      "やしろちょう",
+      "しゃちょう"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 419,
+    "cat": "kanji_reading",
+    "sentence": "社員は百人だ。",
+    "target": "社員",
+    "options": [
+      "やしろいん",
+      "しゃひと",
+      "しゃいん",
+      "しゃにん"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 420,
+    "cat": "kanji_reading",
+    "sentence": "部長に報告する。",
+    "target": "部長",
+    "options": [
+      "ぶかしら",
+      "ぶちょう",
+      "ぶじょう",
+      "ぶどう"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 421,
+    "cat": "kanji_reading",
+    "sentence": "課長に話す。",
+    "target": "課長",
+    "options": [
+      "かちょう",
+      "かじょう",
+      "かどう",
+      "かかしら"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 422,
+    "cat": "kanji_reading",
+    "sentence": "手を洗う。",
+    "target": "手",
+    "options": [
+      "しゅ",
+      "たて",
+      "ず",
+      "て"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 423,
+    "cat": "kanji_reading",
+    "sentence": "足が痛い。",
+    "target": "足",
+    "options": [
+      "た",
+      "あい",
+      "あし",
+      "そく"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 424,
+    "cat": "kanji_reading",
+    "sentence": "目が赤い。",
+    "target": "目",
+    "options": [
+      "ぼく",
+      "め",
+      "もく",
+      "ま"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 425,
+    "cat": "kanji_reading",
+    "sentence": "口を開ける。",
+    "target": "口",
+    "options": [
+      "くち",
+      "こう",
+      "く",
+      "ち"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 426,
+    "cat": "kanji_reading",
+    "sentence": "耳が痛い。",
+    "target": "耳",
+    "options": [
+      "じ",
+      "にじ",
+      "に",
+      "みみ"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 427,
+    "cat": "kanji_reading",
+    "sentence": "鼻が高い。",
+    "target": "鼻",
+    "options": [
+      "ばな",
+      "はの",
+      "はな",
+      "び"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 428,
+    "cat": "kanji_reading",
+    "sentence": "顔を洗う。",
+    "target": "顔",
+    "options": [
+      "かん",
+      "かお",
+      "がん",
+      "がお"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 429,
+    "cat": "kanji_reading",
+    "sentence": "頭が痛い。",
+    "target": "頭",
+    "options": [
+      "あたま",
+      "ず",
+      "とう",
+      "かしら"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 430,
+    "cat": "kanji_reading",
+    "sentence": "首が長い。",
+    "target": "首",
+    "options": [
+      "しゅ",
+      "こう",
+      "くし",
+      "くび"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 431,
+    "cat": "kanji_reading",
+    "sentence": "肩が痛い。",
+    "target": "肩",
+    "options": [
+      "がた",
+      "かだ",
+      "かた",
+      "けん"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 432,
+    "cat": "kanji_reading",
+    "sentence": "背が高い。",
+    "target": "背",
+    "options": [
+      "はく",
+      "せ",
+      "はい",
+      "せい"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 433,
+    "cat": "kanji_reading",
+    "sentence": "胸が痛い。",
+    "target": "胸",
+    "options": [
+      "むね",
+      "きょう",
+      "ぬね",
+      "ぶね"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 434,
+    "cat": "kanji_reading",
+    "sentence": "腹が空く。",
+    "target": "腹",
+    "options": [
+      "ふく",
+      "ばら",
+      "ぷく",
+      "はら"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 435,
+    "cat": "kanji_reading",
+    "sentence": "指が長い。",
+    "target": "指",
+    "options": [
+      "さし",
+      "じ",
+      "ゆび",
+      "し"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 436,
+    "cat": "kanji_reading",
+    "sentence": "体が大きい。",
+    "target": "体",
+    "options": [
+      "がら",
+      "からだ",
+      "たい",
+      "てい"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 437,
+    "cat": "kanji_reading",
+    "sentence": "血が出る。",
+    "target": "血",
+    "options": [
+      "ち",
+      "けつ",
+      "ぢ",
+      "じ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 438,
+    "cat": "kanji_reading",
+    "sentence": "骨が折れる。",
+    "target": "骨",
+    "options": [
+      "こつ",
+      "ぼね",
+      "きょつ",
+      "ほね"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 439,
+    "cat": "kanji_reading",
+    "sentence": "皮をむく。",
+    "target": "皮",
+    "options": [
+      "がわ",
+      "はだ",
+      "かわ",
+      "ひ"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 440,
+    "cat": "kanji_reading",
+    "sentence": "歯を磨く。",
+    "target": "歯",
+    "options": [
+      "が",
+      "は",
+      "し",
+      "しい"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 441,
+    "cat": "kanji_reading",
+    "sentence": "髪が長い。",
+    "target": "髪",
+    "options": [
+      "かみ",
+      "はつ",
+      "がみ",
+      "はい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 442,
+    "cat": "kanji_reading",
+    "sentence": "空気がきれい。",
+    "target": "空気",
+    "options": [
+      "そらき",
+      "くうぎ",
+      "からき",
+      "くうき"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 443,
+    "cat": "kanji_reading",
+    "sentence": "星がきれい。",
+    "target": "星",
+    "options": [
+      "ほせ",
+      "ぼし",
+      "ほし",
+      "せい"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 444,
+    "cat": "kanji_reading",
+    "sentence": "太陽がまぶしい。",
+    "target": "太陽",
+    "options": [
+      "たいひ",
+      "たいよう",
+      "たよう",
+      "おおよう"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 445,
+    "cat": "kanji_reading",
+    "sentence": "昔の話をする。",
+    "target": "昔",
+    "options": [
+      "むかし",
+      "せき",
+      "せい",
+      "こし"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 446,
+    "cat": "kanji_reading",
+    "sentence": "秋は涼しい。",
+    "target": "秋",
+    "options": [
+      "しゅう",
+      "ちゅう",
+      "あ",
+      "あき"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 447,
+    "cat": "kanji_reading",
+    "sentence": "冬は寒い。",
+    "target": "冬",
+    "options": [
+      "ぶゆ",
+      "ひゅ",
+      "ふゆ",
+      "とう"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 448,
+    "cat": "kanji_reading",
+    "sentence": "春が来る。",
+    "target": "春",
+    "options": [
+      "ばる",
+      "はる",
+      "しゅん",
+      "はり"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 449,
+    "cat": "kanji_reading",
+    "sentence": "夏は暑い。",
+    "target": "夏",
+    "options": [
+      "なつ",
+      "か",
+      "げ",
+      "なん"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 450,
+    "cat": "kanji_reading",
+    "sentence": "季節が変わる。",
+    "target": "季節",
+    "options": [
+      "きぜつ",
+      "きせい",
+      "きもの",
+      "きせつ"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 451,
+    "cat": "kanji_reading",
+    "sentence": "午前中に行く。",
+    "target": "午前",
+    "options": [
+      "うまぜん",
+      "ごまえ",
+      "ごぜん",
+      "ごせん"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 452,
+    "cat": "kanji_reading",
+    "sentence": "午後から出かける。",
+    "target": "午後",
+    "options": [
+      "ごうご",
+      "ごご",
+      "ごあと",
+      "うまご"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 453,
+    "cat": "kanji_reading",
+    "sentence": "夕方に会う。",
+    "target": "夕方",
+    "options": [
+      "ゆうがた",
+      "ゆうほう",
+      "せきがた",
+      "ゆかた"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 454,
+    "cat": "kanji_reading",
+    "sentence": "晩に電話する。",
+    "target": "晩",
+    "options": [
+      "はん",
+      "まん",
+      "ぼん",
+      "ばん"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 455,
+    "cat": "kanji_reading",
+    "sentence": "毎週日曜日に会う。",
+    "target": "週",
+    "options": [
+      "じゅう",
+      "あまね",
+      "しゅう",
+      "しゅ"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 456,
+    "cat": "kanji_reading",
+    "sentence": "週末は休みだ。",
+    "target": "週末",
+    "options": [
+      "じゅまつ",
+      "しゅうまつ",
+      "しゅうすえ",
+      "しゅまつ"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 457,
+    "cat": "kanji_reading",
+    "sentence": "年末は忙しい。",
+    "target": "年末",
+    "options": [
+      "ねんまつ",
+      "としまつ",
+      "ねんすえ",
+      "ねんしゅう"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 458,
+    "cat": "kanji_reading",
+    "sentence": "一番好きな色だ。",
+    "target": "一番",
+    "options": [
+      "いちはん",
+      "ひとばん",
+      "いちぱん",
+      "いちばん"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 459,
+    "cat": "kanji_reading",
+    "sentence": "電話番号を聞く。",
+    "target": "番号",
+    "options": [
+      "はんごう",
+      "ばんじゅ",
+      "ばんごう",
+      "ばんこう"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 460,
+    "cat": "kanji_reading",
+    "sentence": "住所を書く。",
+    "target": "住所",
+    "options": [
+      "じゅうじょ",
+      "じゅうしょ",
+      "すみしょ",
+      "じゅしょう"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 461,
+    "cat": "kanji_reading",
+    "sentence": "切手を貼る。",
+    "target": "切手",
+    "options": [
+      "きって",
+      "きりて",
+      "せつしゅ",
+      "せっしゅ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 462,
+    "cat": "kanji_reading",
+    "sentence": "葉書を送る。",
+    "target": "葉書",
+    "options": [
+      "ようしょ",
+      "はしょ",
+      "はかき",
+      "はがき"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 463,
+    "cat": "kanji_reading",
+    "sentence": "封筒に入れる。",
+    "target": "封筒",
+    "options": [
+      "ふどう",
+      "ふうつつ",
+      "ふうとう",
+      "ほうとう"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 464,
+    "cat": "kanji_reading",
+    "sentence": "小包を送る。",
+    "target": "小包",
+    "options": [
+      "こほう",
+      "こづつみ",
+      "しょうほう",
+      "こつつみ"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 465,
+    "cat": "kanji_reading",
+    "sentence": "荷物を送る。",
+    "target": "荷物",
+    "options": [
+      "にもつ",
+      "かもつ",
+      "にぶつ",
+      "にしな"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 466,
+    "cat": "kanji_reading",
+    "sentence": "約束を守る。",
+    "target": "約束",
+    "options": [
+      "やくたば",
+      "やっそく",
+      "わかそく",
+      "やくそく"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 467,
+    "cat": "kanji_reading",
+    "sentence": "先生に相談する。",
+    "target": "相談",
+    "options": [
+      "しょうだん",
+      "あいだん",
+      "そうだん",
+      "そうたん"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 468,
+    "cat": "kanji_reading",
+    "sentence": "心配しないでください。",
+    "target": "心配",
+    "options": [
+      "しんぱ",
+      "しんぱい",
+      "こころはい",
+      "しんばい"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 469,
+    "cat": "kanji_reading",
+    "sentence": "安心しました。",
+    "target": "安心",
+    "options": [
+      "あんしん",
+      "やすしん",
+      "あんこころ",
+      "あんき"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 471,
+    "cat": "kanji_reading",
+    "sentence": "気分がいい。",
+    "target": "気分",
+    "options": [
+      "きぶ",
+      "きわけ",
+      "きぶん",
+      "きふん"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 472,
+    "cat": "kanji_reading",
+    "sentence": "用事がある。",
+    "target": "用事",
+    "options": [
+      "もちごと",
+      "ようじ",
+      "ようごと",
+      "もちいじ"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 473,
+    "cat": "kanji_reading",
+    "sentence": "予定を立てる。",
+    "target": "予定",
+    "options": [
+      "よてい",
+      "よさだ",
+      "よじょう",
+      "あらかじてい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 474,
+    "cat": "kanji_reading",
+    "sentence": "計画を立てる。",
+    "target": "計画",
+    "options": [
+      "けいが",
+      "けいかい",
+      "はかりかく",
+      "けいかく"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 475,
+    "cat": "kanji_reading",
+    "sentence": "理由を聞く。",
+    "target": "理由",
+    "options": [
+      "ことわゆう",
+      "ことわりゆう",
+      "りゆう",
+      "りゆ"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 476,
+    "cat": "kanji_reading",
+    "sentence": "原因を調べる。",
+    "target": "原因",
+    "options": [
+      "けんいん",
+      "げんいん",
+      "もといん",
+      "げいん"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 477,
+    "cat": "kanji_reading",
+    "sentence": "結果を見る。",
+    "target": "結果",
+    "options": [
+      "けっか",
+      "けつが",
+      "けっこう",
+      "むすびか"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 478,
+    "cat": "kanji_reading",
+    "sentence": "成績がいい。",
+    "target": "成績",
+    "options": [
+      "せいぜき",
+      "じょうせき",
+      "なりせき",
+      "せいせき"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 479,
+    "cat": "kanji_reading",
+    "sentence": "百点を取る。",
+    "target": "点",
+    "options": [
+      "た",
+      "てっ",
+      "てん",
+      "でん"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 480,
+    "cat": "kanji_reading",
+    "sentence": "席に座る。",
+    "target": "席",
+    "options": [
+      "さい",
+      "せき",
+      "しき",
+      "さき"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 481,
+    "cat": "kanji_reading",
+    "sentence": "入口から入る。",
+    "target": "入口",
+    "options": [
+      "いりぐち",
+      "にゅうぐち",
+      "いれぐち",
+      "いりこう"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 482,
+    "cat": "kanji_reading",
+    "sentence": "出口から出る。",
+    "target": "出口",
+    "options": [
+      "しゅつぐち",
+      "だぐち",
+      "でこう",
+      "でぐち"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 483,
+    "cat": "kanji_reading",
+    "sentence": "三階に行く。",
+    "target": "階",
+    "options": [
+      "きざ",
+      "がい",
+      "かい",
+      "だん"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 484,
+    "cat": "kanji_reading",
+    "sentence": "階段を上る。",
+    "target": "階段",
+    "options": [
+      "がいだん",
+      "かいだん",
+      "かいたん",
+      "きざだん"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 485,
+    "cat": "kanji_reading",
+    "sentence": "屋上で休む。",
+    "target": "屋上",
+    "options": [
+      "おくじょう",
+      "やうえ",
+      "おくうえ",
+      "おくしょう"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 486,
+    "cat": "kanji_reading",
+    "sentence": "庭に花がある。",
+    "target": "庭",
+    "options": [
+      "てい",
+      "にば",
+      "だい",
+      "にわ"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 487,
+    "cat": "kanji_reading",
+    "sentence": "池に魚がいる。",
+    "target": "池",
+    "options": [
+      "じ",
+      "けい",
+      "いけ",
+      "ち"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 488,
+    "cat": "kanji_reading",
+    "sentence": "高い建物がある。",
+    "target": "建物",
+    "options": [
+      "たちもの",
+      "たてもの",
+      "けんぶつ",
+      "けんもの"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 489,
+    "cat": "kanji_reading",
+    "sentence": "教会に行く。",
+    "target": "教会",
+    "options": [
+      "きょうかい",
+      "きょうえ",
+      "けいかい",
+      "おしえかい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 490,
+    "cat": "kanji_reading",
+    "sentence": "寺に行く。",
+    "target": "寺",
+    "options": [
+      "じ",
+      "し",
+      "でら",
+      "てら"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 491,
+    "cat": "kanji_reading",
+    "sentence": "神社に参る。",
+    "target": "神社",
+    "options": [
+      "しんじゃ",
+      "じんやしろ",
+      "じんじゃ",
+      "かみしゃ"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 492,
+    "cat": "kanji_reading",
+    "sentence": "部屋代を払う。",
+    "target": "部屋代",
+    "options": [
+      "ぶおくだい",
+      "へやだい",
+      "ぶやだい",
+      "へやしろ"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 493,
+    "cat": "kanji_reading",
+    "sentence": "案内をする。",
+    "target": "案内",
+    "options": [
+      "あんない",
+      "あんうち",
+      "あんだい",
+      "かんない"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 494,
+    "cat": "kanji_reading",
+    "sentence": "世界を旅する。",
+    "target": "世界",
+    "options": [
+      "せっかい",
+      "せがい",
+      "よかい",
+      "せかい"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 495,
+    "cat": "kanji_reading",
+    "sentence": "友達を紹介する。",
+    "target": "紹介",
+    "options": [
+      "しょうがい",
+      "そうかい",
+      "しょうかい",
+      "じょうかい"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 496,
+    "cat": "kanji_reading",
+    "sentence": "説明を聞く。",
+    "target": "説明",
+    "options": [
+      "せっめい",
+      "せつめい",
+      "せつみょう",
+      "とくめい"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 497,
+    "cat": "kanji_reading",
+    "sentence": "注意してください。",
+    "target": "注意",
+    "options": [
+      "ちゅうい",
+      "ちゅい",
+      "そそい",
+      "ちゅうおも"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 498,
+    "cat": "kanji_reading",
+    "sentence": "必要な物を買う。",
+    "target": "必要",
+    "options": [
+      "ひちよう",
+      "ひつえ",
+      "かなようよ",
+      "ひつよう"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 499,
+    "cat": "kanji_reading",
+    "sentence": "大切な物をなくす。",
+    "target": "大切",
+    "options": [
+      "たいせき",
+      "おおせつ",
+      "たいせつ",
+      "だいせつ"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 500,
+    "cat": "kanji_reading",
+    "sentence": "大変忙しい。",
+    "target": "大変",
+    "options": [
+      "たいか",
+      "たいへん",
+      "だいへん",
+      "おおへん"
+    ],
+    "answer": 1
+  }
+]

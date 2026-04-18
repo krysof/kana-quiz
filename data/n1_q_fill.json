@@ -1,502 +1,5970 @@
 [
-  {"id": 5001, "cat": "orthography", "sentence": "この問題は比較的ようい（　　）に解決できる。", "target": "ようい", "options": ["容易","容位","用意","用易"], "answer": 0},
-  {"id": 5002, "cat": "orthography", "sentence": "彼はかんよう（　　）な態度で人と接する。", "target": "かんよう", "options": ["寛容","慣用","観容","勧容"], "answer": 0},
-  {"id": 5003, "cat": "orthography", "sentence": "市場の変動にほんろう（　　）される。", "target": "ほんろう", "options": ["翻弄","反弄","本弄","凡弄"], "answer": 0},
-  {"id": 5004, "cat": "orthography", "sentence": "この部屋をちんたい（　　）で借りる。", "target": "ちんたい", "options": ["賃貸","賃代","貸賃","賃待"], "answer": 0},
-  {"id": 5005, "cat": "orthography", "sentence": "突然の知らせにどうよう（　　）した。", "target": "どうよう", "options": ["動揺","同様","動様","動用"], "answer": 0},
-  {"id": 5006, "cat": "orthography", "sentence": "写真のせんめい（　　）な色彩に驚いた。", "target": "せんめい", "options": ["鮮明","宣明","選明","先明"], "answer": 0},
-  {"id": 5007, "cat": "orthography", "sentence": "彼のがんきょう（　　）な意志は変わらない。", "target": "がんきょう", "options": ["頑強","岩強","元強","眼強"], "answer": 0},
-  {"id": 5008, "cat": "orthography", "sentence": "彼の発言は重要な問題をしさ（　　）している。", "target": "しさ", "options": ["示唆","指唆","示差","支唆"], "answer": 0},
-  {"id": 5009, "cat": "orthography", "sentence": "誰にでもせんざい（　　）能力がある。", "target": "せんざい", "options": ["潜在","先在","前在","洗在"], "answer": 0},
-  {"id": 5010, "cat": "orthography", "sentence": "事件のけいい（　　）を説明してください。", "target": "けいい", "options": ["経緯","敬意","経意","軽緯"], "answer": 0},
-  {"id": 5011, "cat": "orthography", "sentence": "この絵はいんえい（　　）が美しい。", "target": "いんえい", "options": ["陰影","印影","陰映","因影"], "answer": 0},
-  {"id": 5012, "cat": "orthography", "sentence": "しょうどう（　　）買いに注意しなさい。", "target": "しょうどう", "options": ["衝動","衝道","性動","商動"], "answer": 0},
-  {"id": 5013, "cat": "orthography", "sentence": "証拠をいんぺい（　　）してはいけない。", "target": "いんぺい", "options": ["隠蔽","陰蔽","隠閉","引蔽"], "answer": 0},
-  {"id": 5014, "cat": "orthography", "sentence": "金属がふしょく（　　）している。", "target": "ふしょく", "options": ["腐食","付食","不食","腐色"], "answer": 0},
-  {"id": 5015, "cat": "orthography", "sentence": "論文のしょうろく（　　）を読む。", "target": "しょうろく", "options": ["抄録","招録","賞録","詳録"], "answer": 0},
-  {"id": 5016, "cat": "orthography", "sentence": "彼はしゅんそく（　　）で有名な選手だ。", "target": "しゅんそく", "options": ["俊足","旬足","駿足","春足"], "answer": 0},
-  {"id": 5017, "cat": "orthography", "sentence": "彼女はゆうしゅう（　　）な学生だ。", "target": "ゆうしゅう", "options": ["優秀","優愁","憂秀","有秀"], "answer": 0},
-  {"id": 5018, "cat": "orthography", "sentence": "家族のきずな（　　）を大切にする。", "target": "きずな", "options": ["絆","縁","紐","綱"], "answer": 0},
-  {"id": 5019, "cat": "orthography", "sentence": "ろうきゅう（　　）化した建物を改修する。", "target": "ろうきゅう", "options": ["老朽","老旧","老休","労朽"], "answer": 0},
-  {"id": 5020, "cat": "orthography", "sentence": "先生へのけいぼ（　　）の念を抱く。", "target": "けいぼ", "options": ["敬慕","敬母","慶慕","敬暮"], "answer": 0},
-  {"id": 5021, "cat": "orthography", "sentence": "状況をはあく（　　）する。", "target": "はあく", "options": ["把握","破握","把悪","波握"], "answer": 0},
-  {"id": 5022, "cat": "orthography", "sentence": "敵のきょうい（　　）に対抗する。", "target": "きょうい", "options": ["脅威","驚異","強意","協威"], "answer": 0},
-  {"id": 5023, "cat": "orthography", "sentence": "計画のがいよう（　　）を説明する。", "target": "がいよう", "options": ["概要","外要","該要","慨要"], "answer": 0},
-  {"id": 5024, "cat": "orthography", "sentence": "政策をだんこう（　　）する。", "target": "だんこう", "options": ["断行","断交","団行","弾行"], "answer": 0},
-  {"id": 5025, "cat": "orthography", "sentence": "彼はせんえつ（　　）ながら司会を務めた。", "target": "せんえつ", "options": ["僭越","潜越","先越","宣越"], "answer": 0},
-  {"id": 5026, "cat": "orthography", "sentence": "ちみつ（　　）な計画を立てる。", "target": "ちみつ", "options": ["緻密","綿密","精密","密緻"], "answer": 0},
-  {"id": 5027, "cat": "orthography", "sentence": "かっとう（　　）の末、決断を下した。", "target": "かっとう", "options": ["葛藤","確闘","葛闘","格藤"], "answer": 0},
-  {"id": 5028, "cat": "orthography", "sentence": "そぜい（　　）を納める義務がある。", "target": "そぜい", "options": ["租税","粗税","組税","素税"], "answer": 0},
-  {"id": 5029, "cat": "orthography", "sentence": "かもく（　　）な人は信頼される。", "target": "かもく", "options": ["寡黙","家黙","過黙","仮黙"], "answer": 0},
-  {"id": 5030, "cat": "orthography", "sentence": "きょひ（　　）反応を示す。", "target": "きょひ", "options": ["拒否","拒非","距否","巨否"], "answer": 0},
-  {"id": 5031, "cat": "orthography", "sentence": "かっき（　　）的な発明をする。", "target": "かっき", "options": ["画期","活期","各期","確期"], "answer": 0},
-  {"id": 5032, "cat": "orthography", "sentence": "会社のばくだい（　　）な利益を得る。", "target": "ばくだい", "options": ["莫大","爆大","漠大","膨大"], "answer": 0},
-  {"id": 5033, "cat": "orthography", "sentence": "事故のきょくち（　　）に達した。", "target": "きょくち", "options": ["極致","局地","極地","極知"], "answer": 0},
-  {"id": 5034, "cat": "orthography", "sentence": "彼はざんしん（　　）なアイデアを出した。", "target": "ざんしん", "options": ["斬新","残新","参新","暫新"], "answer": 0},
-  {"id": 5035, "cat": "orthography", "sentence": "ふんきゅう（　　）した議論を収める。", "target": "ふんきゅう", "options": ["紛糾","粉糾","紛究","奮糾"], "answer": 0},
-  {"id": 5036, "cat": "orthography", "sentence": "新商品のふきゅう（　　）を図る。", "target": "ふきゅう", "options": ["普及","不朽","不及","付及"], "answer": 0},
-  {"id": 5037, "cat": "orthography", "sentence": "こうみょう（　　）な手段を使う。", "target": "こうみょう", "options": ["巧妙","光明","公明","高妙"], "answer": 0},
-  {"id": 5038, "cat": "orthography", "sentence": "被害がじんだい（　　）だ。", "target": "じんだい", "options": ["甚大","仁大","尽大","陣大"], "answer": 0},
-  {"id": 5039, "cat": "orthography", "sentence": "しんし（　　）に取り組む姿勢が大切だ。", "target": "しんし", "options": ["真摯","紳士","真史","真士"], "answer": 0},
-  {"id": 5040, "cat": "orthography", "sentence": "けねん（　　）された事態が起きた。", "target": "けねん", "options": ["懸念","県念","検念","研念"], "answer": 0},
-  {"id": 5041, "cat": "orthography", "sentence": "二国間のあつれき（　　）が生じた。", "target": "あつれき", "options": ["軋轢","圧轢","悪轢","葛轢"], "answer": 0},
-  {"id": 5042, "cat": "orthography", "sentence": "しっこく（　　）の闇に包まれる。", "target": "しっこく", "options": ["漆黒","失黒","疾黒","湿黒"], "answer": 0},
-  {"id": 5043, "cat": "orthography", "sentence": "彼はだらく（　　）した生活を送っている。", "target": "だらく", "options": ["堕落","駄楽","打落","妥落"], "answer": 0},
-  {"id": 5044, "cat": "orthography", "sentence": "かんとく（　　）不行き届きで批判される。", "target": "かんとく", "options": ["監督","観督","勧督","寒督"], "answer": 0},
-  {"id": 5045, "cat": "orthography", "sentence": "部下をしった（　　）激励する。", "target": "しった", "options": ["叱咤","叱多","失咤","七咤"], "answer": 0},
-  {"id": 5046, "cat": "orthography", "sentence": "国家のそんぼう（　　）の危機に瀕する。", "target": "そんぼう", "options": ["存亡","損亡","尊亡","存望"], "answer": 0},
-  {"id": 5047, "cat": "orthography", "sentence": "もうれつ（　　）な勢いで攻撃した。", "target": "もうれつ", "options": ["猛烈","盲烈","蒙烈","毛烈"], "answer": 0},
-  {"id": 5048, "cat": "orthography", "sentence": "ろうほう（　　）が届いた。", "target": "ろうほう", "options": ["朗報","浪報","労報","廊報"], "answer": 0},
-  {"id": 5049, "cat": "orthography", "sentence": "規則をじゅんしゅ（　　）する。", "target": "じゅんしゅ", "options": ["遵守","順守","準守","巡守"], "answer": 0},
-  {"id": 5050, "cat": "orthography", "sentence": "彼はそうめい（　　）な少年だ。", "target": "そうめい", "options": ["聡明","双明","総明","草明"], "answer": 0},
-  {"id": 5051, "cat": "orthography", "sentence": "感情のきふく（　　）が激しい。", "target": "きふく", "options": ["起伏","貴服","帰伏","既伏"], "answer": 0},
-  {"id": 5052, "cat": "orthography", "sentence": "過去をかいこ（　　）する。", "target": "かいこ", "options": ["回顧","解雇","懐古","回古"], "answer": 0},
-  {"id": 5053, "cat": "orthography", "sentence": "けいちょう（　　）に聞き入る。", "target": "けいちょう", "options": ["傾聴","軽聴","慶聴","敬聴"], "answer": 0},
-  {"id": 5054, "cat": "orthography", "sentence": "記念日にけいさい（　　）する。", "target": "けいさい", "options": ["掲載","計載","形載","経載"], "answer": 0},
-  {"id": 5055, "cat": "orthography", "sentence": "けいやく（　　）を結ぶ。", "target": "けいやく", "options": ["契約","経約","計約","軽約"], "answer": 0},
-  {"id": 5056, "cat": "orthography", "sentence": "彼のこうせき（　　）を称える。", "target": "こうせき", "options": ["功績","鉱石","業績","功積"], "answer": 0},
-  {"id": 5057, "cat": "orthography", "sentence": "いさん（　　）を相続する。", "target": "いさん", "options": ["遺産","医産","維産","移産"], "answer": 0},
-  {"id": 5058, "cat": "orthography", "sentence": "ぼんよう（　　）な人生を送る。", "target": "ぼんよう", "options": ["凡庸","凡用","煩用","盆用"], "answer": 0},
-  {"id": 5059, "cat": "orthography", "sentence": "かじょう（　　）書きにまとめる。", "target": "かじょう", "options": ["箇条","過剰","課条","可条"], "answer": 0},
-  {"id": 5060, "cat": "orthography", "sentence": "しょうがい（　　）を克服する。", "target": "しょうがい", "options": ["障害","生涯","傷害","照害"], "answer": 0},
-  {"id": 5061, "cat": "orthography", "sentence": "環境にじゅんのう（　　）する。", "target": "じゅんのう", "options": ["順応","準応","純応","遵応"], "answer": 0},
-  {"id": 5062, "cat": "orthography", "sentence": "けいこく（　　）を発する。", "target": "けいこく", "options": ["警告","渓谷","経国","計告"], "answer": 0},
-  {"id": 5063, "cat": "orthography", "sentence": "かいじゅう（　　）策を講じる。", "target": "かいじゅう", "options": ["懐柔","怪獣","改修","開柔"], "answer": 0},
-  {"id": 5064, "cat": "orthography", "sentence": "はんれい（　　）を参照する。", "target": "はんれい", "options": ["判例","凡例","範例","反例"], "answer": 0},
-  {"id": 5065, "cat": "orthography", "sentence": "きせい（　　）を緩和する。", "target": "きせい", "options": ["規制","既成","帰省","寄生"], "answer": 0},
-  {"id": 5066, "cat": "orthography", "sentence": "しょうれい（　　）金を受給する。", "target": "しょうれい", "options": ["奨励","賞礼","症例","招例"], "answer": 0},
-  {"id": 5067, "cat": "orthography", "sentence": "このしゅっぱん（　　）は画期的だ。", "target": "しゅっぱん", "options": ["出版","出帆","出販","出板"], "answer": 0},
-  {"id": 5068, "cat": "orthography", "sentence": "無謀な行動をきょぜつ（　　）する。", "target": "きょぜつ", "options": ["拒絶","距絶","拒絕","巨絶"], "answer": 0},
-  {"id": 5069, "cat": "orthography", "sentence": "データをるいせき（　　）する。", "target": "るいせき", "options": ["累積","類積","累跡","塁積"], "answer": 0},
-  {"id": 5070, "cat": "orthography", "sentence": "けいはつ（　　）活動を行う。", "target": "けいはつ", "options": ["啓発","啓蒙","警発","掲発"], "answer": 0},
-  {"id": 5071, "cat": "orthography", "sentence": "しゅわん（　　）を発揮する。", "target": "しゅわん", "options": ["手腕","首腕","主腕","手碗"], "answer": 0},
-  {"id": 5072, "cat": "orthography", "sentence": "ひよう（　　）対効果を検討する。", "target": "ひよう", "options": ["費用","比用","被用","避用"], "answer": 0},
-  {"id": 5073, "cat": "orthography", "sentence": "じゃっかん（　　）の違いがある。", "target": "じゃっかん", "options": ["若干","弱冠","若感","若間"], "answer": 0},
-  {"id": 5074, "cat": "orthography", "sentence": "仕事にぼっとう（　　）する。", "target": "ぼっとう", "options": ["没頭","忘頭","暮頭","墨頭"], "answer": 0},
-  {"id": 5075, "cat": "orthography", "sentence": "この問題はふんそう（　　）の火種となる。", "target": "ふんそう", "options": ["紛争","粉争","奮争","紛相"], "answer": 0},
-  {"id": 5076, "cat": "orthography", "sentence": "きょうしゅく（　　）ですが、お願いします。", "target": "きょうしゅく", "options": ["恐縮","強縮","共縮","恭縮"], "answer": 0},
-  {"id": 5077, "cat": "orthography", "sentence": "じんそく（　　）な対応が求められる。", "target": "じんそく", "options": ["迅速","神速","尋速","仁速"], "answer": 0},
-  {"id": 5078, "cat": "orthography", "sentence": "けっさい（　　）を申請する。", "target": "けっさい", "options": ["決裁","決済","結裁","決祭"], "answer": 0},
-  {"id": 5079, "cat": "orthography", "sentence": "しゅうちゃく（　　）心が強い。", "target": "しゅうちゃく", "options": ["執着","終着","収着","習着"], "answer": 0},
-  {"id": 5080, "cat": "orthography", "sentence": "ていねい（　　）に対応する。", "target": "ていねい", "options": ["丁寧","定寧","低寧","亭寧"], "answer": 0},
-  {"id": 5081, "cat": "orthography", "sentence": "情報がろうえい（　　）した。", "target": "ろうえい", "options": ["漏洩","漏営","労洩","老洩"], "answer": 0},
-  {"id": 5082, "cat": "orthography", "sentence": "ざんこく（　　）な仕打ちを受ける。", "target": "ざんこく", "options": ["残酷","残刻","惨酷","暫酷"], "answer": 0},
-  {"id": 5083, "cat": "orthography", "sentence": "しょうにん（　　）を求める。", "target": "しょうにん", "options": ["承認","証人","商人","昇任"], "answer": 0},
-  {"id": 5084, "cat": "orthography", "sentence": "せっしょう（　　）に時間がかかる。", "target": "せっしょう", "options": ["折衝","摂生","接触","殺生"], "answer": 0},
-  {"id": 5085, "cat": "orthography", "sentence": "自己ぎまん（　　）に陥る。", "target": "ぎまん", "options": ["欺瞞","疑満","戯慢","擬瞞"], "answer": 0},
-  {"id": 5086, "cat": "orthography", "sentence": "会議でとうぎ（　　）する。", "target": "とうぎ", "options": ["討議","討義","同義","当議"], "answer": 0},
-  {"id": 5087, "cat": "orthography", "sentence": "じょうじゅ（　　）を祈る。", "target": "じょうじゅ", "options": ["成就","情受","上受","乗就"], "answer": 0},
-  {"id": 5088, "cat": "orthography", "sentence": "しゅっか（　　）を再開する。", "target": "しゅっか", "options": ["出荷","出火","出貨","出家"], "answer": 0},
-  {"id": 5089, "cat": "orthography", "sentence": "ていたい（　　）した業務を進める。", "target": "ていたい", "options": ["停滞","低滞","定滞","帝滞"], "answer": 0},
-  {"id": 5090, "cat": "orthography", "sentence": "こうきゅう（　　）的な解決を目指す。", "target": "こうきゅう", "options": ["恒久","高級","公休","後給"], "answer": 0},
-  {"id": 5091, "cat": "orthography", "sentence": "きゅうきょく（　　）の目標を達成する。", "target": "きゅうきょく", "options": ["究極","窮極","九極","急極"], "answer": 0},
-  {"id": 5092, "cat": "orthography", "sentence": "そち（　　）を講じる。", "target": "そち", "options": ["措置","措知","粗置","素置"], "answer": 0},
-  {"id": 5093, "cat": "orthography", "sentence": "伝統をけいしょう（　　）する。", "target": "けいしょう", "options": ["継承","敬称","軽症","警鐘"], "answer": 0},
-  {"id": 5094, "cat": "orthography", "sentence": "あいまい（　　）な返事を避ける。", "target": "あいまい", "options": ["曖昧","愛昧","相昧","会昧"], "answer": 0},
-  {"id": 5095, "cat": "orthography", "sentence": "きとく（　　）な状態に陥る。", "target": "きとく", "options": ["危篤","既得","奇特","帰得"], "answer": 0},
-  {"id": 5096, "cat": "orthography", "sentence": "かんべん（　　）してほしい。", "target": "かんべん", "options": ["勘弁","簡便","完弁","管弁"], "answer": 0},
-  {"id": 5097, "cat": "orthography", "sentence": "ふんいき（　　）が和やかだ。", "target": "ふんいき", "options": ["雰囲気","奮囲気","紛囲気","芬囲気"], "answer": 0},
-  {"id": 5098, "cat": "orthography", "sentence": "しゅうちしん（　　）がない。", "target": "しゅうちしん", "options": ["羞恥心","衆知心","執恥心","収恥心"], "answer": 0},
-  {"id": 5099, "cat": "orthography", "sentence": "ばんぜん（　　）の準備を整える。", "target": "ばんぜん", "options": ["万全","万然","晩全","万善"], "answer": 0},
-  {"id": 5100, "cat": "orthography", "sentence": "しはつ（　　）の電車に乗る。", "target": "しはつ", "options": ["始発","市発","支発","試発"], "answer": 0},
-  {"id": 5101, "cat": "context_vocab", "sentence": "この理論の基本的な（　　）を理解する必要がある。", "options": ["概念","観点","概観","概略"], "answer": 0},
-  {"id": 5102, "cat": "context_vocab", "sentence": "発言の（　　）を汲み取ってほしい。", "options": ["趣旨","主旨","趣向","主張"], "answer": 0},
-  {"id": 5103, "cat": "context_vocab", "sentence": "その主張には明確な（　　）がない。", "options": ["根拠","根底","基盤","根源"], "answer": 0},
-  {"id": 5104, "cat": "context_vocab", "sentence": "事件の（　　）を詳しく調べる。", "options": ["背景","背後","背面","後景"], "answer": 0},
-  {"id": 5105, "cat": "context_vocab", "sentence": "契約締結までの（　　）を報告する。", "options": ["経緯","経過","経歴","経由"], "answer": 0},
-  {"id": 5106, "cat": "context_vocab", "sentence": "複雑な（　　）を持つ組織だ。", "options": ["体系","体制","体裁","体験"], "answer": 0},
-  {"id": 5107, "cat": "context_vocab", "sentence": "建物の（　　）に問題がある。", "options": ["構造","構成","構想","構築"], "answer": 0},
-  {"id": 5108, "cat": "context_vocab", "sentence": "問題の（　　）を突く必要がある。", "options": ["核心","核","中心","中核"], "answer": 0},
-  {"id": 5109, "cat": "context_vocab", "sentence": "物事の（　　）を見極める。", "options": ["本質","本性","本来","本体"], "answer": 0},
-  {"id": 5110, "cat": "context_vocab", "sentence": "事件の（　　）が明らかになった。", "options": ["真相","真実","真理","本相"], "answer": 0},
-  {"id": 5111, "cat": "context_vocab", "sentence": "現場の（　　）を把握する。", "options": ["実態","実情","実状","実体"], "answer": 0},
-  {"id": 5112, "cat": "context_vocab", "sentence": "彼の（　　）を聞き出した。", "options": ["本音","本心","本当","本気"], "answer": 0},
-  {"id": 5113, "cat": "context_vocab", "sentence": "（　　）と本音を使い分ける。", "options": ["建前","表向き","表面","上辺"], "answer": 0},
-  {"id": 5114, "cat": "context_vocab", "sentence": "副作用が（　　）される。", "options": ["懸念","心配","不安","憂慮"], "answer": 0},
-  {"id": 5115, "cat": "context_vocab", "sentence": "将来を（　　）する声が高まる。", "options": ["憂慮","憂鬱","憂愁","憂患"], "answer": 0},
-  {"id": 5116, "cat": "context_vocab", "sentence": "その説明には（　　）がある。", "options": ["疑義","疑問","疑念","疑惑"], "answer": 0},
-  {"id": 5117, "cat": "context_vocab", "sentence": "強い（　　）を買った。", "options": ["反発","反感","反抗","反論"], "answer": 0},
-  {"id": 5118, "cat": "context_vocab", "sentence": "影響が広く（　　）している。", "options": ["波及","拡散","普及","伝播"], "answer": 0},
-  {"id": 5119, "cat": "context_vocab", "sentence": "スマホが急速に（　　）した。", "options": ["普及","波及","浸透","拡大"], "answer": 0},
-  {"id": 5120, "cat": "context_vocab", "sentence": "文化が社会に（　　）する。", "options": ["浸透","透過","浸入","潜入"], "answer": 0},
-  {"id": 5121, "cat": "context_vocab", "sentence": "需要と供給の（　　）を保つ。", "options": ["均衡","平衡","調和","均等"], "answer": 0},
-  {"id": 5122, "cat": "context_vocab", "sentence": "社会の（　　）を維持する。", "options": ["秩序","順序","順番","次序"], "answer": 0},
-  {"id": 5123, "cat": "context_vocab", "sentence": "行政（　　）を改革する。", "options": ["機構","機関","機能","組織"], "answer": 0},
-  {"id": 5124, "cat": "context_vocab", "sentence": "旧（　　）を打破する。", "options": ["体制","体系","態勢","体質"], "answer": 0},
-  {"id": 5125, "cat": "context_vocab", "sentence": "社会の（　　）から外れた行為だ。", "options": ["規範","規則","規定","基準"], "answer": 0},
-  {"id": 5126, "cat": "context_vocab", "sentence": "春の（　　）が感じられる。", "options": ["兆し","気配","予兆","兆候"], "answer": 0},
-  {"id": 5127, "cat": "context_vocab", "sentence": "革命の（　　）が見え始めた。", "options": ["萌芽","兆し","始まり","端緒"], "answer": 0},
-  {"id": 5128, "cat": "context_vocab", "sentence": "問題解決の（　　）をつかむ。", "options": ["端緒","糸口","発端","始端"], "answer": 0},
-  {"id": 5129, "cat": "context_vocab", "sentence": "時代の（　　）を読む。", "options": ["趨勢","傾向","動向","情勢"], "answer": 0},
-  {"id": 5130, "cat": "context_vocab", "sentence": "経済の（　　）が著しい。", "options": ["躍進","進歩","発展","前進"], "answer": 0},
-  {"id": 5131, "cat": "context_vocab", "sentence": "研究に（　　）が見られる。", "options": ["進展","進行","進出","進化"], "answer": 0},
-  {"id": 5132, "cat": "context_vocab", "sentence": "彼は（　　）仕事に打ち込んでいる。", "options": ["専ら","主に","一途に","ひたすら"], "answer": 0},
-  {"id": 5133, "cat": "context_vocab", "sentence": "（　　）反対意見を述べた。", "options": ["敢えて","強いて","あえて","無理に"], "answer": 0},
-  {"id": 5134, "cat": "context_vocab", "sentence": "計画は（　　）順調に進んでいる。", "options": ["概ね","大体","大抵","大方"], "answer": 0},
-  {"id": 5135, "cat": "context_vocab", "sentence": "それは（　　）な意見だ。", "options": ["もっとも","最も","当然","尤も"], "answer": 0},
-  {"id": 5136, "cat": "context_vocab", "sentence": "（　　）には言えない問題だ。", "options": ["一概に","一律に","一様に","一方的に"], "answer": 0},
-  {"id": 5137, "cat": "context_vocab", "sentence": "最近（　　）視力が落ちた。", "options": ["頓に","急に","次第に","にわかに"], "answer": 0},
-  {"id": 5138, "cat": "context_vocab", "sentence": "仕事が（　　）進まない。", "options": ["一向に","一切","全く","まるで"], "answer": 0},
-  {"id": 5139, "cat": "context_vocab", "sentence": "彼とは（　　）連絡を取っていない。", "options": ["一切","一向","全然","少しも"], "answer": 0},
-  {"id": 5140, "cat": "context_vocab", "sentence": "一段と寒さが（　　）厳しくなった。", "options": ["一層","一段","一気","一回"], "answer": 0},
-  {"id": 5141, "cat": "context_vocab", "sentence": "事態は（　　）改善されるだろう。", "options": ["漸次","次第","順次","段々"], "answer": 0},
-  {"id": 5142, "cat": "context_vocab", "sentence": "病状は（　　）回復している。", "options": ["徐々に","段々に","次第に","ゆっくりに"], "answer": 0},
-  {"id": 5143, "cat": "context_vocab", "sentence": "（　　）間に合った。", "options": ["辛うじて","やっと","ようやく","何とか"], "answer": 0},
-  {"id": 5144, "cat": "context_vocab", "sentence": "これは（　　）傑作だ。", "options": ["紛れもなく","間違いなく","確かに","正に"], "answer": 0},
-  {"id": 5145, "cat": "context_vocab", "sentence": "優勝の喜びも（　　）だ。", "options": ["ひとしお","格別","一段","特別"], "answer": 0},
-  {"id": 5146, "cat": "context_vocab", "sentence": "計画は（　　）失敗に終わった。", "options": ["ことごとく","全て","総じて","一切"], "answer": 0},
-  {"id": 5147, "cat": "context_vocab", "sentence": "電話（　　）メールで連絡ください。", "options": ["もしくは","または","かつ","及び"], "answer": 0},
-  {"id": 5148, "cat": "context_vocab", "sentence": "彼（　　）彼女が犯人だ。", "options": ["あるいは","または","もしくは","ないし"], "answer": 0},
-  {"id": 5149, "cat": "context_vocab", "sentence": "時間を大量に（　　）。", "options": ["費やした","使った","消費した","浪費した"], "answer": 0},
-  {"id": 5150, "cat": "context_vocab", "sentence": "支払いが（　　）いる。", "options": ["滞って","止まって","遅れて","止って"], "answer": 0},
-  {"id": 5151, "cat": "context_vocab", "sentence": "義務を（　　）てはいけない。", "options": ["怠っ","疎か","なまけ","休み"], "answer": 0},
-  {"id": 5152, "cat": "context_vocab", "sentence": "彼は小さな店を（　　）でいる。", "options": ["営ん","経営し","運営し","経ん"], "answer": 0},
-  {"id": 5153, "cat": "context_vocab", "sentence": "判断を彼に（　　）。", "options": ["委ねる","任せる","託す","預ける"], "answer": 0},
-  {"id": 5154, "cat": "context_vocab", "sentence": "信念を（　　）生き方をする。", "options": ["貫く","通す","守る","保つ"], "answer": 0},
-  {"id": 5155, "cat": "context_vocab", "sentence": "役目を（　　）す。", "options": ["果た","成","遂","務め"], "answer": 0},
-  {"id": 5156, "cat": "context_vocab", "sentence": "ついに目的を（　　）た。", "options": ["遂げ","達し","果し","極め"], "answer": 0},
-  {"id": 5157, "cat": "context_vocab", "sentence": "任務を（　　）する。", "options": ["全う","完了","成就","成立"], "answer": 0},
-  {"id": 5158, "cat": "context_vocab", "sentence": "費用を自力で（　　）う。", "options": ["賄","補","支払","負担"], "answer": 0},
-  {"id": 5159, "cat": "context_vocab", "sentence": "人材を（　　）う必要がある。", "options": ["培","育","養","鍛"], "answer": 0},
-  {"id": 5160, "cat": "context_vocab", "sentence": "陰謀を（　　）む。", "options": ["企","図","画","試"], "answer": 0},
-  {"id": 5161, "cat": "context_vocab", "sentence": "体裁を（　　）う。", "options": ["繕","整","保","装"], "answer": 0},
-  {"id": 5162, "cat": "context_vocab", "sentence": "困難を（　　）ぐ。", "options": ["凌","防","避","超"], "answer": 0},
-  {"id": 5163, "cat": "context_vocab", "sentence": "平和を（　　）す存在。", "options": ["脅か","脅","危","危く"], "answer": 0},
-  {"id": 5164, "cat": "context_vocab", "sentence": "責任感が（　　）な人だ。", "options": ["希薄","薄弱","軽薄","淡泊"], "answer": 0},
-  {"id": 5165, "cat": "context_vocab", "sentence": "（　　）な味わいのスープ。", "options": ["濃厚","濃密","濃度","濃淡"], "answer": 0},
-  {"id": 5166, "cat": "context_vocab", "sentence": "会議は（　　）に進行した。", "options": ["円滑","順調","スムーズ","滑らか"], "answer": 0},
-  {"id": 5167, "cat": "context_vocab", "sentence": "（　　）な英語を話す。", "options": ["流暢","滑らか","上手","堪能"], "answer": 0},
-  {"id": 5168, "cat": "context_vocab", "sentence": "事件を（　　）に描写する。", "options": ["克明","詳細","綿密","精密"], "answer": 0},
-  {"id": 5169, "cat": "context_vocab", "sentence": "（　　）な答えが出た。", "options": ["明瞭","明確","鮮明","明白"], "answer": 0},
-  {"id": 5170, "cat": "context_vocab", "sentence": "（　　）な態度を取る。", "options": ["曖昧","漠然","不明","不確か"], "answer": 0},
-  {"id": 5171, "cat": "context_vocab", "sentence": "（　　）とした不安を感じる。", "options": ["漠然","茫然","朦朧","曖然"], "answer": 0},
-  {"id": 5172, "cat": "context_vocab", "sentence": "（　　）な頭脳の持ち主。", "options": ["明晰","明瞭","明敏","聡明"], "answer": 0},
-  {"id": 5173, "cat": "context_vocab", "sentence": "効果が（　　）に現れた。", "options": ["顕著","明白","明確","鮮明"], "answer": 0},
-  {"id": 5174, "cat": "context_vocab", "sentence": "（　　）した演技を見せる。", "options": ["円熟","成熟","熟達","完熟"], "answer": 0},
-  {"id": 5175, "cat": "context_vocab", "sentence": "（　　）に感じる問題だ。", "options": ["痛切","切実","深刻","切迫"], "answer": 0},
-  {"id": 5176, "cat": "context_vocab", "sentence": "（　　）な雰囲気に包まれる。", "options": ["厳粛","厳格","厳重","厳然"], "answer": 0},
-  {"id": 5177, "cat": "context_vocab", "sentence": "彼の業績は（　　）に値する。", "options": ["賞賛","賞与","表彰","称賛"], "answer": 0},
-  {"id": 5178, "cat": "context_vocab", "sentence": "彼の才能は（　　）している。", "options": ["傑出","突出","卓越","抜群"], "answer": 0},
-  {"id": 5179, "cat": "context_vocab", "sentence": "問題を（　　）に扱う。", "options": ["慎重","丁寧","厳重","重要"], "answer": 0},
-  {"id": 5180, "cat": "context_vocab", "sentence": "意見が（　　）する。", "options": ["対立","相反","反対","反発"], "answer": 0},
-  {"id": 5181, "cat": "context_vocab", "sentence": "計画を（　　）する。", "options": ["遂行","実行","実施","施行"], "answer": 0},
-  {"id": 5182, "cat": "context_vocab", "sentence": "困難を（　　）する。", "options": ["克服","打破","突破","征服"], "answer": 0},
-  {"id": 5183, "cat": "context_vocab", "sentence": "時代の流れに（　　）する。", "options": ["逆行","反対","背反","対抗"], "answer": 0},
-  {"id": 5184, "cat": "context_vocab", "sentence": "現状を（　　）する。", "options": ["打開","打破","打破","改善"], "answer": 0},
-  {"id": 5185, "cat": "context_vocab", "sentence": "危機に（　　）する。", "options": ["直面","対面","面接","面会"], "answer": 0},
-  {"id": 5186, "cat": "context_vocab", "sentence": "事態を（　　）する。", "options": ["収拾","収束","収集","収容"], "answer": 0},
-  {"id": 5187, "cat": "context_vocab", "sentence": "資料を（　　）する。", "options": ["吟味","検討","審議","審査"], "answer": 0},
-  {"id": 5188, "cat": "context_vocab", "sentence": "責任を（　　）する。", "options": ["転嫁","転送","転換","転用"], "answer": 0},
-  {"id": 5189, "cat": "context_vocab", "sentence": "意見を（　　）する。", "options": ["集約","集結","集合","集積"], "answer": 0},
-  {"id": 5190, "cat": "context_vocab", "sentence": "事業を（　　）する。", "options": ["拡充","拡大","拡張","拡散"], "answer": 0},
-  {"id": 5191, "cat": "context_vocab", "sentence": "言動が（　　）している。", "options": ["矛盾","齟齬","乖離","相違"], "answer": 0},
-  {"id": 5192, "cat": "context_vocab", "sentence": "意見に（　　）が生じる。", "options": ["食い違い","齟齬","相違","乖離"], "answer": 0},
-  {"id": 5193, "cat": "context_vocab", "sentence": "彼の発言は（　　）を呼んだ。", "options": ["物議","議論","論議","討議"], "answer": 0},
-  {"id": 5194, "cat": "context_vocab", "sentence": "激しい（　　）を繰り広げる。", "options": ["攻防","攻撃","防衛","守備"], "answer": 0},
-  {"id": 5195, "cat": "context_vocab", "sentence": "事業の（　　）を図る。", "options": ["刷新","新規","新設","創新"], "answer": 0},
-  {"id": 5196, "cat": "context_vocab", "sentence": "情熱を（　　）させる。", "options": ["燃焼","燃焼","発散","発揮"], "answer": 0},
-  {"id": 5197, "cat": "context_vocab", "sentence": "状況が（　　）する。", "options": ["逼迫","緊迫","切迫","圧迫"], "answer": 0},
-  {"id": 5198, "cat": "context_vocab", "sentence": "組織を（　　）する。", "options": ["統括","統治","統制","統合"], "answer": 0},
-  {"id": 5199, "cat": "context_vocab", "sentence": "新しい技術が（　　）する。", "options": ["台頭","頭角","突出","出現"], "answer": 0},
-  {"id": 5200, "cat": "context_vocab", "sentence": "影響力を（　　）する。", "options": ["駆使","活用","利用","行使"], "answer": 0},
-  {"id": 5201, "cat": "context_vocab", "sentence": "思いを（　　）に告げる。", "options": ["率直","正直","素直","直接"], "answer": 0},
-  {"id": 5202, "cat": "context_vocab", "sentence": "大きな期待を（　　）する。", "options": ["寄せる","寄付","寄与","寄進"], "answer": 0},
-  {"id": 5203, "cat": "context_vocab", "sentence": "伝統を（　　）する。", "options": ["継承","継続","相続","承継"], "answer": 0},
-  {"id": 5204, "cat": "context_vocab", "sentence": "法律を（　　）する。", "options": ["遵守","順守","厳守","固守"], "answer": 0},
-  {"id": 5205, "cat": "context_vocab", "sentence": "疑いを（　　）する。", "options": ["払拭","一掃","解消","払拭"], "answer": 0},
-  {"id": 5206, "cat": "context_vocab", "sentence": "要求を（　　）する。", "options": ["拒絶","拒否","拒絶","否定"], "answer": 0},
-  {"id": 5207, "cat": "context_vocab", "sentence": "理論を（　　）する。", "options": ["構築","構成","構造","構想"], "answer": 0},
-  {"id": 5208, "cat": "context_vocab", "sentence": "失敗から（　　）を得る。", "options": ["教訓","教示","教唆","教育"], "answer": 0},
-  {"id": 5209, "cat": "context_vocab", "sentence": "感情を（　　）する。", "options": ["抑制","抑圧","抑制","制御"], "answer": 0},
-  {"id": 5210, "cat": "context_vocab", "sentence": "計画を（　　）する。", "options": ["練る","練習","練磨","錬成"], "answer": 0},
-  {"id": 5211, "cat": "context_vocab", "sentence": "経験を（　　）する。", "options": ["積む","積み","蓄える","重ねる"], "answer": 0},
-  {"id": 5212, "cat": "context_vocab", "sentence": "新人を（　　）する。", "options": ["起用","任用","登用","採用"], "answer": 0},
-  {"id": 5213, "cat": "context_vocab", "sentence": "感謝の意を（　　）する。", "options": ["表明","表示","表現","表出"], "answer": 0},
-  {"id": 5214, "cat": "context_vocab", "sentence": "議論を（　　）する。", "options": ["戦わせる","戦う","争う","闘う"], "answer": 0},
-  {"id": 5215, "cat": "context_vocab", "sentence": "制度を（　　）する。", "options": ["見直す","見直し","検討","再考"], "answer": 0},
-  {"id": 5216, "cat": "context_vocab", "sentence": "権利を（　　）する。", "options": ["行使","実行","執行","施行"], "answer": 0},
-  {"id": 5217, "cat": "context_vocab", "sentence": "誤解を（　　）する。", "options": ["招く","生む","呼ぶ","作る"], "answer": 0},
-  {"id": 5218, "cat": "context_vocab", "sentence": "態度を（　　）する。", "options": ["改める","直す","変える","正す"], "answer": 0},
-  {"id": 5219, "cat": "context_vocab", "sentence": "信頼を（　　）する。", "options": ["損なう","失う","壊す","無くす"], "answer": 0},
-  {"id": 5220, "cat": "context_vocab", "sentence": "風潮に（　　）する。", "options": ["迎合","追従","同調","共鳴"], "answer": 0},
-  {"id": 5221, "cat": "context_vocab", "sentence": "結果を（　　）する。", "options": ["左右","支配","制御","調整"], "answer": 0},
-  {"id": 5222, "cat": "context_vocab", "sentence": "誘惑に（　　）する。", "options": ["屈する","負ける","敗れる","屈伏"], "answer": 0},
-  {"id": 5223, "cat": "context_vocab", "sentence": "反対を（　　）する。", "options": ["押し切る","押切","押し通す","押通"], "answer": 0},
-  {"id": 5224, "cat": "context_vocab", "sentence": "仕事に（　　）する。", "options": ["精を出す","励む","打ち込む","専念"], "answer": 0},
-  {"id": 5225, "cat": "context_vocab", "sentence": "議題を（　　）する。", "options": ["提起","提出","提示","提案"], "answer": 0},
-  {"id": 5226, "cat": "context_vocab", "sentence": "責務を（　　）する。", "options": ["担う","背負う","引受","負担"], "answer": 0},
-  {"id": 5227, "cat": "context_vocab", "sentence": "感情が（　　）する。", "options": ["高ぶる","高まる","昂る","昂ぶる"], "answer": 0},
-  {"id": 5228, "cat": "context_vocab", "sentence": "名声を（　　）する。", "options": ["博す","得る","獲る","掴む"], "answer": 0},
-  {"id": 5229, "cat": "context_vocab", "sentence": "抵抗を（　　）する。", "options": ["試みる","行う","企てる","する"], "answer": 0},
-  {"id": 5230, "cat": "context_vocab", "sentence": "危険を（　　）する。", "options": ["顧みる","考える","思う","感じる"], "answer": 0},
-  {"id": 5231, "cat": "context_vocab", "sentence": "運命に（　　）する。", "options": ["翻弄","左右","支配","振り回"], "answer": 0},
-  {"id": 5232, "cat": "context_vocab", "sentence": "言葉を（　　）する。", "options": ["選ぶ","選択","選別","選定"], "answer": 0},
-  {"id": 5233, "cat": "context_vocab", "sentence": "結論を（　　）する。", "options": ["導く","引き出","引出","出す"], "answer": 0},
-  {"id": 5234, "cat": "context_vocab", "sentence": "地位を（　　）する。", "options": ["占める","取る","占有","取得"], "answer": 0},
-  {"id": 5235, "cat": "context_vocab", "sentence": "（　　）な配慮が必要だ。", "options": ["細心","細部","細密","細微"], "answer": 0},
-  {"id": 5236, "cat": "context_vocab", "sentence": "（　　）な予算を組む。", "options": ["潤沢","潤滑","潤色","豊富"], "answer": 0},
-  {"id": 5237, "cat": "context_vocab", "sentence": "（　　）な態度を示す。", "options": ["毅然","厳然","断固","決然"], "answer": 0},
-  {"id": 5238, "cat": "context_vocab", "sentence": "（　　）とした光景を見る。", "options": ["殺伐","荒涼","寒々","冷涼"], "answer": 0},
-  {"id": 5239, "cat": "context_vocab", "sentence": "（　　）な議論を展開する。", "options": ["活発","盛ん","盛大","旺盛"], "answer": 0},
-  {"id": 5240, "cat": "context_vocab", "sentence": "（　　）な反応を示す。", "options": ["過剰","過敏","過度","過大"], "answer": 0},
-  {"id": 5241, "cat": "context_vocab", "sentence": "（　　）な態度を崩さない。", "options": ["一貫","一途","一徹","一定"], "answer": 0},
-  {"id": 5242, "cat": "context_vocab", "sentence": "（　　）な判断を求められる。", "options": ["的確","適切","的中","適確"], "answer": 0},
-  {"id": 5243, "cat": "context_vocab", "sentence": "（　　）な努力が実を結ぶ。", "options": ["地道","地味","平凡","堅実"], "answer": 0},
-  {"id": 5244, "cat": "context_vocab", "sentence": "（　　）な発想が求められる。", "options": ["柔軟","柔和","柔順","温和"], "answer": 0},
-  {"id": 5245, "cat": "context_vocab", "sentence": "（　　）な意見を出す。", "options": ["画期的","革新的","創造的","斬新"], "answer": 0},
-  {"id": 5246, "cat": "context_vocab", "sentence": "（　　）な処置を講じる。", "options": ["適切","的確","妥当","適当"], "answer": 0},
-  {"id": 5247, "cat": "context_vocab", "sentence": "（　　）な結論に達した。", "options": ["妥当","適当","適切","的確"], "answer": 0},
-  {"id": 5248, "cat": "context_vocab", "sentence": "（　　）な空気が漂う。", "options": ["険悪","不穏","緊迫","緊張"], "answer": 0},
-  {"id": 5249, "cat": "context_vocab", "sentence": "（　　）な成長を遂げる。", "options": ["著しい","顕著","目覚ましい","めざましい"], "answer": 0},
-  {"id": 5250, "cat": "context_vocab", "sentence": "（　　）な想像力を働かせる。", "options": ["豊か","豊富","十分","多彩"], "answer": 0},
-  {"id": 5251, "cat": "context_vocab", "sentence": "（　　）な態度で接する。", "options": ["丁重","丁寧","慇懃","礼儀"], "answer": 0},
-  {"id": 5252, "cat": "context_vocab", "sentence": "（　　）な仕事ぶりを見せる。", "options": ["見事","立派","素晴","賢明"], "answer": 0},
-  {"id": 5253, "cat": "context_vocab", "sentence": "（　　）な応対を心がける。", "options": ["誠実","真摯","誠心","忠実"], "answer": 0},
-  {"id": 5254, "cat": "context_vocab", "sentence": "（　　）な見解を述べる。", "options": ["率直","素直","正直","直接"], "answer": 0},
-  {"id": 5255, "cat": "context_vocab", "sentence": "（　　）な支持を得る。", "options": ["絶大","甚大","最大","莫大"], "answer": 0},
-  {"id": 5256, "cat": "context_vocab", "sentence": "この製品は（　　）が高い。", "options": ["性能","機能","効能","能率"], "answer": 0},
-  {"id": 5257, "cat": "context_vocab", "sentence": "彼女には（　　）がある。", "options": ["風格","品格","人格","格調"], "answer": 0},
-  {"id": 5258, "cat": "context_vocab", "sentence": "（　　）を欠いた行動だ。", "options": ["節度","節操","品位","品格"], "answer": 0},
-  {"id": 5259, "cat": "context_vocab", "sentence": "（　　）を払う必要がある。", "options": ["敬意","敬愛","尊敬","尊重"], "answer": 0},
-  {"id": 5260, "cat": "context_vocab", "sentence": "（　　）を尊重する。", "options": ["意向","意志","意思","意欲"], "answer": 0},
-  {"id": 5261, "cat": "context_vocab", "sentence": "（　　）を貫く。", "options": ["信念","信条","信仰","信頼"], "answer": 0},
-  {"id": 5262, "cat": "context_vocab", "sentence": "（　　）が合わない。", "options": ["辻褄","筋道","理屈","道理"], "answer": 0},
-  {"id": 5263, "cat": "context_vocab", "sentence": "（　　）を立てる。", "options": ["面目","体面","面子","面"], "answer": 0},
-  {"id": 5264, "cat": "context_vocab", "sentence": "（　　）を取り戻す。", "options": ["体面","面子","面目","体裁"], "answer": 0},
-  {"id": 5265, "cat": "context_vocab", "sentence": "（　　）を晴らす。", "options": ["疑念","疑惑","疑問","疑い"], "answer": 0},
-  {"id": 5266, "cat": "context_vocab", "sentence": "（　　）を広げる。", "options": ["視野","視界","視点","視線"], "answer": 0},
-  {"id": 5267, "cat": "context_vocab", "sentence": "（　　）を探る。", "options": ["糸口","手掛","足掛","緒"], "answer": 0},
-  {"id": 5268, "cat": "context_vocab", "sentence": "（　　）を受ける。", "options": ["恩恵","恩義","恩顧","恩典"], "answer": 0},
-  {"id": 5269, "cat": "context_vocab", "sentence": "（　　）を感じる。", "options": ["違和感","違和","異和","疎外"], "answer": 0},
-  {"id": 5270, "cat": "context_vocab", "sentence": "（　　）に陥る。", "options": ["窮地","苦境","困境","逆境"], "answer": 0},
-  {"id": 5271, "cat": "context_vocab", "sentence": "（　　）を極める。", "options": ["多忙","繁忙","繁多","煩忙"], "answer": 0},
-  {"id": 5272, "cat": "context_vocab", "sentence": "（　　）が尽きる。", "options": ["資金","財源","元手","資本"], "answer": 0},
-  {"id": 5273, "cat": "context_vocab", "sentence": "（　　）を注ぐ。", "options": ["精力","気力","活力","精気"], "answer": 0},
-  {"id": 5274, "cat": "context_vocab", "sentence": "（　　）を受け継ぐ。", "options": ["遺志","遺言","遺業","遺産"], "answer": 0},
-  {"id": 5275, "cat": "context_vocab", "sentence": "（　　）に富む人物。", "options": ["機知","機転","才知","才覚"], "answer": 0},
-  {"id": 5276, "cat": "context_vocab", "sentence": "（　　）を味わう。", "options": ["屈辱","侮辱","恥辱","汚辱"], "answer": 0},
-  {"id": 5277, "cat": "context_vocab", "sentence": "（　　）を抱く。", "options": ["野望","野心","希望","抱負"], "answer": 0},
-  {"id": 5278, "cat": "context_vocab", "sentence": "（　　）を買う。", "options": ["顰蹙","反感","不興","不評"], "answer": 0},
-  {"id": 5279, "cat": "context_vocab", "sentence": "（　　）を保つ。", "options": ["均衡","釣合","平衡","均整"], "answer": 0},
-  {"id": 5280, "cat": "context_vocab", "sentence": "（　　）を正す。", "options": ["姿勢","態度","姿態","姿"], "answer": 0},
-  {"id": 5281, "cat": "context_vocab", "sentence": "（　　）が漂う。", "options": ["気配","雰囲","気運","気色"], "answer": 0},
-  {"id": 5282, "cat": "context_vocab", "sentence": "（　　）を寄せる。", "options": ["関心","興味","注目","注視"], "answer": 0},
-  {"id": 5283, "cat": "context_vocab", "sentence": "（　　）を失う。", "options": ["面目","体面","威信","権威"], "answer": 0},
-  {"id": 5284, "cat": "context_vocab", "sentence": "（　　）を担う。", "options": ["使命","任務","役割","役目"], "answer": 0},
-  {"id": 5285, "cat": "context_vocab", "sentence": "（　　）が立たない。", "options": ["歯","刃","足","手"], "answer": 0},
-  {"id": 5286, "cat": "context_vocab", "sentence": "（　　）を踏む。", "options": ["二の足","二の舞","二番","二度"], "answer": 0},
-  {"id": 5287, "cat": "context_vocab", "sentence": "（　　）を打つ。", "options": ["相槌","相打","相対","合図"], "answer": 0},
-  {"id": 5288, "cat": "context_vocab", "sentence": "（　　）に余る。", "options": ["目","手","身","度"], "answer": 0},
-  {"id": 5289, "cat": "context_vocab", "sentence": "（　　）を切る。", "options": ["口火","火蓋","口火","幕"], "answer": 0},
-  {"id": 5290, "cat": "context_vocab", "sentence": "（　　）を打つ。", "options": ["終止符","終点","終結","終末"], "answer": 0},
-  {"id": 5291, "cat": "context_vocab", "sentence": "（　　）を立てる。", "options": ["腹","怒","憤","癇"], "answer": 0},
-  {"id": 5292, "cat": "context_vocab", "sentence": "（　　）をつく。", "options": ["虚","裏","空","嘘"], "answer": 0},
-  {"id": 5293, "cat": "context_vocab", "sentence": "（　　）が広い。", "options": ["顔","面","視野","視界"], "answer": 0},
-  {"id": 5294, "cat": "context_vocab", "sentence": "（　　）に落ちる。", "options": ["腑","心","胸","肝"], "answer": 0},
-  {"id": 5295, "cat": "context_vocab", "sentence": "（　　）が折れる。", "options": ["骨","肩","腰","背"], "answer": 0},
-  {"id": 5296, "cat": "context_vocab", "sentence": "（　　）を焼く。", "options": ["世話","面倒","苦労","苦心"], "answer": 0},
-  {"id": 5297, "cat": "context_vocab", "sentence": "（　　）を引く。", "options": ["尾","後","影","跡"], "answer": 0},
-  {"id": 5298, "cat": "context_vocab", "sentence": "（　　）を持つ。", "options": ["肩","味方","支持","応援"], "answer": 0},
-  {"id": 5299, "cat": "context_vocab", "sentence": "（　　）を上げる。", "options": ["音","声","手","腕"], "answer": 0},
-  {"id": 5300, "cat": "context_vocab", "sentence": "（　　）が出る。", "options": ["ぼろ","襤褸","鍍金","化け"], "answer": 0},
-  {"id": 5301, "cat": "grammar", "sentence": "彼の裏切りは怒り＿＿＿おかない。", "options": ["を感じずには","を感じないでは","を感じずに","を感じないで"], "answer": 0},
-  {"id": 5302, "cat": "grammar", "sentence": "この事件は世間に衝撃を与え＿＿＿おかないだろう。", "options": ["ずには","まいとは","ないで","ないとは"], "answer": 0},
-  {"id": 5303, "cat": "grammar", "sentence": "借りた金は返さ＿＿＿すまない。", "options": ["ずには","ないで","ないと","ずに"], "answer": 0},
-  {"id": 5304, "cat": "grammar", "sentence": "約束したからには守ら＿＿＿すまない。", "options": ["ないでは","ずには","なくては","ないと"], "answer": 0},
-  {"id": 5305, "cat": "grammar", "sentence": "世界平和を願って＿＿＿。", "options": ["やまない","ならない","たまらない","しかたない"], "answer": 0},
-  {"id": 5306, "cat": "grammar", "sentence": "故郷を愛して＿＿＿。", "options": ["やまない","たまらない","ならない","しかたない"], "answer": 0},
-  {"id": 5307, "cat": "grammar", "sentence": "この不祥事は遺憾＿＿＿。", "options": ["極まりない","極まる","の極","極"], "answer": 0},
-  {"id": 5308, "cat": "grammar", "sentence": "彼の態度は失礼＿＿＿。", "options": ["極まりない","極まる","極","限りない"], "answer": 0},
-  {"id": 5309, "cat": "grammar", "sentence": "受賞できて感激＿＿＿です。", "options": ["の極み","極めて","極み","の限り"], "answer": 0},
-  {"id": 5310, "cat": "grammar", "sentence": "こんな賞をいただけて光栄＿＿＿。", "options": ["の至り","の至","至り","至"], "answer": 0},
-  {"id": 5311, "cat": "grammar", "sentence": "誠に汗顔＿＿＿です。", "options": ["の至り","極まり","至極","の限り"], "answer": 0},
-  {"id": 5312, "cat": "grammar", "sentence": "事故により運休＿＿＿。", "options": ["を余儀なくされた","を余儀なくした","を余儀にした","の余儀がない"], "answer": 0},
-  {"id": 5313, "cat": "grammar", "sentence": "病気で退職＿＿＿。", "options": ["を余儀なくされた","を余儀なくした","することを余儀","せざるを得た"], "answer": 0},
-  {"id": 5314, "cat": "grammar", "sentence": "彼の勇気ある行動には感動＿＿＿。", "options": ["を禁じ得ない","が禁じられる","を禁じる","が禁じ得る"], "answer": 0},
-  {"id": 5315, "cat": "grammar", "sentence": "この悲惨な光景には涙＿＿＿。", "options": ["を禁じ得ない","を禁じる","が禁じ得","が禁ぜる"], "answer": 0},
-  {"id": 5316, "cat": "grammar", "sentence": "今日＿＿＿、禁煙することに決めた。", "options": ["を限りに","限り","に限り","限って"], "answer": 0},
-  {"id": 5317, "cat": "grammar", "sentence": "本日＿＿＿閉店いたします。", "options": ["を限りに","限りに","を限り","限って"], "answer": 0},
-  {"id": 5318, "cat": "grammar", "sentence": "書面＿＿＿お知らせします。", "options": ["をもって","によって","により","でもって"], "answer": 0},
-  {"id": 5319, "cat": "grammar", "sentence": "これ＿＿＿本日の会議を終わります。", "options": ["をもって","によって","により","でもって"], "answer": 0},
-  {"id": 5320, "cat": "grammar", "sentence": "この仕事は彼＿＿＿他に適任者はいない。", "options": ["をおいて","に限って","以外","ばかりで"], "answer": 0},
-  {"id": 5321, "cat": "grammar", "sentence": "社長＿＿＿この大役を任せられる人はいない。", "options": ["をおいて","以外に","ばかり","に限って"], "answer": 0},
-  {"id": 5322, "cat": "grammar", "sentence": "これは老舗＿＿＿の味だ。", "options": ["ならでは","ならで","ならずも","ならず"], "answer": 0},
-  {"id": 5323, "cat": "grammar", "sentence": "京都＿＿＿の風情がある。", "options": ["ならでは","ならずは","ならで","でないと"], "answer": 0},
-  {"id": 5324, "cat": "grammar", "sentence": "彼の苦しみは想像＿＿＿。", "options": ["にかたくない","にかたい","に難しい","に易い"], "answer": 0},
-  {"id": 5325, "cat": "grammar", "sentence": "彼の気持ちは察する＿＿＿。", "options": ["にかたくない","にかたい","に難","に易"], "answer": 0},
-  {"id": 5326, "cat": "grammar", "sentence": "彼は信頼する＿＿＿人物だ。", "options": ["に足る","に足りる","に足りて","に足ら"], "answer": 0},
-  {"id": 5327, "cat": "grammar", "sentence": "これは注目する＿＿＿作品だ。", "options": ["に足る","に足り","に足れる","に足ろう"], "answer": 0},
-  {"id": 5328, "cat": "grammar", "sentence": "この映画は鑑賞＿＿＿価値がある。", "options": ["にたえる","にたえ","にたって","にたい"], "answer": 0},
-  {"id": 5329, "cat": "grammar", "sentence": "彼の演技は見る＿＿＿ものがある。", "options": ["にたえる","にたえ","にたって","に耐"], "answer": 0},
-  {"id": 5330, "cat": "grammar", "sentence": "あまりの惨状に見る＿＿＿。", "options": ["にたえない","にたえる","にたえて","にたえ"], "answer": 0},
-  {"id": 5331, "cat": "grammar", "sentence": "その発言は聞く＿＿＿ものだ。", "options": ["にたえない","にたえる","に堪え","にたえ"], "answer": 0},
-  {"id": 5332, "cat": "grammar", "sentence": "結果＿＿＿、計画を変更する。", "options": ["いかんでは","いかに","いかんに","いかんなる"], "answer": 0},
-  {"id": 5333, "cat": "grammar", "sentence": "成績＿＿＿進級できないこともある。", "options": ["いかんでは","いかんに","いかにも","いかんで"], "answer": 0},
-  {"id": 5334, "cat": "grammar", "sentence": "理由＿＿＿欠席は認められない。", "options": ["いかんによらず","いかんでは","いかんに","いかんで"], "answer": 0},
-  {"id": 5335, "cat": "grammar", "sentence": "国籍＿＿＿参加できる。", "options": ["いかんによらず","いかんでは","いかんに","いかにも"], "answer": 0},
-  {"id": 5336, "cat": "grammar", "sentence": "子供＿＿＿、礼儀は大切だ。", "options": ["といえども","であろうとも","とはいえ","なりとも"], "answer": 0},
-  {"id": 5337, "cat": "grammar", "sentence": "専門家＿＿＿間違えることがある。", "options": ["といえども","とはいえ","ながら","といっても"], "answer": 0},
-  {"id": 5338, "cat": "grammar", "sentence": "春＿＿＿、まだ寒い。", "options": ["とはいえ","といえども","というが","といっても"], "answer": 0},
-  {"id": 5339, "cat": "grammar", "sentence": "若い＿＿＿、経験はある。", "options": ["とはいえ","といえども","といえば","といっても"], "answer": 0},
-  {"id": 5340, "cat": "grammar", "sentence": "彼は彼＿＿＿頑張っている。", "options": ["なりに","なり","ながら","なりで"], "answer": 0},
-  {"id": 5341, "cat": "grammar", "sentence": "子供は子供＿＿＿考えている。", "options": ["なりに","なり","なりで","なって"], "answer": 0},
-  {"id": 5342, "cat": "grammar", "sentence": "生まれ＿＿＿の才能を持つ。", "options": ["ながら","ながらに","ながらで","ながらも"], "answer": 0},
-  {"id": 5343, "cat": "grammar", "sentence": "涙＿＿＿語った。", "options": ["ながらに","ながら","ながらで","ながらを"], "answer": 0},
-  {"id": 5344, "cat": "grammar", "sentence": "春＿＿＿暖かくなってきた。", "options": ["めいて","らしく","ぽく","じみて"], "answer": 0},
-  {"id": 5345, "cat": "grammar", "sentence": "皮肉＿＿＿態度を取る。", "options": ["めいた","らしい","ぽい","じみた"], "answer": 0},
-  {"id": 5346, "cat": "grammar", "sentence": "彼は最近所帯＿＿＿てきた。", "options": ["じみ","めい","ぽく","らしく"], "answer": 0},
-  {"id": 5347, "cat": "grammar", "sentence": "その言動は子供＿＿＿いる。", "options": ["じみて","めいて","らしく","ぽく"], "answer": 0},
-  {"id": 5348, "cat": "grammar", "sentence": "黒＿＿＿のスーツを着る。", "options": ["ずくめ","だらけ","まみれ","ばかり"], "answer": 0},
-  {"id": 5349, "cat": "grammar", "sentence": "今週はいいこと＿＿＿だ。", "options": ["ずくめ","ばかり","まみれ","だらけ"], "answer": 0},
-  {"id": 5350, "cat": "grammar", "sentence": "汗＿＿＿になって働く。", "options": ["まみれ","だらけ","ずくめ","ばかり"], "answer": 0},
-  {"id": 5351, "cat": "grammar", "sentence": "泥＿＿＿の服を洗う。", "options": ["まみれ","だらけ","ずくめ","ばかり"], "answer": 0},
-  {"id": 5352, "cat": "grammar", "sentence": "間違い＿＿＿の答案だ。", "options": ["だらけ","まみれ","ずくめ","ばかり"], "answer": 0},
-  {"id": 5353, "cat": "grammar", "sentence": "部屋はごみ＿＿＿だ。", "options": ["だらけ","まみれ","ずくめ","ばかり"], "answer": 0},
-  {"id": 5354, "cat": "grammar", "sentence": "少し＿＿＿援助してほしい。", "options": ["なりとも","たりとも","であれ","なりに"], "answer": 0},
-  {"id": 5355, "cat": "grammar", "sentence": "一言＿＿＿挨拶したい。", "options": ["なりとも","たりとも","であれ","なりに"], "answer": 0},
-  {"id": 5356, "cat": "grammar", "sentence": "どんな理由＿＿＿許されない。", "options": ["であれ","であり","であって","であるが"], "answer": 0},
-  {"id": 5357, "cat": "grammar", "sentence": "王様＿＿＿従うべきだ。", "options": ["であれ","たりとも","なりとも","であり"], "answer": 0},
-  {"id": 5358, "cat": "grammar", "sentence": "教師＿＿＿、模範を示すべきだ。", "options": ["たるもの","であるもの","ためもの","にあるもの"], "answer": 0},
-  {"id": 5359, "cat": "grammar", "sentence": "医者＿＿＿、命を救う使命がある。", "options": ["たるもの","であるもの","ためのもの","たるべき"], "answer": 0},
-  {"id": 5360, "cat": "grammar", "sentence": "一瞬＿＿＿気を抜けない。", "options": ["たりとも","なりとも","であれ","ばかり"], "answer": 0},
-  {"id": 5361, "cat": "grammar", "sentence": "一人＿＿＿見逃さない。", "options": ["たりとも","なりとも","であれ","ばかり"], "answer": 0},
-  {"id": 5362, "cat": "grammar", "sentence": "努力＿＿＿成功はない。", "options": ["なくして","なくては","なければ","ないで"], "answer": 0},
-  {"id": 5363, "cat": "grammar", "sentence": "愛＿＿＿人生は語れない。", "options": ["なくして","なくては","なければ","ないで"], "answer": 0},
-  {"id": 5364, "cat": "grammar", "sentence": "痛みを感じる＿＿＿治療は終わった。", "options": ["ことなしに","ことなく","ないで","ずに"], "answer": 0},
-  {"id": 5365, "cat": "grammar", "sentence": "一言も発する＿＿＿彼は去った。", "options": ["ことなしに","ことなく","ないで","ずに"], "answer": 0},
-  {"id": 5366, "cat": "grammar", "sentence": "社長＿＿＿、責任は重大だ。", "options": ["ともなると","となると","となれば","ともなれ"], "answer": 0},
-  {"id": 5367, "cat": "grammar", "sentence": "プロ＿＿＿、ミスは許されない。", "options": ["ともなると","となると","となれば","ともなれ"], "answer": 0},
-  {"id": 5368, "cat": "grammar", "sentence": "大臣＿＿＿者が、そんな発言をするとは。", "options": ["ともあろう","であろう","ともいう","とある"], "answer": 0},
-  {"id": 5369, "cat": "grammar", "sentence": "教授＿＿Ｒともあろう者が間違えた。", "options": ["ともあろう","であろう","ともいう","とある"], "answer": 0},
-  {"id": 5370, "cat": "grammar", "sentence": "彼の実力＿＿＿目を見張るものがある。", "options": ["たるや","であるや","たりや","となるや"], "answer": 0},
-  {"id": 5371, "cat": "grammar", "sentence": "その豪華さ＿＿＿言葉に尽くせない。", "options": ["たるや","であるや","たりや","となるや"], "answer": 0},
-  {"id": 5372, "cat": "grammar", "sentence": "子供＿＿＿知っている常識だ。", "options": ["すら","でさえ","だに","ばかり"], "answer": 0},
-  {"id": 5373, "cat": "grammar", "sentence": "名前＿＿＿書けない。", "options": ["すら","でさえ","だに","ばかり"], "answer": 0},
-  {"id": 5374, "cat": "grammar", "sentence": "想像＿＿＿しなかった。", "options": ["だに","さえ","すら","のみ"], "answer": 0},
-  {"id": 5375, "cat": "grammar", "sentence": "夢＿＿＿見なかった結果だ。", "options": ["にだに","だに","すら","さえ"], "answer": 0},
-  {"id": 5376, "cat": "grammar", "sentence": "あの感動＿＿＿。", "options": ["といったらない","ではない","とはない","というほかない"], "answer": 0},
-  {"id": 5377, "cat": "grammar", "sentence": "暑い＿＿＿、たまらない。", "options": ["といったらない","ではない","とはない","ということはない"], "answer": 0},
-  {"id": 5378, "cat": "grammar", "sentence": "一万円＿＿＿札束を持っていた。", "options": ["からある","からする","からくる","からの"], "answer": 0},
-  {"id": 5379, "cat": "grammar", "sentence": "百キロ＿＿＿荷物を運ぶ。", "options": ["からある","からする","からくる","からの"], "answer": 0},
-  {"id": 5380, "cat": "grammar", "sentence": "十万円＿＿＿時計をしている。", "options": ["からする","からある","からくる","からの"], "answer": 0},
-  {"id": 5381, "cat": "grammar", "sentence": "玄関を出る＿＿＿、雨が降ってきた。", "options": ["や否や","や","が早いか","なり"], "answer": 0},
-  {"id": 5382, "cat": "grammar", "sentence": "彼を見る＿＿＿駆け寄った。", "options": ["や否や","や","が早いか","なり"], "answer": 0},
-  {"id": 5383, "cat": "grammar", "sentence": "ベルが鳴る＿＿＿飛び出した。", "options": ["が早いか","や否や","なり","そばから"], "answer": 0},
-  {"id": 5384, "cat": "grammar", "sentence": "開店する＿＿＿客が押し寄せた。", "options": ["が早いか","や否や","なり","そばから"], "answer": 0},
-  {"id": 5385, "cat": "grammar", "sentence": "片付ける＿＿＿散らかる。", "options": ["そばから","はしから","とたん","と同時に"], "answer": 0},
-  {"id": 5386, "cat": "grammar", "sentence": "教わった＿＿＿忘れてしまう。", "options": ["そばから","うちから","とたん","が早いか"], "answer": 0},
-  {"id": 5387, "cat": "grammar", "sentence": "彼は部屋に入る＿＿＿倒れた。", "options": ["なり","や否や","が早いか","そばから"], "answer": 0},
-  {"id": 5388, "cat": "grammar", "sentence": "家に帰る＿＿＿、すぐ寝てしまった。", "options": ["なり","や否や","が早いか","そばから"], "answer": 0},
-  {"id": 5389, "cat": "grammar", "sentence": "仕事の＿＿＿、家事もこなす。", "options": ["かたわら","一方","合間","傍ら"], "answer": 0},
-  {"id": 5390, "cat": "grammar", "sentence": "研究の＿＿＿、執筆活動もしている。", "options": ["かたわら","合間","一方","中"], "answer": 0},
-  {"id": 5391, "cat": "grammar", "sentence": "散歩＿＿＿買い物に行く。", "options": ["がてら","ついで","とともに","ながら"], "answer": 0},
-  {"id": 5392, "cat": "grammar", "sentence": "運動＿＿＿駅まで歩く。", "options": ["がてら","がたら","ついで","ながら"], "answer": 0},
-  {"id": 5393, "cat": "grammar", "sentence": "親の心配＿＿＿遊び回る。", "options": ["をよそに","をおいて","をもって","をこめて"], "answer": 0},
-  {"id": 5394, "cat": "grammar", "sentence": "周囲の反対＿＿＿結婚した。", "options": ["をよそに","をおいて","をもって","をこめて"], "answer": 0},
-  {"id": 5395, "cat": "grammar", "sentence": "困難＿＿＿、前進する。", "options": ["をものともせず","をものとせず","にもかかわらず","にも関係なく"], "answer": 0},
-  {"id": 5396, "cat": "grammar", "sentence": "逆風＿＿＿、挑戦を続ける。", "options": ["をものともせず","をものとして","にもかかわらず","もおかまいなく"], "answer": 0},
-  {"id": 5397, "cat": "grammar", "sentence": "病気＿＿＿出勤した。", "options": ["をおして","をもって","をこめて","をおいて"], "answer": 0},
-  {"id": 5398, "cat": "grammar", "sentence": "反対＿＿＿強行した。", "options": ["をおして","をもって","をこめて","をおいて"], "answer": 0},
-  {"id": 5399, "cat": "grammar", "sentence": "兄＿＿＿、弟は勉強嫌いだ。", "options": ["にひきかえ","に対して","に比べて","と違って"], "answer": 0},
-  {"id": 5400, "cat": "grammar", "sentence": "昨年＿＿＿、今年は好調だ。", "options": ["にひきかえ","に対して","に比べ","と違い"], "answer": 0},
-  {"id": 5401, "cat": "grammar", "sentence": "才能＿＿＿努力があれば成功する。", "options": ["と相まって","とともに","と一緒","と合わせ"], "answer": 0},
-  {"id": 5402, "cat": "grammar", "sentence": "美しい音楽＿＿＿感動が深まる。", "options": ["と相まって","と共に","とあいまって","と合わせて"], "answer": 0},
-  {"id": 5403, "cat": "grammar", "sentence": "お客様＿＿＿のビジネスだ。", "options": ["あっての","あった","あっての","あるための"], "answer": 0},
-  {"id": 5404, "cat": "grammar", "sentence": "健康＿＿＿仕事だ。", "options": ["あっての","あって","あるの","あり"], "answer": 0},
-  {"id": 5405, "cat": "grammar", "sentence": "彼＿＿＿人物は初めてだ。", "options": ["ごとき","ごとく","ような","らしい"], "answer": 0},
-  {"id": 5406, "cat": "grammar", "sentence": "山の＿＿＿大きな波が押し寄せた。", "options": ["ごとく","ごとき","ように","らしく"], "answer": 0},
-  {"id": 5407, "cat": "grammar", "sentence": "教師として許す＿＿＿行為だ。", "options": ["まじき","べからざる","まい","まじ"], "answer": 0},
-  {"id": 5408, "cat": "grammar", "sentence": "あるまじき行為＿＿＿。", "options": ["というほかない","まじき","べき","ほどだ"], "answer": 0},
-  {"id": 5409, "cat": "grammar", "sentence": "優勝す＿＿＿、毎日練習している。", "options": ["べく","ために","ため","よう"], "answer": 0},
-  {"id": 5410, "cat": "grammar", "sentence": "目標を達成す＿＿＿努力する。", "options": ["べく","ため","ために","よう"], "answer": 0},
-  {"id": 5411, "cat": "grammar", "sentence": "立ち入る＿＿＿ず。", "options": ["べから","ま","まい","べき"], "answer": 0},
-  {"id": 5412, "cat": "grammar", "sentence": "無断駐車する＿＿＿ず。", "options": ["べから","まい","ま","べき"], "answer": 0},
-  {"id": 5413, "cat": "grammar", "sentence": "どうするかは君の判断＿＿＿。", "options": ["いかんだ","いかんに","いかんの","いかんで"], "answer": 0},
-  {"id": 5414, "cat": "grammar", "sentence": "成功するかは努力＿＿＿。", "options": ["いかんだ","いかんに","いかんの","いかんで"], "answer": 0},
-  {"id": 5415, "cat": "grammar", "sentence": "事態はここ＿＿＿深刻になった。", "options": ["に至って","に至り","に至って","に及んで"], "answer": 0},
-  {"id": 5416, "cat": "grammar", "sentence": "今＿＿＿後悔しても遅い。", "options": ["に至って","に至り","に至る","に及んで"], "answer": 0},
-  {"id": 5417, "cat": "grammar", "sentence": "連絡する＿＿＿になった。", "options": ["ずじまい","ずにすんだ","ずにいた","ないまま"], "answer": 0},
-  {"id": 5418, "cat": "grammar", "sentence": "買う＿＿＿帰ってきた。", "options": ["ずじまいで","ずにすんで","ないで","ずに"], "answer": 0},
-  {"id": 5419, "cat": "grammar", "sentence": "一度始めた＿＿＿、最後までやる。", "options": ["が最後","からは","以上","うえは"], "answer": 0},
-  {"id": 5420, "cat": "grammar", "sentence": "捕まった＿＿＿、刑務所行きだ。", "options": ["が最後","からは","以上","うえは"], "answer": 0},
-  {"id": 5421, "cat": "grammar", "sentence": "眠った＿＿＿朝まで起きない。", "options": ["たら最後","が最後","からには","以上は"], "answer": 0},
-  {"id": 5422, "cat": "grammar", "sentence": "彼が怒っ＿＿＿誰も止められない。", "options": ["たら最後","が最後","からには","以上は"], "answer": 0},
-  {"id": 5423, "cat": "grammar", "sentence": "早く言えばよかった＿＿＿。", "options": ["ものを","のに","ものの","ものから"], "answer": 0},
-  {"id": 5424, "cat": "grammar", "sentence": "謝れば済んだ＿＿＿、意地を張った。", "options": ["ものを","のに","ものの","ものから"], "answer": 0},
-  {"id": 5425, "cat": "grammar", "sentence": "「さあ行け」＿＿＿背中を押した。", "options": ["とばかりに","ばかりに","とばかり","のように"], "answer": 0},
-  {"id": 5426, "cat": "grammar", "sentence": "「早く帰れ」＿＿＿睨まれた。", "options": ["とばかりに","ばかりに","とばかり","のように"], "answer": 0},
-  {"id": 5427, "cat": "grammar", "sentence": "叫ば＿＿＿大きな声を出した。", "options": ["んばかりに","ないばかり","ばかりに","せんばかり"], "answer": 0},
-  {"id": 5428, "cat": "grammar", "sentence": "泣か＿＿＿懇願した。", "options": ["んばかりに","ないばかり","ばかりに","せんばかり"], "answer": 0},
-  {"id": 5429, "cat": "grammar", "sentence": "夢を実現せ＿＿＿努力する。", "options": ["んがため","んために","するため","するために"], "answer": 0},
-  {"id": 5430, "cat": "grammar", "sentence": "生き残ら＿＿＿戦う。", "options": ["んがため","んために","するため","するために"], "answer": 0},
-  {"id": 5431, "cat": "grammar", "sentence": "疲れる＿＿＿集中力が落ちる。", "options": ["ともすると","とすると","となると","と共に"], "answer": 0},
-  {"id": 5432, "cat": "grammar", "sentence": "彼は＿＿＿感情的になる。", "options": ["ともすると","とすると","となると","と共に"], "answer": 0},
-  {"id": 5433, "cat": "grammar", "sentence": "完璧＿＿＿、まずまずの出来だ。", "options": ["ないまでも","までも","ないまで","ないでも"], "answer": 0},
-  {"id": 5434, "cat": "grammar", "sentence": "優勝は無理＿＿＿、入賞を狙う。", "options": ["ないまでも","までも","ないまで","ないでも"], "answer": 0},
-  {"id": 5435, "cat": "grammar", "sentence": "そんな馬鹿な話を信じる＿＿＿ない。", "options": ["はずが","わけが","ことは","ものは"], "answer": 0},
-  {"id": 5436, "cat": "grammar", "sentence": "社会人＿＿＿、責任を持つべきだ。", "options": ["たるもの","ともなると","であれば","になれば"], "answer": 0},
-  {"id": 5437, "cat": "grammar", "sentence": "予想＿＿＿結果に驚いた。", "options": ["だにしなかった","ですらない","でもない","すらない"], "answer": 0},
-  {"id": 5438, "cat": "grammar", "sentence": "電話＿＿＿、メールでもいい。", "options": ["なり","でも","なりと","かと"], "answer": 0},
-  {"id": 5439, "cat": "grammar", "sentence": "お茶＿＿＿コーヒー＿＿＿飲みませんか。", "options": ["なり、なり","でも、でも","か、か","とか、とか"], "answer": 0},
-  {"id": 5440, "cat": "grammar", "sentence": "この仕事は彼＿＿＿できる仕事ではない。", "options": ["ならでは","でなければ","に","にしか"], "answer": 0},
-  {"id": 5441, "cat": "grammar", "sentence": "経験者＿＿＿わかる苦労だ。", "options": ["ならではの","でなくては","のみの","だけの"], "answer": 0},
-  {"id": 5442, "cat": "grammar", "sentence": "長年の苦労＿＿＿報われる日が来た。", "options": ["が実を結ぶ","が結実する","を実に","は花開"], "answer": 0},
-  {"id": 5443, "cat": "grammar", "sentence": "彼の行動は理解＿＿＿。", "options": ["に苦しむ","に苦しい","を苦しむ","が苦しむ"], "answer": 0},
-  {"id": 5444, "cat": "grammar", "sentence": "あの人は信頼する＿＿＿。", "options": ["に値する","にあたる","にあたいする","に価する"], "answer": 0},
-  {"id": 5445, "cat": "grammar", "sentence": "立場＿＿＿、意見を変えるべきではない。", "options": ["上","から","によって","次第で"], "answer": 0},
-  {"id": 5446, "cat": "grammar", "sentence": "彼の話を聞いて納得＿＿＿。", "options": ["せざるを得ない","しないわけにはいかない","するしかない","する以外ない"], "answer": 0},
-  {"id": 5447, "cat": "grammar", "sentence": "これで＿＿＿は安心できない。", "options": ["は","ても","と","として"], "answer": 0},
-  {"id": 5448, "cat": "grammar", "sentence": "失敗＿＿＿成功の母だ。", "options": ["は","こそ","も","と"], "answer": 0},
-  {"id": 5449, "cat": "grammar", "sentence": "親の気持ち＿＿＿子供にはわからない。", "options": ["など","こそ","だけ","とて"], "answer": 0},
-  {"id": 5450, "cat": "grammar", "sentence": "いくら呼ばれ＿＿＿振り向かなかった。", "options": ["ても","でも","ようと","ようとも"], "answer": 0},
-  {"id": 5451, "cat": "grammar", "sentence": "風邪＿＿＿侮れない。", "options": ["とて","ので","から","なら"], "answer": 0},
-  {"id": 5452, "cat": "grammar", "sentence": "雨＿＿＿降ったら試合は中止だ。", "options": ["なり","とて","でも","にも"], "answer": 0},
-  {"id": 5453, "cat": "grammar", "sentence": "この一言＿＿＿状況が変わった。", "options": ["をもって","を境に","により","で"], "answer": 0},
-  {"id": 5454, "cat": "grammar", "sentence": "最後＿＿＿頑張ろう。", "options": ["まで","までに","までも","までで"], "answer": 0},
-  {"id": 5455, "cat": "grammar", "sentence": "こうなった＿＿＿、仕方がない。", "options": ["上は","上で","上に","上を"], "answer": 0},
-  {"id": 5456, "cat": "grammar", "sentence": "調査の結果＿＿＿問題が判明した。", "options": ["により","によって","から","において"], "answer": 0},
-  {"id": 5457, "cat": "grammar", "sentence": "法律＿＿＿、彼は無罪だ。", "options": ["上","から","として","では"], "answer": 0},
-  {"id": 5458, "cat": "grammar", "sentence": "親として子供を守る＿＿＿。", "options": ["べきだ","はずだ","ものだ","ことだ"], "answer": 0},
-  {"id": 5459, "cat": "grammar", "sentence": "日本人＿＿＿米を食べる。", "options": ["なら","というと","といえば","にあって"], "answer": 0},
-  {"id": 5460, "cat": "grammar", "sentence": "彼＿＿＿怒るのも無理はない。", "options": ["が","は","なら","にして"], "answer": 0},
-  {"id": 5461, "cat": "grammar", "sentence": "そのニュースを聞いて涙＿＿＿。", "options": ["を禁じ得なかった","が止まらなかった","を流した","が落ちた"], "answer": 0},
-  {"id": 5462, "cat": "grammar", "sentence": "熟慮の末、辞任＿＿＿。", "options": ["を余儀なくされた","するしかなかった","せざるを得なかった","した"], "answer": 0},
-  {"id": 5463, "cat": "grammar", "sentence": "ご活躍を願って＿＿＿ません。", "options": ["やみ","おり","やま","止み"], "answer": 0},
-  {"id": 5464, "cat": "grammar", "sentence": "無念＿＿＿。", "options": ["の極み","極","至極","極み"], "answer": 0},
-  {"id": 5465, "cat": "grammar", "sentence": "恐縮＿＿＿存じます。", "options": ["の至りに","至りに","の極みに","に極みて"], "answer": 0},
-  {"id": 5466, "cat": "grammar", "sentence": "彼の研究は世間を驚かせ＿＿＿。", "options": ["ずにはおかない","ないわけにはいかない","ないではすまない","ずにはすまない"], "answer": 0},
-  {"id": 5467, "cat": "grammar", "sentence": "子供の頃からの夢＿＿＿叶った。", "options": ["がついに","をついに","でついに","ゆえに"], "answer": 0},
-  {"id": 5468, "cat": "grammar", "sentence": "雨が降ろう＿＿＿槍が降ろう＿＿＿行く。", "options": ["が、が","と、と","も、も","に、に"], "answer": 0},
-  {"id": 5469, "cat": "grammar", "sentence": "いかなる困難＿＿＿乗り越える。", "options": ["であれ","なりとも","ならでは","といえば"], "answer": 0},
-  {"id": 5470, "cat": "grammar", "sentence": "首相＿＿＿者が、法律を破るとは。", "options": ["たるもの","であれ","ともあろう","ならでは"], "answer": 0},
-  {"id": 5471, "cat": "grammar", "sentence": "ほんのわずか＿＿＿油断できない。", "options": ["たりとも","なりとも","であれ","とて"], "answer": 0},
-  {"id": 5472, "cat": "grammar", "sentence": "少し＿＿＿休ませてほしい。", "options": ["なりとも","たりとも","であれ","とて"], "answer": 0},
-  {"id": 5473, "cat": "grammar", "sentence": "努力＿＿＿成功は得られない。", "options": ["なくしては","なくて","ないで","なしに"], "answer": 0},
-  {"id": 5474, "cat": "grammar", "sentence": "礼儀作法は社会人＿＿＿身につけるべきだ。", "options": ["たる者","の者","となる者","である者"], "answer": 0},
-  {"id": 5475, "cat": "grammar", "sentence": "そんな話は想像する＿＿＿しない。", "options": ["だに","さえ","すら","でも"], "answer": 0},
-  {"id": 5476, "cat": "grammar", "sentence": "彼の料理の旨さ＿＿＿格別だ。", "options": ["たるや","なるや","とや","とは"], "answer": 0},
-  {"id": 5477, "cat": "grammar", "sentence": "この問題の複雑さ＿＿＿言葉にできない。", "options": ["たるや","なるや","とや","とは"], "answer": 0},
-  {"id": 5478, "cat": "grammar", "sentence": "一滴＿＿＿水を無駄にしない。", "options": ["たりとも","なりとも","であれ","とて"], "answer": 0},
-  {"id": 5479, "cat": "grammar", "sentence": "一秒＿＿＿気を抜けない状況だ。", "options": ["たりとも","なりとも","であれ","とて"], "answer": 0},
-  {"id": 5480, "cat": "grammar", "sentence": "多少＿＿＿力になれればと思う。", "options": ["なりとも","たりとも","であれ","とて"], "answer": 0},
-  {"id": 5481, "cat": "grammar", "sentence": "戸を開けた＿＿＿猫が飛び込んできた。", "options": ["が早いか","や否や","そばから","なり"], "answer": 0},
-  {"id": 5482, "cat": "grammar", "sentence": "朝起きる＿＿＿新聞を読む。", "options": ["なり","が早いか","や否や","そばから"], "answer": 0},
-  {"id": 5483, "cat": "grammar", "sentence": "説明して＿＿＿忘れるな。", "options": ["そばから","うちから","ながら","とたん"], "answer": 0},
-  {"id": 5484, "cat": "grammar", "sentence": "彼女は母親の看病＿＿＿仕事もしている。", "options": ["のかたわら","の他","と共に","と並行"], "answer": 0},
-  {"id": 5485, "cat": "grammar", "sentence": "食事＿＿＿話をしよう。", "options": ["がてら","ついで","ながら","と共に"], "answer": 0},
-  {"id": 5486, "cat": "grammar", "sentence": "人の迷惑＿＿＿大声で騒ぐ。", "options": ["をよそに","にもかかわらず","も関係なく","におかまいなく"], "answer": 0},
-  {"id": 5487, "cat": "grammar", "sentence": "危険＿＿＿突入した。", "options": ["をものともせず","にもかかわらず","を恐れず","を無視して"], "answer": 0},
-  {"id": 5488, "cat": "grammar", "sentence": "高熱＿＿＿試合に出た。", "options": ["をおして","にもかかわらず","を押し切って","を押して"], "answer": 0},
-  {"id": 5489, "cat": "grammar", "sentence": "兄は活発な＿＿＿、妹はおとなしい。", "options": ["のにひきかえ","に対して","と比べて","と違って"], "answer": 0},
-  {"id": 5490, "cat": "grammar", "sentence": "この料理は彼の腕＿＿＿新鮮な食材があってこそだ。", "options": ["と相まって","と共に","と一緒","と合わせ"], "answer": 0},
-  {"id": 5491, "cat": "grammar", "sentence": "健康＿＿＿仕事だということを忘れるな。", "options": ["あっての","あっての","あるの","あるため"], "answer": 0},
-  {"id": 5492, "cat": "grammar", "sentence": "彼＿＿＿人を助ける気持ちが強い人はいない。", "options": ["ほど","ばかり","だけ","ばかり"], "answer": 0},
-  {"id": 5493, "cat": "grammar", "sentence": "夢の＿＿＿、現実を受け入れる。", "options": ["ごとき","ごとく","ように","らしく"], "answer": 0},
-  {"id": 5494, "cat": "grammar", "sentence": "私＿＿＿者には、そんな役は務まらない。", "options": ["ごとき","ごとく","のごとき","のよう"], "answer": 0},
-  {"id": 5495, "cat": "grammar", "sentence": "医者としてある＿＿＿行為だ。", "options": ["まじき","べからざる","べきでない","まい"], "answer": 0},
-  {"id": 5496, "cat": "grammar", "sentence": "合格す＿＿＿、毎日勉強している。", "options": ["べく","ため","ために","ように"], "answer": 0},
-  {"id": 5497, "cat": "grammar", "sentence": "ここから先は立ち入る＿＿＿。", "options": ["べからず","まい","まじ","べき"], "answer": 0},
-  {"id": 5498, "cat": "grammar", "sentence": "結果は明日の天気＿＿＿。", "options": ["いかんだ","次第だ","による","による"], "answer": 0},
-  {"id": 5499, "cat": "grammar", "sentence": "事ここ＿＿＿、逃げ場はない。", "options": ["に至っては","に至って","に至り","に及んで"], "answer": 0},
-  {"id": 5500, "cat": "grammar", "sentence": "彼に会う＿＿＿、帰国してしまった。", "options": ["ことなく","ずじまいで","ないまま","ずに"], "answer": 0}
+  {
+    "id": 5001,
+    "cat": "orthography",
+    "sentence": "この問題は比較的ようい（　　）に解決できる。",
+    "target": "ようい",
+    "options": [
+      "容易",
+      "容位",
+      "用意",
+      "用易"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5002,
+    "cat": "orthography",
+    "sentence": "彼はかんよう（　　）な態度で人と接する。",
+    "target": "かんよう",
+    "options": [
+      "寛容",
+      "慣用",
+      "観容",
+      "勧容"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5003,
+    "cat": "orthography",
+    "sentence": "市場の変動にほんろう（　　）される。",
+    "target": "ほんろう",
+    "options": [
+      "翻弄",
+      "反弄",
+      "本弄",
+      "凡弄"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5004,
+    "cat": "orthography",
+    "sentence": "この部屋をちんたい（　　）で借りる。",
+    "target": "ちんたい",
+    "options": [
+      "賃貸",
+      "賃代",
+      "貸賃",
+      "賃待"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5005,
+    "cat": "orthography",
+    "sentence": "突然の知らせにどうよう（　　）した。",
+    "target": "どうよう",
+    "options": [
+      "動揺",
+      "同様",
+      "動様",
+      "動用"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5006,
+    "cat": "orthography",
+    "sentence": "写真のせんめい（　　）な色彩に驚いた。",
+    "target": "せんめい",
+    "options": [
+      "鮮明",
+      "宣明",
+      "選明",
+      "先明"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5007,
+    "cat": "orthography",
+    "sentence": "彼のがんきょう（　　）な意志は変わらない。",
+    "target": "がんきょう",
+    "options": [
+      "頑強",
+      "岩強",
+      "元強",
+      "眼強"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5008,
+    "cat": "orthography",
+    "sentence": "彼の発言は重要な問題をしさ（　　）している。",
+    "target": "しさ",
+    "options": [
+      "示唆",
+      "指唆",
+      "示差",
+      "支唆"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5009,
+    "cat": "orthography",
+    "sentence": "誰にでもせんざい（　　）能力がある。",
+    "target": "せんざい",
+    "options": [
+      "潜在",
+      "先在",
+      "前在",
+      "洗在"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5010,
+    "cat": "orthography",
+    "sentence": "事件のけいい（　　）を説明してください。",
+    "target": "けいい",
+    "options": [
+      "経緯",
+      "敬意",
+      "経意",
+      "軽緯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5011,
+    "cat": "orthography",
+    "sentence": "この絵はいんえい（　　）が美しい。",
+    "target": "いんえい",
+    "options": [
+      "陰影",
+      "印影",
+      "陰映",
+      "因影"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5012,
+    "cat": "orthography",
+    "sentence": "しょうどう（　　）買いに注意しなさい。",
+    "target": "しょうどう",
+    "options": [
+      "衝動",
+      "衝道",
+      "性動",
+      "商動"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5013,
+    "cat": "orthography",
+    "sentence": "証拠をいんぺい（　　）してはいけない。",
+    "target": "いんぺい",
+    "options": [
+      "隠蔽",
+      "陰蔽",
+      "隠閉",
+      "引蔽"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5014,
+    "cat": "orthography",
+    "sentence": "金属がふしょく（　　）している。",
+    "target": "ふしょく",
+    "options": [
+      "腐食",
+      "付食",
+      "不食",
+      "腐色"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5015,
+    "cat": "orthography",
+    "sentence": "論文のしょうろく（　　）を読む。",
+    "target": "しょうろく",
+    "options": [
+      "抄録",
+      "招録",
+      "賞録",
+      "詳録"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5016,
+    "cat": "orthography",
+    "sentence": "彼はしゅんそく（　　）で有名な選手だ。",
+    "target": "しゅんそく",
+    "options": [
+      "俊足",
+      "旬足",
+      "駿足",
+      "春足"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5017,
+    "cat": "orthography",
+    "sentence": "彼女はゆうしゅう（　　）な学生だ。",
+    "target": "ゆうしゅう",
+    "options": [
+      "優秀",
+      "優愁",
+      "憂秀",
+      "有秀"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5018,
+    "cat": "orthography",
+    "sentence": "家族のきずな（　　）を大切にする。",
+    "target": "きずな",
+    "options": [
+      "絆",
+      "縁",
+      "紐",
+      "綱"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5019,
+    "cat": "orthography",
+    "sentence": "ろうきゅう（　　）化した建物を改修する。",
+    "target": "ろうきゅう",
+    "options": [
+      "老朽",
+      "老旧",
+      "老休",
+      "労朽"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5020,
+    "cat": "orthography",
+    "sentence": "先生へのけいぼ（　　）の念を抱く。",
+    "target": "けいぼ",
+    "options": [
+      "敬慕",
+      "敬母",
+      "慶慕",
+      "敬暮"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5021,
+    "cat": "orthography",
+    "sentence": "状況をはあく（　　）する。",
+    "target": "はあく",
+    "options": [
+      "把握",
+      "破握",
+      "把悪",
+      "波握"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5022,
+    "cat": "orthography",
+    "sentence": "敵のきょうい（　　）に対抗する。",
+    "target": "きょうい",
+    "options": [
+      "脅威",
+      "驚異",
+      "強意",
+      "協威"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5023,
+    "cat": "orthography",
+    "sentence": "計画のがいよう（　　）を説明する。",
+    "target": "がいよう",
+    "options": [
+      "概要",
+      "外要",
+      "該要",
+      "慨要"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5024,
+    "cat": "orthography",
+    "sentence": "政策をだんこう（　　）する。",
+    "target": "だんこう",
+    "options": [
+      "断行",
+      "断交",
+      "団行",
+      "弾行"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5025,
+    "cat": "orthography",
+    "sentence": "彼はせんえつ（　　）ながら司会を務めた。",
+    "target": "せんえつ",
+    "options": [
+      "僭越",
+      "潜越",
+      "先越",
+      "宣越"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5026,
+    "cat": "orthography",
+    "sentence": "ちみつ（　　）な計画を立てる。",
+    "target": "ちみつ",
+    "options": [
+      "緻密",
+      "綿密",
+      "精密",
+      "密緻"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5027,
+    "cat": "orthography",
+    "sentence": "かっとう（　　）の末、決断を下した。",
+    "target": "かっとう",
+    "options": [
+      "葛藤",
+      "確闘",
+      "葛闘",
+      "格藤"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5028,
+    "cat": "orthography",
+    "sentence": "そぜい（　　）を納める義務がある。",
+    "target": "そぜい",
+    "options": [
+      "租税",
+      "粗税",
+      "組税",
+      "素税"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5029,
+    "cat": "orthography",
+    "sentence": "かもく（　　）な人は信頼される。",
+    "target": "かもく",
+    "options": [
+      "寡黙",
+      "家黙",
+      "過黙",
+      "仮黙"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5030,
+    "cat": "orthography",
+    "sentence": "きょひ（　　）反応を示す。",
+    "target": "きょひ",
+    "options": [
+      "拒否",
+      "拒非",
+      "距否",
+      "巨否"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5031,
+    "cat": "orthography",
+    "sentence": "かっき（　　）的な発明をする。",
+    "target": "かっき",
+    "options": [
+      "画期",
+      "活期",
+      "各期",
+      "確期"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5032,
+    "cat": "orthography",
+    "sentence": "会社のばくだい（　　）な利益を得る。",
+    "target": "ばくだい",
+    "options": [
+      "莫大",
+      "爆大",
+      "漠大",
+      "膨大"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5033,
+    "cat": "orthography",
+    "sentence": "事故のきょくち（　　）に達した。",
+    "target": "きょくち",
+    "options": [
+      "極致",
+      "局地",
+      "極地",
+      "極知"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5034,
+    "cat": "orthography",
+    "sentence": "彼はざんしん（　　）なアイデアを出した。",
+    "target": "ざんしん",
+    "options": [
+      "斬新",
+      "残新",
+      "参新",
+      "暫新"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5035,
+    "cat": "orthography",
+    "sentence": "ふんきゅう（　　）した議論を収める。",
+    "target": "ふんきゅう",
+    "options": [
+      "紛糾",
+      "粉糾",
+      "紛究",
+      "奮糾"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5036,
+    "cat": "orthography",
+    "sentence": "新商品のふきゅう（　　）を図る。",
+    "target": "ふきゅう",
+    "options": [
+      "普及",
+      "不朽",
+      "不及",
+      "付及"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5037,
+    "cat": "orthography",
+    "sentence": "こうみょう（　　）な手段を使う。",
+    "target": "こうみょう",
+    "options": [
+      "巧妙",
+      "光明",
+      "公明",
+      "高妙"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5038,
+    "cat": "orthography",
+    "sentence": "被害がじんだい（　　）だ。",
+    "target": "じんだい",
+    "options": [
+      "甚大",
+      "仁大",
+      "尽大",
+      "陣大"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5039,
+    "cat": "orthography",
+    "sentence": "しんし（　　）に取り組む姿勢が大切だ。",
+    "target": "しんし",
+    "options": [
+      "真摯",
+      "紳士",
+      "真史",
+      "真士"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5040,
+    "cat": "orthography",
+    "sentence": "けねん（　　）された事態が起きた。",
+    "target": "けねん",
+    "options": [
+      "懸念",
+      "県念",
+      "検念",
+      "研念"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5041,
+    "cat": "orthography",
+    "sentence": "二国間のあつれき（　　）が生じた。",
+    "target": "あつれき",
+    "options": [
+      "軋轢",
+      "圧轢",
+      "悪轢",
+      "葛轢"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5042,
+    "cat": "orthography",
+    "sentence": "しっこく（　　）の闇に包まれる。",
+    "target": "しっこく",
+    "options": [
+      "漆黒",
+      "失黒",
+      "疾黒",
+      "湿黒"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5043,
+    "cat": "orthography",
+    "sentence": "彼はだらく（　　）した生活を送っている。",
+    "target": "だらく",
+    "options": [
+      "堕落",
+      "駄楽",
+      "打落",
+      "妥落"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5044,
+    "cat": "orthography",
+    "sentence": "かんとく（　　）不行き届きで批判される。",
+    "target": "かんとく",
+    "options": [
+      "監督",
+      "観督",
+      "勧督",
+      "寒督"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5045,
+    "cat": "orthography",
+    "sentence": "部下をしった（　　）激励する。",
+    "target": "しった",
+    "options": [
+      "叱咤",
+      "叱多",
+      "失咤",
+      "七咤"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5046,
+    "cat": "orthography",
+    "sentence": "国家のそんぼう（　　）の危機に瀕する。",
+    "target": "そんぼう",
+    "options": [
+      "存亡",
+      "損亡",
+      "尊亡",
+      "存望"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5047,
+    "cat": "orthography",
+    "sentence": "もうれつ（　　）な勢いで攻撃した。",
+    "target": "もうれつ",
+    "options": [
+      "猛烈",
+      "盲烈",
+      "蒙烈",
+      "毛烈"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5048,
+    "cat": "orthography",
+    "sentence": "ろうほう（　　）が届いた。",
+    "target": "ろうほう",
+    "options": [
+      "朗報",
+      "浪報",
+      "労報",
+      "廊報"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5049,
+    "cat": "orthography",
+    "sentence": "規則をじゅんしゅ（　　）する。",
+    "target": "じゅんしゅ",
+    "options": [
+      "遵守",
+      "順守",
+      "準守",
+      "巡守"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5050,
+    "cat": "orthography",
+    "sentence": "彼はそうめい（　　）な少年だ。",
+    "target": "そうめい",
+    "options": [
+      "聡明",
+      "双明",
+      "総明",
+      "草明"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5051,
+    "cat": "orthography",
+    "sentence": "感情のきふく（　　）が激しい。",
+    "target": "きふく",
+    "options": [
+      "起伏",
+      "貴服",
+      "帰伏",
+      "既伏"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5052,
+    "cat": "orthography",
+    "sentence": "過去をかいこ（　　）する。",
+    "target": "かいこ",
+    "options": [
+      "回顧",
+      "解雇",
+      "懐古",
+      "回古"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5053,
+    "cat": "orthography",
+    "sentence": "けいちょう（　　）に聞き入る。",
+    "target": "けいちょう",
+    "options": [
+      "傾聴",
+      "軽聴",
+      "慶聴",
+      "敬聴"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5054,
+    "cat": "orthography",
+    "sentence": "記念日にけいさい（　　）する。",
+    "target": "けいさい",
+    "options": [
+      "掲載",
+      "計載",
+      "形載",
+      "経載"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5055,
+    "cat": "orthography",
+    "sentence": "けいやく（　　）を結ぶ。",
+    "target": "けいやく",
+    "options": [
+      "契約",
+      "経約",
+      "計約",
+      "軽約"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5056,
+    "cat": "orthography",
+    "sentence": "彼のこうせき（　　）を称える。",
+    "target": "こうせき",
+    "options": [
+      "功績",
+      "鉱石",
+      "業績",
+      "功積"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5057,
+    "cat": "orthography",
+    "sentence": "いさん（　　）を相続する。",
+    "target": "いさん",
+    "options": [
+      "遺産",
+      "医産",
+      "維産",
+      "移産"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5058,
+    "cat": "orthography",
+    "sentence": "ぼんよう（　　）な人生を送る。",
+    "target": "ぼんよう",
+    "options": [
+      "凡庸",
+      "凡用",
+      "煩用",
+      "盆用"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5059,
+    "cat": "orthography",
+    "sentence": "かじょう（　　）書きにまとめる。",
+    "target": "かじょう",
+    "options": [
+      "箇条",
+      "過剰",
+      "課条",
+      "可条"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5060,
+    "cat": "orthography",
+    "sentence": "しょうがい（　　）を克服する。",
+    "target": "しょうがい",
+    "options": [
+      "障害",
+      "生涯",
+      "傷害",
+      "照害"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5061,
+    "cat": "orthography",
+    "sentence": "環境にじゅんのう（　　）する。",
+    "target": "じゅんのう",
+    "options": [
+      "順応",
+      "準応",
+      "純応",
+      "遵応"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5062,
+    "cat": "orthography",
+    "sentence": "けいこく（　　）を発する。",
+    "target": "けいこく",
+    "options": [
+      "警告",
+      "渓谷",
+      "経国",
+      "計告"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5063,
+    "cat": "orthography",
+    "sentence": "かいじゅう（　　）策を講じる。",
+    "target": "かいじゅう",
+    "options": [
+      "懐柔",
+      "怪獣",
+      "改修",
+      "開柔"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5064,
+    "cat": "orthography",
+    "sentence": "はんれい（　　）を参照する。",
+    "target": "はんれい",
+    "options": [
+      "判例",
+      "凡例",
+      "範例",
+      "反例"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5065,
+    "cat": "orthography",
+    "sentence": "きせい（　　）を緩和する。",
+    "target": "きせい",
+    "options": [
+      "規制",
+      "既成",
+      "帰省",
+      "寄生"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5066,
+    "cat": "orthography",
+    "sentence": "しょうれい（　　）金を受給する。",
+    "target": "しょうれい",
+    "options": [
+      "奨励",
+      "賞礼",
+      "症例",
+      "招例"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5067,
+    "cat": "orthography",
+    "sentence": "このしゅっぱん（　　）は画期的だ。",
+    "target": "しゅっぱん",
+    "options": [
+      "出版",
+      "出帆",
+      "出販",
+      "出板"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5068,
+    "cat": "orthography",
+    "sentence": "無謀な行動をきょぜつ（　　）する。",
+    "target": "きょぜつ",
+    "options": [
+      "拒絶",
+      "距絶",
+      "拒絕",
+      "巨絶"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5069,
+    "cat": "orthography",
+    "sentence": "データをるいせき（　　）する。",
+    "target": "るいせき",
+    "options": [
+      "累積",
+      "類積",
+      "累跡",
+      "塁積"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5070,
+    "cat": "orthography",
+    "sentence": "けいはつ（　　）活動を行う。",
+    "target": "けいはつ",
+    "options": [
+      "啓発",
+      "啓蒙",
+      "警発",
+      "掲発"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5071,
+    "cat": "orthography",
+    "sentence": "しゅわん（　　）を発揮する。",
+    "target": "しゅわん",
+    "options": [
+      "手腕",
+      "首腕",
+      "主腕",
+      "手碗"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5072,
+    "cat": "orthography",
+    "sentence": "ひよう（　　）対効果を検討する。",
+    "target": "ひよう",
+    "options": [
+      "費用",
+      "比用",
+      "被用",
+      "避用"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5073,
+    "cat": "orthography",
+    "sentence": "じゃっかん（　　）の違いがある。",
+    "target": "じゃっかん",
+    "options": [
+      "若干",
+      "弱冠",
+      "若感",
+      "若間"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5074,
+    "cat": "orthography",
+    "sentence": "仕事にぼっとう（　　）する。",
+    "target": "ぼっとう",
+    "options": [
+      "没頭",
+      "忘頭",
+      "暮頭",
+      "墨頭"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5075,
+    "cat": "orthography",
+    "sentence": "この問題はふんそう（　　）の火種となる。",
+    "target": "ふんそう",
+    "options": [
+      "紛争",
+      "粉争",
+      "奮争",
+      "紛相"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5076,
+    "cat": "orthography",
+    "sentence": "きょうしゅく（　　）ですが、お願いします。",
+    "target": "きょうしゅく",
+    "options": [
+      "恐縮",
+      "強縮",
+      "共縮",
+      "恭縮"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5077,
+    "cat": "orthography",
+    "sentence": "じんそく（　　）な対応が求められる。",
+    "target": "じんそく",
+    "options": [
+      "迅速",
+      "神速",
+      "尋速",
+      "仁速"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5078,
+    "cat": "orthography",
+    "sentence": "けっさい（　　）を申請する。",
+    "target": "けっさい",
+    "options": [
+      "決裁",
+      "決済",
+      "結裁",
+      "決祭"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5079,
+    "cat": "orthography",
+    "sentence": "しゅうちゃく（　　）心が強い。",
+    "target": "しゅうちゃく",
+    "options": [
+      "執着",
+      "終着",
+      "収着",
+      "習着"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5080,
+    "cat": "orthography",
+    "sentence": "ていねい（　　）に対応する。",
+    "target": "ていねい",
+    "options": [
+      "丁寧",
+      "定寧",
+      "低寧",
+      "亭寧"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5081,
+    "cat": "orthography",
+    "sentence": "情報がろうえい（　　）した。",
+    "target": "ろうえい",
+    "options": [
+      "漏洩",
+      "漏営",
+      "労洩",
+      "老洩"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5082,
+    "cat": "orthography",
+    "sentence": "ざんこく（　　）な仕打ちを受ける。",
+    "target": "ざんこく",
+    "options": [
+      "残酷",
+      "残刻",
+      "惨酷",
+      "暫酷"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5083,
+    "cat": "orthography",
+    "sentence": "しょうにん（　　）を求める。",
+    "target": "しょうにん",
+    "options": [
+      "承認",
+      "証人",
+      "商人",
+      "昇任"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5084,
+    "cat": "orthography",
+    "sentence": "せっしょう（　　）に時間がかかる。",
+    "target": "せっしょう",
+    "options": [
+      "折衝",
+      "摂生",
+      "接触",
+      "殺生"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5085,
+    "cat": "orthography",
+    "sentence": "自己ぎまん（　　）に陥る。",
+    "target": "ぎまん",
+    "options": [
+      "欺瞞",
+      "疑満",
+      "戯慢",
+      "擬瞞"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5086,
+    "cat": "orthography",
+    "sentence": "会議でとうぎ（　　）する。",
+    "target": "とうぎ",
+    "options": [
+      "討議",
+      "討義",
+      "同義",
+      "当議"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5087,
+    "cat": "orthography",
+    "sentence": "じょうじゅ（　　）を祈る。",
+    "target": "じょうじゅ",
+    "options": [
+      "成就",
+      "情受",
+      "上受",
+      "乗就"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5088,
+    "cat": "orthography",
+    "sentence": "しゅっか（　　）を再開する。",
+    "target": "しゅっか",
+    "options": [
+      "出荷",
+      "出火",
+      "出貨",
+      "出家"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5089,
+    "cat": "orthography",
+    "sentence": "ていたい（　　）した業務を進める。",
+    "target": "ていたい",
+    "options": [
+      "停滞",
+      "低滞",
+      "定滞",
+      "帝滞"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5090,
+    "cat": "orthography",
+    "sentence": "こうきゅう（　　）的な解決を目指す。",
+    "target": "こうきゅう",
+    "options": [
+      "恒久",
+      "高級",
+      "公休",
+      "後給"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5091,
+    "cat": "orthography",
+    "sentence": "きゅうきょく（　　）の目標を達成する。",
+    "target": "きゅうきょく",
+    "options": [
+      "究極",
+      "窮極",
+      "九極",
+      "急極"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5092,
+    "cat": "orthography",
+    "sentence": "そち（　　）を講じる。",
+    "target": "そち",
+    "options": [
+      "措置",
+      "措知",
+      "粗置",
+      "素置"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5093,
+    "cat": "orthography",
+    "sentence": "伝統をけいしょう（　　）する。",
+    "target": "けいしょう",
+    "options": [
+      "継承",
+      "敬称",
+      "軽症",
+      "警鐘"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5094,
+    "cat": "orthography",
+    "sentence": "あいまい（　　）な返事を避ける。",
+    "target": "あいまい",
+    "options": [
+      "曖昧",
+      "愛昧",
+      "相昧",
+      "会昧"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5095,
+    "cat": "orthography",
+    "sentence": "きとく（　　）な状態に陥る。",
+    "target": "きとく",
+    "options": [
+      "危篤",
+      "既得",
+      "奇特",
+      "帰得"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5096,
+    "cat": "orthography",
+    "sentence": "かんべん（　　）してほしい。",
+    "target": "かんべん",
+    "options": [
+      "勘弁",
+      "簡便",
+      "完弁",
+      "管弁"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5097,
+    "cat": "orthography",
+    "sentence": "ふんいき（　　）が和やかだ。",
+    "target": "ふんいき",
+    "options": [
+      "雰囲気",
+      "奮囲気",
+      "紛囲気",
+      "芬囲気"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5098,
+    "cat": "orthography",
+    "sentence": "しゅうちしん（　　）がない。",
+    "target": "しゅうちしん",
+    "options": [
+      "羞恥心",
+      "衆知心",
+      "執恥心",
+      "収恥心"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5099,
+    "cat": "orthography",
+    "sentence": "ばんぜん（　　）の準備を整える。",
+    "target": "ばんぜん",
+    "options": [
+      "万全",
+      "万然",
+      "晩全",
+      "万善"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5100,
+    "cat": "orthography",
+    "sentence": "しはつ（　　）の電車に乗る。",
+    "target": "しはつ",
+    "options": [
+      "始発",
+      "市発",
+      "支発",
+      "試発"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5101,
+    "cat": "context_vocab",
+    "sentence": "この理論の基本的な（　　）を理解する必要がある。",
+    "options": [
+      "概念",
+      "観点",
+      "概観",
+      "概略"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5102,
+    "cat": "context_vocab",
+    "sentence": "発言の（　　）を汲み取ってほしい。",
+    "options": [
+      "趣旨",
+      "主旨",
+      "趣向",
+      "主張"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5103,
+    "cat": "context_vocab",
+    "sentence": "その主張には明確な（　　）がない。",
+    "options": [
+      "根拠",
+      "根底",
+      "基盤",
+      "根源"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5104,
+    "cat": "context_vocab",
+    "sentence": "事件の（　　）を詳しく調べる。",
+    "options": [
+      "背景",
+      "背後",
+      "背面",
+      "後景"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5105,
+    "cat": "context_vocab",
+    "sentence": "契約締結までの（　　）を報告する。",
+    "options": [
+      "経緯",
+      "経過",
+      "経歴",
+      "経由"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5106,
+    "cat": "context_vocab",
+    "sentence": "複雑な（　　）を持つ組織だ。",
+    "options": [
+      "体系",
+      "体制",
+      "体裁",
+      "体験"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5107,
+    "cat": "context_vocab",
+    "sentence": "建物の（　　）に問題がある。",
+    "options": [
+      "構造",
+      "構成",
+      "構想",
+      "構築"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5108,
+    "cat": "context_vocab",
+    "sentence": "問題の（　　）を突く必要がある。",
+    "options": [
+      "核心",
+      "核",
+      "中心",
+      "中核"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5109,
+    "cat": "context_vocab",
+    "sentence": "物事の（　　）を見極める。",
+    "options": [
+      "本質",
+      "本性",
+      "本来",
+      "本体"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5110,
+    "cat": "context_vocab",
+    "sentence": "事件の（　　）が明らかになった。",
+    "options": [
+      "真相",
+      "真実",
+      "真理",
+      "本相"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5111,
+    "cat": "context_vocab",
+    "sentence": "現場の（　　）を把握する。",
+    "options": [
+      "実態",
+      "実情",
+      "実状",
+      "実体"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5112,
+    "cat": "context_vocab",
+    "sentence": "彼の（　　）を聞き出した。",
+    "options": [
+      "本音",
+      "本心",
+      "本当",
+      "本気"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5113,
+    "cat": "context_vocab",
+    "sentence": "（　　）と本音を使い分ける。",
+    "options": [
+      "建前",
+      "表向き",
+      "表面",
+      "上辺"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5114,
+    "cat": "context_vocab",
+    "sentence": "副作用が（　　）される。",
+    "options": [
+      "懸念",
+      "心配",
+      "不安",
+      "憂慮"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5115,
+    "cat": "context_vocab",
+    "sentence": "将来を（　　）する声が高まる。",
+    "options": [
+      "憂慮",
+      "憂鬱",
+      "憂愁",
+      "憂患"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5116,
+    "cat": "context_vocab",
+    "sentence": "その説明には（　　）がある。",
+    "options": [
+      "疑義",
+      "疑問",
+      "疑念",
+      "疑惑"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5117,
+    "cat": "context_vocab",
+    "sentence": "強い（　　）を買った。",
+    "options": [
+      "反発",
+      "反感",
+      "反抗",
+      "反論"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5118,
+    "cat": "context_vocab",
+    "sentence": "影響が広く（　　）している。",
+    "options": [
+      "波及",
+      "拡散",
+      "普及",
+      "伝播"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5119,
+    "cat": "context_vocab",
+    "sentence": "スマホが急速に（　　）した。",
+    "options": [
+      "普及",
+      "波及",
+      "浸透",
+      "拡大"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5120,
+    "cat": "context_vocab",
+    "sentence": "文化が社会に（　　）する。",
+    "options": [
+      "浸透",
+      "透過",
+      "浸入",
+      "潜入"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5121,
+    "cat": "context_vocab",
+    "sentence": "需要と供給の（　　）を保つ。",
+    "options": [
+      "均衡",
+      "平衡",
+      "調和",
+      "均等"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5122,
+    "cat": "context_vocab",
+    "sentence": "社会の（　　）を維持する。",
+    "options": [
+      "秩序",
+      "順序",
+      "順番",
+      "次序"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5123,
+    "cat": "context_vocab",
+    "sentence": "行政（　　）を改革する。",
+    "options": [
+      "機構",
+      "機関",
+      "機能",
+      "組織"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5124,
+    "cat": "context_vocab",
+    "sentence": "旧（　　）を打破する。",
+    "options": [
+      "体制",
+      "体系",
+      "態勢",
+      "体質"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5125,
+    "cat": "context_vocab",
+    "sentence": "社会の（　　）から外れた行為だ。",
+    "options": [
+      "規範",
+      "規則",
+      "規定",
+      "基準"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5126,
+    "cat": "context_vocab",
+    "sentence": "春の（　　）が感じられる。",
+    "options": [
+      "兆し",
+      "気配",
+      "予兆",
+      "兆候"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5127,
+    "cat": "context_vocab",
+    "sentence": "革命の（　　）が見え始めた。",
+    "options": [
+      "萌芽",
+      "兆し",
+      "始まり",
+      "端緒"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5128,
+    "cat": "context_vocab",
+    "sentence": "問題解決の（　　）をつかむ。",
+    "options": [
+      "端緒",
+      "糸口",
+      "発端",
+      "始端"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5129,
+    "cat": "context_vocab",
+    "sentence": "時代の（　　）を読む。",
+    "options": [
+      "趨勢",
+      "傾向",
+      "動向",
+      "情勢"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5130,
+    "cat": "context_vocab",
+    "sentence": "経済の（　　）が著しい。",
+    "options": [
+      "躍進",
+      "進歩",
+      "発展",
+      "前進"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5131,
+    "cat": "context_vocab",
+    "sentence": "研究に（　　）が見られる。",
+    "options": [
+      "進展",
+      "進行",
+      "進出",
+      "進化"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5132,
+    "cat": "context_vocab",
+    "sentence": "彼は（　　）仕事に打ち込んでいる。",
+    "options": [
+      "専ら",
+      "主に",
+      "一途に",
+      "ひたすら"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5133,
+    "cat": "context_vocab",
+    "sentence": "（　　）反対意見を述べた。",
+    "options": [
+      "敢えて",
+      "強いて",
+      "あえて",
+      "無理に"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5134,
+    "cat": "context_vocab",
+    "sentence": "計画は（　　）順調に進んでいる。",
+    "options": [
+      "概ね",
+      "大体",
+      "大抵",
+      "大方"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5135,
+    "cat": "context_vocab",
+    "sentence": "それは（　　）な意見だ。",
+    "options": [
+      "もっとも",
+      "最も",
+      "当然",
+      "尤も"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5136,
+    "cat": "context_vocab",
+    "sentence": "（　　）には言えない問題だ。",
+    "options": [
+      "一概に",
+      "一律に",
+      "一様に",
+      "一方的に"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5137,
+    "cat": "context_vocab",
+    "sentence": "最近（　　）視力が落ちた。",
+    "options": [
+      "頓に",
+      "急に",
+      "次第に",
+      "にわかに"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5138,
+    "cat": "context_vocab",
+    "sentence": "仕事が（　　）進まない。",
+    "options": [
+      "一向に",
+      "一切",
+      "全く",
+      "まるで"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5139,
+    "cat": "context_vocab",
+    "sentence": "彼とは（　　）連絡を取っていない。",
+    "options": [
+      "一切",
+      "一向",
+      "全然",
+      "少しも"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5140,
+    "cat": "context_vocab",
+    "sentence": "一段と寒さが（　　）厳しくなった。",
+    "options": [
+      "一層",
+      "一段",
+      "一気",
+      "一回"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5141,
+    "cat": "context_vocab",
+    "sentence": "事態は（　　）改善されるだろう。",
+    "options": [
+      "漸次",
+      "次第",
+      "順次",
+      "段々"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5142,
+    "cat": "context_vocab",
+    "sentence": "病状は（　　）回復している。",
+    "options": [
+      "徐々に",
+      "段々に",
+      "次第に",
+      "ゆっくりに"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5143,
+    "cat": "context_vocab",
+    "sentence": "（　　）間に合った。",
+    "options": [
+      "辛うじて",
+      "やっと",
+      "ようやく",
+      "何とか"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5144,
+    "cat": "context_vocab",
+    "sentence": "これは（　　）傑作だ。",
+    "options": [
+      "紛れもなく",
+      "間違いなく",
+      "確かに",
+      "正に"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5145,
+    "cat": "context_vocab",
+    "sentence": "優勝の喜びも（　　）だ。",
+    "options": [
+      "ひとしお",
+      "格別",
+      "一段",
+      "特別"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5146,
+    "cat": "context_vocab",
+    "sentence": "計画は（　　）失敗に終わった。",
+    "options": [
+      "ことごとく",
+      "全て",
+      "総じて",
+      "一切"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5147,
+    "cat": "context_vocab",
+    "sentence": "電話（　　）メールで連絡ください。",
+    "options": [
+      "もしくは",
+      "または",
+      "かつ",
+      "及び"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5148,
+    "cat": "context_vocab",
+    "sentence": "彼（　　）彼女が犯人だ。",
+    "options": [
+      "あるいは",
+      "または",
+      "もしくは",
+      "ないし"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5149,
+    "cat": "context_vocab",
+    "sentence": "時間を大量に（　　）。",
+    "options": [
+      "費やした",
+      "使った",
+      "消費した",
+      "浪費した"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5150,
+    "cat": "context_vocab",
+    "sentence": "支払いが（　　）いる。",
+    "options": [
+      "滞って",
+      "止まって",
+      "遅れて",
+      "止って"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5151,
+    "cat": "context_vocab",
+    "sentence": "義務を（　　）てはいけない。",
+    "options": [
+      "怠っ",
+      "疎か",
+      "なまけ",
+      "休み"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5152,
+    "cat": "context_vocab",
+    "sentence": "彼は小さな店を（　　）でいる。",
+    "options": [
+      "営ん",
+      "経営し",
+      "運営し",
+      "経ん"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5153,
+    "cat": "context_vocab",
+    "sentence": "判断を彼に（　　）。",
+    "options": [
+      "委ねる",
+      "任せる",
+      "託す",
+      "預ける"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5154,
+    "cat": "context_vocab",
+    "sentence": "信念を（　　）生き方をする。",
+    "options": [
+      "貫く",
+      "通す",
+      "守る",
+      "保つ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5155,
+    "cat": "context_vocab",
+    "sentence": "役目を（　　）す。",
+    "options": [
+      "果た",
+      "成",
+      "遂",
+      "務め"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5156,
+    "cat": "context_vocab",
+    "sentence": "ついに目的を（　　）た。",
+    "options": [
+      "遂げ",
+      "達し",
+      "果し",
+      "極め"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5157,
+    "cat": "context_vocab",
+    "sentence": "任務を（　　）する。",
+    "options": [
+      "全う",
+      "完了",
+      "成就",
+      "成立"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5158,
+    "cat": "context_vocab",
+    "sentence": "費用を自力で（　　）う。",
+    "options": [
+      "賄",
+      "補",
+      "支払",
+      "負担"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5159,
+    "cat": "context_vocab",
+    "sentence": "人材を（　　）う必要がある。",
+    "options": [
+      "培",
+      "育",
+      "養",
+      "鍛"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5160,
+    "cat": "context_vocab",
+    "sentence": "陰謀を（　　）む。",
+    "options": [
+      "企",
+      "図",
+      "画",
+      "試"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5161,
+    "cat": "context_vocab",
+    "sentence": "体裁を（　　）う。",
+    "options": [
+      "繕",
+      "整",
+      "保",
+      "装"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5162,
+    "cat": "context_vocab",
+    "sentence": "困難を（　　）ぐ。",
+    "options": [
+      "凌",
+      "防",
+      "避",
+      "超"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5163,
+    "cat": "context_vocab",
+    "sentence": "平和を（　　）す存在。",
+    "options": [
+      "脅か",
+      "脅",
+      "危",
+      "危く"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5164,
+    "cat": "context_vocab",
+    "sentence": "責任感が（　　）な人だ。",
+    "options": [
+      "希薄",
+      "薄弱",
+      "軽薄",
+      "淡泊"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5165,
+    "cat": "context_vocab",
+    "sentence": "（　　）な味わいのスープ。",
+    "options": [
+      "濃厚",
+      "濃密",
+      "濃度",
+      "濃淡"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5166,
+    "cat": "context_vocab",
+    "sentence": "会議は（　　）に進行した。",
+    "options": [
+      "円滑",
+      "順調",
+      "スムーズ",
+      "滑らか"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5167,
+    "cat": "context_vocab",
+    "sentence": "（　　）な英語を話す。",
+    "options": [
+      "流暢",
+      "滑らか",
+      "上手",
+      "堪能"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5168,
+    "cat": "context_vocab",
+    "sentence": "事件を（　　）に描写する。",
+    "options": [
+      "克明",
+      "詳細",
+      "綿密",
+      "精密"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5169,
+    "cat": "context_vocab",
+    "sentence": "（　　）な答えが出た。",
+    "options": [
+      "明瞭",
+      "明確",
+      "鮮明",
+      "明白"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5170,
+    "cat": "context_vocab",
+    "sentence": "（　　）な態度を取る。",
+    "options": [
+      "曖昧",
+      "漠然",
+      "不明",
+      "不確か"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5171,
+    "cat": "context_vocab",
+    "sentence": "（　　）とした不安を感じる。",
+    "options": [
+      "漠然",
+      "茫然",
+      "朦朧",
+      "曖然"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5172,
+    "cat": "context_vocab",
+    "sentence": "（　　）な頭脳の持ち主。",
+    "options": [
+      "明晰",
+      "明瞭",
+      "明敏",
+      "聡明"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5173,
+    "cat": "context_vocab",
+    "sentence": "効果が（　　）に現れた。",
+    "options": [
+      "顕著",
+      "明白",
+      "明確",
+      "鮮明"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5174,
+    "cat": "context_vocab",
+    "sentence": "（　　）した演技を見せる。",
+    "options": [
+      "円熟",
+      "成熟",
+      "熟達",
+      "完熟"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5175,
+    "cat": "context_vocab",
+    "sentence": "（　　）に感じる問題だ。",
+    "options": [
+      "痛切",
+      "切実",
+      "深刻",
+      "切迫"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5176,
+    "cat": "context_vocab",
+    "sentence": "（　　）な雰囲気に包まれる。",
+    "options": [
+      "厳粛",
+      "厳格",
+      "厳重",
+      "厳然"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5177,
+    "cat": "context_vocab",
+    "sentence": "彼の業績は（　　）に値する。",
+    "options": [
+      "賞賛",
+      "賞与",
+      "表彰",
+      "称賛"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5178,
+    "cat": "context_vocab",
+    "sentence": "彼の才能は（　　）している。",
+    "options": [
+      "傑出",
+      "突出",
+      "卓越",
+      "抜群"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5179,
+    "cat": "context_vocab",
+    "sentence": "問題を（　　）に扱う。",
+    "options": [
+      "慎重",
+      "丁寧",
+      "厳重",
+      "重要"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5180,
+    "cat": "context_vocab",
+    "sentence": "意見が（　　）する。",
+    "options": [
+      "対立",
+      "相反",
+      "反対",
+      "反発"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5181,
+    "cat": "context_vocab",
+    "sentence": "計画を（　　）する。",
+    "options": [
+      "遂行",
+      "実行",
+      "実施",
+      "施行"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5182,
+    "cat": "context_vocab",
+    "sentence": "困難を（　　）する。",
+    "options": [
+      "克服",
+      "打破",
+      "突破",
+      "征服"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5183,
+    "cat": "context_vocab",
+    "sentence": "時代の流れに（　　）する。",
+    "options": [
+      "逆行",
+      "反対",
+      "背反",
+      "対抗"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5185,
+    "cat": "context_vocab",
+    "sentence": "危機に（　　）する。",
+    "options": [
+      "直面",
+      "対面",
+      "面接",
+      "面会"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5186,
+    "cat": "context_vocab",
+    "sentence": "事態を（　　）する。",
+    "options": [
+      "収拾",
+      "収束",
+      "収集",
+      "収容"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5187,
+    "cat": "context_vocab",
+    "sentence": "資料を（　　）する。",
+    "options": [
+      "吟味",
+      "検討",
+      "審議",
+      "審査"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5188,
+    "cat": "context_vocab",
+    "sentence": "責任を（　　）する。",
+    "options": [
+      "転嫁",
+      "転送",
+      "転換",
+      "転用"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5189,
+    "cat": "context_vocab",
+    "sentence": "意見を（　　）する。",
+    "options": [
+      "集約",
+      "集結",
+      "集合",
+      "集積"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5190,
+    "cat": "context_vocab",
+    "sentence": "事業を（　　）する。",
+    "options": [
+      "拡充",
+      "拡大",
+      "拡張",
+      "拡散"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5191,
+    "cat": "context_vocab",
+    "sentence": "言動が（　　）している。",
+    "options": [
+      "矛盾",
+      "齟齬",
+      "乖離",
+      "相違"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5192,
+    "cat": "context_vocab",
+    "sentence": "意見に（　　）が生じる。",
+    "options": [
+      "食い違い",
+      "齟齬",
+      "相違",
+      "乖離"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5193,
+    "cat": "context_vocab",
+    "sentence": "彼の発言は（　　）を呼んだ。",
+    "options": [
+      "物議",
+      "議論",
+      "論議",
+      "討議"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5194,
+    "cat": "context_vocab",
+    "sentence": "激しい（　　）を繰り広げる。",
+    "options": [
+      "攻防",
+      "攻撃",
+      "防衛",
+      "守備"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5195,
+    "cat": "context_vocab",
+    "sentence": "事業の（　　）を図る。",
+    "options": [
+      "刷新",
+      "新規",
+      "新設",
+      "創新"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5197,
+    "cat": "context_vocab",
+    "sentence": "状況が（　　）する。",
+    "options": [
+      "逼迫",
+      "緊迫",
+      "切迫",
+      "圧迫"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5198,
+    "cat": "context_vocab",
+    "sentence": "組織を（　　）する。",
+    "options": [
+      "統括",
+      "統治",
+      "統制",
+      "統合"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5199,
+    "cat": "context_vocab",
+    "sentence": "新しい技術が（　　）する。",
+    "options": [
+      "台頭",
+      "頭角",
+      "突出",
+      "出現"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5200,
+    "cat": "context_vocab",
+    "sentence": "影響力を（　　）する。",
+    "options": [
+      "駆使",
+      "活用",
+      "利用",
+      "行使"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5201,
+    "cat": "context_vocab",
+    "sentence": "思いを（　　）に告げる。",
+    "options": [
+      "率直",
+      "正直",
+      "素直",
+      "直接"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5202,
+    "cat": "context_vocab",
+    "sentence": "大きな期待を（　　）する。",
+    "options": [
+      "寄せる",
+      "寄付",
+      "寄与",
+      "寄進"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5203,
+    "cat": "context_vocab",
+    "sentence": "伝統を（　　）する。",
+    "options": [
+      "継承",
+      "継続",
+      "相続",
+      "承継"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5204,
+    "cat": "context_vocab",
+    "sentence": "法律を（　　）する。",
+    "options": [
+      "遵守",
+      "順守",
+      "厳守",
+      "固守"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5207,
+    "cat": "context_vocab",
+    "sentence": "理論を（　　）する。",
+    "options": [
+      "構築",
+      "構成",
+      "構造",
+      "構想"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5208,
+    "cat": "context_vocab",
+    "sentence": "失敗から（　　）を得る。",
+    "options": [
+      "教訓",
+      "教示",
+      "教唆",
+      "教育"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5210,
+    "cat": "context_vocab",
+    "sentence": "計画を（　　）する。",
+    "options": [
+      "練る",
+      "練習",
+      "練磨",
+      "錬成"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5211,
+    "cat": "context_vocab",
+    "sentence": "経験を（　　）する。",
+    "options": [
+      "積む",
+      "積み",
+      "蓄える",
+      "重ねる"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5212,
+    "cat": "context_vocab",
+    "sentence": "新人を（　　）する。",
+    "options": [
+      "起用",
+      "任用",
+      "登用",
+      "採用"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5213,
+    "cat": "context_vocab",
+    "sentence": "感謝の意を（　　）する。",
+    "options": [
+      "表明",
+      "表示",
+      "表現",
+      "表出"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5214,
+    "cat": "context_vocab",
+    "sentence": "議論を（　　）する。",
+    "options": [
+      "戦わせる",
+      "戦う",
+      "争う",
+      "闘う"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5215,
+    "cat": "context_vocab",
+    "sentence": "制度を（　　）する。",
+    "options": [
+      "見直す",
+      "見直し",
+      "検討",
+      "再考"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5216,
+    "cat": "context_vocab",
+    "sentence": "権利を（　　）する。",
+    "options": [
+      "行使",
+      "実行",
+      "執行",
+      "施行"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5217,
+    "cat": "context_vocab",
+    "sentence": "誤解を（　　）する。",
+    "options": [
+      "招く",
+      "生む",
+      "呼ぶ",
+      "作る"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5218,
+    "cat": "context_vocab",
+    "sentence": "態度を（　　）する。",
+    "options": [
+      "改める",
+      "直す",
+      "変える",
+      "正す"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5219,
+    "cat": "context_vocab",
+    "sentence": "信頼を（　　）する。",
+    "options": [
+      "損なう",
+      "失う",
+      "壊す",
+      "無くす"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5220,
+    "cat": "context_vocab",
+    "sentence": "風潮に（　　）する。",
+    "options": [
+      "迎合",
+      "追従",
+      "同調",
+      "共鳴"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5221,
+    "cat": "context_vocab",
+    "sentence": "結果を（　　）する。",
+    "options": [
+      "左右",
+      "支配",
+      "制御",
+      "調整"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5222,
+    "cat": "context_vocab",
+    "sentence": "誘惑に（　　）する。",
+    "options": [
+      "屈する",
+      "負ける",
+      "敗れる",
+      "屈伏"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5223,
+    "cat": "context_vocab",
+    "sentence": "反対を（　　）する。",
+    "options": [
+      "押し切る",
+      "押切",
+      "押し通す",
+      "押通"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5224,
+    "cat": "context_vocab",
+    "sentence": "仕事に（　　）する。",
+    "options": [
+      "精を出す",
+      "励む",
+      "打ち込む",
+      "専念"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5225,
+    "cat": "context_vocab",
+    "sentence": "議題を（　　）する。",
+    "options": [
+      "提起",
+      "提出",
+      "提示",
+      "提案"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5226,
+    "cat": "context_vocab",
+    "sentence": "責務を（　　）する。",
+    "options": [
+      "担う",
+      "背負う",
+      "引受",
+      "負担"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5227,
+    "cat": "context_vocab",
+    "sentence": "感情が（　　）する。",
+    "options": [
+      "高ぶる",
+      "高まる",
+      "昂る",
+      "昂ぶる"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5228,
+    "cat": "context_vocab",
+    "sentence": "名声を（　　）する。",
+    "options": [
+      "博す",
+      "得る",
+      "獲る",
+      "掴む"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5229,
+    "cat": "context_vocab",
+    "sentence": "抵抗を（　　）する。",
+    "options": [
+      "試みる",
+      "行う",
+      "企てる",
+      "する"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5230,
+    "cat": "context_vocab",
+    "sentence": "危険を（　　）する。",
+    "options": [
+      "顧みる",
+      "考える",
+      "思う",
+      "感じる"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5231,
+    "cat": "context_vocab",
+    "sentence": "運命に（　　）する。",
+    "options": [
+      "翻弄",
+      "左右",
+      "支配",
+      "振り回"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5232,
+    "cat": "context_vocab",
+    "sentence": "言葉を（　　）する。",
+    "options": [
+      "選ぶ",
+      "選択",
+      "選別",
+      "選定"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5233,
+    "cat": "context_vocab",
+    "sentence": "結論を（　　）する。",
+    "options": [
+      "導く",
+      "引き出",
+      "引出",
+      "出す"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5234,
+    "cat": "context_vocab",
+    "sentence": "地位を（　　）する。",
+    "options": [
+      "占める",
+      "取る",
+      "占有",
+      "取得"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5235,
+    "cat": "context_vocab",
+    "sentence": "（　　）な配慮が必要だ。",
+    "options": [
+      "細心",
+      "細部",
+      "細密",
+      "細微"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5236,
+    "cat": "context_vocab",
+    "sentence": "（　　）な予算を組む。",
+    "options": [
+      "潤沢",
+      "潤滑",
+      "潤色",
+      "豊富"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5237,
+    "cat": "context_vocab",
+    "sentence": "（　　）な態度を示す。",
+    "options": [
+      "毅然",
+      "厳然",
+      "断固",
+      "決然"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5238,
+    "cat": "context_vocab",
+    "sentence": "（　　）とした光景を見る。",
+    "options": [
+      "殺伐",
+      "荒涼",
+      "寒々",
+      "冷涼"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5239,
+    "cat": "context_vocab",
+    "sentence": "（　　）な議論を展開する。",
+    "options": [
+      "活発",
+      "盛ん",
+      "盛大",
+      "旺盛"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5240,
+    "cat": "context_vocab",
+    "sentence": "（　　）な反応を示す。",
+    "options": [
+      "過剰",
+      "過敏",
+      "過度",
+      "過大"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5241,
+    "cat": "context_vocab",
+    "sentence": "（　　）な態度を崩さない。",
+    "options": [
+      "一貫",
+      "一途",
+      "一徹",
+      "一定"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5242,
+    "cat": "context_vocab",
+    "sentence": "（　　）な判断を求められる。",
+    "options": [
+      "的確",
+      "適切",
+      "的中",
+      "適確"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5243,
+    "cat": "context_vocab",
+    "sentence": "（　　）な努力が実を結ぶ。",
+    "options": [
+      "地道",
+      "地味",
+      "平凡",
+      "堅実"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5244,
+    "cat": "context_vocab",
+    "sentence": "（　　）な発想が求められる。",
+    "options": [
+      "柔軟",
+      "柔和",
+      "柔順",
+      "温和"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5245,
+    "cat": "context_vocab",
+    "sentence": "（　　）な意見を出す。",
+    "options": [
+      "画期的",
+      "革新的",
+      "創造的",
+      "斬新"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5246,
+    "cat": "context_vocab",
+    "sentence": "（　　）な処置を講じる。",
+    "options": [
+      "適切",
+      "的確",
+      "妥当",
+      "適当"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5247,
+    "cat": "context_vocab",
+    "sentence": "（　　）な結論に達した。",
+    "options": [
+      "妥当",
+      "適当",
+      "適切",
+      "的確"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5248,
+    "cat": "context_vocab",
+    "sentence": "（　　）な空気が漂う。",
+    "options": [
+      "険悪",
+      "不穏",
+      "緊迫",
+      "緊張"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5249,
+    "cat": "context_vocab",
+    "sentence": "（　　）な成長を遂げる。",
+    "options": [
+      "著しい",
+      "顕著",
+      "目覚ましい",
+      "めざましい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5250,
+    "cat": "context_vocab",
+    "sentence": "（　　）な想像力を働かせる。",
+    "options": [
+      "豊か",
+      "豊富",
+      "十分",
+      "多彩"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5251,
+    "cat": "context_vocab",
+    "sentence": "（　　）な態度で接する。",
+    "options": [
+      "丁重",
+      "丁寧",
+      "慇懃",
+      "礼儀"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5252,
+    "cat": "context_vocab",
+    "sentence": "（　　）な仕事ぶりを見せる。",
+    "options": [
+      "見事",
+      "立派",
+      "素晴",
+      "賢明"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5253,
+    "cat": "context_vocab",
+    "sentence": "（　　）な応対を心がける。",
+    "options": [
+      "誠実",
+      "真摯",
+      "誠心",
+      "忠実"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5254,
+    "cat": "context_vocab",
+    "sentence": "（　　）な見解を述べる。",
+    "options": [
+      "率直",
+      "素直",
+      "正直",
+      "直接"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5255,
+    "cat": "context_vocab",
+    "sentence": "（　　）な支持を得る。",
+    "options": [
+      "絶大",
+      "甚大",
+      "最大",
+      "莫大"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5256,
+    "cat": "context_vocab",
+    "sentence": "この製品は（　　）が高い。",
+    "options": [
+      "性能",
+      "機能",
+      "効能",
+      "能率"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5257,
+    "cat": "context_vocab",
+    "sentence": "彼女には（　　）がある。",
+    "options": [
+      "風格",
+      "品格",
+      "人格",
+      "格調"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5258,
+    "cat": "context_vocab",
+    "sentence": "（　　）を欠いた行動だ。",
+    "options": [
+      "節度",
+      "節操",
+      "品位",
+      "品格"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5259,
+    "cat": "context_vocab",
+    "sentence": "（　　）を払う必要がある。",
+    "options": [
+      "敬意",
+      "敬愛",
+      "尊敬",
+      "尊重"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5260,
+    "cat": "context_vocab",
+    "sentence": "（　　）を尊重する。",
+    "options": [
+      "意向",
+      "意志",
+      "意思",
+      "意欲"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5261,
+    "cat": "context_vocab",
+    "sentence": "（　　）を貫く。",
+    "options": [
+      "信念",
+      "信条",
+      "信仰",
+      "信頼"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5262,
+    "cat": "context_vocab",
+    "sentence": "（　　）が合わない。",
+    "options": [
+      "辻褄",
+      "筋道",
+      "理屈",
+      "道理"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5263,
+    "cat": "context_vocab",
+    "sentence": "（　　）を立てる。",
+    "options": [
+      "面目",
+      "体面",
+      "面子",
+      "面"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5264,
+    "cat": "context_vocab",
+    "sentence": "（　　）を取り戻す。",
+    "options": [
+      "体面",
+      "面子",
+      "面目",
+      "体裁"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5265,
+    "cat": "context_vocab",
+    "sentence": "（　　）を晴らす。",
+    "options": [
+      "疑念",
+      "疑惑",
+      "疑問",
+      "疑い"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5266,
+    "cat": "context_vocab",
+    "sentence": "（　　）を広げる。",
+    "options": [
+      "視野",
+      "視界",
+      "視点",
+      "視線"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5267,
+    "cat": "context_vocab",
+    "sentence": "（　　）を探る。",
+    "options": [
+      "糸口",
+      "手掛",
+      "足掛",
+      "緒"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5268,
+    "cat": "context_vocab",
+    "sentence": "（　　）を受ける。",
+    "options": [
+      "恩恵",
+      "恩義",
+      "恩顧",
+      "恩典"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5269,
+    "cat": "context_vocab",
+    "sentence": "（　　）を感じる。",
+    "options": [
+      "違和感",
+      "違和",
+      "異和",
+      "疎外"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5270,
+    "cat": "context_vocab",
+    "sentence": "（　　）に陥る。",
+    "options": [
+      "窮地",
+      "苦境",
+      "困境",
+      "逆境"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5271,
+    "cat": "context_vocab",
+    "sentence": "（　　）を極める。",
+    "options": [
+      "多忙",
+      "繁忙",
+      "繁多",
+      "煩忙"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5272,
+    "cat": "context_vocab",
+    "sentence": "（　　）が尽きる。",
+    "options": [
+      "資金",
+      "財源",
+      "元手",
+      "資本"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5273,
+    "cat": "context_vocab",
+    "sentence": "（　　）を注ぐ。",
+    "options": [
+      "精力",
+      "気力",
+      "活力",
+      "精気"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5274,
+    "cat": "context_vocab",
+    "sentence": "（　　）を受け継ぐ。",
+    "options": [
+      "遺志",
+      "遺言",
+      "遺業",
+      "遺産"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5275,
+    "cat": "context_vocab",
+    "sentence": "（　　）に富む人物。",
+    "options": [
+      "機知",
+      "機転",
+      "才知",
+      "才覚"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5276,
+    "cat": "context_vocab",
+    "sentence": "（　　）を味わう。",
+    "options": [
+      "屈辱",
+      "侮辱",
+      "恥辱",
+      "汚辱"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5277,
+    "cat": "context_vocab",
+    "sentence": "（　　）を抱く。",
+    "options": [
+      "野望",
+      "野心",
+      "希望",
+      "抱負"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5278,
+    "cat": "context_vocab",
+    "sentence": "（　　）を買う。",
+    "options": [
+      "顰蹙",
+      "反感",
+      "不興",
+      "不評"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5279,
+    "cat": "context_vocab",
+    "sentence": "（　　）を保つ。",
+    "options": [
+      "均衡",
+      "釣合",
+      "平衡",
+      "均整"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5280,
+    "cat": "context_vocab",
+    "sentence": "（　　）を正す。",
+    "options": [
+      "姿勢",
+      "態度",
+      "姿態",
+      "姿"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5281,
+    "cat": "context_vocab",
+    "sentence": "（　　）が漂う。",
+    "options": [
+      "気配",
+      "雰囲",
+      "気運",
+      "気色"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5282,
+    "cat": "context_vocab",
+    "sentence": "（　　）を寄せる。",
+    "options": [
+      "関心",
+      "興味",
+      "注目",
+      "注視"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5283,
+    "cat": "context_vocab",
+    "sentence": "（　　）を失う。",
+    "options": [
+      "面目",
+      "体面",
+      "威信",
+      "権威"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5284,
+    "cat": "context_vocab",
+    "sentence": "（　　）を担う。",
+    "options": [
+      "使命",
+      "任務",
+      "役割",
+      "役目"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5285,
+    "cat": "context_vocab",
+    "sentence": "（　　）が立たない。",
+    "options": [
+      "歯",
+      "刃",
+      "足",
+      "手"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5286,
+    "cat": "context_vocab",
+    "sentence": "（　　）を踏む。",
+    "options": [
+      "二の足",
+      "二の舞",
+      "二番",
+      "二度"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5287,
+    "cat": "context_vocab",
+    "sentence": "（　　）を打つ。",
+    "options": [
+      "相槌",
+      "相打",
+      "相対",
+      "合図"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5288,
+    "cat": "context_vocab",
+    "sentence": "（　　）に余る。",
+    "options": [
+      "目",
+      "手",
+      "身",
+      "度"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5290,
+    "cat": "context_vocab",
+    "sentence": "（　　）を打つ。",
+    "options": [
+      "終止符",
+      "終点",
+      "終結",
+      "終末"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5291,
+    "cat": "context_vocab",
+    "sentence": "（　　）を立てる。",
+    "options": [
+      "腹",
+      "怒",
+      "憤",
+      "癇"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5292,
+    "cat": "context_vocab",
+    "sentence": "（　　）をつく。",
+    "options": [
+      "虚",
+      "裏",
+      "空",
+      "嘘"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5293,
+    "cat": "context_vocab",
+    "sentence": "（　　）が広い。",
+    "options": [
+      "顔",
+      "面",
+      "視野",
+      "視界"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5294,
+    "cat": "context_vocab",
+    "sentence": "（　　）に落ちる。",
+    "options": [
+      "腑",
+      "心",
+      "胸",
+      "肝"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5295,
+    "cat": "context_vocab",
+    "sentence": "（　　）が折れる。",
+    "options": [
+      "骨",
+      "肩",
+      "腰",
+      "背"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5296,
+    "cat": "context_vocab",
+    "sentence": "（　　）を焼く。",
+    "options": [
+      "世話",
+      "面倒",
+      "苦労",
+      "苦心"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5297,
+    "cat": "context_vocab",
+    "sentence": "（　　）を引く。",
+    "options": [
+      "尾",
+      "後",
+      "影",
+      "跡"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5298,
+    "cat": "context_vocab",
+    "sentence": "（　　）を持つ。",
+    "options": [
+      "肩",
+      "味方",
+      "支持",
+      "応援"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5299,
+    "cat": "context_vocab",
+    "sentence": "（　　）を上げる。",
+    "options": [
+      "音",
+      "声",
+      "手",
+      "腕"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5300,
+    "cat": "context_vocab",
+    "sentence": "（　　）が出る。",
+    "options": [
+      "ぼろ",
+      "襤褸",
+      "鍍金",
+      "化け"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5301,
+    "cat": "grammar",
+    "sentence": "彼の裏切りは怒り＿＿＿おかない。",
+    "options": [
+      "を感じずには",
+      "を感じないでは",
+      "を感じずに",
+      "を感じないで"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5302,
+    "cat": "grammar",
+    "sentence": "この事件は世間に衝撃を与え＿＿＿おかないだろう。",
+    "options": [
+      "ずには",
+      "まいとは",
+      "ないで",
+      "ないとは"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5303,
+    "cat": "grammar",
+    "sentence": "借りた金は返さ＿＿＿すまない。",
+    "options": [
+      "ずには",
+      "ないで",
+      "ないと",
+      "ずに"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5304,
+    "cat": "grammar",
+    "sentence": "約束したからには守ら＿＿＿すまない。",
+    "options": [
+      "ないでは",
+      "ずには",
+      "なくては",
+      "ないと"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5305,
+    "cat": "grammar",
+    "sentence": "世界平和を願って＿＿＿。",
+    "options": [
+      "やまない",
+      "ならない",
+      "たまらない",
+      "しかたない"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5306,
+    "cat": "grammar",
+    "sentence": "故郷を愛して＿＿＿。",
+    "options": [
+      "やまない",
+      "たまらない",
+      "ならない",
+      "しかたない"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5307,
+    "cat": "grammar",
+    "sentence": "この不祥事は遺憾＿＿＿。",
+    "options": [
+      "極まりない",
+      "極まる",
+      "の極",
+      "極"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5308,
+    "cat": "grammar",
+    "sentence": "彼の態度は失礼＿＿＿。",
+    "options": [
+      "極まりない",
+      "極まる",
+      "極",
+      "限りない"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5309,
+    "cat": "grammar",
+    "sentence": "受賞できて感激＿＿＿です。",
+    "options": [
+      "の極み",
+      "極めて",
+      "極み",
+      "の限り"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5310,
+    "cat": "grammar",
+    "sentence": "こんな賞をいただけて光栄＿＿＿。",
+    "options": [
+      "の至り",
+      "の至",
+      "至り",
+      "至"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5311,
+    "cat": "grammar",
+    "sentence": "誠に汗顔＿＿＿です。",
+    "options": [
+      "の至り",
+      "極まり",
+      "至極",
+      "の限り"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5312,
+    "cat": "grammar",
+    "sentence": "事故により運休＿＿＿。",
+    "options": [
+      "を余儀なくされた",
+      "を余儀なくした",
+      "を余儀にした",
+      "の余儀がない"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5313,
+    "cat": "grammar",
+    "sentence": "病気で退職＿＿＿。",
+    "options": [
+      "を余儀なくされた",
+      "を余儀なくした",
+      "することを余儀",
+      "せざるを得た"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5314,
+    "cat": "grammar",
+    "sentence": "彼の勇気ある行動には感動＿＿＿。",
+    "options": [
+      "を禁じ得ない",
+      "が禁じられる",
+      "を禁じる",
+      "が禁じ得る"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5315,
+    "cat": "grammar",
+    "sentence": "この悲惨な光景には涙＿＿＿。",
+    "options": [
+      "を禁じ得ない",
+      "を禁じる",
+      "が禁じ得",
+      "が禁ぜる"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5316,
+    "cat": "grammar",
+    "sentence": "今日＿＿＿、禁煙することに決めた。",
+    "options": [
+      "を限りに",
+      "限り",
+      "に限り",
+      "限って"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5317,
+    "cat": "grammar",
+    "sentence": "本日＿＿＿閉店いたします。",
+    "options": [
+      "を限りに",
+      "限りに",
+      "を限り",
+      "限って"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5318,
+    "cat": "grammar",
+    "sentence": "書面＿＿＿お知らせします。",
+    "options": [
+      "をもって",
+      "によって",
+      "により",
+      "でもって"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5319,
+    "cat": "grammar",
+    "sentence": "これ＿＿＿本日の会議を終わります。",
+    "options": [
+      "をもって",
+      "によって",
+      "により",
+      "でもって"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5320,
+    "cat": "grammar",
+    "sentence": "この仕事は彼＿＿＿他に適任者はいない。",
+    "options": [
+      "をおいて",
+      "に限って",
+      "以外",
+      "ばかりで"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5321,
+    "cat": "grammar",
+    "sentence": "社長＿＿＿この大役を任せられる人はいない。",
+    "options": [
+      "をおいて",
+      "以外に",
+      "ばかり",
+      "に限って"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5322,
+    "cat": "grammar",
+    "sentence": "これは老舗＿＿＿の味だ。",
+    "options": [
+      "ならでは",
+      "ならで",
+      "ならずも",
+      "ならず"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5323,
+    "cat": "grammar",
+    "sentence": "京都＿＿＿の風情がある。",
+    "options": [
+      "ならでは",
+      "ならずは",
+      "ならで",
+      "でないと"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5324,
+    "cat": "grammar",
+    "sentence": "彼の苦しみは想像＿＿＿。",
+    "options": [
+      "にかたくない",
+      "にかたい",
+      "に難しい",
+      "に易い"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5325,
+    "cat": "grammar",
+    "sentence": "彼の気持ちは察する＿＿＿。",
+    "options": [
+      "にかたくない",
+      "にかたい",
+      "に難",
+      "に易"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5326,
+    "cat": "grammar",
+    "sentence": "彼は信頼する＿＿＿人物だ。",
+    "options": [
+      "に足る",
+      "に足りる",
+      "に足りて",
+      "に足ら"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5327,
+    "cat": "grammar",
+    "sentence": "これは注目する＿＿＿作品だ。",
+    "options": [
+      "に足る",
+      "に足り",
+      "に足れる",
+      "に足ろう"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5328,
+    "cat": "grammar",
+    "sentence": "この映画は鑑賞＿＿＿価値がある。",
+    "options": [
+      "にたえる",
+      "にたえ",
+      "にたって",
+      "にたい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5329,
+    "cat": "grammar",
+    "sentence": "彼の演技は見る＿＿＿ものがある。",
+    "options": [
+      "にたえる",
+      "にたえ",
+      "にたって",
+      "に耐"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5330,
+    "cat": "grammar",
+    "sentence": "あまりの惨状に見る＿＿＿。",
+    "options": [
+      "にたえない",
+      "にたえる",
+      "にたえて",
+      "にたえ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5331,
+    "cat": "grammar",
+    "sentence": "その発言は聞く＿＿＿ものだ。",
+    "options": [
+      "にたえない",
+      "にたえる",
+      "に堪え",
+      "にたえ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5332,
+    "cat": "grammar",
+    "sentence": "結果＿＿＿、計画を変更する。",
+    "options": [
+      "いかんでは",
+      "いかに",
+      "いかんに",
+      "いかんなる"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5333,
+    "cat": "grammar",
+    "sentence": "成績＿＿＿進級できないこともある。",
+    "options": [
+      "いかんでは",
+      "いかんに",
+      "いかにも",
+      "いかんで"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5334,
+    "cat": "grammar",
+    "sentence": "理由＿＿＿欠席は認められない。",
+    "options": [
+      "いかんによらず",
+      "いかんでは",
+      "いかんに",
+      "いかんで"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5335,
+    "cat": "grammar",
+    "sentence": "国籍＿＿＿参加できる。",
+    "options": [
+      "いかんによらず",
+      "いかんでは",
+      "いかんに",
+      "いかにも"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5336,
+    "cat": "grammar",
+    "sentence": "子供＿＿＿、礼儀は大切だ。",
+    "options": [
+      "といえども",
+      "であろうとも",
+      "とはいえ",
+      "なりとも"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5337,
+    "cat": "grammar",
+    "sentence": "専門家＿＿＿間違えることがある。",
+    "options": [
+      "といえども",
+      "とはいえ",
+      "ながら",
+      "といっても"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5338,
+    "cat": "grammar",
+    "sentence": "春＿＿＿、まだ寒い。",
+    "options": [
+      "とはいえ",
+      "といえども",
+      "というが",
+      "といっても"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5339,
+    "cat": "grammar",
+    "sentence": "若い＿＿＿、経験はある。",
+    "options": [
+      "とはいえ",
+      "といえども",
+      "といえば",
+      "といっても"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5340,
+    "cat": "grammar",
+    "sentence": "彼は彼＿＿＿頑張っている。",
+    "options": [
+      "なりに",
+      "なり",
+      "ながら",
+      "なりで"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5341,
+    "cat": "grammar",
+    "sentence": "子供は子供＿＿＿考えている。",
+    "options": [
+      "なりに",
+      "なり",
+      "なりで",
+      "なって"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5342,
+    "cat": "grammar",
+    "sentence": "生まれ＿＿＿の才能を持つ。",
+    "options": [
+      "ながら",
+      "ながらに",
+      "ながらで",
+      "ながらも"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5343,
+    "cat": "grammar",
+    "sentence": "涙＿＿＿語った。",
+    "options": [
+      "ながらに",
+      "ながら",
+      "ながらで",
+      "ながらを"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5344,
+    "cat": "grammar",
+    "sentence": "春＿＿＿暖かくなってきた。",
+    "options": [
+      "めいて",
+      "らしく",
+      "ぽく",
+      "じみて"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5345,
+    "cat": "grammar",
+    "sentence": "皮肉＿＿＿態度を取る。",
+    "options": [
+      "めいた",
+      "らしい",
+      "ぽい",
+      "じみた"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5346,
+    "cat": "grammar",
+    "sentence": "彼は最近所帯＿＿＿てきた。",
+    "options": [
+      "じみ",
+      "めい",
+      "ぽく",
+      "らしく"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5347,
+    "cat": "grammar",
+    "sentence": "その言動は子供＿＿＿いる。",
+    "options": [
+      "じみて",
+      "めいて",
+      "らしく",
+      "ぽく"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5348,
+    "cat": "grammar",
+    "sentence": "黒＿＿＿のスーツを着る。",
+    "options": [
+      "ずくめ",
+      "だらけ",
+      "まみれ",
+      "ばかり"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5349,
+    "cat": "grammar",
+    "sentence": "今週はいいこと＿＿＿だ。",
+    "options": [
+      "ずくめ",
+      "ばかり",
+      "まみれ",
+      "だらけ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5350,
+    "cat": "grammar",
+    "sentence": "汗＿＿＿になって働く。",
+    "options": [
+      "まみれ",
+      "だらけ",
+      "ずくめ",
+      "ばかり"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5351,
+    "cat": "grammar",
+    "sentence": "泥＿＿＿の服を洗う。",
+    "options": [
+      "まみれ",
+      "だらけ",
+      "ずくめ",
+      "ばかり"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5352,
+    "cat": "grammar",
+    "sentence": "間違い＿＿＿の答案だ。",
+    "options": [
+      "だらけ",
+      "まみれ",
+      "ずくめ",
+      "ばかり"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5353,
+    "cat": "grammar",
+    "sentence": "部屋はごみ＿＿＿だ。",
+    "options": [
+      "だらけ",
+      "まみれ",
+      "ずくめ",
+      "ばかり"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5354,
+    "cat": "grammar",
+    "sentence": "少し＿＿＿援助してほしい。",
+    "options": [
+      "なりとも",
+      "たりとも",
+      "であれ",
+      "なりに"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5355,
+    "cat": "grammar",
+    "sentence": "一言＿＿＿挨拶したい。",
+    "options": [
+      "なりとも",
+      "たりとも",
+      "であれ",
+      "なりに"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5356,
+    "cat": "grammar",
+    "sentence": "どんな理由＿＿＿許されない。",
+    "options": [
+      "であれ",
+      "であり",
+      "であって",
+      "であるが"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5357,
+    "cat": "grammar",
+    "sentence": "王様＿＿＿従うべきだ。",
+    "options": [
+      "であれ",
+      "たりとも",
+      "なりとも",
+      "であり"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5358,
+    "cat": "grammar",
+    "sentence": "教師＿＿＿、模範を示すべきだ。",
+    "options": [
+      "たるもの",
+      "であるもの",
+      "ためもの",
+      "にあるもの"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5359,
+    "cat": "grammar",
+    "sentence": "医者＿＿＿、命を救う使命がある。",
+    "options": [
+      "たるもの",
+      "であるもの",
+      "ためのもの",
+      "たるべき"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5360,
+    "cat": "grammar",
+    "sentence": "一瞬＿＿＿気を抜けない。",
+    "options": [
+      "たりとも",
+      "なりとも",
+      "であれ",
+      "ばかり"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5361,
+    "cat": "grammar",
+    "sentence": "一人＿＿＿見逃さない。",
+    "options": [
+      "たりとも",
+      "なりとも",
+      "であれ",
+      "ばかり"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5362,
+    "cat": "grammar",
+    "sentence": "努力＿＿＿成功はない。",
+    "options": [
+      "なくして",
+      "なくては",
+      "なければ",
+      "ないで"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5363,
+    "cat": "grammar",
+    "sentence": "愛＿＿＿人生は語れない。",
+    "options": [
+      "なくして",
+      "なくては",
+      "なければ",
+      "ないで"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5364,
+    "cat": "grammar",
+    "sentence": "痛みを感じる＿＿＿治療は終わった。",
+    "options": [
+      "ことなしに",
+      "ことなく",
+      "ないで",
+      "ずに"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5365,
+    "cat": "grammar",
+    "sentence": "一言も発する＿＿＿彼は去った。",
+    "options": [
+      "ことなしに",
+      "ことなく",
+      "ないで",
+      "ずに"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5366,
+    "cat": "grammar",
+    "sentence": "社長＿＿＿、責任は重大だ。",
+    "options": [
+      "ともなると",
+      "となると",
+      "となれば",
+      "ともなれ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5367,
+    "cat": "grammar",
+    "sentence": "プロ＿＿＿、ミスは許されない。",
+    "options": [
+      "ともなると",
+      "となると",
+      "となれば",
+      "ともなれ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5368,
+    "cat": "grammar",
+    "sentence": "大臣＿＿＿者が、そんな発言をするとは。",
+    "options": [
+      "ともあろう",
+      "であろう",
+      "ともいう",
+      "とある"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5369,
+    "cat": "grammar",
+    "sentence": "教授＿＿Ｒともあろう者が間違えた。",
+    "options": [
+      "ともあろう",
+      "であろう",
+      "ともいう",
+      "とある"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5370,
+    "cat": "grammar",
+    "sentence": "彼の実力＿＿＿目を見張るものがある。",
+    "options": [
+      "たるや",
+      "であるや",
+      "たりや",
+      "となるや"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5371,
+    "cat": "grammar",
+    "sentence": "その豪華さ＿＿＿言葉に尽くせない。",
+    "options": [
+      "たるや",
+      "であるや",
+      "たりや",
+      "となるや"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5372,
+    "cat": "grammar",
+    "sentence": "子供＿＿＿知っている常識だ。",
+    "options": [
+      "すら",
+      "でさえ",
+      "だに",
+      "ばかり"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5373,
+    "cat": "grammar",
+    "sentence": "名前＿＿＿書けない。",
+    "options": [
+      "すら",
+      "でさえ",
+      "だに",
+      "ばかり"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5374,
+    "cat": "grammar",
+    "sentence": "想像＿＿＿しなかった。",
+    "options": [
+      "だに",
+      "さえ",
+      "すら",
+      "のみ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5375,
+    "cat": "grammar",
+    "sentence": "夢＿＿＿見なかった結果だ。",
+    "options": [
+      "にだに",
+      "だに",
+      "すら",
+      "さえ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5376,
+    "cat": "grammar",
+    "sentence": "あの感動＿＿＿。",
+    "options": [
+      "といったらない",
+      "ではない",
+      "とはない",
+      "というほかない"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5377,
+    "cat": "grammar",
+    "sentence": "暑い＿＿＿、たまらない。",
+    "options": [
+      "といったらない",
+      "ではない",
+      "とはない",
+      "ということはない"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5378,
+    "cat": "grammar",
+    "sentence": "一万円＿＿＿札束を持っていた。",
+    "options": [
+      "からある",
+      "からする",
+      "からくる",
+      "からの"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5379,
+    "cat": "grammar",
+    "sentence": "百キロ＿＿＿荷物を運ぶ。",
+    "options": [
+      "からある",
+      "からする",
+      "からくる",
+      "からの"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5380,
+    "cat": "grammar",
+    "sentence": "十万円＿＿＿時計をしている。",
+    "options": [
+      "からする",
+      "からある",
+      "からくる",
+      "からの"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5381,
+    "cat": "grammar",
+    "sentence": "玄関を出る＿＿＿、雨が降ってきた。",
+    "options": [
+      "や否や",
+      "や",
+      "が早いか",
+      "なり"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5382,
+    "cat": "grammar",
+    "sentence": "彼を見る＿＿＿駆け寄った。",
+    "options": [
+      "や否や",
+      "や",
+      "が早いか",
+      "なり"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5383,
+    "cat": "grammar",
+    "sentence": "ベルが鳴る＿＿＿飛び出した。",
+    "options": [
+      "が早いか",
+      "や否や",
+      "なり",
+      "そばから"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5384,
+    "cat": "grammar",
+    "sentence": "開店する＿＿＿客が押し寄せた。",
+    "options": [
+      "が早いか",
+      "や否や",
+      "なり",
+      "そばから"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5385,
+    "cat": "grammar",
+    "sentence": "片付ける＿＿＿散らかる。",
+    "options": [
+      "そばから",
+      "はしから",
+      "とたん",
+      "と同時に"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5386,
+    "cat": "grammar",
+    "sentence": "教わった＿＿＿忘れてしまう。",
+    "options": [
+      "そばから",
+      "うちから",
+      "とたん",
+      "が早いか"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5387,
+    "cat": "grammar",
+    "sentence": "彼は部屋に入る＿＿＿倒れた。",
+    "options": [
+      "なり",
+      "や否や",
+      "が早いか",
+      "そばから"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5388,
+    "cat": "grammar",
+    "sentence": "家に帰る＿＿＿、すぐ寝てしまった。",
+    "options": [
+      "なり",
+      "や否や",
+      "が早いか",
+      "そばから"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5389,
+    "cat": "grammar",
+    "sentence": "仕事の＿＿＿、家事もこなす。",
+    "options": [
+      "かたわら",
+      "一方",
+      "合間",
+      "傍ら"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5390,
+    "cat": "grammar",
+    "sentence": "研究の＿＿＿、執筆活動もしている。",
+    "options": [
+      "かたわら",
+      "合間",
+      "一方",
+      "中"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5391,
+    "cat": "grammar",
+    "sentence": "散歩＿＿＿買い物に行く。",
+    "options": [
+      "がてら",
+      "ついで",
+      "とともに",
+      "ながら"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5392,
+    "cat": "grammar",
+    "sentence": "運動＿＿＿駅まで歩く。",
+    "options": [
+      "がてら",
+      "がたら",
+      "ついで",
+      "ながら"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5393,
+    "cat": "grammar",
+    "sentence": "親の心配＿＿＿遊び回る。",
+    "options": [
+      "をよそに",
+      "をおいて",
+      "をもって",
+      "をこめて"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5394,
+    "cat": "grammar",
+    "sentence": "周囲の反対＿＿＿結婚した。",
+    "options": [
+      "をよそに",
+      "をおいて",
+      "をもって",
+      "をこめて"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5395,
+    "cat": "grammar",
+    "sentence": "困難＿＿＿、前進する。",
+    "options": [
+      "をものともせず",
+      "をものとせず",
+      "にもかかわらず",
+      "にも関係なく"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5396,
+    "cat": "grammar",
+    "sentence": "逆風＿＿＿、挑戦を続ける。",
+    "options": [
+      "をものともせず",
+      "をものとして",
+      "にもかかわらず",
+      "もおかまいなく"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5397,
+    "cat": "grammar",
+    "sentence": "病気＿＿＿出勤した。",
+    "options": [
+      "をおして",
+      "をもって",
+      "をこめて",
+      "をおいて"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5398,
+    "cat": "grammar",
+    "sentence": "反対＿＿＿強行した。",
+    "options": [
+      "をおして",
+      "をもって",
+      "をこめて",
+      "をおいて"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5399,
+    "cat": "grammar",
+    "sentence": "兄＿＿＿、弟は勉強嫌いだ。",
+    "options": [
+      "にひきかえ",
+      "に対して",
+      "に比べて",
+      "と違って"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5400,
+    "cat": "grammar",
+    "sentence": "昨年＿＿＿、今年は好調だ。",
+    "options": [
+      "にひきかえ",
+      "に対して",
+      "に比べ",
+      "と違い"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5401,
+    "cat": "grammar",
+    "sentence": "才能＿＿＿努力があれば成功する。",
+    "options": [
+      "と相まって",
+      "とともに",
+      "と一緒",
+      "と合わせ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5402,
+    "cat": "grammar",
+    "sentence": "美しい音楽＿＿＿感動が深まる。",
+    "options": [
+      "と相まって",
+      "と共に",
+      "とあいまって",
+      "と合わせて"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5404,
+    "cat": "grammar",
+    "sentence": "健康＿＿＿仕事だ。",
+    "options": [
+      "あっての",
+      "あって",
+      "あるの",
+      "あり"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5405,
+    "cat": "grammar",
+    "sentence": "彼＿＿＿人物は初めてだ。",
+    "options": [
+      "ごとき",
+      "ごとく",
+      "ような",
+      "らしい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5406,
+    "cat": "grammar",
+    "sentence": "山の＿＿＿大きな波が押し寄せた。",
+    "options": [
+      "ごとく",
+      "ごとき",
+      "ように",
+      "らしく"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5407,
+    "cat": "grammar",
+    "sentence": "教師として許す＿＿＿行為だ。",
+    "options": [
+      "まじき",
+      "べからざる",
+      "まい",
+      "まじ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5408,
+    "cat": "grammar",
+    "sentence": "あるまじき行為＿＿＿。",
+    "options": [
+      "というほかない",
+      "まじき",
+      "べき",
+      "ほどだ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5409,
+    "cat": "grammar",
+    "sentence": "優勝す＿＿＿、毎日練習している。",
+    "options": [
+      "べく",
+      "ために",
+      "ため",
+      "よう"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5410,
+    "cat": "grammar",
+    "sentence": "目標を達成す＿＿＿努力する。",
+    "options": [
+      "べく",
+      "ため",
+      "ために",
+      "よう"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5411,
+    "cat": "grammar",
+    "sentence": "立ち入る＿＿＿ず。",
+    "options": [
+      "べから",
+      "ま",
+      "まい",
+      "べき"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5412,
+    "cat": "grammar",
+    "sentence": "無断駐車する＿＿＿ず。",
+    "options": [
+      "べから",
+      "まい",
+      "ま",
+      "べき"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5413,
+    "cat": "grammar",
+    "sentence": "どうするかは君の判断＿＿＿。",
+    "options": [
+      "いかんだ",
+      "いかんに",
+      "いかんの",
+      "いかんで"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5414,
+    "cat": "grammar",
+    "sentence": "成功するかは努力＿＿＿。",
+    "options": [
+      "いかんだ",
+      "いかんに",
+      "いかんの",
+      "いかんで"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5416,
+    "cat": "grammar",
+    "sentence": "今＿＿＿後悔しても遅い。",
+    "options": [
+      "に至って",
+      "に至り",
+      "に至る",
+      "に及んで"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5417,
+    "cat": "grammar",
+    "sentence": "連絡する＿＿＿になった。",
+    "options": [
+      "ずじまい",
+      "ずにすんだ",
+      "ずにいた",
+      "ないまま"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5418,
+    "cat": "grammar",
+    "sentence": "買う＿＿＿帰ってきた。",
+    "options": [
+      "ずじまいで",
+      "ずにすんで",
+      "ないで",
+      "ずに"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5419,
+    "cat": "grammar",
+    "sentence": "一度始めた＿＿＿、最後までやる。",
+    "options": [
+      "が最後",
+      "からは",
+      "以上",
+      "うえは"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5420,
+    "cat": "grammar",
+    "sentence": "捕まった＿＿＿、刑務所行きだ。",
+    "options": [
+      "が最後",
+      "からは",
+      "以上",
+      "うえは"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5421,
+    "cat": "grammar",
+    "sentence": "眠った＿＿＿朝まで起きない。",
+    "options": [
+      "たら最後",
+      "が最後",
+      "からには",
+      "以上は"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5422,
+    "cat": "grammar",
+    "sentence": "彼が怒っ＿＿＿誰も止められない。",
+    "options": [
+      "たら最後",
+      "が最後",
+      "からには",
+      "以上は"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5423,
+    "cat": "grammar",
+    "sentence": "早く言えばよかった＿＿＿。",
+    "options": [
+      "ものを",
+      "のに",
+      "ものの",
+      "ものから"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5424,
+    "cat": "grammar",
+    "sentence": "謝れば済んだ＿＿＿、意地を張った。",
+    "options": [
+      "ものを",
+      "のに",
+      "ものの",
+      "ものから"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5425,
+    "cat": "grammar",
+    "sentence": "「さあ行け」＿＿＿背中を押した。",
+    "options": [
+      "とばかりに",
+      "ばかりに",
+      "とばかり",
+      "のように"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5426,
+    "cat": "grammar",
+    "sentence": "「早く帰れ」＿＿＿睨まれた。",
+    "options": [
+      "とばかりに",
+      "ばかりに",
+      "とばかり",
+      "のように"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5427,
+    "cat": "grammar",
+    "sentence": "叫ば＿＿＿大きな声を出した。",
+    "options": [
+      "んばかりに",
+      "ないばかり",
+      "ばかりに",
+      "せんばかり"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5428,
+    "cat": "grammar",
+    "sentence": "泣か＿＿＿懇願した。",
+    "options": [
+      "んばかりに",
+      "ないばかり",
+      "ばかりに",
+      "せんばかり"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5429,
+    "cat": "grammar",
+    "sentence": "夢を実現せ＿＿＿努力する。",
+    "options": [
+      "んがため",
+      "んために",
+      "するため",
+      "するために"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5430,
+    "cat": "grammar",
+    "sentence": "生き残ら＿＿＿戦う。",
+    "options": [
+      "んがため",
+      "んために",
+      "するため",
+      "するために"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5431,
+    "cat": "grammar",
+    "sentence": "疲れる＿＿＿集中力が落ちる。",
+    "options": [
+      "ともすると",
+      "とすると",
+      "となると",
+      "と共に"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5432,
+    "cat": "grammar",
+    "sentence": "彼は＿＿＿感情的になる。",
+    "options": [
+      "ともすると",
+      "とすると",
+      "となると",
+      "と共に"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5433,
+    "cat": "grammar",
+    "sentence": "完璧＿＿＿、まずまずの出来だ。",
+    "options": [
+      "ないまでも",
+      "までも",
+      "ないまで",
+      "ないでも"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5434,
+    "cat": "grammar",
+    "sentence": "優勝は無理＿＿＿、入賞を狙う。",
+    "options": [
+      "ないまでも",
+      "までも",
+      "ないまで",
+      "ないでも"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5435,
+    "cat": "grammar",
+    "sentence": "そんな馬鹿な話を信じる＿＿＿ない。",
+    "options": [
+      "はずが",
+      "わけが",
+      "ことは",
+      "ものは"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5436,
+    "cat": "grammar",
+    "sentence": "社会人＿＿＿、責任を持つべきだ。",
+    "options": [
+      "たるもの",
+      "ともなると",
+      "であれば",
+      "になれば"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5437,
+    "cat": "grammar",
+    "sentence": "予想＿＿＿結果に驚いた。",
+    "options": [
+      "だにしなかった",
+      "ですらない",
+      "でもない",
+      "すらない"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5438,
+    "cat": "grammar",
+    "sentence": "電話＿＿＿、メールでもいい。",
+    "options": [
+      "なり",
+      "でも",
+      "なりと",
+      "かと"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5439,
+    "cat": "grammar",
+    "sentence": "お茶＿＿＿コーヒー＿＿＿飲みませんか。",
+    "options": [
+      "なり、なり",
+      "でも、でも",
+      "か、か",
+      "とか、とか"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5440,
+    "cat": "grammar",
+    "sentence": "この仕事は彼＿＿＿できる仕事ではない。",
+    "options": [
+      "ならでは",
+      "でなければ",
+      "に",
+      "にしか"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5441,
+    "cat": "grammar",
+    "sentence": "経験者＿＿＿わかる苦労だ。",
+    "options": [
+      "ならではの",
+      "でなくては",
+      "のみの",
+      "だけの"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5442,
+    "cat": "grammar",
+    "sentence": "長年の苦労＿＿＿報われる日が来た。",
+    "options": [
+      "が実を結ぶ",
+      "が結実する",
+      "を実に",
+      "は花開"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5443,
+    "cat": "grammar",
+    "sentence": "彼の行動は理解＿＿＿。",
+    "options": [
+      "に苦しむ",
+      "に苦しい",
+      "を苦しむ",
+      "が苦しむ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5444,
+    "cat": "grammar",
+    "sentence": "あの人は信頼する＿＿＿。",
+    "options": [
+      "に値する",
+      "にあたる",
+      "にあたいする",
+      "に価する"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5445,
+    "cat": "grammar",
+    "sentence": "立場＿＿＿、意見を変えるべきではない。",
+    "options": [
+      "上",
+      "から",
+      "によって",
+      "次第で"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5446,
+    "cat": "grammar",
+    "sentence": "彼の話を聞いて納得＿＿＿。",
+    "options": [
+      "せざるを得ない",
+      "しないわけにはいかない",
+      "するしかない",
+      "する以外ない"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5447,
+    "cat": "grammar",
+    "sentence": "これで＿＿＿は安心できない。",
+    "options": [
+      "は",
+      "ても",
+      "と",
+      "として"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5448,
+    "cat": "grammar",
+    "sentence": "失敗＿＿＿成功の母だ。",
+    "options": [
+      "は",
+      "こそ",
+      "も",
+      "と"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5449,
+    "cat": "grammar",
+    "sentence": "親の気持ち＿＿＿子供にはわからない。",
+    "options": [
+      "など",
+      "こそ",
+      "だけ",
+      "とて"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5450,
+    "cat": "grammar",
+    "sentence": "いくら呼ばれ＿＿＿振り向かなかった。",
+    "options": [
+      "ても",
+      "でも",
+      "ようと",
+      "ようとも"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5451,
+    "cat": "grammar",
+    "sentence": "風邪＿＿＿侮れない。",
+    "options": [
+      "とて",
+      "ので",
+      "から",
+      "なら"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5452,
+    "cat": "grammar",
+    "sentence": "雨＿＿＿降ったら試合は中止だ。",
+    "options": [
+      "なり",
+      "とて",
+      "でも",
+      "にも"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5453,
+    "cat": "grammar",
+    "sentence": "この一言＿＿＿状況が変わった。",
+    "options": [
+      "をもって",
+      "を境に",
+      "により",
+      "で"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5454,
+    "cat": "grammar",
+    "sentence": "最後＿＿＿頑張ろう。",
+    "options": [
+      "まで",
+      "までに",
+      "までも",
+      "までで"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5455,
+    "cat": "grammar",
+    "sentence": "こうなった＿＿＿、仕方がない。",
+    "options": [
+      "上は",
+      "上で",
+      "上に",
+      "上を"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5456,
+    "cat": "grammar",
+    "sentence": "調査の結果＿＿＿問題が判明した。",
+    "options": [
+      "により",
+      "によって",
+      "から",
+      "において"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5457,
+    "cat": "grammar",
+    "sentence": "法律＿＿＿、彼は無罪だ。",
+    "options": [
+      "上",
+      "から",
+      "として",
+      "では"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5458,
+    "cat": "grammar",
+    "sentence": "親として子供を守る＿＿＿。",
+    "options": [
+      "べきだ",
+      "はずだ",
+      "ものだ",
+      "ことだ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5459,
+    "cat": "grammar",
+    "sentence": "日本人＿＿＿米を食べる。",
+    "options": [
+      "なら",
+      "というと",
+      "といえば",
+      "にあって"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5460,
+    "cat": "grammar",
+    "sentence": "彼＿＿＿怒るのも無理はない。",
+    "options": [
+      "が",
+      "は",
+      "なら",
+      "にして"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5461,
+    "cat": "grammar",
+    "sentence": "そのニュースを聞いて涙＿＿＿。",
+    "options": [
+      "を禁じ得なかった",
+      "が止まらなかった",
+      "を流した",
+      "が落ちた"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5462,
+    "cat": "grammar",
+    "sentence": "熟慮の末、辞任＿＿＿。",
+    "options": [
+      "を余儀なくされた",
+      "するしかなかった",
+      "せざるを得なかった",
+      "した"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5463,
+    "cat": "grammar",
+    "sentence": "ご活躍を願って＿＿＿ません。",
+    "options": [
+      "やみ",
+      "おり",
+      "やま",
+      "止み"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5464,
+    "cat": "grammar",
+    "sentence": "無念＿＿＿。",
+    "options": [
+      "の極み",
+      "極",
+      "至極",
+      "極み"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5465,
+    "cat": "grammar",
+    "sentence": "恐縮＿＿＿存じます。",
+    "options": [
+      "の至りに",
+      "至りに",
+      "の極みに",
+      "に極みて"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5466,
+    "cat": "grammar",
+    "sentence": "彼の研究は世間を驚かせ＿＿＿。",
+    "options": [
+      "ずにはおかない",
+      "ないわけにはいかない",
+      "ないではすまない",
+      "ずにはすまない"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5467,
+    "cat": "grammar",
+    "sentence": "子供の頃からの夢＿＿＿叶った。",
+    "options": [
+      "がついに",
+      "をついに",
+      "でついに",
+      "ゆえに"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5468,
+    "cat": "grammar",
+    "sentence": "雨が降ろう＿＿＿槍が降ろう＿＿＿行く。",
+    "options": [
+      "が、が",
+      "と、と",
+      "も、も",
+      "に、に"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5469,
+    "cat": "grammar",
+    "sentence": "いかなる困難＿＿＿乗り越える。",
+    "options": [
+      "であれ",
+      "なりとも",
+      "ならでは",
+      "といえば"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5470,
+    "cat": "grammar",
+    "sentence": "首相＿＿＿者が、法律を破るとは。",
+    "options": [
+      "たるもの",
+      "であれ",
+      "ともあろう",
+      "ならでは"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5471,
+    "cat": "grammar",
+    "sentence": "ほんのわずか＿＿＿油断できない。",
+    "options": [
+      "たりとも",
+      "なりとも",
+      "であれ",
+      "とて"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5472,
+    "cat": "grammar",
+    "sentence": "少し＿＿＿休ませてほしい。",
+    "options": [
+      "なりとも",
+      "たりとも",
+      "であれ",
+      "とて"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5473,
+    "cat": "grammar",
+    "sentence": "努力＿＿＿成功は得られない。",
+    "options": [
+      "なくしては",
+      "なくて",
+      "ないで",
+      "なしに"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5474,
+    "cat": "grammar",
+    "sentence": "礼儀作法は社会人＿＿＿身につけるべきだ。",
+    "options": [
+      "たる者",
+      "の者",
+      "となる者",
+      "である者"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5475,
+    "cat": "grammar",
+    "sentence": "そんな話は想像する＿＿＿しない。",
+    "options": [
+      "だに",
+      "さえ",
+      "すら",
+      "でも"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5476,
+    "cat": "grammar",
+    "sentence": "彼の料理の旨さ＿＿＿格別だ。",
+    "options": [
+      "たるや",
+      "なるや",
+      "とや",
+      "とは"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5477,
+    "cat": "grammar",
+    "sentence": "この問題の複雑さ＿＿＿言葉にできない。",
+    "options": [
+      "たるや",
+      "なるや",
+      "とや",
+      "とは"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5478,
+    "cat": "grammar",
+    "sentence": "一滴＿＿＿水を無駄にしない。",
+    "options": [
+      "たりとも",
+      "なりとも",
+      "であれ",
+      "とて"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5479,
+    "cat": "grammar",
+    "sentence": "一秒＿＿＿気を抜けない状況だ。",
+    "options": [
+      "たりとも",
+      "なりとも",
+      "であれ",
+      "とて"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5480,
+    "cat": "grammar",
+    "sentence": "多少＿＿＿力になれればと思う。",
+    "options": [
+      "なりとも",
+      "たりとも",
+      "であれ",
+      "とて"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5481,
+    "cat": "grammar",
+    "sentence": "戸を開けた＿＿＿猫が飛び込んできた。",
+    "options": [
+      "が早いか",
+      "や否や",
+      "そばから",
+      "なり"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5482,
+    "cat": "grammar",
+    "sentence": "朝起きる＿＿＿新聞を読む。",
+    "options": [
+      "なり",
+      "が早いか",
+      "や否や",
+      "そばから"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5483,
+    "cat": "grammar",
+    "sentence": "説明して＿＿＿忘れるな。",
+    "options": [
+      "そばから",
+      "うちから",
+      "ながら",
+      "とたん"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5484,
+    "cat": "grammar",
+    "sentence": "彼女は母親の看病＿＿＿仕事もしている。",
+    "options": [
+      "のかたわら",
+      "の他",
+      "と共に",
+      "と並行"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5485,
+    "cat": "grammar",
+    "sentence": "食事＿＿＿話をしよう。",
+    "options": [
+      "がてら",
+      "ついで",
+      "ながら",
+      "と共に"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5486,
+    "cat": "grammar",
+    "sentence": "人の迷惑＿＿＿大声で騒ぐ。",
+    "options": [
+      "をよそに",
+      "にもかかわらず",
+      "も関係なく",
+      "におかまいなく"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5487,
+    "cat": "grammar",
+    "sentence": "危険＿＿＿突入した。",
+    "options": [
+      "をものともせず",
+      "にもかかわらず",
+      "を恐れず",
+      "を無視して"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5488,
+    "cat": "grammar",
+    "sentence": "高熱＿＿＿試合に出た。",
+    "options": [
+      "をおして",
+      "にもかかわらず",
+      "を押し切って",
+      "を押して"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5489,
+    "cat": "grammar",
+    "sentence": "兄は活発な＿＿＿、妹はおとなしい。",
+    "options": [
+      "のにひきかえ",
+      "に対して",
+      "と比べて",
+      "と違って"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5490,
+    "cat": "grammar",
+    "sentence": "この料理は彼の腕＿＿＿新鮮な食材があってこそだ。",
+    "options": [
+      "と相まって",
+      "と共に",
+      "と一緒",
+      "と合わせ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5493,
+    "cat": "grammar",
+    "sentence": "夢の＿＿＿、現実を受け入れる。",
+    "options": [
+      "ごとき",
+      "ごとく",
+      "ように",
+      "らしく"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5494,
+    "cat": "grammar",
+    "sentence": "私＿＿＿者には、そんな役は務まらない。",
+    "options": [
+      "ごとき",
+      "ごとく",
+      "のごとき",
+      "のよう"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5495,
+    "cat": "grammar",
+    "sentence": "医者としてある＿＿＿行為だ。",
+    "options": [
+      "まじき",
+      "べからざる",
+      "べきでない",
+      "まい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5496,
+    "cat": "grammar",
+    "sentence": "合格す＿＿＿、毎日勉強している。",
+    "options": [
+      "べく",
+      "ため",
+      "ために",
+      "ように"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5497,
+    "cat": "grammar",
+    "sentence": "ここから先は立ち入る＿＿＿。",
+    "options": [
+      "べからず",
+      "まい",
+      "まじ",
+      "べき"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5499,
+    "cat": "grammar",
+    "sentence": "事ここ＿＿＿、逃げ場はない。",
+    "options": [
+      "に至っては",
+      "に至って",
+      "に至り",
+      "に及んで"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5500,
+    "cat": "grammar",
+    "sentence": "彼に会う＿＿＿、帰国してしまった。",
+    "options": [
+      "ことなく",
+      "ずじまいで",
+      "ないまま",
+      "ずに"
+    ],
+    "answer": 0
+  }
 ]

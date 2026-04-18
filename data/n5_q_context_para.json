@@ -1,1 +1,6264 @@
-[{"id":1001,"cat":"context_vocab","sentence":"りんごを（　　）つください。","options":["ひと","いち","ふた","さん"],"answer":0},{"id":1002,"cat":"context_vocab","sentence":"みかんを（　　）つ買いました。","options":["ふた","に","みっ","さん"],"answer":0},{"id":1003,"cat":"context_vocab","sentence":"ケーキを（　　）つ食べました。","options":["みっ","さん","みつ","むっ"],"answer":0},{"id":1004,"cat":"context_vocab","sentence":"お皿が（　　）あります。","options":["よっつ","よんつ","しっつ","よつ"],"answer":0},{"id":1005,"cat":"context_vocab","sentence":"いすが（　　）あります。","options":["いつつ","ごつ","いつ","ごっつ"],"answer":0},{"id":1006,"cat":"context_vocab","sentence":"えんぴつを（　　）ください。","options":["いっぽん","いちほん","いちぽん","いっほん"],"answer":0},{"id":1007,"cat":"context_vocab","sentence":"ビールを（　　）のみました。","options":["にほん","にぽん","にっぽん","にぼん"],"answer":0},{"id":1008,"cat":"context_vocab","sentence":"傘を（　　）持っています。","options":["さんぼん","さんほん","さっぽん","さんぽん"],"answer":0},{"id":1009,"cat":"context_vocab","sentence":"紙を（　　）ください。","options":["いちまい","いっまい","ひとまい","いちぱい"],"answer":0},{"id":1010,"cat":"context_vocab","sentence":"切手を（　　）買いました。","options":["さんまい","さんぱい","さっまい","さぱい"],"answer":0},{"id":1011,"cat":"context_vocab","sentence":"犬が（　　）います。","options":["いっぴき","いちひき","いちぴき","いっひき"],"answer":0},{"id":1012,"cat":"context_vocab","sentence":"猫が（　　）います。","options":["にひき","にぴき","にっぴき","にっひき"],"answer":0},{"id":1013,"cat":"context_vocab","sentence":"鳥が（　　）います。","options":["さんば","さんわ","さんば","さんぱ"],"answer":1},{"id":1014,"cat":"context_vocab","sentence":"車が（　　）あります。","options":["いちだい","いっだい","ひとだい","いちたい"],"answer":0},{"id":1015,"cat":"context_vocab","sentence":"本が（　　）あります。","options":["にさつ","にっさつ","ふたさつ","にざつ"],"answer":0},{"id":1016,"cat":"context_vocab","sentence":"（　　）時に起きます。","options":["しち","なな","ひち","ななつ"],"answer":0},{"id":1017,"cat":"context_vocab","sentence":"今（　　）時です。","options":["よ","よん","し","よっ"],"answer":0},{"id":1018,"cat":"context_vocab","sentence":"（　　）分待ってください。","options":["じゅっぷん","じゅうふん","じゅぷん","じゅうぶん"],"answer":0},{"id":1019,"cat":"context_vocab","sentence":"（　　）円です。","options":["ひゃく","びゃく","ぴゃく","はく"],"answer":0},{"id":1020,"cat":"context_vocab","sentence":"（　　）円のパンです。","options":["さんびゃく","さんひゃく","さんぴゃく","さっぴゃく"],"answer":0},{"id":1021,"cat":"context_vocab","sentence":"（　　）人来ました。","options":["ひとり","いちにん","ひとにん","いちり"],"answer":0},{"id":1022,"cat":"context_vocab","sentence":"友達が（　　）います。","options":["ふたり","ににん","ふたにん","にり"],"answer":0},{"id":1023,"cat":"context_vocab","sentence":"学生が（　　）います。","options":["さんにん","さんり","さっにん","みにん"],"answer":0},{"id":1024,"cat":"context_vocab","sentence":"（　　）年日本にいます。","options":["いちねん","ひとねん","いっねん","いちとし"],"answer":0},{"id":1025,"cat":"context_vocab","sentence":"（　　）月に日本へ来ました。","options":["しがつ","よんがつ","よがつ","よっがつ"],"answer":0},{"id":1026,"cat":"context_vocab","sentence":"（　　）日は日曜日です。","options":["ついたち","いちにち","ひとか","いちか"],"answer":0},{"id":1027,"cat":"context_vocab","sentence":"（　　）日にパーティーをします。","options":["ふつか","にか","ににち","ふたか"],"answer":0},{"id":1028,"cat":"context_vocab","sentence":"今日は（　　）日です。","options":["とおか","じゅっか","じゅうか","とか"],"answer":0},{"id":1029,"cat":"context_vocab","sentence":"（　　）歳です。","options":["はたち","にじゅっさい","はつか","にじゅうさい"],"answer":0},{"id":1030,"cat":"context_vocab","sentence":"ノートを（　　）ください。","options":["にさつ","にまい","にほん","にだい"],"answer":0},{"id":1031,"cat":"context_vocab","sentence":"朝ごはんを（　　）。","options":["食べます","飲みます","見ます","聞きます"],"answer":0},{"id":1032,"cat":"context_vocab","sentence":"水を（　　）。","options":["飲みます","食べます","書きます","読みます"],"answer":0},{"id":1033,"cat":"context_vocab","sentence":"本を（　　）。","options":["読みます","飲みます","食べます","走ります"],"answer":0},{"id":1034,"cat":"context_vocab","sentence":"手紙を（　　）。","options":["書きます","聞きます","話します","買います"],"answer":0},{"id":1035,"cat":"context_vocab","sentence":"音楽を（　　）。","options":["聞きます","見ます","話します","書きます"],"answer":0},{"id":1036,"cat":"context_vocab","sentence":"テレビを（　　）。","options":["見ます","聞きます","読みます","話します"],"answer":0},{"id":1037,"cat":"context_vocab","sentence":"友達と（　　）。","options":["話します","飲みます","読みます","歩きます"],"answer":0},{"id":1038,"cat":"context_vocab","sentence":"学校へ（　　）。","options":["行きます","来ます","帰ります","食べます"],"answer":0},{"id":1039,"cat":"context_vocab","sentence":"家に（　　）。","options":["帰ります","行きます","入ります","出ます"],"answer":0},{"id":1040,"cat":"context_vocab","sentence":"店で（　　）。","options":["買います","売ります","作ります","使います"],"answer":0},{"id":1041,"cat":"context_vocab","sentence":"公園を（　　）。","options":["歩きます","走ります","泳ぎます","飛びます"],"answer":0},{"id":1042,"cat":"context_vocab","sentence":"プールで（　　）。","options":["泳ぎます","歩きます","走ります","乗ります"],"answer":0},{"id":1043,"cat":"context_vocab","sentence":"朝6時に（　　）。","options":["起きます","寝ます","立ちます","座ります"],"answer":0},{"id":1044,"cat":"context_vocab","sentence":"夜11時に（　　）。","options":["寝ます","起きます","立ちます","食べます"],"answer":0},{"id":1045,"cat":"context_vocab","sentence":"電車に（　　）。","options":["乗ります","降ります","行きます","出ます"],"answer":0},{"id":1046,"cat":"context_vocab","sentence":"駅で（　　）。","options":["降ります","乗ります","入ります","走ります"],"answer":0},{"id":1047,"cat":"context_vocab","sentence":"友達に（　　）。","options":["会います","見ます","話します","読みます"],"answer":0},{"id":1048,"cat":"context_vocab","sentence":"写真を（　　）。","options":["撮ります","取ります","作ります","見ます"],"answer":1},{"id":1049,"cat":"context_vocab","sentence":"料理を（　　）。","options":["作ります","食べます","飲みます","売ります"],"answer":0},{"id":1050,"cat":"context_vocab","sentence":"日本語を（　　）。","options":["勉強します","使います","読みます","書きます"],"answer":0},{"id":1051,"cat":"context_vocab","sentence":"パソコンを（　　）。","options":["使います","持ちます","作ります","買います"],"answer":0},{"id":1052,"cat":"context_vocab","sentence":"荷物を（　　）。","options":["持ちます","使います","食べます","作ります"],"answer":0},{"id":1053,"cat":"context_vocab","sentence":"窓を（　　）。","options":["開けます","閉めます","切ります","押します"],"answer":0},{"id":1054,"cat":"context_vocab","sentence":"ドアを（　　）。","options":["閉めます","開けます","切ります","引きます"],"answer":0},{"id":1055,"cat":"context_vocab","sentence":"紙を（　　）。","options":["切ります","開けます","閉めます","作ります"],"answer":0},{"id":1056,"cat":"context_vocab","sentence":"ボタンを（　　）。","options":["押します","引きます","開けます","切ります"],"answer":0},{"id":1057,"cat":"context_vocab","sentence":"電気を（　　）。","options":["つけます","開けます","消します","入れます"],"answer":0},{"id":1058,"cat":"context_vocab","sentence":"電気を（　　）。","options":["消します","つけます","入れます","開けます"],"answer":0},{"id":1059,"cat":"context_vocab","sentence":"バスを（　　）。","options":["待ちます","乗ります","見ます","会います"],"answer":0},{"id":1060,"cat":"context_vocab","sentence":"先生に（　　）。","options":["聞きます","話します","見ます","読みます"],"answer":0},{"id":1061,"cat":"context_vocab","sentence":"質問に（　　）。","options":["答えます","聞きます","話します","読みます"],"answer":0},{"id":1062,"cat":"context_vocab","sentence":"名前を（　　）。","options":["呼びます","話します","聞きます","書きます"],"answer":0},{"id":1063,"cat":"context_vocab","sentence":"シャワーを（　　）。","options":["浴びます","飲みます","食べます","使います"],"answer":0},{"id":1064,"cat":"context_vocab","sentence":"お風呂に（　　）。","options":["入ります","出ます","行きます","来ます"],"answer":0},{"id":1065,"cat":"context_vocab","sentence":"歌を（　　）。","options":["歌います","言います","話します","聞きます"],"answer":0},{"id":1066,"cat":"context_vocab","sentence":"タクシーを（　　）。","options":["呼びます","乗ります","待ちます","降ります"],"answer":0},{"id":1067,"cat":"context_vocab","sentence":"ペンを（　　）。","options":["貸します","借ります","売ります","買います"],"answer":0},{"id":1068,"cat":"context_vocab","sentence":"傘を（　　）。","options":["借ります","貸します","売ります","作ります"],"answer":0},{"id":1069,"cat":"context_vocab","sentence":"授業が（　　）。","options":["始まります","終わります","出ます","入ります"],"answer":0},{"id":1070,"cat":"context_vocab","sentence":"仕事が（　　）。","options":["終わります","始まります","出ます","入ります"],"answer":0},{"id":1071,"cat":"context_vocab","sentence":"この本は（　　）です。","options":["おもしろい","おいしい","あかるい","つめたい"],"answer":0},{"id":1072,"cat":"context_vocab","sentence":"このケーキは（　　）です。","options":["おいしい","おもしろい","あたらしい","たのしい"],"answer":0},{"id":1073,"cat":"context_vocab","sentence":"今日は（　　）です。","options":["さむい","つめたい","かたい","からい"],"answer":0},{"id":1074,"cat":"context_vocab","sentence":"夏は（　　）です。","options":["あつい","さむい","すずしい","あたたかい"],"answer":0},{"id":1075,"cat":"context_vocab","sentence":"この部屋は（　　）です。","options":["あかるい","くらい","うるさい","しずか"],"answer":0},{"id":1076,"cat":"context_vocab","sentence":"夜は（　　）です。","options":["くらい","あかるい","しずか","うるさい"],"answer":0},{"id":1077,"cat":"context_vocab","sentence":"象は（　　）です。","options":["おおきい","ちいさい","たかい","ひくい"],"answer":0},{"id":1078,"cat":"context_vocab","sentence":"ねずみは（　　）です。","options":["ちいさい","おおきい","たかい","ひくい"],"answer":0},{"id":1079,"cat":"context_vocab","sentence":"富士山は（　　）です。","options":["たかい","ひくい","ながい","みじかい"],"answer":0},{"id":1080,"cat":"context_vocab","sentence":"この川は（　　）です。","options":["ながい","みじかい","たかい","ひくい"],"answer":0},{"id":1081,"cat":"context_vocab","sentence":"この車は（　　）です。","options":["はやい","おそい","たかい","ひくい"],"answer":0},{"id":1082,"cat":"context_vocab","sentence":"かめは（　　）です。","options":["おそい","はやい","つよい","よわい"],"answer":0},{"id":1083,"cat":"context_vocab","sentence":"新幹線は（　　）です。","options":["はやい","おそい","ふるい","あたらしい"],"answer":0},{"id":1084,"cat":"context_vocab","sentence":"この店は（　　）です。","options":["あたらしい","ふるい","たかい","やすい"],"answer":0},{"id":1085,"cat":"context_vocab","sentence":"このコンピューターは（　　）です。","options":["ふるい","あたらしい","たかい","やすい"],"answer":0},{"id":1086,"cat":"context_vocab","sentence":"この時計は（　　）です。","options":["たかい","やすい","ながい","みじかい"],"answer":0},{"id":1087,"cat":"context_vocab","sentence":"この野菜は（　　）です。","options":["やすい","たかい","おもい","かるい"],"answer":0},{"id":1088,"cat":"context_vocab","sentence":"コーヒーは（　　）です。","options":["あつい","つめたい","からい","あまい"],"answer":0},{"id":1089,"cat":"context_vocab","sentence":"アイスは（　　）です。","options":["つめたい","あつい","あまい","からい"],"answer":0},{"id":1090,"cat":"context_vocab","sentence":"砂糖は（　　）です。","options":["あまい","からい","にがい","しょっぱい"],"answer":0},{"id":1091,"cat":"context_vocab","sentence":"唐辛子は（　　）です。","options":["からい","あまい","にがい","すっぱい"],"answer":0},{"id":1092,"cat":"context_vocab","sentence":"レモンは（　　）です。","options":["すっぱい","あまい","からい","にがい"],"answer":0},{"id":1093,"cat":"context_vocab","sentence":"この問題は（　　）です。","options":["むずかしい","やさしい","おおきい","ちいさい"],"answer":0},{"id":1094,"cat":"context_vocab","sentence":"この試験は（　　）です。","options":["やさしい","むずかしい","おおきい","ちいさい"],"answer":0},{"id":1095,"cat":"context_vocab","sentence":"彼は（　　）です。","options":["やさしい","きびしい","こわい","わるい"],"answer":0},{"id":1096,"cat":"context_vocab","sentence":"図書館は（　　）です。","options":["しずか","にぎやか","うるさい","たのしい"],"answer":0},{"id":1097,"cat":"context_vocab","sentence":"町は（　　）です。","options":["にぎやか","しずか","きれい","ひま"],"answer":0},{"id":1098,"cat":"context_vocab","sentence":"この部屋は（　　）です。","options":["きれい","きたない","ひろい","せまい"],"answer":0},{"id":1099,"cat":"context_vocab","sentence":"私の部屋は（　　）です。","options":["せまい","ひろい","きれい","あかるい"],"answer":0},{"id":1100,"cat":"context_vocab","sentence":"公園は（　　）です。","options":["ひろい","せまい","ちいさい","ながい"],"answer":0},{"id":1101,"cat":"context_vocab","sentence":"この荷物は（　　）です。","options":["おもい","かるい","つよい","よわい"],"answer":0},{"id":1102,"cat":"context_vocab","sentence":"この鞄は（　　）です。","options":["かるい","おもい","たかい","やすい"],"answer":0},{"id":1103,"cat":"context_vocab","sentence":"今日は（　　）です。","options":["いそがしい","ひま","たのしい","おもしろい"],"answer":0},{"id":1104,"cat":"context_vocab","sentence":"日曜日は（　　）です。","options":["ひま","いそがしい","むずかしい","たのしい"],"answer":0},{"id":1105,"cat":"context_vocab","sentence":"彼女は（　　）です。","options":["かわいい","こわい","わるい","きたない"],"answer":0},{"id":1106,"cat":"context_vocab","sentence":"朝、（　　）を食べます。","options":["ごはん","ゆうはん","ばんごはん","よる"],"answer":0},{"id":1107,"cat":"context_vocab","sentence":"昼、（　　）を食べます。","options":["ひるごはん","あさごはん","ばんごはん","よる"],"answer":0},{"id":1108,"cat":"context_vocab","sentence":"夜、（　　）を食べます。","options":["ばんごはん","あさごはん","ひるごはん","おやつ"],"answer":0},{"id":1109,"cat":"context_vocab","sentence":"毎日（　　）を飲みます。","options":["コーヒー","はん","パン","にく"],"answer":0},{"id":1110,"cat":"context_vocab","sentence":"朝、（　　）を飲みます。","options":["ぎゅうにゅう","ごはん","パン","サラダ"],"answer":0},{"id":1111,"cat":"context_vocab","sentence":"（　　）で勉強します。","options":["がっこう","えき","みせ","びょういん"],"answer":0},{"id":1112,"cat":"context_vocab","sentence":"（　　）で本を借ります。","options":["としょかん","がっこう","びょういん","ぎんこう"],"answer":0},{"id":1113,"cat":"context_vocab","sentence":"（　　）でお金を下ろします。","options":["ぎんこう","としょかん","ゆうびんきょく","びょういん"],"answer":0},{"id":1114,"cat":"context_vocab","sentence":"（　　）で切手を買います。","options":["ゆうびんきょく","ぎんこう","としょかん","びょういん"],"answer":0},{"id":1115,"cat":"context_vocab","sentence":"（　　）で薬をもらいます。","options":["びょういん","がっこう","としょかん","ぎんこう"],"answer":0},{"id":1116,"cat":"context_vocab","sentence":"（　　）で電車に乗ります。","options":["えき","みせ","こうえん","がっこう"],"answer":0},{"id":1117,"cat":"context_vocab","sentence":"（　　）で買い物をします。","options":["スーパー","えき","がっこう","びょういん"],"answer":0},{"id":1118,"cat":"context_vocab","sentence":"（　　）で食事をします。","options":["レストラン","としょかん","ぎんこう","えき"],"answer":0},{"id":1119,"cat":"context_vocab","sentence":"（　　）で遊びます。","options":["こうえん","としょかん","びょういん","ぎんこう"],"answer":0},{"id":1120,"cat":"context_vocab","sentence":"（　　）に手紙を書きます。","options":["ともだち","つくえ","いす","ほん"],"answer":0},{"id":1121,"cat":"context_vocab","sentence":"お父さんは（　　）です。","options":["ちち","はは","あに","あね"],"answer":0},{"id":1122,"cat":"context_vocab","sentence":"お母さんは（　　）です。","options":["はは","ちち","あに","あね"],"answer":0},{"id":1123,"cat":"context_vocab","sentence":"私の（　　）は20歳です。","options":["あに","ちち","はは","あね"],"answer":0},{"id":1124,"cat":"context_vocab","sentence":"私の（　　）は中学生です。","options":["いもうと","あね","おとうと","ちち"],"answer":2},{"id":1125,"cat":"context_vocab","sentence":"（　　）に行きます。","options":["りょこう","しゃしん","えいが","ゲーム"],"answer":0},{"id":1126,"cat":"context_vocab","sentence":"（　　）を見ます。","options":["えいが","おんがく","でんわ","しんぶん"],"answer":0},{"id":1127,"cat":"context_vocab","sentence":"（　　）を聞きます。","options":["おんがく","えいが","しんぶん","ほん"],"answer":0},{"id":1128,"cat":"context_vocab","sentence":"（　　）を読みます。","options":["しんぶん","おんがく","えいが","でんわ"],"answer":0},{"id":1129,"cat":"context_vocab","sentence":"（　　）をかけます。","options":["でんわ","しんぶん","おんがく","えいが"],"answer":0},{"id":1130,"cat":"context_vocab","sentence":"（　　）を撮ります。","options":["しゃしん","えいが","でんわ","おんがく"],"answer":0},{"id":1131,"cat":"context_vocab","sentence":"空が（　　）です。","options":["あおい","くろい","しろい","あかい"],"answer":0},{"id":1132,"cat":"context_vocab","sentence":"雪は（　　）です。","options":["しろい","くろい","あおい","あかい"],"answer":0},{"id":1133,"cat":"context_vocab","sentence":"りんごは（　　）です。","options":["あかい","あおい","しろい","きいろい"],"answer":0},{"id":1134,"cat":"context_vocab","sentence":"バナナは（　　）です。","options":["きいろい","あかい","あおい","しろい"],"answer":0},{"id":1135,"cat":"context_vocab","sentence":"髪は（　　）です。","options":["くろい","しろい","あかい","あおい"],"answer":0},{"id":1136,"cat":"context_vocab","sentence":"（　　）はあついです。","options":["なつ","ふゆ","はる","あき"],"answer":0},{"id":1137,"cat":"context_vocab","sentence":"（　　）はさむいです。","options":["ふゆ","なつ","はる","あき"],"answer":0},{"id":1138,"cat":"context_vocab","sentence":"（　　）は花がきれいです。","options":["はる","ふゆ","あき","なつ"],"answer":0},{"id":1139,"cat":"context_vocab","sentence":"（　　）は葉が赤いです。","options":["あき","はる","なつ","ふゆ"],"answer":0},{"id":1140,"cat":"context_vocab","sentence":"雨が（　　）ふります。","options":["たくさん","おおきい","ちいさい","はやい"],"answer":0},{"id":1141,"cat":"context_vocab","sentence":"（　　）にかさを持っていきます。","options":["あめ","ゆき","かぜ","くも"],"answer":0},{"id":1142,"cat":"context_vocab","sentence":"（　　）が吹いています。","options":["かぜ","あめ","ゆき","くも"],"answer":0},{"id":1143,"cat":"context_vocab","sentence":"（　　）がふっています。","options":["ゆき","かぜ","くも","はれ"],"answer":0},{"id":1144,"cat":"context_vocab","sentence":"今日は（　　）です。","options":["はれ","ゆき","かぜ","あめ"],"answer":0},{"id":1145,"cat":"context_vocab","sentence":"（　　）で寝ます。","options":["ベッド","つくえ","いす","ドア"],"answer":0},{"id":1146,"cat":"context_vocab","sentence":"（　　）でごはんを食べます。","options":["テーブル","ベッド","ドア","まど"],"answer":0},{"id":1147,"cat":"context_vocab","sentence":"（　　）に座ります。","options":["いす","つくえ","ベッド","ドア"],"answer":0},{"id":1148,"cat":"context_vocab","sentence":"（　　）で勉強します。","options":["つくえ","いす","ベッド","まど"],"answer":0},{"id":1149,"cat":"context_vocab","sentence":"（　　）を開けます。","options":["まど","つくえ","いす","ベッド"],"answer":0},{"id":1150,"cat":"context_vocab","sentence":"（　　）で手を洗います。","options":["せんめんじょ","だいどころ","げんかん","にわ"],"answer":0},{"id":1151,"cat":"context_vocab","sentence":"私（　　）田中です。","options":["は","が","を","に"],"answer":0},{"id":1152,"cat":"context_vocab","sentence":"本（　　）読みます。","options":["を","は","が","に"],"answer":0},{"id":1153,"cat":"context_vocab","sentence":"学校（　　）行きます。","options":["へ","を","で","が"],"answer":0},{"id":1154,"cat":"context_vocab","sentence":"公園（　　）遊びます。","options":["で","を","は","が"],"answer":0},{"id":1155,"cat":"context_vocab","sentence":"友達（　　）会います。","options":["に","を","で","が"],"answer":0},{"id":1156,"cat":"context_vocab","sentence":"朝7時（　　）起きます。","options":["に","で","を","は"],"answer":0},{"id":1157,"cat":"context_vocab","sentence":"電車（　　）行きます。","options":["で","に","を","が"],"answer":0},{"id":1158,"cat":"context_vocab","sentence":"田中さん（　　）話します。","options":["と","を","が","で"],"answer":0},{"id":1159,"cat":"context_vocab","sentence":"英語（　　）日本語を話します。","options":["と","を","に","で"],"answer":0},{"id":1160,"cat":"context_vocab","sentence":"机の上（　　）本があります。","options":["に","で","を","が"],"answer":0},{"id":1161,"cat":"context_vocab","sentence":"ここ（　　）何がありますか。","options":["に","で","を","が"],"answer":0},{"id":1162,"cat":"context_vocab","sentence":"コーヒー（　　）ください。","options":["を","に","で","が"],"answer":0},{"id":1163,"cat":"context_vocab","sentence":"これ（　　）私の本です。","options":["は","が","を","に"],"answer":0},{"id":1164,"cat":"context_vocab","sentence":"どれ（　　）あなたの本ですか。","options":["が","は","を","に"],"answer":0},{"id":1165,"cat":"context_vocab","sentence":"昨日は雨（　　）降りました。","options":["が","を","に","で"],"answer":0},{"id":1166,"cat":"context_vocab","sentence":"このペン（　　）高いです。","options":["は","が","を","に"],"answer":0},{"id":1167,"cat":"context_vocab","sentence":"日本語（　　）難しいですか。","options":["は","が","を","に"],"answer":0},{"id":1168,"cat":"context_vocab","sentence":"わたし（　　）日本人です。","options":["は","が","を","に"],"answer":0},{"id":1169,"cat":"context_vocab","sentence":"バナナ（　　）好きです。","options":["が","を","に","で"],"answer":0},{"id":1170,"cat":"context_vocab","sentence":"兄（　　）二人います。","options":["が","を","に","で"],"answer":0},{"id":1171,"cat":"context_vocab","sentence":"部屋（　　）だれもいません。","options":["に","で","を","が"],"answer":0},{"id":1172,"cat":"context_vocab","sentence":"何（　　）食べますか。","options":["を","が","に","で"],"answer":0},{"id":1173,"cat":"context_vocab","sentence":"どこ（　　）行きますか。","options":["へ","で","を","は"],"answer":0},{"id":1174,"cat":"context_vocab","sentence":"なん（　　）来ましたか。","options":["で","に","を","が"],"answer":0},{"id":1175,"cat":"context_vocab","sentence":"だれ（　　）会いましたか。","options":["に","を","で","が"],"answer":0},{"id":1176,"cat":"context_vocab","sentence":"いつ（　　）日本へ来ましたか。","options":["","に","で","を"],"answer":0},{"id":1177,"cat":"context_vocab","sentence":"きょう（　　）何曜日ですか。","options":["は","が","を","に"],"answer":0},{"id":1178,"cat":"context_vocab","sentence":"駅（　　）ここから近いです。","options":["は","が","を","に"],"answer":0},{"id":1179,"cat":"context_vocab","sentence":"今日（　　）勉強します。","options":["も","を","に","で"],"answer":0},{"id":1180,"cat":"context_vocab","sentence":"私（　　）行きます。","options":["も","を","に","で"],"answer":0},{"id":1181,"cat":"context_vocab","sentence":"りんご（　　）みかんを買いました。","options":["と","も","に","で"],"answer":0},{"id":1182,"cat":"context_vocab","sentence":"パン（　　）牛乳を食べます。","options":["と","も","に","で"],"answer":0},{"id":1183,"cat":"context_vocab","sentence":"午後3時（　　）5時まで勉強します。","options":["から","まで","で","に"],"answer":0},{"id":1184,"cat":"context_vocab","sentence":"月曜日（　　）金曜日まで働きます。","options":["から","まで","で","に"],"answer":0},{"id":1185,"cat":"context_vocab","sentence":"9時（　　）授業が始まります。","options":["から","まで","で","を"],"answer":0},{"id":1186,"cat":"context_vocab","sentence":"東京（　　）大阪まで新幹線で行きます。","options":["から","まで","で","に"],"answer":0},{"id":1187,"cat":"context_vocab","sentence":"これはだれ（　　）本ですか。","options":["の","が","を","に"],"answer":0},{"id":1188,"cat":"context_vocab","sentence":"私（　　）本です。","options":["の","が","を","に"],"answer":0},{"id":1189,"cat":"context_vocab","sentence":"日本語（　　）本を買いました。","options":["の","が","を","に"],"answer":0},{"id":1190,"cat":"context_vocab","sentence":"学校（　　）近くに家があります。","options":["の","が","を","に"],"answer":0},{"id":1191,"cat":"context_vocab","sentence":"大きい（　　）小さいですか。","options":["ですか","ですが","です","でした"],"answer":0},{"id":1192,"cat":"context_vocab","sentence":"コーヒー（　　）紅茶を飲みますか。","options":["か","と","も","に"],"answer":0},{"id":1193,"cat":"context_vocab","sentence":"田中さん（　　）学生ではありません。","options":["は","が","を","に"],"answer":0},{"id":1194,"cat":"context_vocab","sentence":"私は行きません（　　）、彼は行きます。","options":["が","を","に","で"],"answer":0},{"id":1195,"cat":"context_vocab","sentence":"寒いです（　　）、元気です。","options":["が","を","に","で"],"answer":0},{"id":1196,"cat":"context_vocab","sentence":"安くて（　　）おいしいです。","options":["","が","を","に"],"answer":0},{"id":1197,"cat":"context_vocab","sentence":"日本語が好きです（　　）勉強します。","options":["から","まで","で","に"],"answer":0},{"id":1198,"cat":"context_vocab","sentence":"雨（　　）降ったので行きません。","options":["が","を","に","で"],"answer":0},{"id":1199,"cat":"context_vocab","sentence":"ちょっと（　　）待ってください。","options":["","に","で","を"],"answer":0},{"id":1200,"cat":"context_vocab","sentence":"すみません（　　）、トイレはどこですか。","options":["が","を","に","で"],"answer":0},{"id":1201,"cat":"paraphrase","sentence":"この建物は大きいです。","target":"大きい","options":["巨大","小型","高い","重い"],"answer":0},{"id":1202,"cat":"paraphrase","sentence":"あの山は大きいです。","target":"大きい","options":["でかい","小さい","低い","細い"],"answer":0},{"id":1203,"cat":"paraphrase","sentence":"この犬は小さいです。","target":"小さい","options":["小型","巨大","大きい","高い"],"answer":0},{"id":1204,"cat":"paraphrase","sentence":"かばんが小さいです。","target":"小さい","options":["ちいさな","大きい","長い","広い"],"answer":0},{"id":1205,"cat":"paraphrase","sentence":"学生が多いです。","target":"多い","options":["たくさん","少し","わずか","ゼロ"],"answer":0},{"id":1206,"cat":"paraphrase","sentence":"人が多いです。","target":"多い","options":["たくさん","少ない","ない","わずか"],"answer":0},{"id":1207,"cat":"paraphrase","sentence":"お金が少ないです。","target":"少ない","options":["少し","たくさん","多い","いっぱい"],"answer":0},{"id":1208,"cat":"paraphrase","sentence":"食べ物が少ないです。","target":"少ない","options":["わずか","多い","たくさん","いっぱい"],"answer":0},{"id":1209,"cat":"paraphrase","sentence":"新しい本を買いました。","target":"新しい","options":["最近の","古い","昔の","もとの"],"answer":0},{"id":1210,"cat":"paraphrase","sentence":"新しい車です。","target":"新しい","options":["最近の","古い","昔の","壊れた"],"answer":0},{"id":1211,"cat":"paraphrase","sentence":"古い建物です。","target":"古い","options":["昔の","新しい","最近の","きれいな"],"answer":0},{"id":1212,"cat":"paraphrase","sentence":"古い写真を見ました。","target":"古い","options":["昔の","今の","新しい","最近の"],"answer":0},{"id":1213,"cat":"paraphrase","sentence":"良い天気です。","target":"良い","options":["いい","わるい","だめな","ひどい"],"answer":0},{"id":1214,"cat":"paraphrase","sentence":"良い人です。","target":"良い","options":["いい","だめな","わるい","ひどい"],"answer":0},{"id":1215,"cat":"paraphrase","sentence":"悪い人です。","target":"悪い","options":["だめ","いい","よい","すばらしい"],"answer":0},{"id":1216,"cat":"paraphrase","sentence":"今日は悪い天気です。","target":"悪い","options":["だめな","いい","よい","きれいな"],"answer":0},{"id":1217,"cat":"paraphrase","sentence":"今日は暑いです。","target":"暑い","options":["熱い","寒い","涼しい","冷たい"],"answer":0},{"id":1218,"cat":"paraphrase","sentence":"夏は暑いです。","target":"暑い","options":["熱い","寒い","涼しい","冷たい"],"answer":0},{"id":1219,"cat":"paraphrase","sentence":"今日は寒いです。","target":"寒い","options":["涼しい","暑い","熱い","あたたかい"],"answer":0},{"id":1220,"cat":"paraphrase","sentence":"冬は寒いです。","target":"寒い","options":["涼しい","暑い","あたたかい","熱い"],"answer":0},{"id":1221,"cat":"paraphrase","sentence":"この時計は高いです。","target":"高い","options":["値段が高い","値段が安い","安い","大きい"],"answer":0},{"id":1222,"cat":"paraphrase","sentence":"このバッグは高いです。","target":"高い","options":["値段が高い","値段が安い","安い","小さい"],"answer":0},{"id":1223,"cat":"paraphrase","sentence":"このシャツは安いです。","target":"安い","options":["値段が安い","値段が高い","高い","よい"],"answer":0},{"id":1224,"cat":"paraphrase","sentence":"安いレストランです。","target":"安い","options":["値段が安い","高い","値段が高い","きれい"],"answer":0},{"id":1225,"cat":"paraphrase","sentence":"長い道です。","target":"長い","options":["ロング","ショート","短い","広い"],"answer":0},{"id":1226,"cat":"paraphrase","sentence":"長い髪です。","target":"長い","options":["ロング","短い","ショート","細い"],"answer":0},{"id":1227,"cat":"paraphrase","sentence":"短いスカートです。","target":"短い","options":["ショート","ロング","長い","広い"],"answer":0},{"id":1228,"cat":"paraphrase","sentence":"時間が短いです。","target":"短い","options":["ショート","長い","ロング","多い"],"answer":0},{"id":1229,"cat":"paraphrase","sentence":"早い電車です。","target":"早い","options":["速い","遅い","のろい","ゆっくりした"],"answer":0},{"id":1230,"cat":"paraphrase","sentence":"足が早いです。","target":"早い","options":["速い","遅い","のろい","おそい"],"answer":0},{"id":1231,"cat":"paraphrase","sentence":"遅いバスです。","target":"遅い","options":["のろい","速い","早い","はやい"],"answer":0},{"id":1232,"cat":"paraphrase","sentence":"動きが遅いです。","target":"遅い","options":["のろい","速い","早い","急な"],"answer":0},{"id":1233,"cat":"paraphrase","sentence":"駅は近いです。","target":"近い","options":["ちかく","遠い","とおく","離れた"],"answer":0},{"id":1234,"cat":"paraphrase","sentence":"学校は近いです。","target":"近い","options":["ちかく","遠い","とおい","はなれて"],"answer":0},{"id":1235,"cat":"paraphrase","sentence":"家は遠いです。","target":"遠い","options":["とおく","近い","ちかく","すぐ"],"answer":0},{"id":1236,"cat":"paraphrase","sentence":"空港は遠いです。","target":"遠い","options":["とおく","近い","ちかい","すぐそば"],"answer":0},{"id":1237,"cat":"paraphrase","sentence":"毎日忙しいです。","target":"忙しい","options":["暇でない","暇","ひま","のんびり"],"answer":0},{"id":1238,"cat":"paraphrase","sentence":"仕事で忙しいです。","target":"忙しい","options":["暇でない","ひま","のんびり","楽"],"answer":0},{"id":1239,"cat":"paraphrase","sentence":"今日は暇です。","target":"暇","options":["時間ある","忙しい","いそがしい","働く"],"answer":0},{"id":1240,"cat":"paraphrase","sentence":"日曜日は暇です。","target":"暇","options":["時間ある","忙しい","働く","急がしい"],"answer":0},{"id":1241,"cat":"paraphrase","sentence":"私は元気です。","target":"元気","options":["健康","病気","具合悪い","弱い"],"answer":0},{"id":1242,"cat":"paraphrase","sentence":"祖父は元気です。","target":"元気","options":["健康","病気","弱い","悪い"],"answer":0},{"id":1243,"cat":"paraphrase","sentence":"弟は病気です。","target":"病気","options":["具合悪い","元気","健康","げんき"],"answer":0},{"id":1244,"cat":"paraphrase","sentence":"母は病気です。","target":"病気","options":["具合悪い","健康","元気","丈夫"],"answer":0},{"id":1245,"cat":"paraphrase","sentence":"猫が好きです。","target":"好き","options":["愛する","好きでない","嫌い","きらい"],"answer":0},{"id":1246,"cat":"paraphrase","sentence":"音楽が好きです。","target":"好き","options":["愛する","嫌い","好きでない","きらい"],"answer":0},{"id":1247,"cat":"paraphrase","sentence":"虫が嫌いです。","target":"嫌い","options":["好きでない","好き","愛する","すき"],"answer":0},{"id":1248,"cat":"paraphrase","sentence":"納豆が嫌いです。","target":"嫌い","options":["好きでない","好き","愛する","大好き"],"answer":0},{"id":1249,"cat":"paraphrase","sentence":"料理が上手です。","target":"上手","options":["うまい","へた","下手","だめ"],"answer":0},{"id":1250,"cat":"paraphrase","sentence":"日本語が上手です。","target":"上手","options":["うまい","下手","へた","わるい"],"answer":0},{"id":1251,"cat":"paraphrase","sentence":"歌が下手です。","target":"下手","options":["へた","うまい","上手","じょうず"],"answer":0},{"id":1252,"cat":"paraphrase","sentence":"絵が下手です。","target":"下手","options":["へた","上手","うまい","じょうず"],"answer":0},{"id":1253,"cat":"paraphrase","sentence":"有名な人です。","target":"有名","options":["知られている","無名","知られていない","だれも知らない"],"answer":0},{"id":1254,"cat":"paraphrase","sentence":"有名な店です。","target":"有名","options":["知られている","無名","しらない","無い"],"answer":0},{"id":1255,"cat":"paraphrase","sentence":"親切な人です。","target":"親切","options":["やさしい","冷たい","きびしい","わるい"],"answer":0},{"id":1256,"cat":"paraphrase","sentence":"先生は親切です。","target":"親切","options":["やさしい","きびしい","つめたい","こわい"],"answer":0},{"id":1257,"cat":"paraphrase","sentence":"きれいな花です。","target":"きれい","options":["美しい","汚い","きたない","ひどい"],"answer":0},{"id":1258,"cat":"paraphrase","sentence":"きれいな部屋です。","target":"きれい","options":["美しい","きたない","汚い","狭い"],"answer":0},{"id":1259,"cat":"paraphrase","sentence":"汚い手です。","target":"汚い","options":["きたない","きれい","美しい","新しい"],"answer":0},{"id":1260,"cat":"paraphrase","sentence":"汚い部屋です。","target":"汚い","options":["きたない","きれい","美しい","広い"],"answer":0},{"id":1261,"cat":"paraphrase","sentence":"静かな町です。","target":"静か","options":["しずか","にぎやか","うるさい","にぎわう"],"answer":0},{"id":1262,"cat":"paraphrase","sentence":"静かな夜です。","target":"静か","options":["しずか","うるさい","にぎやか","騒がしい"],"answer":0},{"id":1263,"cat":"paraphrase","sentence":"賑やかな町です。","target":"賑やか","options":["にぎやか","静か","しずか","さびしい"],"answer":0},{"id":1264,"cat":"paraphrase","sentence":"賑やかな祭りです。","target":"賑やか","options":["にぎやか","しずか","静か","さびしい"],"answer":0},{"id":1265,"cat":"paraphrase","sentence":"いつも同じです。","target":"いつも","options":["毎回","たまに","時々","ときどき"],"answer":0},{"id":1266,"cat":"paraphrase","sentence":"彼はいつも遅刻します。","target":"いつも","options":["毎回","たまに","ときどき","少し"],"answer":0},{"id":1267,"cat":"paraphrase","sentence":"時々映画を見ます。","target":"時々","options":["たまに","いつも","毎回","まいかい"],"answer":0},{"id":1268,"cat":"paraphrase","sentence":"時々日本へ行きます。","target":"時々","options":["たまに","いつも","まいにち","毎日"],"answer":0},{"id":1269,"cat":"paraphrase","sentence":"よく食べます。","target":"よく","options":["しばしば","あまり","すこし","たまに"],"answer":0},{"id":1270,"cat":"paraphrase","sentence":"よく映画を見ます。","target":"よく","options":["しばしば","たまに","あまり","ぜんぜん"],"answer":0},{"id":1271,"cat":"paraphrase","sentence":"すぐ来ます。","target":"すぐ","options":["急に","ゆっくり","のんびり","おそく"],"answer":0},{"id":1272,"cat":"paraphrase","sentence":"すぐ帰ります。","target":"すぐ","options":["急に","ゆっくり","あとで","のちに"],"answer":0},{"id":1273,"cat":"paraphrase","sentence":"もう食べました。","target":"もう","options":["すでに","まだ","これから","いま"],"answer":0},{"id":1274,"cat":"paraphrase","sentence":"もう終わりました。","target":"もう","options":["すでに","まだ","これから","のち"],"answer":0},{"id":1275,"cat":"paraphrase","sentence":"まだ来ていません。","target":"まだ","options":["今まで～ない","すでに","もう","さっき"],"answer":0},{"id":1276,"cat":"paraphrase","sentence":"まだ食べていません。","target":"まだ","options":["今まで～ない","もう","すでに","さっき"],"answer":0},{"id":1277,"cat":"paraphrase","sentence":"ちょっと待ってください。","target":"ちょっと","options":["少し","たくさん","いっぱい","ぜんぶ"],"answer":0},{"id":1278,"cat":"paraphrase","sentence":"ちょっと疲れました。","target":"ちょっと","options":["少し","とても","たくさん","いっぱい"],"answer":0},{"id":1279,"cat":"paraphrase","sentence":"とても寒いです。","target":"とても","options":["非常に","すこし","あまり","ぜんぜん"],"answer":0},{"id":1280,"cat":"paraphrase","sentence":"とても楽しいです。","target":"とても","options":["すごく","ちょっと","あまり","ぜんぜん"],"answer":0},{"id":1281,"cat":"paraphrase","sentence":"あまり好きではありません。","target":"あまり","options":["そんなに","とても","すごく","ひじょうに"],"answer":0},{"id":1282,"cat":"paraphrase","sentence":"あまり食べません。","target":"あまり","options":["そんなに","たくさん","いっぱい","多く"],"answer":0},{"id":1283,"cat":"paraphrase","sentence":"本がたくさんあります。","target":"たくさん","options":["多く","少し","すこし","わずか"],"answer":0},{"id":1284,"cat":"paraphrase","sentence":"人がたくさんいます。","target":"たくさん","options":["多く","少ない","少し","わずか"],"answer":0},{"id":1285,"cat":"paraphrase","sentence":"もちろん行きます。","target":"もちろん","options":["当然","たぶん","もしかしたら","きっと"],"answer":0},{"id":1286,"cat":"paraphrase","sentence":"もちろん知っています。","target":"もちろん","options":["当然","たぶん","もしかして","たぶん"],"answer":0},{"id":1287,"cat":"paraphrase","sentence":"たぶん来ます。","target":"たぶん","options":["おそらく","絶対","必ず","きっと"],"answer":0},{"id":1288,"cat":"paraphrase","sentence":"たぶん雨です。","target":"たぶん","options":["おそらく","きっと","絶対","必ず"],"answer":0},{"id":1289,"cat":"paraphrase","sentence":"きっと合格します。","target":"きっと","options":["必ず","たぶん","もしかしたら","おそらく"],"answer":0},{"id":1290,"cat":"paraphrase","sentence":"きっと来ます。","target":"きっと","options":["必ず","たぶん","もしかしたら","おそらく"],"answer":0},{"id":1291,"cat":"paraphrase","sentence":"朝ごはんを食べます。","target":"食べる","options":["食事する","飲む","料理する","つくる"],"answer":0},{"id":1292,"cat":"paraphrase","sentence":"晩ごはんを食べました。","target":"食べる","options":["食事する","飲む","のむ","つくる"],"answer":0},{"id":1293,"cat":"paraphrase","sentence":"水を飲みます。","target":"飲む","options":["口にする","食べる","たべる","料理する"],"answer":0},{"id":1294,"cat":"paraphrase","sentence":"ビールを飲みました。","target":"飲む","options":["口にする","食べる","作る","料理する"],"answer":0},{"id":1295,"cat":"paraphrase","sentence":"星を見ます。","target":"見る","options":["観察する","聞く","話す","読む"],"answer":0},{"id":1296,"cat":"paraphrase","sentence":"映画を見ました。","target":"見る","options":["観察する","きく","読む","話す"],"answer":0},{"id":1297,"cat":"paraphrase","sentence":"音を聞きます。","target":"聞く","options":["耳にする","見る","話す","読む"],"answer":0},{"id":1298,"cat":"paraphrase","sentence":"ニュースを聞きました。","target":"聞く","options":["耳にする","見る","みる","話す"],"answer":0},{"id":1299,"cat":"paraphrase","sentence":"先生と話します。","target":"話す","options":["しゃべる","黙る","読む","書く"],"answer":0},{"id":1300,"cat":"paraphrase","sentence":"友達と話しました。","target":"話す","options":["しゃべる","書く","だまる","聞く"],"answer":0},{"id":1301,"cat":"paraphrase","sentence":"先生に言います。","target":"言う","options":["伝える","聞く","だまる","読む"],"answer":0},{"id":1302,"cat":"paraphrase","sentence":"名前を言いました。","target":"言う","options":["伝える","聞く","見る","読む"],"answer":0},{"id":1303,"cat":"paraphrase","sentence":"パンを買います。","target":"買う","options":["購入する","売る","作る","使う"],"answer":0},{"id":1304,"cat":"paraphrase","sentence":"服を買いました。","target":"買う","options":["購入する","売る","作る","食べる"],"answer":0},{"id":1305,"cat":"paraphrase","sentence":"車を売ります。","target":"売る","options":["販売する","買う","作る","こわす"],"answer":0},{"id":1306,"cat":"paraphrase","sentence":"野菜を売っています。","target":"売る","options":["販売する","買う","作る","使う"],"answer":0},{"id":1307,"cat":"paraphrase","sentence":"学校へ行きます。","target":"行く","options":["向かう","来る","帰る","もどる"],"answer":0},{"id":1308,"cat":"paraphrase","sentence":"東京へ行きました。","target":"行く","options":["向かう","来る","かえる","戻る"],"answer":0},{"id":1309,"cat":"paraphrase","sentence":"友達が来ます。","target":"来る","options":["到着する","行く","帰る","出発する"],"answer":0},{"id":1310,"cat":"paraphrase","sentence":"電車が来ました。","target":"来る","options":["到着する","行く","出る","出発する"],"answer":0},{"id":1311,"cat":"paraphrase","sentence":"家に帰ります。","target":"帰る","options":["戻る","行く","出る","来る"],"answer":0},{"id":1312,"cat":"paraphrase","sentence":"国へ帰りました。","target":"帰る","options":["戻る","行く","出発する","くる"],"answer":0},{"id":1313,"cat":"paraphrase","sentence":"仕事を始めます。","target":"始める","options":["スタートする","終わる","終了する","とめる"],"answer":0},{"id":1314,"cat":"paraphrase","sentence":"授業を始めました。","target":"始める","options":["スタートする","終わる","おわる","終了する"],"answer":0},{"id":1315,"cat":"paraphrase","sentence":"試験が終わります。","target":"終わる","options":["終了する","始まる","始める","スタートする"],"answer":0},{"id":1316,"cat":"paraphrase","sentence":"映画が終わりました。","target":"終わる","options":["終了する","はじまる","始める","スタート"],"answer":0},{"id":1317,"cat":"paraphrase","sentence":"授業が始まります。","target":"始まる","options":["開始する","終わる","終了する","止まる"],"answer":0},{"id":1318,"cat":"paraphrase","sentence":"会議が始まりました。","target":"始まる","options":["開始する","おわる","止まる","終了する"],"answer":0},{"id":1319,"cat":"paraphrase","sentence":"料理を作ります。","target":"作る","options":["製造する","食べる","飲む","使う"],"answer":0},{"id":1320,"cat":"paraphrase","sentence":"ケーキを作りました。","target":"作る","options":["製造する","食べる","飲む","売る"],"answer":0},{"id":1321,"cat":"paraphrase","sentence":"辞書を使います。","target":"使う","options":["利用する","作る","買う","売る"],"answer":0},{"id":1322,"cat":"paraphrase","sentence":"パソコンを使います。","target":"使う","options":["利用する","作る","壊す","売る"],"answer":0},{"id":1323,"cat":"paraphrase","sentence":"本を持っています。","target":"持つ","options":["手に入れる","捨てる","売る","忘れる"],"answer":0},{"id":1324,"cat":"paraphrase","sentence":"かばんを持ちます。","target":"持つ","options":["手に入れる","すてる","忘れる","落とす"],"answer":0},{"id":1325,"cat":"paraphrase","sentence":"友達に会います。","target":"会う","options":["面会する","別れる","さける","逃げる"],"answer":0},{"id":1326,"cat":"paraphrase","sentence":"先生に会いました。","target":"会う","options":["面会する","別れる","逃げる","避ける"],"answer":0},{"id":1327,"cat":"paraphrase","sentence":"バスを待ちます。","target":"待つ","options":["待機する","出発する","行く","急ぐ"],"answer":0},{"id":1328,"cat":"paraphrase","sentence":"友達を待ちました。","target":"待つ","options":["待機する","行く","出発する","はしる"],"answer":0},{"id":1329,"cat":"paraphrase","sentence":"少し休みます。","target":"休む","options":["休憩する","働く","動く","走る"],"answer":0},{"id":1330,"cat":"paraphrase","sentence":"週末は休みます。","target":"休む","options":["休憩する","働く","学校へ行く","はたらく"],"answer":0},{"id":1331,"cat":"paraphrase","sentence":"日本語の勉強をします。","target":"勉強","options":["学習","遊び","仕事","休み"],"answer":0},{"id":1332,"cat":"paraphrase","sentence":"毎日勉強します。","target":"勉強","options":["学習","あそび","仕事","ゲーム"],"answer":0},{"id":1333,"cat":"paraphrase","sentence":"学校へ行きます。","target":"学校","options":["スクール","会社","家","店"],"answer":0},{"id":1334,"cat":"paraphrase","sentence":"新しい学校です。","target":"学校","options":["スクール","会社","病院","店"],"answer":0},{"id":1335,"cat":"paraphrase","sentence":"先生に聞きます。","target":"先生","options":["教師","生徒","学生","医者"],"answer":0},{"id":1336,"cat":"paraphrase","sentence":"日本語の先生です。","target":"先生","options":["教師","学生","生徒","社員"],"answer":0},{"id":1337,"cat":"paraphrase","sentence":"私は学生です。","target":"学生","options":["生徒","先生","教師","社員"],"answer":0},{"id":1338,"cat":"paraphrase","sentence":"学生が多いです。","target":"学生","options":["生徒","教師","先生","社長"],"answer":0},{"id":1339,"cat":"paraphrase","sentence":"家族と住んでいます。","target":"家族","options":["ファミリー","友達","他人","先生"],"answer":0},{"id":1340,"cat":"paraphrase","sentence":"大きな家族です。","target":"家族","options":["ファミリー","ともだち","他人","会社"],"answer":0},{"id":1341,"cat":"paraphrase","sentence":"友達と遊びます。","target":"友達","options":["友人","他人","先生","家族"],"answer":0},{"id":1342,"cat":"paraphrase","sentence":"いい友達です。","target":"友達","options":["友人","他人","敵","先生"],"answer":0},{"id":1343,"cat":"paraphrase","sentence":"時間がありません。","target":"時間","options":["タイム","お金","仕事","勉強"],"answer":0},{"id":1344,"cat":"paraphrase","sentence":"時間が足りません。","target":"時間","options":["タイム","お金","本","ペン"],"answer":0},{"id":1345,"cat":"paraphrase","sentence":"お金がありません。","target":"お金","options":["マネー","時間","仕事","服"],"answer":0},{"id":1346,"cat":"paraphrase","sentence":"お金を使います。","target":"お金","options":["マネー","時間","仕事","もの"],"answer":0},{"id":1347,"cat":"paraphrase","sentence":"旅行が好きです。","target":"旅行","options":["トラベル","仕事","勉強","家事"],"answer":0},{"id":1348,"cat":"paraphrase","sentence":"日本旅行をしました。","target":"旅行","options":["トラベル","買い物","仕事","食事"],"answer":0},{"id":1349,"cat":"paraphrase","sentence":"買い物に行きます。","target":"買い物","options":["ショッピング","仕事","勉強","食事"],"answer":0},{"id":1350,"cat":"paraphrase","sentence":"デパートで買い物をしました。","target":"買い物","options":["ショッピング","仕事","ほうそう","仕事"],"answer":0},{"id":1351,"cat":"paraphrase","sentence":"音楽を聞きます。","target":"音楽","options":["ミュージック","映画","本","ニュース"],"answer":0},{"id":1352,"cat":"paraphrase","sentence":"音楽が好きです。","target":"音楽","options":["ミュージック","えいが","本","絵"],"answer":0},{"id":1353,"cat":"paraphrase","sentence":"映画を見ました。","target":"映画","options":["映像","音楽","本","ドラマ"],"answer":0},{"id":1354,"cat":"paraphrase","sentence":"映画館に行きます。","target":"映画","options":["映像","本","おんがく","ラジオ"],"answer":0},{"id":1355,"cat":"paraphrase","sentence":"電話をかけます。","target":"電話","options":["通話","手紙","メール","はがき"],"answer":0},{"id":1356,"cat":"paraphrase","sentence":"母に電話します。","target":"電話","options":["通話","てがみ","メール","ゆうびん"],"answer":0},{"id":1357,"cat":"paraphrase","sentence":"今日は雨です。","target":"今日","options":["本日","明日","昨日","きのう"],"answer":0},{"id":1358,"cat":"paraphrase","sentence":"今日は火曜日です。","target":"今日","options":["本日","あした","昨日","さくじつ"],"answer":0},{"id":1359,"cat":"paraphrase","sentence":"明日行きます。","target":"明日","options":["あす","昨日","今日","本日"],"answer":0},{"id":1360,"cat":"paraphrase","sentence":"明日試験があります。","target":"明日","options":["あす","きのう","本日","昨日"],"answer":0},{"id":1361,"cat":"paraphrase","sentence":"昨日は雨でした。","target":"昨日","options":["さくじつ","今日","明日","あす"],"answer":0},{"id":1362,"cat":"paraphrase","sentence":"昨日友達に会いました。","target":"昨日","options":["さくじつ","あした","本日","今日"],"answer":0},{"id":1363,"cat":"paraphrase","sentence":"朝ごはんを食べます。","target":"朝","options":["午前","午後","夜","晩"],"answer":0},{"id":1364,"cat":"paraphrase","sentence":"毎朝散歩します。","target":"朝","options":["午前","午後","よる","ばん"],"answer":0},{"id":1365,"cat":"paraphrase","sentence":"夜に映画を見ます。","target":"夜","options":["夜間","昼間","朝","ひる"],"answer":0},{"id":1366,"cat":"paraphrase","sentence":"夜は静かです。","target":"夜","options":["夜間","ひる","あさ","午前"],"answer":0},{"id":1367,"cat":"paraphrase","sentence":"日本語を学びます。","target":"学ぶ","options":["勉強する","遊ぶ","休む","忘れる"],"answer":0},{"id":1368,"cat":"paraphrase","sentence":"歴史を学びました。","target":"学ぶ","options":["勉強する","忘れる","あそぶ","休む"],"answer":0},{"id":1369,"cat":"paraphrase","sentence":"単語を覚えます。","target":"覚える","options":["記憶する","忘れる","捨てる","なくす"],"answer":0},{"id":1370,"cat":"paraphrase","sentence":"漢字を覚えました。","target":"覚える","options":["記憶する","わすれる","すてる","失う"],"answer":0},{"id":1371,"cat":"paraphrase","sentence":"名前を忘れました。","target":"忘れる","options":["忘れてしまう","覚える","おぼえる","記憶する"],"answer":0},{"id":1372,"cat":"paraphrase","sentence":"約束を忘れました。","target":"忘れる","options":["忘れてしまう","おぼえる","記憶する","思い出す"],"answer":0},{"id":1373,"cat":"paraphrase","sentence":"毎日働きます。","target":"働く","options":["仕事する","休む","やすむ","あそぶ"],"answer":0},{"id":1374,"cat":"paraphrase","sentence":"会社で働いています。","target":"働く","options":["仕事する","やすむ","遊ぶ","休む"],"answer":0},{"id":1375,"cat":"paraphrase","sentence":"子どもが泣きます。","target":"泣く","options":["涙を流す","笑う","わらう","よろこぶ"],"answer":0},{"id":1376,"cat":"paraphrase","sentence":"赤ちゃんが泣いています。","target":"泣く","options":["涙を流す","わらう","笑う","おどろく"],"answer":0},{"id":1377,"cat":"paraphrase","sentence":"みんなが笑います。","target":"笑う","options":["微笑む","泣く","なく","おこる"],"answer":0},{"id":1378,"cat":"paraphrase","sentence":"先生が笑いました。","target":"笑う","options":["微笑む","なく","泣く","怒る"],"answer":0},{"id":1379,"cat":"paraphrase","sentence":"公園を歩きます。","target":"歩く","options":["あゆむ","走る","はしる","跳ぶ"],"answer":0},{"id":1380,"cat":"paraphrase","sentence":"駅まで歩きました。","target":"歩く","options":["あゆむ","はしる","走る","跳ぶ"],"answer":0},{"id":1381,"cat":"paraphrase","sentence":"公園を走ります。","target":"走る","options":["駆ける","歩く","あるく","座る"],"answer":0},{"id":1382,"cat":"paraphrase","sentence":"速く走ります。","target":"走る","options":["駆ける","あるく","歩く","止まる"],"answer":0},{"id":1383,"cat":"paraphrase","sentence":"プールで泳ぎます。","target":"泳ぐ","options":["水泳する","走る","歩く","飛ぶ"],"answer":0},{"id":1384,"cat":"paraphrase","sentence":"海で泳ぎました。","target":"泳ぐ","options":["水泳する","はしる","歩く","とぶ"],"answer":0},{"id":1385,"cat":"paraphrase","sentence":"鳥が飛びます。","target":"飛ぶ","options":["空を行く","走る","歩く","泳ぐ"],"answer":0},{"id":1386,"cat":"paraphrase","sentence":"飛行機が飛びます。","target":"飛ぶ","options":["空を行く","はしる","およぐ","歩く"],"answer":0},{"id":1387,"cat":"paraphrase","sentence":"本を読みます。","target":"読む","options":["目を通す","書く","かく","聞く"],"answer":0},{"id":1388,"cat":"paraphrase","sentence":"新聞を読みました。","target":"読む","options":["目を通す","かく","書く","きく"],"answer":0},{"id":1389,"cat":"paraphrase","sentence":"名前を書きます。","target":"書く","options":["記す","読む","よむ","消す"],"answer":0},{"id":1390,"cat":"paraphrase","sentence":"手紙を書きました。","target":"書く","options":["記す","よむ","読む","けす"],"answer":0},{"id":1391,"cat":"paraphrase","sentence":"椅子に座ります。","target":"座る","options":["着席する","立つ","たつ","歩く"],"answer":0},{"id":1392,"cat":"paraphrase","sentence":"ここに座ってください。","target":"座る","options":["着席する","たつ","立つ","はしる"],"answer":0},{"id":1393,"cat":"paraphrase","sentence":"先生が立ちました。","target":"立つ","options":["起立する","座る","すわる","寝る"],"answer":0},{"id":1394,"cat":"paraphrase","sentence":"みんな立ってください。","target":"立つ","options":["起立する","すわる","座る","ねる"],"answer":0},{"id":1395,"cat":"paraphrase","sentence":"窓を開けます。","target":"開ける","options":["オープンする","閉める","しめる","閉じる"],"answer":0},{"id":1396,"cat":"paraphrase","sentence":"箱を開けました。","target":"開ける","options":["オープンする","しめる","閉める","閉じる"],"answer":0},{"id":1397,"cat":"paraphrase","sentence":"ドアを閉めます。","target":"閉める","options":["クローズする","開ける","あける","開く"],"answer":0},{"id":1398,"cat":"paraphrase","sentence":"窓を閉めました。","target":"閉める","options":["クローズする","あける","開ける","ひらく"],"answer":0},{"id":1399,"cat":"paraphrase","sentence":"大きい荷物です。","target":"大きい","options":["巨大","小型","ちいさい","軽い"],"answer":0},{"id":1400,"cat":"paraphrase","sentence":"大きい家です。","target":"大きい","options":["でかい","小さい","ちいさい","せまい"],"answer":0},{"id":1401,"cat":"paraphrase","sentence":"小さい箱です。","target":"小さい","options":["小型","大きい","でかい","広い"],"answer":0},{"id":1402,"cat":"paraphrase","sentence":"小さい鞄です。","target":"小さい","options":["ちいさな","大きい","ひろい","重い"],"answer":0},{"id":1403,"cat":"paraphrase","sentence":"宿題が多いです。","target":"多い","options":["たくさん","少ない","ない","ゼロ"],"answer":0},{"id":1404,"cat":"paraphrase","sentence":"雨の日が多いです。","target":"多い","options":["たくさん","少し","すくない","ゼロ"],"answer":0},{"id":1405,"cat":"paraphrase","sentence":"時間が少ないです。","target":"少ない","options":["わずか","たくさん","おおい","多い"],"answer":0},{"id":1406,"cat":"paraphrase","sentence":"友達が少ないです。","target":"少ない","options":["少し","たくさん","多い","おおい"],"answer":0},{"id":1407,"cat":"paraphrase","sentence":"新しい服です。","target":"新しい","options":["最近の","古い","ふるい","昔の"],"answer":0},{"id":1408,"cat":"paraphrase","sentence":"新しい家です。","target":"新しい","options":["最近の","ふるい","昔の","古い"],"answer":0},{"id":1409,"cat":"paraphrase","sentence":"古い車です。","target":"古い","options":["昔の","新しい","あたらしい","最近の"],"answer":0},{"id":1410,"cat":"paraphrase","sentence":"古い友達です。","target":"古い","options":["昔の","最近の","あたらしい","新しい"],"answer":0},{"id":1411,"cat":"paraphrase","sentence":"良い成績です。","target":"良い","options":["いい","だめな","悪い","わるい"],"answer":0},{"id":1412,"cat":"paraphrase","sentence":"良い話です。","target":"良い","options":["いい","わるい","悪い","だめな"],"answer":0},{"id":1413,"cat":"paraphrase","sentence":"悪い癖です。","target":"悪い","options":["だめ","よい","いい","素晴らしい"],"answer":0},{"id":1414,"cat":"paraphrase","sentence":"悪いニュースです。","target":"悪い","options":["だめな","いい","よい","素敵な"],"answer":0},{"id":1415,"cat":"paraphrase","sentence":"お湯が熱いです。","target":"熱い","options":["暑い","冷たい","つめたい","寒い"],"answer":0},{"id":1416,"cat":"paraphrase","sentence":"スープが熱いです。","target":"熱い","options":["暑い","冷たい","さむい","涼しい"],"answer":0},{"id":1417,"cat":"paraphrase","sentence":"水が冷たいです。","target":"冷たい","options":["さむい","熱い","あつい","暑い"],"answer":1},{"id":1418,"cat":"paraphrase","sentence":"風が涼しいです。","target":"涼しい","options":["寒い","暑い","あつい","熱い"],"answer":0},{"id":1419,"cat":"paraphrase","sentence":"このパソコンは高いです。","target":"高い","options":["値段が高い","値段が安い","やすい","安い"],"answer":0},{"id":1420,"cat":"paraphrase","sentence":"このチケットは高いです。","target":"高い","options":["値段が高い","安い","やすい","低い"],"answer":0},{"id":1421,"cat":"paraphrase","sentence":"この本は安いです。","target":"安い","options":["値段が安い","値段が高い","高い","たかい"],"answer":0},{"id":1422,"cat":"paraphrase","sentence":"このチケットは安いです。","target":"安い","options":["値段が安い","たかい","高い","高級"],"answer":0},{"id":1423,"cat":"paraphrase","sentence":"長い映画です。","target":"長い","options":["ロング","短い","みじかい","細い"],"answer":0},{"id":1424,"cat":"paraphrase","sentence":"長い鉛筆です。","target":"長い","options":["ロング","みじかい","短い","太い"],"answer":0},{"id":1425,"cat":"paraphrase","sentence":"短い話です。","target":"短い","options":["ショート","ながい","長い","広い"],"answer":0},{"id":1426,"cat":"paraphrase","sentence":"短い休みです。","target":"短い","options":["ショート","長い","ながい","多い"],"answer":0},{"id":1427,"cat":"paraphrase","sentence":"起きるのが早いです。","target":"早い","options":["速い","おそい","遅い","のろい"],"answer":0},{"id":1428,"cat":"paraphrase","sentence":"時間が早いです。","target":"早い","options":["速い","おそい","遅い","のんびり"],"answer":0},{"id":1429,"cat":"paraphrase","sentence":"遅い返事です。","target":"遅い","options":["のろい","早い","はやい","速い"],"answer":0},{"id":1430,"cat":"paraphrase","sentence":"動作が遅いです。","target":"遅い","options":["のろい","はやい","早い","速い"],"answer":0},{"id":1431,"cat":"paraphrase","sentence":"スーパーは近いです。","target":"近い","options":["ちかく","とおい","遠い","離れた"],"answer":0},{"id":1432,"cat":"paraphrase","sentence":"駅に近いです。","target":"近い","options":["ちかく","とおい","遠い","はなれて"],"answer":0},{"id":1433,"cat":"paraphrase","sentence":"学校は遠いです。","target":"遠い","options":["とおく","ちかい","近い","すぐ"],"answer":0},{"id":1434,"cat":"paraphrase","sentence":"国は遠いです。","target":"遠い","options":["とおく","ちかい","近い","すぐそば"],"answer":0},{"id":1435,"cat":"paraphrase","sentence":"今週は忙しいです。","target":"忙しい","options":["暇でない","ひま","のんびり","らく"],"answer":0},{"id":1436,"cat":"paraphrase","sentence":"母は忙しいです。","target":"忙しい","options":["暇でない","ひま","楽","のんびり"],"answer":0},{"id":1437,"cat":"paraphrase","sentence":"今は暇です。","target":"暇","options":["時間ある","いそがしい","忙しい","働く"],"answer":0},{"id":1438,"cat":"paraphrase","sentence":"午後は暇です。","target":"暇","options":["時間ある","忙しい","いそがしい","働いている"],"answer":0},{"id":1439,"cat":"paraphrase","sentence":"とても元気です。","target":"元気","options":["健康","病気","具合悪い","弱い"],"answer":0},{"id":1440,"cat":"paraphrase","sentence":"子どもは元気です。","target":"元気","options":["健康","びょうき","病気","弱い"],"answer":0},{"id":1441,"cat":"paraphrase","sentence":"父は病気です。","target":"病気","options":["具合悪い","げんき","元気","健康"],"answer":0},{"id":1442,"cat":"paraphrase","sentence":"祖母は病気です。","target":"病気","options":["具合悪い","げんき","元気","丈夫"],"answer":0},{"id":1443,"cat":"paraphrase","sentence":"猫が大好きです。","target":"好き","options":["愛する","きらい","嫌い","好きでない"],"answer":0},{"id":1444,"cat":"paraphrase","sentence":"日本料理が好きです。","target":"好き","options":["愛する","きらい","嫌い","嫌う"],"answer":0},{"id":1445,"cat":"paraphrase","sentence":"勉強が嫌いです。","target":"嫌い","options":["好きでない","すき","好き","大好き"],"answer":0},{"id":1446,"cat":"paraphrase","sentence":"運動が嫌いです。","target":"嫌い","options":["好きでない","すき","好き","愛する"],"answer":0},{"id":1447,"cat":"paraphrase","sentence":"ピアノが上手です。","target":"上手","options":["うまい","へた","下手","だめ"],"answer":0},{"id":1448,"cat":"paraphrase","sentence":"英語が上手です。","target":"上手","options":["うまい","へた","下手","ダメ"],"answer":0},{"id":1449,"cat":"paraphrase","sentence":"料理が下手です。","target":"下手","options":["へた","じょうず","上手","うまい"],"answer":0},{"id":1450,"cat":"paraphrase","sentence":"踊りが下手です。","target":"下手","options":["へた","上手","じょうず","上手い"],"answer":0},{"id":1451,"cat":"paraphrase","sentence":"有名な歌手です。","target":"有名","options":["知られている","無名","知らない","しらない"],"answer":0},{"id":1452,"cat":"paraphrase","sentence":"有名な場所です。","target":"有名","options":["知られている","無名","しらない","無い"],"answer":0},{"id":1453,"cat":"paraphrase","sentence":"親切な店員です。","target":"親切","options":["やさしい","つめたい","冷たい","きびしい"],"answer":0},{"id":1454,"cat":"paraphrase","sentence":"親切な人たちです。","target":"親切","options":["やさしい","つめたい","冷たい","こわい"],"answer":0},{"id":1455,"cat":"paraphrase","sentence":"きれいな景色です。","target":"きれい","options":["美しい","きたない","汚い","ひどい"],"answer":0},{"id":1456,"cat":"paraphrase","sentence":"きれいな服です。","target":"きれい","options":["美しい","きたない","汚い","ぼろぼろ"],"answer":0},{"id":1457,"cat":"paraphrase","sentence":"汚い服です。","target":"汚い","options":["きたない","きれい","美しい","あたらしい"],"answer":0},{"id":1458,"cat":"paraphrase","sentence":"汚い町です。","target":"汚い","options":["きたない","きれい","うつくしい","美しい"],"answer":0},{"id":1459,"cat":"paraphrase","sentence":"静かな場所です。","target":"静か","options":["しずか","にぎやか","うるさい","さわがしい"],"answer":0},{"id":1460,"cat":"paraphrase","sentence":"静かな人です。","target":"静か","options":["しずか","さわがしい","うるさい","にぎやか"],"answer":0},{"id":1461,"cat":"paraphrase","sentence":"賑やかなパーティーです。","target":"賑やか","options":["にぎやか","しずか","静か","さびしい"],"answer":0},{"id":1462,"cat":"paraphrase","sentence":"賑やかな店です。","target":"賑やか","options":["にぎやか","しずか","静か","ひとけ無い"],"answer":0},{"id":1463,"cat":"paraphrase","sentence":"いつも笑顔です。","target":"いつも","options":["毎回","たまに","ときどき","時々"],"answer":0},{"id":1464,"cat":"paraphrase","sentence":"いつも早く来ます。","target":"いつも","options":["毎回","ときどき","たまに","少し"],"answer":0},{"id":1465,"cat":"paraphrase","sentence":"時々雨が降ります。","target":"時々","options":["たまに","いつも","まいかい","毎回"],"answer":0},{"id":1466,"cat":"paraphrase","sentence":"時々散歩します。","target":"時々","options":["たまに","いつも","まいにち","毎日"],"answer":0},{"id":1467,"cat":"paraphrase","sentence":"よく本を読みます。","target":"よく","options":["しばしば","たまに","あまり","ぜんぜん"],"answer":0},{"id":1468,"cat":"paraphrase","sentence":"よく旅行します。","target":"よく","options":["しばしば","あまり","たまに","ぜんぜん"],"answer":0},{"id":1469,"cat":"paraphrase","sentence":"すぐ行きます。","target":"すぐ","options":["急に","ゆっくり","のちほど","あとで"],"answer":0},{"id":1470,"cat":"paraphrase","sentence":"すぐ答えました。","target":"すぐ","options":["急に","ゆっくり","のんびり","あとで"],"answer":0},{"id":1471,"cat":"paraphrase","sentence":"もう着きました。","target":"もう","options":["すでに","まだ","これから","のち"],"answer":0},{"id":1472,"cat":"paraphrase","sentence":"もう家にいます。","target":"もう","options":["すでに","まだ","これから","あとで"],"answer":0},{"id":1473,"cat":"paraphrase","sentence":"まだ分かりません。","target":"まだ","options":["今まで～ない","もう","すでに","さっき"],"answer":0},{"id":1474,"cat":"paraphrase","sentence":"まだ終わっていません。","target":"まだ","options":["今まで～ない","もう","すでに","さっき"],"answer":0},{"id":1475,"cat":"paraphrase","sentence":"ちょっと高いです。","target":"ちょっと","options":["少し","たくさん","とても","大変"],"answer":0},{"id":1476,"cat":"paraphrase","sentence":"ちょっと休みます。","target":"ちょっと","options":["少し","たくさん","長く","ずっと"],"answer":0},{"id":1477,"cat":"paraphrase","sentence":"とても難しいです。","target":"とても","options":["非常に","少し","あまり","ぜんぜん"],"answer":0},{"id":1478,"cat":"paraphrase","sentence":"とても嬉しいです。","target":"とても","options":["すごく","すこし","あまり","ちょっと"],"answer":0},{"id":1479,"cat":"paraphrase","sentence":"あまり暑くないです。","target":"あまり","options":["そんなに","とても","すごく","非常に"],"answer":0},{"id":1480,"cat":"paraphrase","sentence":"あまり寒くないです。","target":"あまり","options":["そんなに","とても","ひじょうに","すごく"],"answer":0},{"id":1481,"cat":"paraphrase","sentence":"人がたくさん来ました。","target":"たくさん","options":["多く","少し","わずか","すくなく"],"answer":0},{"id":1482,"cat":"paraphrase","sentence":"お金がたくさんあります。","target":"たくさん","options":["多く","少ない","わずか","少し"],"answer":0},{"id":1483,"cat":"paraphrase","sentence":"もちろん賛成です。","target":"もちろん","options":["当然","たぶん","もしかして","ひょっとして"],"answer":0},{"id":1484,"cat":"paraphrase","sentence":"もちろん分かります。","target":"もちろん","options":["当然","たぶん","もしかして","あるいは"],"answer":0},{"id":1485,"cat":"paraphrase","sentence":"たぶん行きます。","target":"たぶん","options":["おそらく","きっと","必ず","絶対"],"answer":0},{"id":1486,"cat":"paraphrase","sentence":"たぶん大丈夫です。","target":"たぶん","options":["おそらく","きっと","絶対","必ず"],"answer":0},{"id":1487,"cat":"paraphrase","sentence":"きっと喜びます。","target":"きっと","options":["必ず","たぶん","おそらく","もしかして"],"answer":0},{"id":1488,"cat":"paraphrase","sentence":"きっと成功します。","target":"きっと","options":["必ず","たぶん","おそらく","もしかして"],"answer":0},{"id":1489,"cat":"paraphrase","sentence":"パンを食べます。","target":"食べる","options":["食事する","のむ","飲む","料理する"],"answer":0},{"id":1490,"cat":"paraphrase","sentence":"寿司を食べました。","target":"食べる","options":["食事する","のむ","飲む","作る"],"answer":0},{"id":1491,"cat":"paraphrase","sentence":"お茶を飲みます。","target":"飲む","options":["口にする","たべる","食べる","作る"],"answer":0},{"id":1492,"cat":"paraphrase","sentence":"ジュースを飲みました。","target":"飲む","options":["口にする","食べる","たべる","つくる"],"answer":0},{"id":1493,"cat":"paraphrase","sentence":"富士山を見ます。","target":"見る","options":["観察する","きく","聞く","読む"],"answer":0},{"id":1494,"cat":"paraphrase","sentence":"絵を見ました。","target":"見る","options":["観察する","きく","聞く","話す"],"answer":0},{"id":1495,"cat":"paraphrase","sentence":"鳥の声を聞きます。","target":"聞く","options":["耳にする","みる","見る","話す"],"answer":0},{"id":1496,"cat":"paraphrase","sentence":"ラジオを聞きました。","target":"聞く","options":["耳にする","みる","見る","話す"],"answer":0},{"id":1497,"cat":"paraphrase","sentence":"英語を話します。","target":"話す","options":["しゃべる","だまる","読む","書く"],"answer":0},{"id":1498,"cat":"paraphrase","sentence":"大きな声で話しました。","target":"話す","options":["しゃべる","だまる","書く","読む"],"answer":0},{"id":1499,"cat":"paraphrase","sentence":"ありがとうと言います。","target":"言う","options":["伝える","きく","聞く","読む"],"answer":0},{"id":1500,"cat":"paraphrase","sentence":"さようならと言いました。","target":"言う","options":["伝える","聞く","読む","きく"],"answer":0}]
+[
+  {
+    "id": 1001,
+    "cat": "context_vocab",
+    "sentence": "りんごを（　　）つください。",
+    "options": [
+      "ひと",
+      "いち",
+      "ふた",
+      "さん"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1002,
+    "cat": "context_vocab",
+    "sentence": "みかんを（　　）つ買いました。",
+    "options": [
+      "ふた",
+      "に",
+      "みっ",
+      "さん"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1003,
+    "cat": "context_vocab",
+    "sentence": "ケーキを（　　）つ食べました。",
+    "options": [
+      "みっ",
+      "さん",
+      "みつ",
+      "むっ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1004,
+    "cat": "context_vocab",
+    "sentence": "お皿が（　　）あります。",
+    "options": [
+      "よっつ",
+      "よんつ",
+      "しっつ",
+      "よつ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1005,
+    "cat": "context_vocab",
+    "sentence": "いすが（　　）あります。",
+    "options": [
+      "いつつ",
+      "ごつ",
+      "いつ",
+      "ごっつ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1006,
+    "cat": "context_vocab",
+    "sentence": "えんぴつを（　　）ください。",
+    "options": [
+      "いっぽん",
+      "いちほん",
+      "いちぽん",
+      "いっほん"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1007,
+    "cat": "context_vocab",
+    "sentence": "ビールを（　　）のみました。",
+    "options": [
+      "にほん",
+      "にぽん",
+      "にっぽん",
+      "にぼん"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1008,
+    "cat": "context_vocab",
+    "sentence": "傘を（　　）持っています。",
+    "options": [
+      "さんぼん",
+      "さんほん",
+      "さっぽん",
+      "さんぽん"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1009,
+    "cat": "context_vocab",
+    "sentence": "紙を（　　）ください。",
+    "options": [
+      "いちまい",
+      "いっまい",
+      "ひとまい",
+      "いちぱい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1010,
+    "cat": "context_vocab",
+    "sentence": "切手を（　　）買いました。",
+    "options": [
+      "さんまい",
+      "さんぱい",
+      "さっまい",
+      "さぱい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1011,
+    "cat": "context_vocab",
+    "sentence": "犬が（　　）います。",
+    "options": [
+      "いっぴき",
+      "いちひき",
+      "いちぴき",
+      "いっひき"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1012,
+    "cat": "context_vocab",
+    "sentence": "猫が（　　）います。",
+    "options": [
+      "にひき",
+      "にぴき",
+      "にっぴき",
+      "にっひき"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1014,
+    "cat": "context_vocab",
+    "sentence": "車が（　　）あります。",
+    "options": [
+      "いちだい",
+      "いっだい",
+      "ひとだい",
+      "いちたい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1015,
+    "cat": "context_vocab",
+    "sentence": "本が（　　）あります。",
+    "options": [
+      "にさつ",
+      "にっさつ",
+      "ふたさつ",
+      "にざつ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1016,
+    "cat": "context_vocab",
+    "sentence": "（　　）時に起きます。",
+    "options": [
+      "しち",
+      "なな",
+      "ひち",
+      "ななつ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1017,
+    "cat": "context_vocab",
+    "sentence": "今（　　）時です。",
+    "options": [
+      "よ",
+      "よん",
+      "し",
+      "よっ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1018,
+    "cat": "context_vocab",
+    "sentence": "（　　）分待ってください。",
+    "options": [
+      "じゅっぷん",
+      "じゅうふん",
+      "じゅぷん",
+      "じゅうぶん"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1019,
+    "cat": "context_vocab",
+    "sentence": "（　　）円です。",
+    "options": [
+      "ひゃく",
+      "びゃく",
+      "ぴゃく",
+      "はく"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1020,
+    "cat": "context_vocab",
+    "sentence": "（　　）円のパンです。",
+    "options": [
+      "さんびゃく",
+      "さんひゃく",
+      "さんぴゃく",
+      "さっぴゃく"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1021,
+    "cat": "context_vocab",
+    "sentence": "（　　）人来ました。",
+    "options": [
+      "ひとり",
+      "いちにん",
+      "ひとにん",
+      "いちり"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1022,
+    "cat": "context_vocab",
+    "sentence": "友達が（　　）います。",
+    "options": [
+      "ふたり",
+      "ににん",
+      "ふたにん",
+      "にり"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1023,
+    "cat": "context_vocab",
+    "sentence": "学生が（　　）います。",
+    "options": [
+      "さんにん",
+      "さんり",
+      "さっにん",
+      "みにん"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1024,
+    "cat": "context_vocab",
+    "sentence": "（　　）年日本にいます。",
+    "options": [
+      "いちねん",
+      "ひとねん",
+      "いっねん",
+      "いちとし"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1025,
+    "cat": "context_vocab",
+    "sentence": "（　　）月に日本へ来ました。",
+    "options": [
+      "しがつ",
+      "よんがつ",
+      "よがつ",
+      "よっがつ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1026,
+    "cat": "context_vocab",
+    "sentence": "（　　）日は日曜日です。",
+    "options": [
+      "ついたち",
+      "いちにち",
+      "ひとか",
+      "いちか"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1027,
+    "cat": "context_vocab",
+    "sentence": "（　　）日にパーティーをします。",
+    "options": [
+      "ふつか",
+      "にか",
+      "ににち",
+      "ふたか"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1028,
+    "cat": "context_vocab",
+    "sentence": "今日は（　　）日です。",
+    "options": [
+      "とおか",
+      "じゅっか",
+      "じゅうか",
+      "とか"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1029,
+    "cat": "context_vocab",
+    "sentence": "（　　）歳です。",
+    "options": [
+      "はたち",
+      "にじゅっさい",
+      "はつか",
+      "にじゅうさい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1030,
+    "cat": "context_vocab",
+    "sentence": "ノートを（　　）ください。",
+    "options": [
+      "にさつ",
+      "にまい",
+      "にほん",
+      "にだい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1031,
+    "cat": "context_vocab",
+    "sentence": "朝ごはんを（　　）。",
+    "options": [
+      "食べます",
+      "飲みます",
+      "見ます",
+      "聞きます"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1032,
+    "cat": "context_vocab",
+    "sentence": "水を（　　）。",
+    "options": [
+      "飲みます",
+      "食べます",
+      "書きます",
+      "読みます"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1033,
+    "cat": "context_vocab",
+    "sentence": "本を（　　）。",
+    "options": [
+      "読みます",
+      "飲みます",
+      "食べます",
+      "走ります"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1034,
+    "cat": "context_vocab",
+    "sentence": "手紙を（　　）。",
+    "options": [
+      "書きます",
+      "聞きます",
+      "話します",
+      "買います"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1035,
+    "cat": "context_vocab",
+    "sentence": "音楽を（　　）。",
+    "options": [
+      "聞きます",
+      "見ます",
+      "話します",
+      "書きます"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1036,
+    "cat": "context_vocab",
+    "sentence": "テレビを（　　）。",
+    "options": [
+      "見ます",
+      "聞きます",
+      "読みます",
+      "話します"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1037,
+    "cat": "context_vocab",
+    "sentence": "友達と（　　）。",
+    "options": [
+      "話します",
+      "飲みます",
+      "読みます",
+      "歩きます"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1038,
+    "cat": "context_vocab",
+    "sentence": "学校へ（　　）。",
+    "options": [
+      "行きます",
+      "来ます",
+      "帰ります",
+      "食べます"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1039,
+    "cat": "context_vocab",
+    "sentence": "家に（　　）。",
+    "options": [
+      "帰ります",
+      "行きます",
+      "入ります",
+      "出ます"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1040,
+    "cat": "context_vocab",
+    "sentence": "店で（　　）。",
+    "options": [
+      "買います",
+      "売ります",
+      "作ります",
+      "使います"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1041,
+    "cat": "context_vocab",
+    "sentence": "公園を（　　）。",
+    "options": [
+      "歩きます",
+      "走ります",
+      "泳ぎます",
+      "飛びます"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1042,
+    "cat": "context_vocab",
+    "sentence": "プールで（　　）。",
+    "options": [
+      "泳ぎます",
+      "歩きます",
+      "走ります",
+      "乗ります"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1043,
+    "cat": "context_vocab",
+    "sentence": "朝6時に（　　）。",
+    "options": [
+      "起きます",
+      "寝ます",
+      "立ちます",
+      "座ります"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1044,
+    "cat": "context_vocab",
+    "sentence": "夜11時に（　　）。",
+    "options": [
+      "寝ます",
+      "起きます",
+      "立ちます",
+      "食べます"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1045,
+    "cat": "context_vocab",
+    "sentence": "電車に（　　）。",
+    "options": [
+      "乗ります",
+      "降ります",
+      "行きます",
+      "出ます"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1046,
+    "cat": "context_vocab",
+    "sentence": "駅で（　　）。",
+    "options": [
+      "降ります",
+      "乗ります",
+      "入ります",
+      "走ります"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1047,
+    "cat": "context_vocab",
+    "sentence": "友達に（　　）。",
+    "options": [
+      "会います",
+      "見ます",
+      "話します",
+      "読みます"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1048,
+    "cat": "context_vocab",
+    "sentence": "写真を（　　）。",
+    "options": [
+      "撮ります",
+      "取ります",
+      "作ります",
+      "見ます"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 1049,
+    "cat": "context_vocab",
+    "sentence": "料理を（　　）。",
+    "options": [
+      "作ります",
+      "食べます",
+      "飲みます",
+      "売ります"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1050,
+    "cat": "context_vocab",
+    "sentence": "日本語を（　　）。",
+    "options": [
+      "勉強します",
+      "使います",
+      "読みます",
+      "書きます"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1051,
+    "cat": "context_vocab",
+    "sentence": "パソコンを（　　）。",
+    "options": [
+      "使います",
+      "持ちます",
+      "作ります",
+      "買います"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1052,
+    "cat": "context_vocab",
+    "sentence": "荷物を（　　）。",
+    "options": [
+      "持ちます",
+      "使います",
+      "食べます",
+      "作ります"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1053,
+    "cat": "context_vocab",
+    "sentence": "窓を（　　）。",
+    "options": [
+      "開けます",
+      "閉めます",
+      "切ります",
+      "押します"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1054,
+    "cat": "context_vocab",
+    "sentence": "ドアを（　　）。",
+    "options": [
+      "閉めます",
+      "開けます",
+      "切ります",
+      "引きます"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1055,
+    "cat": "context_vocab",
+    "sentence": "紙を（　　）。",
+    "options": [
+      "切ります",
+      "開けます",
+      "閉めます",
+      "作ります"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1056,
+    "cat": "context_vocab",
+    "sentence": "ボタンを（　　）。",
+    "options": [
+      "押します",
+      "引きます",
+      "開けます",
+      "切ります"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1057,
+    "cat": "context_vocab",
+    "sentence": "電気を（　　）。",
+    "options": [
+      "つけます",
+      "開けます",
+      "消します",
+      "入れます"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1058,
+    "cat": "context_vocab",
+    "sentence": "電気を（　　）。",
+    "options": [
+      "消します",
+      "つけます",
+      "入れます",
+      "開けます"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1059,
+    "cat": "context_vocab",
+    "sentence": "バスを（　　）。",
+    "options": [
+      "待ちます",
+      "乗ります",
+      "見ます",
+      "会います"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1060,
+    "cat": "context_vocab",
+    "sentence": "先生に（　　）。",
+    "options": [
+      "聞きます",
+      "話します",
+      "見ます",
+      "読みます"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1061,
+    "cat": "context_vocab",
+    "sentence": "質問に（　　）。",
+    "options": [
+      "答えます",
+      "聞きます",
+      "話します",
+      "読みます"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1062,
+    "cat": "context_vocab",
+    "sentence": "名前を（　　）。",
+    "options": [
+      "呼びます",
+      "話します",
+      "聞きます",
+      "書きます"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1063,
+    "cat": "context_vocab",
+    "sentence": "シャワーを（　　）。",
+    "options": [
+      "浴びます",
+      "飲みます",
+      "食べます",
+      "使います"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1064,
+    "cat": "context_vocab",
+    "sentence": "お風呂に（　　）。",
+    "options": [
+      "入ります",
+      "出ます",
+      "行きます",
+      "来ます"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1065,
+    "cat": "context_vocab",
+    "sentence": "歌を（　　）。",
+    "options": [
+      "歌います",
+      "言います",
+      "話します",
+      "聞きます"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1066,
+    "cat": "context_vocab",
+    "sentence": "タクシーを（　　）。",
+    "options": [
+      "呼びます",
+      "乗ります",
+      "待ちます",
+      "降ります"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1067,
+    "cat": "context_vocab",
+    "sentence": "ペンを（　　）。",
+    "options": [
+      "貸します",
+      "借ります",
+      "売ります",
+      "買います"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1068,
+    "cat": "context_vocab",
+    "sentence": "傘を（　　）。",
+    "options": [
+      "借ります",
+      "貸します",
+      "売ります",
+      "作ります"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1069,
+    "cat": "context_vocab",
+    "sentence": "授業が（　　）。",
+    "options": [
+      "始まります",
+      "終わります",
+      "出ます",
+      "入ります"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1070,
+    "cat": "context_vocab",
+    "sentence": "仕事が（　　）。",
+    "options": [
+      "終わります",
+      "始まります",
+      "出ます",
+      "入ります"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1071,
+    "cat": "context_vocab",
+    "sentence": "この本は（　　）です。",
+    "options": [
+      "おもしろい",
+      "おいしい",
+      "あかるい",
+      "つめたい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1072,
+    "cat": "context_vocab",
+    "sentence": "このケーキは（　　）です。",
+    "options": [
+      "おいしい",
+      "おもしろい",
+      "あたらしい",
+      "たのしい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1073,
+    "cat": "context_vocab",
+    "sentence": "今日は（　　）です。",
+    "options": [
+      "さむい",
+      "つめたい",
+      "かたい",
+      "からい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1074,
+    "cat": "context_vocab",
+    "sentence": "夏は（　　）です。",
+    "options": [
+      "あつい",
+      "さむい",
+      "すずしい",
+      "あたたかい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1075,
+    "cat": "context_vocab",
+    "sentence": "この部屋は（　　）です。",
+    "options": [
+      "あかるい",
+      "くらい",
+      "うるさい",
+      "しずか"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1076,
+    "cat": "context_vocab",
+    "sentence": "夜は（　　）です。",
+    "options": [
+      "くらい",
+      "あかるい",
+      "しずか",
+      "うるさい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1077,
+    "cat": "context_vocab",
+    "sentence": "象は（　　）です。",
+    "options": [
+      "おおきい",
+      "ちいさい",
+      "たかい",
+      "ひくい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1078,
+    "cat": "context_vocab",
+    "sentence": "ねずみは（　　）です。",
+    "options": [
+      "ちいさい",
+      "おおきい",
+      "たかい",
+      "ひくい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1079,
+    "cat": "context_vocab",
+    "sentence": "富士山は（　　）です。",
+    "options": [
+      "たかい",
+      "ひくい",
+      "ながい",
+      "みじかい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1080,
+    "cat": "context_vocab",
+    "sentence": "この川は（　　）です。",
+    "options": [
+      "ながい",
+      "みじかい",
+      "たかい",
+      "ひくい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1081,
+    "cat": "context_vocab",
+    "sentence": "この車は（　　）です。",
+    "options": [
+      "はやい",
+      "おそい",
+      "たかい",
+      "ひくい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1082,
+    "cat": "context_vocab",
+    "sentence": "かめは（　　）です。",
+    "options": [
+      "おそい",
+      "はやい",
+      "つよい",
+      "よわい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1083,
+    "cat": "context_vocab",
+    "sentence": "新幹線は（　　）です。",
+    "options": [
+      "はやい",
+      "おそい",
+      "ふるい",
+      "あたらしい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1084,
+    "cat": "context_vocab",
+    "sentence": "この店は（　　）です。",
+    "options": [
+      "あたらしい",
+      "ふるい",
+      "たかい",
+      "やすい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1085,
+    "cat": "context_vocab",
+    "sentence": "このコンピューターは（　　）です。",
+    "options": [
+      "ふるい",
+      "あたらしい",
+      "たかい",
+      "やすい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1086,
+    "cat": "context_vocab",
+    "sentence": "この時計は（　　）です。",
+    "options": [
+      "たかい",
+      "やすい",
+      "ながい",
+      "みじかい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1087,
+    "cat": "context_vocab",
+    "sentence": "この野菜は（　　）です。",
+    "options": [
+      "やすい",
+      "たかい",
+      "おもい",
+      "かるい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1088,
+    "cat": "context_vocab",
+    "sentence": "コーヒーは（　　）です。",
+    "options": [
+      "あつい",
+      "つめたい",
+      "からい",
+      "あまい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1089,
+    "cat": "context_vocab",
+    "sentence": "アイスは（　　）です。",
+    "options": [
+      "つめたい",
+      "あつい",
+      "あまい",
+      "からい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1090,
+    "cat": "context_vocab",
+    "sentence": "砂糖は（　　）です。",
+    "options": [
+      "あまい",
+      "からい",
+      "にがい",
+      "しょっぱい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1091,
+    "cat": "context_vocab",
+    "sentence": "唐辛子は（　　）です。",
+    "options": [
+      "からい",
+      "あまい",
+      "にがい",
+      "すっぱい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1092,
+    "cat": "context_vocab",
+    "sentence": "レモンは（　　）です。",
+    "options": [
+      "すっぱい",
+      "あまい",
+      "からい",
+      "にがい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1093,
+    "cat": "context_vocab",
+    "sentence": "この問題は（　　）です。",
+    "options": [
+      "むずかしい",
+      "やさしい",
+      "おおきい",
+      "ちいさい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1094,
+    "cat": "context_vocab",
+    "sentence": "この試験は（　　）です。",
+    "options": [
+      "やさしい",
+      "むずかしい",
+      "おおきい",
+      "ちいさい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1095,
+    "cat": "context_vocab",
+    "sentence": "彼は（　　）です。",
+    "options": [
+      "やさしい",
+      "きびしい",
+      "こわい",
+      "わるい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1096,
+    "cat": "context_vocab",
+    "sentence": "図書館は（　　）です。",
+    "options": [
+      "しずか",
+      "にぎやか",
+      "うるさい",
+      "たのしい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1097,
+    "cat": "context_vocab",
+    "sentence": "町は（　　）です。",
+    "options": [
+      "にぎやか",
+      "しずか",
+      "きれい",
+      "ひま"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1098,
+    "cat": "context_vocab",
+    "sentence": "この部屋は（　　）です。",
+    "options": [
+      "きれい",
+      "きたない",
+      "ひろい",
+      "せまい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1099,
+    "cat": "context_vocab",
+    "sentence": "私の部屋は（　　）です。",
+    "options": [
+      "せまい",
+      "ひろい",
+      "きれい",
+      "あかるい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1100,
+    "cat": "context_vocab",
+    "sentence": "公園は（　　）です。",
+    "options": [
+      "ひろい",
+      "せまい",
+      "ちいさい",
+      "ながい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1101,
+    "cat": "context_vocab",
+    "sentence": "この荷物は（　　）です。",
+    "options": [
+      "おもい",
+      "かるい",
+      "つよい",
+      "よわい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1102,
+    "cat": "context_vocab",
+    "sentence": "この鞄は（　　）です。",
+    "options": [
+      "かるい",
+      "おもい",
+      "たかい",
+      "やすい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1103,
+    "cat": "context_vocab",
+    "sentence": "今日は（　　）です。",
+    "options": [
+      "いそがしい",
+      "ひま",
+      "たのしい",
+      "おもしろい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1104,
+    "cat": "context_vocab",
+    "sentence": "日曜日は（　　）です。",
+    "options": [
+      "ひま",
+      "いそがしい",
+      "むずかしい",
+      "たのしい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1105,
+    "cat": "context_vocab",
+    "sentence": "彼女は（　　）です。",
+    "options": [
+      "かわいい",
+      "こわい",
+      "わるい",
+      "きたない"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1106,
+    "cat": "context_vocab",
+    "sentence": "朝、（　　）を食べます。",
+    "options": [
+      "ごはん",
+      "ゆうはん",
+      "ばんごはん",
+      "よる"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1107,
+    "cat": "context_vocab",
+    "sentence": "昼、（　　）を食べます。",
+    "options": [
+      "ひるごはん",
+      "あさごはん",
+      "ばんごはん",
+      "よる"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1108,
+    "cat": "context_vocab",
+    "sentence": "夜、（　　）を食べます。",
+    "options": [
+      "ばんごはん",
+      "あさごはん",
+      "ひるごはん",
+      "おやつ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1109,
+    "cat": "context_vocab",
+    "sentence": "毎日（　　）を飲みます。",
+    "options": [
+      "コーヒー",
+      "はん",
+      "パン",
+      "にく"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1110,
+    "cat": "context_vocab",
+    "sentence": "朝、（　　）を飲みます。",
+    "options": [
+      "ぎゅうにゅう",
+      "ごはん",
+      "パン",
+      "サラダ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1111,
+    "cat": "context_vocab",
+    "sentence": "（　　）で勉強します。",
+    "options": [
+      "がっこう",
+      "えき",
+      "みせ",
+      "びょういん"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1112,
+    "cat": "context_vocab",
+    "sentence": "（　　）で本を借ります。",
+    "options": [
+      "としょかん",
+      "がっこう",
+      "びょういん",
+      "ぎんこう"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1113,
+    "cat": "context_vocab",
+    "sentence": "（　　）でお金を下ろします。",
+    "options": [
+      "ぎんこう",
+      "としょかん",
+      "ゆうびんきょく",
+      "びょういん"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1114,
+    "cat": "context_vocab",
+    "sentence": "（　　）で切手を買います。",
+    "options": [
+      "ゆうびんきょく",
+      "ぎんこう",
+      "としょかん",
+      "びょういん"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1115,
+    "cat": "context_vocab",
+    "sentence": "（　　）で薬をもらいます。",
+    "options": [
+      "びょういん",
+      "がっこう",
+      "としょかん",
+      "ぎんこう"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1116,
+    "cat": "context_vocab",
+    "sentence": "（　　）で電車に乗ります。",
+    "options": [
+      "えき",
+      "みせ",
+      "こうえん",
+      "がっこう"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1117,
+    "cat": "context_vocab",
+    "sentence": "（　　）で買い物をします。",
+    "options": [
+      "スーパー",
+      "えき",
+      "がっこう",
+      "びょういん"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1118,
+    "cat": "context_vocab",
+    "sentence": "（　　）で食事をします。",
+    "options": [
+      "レストラン",
+      "としょかん",
+      "ぎんこう",
+      "えき"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1119,
+    "cat": "context_vocab",
+    "sentence": "（　　）で遊びます。",
+    "options": [
+      "こうえん",
+      "としょかん",
+      "びょういん",
+      "ぎんこう"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1120,
+    "cat": "context_vocab",
+    "sentence": "（　　）に手紙を書きます。",
+    "options": [
+      "ともだち",
+      "つくえ",
+      "いす",
+      "ほん"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1121,
+    "cat": "context_vocab",
+    "sentence": "お父さんは（　　）です。",
+    "options": [
+      "ちち",
+      "はは",
+      "あに",
+      "あね"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1122,
+    "cat": "context_vocab",
+    "sentence": "お母さんは（　　）です。",
+    "options": [
+      "はは",
+      "ちち",
+      "あに",
+      "あね"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1123,
+    "cat": "context_vocab",
+    "sentence": "私の（　　）は20歳です。",
+    "options": [
+      "あに",
+      "ちち",
+      "はは",
+      "あね"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1124,
+    "cat": "context_vocab",
+    "sentence": "私の（　　）は中学生です。",
+    "options": [
+      "いもうと",
+      "あね",
+      "おとうと",
+      "ちち"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 1125,
+    "cat": "context_vocab",
+    "sentence": "（　　）に行きます。",
+    "options": [
+      "りょこう",
+      "しゃしん",
+      "えいが",
+      "ゲーム"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1126,
+    "cat": "context_vocab",
+    "sentence": "（　　）を見ます。",
+    "options": [
+      "えいが",
+      "おんがく",
+      "でんわ",
+      "しんぶん"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1127,
+    "cat": "context_vocab",
+    "sentence": "（　　）を聞きます。",
+    "options": [
+      "おんがく",
+      "えいが",
+      "しんぶん",
+      "ほん"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1128,
+    "cat": "context_vocab",
+    "sentence": "（　　）を読みます。",
+    "options": [
+      "しんぶん",
+      "おんがく",
+      "えいが",
+      "でんわ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1129,
+    "cat": "context_vocab",
+    "sentence": "（　　）をかけます。",
+    "options": [
+      "でんわ",
+      "しんぶん",
+      "おんがく",
+      "えいが"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1130,
+    "cat": "context_vocab",
+    "sentence": "（　　）を撮ります。",
+    "options": [
+      "しゃしん",
+      "えいが",
+      "でんわ",
+      "おんがく"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1131,
+    "cat": "context_vocab",
+    "sentence": "空が（　　）です。",
+    "options": [
+      "あおい",
+      "くろい",
+      "しろい",
+      "あかい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1132,
+    "cat": "context_vocab",
+    "sentence": "雪は（　　）です。",
+    "options": [
+      "しろい",
+      "くろい",
+      "あおい",
+      "あかい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1133,
+    "cat": "context_vocab",
+    "sentence": "りんごは（　　）です。",
+    "options": [
+      "あかい",
+      "あおい",
+      "しろい",
+      "きいろい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1134,
+    "cat": "context_vocab",
+    "sentence": "バナナは（　　）です。",
+    "options": [
+      "きいろい",
+      "あかい",
+      "あおい",
+      "しろい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1135,
+    "cat": "context_vocab",
+    "sentence": "髪は（　　）です。",
+    "options": [
+      "くろい",
+      "しろい",
+      "あかい",
+      "あおい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1136,
+    "cat": "context_vocab",
+    "sentence": "（　　）はあついです。",
+    "options": [
+      "なつ",
+      "ふゆ",
+      "はる",
+      "あき"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1137,
+    "cat": "context_vocab",
+    "sentence": "（　　）はさむいです。",
+    "options": [
+      "ふゆ",
+      "なつ",
+      "はる",
+      "あき"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1138,
+    "cat": "context_vocab",
+    "sentence": "（　　）は花がきれいです。",
+    "options": [
+      "はる",
+      "ふゆ",
+      "あき",
+      "なつ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1139,
+    "cat": "context_vocab",
+    "sentence": "（　　）は葉が赤いです。",
+    "options": [
+      "あき",
+      "はる",
+      "なつ",
+      "ふゆ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1140,
+    "cat": "context_vocab",
+    "sentence": "雨が（　　）ふります。",
+    "options": [
+      "たくさん",
+      "おおきい",
+      "ちいさい",
+      "はやい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1141,
+    "cat": "context_vocab",
+    "sentence": "（　　）にかさを持っていきます。",
+    "options": [
+      "あめ",
+      "ゆき",
+      "かぜ",
+      "くも"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1142,
+    "cat": "context_vocab",
+    "sentence": "（　　）が吹いています。",
+    "options": [
+      "かぜ",
+      "あめ",
+      "ゆき",
+      "くも"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1143,
+    "cat": "context_vocab",
+    "sentence": "（　　）がふっています。",
+    "options": [
+      "ゆき",
+      "かぜ",
+      "くも",
+      "はれ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1144,
+    "cat": "context_vocab",
+    "sentence": "今日は（　　）です。",
+    "options": [
+      "はれ",
+      "ゆき",
+      "かぜ",
+      "あめ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1145,
+    "cat": "context_vocab",
+    "sentence": "（　　）で寝ます。",
+    "options": [
+      "ベッド",
+      "つくえ",
+      "いす",
+      "ドア"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1146,
+    "cat": "context_vocab",
+    "sentence": "（　　）でごはんを食べます。",
+    "options": [
+      "テーブル",
+      "ベッド",
+      "ドア",
+      "まど"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1147,
+    "cat": "context_vocab",
+    "sentence": "（　　）に座ります。",
+    "options": [
+      "いす",
+      "つくえ",
+      "ベッド",
+      "ドア"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1148,
+    "cat": "context_vocab",
+    "sentence": "（　　）で勉強します。",
+    "options": [
+      "つくえ",
+      "いす",
+      "ベッド",
+      "まど"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1149,
+    "cat": "context_vocab",
+    "sentence": "（　　）を開けます。",
+    "options": [
+      "まど",
+      "つくえ",
+      "いす",
+      "ベッド"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1150,
+    "cat": "context_vocab",
+    "sentence": "（　　）で手を洗います。",
+    "options": [
+      "せんめんじょ",
+      "だいどころ",
+      "げんかん",
+      "にわ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1151,
+    "cat": "context_vocab",
+    "sentence": "私（　　）田中です。",
+    "options": [
+      "は",
+      "が",
+      "を",
+      "に"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1152,
+    "cat": "context_vocab",
+    "sentence": "本（　　）読みます。",
+    "options": [
+      "を",
+      "は",
+      "が",
+      "に"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1153,
+    "cat": "context_vocab",
+    "sentence": "学校（　　）行きます。",
+    "options": [
+      "へ",
+      "を",
+      "で",
+      "が"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1154,
+    "cat": "context_vocab",
+    "sentence": "公園（　　）遊びます。",
+    "options": [
+      "で",
+      "を",
+      "は",
+      "が"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1155,
+    "cat": "context_vocab",
+    "sentence": "友達（　　）会います。",
+    "options": [
+      "に",
+      "を",
+      "で",
+      "が"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1156,
+    "cat": "context_vocab",
+    "sentence": "朝7時（　　）起きます。",
+    "options": [
+      "に",
+      "で",
+      "を",
+      "は"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1157,
+    "cat": "context_vocab",
+    "sentence": "電車（　　）行きます。",
+    "options": [
+      "で",
+      "に",
+      "を",
+      "が"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1158,
+    "cat": "context_vocab",
+    "sentence": "田中さん（　　）話します。",
+    "options": [
+      "と",
+      "を",
+      "が",
+      "で"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1159,
+    "cat": "context_vocab",
+    "sentence": "英語（　　）日本語を話します。",
+    "options": [
+      "と",
+      "を",
+      "に",
+      "で"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1160,
+    "cat": "context_vocab",
+    "sentence": "机の上（　　）本があります。",
+    "options": [
+      "に",
+      "で",
+      "を",
+      "が"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1161,
+    "cat": "context_vocab",
+    "sentence": "ここ（　　）何がありますか。",
+    "options": [
+      "に",
+      "で",
+      "を",
+      "が"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1162,
+    "cat": "context_vocab",
+    "sentence": "コーヒー（　　）ください。",
+    "options": [
+      "を",
+      "に",
+      "で",
+      "が"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1163,
+    "cat": "context_vocab",
+    "sentence": "これ（　　）私の本です。",
+    "options": [
+      "は",
+      "が",
+      "を",
+      "に"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1164,
+    "cat": "context_vocab",
+    "sentence": "どれ（　　）あなたの本ですか。",
+    "options": [
+      "が",
+      "は",
+      "を",
+      "に"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1165,
+    "cat": "context_vocab",
+    "sentence": "昨日は雨（　　）降りました。",
+    "options": [
+      "が",
+      "を",
+      "に",
+      "で"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1166,
+    "cat": "context_vocab",
+    "sentence": "このペン（　　）高いです。",
+    "options": [
+      "は",
+      "が",
+      "を",
+      "に"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1167,
+    "cat": "context_vocab",
+    "sentence": "日本語（　　）難しいですか。",
+    "options": [
+      "は",
+      "が",
+      "を",
+      "に"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1168,
+    "cat": "context_vocab",
+    "sentence": "わたし（　　）日本人です。",
+    "options": [
+      "は",
+      "が",
+      "を",
+      "に"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1169,
+    "cat": "context_vocab",
+    "sentence": "バナナ（　　）好きです。",
+    "options": [
+      "が",
+      "を",
+      "に",
+      "で"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1170,
+    "cat": "context_vocab",
+    "sentence": "兄（　　）二人います。",
+    "options": [
+      "が",
+      "を",
+      "に",
+      "で"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1171,
+    "cat": "context_vocab",
+    "sentence": "部屋（　　）だれもいません。",
+    "options": [
+      "に",
+      "で",
+      "を",
+      "が"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1172,
+    "cat": "context_vocab",
+    "sentence": "何（　　）食べますか。",
+    "options": [
+      "を",
+      "が",
+      "に",
+      "で"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1173,
+    "cat": "context_vocab",
+    "sentence": "どこ（　　）行きますか。",
+    "options": [
+      "へ",
+      "で",
+      "を",
+      "は"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1174,
+    "cat": "context_vocab",
+    "sentence": "なん（　　）来ましたか。",
+    "options": [
+      "で",
+      "に",
+      "を",
+      "が"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1175,
+    "cat": "context_vocab",
+    "sentence": "だれ（　　）会いましたか。",
+    "options": [
+      "に",
+      "を",
+      "で",
+      "が"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1176,
+    "cat": "context_vocab",
+    "sentence": "いつ（　　）日本へ来ましたか。",
+    "options": [
+      "",
+      "に",
+      "で",
+      "を"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1177,
+    "cat": "context_vocab",
+    "sentence": "きょう（　　）何曜日ですか。",
+    "options": [
+      "は",
+      "が",
+      "を",
+      "に"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1178,
+    "cat": "context_vocab",
+    "sentence": "駅（　　）ここから近いです。",
+    "options": [
+      "は",
+      "が",
+      "を",
+      "に"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1179,
+    "cat": "context_vocab",
+    "sentence": "今日（　　）勉強します。",
+    "options": [
+      "も",
+      "を",
+      "に",
+      "で"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1180,
+    "cat": "context_vocab",
+    "sentence": "私（　　）行きます。",
+    "options": [
+      "も",
+      "を",
+      "に",
+      "で"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1181,
+    "cat": "context_vocab",
+    "sentence": "りんご（　　）みかんを買いました。",
+    "options": [
+      "と",
+      "も",
+      "に",
+      "で"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1182,
+    "cat": "context_vocab",
+    "sentence": "パン（　　）牛乳を食べます。",
+    "options": [
+      "と",
+      "も",
+      "に",
+      "で"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1183,
+    "cat": "context_vocab",
+    "sentence": "午後3時（　　）5時まで勉強します。",
+    "options": [
+      "から",
+      "まで",
+      "で",
+      "に"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1184,
+    "cat": "context_vocab",
+    "sentence": "月曜日（　　）金曜日まで働きます。",
+    "options": [
+      "から",
+      "まで",
+      "で",
+      "に"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1185,
+    "cat": "context_vocab",
+    "sentence": "9時（　　）授業が始まります。",
+    "options": [
+      "から",
+      "まで",
+      "で",
+      "を"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1186,
+    "cat": "context_vocab",
+    "sentence": "東京（　　）大阪まで新幹線で行きます。",
+    "options": [
+      "から",
+      "まで",
+      "で",
+      "に"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1187,
+    "cat": "context_vocab",
+    "sentence": "これはだれ（　　）本ですか。",
+    "options": [
+      "の",
+      "が",
+      "を",
+      "に"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1188,
+    "cat": "context_vocab",
+    "sentence": "私（　　）本です。",
+    "options": [
+      "の",
+      "が",
+      "を",
+      "に"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1189,
+    "cat": "context_vocab",
+    "sentence": "日本語（　　）本を買いました。",
+    "options": [
+      "の",
+      "が",
+      "を",
+      "に"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1190,
+    "cat": "context_vocab",
+    "sentence": "学校（　　）近くに家があります。",
+    "options": [
+      "の",
+      "が",
+      "を",
+      "に"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1191,
+    "cat": "context_vocab",
+    "sentence": "大きい（　　）小さいですか。",
+    "options": [
+      "ですか",
+      "ですが",
+      "です",
+      "でした"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1192,
+    "cat": "context_vocab",
+    "sentence": "コーヒー（　　）紅茶を飲みますか。",
+    "options": [
+      "か",
+      "と",
+      "も",
+      "に"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1193,
+    "cat": "context_vocab",
+    "sentence": "田中さん（　　）学生ではありません。",
+    "options": [
+      "は",
+      "が",
+      "を",
+      "に"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1194,
+    "cat": "context_vocab",
+    "sentence": "私は行きません（　　）、彼は行きます。",
+    "options": [
+      "が",
+      "を",
+      "に",
+      "で"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1195,
+    "cat": "context_vocab",
+    "sentence": "寒いです（　　）、元気です。",
+    "options": [
+      "が",
+      "を",
+      "に",
+      "で"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1196,
+    "cat": "context_vocab",
+    "sentence": "安くて（　　）おいしいです。",
+    "options": [
+      "",
+      "が",
+      "を",
+      "に"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1197,
+    "cat": "context_vocab",
+    "sentence": "日本語が好きです（　　）勉強します。",
+    "options": [
+      "から",
+      "まで",
+      "で",
+      "に"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1198,
+    "cat": "context_vocab",
+    "sentence": "雨（　　）降ったので行きません。",
+    "options": [
+      "が",
+      "を",
+      "に",
+      "で"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1199,
+    "cat": "context_vocab",
+    "sentence": "ちょっと（　　）待ってください。",
+    "options": [
+      "",
+      "に",
+      "で",
+      "を"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1200,
+    "cat": "context_vocab",
+    "sentence": "すみません（　　）、トイレはどこですか。",
+    "options": [
+      "が",
+      "を",
+      "に",
+      "で"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1201,
+    "cat": "paraphrase",
+    "sentence": "この建物は大きいです。",
+    "target": "大きい",
+    "options": [
+      "巨大",
+      "小型",
+      "高い",
+      "重い"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1202,
+    "cat": "paraphrase",
+    "sentence": "あの山は大きいです。",
+    "target": "大きい",
+    "options": [
+      "でかい",
+      "小さい",
+      "低い",
+      "細い"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1203,
+    "cat": "paraphrase",
+    "sentence": "この犬は小さいです。",
+    "target": "小さい",
+    "options": [
+      "小型",
+      "巨大",
+      "大きい",
+      "高い"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1204,
+    "cat": "paraphrase",
+    "sentence": "かばんが小さいです。",
+    "target": "小さい",
+    "options": [
+      "ちいさな",
+      "大きい",
+      "長い",
+      "広い"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1205,
+    "cat": "paraphrase",
+    "sentence": "学生が多いです。",
+    "target": "多い",
+    "options": [
+      "たくさん",
+      "少し",
+      "わずか",
+      "ゼロ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1206,
+    "cat": "paraphrase",
+    "sentence": "人が多いです。",
+    "target": "多い",
+    "options": [
+      "たくさん",
+      "少ない",
+      "ない",
+      "わずか"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1207,
+    "cat": "paraphrase",
+    "sentence": "お金が少ないです。",
+    "target": "少ない",
+    "options": [
+      "少し",
+      "たくさん",
+      "多い",
+      "いっぱい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1208,
+    "cat": "paraphrase",
+    "sentence": "食べ物が少ないです。",
+    "target": "少ない",
+    "options": [
+      "わずか",
+      "多い",
+      "たくさん",
+      "いっぱい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1209,
+    "cat": "paraphrase",
+    "sentence": "新しい本を買いました。",
+    "target": "新しい",
+    "options": [
+      "最近の",
+      "古い",
+      "昔の",
+      "もとの"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1210,
+    "cat": "paraphrase",
+    "sentence": "新しい車です。",
+    "target": "新しい",
+    "options": [
+      "最近の",
+      "古い",
+      "昔の",
+      "壊れた"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1211,
+    "cat": "paraphrase",
+    "sentence": "古い建物です。",
+    "target": "古い",
+    "options": [
+      "昔の",
+      "新しい",
+      "最近の",
+      "きれいな"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1212,
+    "cat": "paraphrase",
+    "sentence": "古い写真を見ました。",
+    "target": "古い",
+    "options": [
+      "昔の",
+      "今の",
+      "新しい",
+      "最近の"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1213,
+    "cat": "paraphrase",
+    "sentence": "良い天気です。",
+    "target": "良い",
+    "options": [
+      "いい",
+      "わるい",
+      "だめな",
+      "ひどい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1214,
+    "cat": "paraphrase",
+    "sentence": "良い人です。",
+    "target": "良い",
+    "options": [
+      "いい",
+      "だめな",
+      "わるい",
+      "ひどい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1215,
+    "cat": "paraphrase",
+    "sentence": "悪い人です。",
+    "target": "悪い",
+    "options": [
+      "だめ",
+      "いい",
+      "よい",
+      "すばらしい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1216,
+    "cat": "paraphrase",
+    "sentence": "今日は悪い天気です。",
+    "target": "悪い",
+    "options": [
+      "だめな",
+      "いい",
+      "よい",
+      "きれいな"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1217,
+    "cat": "paraphrase",
+    "sentence": "今日は暑いです。",
+    "target": "暑い",
+    "options": [
+      "熱い",
+      "寒い",
+      "涼しい",
+      "冷たい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1218,
+    "cat": "paraphrase",
+    "sentence": "夏は暑いです。",
+    "target": "暑い",
+    "options": [
+      "熱い",
+      "寒い",
+      "涼しい",
+      "冷たい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1219,
+    "cat": "paraphrase",
+    "sentence": "今日は寒いです。",
+    "target": "寒い",
+    "options": [
+      "涼しい",
+      "暑い",
+      "熱い",
+      "あたたかい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1220,
+    "cat": "paraphrase",
+    "sentence": "冬は寒いです。",
+    "target": "寒い",
+    "options": [
+      "涼しい",
+      "暑い",
+      "あたたかい",
+      "熱い"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1221,
+    "cat": "paraphrase",
+    "sentence": "この時計は高いです。",
+    "target": "高い",
+    "options": [
+      "値段が高い",
+      "値段が安い",
+      "安い",
+      "大きい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1222,
+    "cat": "paraphrase",
+    "sentence": "このバッグは高いです。",
+    "target": "高い",
+    "options": [
+      "値段が高い",
+      "値段が安い",
+      "安い",
+      "小さい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1223,
+    "cat": "paraphrase",
+    "sentence": "このシャツは安いです。",
+    "target": "安い",
+    "options": [
+      "値段が安い",
+      "値段が高い",
+      "高い",
+      "よい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1224,
+    "cat": "paraphrase",
+    "sentence": "安いレストランです。",
+    "target": "安い",
+    "options": [
+      "値段が安い",
+      "高い",
+      "値段が高い",
+      "きれい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1225,
+    "cat": "paraphrase",
+    "sentence": "長い道です。",
+    "target": "長い",
+    "options": [
+      "ロング",
+      "ショート",
+      "短い",
+      "広い"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1226,
+    "cat": "paraphrase",
+    "sentence": "長い髪です。",
+    "target": "長い",
+    "options": [
+      "ロング",
+      "短い",
+      "ショート",
+      "細い"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1227,
+    "cat": "paraphrase",
+    "sentence": "短いスカートです。",
+    "target": "短い",
+    "options": [
+      "ショート",
+      "ロング",
+      "長い",
+      "広い"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1228,
+    "cat": "paraphrase",
+    "sentence": "時間が短いです。",
+    "target": "短い",
+    "options": [
+      "ショート",
+      "長い",
+      "ロング",
+      "多い"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1229,
+    "cat": "paraphrase",
+    "sentence": "早い電車です。",
+    "target": "早い",
+    "options": [
+      "速い",
+      "遅い",
+      "のろい",
+      "ゆっくりした"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1230,
+    "cat": "paraphrase",
+    "sentence": "足が早いです。",
+    "target": "早い",
+    "options": [
+      "速い",
+      "遅い",
+      "のろい",
+      "おそい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1231,
+    "cat": "paraphrase",
+    "sentence": "遅いバスです。",
+    "target": "遅い",
+    "options": [
+      "のろい",
+      "速い",
+      "早い",
+      "はやい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1232,
+    "cat": "paraphrase",
+    "sentence": "動きが遅いです。",
+    "target": "遅い",
+    "options": [
+      "のろい",
+      "速い",
+      "早い",
+      "急な"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1233,
+    "cat": "paraphrase",
+    "sentence": "駅は近いです。",
+    "target": "近い",
+    "options": [
+      "ちかく",
+      "遠い",
+      "とおく",
+      "離れた"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1234,
+    "cat": "paraphrase",
+    "sentence": "学校は近いです。",
+    "target": "近い",
+    "options": [
+      "ちかく",
+      "遠い",
+      "とおい",
+      "はなれて"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1235,
+    "cat": "paraphrase",
+    "sentence": "家は遠いです。",
+    "target": "遠い",
+    "options": [
+      "とおく",
+      "近い",
+      "ちかく",
+      "すぐ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1236,
+    "cat": "paraphrase",
+    "sentence": "空港は遠いです。",
+    "target": "遠い",
+    "options": [
+      "とおく",
+      "近い",
+      "ちかい",
+      "すぐそば"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1237,
+    "cat": "paraphrase",
+    "sentence": "毎日忙しいです。",
+    "target": "忙しい",
+    "options": [
+      "暇でない",
+      "暇",
+      "ひま",
+      "のんびり"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1238,
+    "cat": "paraphrase",
+    "sentence": "仕事で忙しいです。",
+    "target": "忙しい",
+    "options": [
+      "暇でない",
+      "ひま",
+      "のんびり",
+      "楽"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1239,
+    "cat": "paraphrase",
+    "sentence": "今日は暇です。",
+    "target": "暇",
+    "options": [
+      "時間ある",
+      "忙しい",
+      "いそがしい",
+      "働く"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1240,
+    "cat": "paraphrase",
+    "sentence": "日曜日は暇です。",
+    "target": "暇",
+    "options": [
+      "時間ある",
+      "忙しい",
+      "働く",
+      "急がしい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1241,
+    "cat": "paraphrase",
+    "sentence": "私は元気です。",
+    "target": "元気",
+    "options": [
+      "健康",
+      "病気",
+      "具合悪い",
+      "弱い"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1242,
+    "cat": "paraphrase",
+    "sentence": "祖父は元気です。",
+    "target": "元気",
+    "options": [
+      "健康",
+      "病気",
+      "弱い",
+      "悪い"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1243,
+    "cat": "paraphrase",
+    "sentence": "弟は病気です。",
+    "target": "病気",
+    "options": [
+      "具合悪い",
+      "元気",
+      "健康",
+      "げんき"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1244,
+    "cat": "paraphrase",
+    "sentence": "母は病気です。",
+    "target": "病気",
+    "options": [
+      "具合悪い",
+      "健康",
+      "元気",
+      "丈夫"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1245,
+    "cat": "paraphrase",
+    "sentence": "猫が好きです。",
+    "target": "好き",
+    "options": [
+      "愛する",
+      "好きでない",
+      "嫌い",
+      "きらい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1246,
+    "cat": "paraphrase",
+    "sentence": "音楽が好きです。",
+    "target": "好き",
+    "options": [
+      "愛する",
+      "嫌い",
+      "好きでない",
+      "きらい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1247,
+    "cat": "paraphrase",
+    "sentence": "虫が嫌いです。",
+    "target": "嫌い",
+    "options": [
+      "好きでない",
+      "好き",
+      "愛する",
+      "すき"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1248,
+    "cat": "paraphrase",
+    "sentence": "納豆が嫌いです。",
+    "target": "嫌い",
+    "options": [
+      "好きでない",
+      "好き",
+      "愛する",
+      "大好き"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1249,
+    "cat": "paraphrase",
+    "sentence": "料理が上手です。",
+    "target": "上手",
+    "options": [
+      "うまい",
+      "へた",
+      "下手",
+      "だめ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1250,
+    "cat": "paraphrase",
+    "sentence": "日本語が上手です。",
+    "target": "上手",
+    "options": [
+      "うまい",
+      "下手",
+      "へた",
+      "わるい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1251,
+    "cat": "paraphrase",
+    "sentence": "歌が下手です。",
+    "target": "下手",
+    "options": [
+      "へた",
+      "うまい",
+      "上手",
+      "じょうず"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1252,
+    "cat": "paraphrase",
+    "sentence": "絵が下手です。",
+    "target": "下手",
+    "options": [
+      "へた",
+      "上手",
+      "うまい",
+      "じょうず"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1253,
+    "cat": "paraphrase",
+    "sentence": "有名な人です。",
+    "target": "有名",
+    "options": [
+      "知られている",
+      "無名",
+      "知られていない",
+      "だれも知らない"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1254,
+    "cat": "paraphrase",
+    "sentence": "有名な店です。",
+    "target": "有名",
+    "options": [
+      "知られている",
+      "無名",
+      "しらない",
+      "無い"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1255,
+    "cat": "paraphrase",
+    "sentence": "親切な人です。",
+    "target": "親切",
+    "options": [
+      "やさしい",
+      "冷たい",
+      "きびしい",
+      "わるい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1256,
+    "cat": "paraphrase",
+    "sentence": "先生は親切です。",
+    "target": "親切",
+    "options": [
+      "やさしい",
+      "きびしい",
+      "つめたい",
+      "こわい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1257,
+    "cat": "paraphrase",
+    "sentence": "きれいな花です。",
+    "target": "きれい",
+    "options": [
+      "美しい",
+      "汚い",
+      "きたない",
+      "ひどい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1258,
+    "cat": "paraphrase",
+    "sentence": "きれいな部屋です。",
+    "target": "きれい",
+    "options": [
+      "美しい",
+      "きたない",
+      "汚い",
+      "狭い"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1259,
+    "cat": "paraphrase",
+    "sentence": "汚い手です。",
+    "target": "汚い",
+    "options": [
+      "きたない",
+      "きれい",
+      "美しい",
+      "新しい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1260,
+    "cat": "paraphrase",
+    "sentence": "汚い部屋です。",
+    "target": "汚い",
+    "options": [
+      "きたない",
+      "きれい",
+      "美しい",
+      "広い"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1261,
+    "cat": "paraphrase",
+    "sentence": "静かな町です。",
+    "target": "静か",
+    "options": [
+      "しずか",
+      "にぎやか",
+      "うるさい",
+      "にぎわう"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1262,
+    "cat": "paraphrase",
+    "sentence": "静かな夜です。",
+    "target": "静か",
+    "options": [
+      "しずか",
+      "うるさい",
+      "にぎやか",
+      "騒がしい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1263,
+    "cat": "paraphrase",
+    "sentence": "賑やかな町です。",
+    "target": "賑やか",
+    "options": [
+      "にぎやか",
+      "静か",
+      "しずか",
+      "さびしい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1264,
+    "cat": "paraphrase",
+    "sentence": "賑やかな祭りです。",
+    "target": "賑やか",
+    "options": [
+      "にぎやか",
+      "しずか",
+      "静か",
+      "さびしい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1265,
+    "cat": "paraphrase",
+    "sentence": "いつも同じです。",
+    "target": "いつも",
+    "options": [
+      "毎回",
+      "たまに",
+      "時々",
+      "ときどき"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1266,
+    "cat": "paraphrase",
+    "sentence": "彼はいつも遅刻します。",
+    "target": "いつも",
+    "options": [
+      "毎回",
+      "たまに",
+      "ときどき",
+      "少し"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1267,
+    "cat": "paraphrase",
+    "sentence": "時々映画を見ます。",
+    "target": "時々",
+    "options": [
+      "たまに",
+      "いつも",
+      "毎回",
+      "まいかい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1268,
+    "cat": "paraphrase",
+    "sentence": "時々日本へ行きます。",
+    "target": "時々",
+    "options": [
+      "たまに",
+      "いつも",
+      "まいにち",
+      "毎日"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1269,
+    "cat": "paraphrase",
+    "sentence": "よく食べます。",
+    "target": "よく",
+    "options": [
+      "しばしば",
+      "あまり",
+      "すこし",
+      "たまに"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1270,
+    "cat": "paraphrase",
+    "sentence": "よく映画を見ます。",
+    "target": "よく",
+    "options": [
+      "しばしば",
+      "たまに",
+      "あまり",
+      "ぜんぜん"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1271,
+    "cat": "paraphrase",
+    "sentence": "すぐ来ます。",
+    "target": "すぐ",
+    "options": [
+      "急に",
+      "ゆっくり",
+      "のんびり",
+      "おそく"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1272,
+    "cat": "paraphrase",
+    "sentence": "すぐ帰ります。",
+    "target": "すぐ",
+    "options": [
+      "急に",
+      "ゆっくり",
+      "あとで",
+      "のちに"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1273,
+    "cat": "paraphrase",
+    "sentence": "もう食べました。",
+    "target": "もう",
+    "options": [
+      "すでに",
+      "まだ",
+      "これから",
+      "いま"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1274,
+    "cat": "paraphrase",
+    "sentence": "もう終わりました。",
+    "target": "もう",
+    "options": [
+      "すでに",
+      "まだ",
+      "これから",
+      "のち"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1275,
+    "cat": "paraphrase",
+    "sentence": "まだ来ていません。",
+    "target": "まだ",
+    "options": [
+      "今まで～ない",
+      "すでに",
+      "もう",
+      "さっき"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1276,
+    "cat": "paraphrase",
+    "sentence": "まだ食べていません。",
+    "target": "まだ",
+    "options": [
+      "今まで～ない",
+      "もう",
+      "すでに",
+      "さっき"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1277,
+    "cat": "paraphrase",
+    "sentence": "ちょっと待ってください。",
+    "target": "ちょっと",
+    "options": [
+      "少し",
+      "たくさん",
+      "いっぱい",
+      "ぜんぶ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1278,
+    "cat": "paraphrase",
+    "sentence": "ちょっと疲れました。",
+    "target": "ちょっと",
+    "options": [
+      "少し",
+      "とても",
+      "たくさん",
+      "いっぱい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1279,
+    "cat": "paraphrase",
+    "sentence": "とても寒いです。",
+    "target": "とても",
+    "options": [
+      "非常に",
+      "すこし",
+      "あまり",
+      "ぜんぜん"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1280,
+    "cat": "paraphrase",
+    "sentence": "とても楽しいです。",
+    "target": "とても",
+    "options": [
+      "すごく",
+      "ちょっと",
+      "あまり",
+      "ぜんぜん"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1281,
+    "cat": "paraphrase",
+    "sentence": "あまり好きではありません。",
+    "target": "あまり",
+    "options": [
+      "そんなに",
+      "とても",
+      "すごく",
+      "ひじょうに"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1282,
+    "cat": "paraphrase",
+    "sentence": "あまり食べません。",
+    "target": "あまり",
+    "options": [
+      "そんなに",
+      "たくさん",
+      "いっぱい",
+      "多く"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1283,
+    "cat": "paraphrase",
+    "sentence": "本がたくさんあります。",
+    "target": "たくさん",
+    "options": [
+      "多く",
+      "少し",
+      "すこし",
+      "わずか"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1284,
+    "cat": "paraphrase",
+    "sentence": "人がたくさんいます。",
+    "target": "たくさん",
+    "options": [
+      "多く",
+      "少ない",
+      "少し",
+      "わずか"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1285,
+    "cat": "paraphrase",
+    "sentence": "もちろん行きます。",
+    "target": "もちろん",
+    "options": [
+      "当然",
+      "たぶん",
+      "もしかしたら",
+      "きっと"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1287,
+    "cat": "paraphrase",
+    "sentence": "たぶん来ます。",
+    "target": "たぶん",
+    "options": [
+      "おそらく",
+      "絶対",
+      "必ず",
+      "きっと"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1288,
+    "cat": "paraphrase",
+    "sentence": "たぶん雨です。",
+    "target": "たぶん",
+    "options": [
+      "おそらく",
+      "きっと",
+      "絶対",
+      "必ず"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1289,
+    "cat": "paraphrase",
+    "sentence": "きっと合格します。",
+    "target": "きっと",
+    "options": [
+      "必ず",
+      "たぶん",
+      "もしかしたら",
+      "おそらく"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1290,
+    "cat": "paraphrase",
+    "sentence": "きっと来ます。",
+    "target": "きっと",
+    "options": [
+      "必ず",
+      "たぶん",
+      "もしかしたら",
+      "おそらく"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1291,
+    "cat": "paraphrase",
+    "sentence": "朝ごはんを食べます。",
+    "target": "食べる",
+    "options": [
+      "食事する",
+      "飲む",
+      "料理する",
+      "つくる"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1292,
+    "cat": "paraphrase",
+    "sentence": "晩ごはんを食べました。",
+    "target": "食べる",
+    "options": [
+      "食事する",
+      "飲む",
+      "のむ",
+      "つくる"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1293,
+    "cat": "paraphrase",
+    "sentence": "水を飲みます。",
+    "target": "飲む",
+    "options": [
+      "口にする",
+      "食べる",
+      "たべる",
+      "料理する"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1294,
+    "cat": "paraphrase",
+    "sentence": "ビールを飲みました。",
+    "target": "飲む",
+    "options": [
+      "口にする",
+      "食べる",
+      "作る",
+      "料理する"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1295,
+    "cat": "paraphrase",
+    "sentence": "星を見ます。",
+    "target": "見る",
+    "options": [
+      "観察する",
+      "聞く",
+      "話す",
+      "読む"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1296,
+    "cat": "paraphrase",
+    "sentence": "映画を見ました。",
+    "target": "見る",
+    "options": [
+      "観察する",
+      "きく",
+      "読む",
+      "話す"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1297,
+    "cat": "paraphrase",
+    "sentence": "音を聞きます。",
+    "target": "聞く",
+    "options": [
+      "耳にする",
+      "見る",
+      "話す",
+      "読む"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1298,
+    "cat": "paraphrase",
+    "sentence": "ニュースを聞きました。",
+    "target": "聞く",
+    "options": [
+      "耳にする",
+      "見る",
+      "みる",
+      "話す"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1299,
+    "cat": "paraphrase",
+    "sentence": "先生と話します。",
+    "target": "話す",
+    "options": [
+      "しゃべる",
+      "黙る",
+      "読む",
+      "書く"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1300,
+    "cat": "paraphrase",
+    "sentence": "友達と話しました。",
+    "target": "話す",
+    "options": [
+      "しゃべる",
+      "書く",
+      "だまる",
+      "聞く"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1301,
+    "cat": "paraphrase",
+    "sentence": "先生に言います。",
+    "target": "言う",
+    "options": [
+      "伝える",
+      "聞く",
+      "だまる",
+      "読む"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1302,
+    "cat": "paraphrase",
+    "sentence": "名前を言いました。",
+    "target": "言う",
+    "options": [
+      "伝える",
+      "聞く",
+      "見る",
+      "読む"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1303,
+    "cat": "paraphrase",
+    "sentence": "パンを買います。",
+    "target": "買う",
+    "options": [
+      "購入する",
+      "売る",
+      "作る",
+      "使う"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1304,
+    "cat": "paraphrase",
+    "sentence": "服を買いました。",
+    "target": "買う",
+    "options": [
+      "購入する",
+      "売る",
+      "作る",
+      "食べる"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1305,
+    "cat": "paraphrase",
+    "sentence": "車を売ります。",
+    "target": "売る",
+    "options": [
+      "販売する",
+      "買う",
+      "作る",
+      "こわす"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1306,
+    "cat": "paraphrase",
+    "sentence": "野菜を売っています。",
+    "target": "売る",
+    "options": [
+      "販売する",
+      "買う",
+      "作る",
+      "使う"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1307,
+    "cat": "paraphrase",
+    "sentence": "学校へ行きます。",
+    "target": "行く",
+    "options": [
+      "向かう",
+      "来る",
+      "帰る",
+      "もどる"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1308,
+    "cat": "paraphrase",
+    "sentence": "東京へ行きました。",
+    "target": "行く",
+    "options": [
+      "向かう",
+      "来る",
+      "かえる",
+      "戻る"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1309,
+    "cat": "paraphrase",
+    "sentence": "友達が来ます。",
+    "target": "来る",
+    "options": [
+      "到着する",
+      "行く",
+      "帰る",
+      "出発する"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1310,
+    "cat": "paraphrase",
+    "sentence": "電車が来ました。",
+    "target": "来る",
+    "options": [
+      "到着する",
+      "行く",
+      "出る",
+      "出発する"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1311,
+    "cat": "paraphrase",
+    "sentence": "家に帰ります。",
+    "target": "帰る",
+    "options": [
+      "戻る",
+      "行く",
+      "出る",
+      "来る"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1312,
+    "cat": "paraphrase",
+    "sentence": "国へ帰りました。",
+    "target": "帰る",
+    "options": [
+      "戻る",
+      "行く",
+      "出発する",
+      "くる"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1313,
+    "cat": "paraphrase",
+    "sentence": "仕事を始めます。",
+    "target": "始める",
+    "options": [
+      "スタートする",
+      "終わる",
+      "終了する",
+      "とめる"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1314,
+    "cat": "paraphrase",
+    "sentence": "授業を始めました。",
+    "target": "始める",
+    "options": [
+      "スタートする",
+      "終わる",
+      "おわる",
+      "終了する"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1315,
+    "cat": "paraphrase",
+    "sentence": "試験が終わります。",
+    "target": "終わる",
+    "options": [
+      "終了する",
+      "始まる",
+      "始める",
+      "スタートする"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1316,
+    "cat": "paraphrase",
+    "sentence": "映画が終わりました。",
+    "target": "終わる",
+    "options": [
+      "終了する",
+      "はじまる",
+      "始める",
+      "スタート"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1317,
+    "cat": "paraphrase",
+    "sentence": "授業が始まります。",
+    "target": "始まる",
+    "options": [
+      "開始する",
+      "終わる",
+      "終了する",
+      "止まる"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1318,
+    "cat": "paraphrase",
+    "sentence": "会議が始まりました。",
+    "target": "始まる",
+    "options": [
+      "開始する",
+      "おわる",
+      "止まる",
+      "終了する"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1319,
+    "cat": "paraphrase",
+    "sentence": "料理を作ります。",
+    "target": "作る",
+    "options": [
+      "製造する",
+      "食べる",
+      "飲む",
+      "使う"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1320,
+    "cat": "paraphrase",
+    "sentence": "ケーキを作りました。",
+    "target": "作る",
+    "options": [
+      "製造する",
+      "食べる",
+      "飲む",
+      "売る"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1321,
+    "cat": "paraphrase",
+    "sentence": "辞書を使います。",
+    "target": "使う",
+    "options": [
+      "利用する",
+      "作る",
+      "買う",
+      "売る"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1322,
+    "cat": "paraphrase",
+    "sentence": "パソコンを使います。",
+    "target": "使う",
+    "options": [
+      "利用する",
+      "作る",
+      "壊す",
+      "売る"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1323,
+    "cat": "paraphrase",
+    "sentence": "本を持っています。",
+    "target": "持つ",
+    "options": [
+      "手に入れる",
+      "捨てる",
+      "売る",
+      "忘れる"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1324,
+    "cat": "paraphrase",
+    "sentence": "かばんを持ちます。",
+    "target": "持つ",
+    "options": [
+      "手に入れる",
+      "すてる",
+      "忘れる",
+      "落とす"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1325,
+    "cat": "paraphrase",
+    "sentence": "友達に会います。",
+    "target": "会う",
+    "options": [
+      "面会する",
+      "別れる",
+      "さける",
+      "逃げる"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1326,
+    "cat": "paraphrase",
+    "sentence": "先生に会いました。",
+    "target": "会う",
+    "options": [
+      "面会する",
+      "別れる",
+      "逃げる",
+      "避ける"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1327,
+    "cat": "paraphrase",
+    "sentence": "バスを待ちます。",
+    "target": "待つ",
+    "options": [
+      "待機する",
+      "出発する",
+      "行く",
+      "急ぐ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1328,
+    "cat": "paraphrase",
+    "sentence": "友達を待ちました。",
+    "target": "待つ",
+    "options": [
+      "待機する",
+      "行く",
+      "出発する",
+      "はしる"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1329,
+    "cat": "paraphrase",
+    "sentence": "少し休みます。",
+    "target": "休む",
+    "options": [
+      "休憩する",
+      "働く",
+      "動く",
+      "走る"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1330,
+    "cat": "paraphrase",
+    "sentence": "週末は休みます。",
+    "target": "休む",
+    "options": [
+      "休憩する",
+      "働く",
+      "学校へ行く",
+      "はたらく"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1331,
+    "cat": "paraphrase",
+    "sentence": "日本語の勉強をします。",
+    "target": "勉強",
+    "options": [
+      "学習",
+      "遊び",
+      "仕事",
+      "休み"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1332,
+    "cat": "paraphrase",
+    "sentence": "毎日勉強します。",
+    "target": "勉強",
+    "options": [
+      "学習",
+      "あそび",
+      "仕事",
+      "ゲーム"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1333,
+    "cat": "paraphrase",
+    "sentence": "学校へ行きます。",
+    "target": "学校",
+    "options": [
+      "スクール",
+      "会社",
+      "家",
+      "店"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1334,
+    "cat": "paraphrase",
+    "sentence": "新しい学校です。",
+    "target": "学校",
+    "options": [
+      "スクール",
+      "会社",
+      "病院",
+      "店"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1335,
+    "cat": "paraphrase",
+    "sentence": "先生に聞きます。",
+    "target": "先生",
+    "options": [
+      "教師",
+      "生徒",
+      "学生",
+      "医者"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1336,
+    "cat": "paraphrase",
+    "sentence": "日本語の先生です。",
+    "target": "先生",
+    "options": [
+      "教師",
+      "学生",
+      "生徒",
+      "社員"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1337,
+    "cat": "paraphrase",
+    "sentence": "私は学生です。",
+    "target": "学生",
+    "options": [
+      "生徒",
+      "先生",
+      "教師",
+      "社員"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1338,
+    "cat": "paraphrase",
+    "sentence": "学生が多いです。",
+    "target": "学生",
+    "options": [
+      "生徒",
+      "教師",
+      "先生",
+      "社長"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1339,
+    "cat": "paraphrase",
+    "sentence": "家族と住んでいます。",
+    "target": "家族",
+    "options": [
+      "ファミリー",
+      "友達",
+      "他人",
+      "先生"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1340,
+    "cat": "paraphrase",
+    "sentence": "大きな家族です。",
+    "target": "家族",
+    "options": [
+      "ファミリー",
+      "ともだち",
+      "他人",
+      "会社"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1341,
+    "cat": "paraphrase",
+    "sentence": "友達と遊びます。",
+    "target": "友達",
+    "options": [
+      "友人",
+      "他人",
+      "先生",
+      "家族"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1342,
+    "cat": "paraphrase",
+    "sentence": "いい友達です。",
+    "target": "友達",
+    "options": [
+      "友人",
+      "他人",
+      "敵",
+      "先生"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1343,
+    "cat": "paraphrase",
+    "sentence": "時間がありません。",
+    "target": "時間",
+    "options": [
+      "タイム",
+      "お金",
+      "仕事",
+      "勉強"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1344,
+    "cat": "paraphrase",
+    "sentence": "時間が足りません。",
+    "target": "時間",
+    "options": [
+      "タイム",
+      "お金",
+      "本",
+      "ペン"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1345,
+    "cat": "paraphrase",
+    "sentence": "お金がありません。",
+    "target": "お金",
+    "options": [
+      "マネー",
+      "時間",
+      "仕事",
+      "服"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1346,
+    "cat": "paraphrase",
+    "sentence": "お金を使います。",
+    "target": "お金",
+    "options": [
+      "マネー",
+      "時間",
+      "仕事",
+      "もの"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1347,
+    "cat": "paraphrase",
+    "sentence": "旅行が好きです。",
+    "target": "旅行",
+    "options": [
+      "トラベル",
+      "仕事",
+      "勉強",
+      "家事"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1348,
+    "cat": "paraphrase",
+    "sentence": "日本旅行をしました。",
+    "target": "旅行",
+    "options": [
+      "トラベル",
+      "買い物",
+      "仕事",
+      "食事"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1349,
+    "cat": "paraphrase",
+    "sentence": "買い物に行きます。",
+    "target": "買い物",
+    "options": [
+      "ショッピング",
+      "仕事",
+      "勉強",
+      "食事"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1351,
+    "cat": "paraphrase",
+    "sentence": "音楽を聞きます。",
+    "target": "音楽",
+    "options": [
+      "ミュージック",
+      "映画",
+      "本",
+      "ニュース"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1352,
+    "cat": "paraphrase",
+    "sentence": "音楽が好きです。",
+    "target": "音楽",
+    "options": [
+      "ミュージック",
+      "えいが",
+      "本",
+      "絵"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1353,
+    "cat": "paraphrase",
+    "sentence": "映画を見ました。",
+    "target": "映画",
+    "options": [
+      "映像",
+      "音楽",
+      "本",
+      "ドラマ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1354,
+    "cat": "paraphrase",
+    "sentence": "映画館に行きます。",
+    "target": "映画",
+    "options": [
+      "映像",
+      "本",
+      "おんがく",
+      "ラジオ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1355,
+    "cat": "paraphrase",
+    "sentence": "電話をかけます。",
+    "target": "電話",
+    "options": [
+      "通話",
+      "手紙",
+      "メール",
+      "はがき"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1356,
+    "cat": "paraphrase",
+    "sentence": "母に電話します。",
+    "target": "電話",
+    "options": [
+      "通話",
+      "てがみ",
+      "メール",
+      "ゆうびん"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1357,
+    "cat": "paraphrase",
+    "sentence": "今日は雨です。",
+    "target": "今日",
+    "options": [
+      "本日",
+      "明日",
+      "昨日",
+      "きのう"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1358,
+    "cat": "paraphrase",
+    "sentence": "今日は火曜日です。",
+    "target": "今日",
+    "options": [
+      "本日",
+      "あした",
+      "昨日",
+      "さくじつ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1359,
+    "cat": "paraphrase",
+    "sentence": "明日行きます。",
+    "target": "明日",
+    "options": [
+      "あす",
+      "昨日",
+      "今日",
+      "本日"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1360,
+    "cat": "paraphrase",
+    "sentence": "明日試験があります。",
+    "target": "明日",
+    "options": [
+      "あす",
+      "きのう",
+      "本日",
+      "昨日"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1361,
+    "cat": "paraphrase",
+    "sentence": "昨日は雨でした。",
+    "target": "昨日",
+    "options": [
+      "さくじつ",
+      "今日",
+      "明日",
+      "あす"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1362,
+    "cat": "paraphrase",
+    "sentence": "昨日友達に会いました。",
+    "target": "昨日",
+    "options": [
+      "さくじつ",
+      "あした",
+      "本日",
+      "今日"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1363,
+    "cat": "paraphrase",
+    "sentence": "朝ごはんを食べます。",
+    "target": "朝",
+    "options": [
+      "午前",
+      "午後",
+      "夜",
+      "晩"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1364,
+    "cat": "paraphrase",
+    "sentence": "毎朝散歩します。",
+    "target": "朝",
+    "options": [
+      "午前",
+      "午後",
+      "よる",
+      "ばん"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1365,
+    "cat": "paraphrase",
+    "sentence": "夜に映画を見ます。",
+    "target": "夜",
+    "options": [
+      "夜間",
+      "昼間",
+      "朝",
+      "ひる"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1366,
+    "cat": "paraphrase",
+    "sentence": "夜は静かです。",
+    "target": "夜",
+    "options": [
+      "夜間",
+      "ひる",
+      "あさ",
+      "午前"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1367,
+    "cat": "paraphrase",
+    "sentence": "日本語を学びます。",
+    "target": "学ぶ",
+    "options": [
+      "勉強する",
+      "遊ぶ",
+      "休む",
+      "忘れる"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1368,
+    "cat": "paraphrase",
+    "sentence": "歴史を学びました。",
+    "target": "学ぶ",
+    "options": [
+      "勉強する",
+      "忘れる",
+      "あそぶ",
+      "休む"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1369,
+    "cat": "paraphrase",
+    "sentence": "単語を覚えます。",
+    "target": "覚える",
+    "options": [
+      "記憶する",
+      "忘れる",
+      "捨てる",
+      "なくす"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1370,
+    "cat": "paraphrase",
+    "sentence": "漢字を覚えました。",
+    "target": "覚える",
+    "options": [
+      "記憶する",
+      "わすれる",
+      "すてる",
+      "失う"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1371,
+    "cat": "paraphrase",
+    "sentence": "名前を忘れました。",
+    "target": "忘れる",
+    "options": [
+      "忘れてしまう",
+      "覚える",
+      "おぼえる",
+      "記憶する"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1372,
+    "cat": "paraphrase",
+    "sentence": "約束を忘れました。",
+    "target": "忘れる",
+    "options": [
+      "忘れてしまう",
+      "おぼえる",
+      "記憶する",
+      "思い出す"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1373,
+    "cat": "paraphrase",
+    "sentence": "毎日働きます。",
+    "target": "働く",
+    "options": [
+      "仕事する",
+      "休む",
+      "やすむ",
+      "あそぶ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1374,
+    "cat": "paraphrase",
+    "sentence": "会社で働いています。",
+    "target": "働く",
+    "options": [
+      "仕事する",
+      "やすむ",
+      "遊ぶ",
+      "休む"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1375,
+    "cat": "paraphrase",
+    "sentence": "子どもが泣きます。",
+    "target": "泣く",
+    "options": [
+      "涙を流す",
+      "笑う",
+      "わらう",
+      "よろこぶ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1376,
+    "cat": "paraphrase",
+    "sentence": "赤ちゃんが泣いています。",
+    "target": "泣く",
+    "options": [
+      "涙を流す",
+      "わらう",
+      "笑う",
+      "おどろく"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1377,
+    "cat": "paraphrase",
+    "sentence": "みんなが笑います。",
+    "target": "笑う",
+    "options": [
+      "微笑む",
+      "泣く",
+      "なく",
+      "おこる"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1378,
+    "cat": "paraphrase",
+    "sentence": "先生が笑いました。",
+    "target": "笑う",
+    "options": [
+      "微笑む",
+      "なく",
+      "泣く",
+      "怒る"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1379,
+    "cat": "paraphrase",
+    "sentence": "公園を歩きます。",
+    "target": "歩く",
+    "options": [
+      "あゆむ",
+      "走る",
+      "はしる",
+      "跳ぶ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1380,
+    "cat": "paraphrase",
+    "sentence": "駅まで歩きました。",
+    "target": "歩く",
+    "options": [
+      "あゆむ",
+      "はしる",
+      "走る",
+      "跳ぶ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1381,
+    "cat": "paraphrase",
+    "sentence": "公園を走ります。",
+    "target": "走る",
+    "options": [
+      "駆ける",
+      "歩く",
+      "あるく",
+      "座る"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1382,
+    "cat": "paraphrase",
+    "sentence": "速く走ります。",
+    "target": "走る",
+    "options": [
+      "駆ける",
+      "あるく",
+      "歩く",
+      "止まる"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1383,
+    "cat": "paraphrase",
+    "sentence": "プールで泳ぎます。",
+    "target": "泳ぐ",
+    "options": [
+      "水泳する",
+      "走る",
+      "歩く",
+      "飛ぶ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1384,
+    "cat": "paraphrase",
+    "sentence": "海で泳ぎました。",
+    "target": "泳ぐ",
+    "options": [
+      "水泳する",
+      "はしる",
+      "歩く",
+      "とぶ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1385,
+    "cat": "paraphrase",
+    "sentence": "鳥が飛びます。",
+    "target": "飛ぶ",
+    "options": [
+      "空を行く",
+      "走る",
+      "歩く",
+      "泳ぐ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1386,
+    "cat": "paraphrase",
+    "sentence": "飛行機が飛びます。",
+    "target": "飛ぶ",
+    "options": [
+      "空を行く",
+      "はしる",
+      "およぐ",
+      "歩く"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1387,
+    "cat": "paraphrase",
+    "sentence": "本を読みます。",
+    "target": "読む",
+    "options": [
+      "目を通す",
+      "書く",
+      "かく",
+      "聞く"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1388,
+    "cat": "paraphrase",
+    "sentence": "新聞を読みました。",
+    "target": "読む",
+    "options": [
+      "目を通す",
+      "かく",
+      "書く",
+      "きく"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1389,
+    "cat": "paraphrase",
+    "sentence": "名前を書きます。",
+    "target": "書く",
+    "options": [
+      "記す",
+      "読む",
+      "よむ",
+      "消す"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1390,
+    "cat": "paraphrase",
+    "sentence": "手紙を書きました。",
+    "target": "書く",
+    "options": [
+      "記す",
+      "よむ",
+      "読む",
+      "けす"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1391,
+    "cat": "paraphrase",
+    "sentence": "椅子に座ります。",
+    "target": "座る",
+    "options": [
+      "着席する",
+      "立つ",
+      "たつ",
+      "歩く"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1392,
+    "cat": "paraphrase",
+    "sentence": "ここに座ってください。",
+    "target": "座る",
+    "options": [
+      "着席する",
+      "たつ",
+      "立つ",
+      "はしる"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1393,
+    "cat": "paraphrase",
+    "sentence": "先生が立ちました。",
+    "target": "立つ",
+    "options": [
+      "起立する",
+      "座る",
+      "すわる",
+      "寝る"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1394,
+    "cat": "paraphrase",
+    "sentence": "みんな立ってください。",
+    "target": "立つ",
+    "options": [
+      "起立する",
+      "すわる",
+      "座る",
+      "ねる"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1395,
+    "cat": "paraphrase",
+    "sentence": "窓を開けます。",
+    "target": "開ける",
+    "options": [
+      "オープンする",
+      "閉める",
+      "しめる",
+      "閉じる"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1396,
+    "cat": "paraphrase",
+    "sentence": "箱を開けました。",
+    "target": "開ける",
+    "options": [
+      "オープンする",
+      "しめる",
+      "閉める",
+      "閉じる"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1397,
+    "cat": "paraphrase",
+    "sentence": "ドアを閉めます。",
+    "target": "閉める",
+    "options": [
+      "クローズする",
+      "開ける",
+      "あける",
+      "開く"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1398,
+    "cat": "paraphrase",
+    "sentence": "窓を閉めました。",
+    "target": "閉める",
+    "options": [
+      "クローズする",
+      "あける",
+      "開ける",
+      "ひらく"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1399,
+    "cat": "paraphrase",
+    "sentence": "大きい荷物です。",
+    "target": "大きい",
+    "options": [
+      "巨大",
+      "小型",
+      "ちいさい",
+      "軽い"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1400,
+    "cat": "paraphrase",
+    "sentence": "大きい家です。",
+    "target": "大きい",
+    "options": [
+      "でかい",
+      "小さい",
+      "ちいさい",
+      "せまい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1401,
+    "cat": "paraphrase",
+    "sentence": "小さい箱です。",
+    "target": "小さい",
+    "options": [
+      "小型",
+      "大きい",
+      "でかい",
+      "広い"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1402,
+    "cat": "paraphrase",
+    "sentence": "小さい鞄です。",
+    "target": "小さい",
+    "options": [
+      "ちいさな",
+      "大きい",
+      "ひろい",
+      "重い"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1403,
+    "cat": "paraphrase",
+    "sentence": "宿題が多いです。",
+    "target": "多い",
+    "options": [
+      "たくさん",
+      "少ない",
+      "ない",
+      "ゼロ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1404,
+    "cat": "paraphrase",
+    "sentence": "雨の日が多いです。",
+    "target": "多い",
+    "options": [
+      "たくさん",
+      "少し",
+      "すくない",
+      "ゼロ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1405,
+    "cat": "paraphrase",
+    "sentence": "時間が少ないです。",
+    "target": "少ない",
+    "options": [
+      "わずか",
+      "たくさん",
+      "おおい",
+      "多い"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1406,
+    "cat": "paraphrase",
+    "sentence": "友達が少ないです。",
+    "target": "少ない",
+    "options": [
+      "少し",
+      "たくさん",
+      "多い",
+      "おおい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1407,
+    "cat": "paraphrase",
+    "sentence": "新しい服です。",
+    "target": "新しい",
+    "options": [
+      "最近の",
+      "古い",
+      "ふるい",
+      "昔の"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1408,
+    "cat": "paraphrase",
+    "sentence": "新しい家です。",
+    "target": "新しい",
+    "options": [
+      "最近の",
+      "ふるい",
+      "昔の",
+      "古い"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1409,
+    "cat": "paraphrase",
+    "sentence": "古い車です。",
+    "target": "古い",
+    "options": [
+      "昔の",
+      "新しい",
+      "あたらしい",
+      "最近の"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1410,
+    "cat": "paraphrase",
+    "sentence": "古い友達です。",
+    "target": "古い",
+    "options": [
+      "昔の",
+      "最近の",
+      "あたらしい",
+      "新しい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1411,
+    "cat": "paraphrase",
+    "sentence": "良い成績です。",
+    "target": "良い",
+    "options": [
+      "いい",
+      "だめな",
+      "悪い",
+      "わるい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1412,
+    "cat": "paraphrase",
+    "sentence": "良い話です。",
+    "target": "良い",
+    "options": [
+      "いい",
+      "わるい",
+      "悪い",
+      "だめな"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1413,
+    "cat": "paraphrase",
+    "sentence": "悪い癖です。",
+    "target": "悪い",
+    "options": [
+      "だめ",
+      "よい",
+      "いい",
+      "素晴らしい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1414,
+    "cat": "paraphrase",
+    "sentence": "悪いニュースです。",
+    "target": "悪い",
+    "options": [
+      "だめな",
+      "いい",
+      "よい",
+      "素敵な"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1415,
+    "cat": "paraphrase",
+    "sentence": "お湯が熱いです。",
+    "target": "熱い",
+    "options": [
+      "暑い",
+      "冷たい",
+      "つめたい",
+      "寒い"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1416,
+    "cat": "paraphrase",
+    "sentence": "スープが熱いです。",
+    "target": "熱い",
+    "options": [
+      "暑い",
+      "冷たい",
+      "さむい",
+      "涼しい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1417,
+    "cat": "paraphrase",
+    "sentence": "水が冷たいです。",
+    "target": "冷たい",
+    "options": [
+      "さむい",
+      "熱い",
+      "あつい",
+      "暑い"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 1418,
+    "cat": "paraphrase",
+    "sentence": "風が涼しいです。",
+    "target": "涼しい",
+    "options": [
+      "寒い",
+      "暑い",
+      "あつい",
+      "熱い"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1419,
+    "cat": "paraphrase",
+    "sentence": "このパソコンは高いです。",
+    "target": "高い",
+    "options": [
+      "値段が高い",
+      "値段が安い",
+      "やすい",
+      "安い"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1420,
+    "cat": "paraphrase",
+    "sentence": "このチケットは高いです。",
+    "target": "高い",
+    "options": [
+      "値段が高い",
+      "安い",
+      "やすい",
+      "低い"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1421,
+    "cat": "paraphrase",
+    "sentence": "この本は安いです。",
+    "target": "安い",
+    "options": [
+      "値段が安い",
+      "値段が高い",
+      "高い",
+      "たかい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1422,
+    "cat": "paraphrase",
+    "sentence": "このチケットは安いです。",
+    "target": "安い",
+    "options": [
+      "値段が安い",
+      "たかい",
+      "高い",
+      "高級"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1423,
+    "cat": "paraphrase",
+    "sentence": "長い映画です。",
+    "target": "長い",
+    "options": [
+      "ロング",
+      "短い",
+      "みじかい",
+      "細い"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1424,
+    "cat": "paraphrase",
+    "sentence": "長い鉛筆です。",
+    "target": "長い",
+    "options": [
+      "ロング",
+      "みじかい",
+      "短い",
+      "太い"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1425,
+    "cat": "paraphrase",
+    "sentence": "短い話です。",
+    "target": "短い",
+    "options": [
+      "ショート",
+      "ながい",
+      "長い",
+      "広い"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1426,
+    "cat": "paraphrase",
+    "sentence": "短い休みです。",
+    "target": "短い",
+    "options": [
+      "ショート",
+      "長い",
+      "ながい",
+      "多い"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1427,
+    "cat": "paraphrase",
+    "sentence": "起きるのが早いです。",
+    "target": "早い",
+    "options": [
+      "速い",
+      "おそい",
+      "遅い",
+      "のろい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1428,
+    "cat": "paraphrase",
+    "sentence": "時間が早いです。",
+    "target": "早い",
+    "options": [
+      "速い",
+      "おそい",
+      "遅い",
+      "のんびり"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1429,
+    "cat": "paraphrase",
+    "sentence": "遅い返事です。",
+    "target": "遅い",
+    "options": [
+      "のろい",
+      "早い",
+      "はやい",
+      "速い"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1430,
+    "cat": "paraphrase",
+    "sentence": "動作が遅いです。",
+    "target": "遅い",
+    "options": [
+      "のろい",
+      "はやい",
+      "早い",
+      "速い"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1431,
+    "cat": "paraphrase",
+    "sentence": "スーパーは近いです。",
+    "target": "近い",
+    "options": [
+      "ちかく",
+      "とおい",
+      "遠い",
+      "離れた"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1432,
+    "cat": "paraphrase",
+    "sentence": "駅に近いです。",
+    "target": "近い",
+    "options": [
+      "ちかく",
+      "とおい",
+      "遠い",
+      "はなれて"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1433,
+    "cat": "paraphrase",
+    "sentence": "学校は遠いです。",
+    "target": "遠い",
+    "options": [
+      "とおく",
+      "ちかい",
+      "近い",
+      "すぐ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1434,
+    "cat": "paraphrase",
+    "sentence": "国は遠いです。",
+    "target": "遠い",
+    "options": [
+      "とおく",
+      "ちかい",
+      "近い",
+      "すぐそば"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1435,
+    "cat": "paraphrase",
+    "sentence": "今週は忙しいです。",
+    "target": "忙しい",
+    "options": [
+      "暇でない",
+      "ひま",
+      "のんびり",
+      "らく"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1436,
+    "cat": "paraphrase",
+    "sentence": "母は忙しいです。",
+    "target": "忙しい",
+    "options": [
+      "暇でない",
+      "ひま",
+      "楽",
+      "のんびり"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1437,
+    "cat": "paraphrase",
+    "sentence": "今は暇です。",
+    "target": "暇",
+    "options": [
+      "時間ある",
+      "いそがしい",
+      "忙しい",
+      "働く"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1438,
+    "cat": "paraphrase",
+    "sentence": "午後は暇です。",
+    "target": "暇",
+    "options": [
+      "時間ある",
+      "忙しい",
+      "いそがしい",
+      "働いている"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1439,
+    "cat": "paraphrase",
+    "sentence": "とても元気です。",
+    "target": "元気",
+    "options": [
+      "健康",
+      "病気",
+      "具合悪い",
+      "弱い"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1440,
+    "cat": "paraphrase",
+    "sentence": "子どもは元気です。",
+    "target": "元気",
+    "options": [
+      "健康",
+      "びょうき",
+      "病気",
+      "弱い"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1441,
+    "cat": "paraphrase",
+    "sentence": "父は病気です。",
+    "target": "病気",
+    "options": [
+      "具合悪い",
+      "げんき",
+      "元気",
+      "健康"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1442,
+    "cat": "paraphrase",
+    "sentence": "祖母は病気です。",
+    "target": "病気",
+    "options": [
+      "具合悪い",
+      "げんき",
+      "元気",
+      "丈夫"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1443,
+    "cat": "paraphrase",
+    "sentence": "猫が大好きです。",
+    "target": "好き",
+    "options": [
+      "愛する",
+      "きらい",
+      "嫌い",
+      "好きでない"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1444,
+    "cat": "paraphrase",
+    "sentence": "日本料理が好きです。",
+    "target": "好き",
+    "options": [
+      "愛する",
+      "きらい",
+      "嫌い",
+      "嫌う"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1445,
+    "cat": "paraphrase",
+    "sentence": "勉強が嫌いです。",
+    "target": "嫌い",
+    "options": [
+      "好きでない",
+      "すき",
+      "好き",
+      "大好き"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1446,
+    "cat": "paraphrase",
+    "sentence": "運動が嫌いです。",
+    "target": "嫌い",
+    "options": [
+      "好きでない",
+      "すき",
+      "好き",
+      "愛する"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1447,
+    "cat": "paraphrase",
+    "sentence": "ピアノが上手です。",
+    "target": "上手",
+    "options": [
+      "うまい",
+      "へた",
+      "下手",
+      "だめ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1448,
+    "cat": "paraphrase",
+    "sentence": "英語が上手です。",
+    "target": "上手",
+    "options": [
+      "うまい",
+      "へた",
+      "下手",
+      "ダメ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1449,
+    "cat": "paraphrase",
+    "sentence": "料理が下手です。",
+    "target": "下手",
+    "options": [
+      "へた",
+      "じょうず",
+      "上手",
+      "うまい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1450,
+    "cat": "paraphrase",
+    "sentence": "踊りが下手です。",
+    "target": "下手",
+    "options": [
+      "へた",
+      "上手",
+      "じょうず",
+      "上手い"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1451,
+    "cat": "paraphrase",
+    "sentence": "有名な歌手です。",
+    "target": "有名",
+    "options": [
+      "知られている",
+      "無名",
+      "知らない",
+      "しらない"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1452,
+    "cat": "paraphrase",
+    "sentence": "有名な場所です。",
+    "target": "有名",
+    "options": [
+      "知られている",
+      "無名",
+      "しらない",
+      "無い"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1453,
+    "cat": "paraphrase",
+    "sentence": "親切な店員です。",
+    "target": "親切",
+    "options": [
+      "やさしい",
+      "つめたい",
+      "冷たい",
+      "きびしい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1454,
+    "cat": "paraphrase",
+    "sentence": "親切な人たちです。",
+    "target": "親切",
+    "options": [
+      "やさしい",
+      "つめたい",
+      "冷たい",
+      "こわい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1455,
+    "cat": "paraphrase",
+    "sentence": "きれいな景色です。",
+    "target": "きれい",
+    "options": [
+      "美しい",
+      "きたない",
+      "汚い",
+      "ひどい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1456,
+    "cat": "paraphrase",
+    "sentence": "きれいな服です。",
+    "target": "きれい",
+    "options": [
+      "美しい",
+      "きたない",
+      "汚い",
+      "ぼろぼろ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1457,
+    "cat": "paraphrase",
+    "sentence": "汚い服です。",
+    "target": "汚い",
+    "options": [
+      "きたない",
+      "きれい",
+      "美しい",
+      "あたらしい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1458,
+    "cat": "paraphrase",
+    "sentence": "汚い町です。",
+    "target": "汚い",
+    "options": [
+      "きたない",
+      "きれい",
+      "うつくしい",
+      "美しい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1459,
+    "cat": "paraphrase",
+    "sentence": "静かな場所です。",
+    "target": "静か",
+    "options": [
+      "しずか",
+      "にぎやか",
+      "うるさい",
+      "さわがしい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1460,
+    "cat": "paraphrase",
+    "sentence": "静かな人です。",
+    "target": "静か",
+    "options": [
+      "しずか",
+      "さわがしい",
+      "うるさい",
+      "にぎやか"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1461,
+    "cat": "paraphrase",
+    "sentence": "賑やかなパーティーです。",
+    "target": "賑やか",
+    "options": [
+      "にぎやか",
+      "しずか",
+      "静か",
+      "さびしい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1462,
+    "cat": "paraphrase",
+    "sentence": "賑やかな店です。",
+    "target": "賑やか",
+    "options": [
+      "にぎやか",
+      "しずか",
+      "静か",
+      "ひとけ無い"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1463,
+    "cat": "paraphrase",
+    "sentence": "いつも笑顔です。",
+    "target": "いつも",
+    "options": [
+      "毎回",
+      "たまに",
+      "ときどき",
+      "時々"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1464,
+    "cat": "paraphrase",
+    "sentence": "いつも早く来ます。",
+    "target": "いつも",
+    "options": [
+      "毎回",
+      "ときどき",
+      "たまに",
+      "少し"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1465,
+    "cat": "paraphrase",
+    "sentence": "時々雨が降ります。",
+    "target": "時々",
+    "options": [
+      "たまに",
+      "いつも",
+      "まいかい",
+      "毎回"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1466,
+    "cat": "paraphrase",
+    "sentence": "時々散歩します。",
+    "target": "時々",
+    "options": [
+      "たまに",
+      "いつも",
+      "まいにち",
+      "毎日"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1467,
+    "cat": "paraphrase",
+    "sentence": "よく本を読みます。",
+    "target": "よく",
+    "options": [
+      "しばしば",
+      "たまに",
+      "あまり",
+      "ぜんぜん"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1468,
+    "cat": "paraphrase",
+    "sentence": "よく旅行します。",
+    "target": "よく",
+    "options": [
+      "しばしば",
+      "あまり",
+      "たまに",
+      "ぜんぜん"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1469,
+    "cat": "paraphrase",
+    "sentence": "すぐ行きます。",
+    "target": "すぐ",
+    "options": [
+      "急に",
+      "ゆっくり",
+      "のちほど",
+      "あとで"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1470,
+    "cat": "paraphrase",
+    "sentence": "すぐ答えました。",
+    "target": "すぐ",
+    "options": [
+      "急に",
+      "ゆっくり",
+      "のんびり",
+      "あとで"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1471,
+    "cat": "paraphrase",
+    "sentence": "もう着きました。",
+    "target": "もう",
+    "options": [
+      "すでに",
+      "まだ",
+      "これから",
+      "のち"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1472,
+    "cat": "paraphrase",
+    "sentence": "もう家にいます。",
+    "target": "もう",
+    "options": [
+      "すでに",
+      "まだ",
+      "これから",
+      "あとで"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1473,
+    "cat": "paraphrase",
+    "sentence": "まだ分かりません。",
+    "target": "まだ",
+    "options": [
+      "今まで～ない",
+      "もう",
+      "すでに",
+      "さっき"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1474,
+    "cat": "paraphrase",
+    "sentence": "まだ終わっていません。",
+    "target": "まだ",
+    "options": [
+      "今まで～ない",
+      "もう",
+      "すでに",
+      "さっき"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1475,
+    "cat": "paraphrase",
+    "sentence": "ちょっと高いです。",
+    "target": "ちょっと",
+    "options": [
+      "少し",
+      "たくさん",
+      "とても",
+      "大変"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1476,
+    "cat": "paraphrase",
+    "sentence": "ちょっと休みます。",
+    "target": "ちょっと",
+    "options": [
+      "少し",
+      "たくさん",
+      "長く",
+      "ずっと"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1477,
+    "cat": "paraphrase",
+    "sentence": "とても難しいです。",
+    "target": "とても",
+    "options": [
+      "非常に",
+      "少し",
+      "あまり",
+      "ぜんぜん"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1478,
+    "cat": "paraphrase",
+    "sentence": "とても嬉しいです。",
+    "target": "とても",
+    "options": [
+      "すごく",
+      "すこし",
+      "あまり",
+      "ちょっと"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1479,
+    "cat": "paraphrase",
+    "sentence": "あまり暑くないです。",
+    "target": "あまり",
+    "options": [
+      "そんなに",
+      "とても",
+      "すごく",
+      "非常に"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1480,
+    "cat": "paraphrase",
+    "sentence": "あまり寒くないです。",
+    "target": "あまり",
+    "options": [
+      "そんなに",
+      "とても",
+      "ひじょうに",
+      "すごく"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1481,
+    "cat": "paraphrase",
+    "sentence": "人がたくさん来ました。",
+    "target": "たくさん",
+    "options": [
+      "多く",
+      "少し",
+      "わずか",
+      "すくなく"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1482,
+    "cat": "paraphrase",
+    "sentence": "お金がたくさんあります。",
+    "target": "たくさん",
+    "options": [
+      "多く",
+      "少ない",
+      "わずか",
+      "少し"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1483,
+    "cat": "paraphrase",
+    "sentence": "もちろん賛成です。",
+    "target": "もちろん",
+    "options": [
+      "当然",
+      "たぶん",
+      "もしかして",
+      "ひょっとして"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1484,
+    "cat": "paraphrase",
+    "sentence": "もちろん分かります。",
+    "target": "もちろん",
+    "options": [
+      "当然",
+      "たぶん",
+      "もしかして",
+      "あるいは"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1485,
+    "cat": "paraphrase",
+    "sentence": "たぶん行きます。",
+    "target": "たぶん",
+    "options": [
+      "おそらく",
+      "きっと",
+      "必ず",
+      "絶対"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1486,
+    "cat": "paraphrase",
+    "sentence": "たぶん大丈夫です。",
+    "target": "たぶん",
+    "options": [
+      "おそらく",
+      "きっと",
+      "絶対",
+      "必ず"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1487,
+    "cat": "paraphrase",
+    "sentence": "きっと喜びます。",
+    "target": "きっと",
+    "options": [
+      "必ず",
+      "たぶん",
+      "おそらく",
+      "もしかして"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1488,
+    "cat": "paraphrase",
+    "sentence": "きっと成功します。",
+    "target": "きっと",
+    "options": [
+      "必ず",
+      "たぶん",
+      "おそらく",
+      "もしかして"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1489,
+    "cat": "paraphrase",
+    "sentence": "パンを食べます。",
+    "target": "食べる",
+    "options": [
+      "食事する",
+      "のむ",
+      "飲む",
+      "料理する"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1490,
+    "cat": "paraphrase",
+    "sentence": "寿司を食べました。",
+    "target": "食べる",
+    "options": [
+      "食事する",
+      "のむ",
+      "飲む",
+      "作る"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1491,
+    "cat": "paraphrase",
+    "sentence": "お茶を飲みます。",
+    "target": "飲む",
+    "options": [
+      "口にする",
+      "たべる",
+      "食べる",
+      "作る"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1492,
+    "cat": "paraphrase",
+    "sentence": "ジュースを飲みました。",
+    "target": "飲む",
+    "options": [
+      "口にする",
+      "食べる",
+      "たべる",
+      "つくる"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1493,
+    "cat": "paraphrase",
+    "sentence": "富士山を見ます。",
+    "target": "見る",
+    "options": [
+      "観察する",
+      "きく",
+      "聞く",
+      "読む"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1494,
+    "cat": "paraphrase",
+    "sentence": "絵を見ました。",
+    "target": "見る",
+    "options": [
+      "観察する",
+      "きく",
+      "聞く",
+      "話す"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1495,
+    "cat": "paraphrase",
+    "sentence": "鳥の声を聞きます。",
+    "target": "聞く",
+    "options": [
+      "耳にする",
+      "みる",
+      "見る",
+      "話す"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1496,
+    "cat": "paraphrase",
+    "sentence": "ラジオを聞きました。",
+    "target": "聞く",
+    "options": [
+      "耳にする",
+      "みる",
+      "見る",
+      "話す"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1497,
+    "cat": "paraphrase",
+    "sentence": "英語を話します。",
+    "target": "話す",
+    "options": [
+      "しゃべる",
+      "だまる",
+      "読む",
+      "書く"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1498,
+    "cat": "paraphrase",
+    "sentence": "大きな声で話しました。",
+    "target": "話す",
+    "options": [
+      "しゃべる",
+      "だまる",
+      "書く",
+      "読む"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1499,
+    "cat": "paraphrase",
+    "sentence": "ありがとうと言います。",
+    "target": "言う",
+    "options": [
+      "伝える",
+      "きく",
+      "聞く",
+      "読む"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1500,
+    "cat": "paraphrase",
+    "sentence": "さようならと言いました。",
+    "target": "言う",
+    "options": [
+      "伝える",
+      "聞く",
+      "読む",
+      "きく"
+    ],
+    "answer": 0
+  }
+]

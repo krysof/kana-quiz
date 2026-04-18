@@ -52,19 +52,6 @@
     "answer": 0
   },
   {
-    "id": 505,
-    "cat": "orthography",
-    "sentence": "業務の（とどこお）りを解消した。",
-    "target": "とどこお",
-    "options": [
-      "滞",
-      "帯",
-      "滞",
-      "滯"
-    ],
-    "answer": 0
-  },
-  {
     "id": 506,
     "cat": "orthography",
     "sentence": "子供の教育を（おこた）ってはいけない。",
@@ -273,19 +260,6 @@
     "answer": 0
   },
   {
-    "id": 522,
-    "cat": "orthography",
-    "sentence": "豊かな（じょうそう）を育てる。",
-    "target": "じょうそう",
-    "options": [
-      "情操",
-      "情繰",
-      "情燥",
-      "情操"
-    ],
-    "answer": 0
-  },
-  {
     "id": 523,
     "cat": "orthography",
     "sentence": "仕事への（じょうねつ）を失わない。",
@@ -373,19 +347,6 @@
       "気貧",
       "貴品",
       "機品"
-    ],
-    "answer": 0
-  },
-  {
-    "id": 530,
-    "cat": "orthography",
-    "sentence": "改革に取り組む（きがい）がある。",
-    "target": "きがい",
-    "options": [
-      "気概",
-      "気慨",
-      "気害",
-      "気概"
     ],
     "answer": 0
   },
@@ -750,19 +711,6 @@
       "尊",
       "博",
       "傅"
-    ],
-    "answer": 0
-  },
-  {
-    "id": 559,
-    "cat": "orthography",
-    "sentence": "（し）いて言えば賛成だ。",
-    "target": "し",
-    "options": [
-      "強",
-      "推",
-      "押",
-      "強"
     ],
     "answer": 0
   },
@@ -1339,19 +1287,6 @@
     "answer": 0
   },
   {
-    "id": 604,
-    "cat": "orthography",
-    "sentence": "データを（ぶんせき）する。",
-    "target": "ぶんせき",
-    "options": [
-      "分析",
-      "分折",
-      "文析",
-      "分析"
-    ],
-    "answer": 0
-  },
-  {
     "id": 605,
     "cat": "orthography",
     "sentence": "研究の（せいか）を発表する。",
@@ -1807,19 +1742,6 @@
     "answer": 0
   },
   {
-    "id": 640,
-    "cat": "orthography",
-    "sentence": "（もはん）的な行動を取る。",
-    "target": "もはん",
-    "options": [
-      "模範",
-      "摸範",
-      "模板",
-      "模板"
-    ],
-    "answer": 0
-  },
-  {
     "id": 641,
     "cat": "orthography",
     "sentence": "（どくそう）的な発想。",
@@ -1963,19 +1885,6 @@
     "answer": 0
   },
   {
-    "id": 652,
-    "cat": "orthography",
-    "sentence": "意見を（とうごう）する。",
-    "target": "とうごう",
-    "options": [
-      "統合",
-      "統号",
-      "統合",
-      "当合"
-    ],
-    "answer": 0
-  },
-  {
     "id": 653,
     "cat": "orthography",
     "sentence": "情報を（とうせい）する。",
@@ -2063,32 +1972,6 @@
       "収正",
       "終正",
       "習正"
-    ],
-    "answer": 0
-  },
-  {
-    "id": 660,
-    "cat": "orthography",
-    "sentence": "古い建物を（しゅうふく）する。",
-    "target": "しゅうふく",
-    "options": [
-      "修復",
-      "修復",
-      "終復",
-      "習復"
-    ],
-    "answer": 0
-  },
-  {
-    "id": 661,
-    "cat": "orthography",
-    "sentence": "関係を（しゅうふく）する。",
-    "target": "しゅうふく",
-    "options": [
-      "修復",
-      "修復",
-      "終復",
-      "習復"
     ],
     "answer": 0
   },
