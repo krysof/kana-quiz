@@ -179,6 +179,24 @@ const N2_CAT_NAMES = {
   grammar: "文法",
 };
 
+// Build readable sentence for N2 question (fill blanks with correct answer)
+function n2ReadableSentence(nq) {
+  if (!nq) return "";
+  // For usage questions (no sentence), read the correct option
+  if (nq.cat === "usage") return nq.options[nq.answer] || "";
+  let s = nq.sentence || "";
+  const correct = nq.options[nq.answer] || "";
+  // Replace blank markers with correct answer for TTS
+  s = s.replace(/[（(][\s　_＿]+[)）]/g, correct);
+  s = s.replace(/＿+/g, correct);
+  s = s.replace(/_{2,}/g, correct);
+  // For orthography: replace hiragana target with correct kanji
+  if (nq.cat === "orthography" && nq.target && correct) {
+    s = s.replace(nq.target, correct);
+  }
+  return s;
+}
+
 // Get meaning for an item based on current language
 function getMeaning(item) {
   if (!item.meaning) return "";
@@ -398,7 +416,7 @@ function answerN2Choice(idx, boundNq) {
   else playWrong();
 
   // Read the sentence aloud
-  setTimeout(() => speakJP(nq.sentence || correctText), 300);
+  setTimeout(() => speakJP(n2ReadableSentence(nq)), 300);
 
   // Build result message
   if (ok) {
@@ -774,7 +792,7 @@ function wire() {
   ui.btnSpeak.onclick = () => {
     if (!current) return;
     if (current.mode === "n2_exam") {
-      speakJP(current.n2Q.sentence || current.n2Q.options[current.n2Q.answer]);
+      speakJP(n2ReadableSentence(current.n2Q));
     } else {
       speakJP(getKana(current.correct));
     }
@@ -789,7 +807,7 @@ function wire() {
   ui.q.addEventListener("click", () => {
     if (!current) return;
     if (current.mode === "n2_exam") {
-      speakJP(current.n2Q.sentence || current.n2Q.options[current.n2Q.answer]);
+      speakJP(n2ReadableSentence(current.n2Q));
     } else {
       speakJP(getKana(current.correct));
     }
