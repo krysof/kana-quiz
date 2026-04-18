@@ -890,6 +890,12 @@ async function init() {
     db.jlptBanks.n4 = n4Bank;
     db.jlptBanks.n5 = n5Bank;
 
+    // Load version
+    loadJSON("./data/version.json").then((v) => {
+      const tag = document.getElementById("versionTag");
+      if (tag && v && v.version) tag.textContent = "v " + v.version;
+    }).catch(() => {});
+
     // Load translation meaning files
     const [zhTW, ja, en] = await Promise.all([
       loadJSON("./data/meanings_zh_TW.json?v=2.1").catch(() => ({})),
