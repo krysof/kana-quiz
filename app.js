@@ -1,17 +1,17 @@
 import {
   loadSettings, saveSettings, resetSettings,
   loadStats, saveStats, resetDaily, resetAllStats
-} from "./core/storage.js?v=2.0";
+} from "./core/storage.js?v=2.1";
 
-import { speakJP, warmupTTS } from "./core/tts.js?v=2.0";
-import { playCorrect, playWrong, unlockAudio } from "./core/audio.js?v=2.0";
+import { speakJP, warmupTTS } from "./core/tts.js?v=2.1";
+import { playCorrect, playWrong, unlockAudio } from "./core/audio.js?v=2.1";
 
 import {
   newQuestion, recordResult, startSession,
   normalizeRomaji, pct
-} from "./core/quiz.js?v=2.0";
+} from "./core/quiz.js?v=2.1";
 
-import { t, getLang, setLang, applyI18nDOM } from "./core/i18n.js?v=2.0";
+import { t, getLang, setLang, applyI18nDOM } from "./core/i18n.js?v=2.1";
 
 const $ = (id) => document.getElementById(id);
 
@@ -872,9 +872,9 @@ async function init() {
 
     // Load translation meaning files
     const [zhTW, ja, en] = await Promise.all([
-      loadJSON("./data/meanings_zh_TW.json?v=2.0").catch(() => ({})),
-      loadJSON("./data/meanings_ja.json?v=2.0").catch(() => ({})),
-      loadJSON("./data/meanings_en.json?v=2.0").catch(() => ({})),
+      loadJSON("./data/meanings_zh_TW.json?v=2.1").catch(() => ({})),
+      loadJSON("./data/meanings_ja.json?v=2.1").catch(() => ({})),
+      loadJSON("./data/meanings_en.json?v=2.1").catch(() => ({})),
     ]);
     db.meanings = { "zh-TW": zhTW, ja, en };
   } catch (e) {
