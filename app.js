@@ -375,18 +375,20 @@ function renderN2Question() {
     div.innerHTML = isUsage
       ? `<div class="jp">${opt}</div>`
       : `<div class="jp">${idx + 1}. ${opt}</div>`;
-    div.onclick = () => answerN2Choice(idx);
+    // Capture nq in closure to avoid current.n2Q drift
+    div.onclick = () => answerN2Choice(idx, nq);
     ui.opts.appendChild(div);
   });
 
   setUIForMode("n2_exam");
 }
 
-function answerN2Choice(idx) {
+function answerN2Choice(idx, boundNq) {
   if (answered) return;
   answered = true;
 
-  const nq = current.n2Q;
+  // Prefer the nq captured at render time (defensive: avoid current.n2Q drift)
+  const nq = boundNq || current.n2Q;
   const ok = idx === nq.answer;
   const correctText = nq.options[nq.answer];
 
