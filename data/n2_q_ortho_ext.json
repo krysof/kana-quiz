@@ -26,19 +26,6 @@
     "answer": 0
   },
   {
-    "id": 623,
-    "cat": "orthography",
-    "sentence": "この気持ちを正確につたえたい。",
-    "target": "つたえる",
-    "options": [
-      "伝える",
-      "転える",
-      "云える",
-      "伯える"
-    ],
-    "answer": 0
-  },
-  {
     "id": 624,
     "cat": "orthography",
     "sentence": "子どもを立派にそだてるのは大変だ。",
@@ -347,19 +334,6 @@
       "延める",
       "廷める",
       "走める"
-    ],
-    "answer": 0
-  },
-  {
-    "id": 648,
-    "cat": "orthography",
-    "sentence": "目標をかかげて前に進む。",
-    "target": "かかげる",
-    "options": [
-      "掲げる",
-      "揚げる",
-      "提げる",
-      "掴げる"
     ],
     "answer": 0
   },

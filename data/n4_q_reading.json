@@ -4654,19 +4654,6 @@
     "answer": 1
   },
   {
-    "id": 361,
-    "cat": "kanji_reading",
-    "sentence": "消しゴムを使う。",
-    "target": "消しゴム",
-    "options": [
-      "けしゴム",
-      "しょうしゴム",
-      "きしゴム",
-      "けゴム"
-    ],
-    "answer": 0
-  },
-  {
     "id": 362,
     "cat": "kanji_reading",
     "sentence": "紙に書く。",
@@ -4678,19 +4665,6 @@
       "かみ"
     ],
     "answer": 3
-  },
-  {
-    "id": 363,
-    "cat": "kanji_reading",
-    "sentence": "ノートに書く。",
-    "target": "ノート",
-    "options": [
-      "ノウト",
-      "ノト",
-      "ノート",
-      "ノオト"
-    ],
-    "answer": 2
   },
   {
     "id": 364,

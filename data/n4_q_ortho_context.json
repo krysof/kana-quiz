@@ -1,1 +1,6250 @@
-[{"id":501,"cat":"orthography","sentence":"まいあさコーヒーをのみます。","target":"のみます","options":["飲みます","食みます","呑みます","飯みます"],"answer":0},{"id":502,"cat":"orthography","sentence":"ごはんをたべます。","target":"たべます","options":["飲べます","食べます","吃べます","喰べます"],"answer":1},{"id":503,"cat":"orthography","sentence":"テレビをみます。","target":"みます","options":["看ます","観ます","見ます","視ます"],"answer":2},{"id":504,"cat":"orthography","sentence":"おんがくをききます。","target":"ききます","options":["聴きます","問きます","間きます","聞きます"],"answer":3},{"id":505,"cat":"orthography","sentence":"ほんをよみます。","target":"よみます","options":["読みます","詠みます","語みます","誦みます"],"answer":0},{"id":506,"cat":"orthography","sentence":"てがみをかきます。","target":"かきます","options":["描きます","書きます","画きます","記きます"],"answer":1},{"id":507,"cat":"orthography","sentence":"ともだちとはなします。","target":"はなします","options":["語します","談します","話します","言します"],"answer":2},{"id":508,"cat":"orthography","sentence":"せんせいにいいます。","target":"いいます","options":["話います","云います","謂います","言います"],"answer":3},{"id":509,"cat":"orthography","sentence":"ほんをかいます。","target":"かいます","options":["買います","売います","購います","求います"],"answer":0},{"id":510,"cat":"orthography","sentence":"くるまをうります。","target":"うります","options":["買ります","売ります","販ります","沽ります"],"answer":1},{"id":511,"cat":"orthography","sentence":"がっこうへいきます。","target":"いきます","options":["来ます","往ます","行きます","去ます"],"answer":2},{"id":512,"cat":"orthography","sentence":"いえへきます。","target":"きます","options":["行きます","往ます","到ます","来ます"],"answer":3},{"id":513,"cat":"orthography","sentence":"うちへかえります。","target":"かえります","options":["帰ります","返ります","還ります","戻ります"],"answer":0},{"id":514,"cat":"orthography","sentence":"へやをでます。","target":"でます","options":["入ます","出ます","発ます","去ます"],"answer":1},{"id":515,"cat":"orthography","sentence":"へやにはいります。","target":"はいります","options":["出ります","進ります","入ります","込ります"],"answer":2},{"id":516,"cat":"orthography","sentence":"いすにたちます。","target":"たちます","options":["建ちます","起ちます","居ちます","立ちます"],"answer":3},{"id":517,"cat":"orthography","sentence":"いすにすわります。","target":"すわります","options":["座ります","坐ります","据ります","着ります"],"answer":0},{"id":518,"cat":"orthography","sentence":"こうえんをあるきます。","target":"あるきます","options":["走きます","歩きます","行きます","步きます"],"answer":1},{"id":519,"cat":"orthography","sentence":"はやくはしります。","target":"はしります","options":["歩ります","駆ります","走ります","奔ります"],"answer":2},{"id":520,"cat":"orthography","sentence":"ともだちにあいます。","target":"あいます","options":["合います","逢います","遇います","会います"],"answer":3},{"id":521,"cat":"orthography","sentence":"バスをまちます。","target":"まちます","options":["待ちます","持ちます","侍ちます","俟ちます"],"answer":0},{"id":522,"cat":"orthography","sentence":"そのことをしっています。","target":"しっています","options":["智っています","知っています","識っています","悟っています"],"answer":1},{"id":523,"cat":"orthography","sentence":"なにかをおもいます。","target":"おもいます","options":["想います","考います","思います","念います"],"answer":2},{"id":524,"cat":"orthography","sentence":"よくかんがえます。","target":"かんがえます","options":["思えます","慮えます","量えます","考えます"],"answer":3},{"id":525,"cat":"orthography","sentence":"なまえをわすれました。","target":"わすれました","options":["忘れました","亡れました","失れました","遺れました"],"answer":0},{"id":526,"cat":"orthography","sentence":"かんじをおぼえます。","target":"おぼえます","options":["憶えます","覚えます","記えます","識えます"],"answer":1},{"id":527,"cat":"orthography","sentence":"えいごをおしえます。","target":"おしえます","options":["訓えます","誨えます","教えます","導えます"],"answer":2},{"id":528,"cat":"orthography","sentence":"にほんごをならいます。","target":"ならいます","options":["学います","修います","練います","習います"],"answer":3},{"id":529,"cat":"orthography","sentence":"まいにちべんきょうします。","target":"べんきょう","options":["勉強","勉学","勤強","勉習"],"answer":0},{"id":530,"cat":"orthography","sentence":"ピアノのれんしゅうをします。","target":"れんしゅう","options":["練修","練習","連習","錬習"],"answer":1},{"id":531,"cat":"orthography","sentence":"かいしゃではたらきます。","target":"はたらきます","options":["仕きます","労きます","働きます","勤きます"],"answer":2},{"id":532,"cat":"orthography","sentence":"にちようびにやすみます。","target":"やすみます","options":["憩みます","歇みます","息みます","休みます"],"answer":3},{"id":533,"cat":"orthography","sentence":"あさしちじにおきます。","target":"おきます","options":["起きます","興きます","立きます","覚きます"],"answer":0},{"id":534,"cat":"orthography","sentence":"よるじゅうじにねます。","target":"ねます","options":["眠ます","寝ます","就ます","臥ます"],"answer":1},{"id":535,"cat":"orthography","sentence":"ケーキをつくります。","target":"つくります","options":["造ります","創ります","作ります","製ります"],"answer":2},{"id":536,"cat":"orthography","sentence":"えんぴつをつかいます。","target":"つかいます","options":["仕います","用います","利います","使います"],"answer":3},{"id":537,"cat":"orthography","sentence":"かばんをもちます。","target":"もちます","options":["持ちます","待ちます","携ちます","捧ちます"],"answer":0},{"id":538,"cat":"orthography","sentence":"ほんをとります。","target":"とります","options":["採ります","取ります","捕ります","執ります"],"answer":1},{"id":539,"cat":"orthography","sentence":"つくえにおきます。","target":"おきます","options":["起きます","据きます","置きます","設きます"],"answer":2},{"id":540,"cat":"orthography","sentence":"がっこうへいきます。","target":"がっこう","options":["学院","学園","学堂","学校"],"answer":3},{"id":541,"cat":"orthography","sentence":"きょうしつでべんきょうします。","target":"きょうしつ","options":["教室","教場","学室","授室"],"answer":0},{"id":542,"cat":"orthography","sentence":"ちちはかいしゃにいます。","target":"かいしゃ","options":["公司","会社","商社","企社"],"answer":1},{"id":543,"cat":"orthography","sentence":"へやがきれいです。","target":"へや","options":["房間","室屋","部屋","部室"],"answer":2},{"id":544,"cat":"orthography","sentence":"いえにかえります。","target":"いえ","options":["宅","屋","舎","家"],"answer":3},{"id":545,"cat":"orthography","sentence":"かぞくとたべます。","target":"かぞく","options":["家族","家属","親族","家庭"],"answer":0},{"id":546,"cat":"orthography","sentence":"ちちはいしゃです。","target":"ちち","options":["母","父","兄","夫"],"answer":1},{"id":547,"cat":"orthography","sentence":"ははははなをかいました。","target":"はは","options":["父","姉","母","婦"],"answer":2},{"id":548,"cat":"orthography","sentence":"ともだちとあそびます。","target":"ともだち","options":["友人","親達","友徒","友達"],"answer":3},{"id":549,"cat":"orthography","sentence":"せんせいはやさしいです。","target":"せんせい","options":["先生","学生","教生","師生"],"answer":0},{"id":550,"cat":"orthography","sentence":"がくせいがおおいです。","target":"がくせい","options":["先生","学生","生徒","学人"],"answer":1},{"id":551,"cat":"orthography","sentence":"こどもがかわいいです。","target":"こども","options":["小供","子共","子供","児供"],"answer":2},{"id":552,"cat":"orthography","sentence":"あのひとはだれですか。","target":"ひと","options":["者","民","僕","人"],"answer":3},{"id":553,"cat":"orthography","sentence":"なまえをかきます。","target":"なまえ","options":["名前","姓名","氏名","名称"],"answer":0},{"id":554,"cat":"orthography","sentence":"きょうのてんきはいいです。","target":"てんき","options":["天候","天気","気候","空気"],"answer":1},{"id":555,"cat":"orthography","sentence":"あめがふります。","target":"あめ","options":["雪","雲","雨","風"],"answer":2},{"id":556,"cat":"orthography","sentence":"ゆきがふります。","target":"ゆき","options":["雨","霜","氷","雪"],"answer":3},{"id":557,"cat":"orthography","sentence":"かぜがつよいです。","target":"かぜ","options":["風","雨","雪","嵐"],"answer":0},{"id":558,"cat":"orthography","sentence":"くもがおおいです。","target":"くも","options":["空","雲","雪","霞"],"answer":1},{"id":559,"cat":"orthography","sentence":"そらがあおいです。","target":"そら","options":["天","雲","空","宙"],"answer":2},{"id":560,"cat":"orthography","sentence":"うみでおよぎます。","target":"うみ","options":["川","湖","池","海"],"answer":3},{"id":561,"cat":"orthography","sentence":"かわでさかなをとります。","target":"かわ","options":["川","海","池","江"],"answer":0},{"id":562,"cat":"orthography","sentence":"やまへのぼります。","target":"やま","options":["岳","山","丘","峰"],"answer":1},{"id":563,"cat":"orthography","sentence":"はながきれいです。","target":"はな","options":["華","葉","花","草"],"answer":2},{"id":564,"cat":"orthography","sentence":"きがたかいです。","target":"き","options":["林","森","樹","木"],"answer":3},{"id":565,"cat":"orthography","sentence":"とりがとびます。","target":"とり","options":["鳥","烏","雀","禽"],"answer":0},{"id":566,"cat":"orthography","sentence":"さかなをたべます。","target":"さかな","options":["肴","魚","鮮","漁"],"answer":1},{"id":567,"cat":"orthography","sentence":"どうぶつがすきです。","target":"どうぶつ","options":["植物","生物","動物","活物"],"answer":2},{"id":568,"cat":"orthography","sentence":"たべものがおいしいです。","target":"たべもの","options":["飲べ物","喰べ物","吃べ物","食べ物"],"answer":3},{"id":569,"cat":"orthography","sentence":"のみものがつめたいです。","target":"のみもの","options":["飲み物","食み物","呑み物","飯み物"],"answer":0},{"id":570,"cat":"orthography","sentence":"みずをのみます。","target":"みず","options":["氷","水","湯","液"],"answer":1},{"id":571,"cat":"orthography","sentence":"おちゃをのみます。","target":"ちゃ","options":["湯","水","茶","酒"],"answer":2},{"id":572,"cat":"orthography","sentence":"にくをたべます。","target":"にく","options":["魚","骨","皮","肉"],"answer":3},{"id":573,"cat":"orthography","sentence":"やさいがすきです。","target":"やさい","options":["野菜","青菜","蔬菜","菜野"],"answer":0},{"id":574,"cat":"orthography","sentence":"くだものがあまいです。","target":"くだもの","options":["菓物","果物","実物","食物"],"answer":1},{"id":575,"cat":"orthography","sentence":"でんわをかけます。","target":"でんわ","options":["電語","通話","電話","電信"],"answer":2},{"id":576,"cat":"orthography","sentence":"てがみをおくります。","target":"てがみ","options":["手書","文紙","便紙","手紙"],"answer":3},{"id":577,"cat":"orthography","sentence":"しんぶんをよみます。","target":"しんぶん","options":["新聞","新文","書聞","記聞"],"answer":0},{"id":578,"cat":"orthography","sentence":"ほんをよみます。","target":"ほん","options":["書","本","冊","典"],"answer":1},{"id":579,"cat":"orthography","sentence":"ざっしをかいます。","target":"ざっし","options":["雑紙","週誌","雑誌","冊誌"],"answer":2},{"id":580,"cat":"orthography","sentence":"えいがをみます。","target":"えいが","options":["影画","動画","電画","映画"],"answer":3},{"id":581,"cat":"orthography","sentence":"おんがくをききます。","target":"おんがく","options":["音楽","音曲","楽音","声楽"],"answer":0},{"id":582,"cat":"orthography","sentence":"しゃしんをとります。","target":"しゃしん","options":["映真","写真","画真","像真"],"answer":1},{"id":583,"cat":"orthography","sentence":"りょこうにいきます。","target":"りょこう","options":["旅游","遊行","旅行","行旅"],"answer":2},{"id":584,"cat":"orthography","sentence":"なつやすみです。","target":"やすみ","options":["憩み","歇み","息み","休み"],"answer":3},{"id":585,"cat":"orthography","sentence":"じゅぎょうがはじまります。","target":"じゅぎょう","options":["授業","教業","講業","課業"],"answer":0},{"id":586,"cat":"orthography","sentence":"しけんをうけます。","target":"しけん","options":["試検","試験","考験","考試"],"answer":1},{"id":587,"cat":"orthography","sentence":"しゅくだいをします。","target":"しゅくだい","options":["学題","課題","宿題","習題"],"answer":2},{"id":588,"cat":"orthography","sentence":"しつもんがあります。","target":"しつもん","options":["問質","疑問","設問","質問"],"answer":3},{"id":589,"cat":"orthography","sentence":"こたえをかきます。","target":"こたえ","options":["答え","応え","返え","解え"],"answer":0},{"id":590,"cat":"orthography","sentence":"もんだいがむずかしいです。","target":"もんだい","options":["課題","問題","試題","問答"],"answer":1},{"id":591,"cat":"orthography","sentence":"このいえはおおきいです。","target":"おおきい","options":["太きい","巨きい","大きい","広きい"],"answer":2},{"id":592,"cat":"orthography","sentence":"このねこはちいさいです。","target":"ちいさい","options":["少さい","細さい","微さい","小さい"],"answer":3},{"id":593,"cat":"orthography","sentence":"やまがたかいです。","target":"たかい","options":["高い","貴い","崇い","尊い"],"answer":0},{"id":594,"cat":"orthography","sentence":"つくえがひくいです。","target":"ひくい","options":["短い","低い","卑い","下い"],"answer":1},{"id":595,"cat":"orthography","sentence":"はしがながいです。","target":"ながい","options":["永い","遠い","長い","久い"],"answer":2},{"id":596,"cat":"orthography","sentence":"えんぴつがみじかいです。","target":"みじかい","options":["少い","低い","細い","短い"],"answer":3},{"id":597,"cat":"orthography","sentence":"あたらしいくるまです。","target":"あたらしい","options":["新しい","旧しい","初しい","鮮しい"],"answer":0},{"id":598,"cat":"orthography","sentence":"ふるいほんです。","target":"ふるい","options":["旧い","古い","老い","故い"],"answer":1},{"id":599,"cat":"orthography","sentence":"あかいはなです。","target":"あかい","options":["紅い","朱い","赤い","丹い"],"answer":2},{"id":600,"cat":"orthography","sentence":"あおいそらです。","target":"あおい","options":["蒼い","碧い","藍い","青い"],"answer":3},{"id":601,"cat":"orthography","sentence":"しろいくもです。","target":"しろい","options":["白い","素い","皓い","皙い"],"answer":0},{"id":602,"cat":"orthography","sentence":"くろいくるまです。","target":"くろい","options":["玄い","黒い","暗い","墨い"],"answer":1},{"id":603,"cat":"orthography","sentence":"あさごはんをたべました。","target":"たべました","options":["飲べました","吃べました","食べました","喰べました"],"answer":2},{"id":604,"cat":"orthography","sentence":"おちゃをのみました。","target":"のみました","options":["食みました","呑みました","飯みました","飲みました"],"answer":3},{"id":605,"cat":"orthography","sentence":"えいがをみました。","target":"みました","options":["見ました","看ました","観ました","視ました"],"answer":0},{"id":606,"cat":"orthography","sentence":"らじおをききました。","target":"ききました","options":["聴きました","聞きました","問きました","間きました"],"answer":1},{"id":607,"cat":"orthography","sentence":"しんぶんをよみました。","target":"よみました","options":["詠みました","語みました","読みました","誦みました"],"answer":2},{"id":608,"cat":"orthography","sentence":"なまえをかきました。","target":"かきました","options":["描きました","画きました","記きました","書きました"],"answer":3},{"id":609,"cat":"orthography","sentence":"ははとはなしました。","target":"はなしました","options":["話しました","語しました","談しました","言しました"],"answer":0},{"id":610,"cat":"orthography","sentence":"さようならといいました。","target":"いいました","options":["話いました","言いました","云いました","謂いました"],"answer":1},{"id":611,"cat":"orthography","sentence":"パンをかいました。","target":"かいました","options":["売いました","購いました","買いました","求いました"],"answer":2},{"id":612,"cat":"orthography","sentence":"ほんをうりました。","target":"うりました","options":["買りました","販りました","沽りました","売りました"],"answer":3},{"id":613,"cat":"orthography","sentence":"えきへいきました。","target":"いきました","options":["行きました","来ました","往ました","去ました"],"answer":0},{"id":614,"cat":"orthography","sentence":"ともだちがきました。","target":"きました","options":["行きました","来ました","往ました","到ました"],"answer":1},{"id":615,"cat":"orthography","sentence":"うちへかえりました。","target":"かえりました","options":["返りました","還りました","帰りました","戻りました"],"answer":2},{"id":616,"cat":"orthography","sentence":"きょうしつをでました。","target":"でました","options":["入ました","発ました","去ました","出ました"],"answer":3},{"id":617,"cat":"orthography","sentence":"へやにはいりました。","target":"はいりました","options":["入りました","出りました","進りました","込りました"],"answer":0},{"id":618,"cat":"orthography","sentence":"いすからたちました。","target":"たちました","options":["建ちました","立ちました","起ちました","居ちました"],"answer":1},{"id":619,"cat":"orthography","sentence":"ソファーにすわりました。","target":"すわりました","options":["坐りました","据りました","座りました","着りました"],"answer":2},{"id":620,"cat":"orthography","sentence":"こうえんをあるきました。","target":"あるきました","options":["走きました","行きました","步きました","歩きました"],"answer":3},{"id":621,"cat":"orthography","sentence":"えきまではしりました。","target":"はしりました","options":["走りました","歩りました","駆りました","奔りました"],"answer":0},{"id":622,"cat":"orthography","sentence":"せんせいにあいました。","target":"あいました","options":["合いました","会いました","逢いました","遇いました"],"answer":1},{"id":623,"cat":"orthography","sentence":"バスをまちました。","target":"まちました","options":["持ちました","侍ちました","待ちました","俟ちました"],"answer":2},{"id":624,"cat":"orthography","sentence":"そのひとをしりません。","target":"しりません","options":["智りません","識りません","悟りません","知りません"],"answer":3},{"id":625,"cat":"orthography","sentence":"そうおもいました。","target":"おもいました","options":["思いました","想いました","考いました","念いました"],"answer":0},{"id":626,"cat":"orthography","sentence":"よくかんがえました。","target":"かんがえました","options":["思えました","考えました","慮えました","量えました"],"answer":1},{"id":627,"cat":"orthography","sentence":"やくそくをわすれました。","target":"わすれました","options":["亡れました","失れました","忘れました","遺れました"],"answer":2},{"id":628,"cat":"orthography","sentence":"たんごをおぼえました。","target":"おぼえました","options":["憶えました","記えました","識えました","覚えました"],"answer":3},{"id":629,"cat":"orthography","sentence":"にほんごをおしえました。","target":"おしえました","options":["教えました","訓えました","誨えました","導えました"],"answer":0},{"id":630,"cat":"orthography","sentence":"ピアノをならいました。","target":"ならいました","options":["学いました","習いました","修いました","練いました"],"answer":1},{"id":631,"cat":"orthography","sentence":"よるべんきょうしました。","target":"べんきょう","options":["勉学","勤強","勉強","勉習"],"answer":2},{"id":632,"cat":"orthography","sentence":"れんしゅうしました。","target":"れんしゅう","options":["練修","連習","錬習","練習"],"answer":3},{"id":633,"cat":"orthography","sentence":"よくはたらきました。","target":"はたらきました","options":["働きました","仕きました","労きました","勤きました"],"answer":0},{"id":634,"cat":"orthography","sentence":"すこしやすみました。","target":"やすみました","options":["憩みました","休みました","歇みました","息みました"],"answer":1},{"id":635,"cat":"orthography","sentence":"ろくじにおきました。","target":"おきました","options":["興きました","立きました","起きました","覚きました"],"answer":2},{"id":636,"cat":"orthography","sentence":"はやくねました。","target":"ねました","options":["眠ました","就ました","臥ました","寝ました"],"answer":3},{"id":637,"cat":"orthography","sentence":"りょうりをつくりました。","target":"つくりました","options":["作りました","造りました","創りました","製りました"],"answer":0},{"id":638,"cat":"orthography","sentence":"パソコンをつかいました。","target":"つかいました","options":["仕いました","使いました","用いました","利いました"],"answer":1},{"id":639,"cat":"orthography","sentence":"かさをもちました。","target":"もちました","options":["待ちました","携ちました","持ちました","捧ちました"],"answer":2},{"id":640,"cat":"orthography","sentence":"ペンをとりました。","target":"とりました","options":["採りました","捕りました","執りました","取りました"],"answer":3},{"id":641,"cat":"orthography","sentence":"ほんをおきました。","target":"おきました","options":["置きました","起きました","据きました","設きました"],"answer":0},{"id":642,"cat":"orthography","sentence":"このがっこうはふるいです。","target":"がっこう","options":["学院","学校","学園","学堂"],"answer":1},{"id":643,"cat":"orthography","sentence":"きょうしつにだれもいません。","target":"きょうしつ","options":["教場","学室","教室","授室"],"answer":2},{"id":644,"cat":"orthography","sentence":"かいしゃははちじからです。","target":"かいしゃ","options":["公司","商社","企社","会社"],"answer":3},{"id":645,"cat":"orthography","sentence":"このへやはしずかです。","target":"へや","options":["部屋","房間","室屋","部室"],"answer":0},{"id":646,"cat":"orthography","sentence":"おおきないえです。","target":"いえ","options":["宅","家","屋","舎"],"answer":1},{"id":647,"cat":"orthography","sentence":"かぞくがおおいです。","target":"かぞく","options":["家属","親族","家族","家庭"],"answer":2},{"id":648,"cat":"orthography","sentence":"ちちとでかけます。","target":"ちち","options":["母","兄","夫","父"],"answer":3},{"id":649,"cat":"orthography","sentence":"ははのりょうりはおいしいです。","target":"はは","options":["母","父","姉","婦"],"answer":0},{"id":650,"cat":"orthography","sentence":"ともだちとあいます。","target":"ともだち","options":["友人","友達","親達","友徒"],"answer":1},{"id":651,"cat":"orthography","sentence":"せんせいがきます。","target":"せんせい","options":["学生","教生","先生","師生"],"answer":2},{"id":652,"cat":"orthography","sentence":"がくせいがおおぜいいます。","target":"がくせい","options":["先生","生徒","学人","学生"],"answer":3},{"id":653,"cat":"orthography","sentence":"こどもがあそんでいます。","target":"こども","options":["子供","小供","子共","児供"],"answer":0},{"id":654,"cat":"orthography","sentence":"このひとはやさしいです。","target":"ひと","options":["者","人","民","僕"],"answer":1},{"id":655,"cat":"orthography","sentence":"なまえをよびます。","target":"なまえ","options":["姓名","氏名","名前","名称"],"answer":2},{"id":656,"cat":"orthography","sentence":"あしたのてんきはどうですか。","target":"てんき","options":["天候","気候","空気","天気"],"answer":3},{"id":657,"cat":"orthography","sentence":"あめがたくさんふります。","target":"あめ","options":["雨","雪","雲","風"],"answer":0},{"id":658,"cat":"orthography","sentence":"ゆきがふっています。","target":"ゆき","options":["雨","雪","霜","氷"],"answer":1},{"id":659,"cat":"orthography","sentence":"かぜがふきます。","target":"かぜ","options":["雨","雪","風","嵐"],"answer":2},{"id":660,"cat":"orthography","sentence":"しろいくもがでます。","target":"くも","options":["空","雪","霞","雲"],"answer":3},{"id":661,"cat":"orthography","sentence":"そらがくらくなりました。","target":"そら","options":["空","天","雲","宙"],"answer":0},{"id":662,"cat":"orthography","sentence":"うみはひろいです。","target":"うみ","options":["川","海","湖","池"],"answer":1},{"id":663,"cat":"orthography","sentence":"かわがながれます。","target":"かわ","options":["海","池","川","江"],"answer":2},{"id":664,"cat":"orthography","sentence":"やまがみえます。","target":"やま","options":["岳","丘","峰","山"],"answer":3},{"id":665,"cat":"orthography","sentence":"はながさきます。","target":"はな","options":["花","華","葉","草"],"answer":0},{"id":666,"cat":"orthography","sentence":"きのはがおちます。","target":"き","options":["林","木","森","樹"],"answer":1},{"id":667,"cat":"orthography","sentence":"とりがなきます。","target":"とり","options":["烏","雀","鳥","禽"],"answer":2},{"id":668,"cat":"orthography","sentence":"さかながおよぎます。","target":"さかな","options":["肴","鮮","漁","魚"],"answer":3},{"id":669,"cat":"orthography","sentence":"どうぶつえんへいきます。","target":"どうぶつ","options":["動物","植物","生物","活物"],"answer":0},{"id":670,"cat":"orthography","sentence":"すきなたべものはなんですか。","target":"たべもの","options":["飲べ物","食べ物","喰べ物","吃べ物"],"answer":1},{"id":671,"cat":"orthography","sentence":"つめたいのみものがほしいです。","target":"のみもの","options":["食み物","呑み物","飲み物","飯み物"],"answer":2},{"id":672,"cat":"orthography","sentence":"みずをください。","target":"みず","options":["氷","湯","液","水"],"answer":3},{"id":673,"cat":"orthography","sentence":"おちゃがすきです。","target":"ちゃ","options":["茶","湯","水","酒"],"answer":0},{"id":674,"cat":"orthography","sentence":"にくをきります。","target":"にく","options":["魚","肉","骨","皮"],"answer":1},{"id":675,"cat":"orthography","sentence":"やさいをあらいます。","target":"やさい","options":["青菜","蔬菜","野菜","菜野"],"answer":2},{"id":676,"cat":"orthography","sentence":"くだものがおおいです。","target":"くだもの","options":["菓物","実物","食物","果物"],"answer":3},{"id":677,"cat":"orthography","sentence":"でんわばんごうをおしえてください。","target":"でんわ","options":["電話","電語","通話","電信"],"answer":0},{"id":678,"cat":"orthography","sentence":"てがみをかきます。","target":"てがみ","options":["手書","手紙","文紙","便紙"],"answer":1},{"id":679,"cat":"orthography","sentence":"しんぶんがとどきました。","target":"しんぶん","options":["新文","書聞","新聞","記聞"],"answer":2},{"id":680,"cat":"orthography","sentence":"ほんをかします。","target":"ほん","options":["書","冊","典","本"],"answer":3},{"id":681,"cat":"orthography","sentence":"ざっしをよみます。","target":"ざっし","options":["雑誌","雑紙","週誌","冊誌"],"answer":0},{"id":682,"cat":"orthography","sentence":"えいががはじまります。","target":"えいが","options":["影画","映画","動画","電画"],"answer":1},{"id":683,"cat":"orthography","sentence":"おんがくがすきです。","target":"おんがく","options":["音曲","楽音","音楽","声楽"],"answer":2},{"id":684,"cat":"orthography","sentence":"しゃしんをみせます。","target":"しゃしん","options":["映真","画真","像真","写真"],"answer":3},{"id":685,"cat":"orthography","sentence":"りょこうはたのしいです。","target":"りょこう","options":["旅行","旅游","遊行","行旅"],"answer":0},{"id":686,"cat":"orthography","sentence":"なつやすみがおわりました。","target":"やすみ","options":["憩み","休み","歇み","息み"],"answer":1},{"id":687,"cat":"orthography","sentence":"じゅぎょうがはじまります。","target":"じゅぎょう","options":["教業","講業","授業","課業"],"answer":2},{"id":688,"cat":"orthography","sentence":"しけんがむずかしいです。","target":"しけん","options":["試検","考験","考試","試験"],"answer":3},{"id":689,"cat":"orthography","sentence":"しゅくだいをだします。","target":"しゅくだい","options":["宿題","学題","課題","習題"],"answer":0},{"id":690,"cat":"orthography","sentence":"しつもんしてください。","target":"しつもん","options":["問質","質問","疑問","設問"],"answer":1},{"id":691,"cat":"orthography","sentence":"こたえをおしえてください。","target":"こたえ","options":["応え","返え","答え","解え"],"answer":2},{"id":692,"cat":"orthography","sentence":"もんだいをときます。","target":"もんだい","options":["課題","試題","問答","問題"],"answer":3},{"id":693,"cat":"orthography","sentence":"このやまはおおきいです。","target":"おおきい","options":["大きい","太きい","巨きい","広きい"],"answer":0},{"id":694,"cat":"orthography","sentence":"このとりはちいさいです。","target":"ちいさい","options":["少さい","小さい","細さい","微さい"],"answer":1},{"id":695,"cat":"orthography","sentence":"このビルはたかいです。","target":"たかい","options":["貴い","崇い","高い","尊い"],"answer":2},{"id":696,"cat":"orthography","sentence":"このいすはひくいです。","target":"ひくい","options":["短い","卑い","下い","低い"],"answer":3},{"id":697,"cat":"orthography","sentence":"このかわはながいです。","target":"ながい","options":["長い","永い","遠い","久い"],"answer":0},{"id":698,"cat":"orthography","sentence":"このはしはみじかいです。","target":"みじかい","options":["少い","短い","低い","細い"],"answer":1},{"id":699,"cat":"orthography","sentence":"あたらしいふくです。","target":"あたらしい","options":["旧しい","初しい","新しい","鮮しい"],"answer":2},{"id":700,"cat":"orthography","sentence":"ふるいかばんです。","target":"ふるい","options":["旧い","老い","故い","古い"],"answer":3},{"id":701,"cat":"orthography","sentence":"あかいくつです。","target":"あかい","options":["赤い","紅い","朱い","丹い"],"answer":0},{"id":702,"cat":"orthography","sentence":"あおいうみです。","target":"あおい","options":["蒼い","青い","碧い","藍い"],"answer":1},{"id":703,"cat":"orthography","sentence":"しろいかみです。","target":"しろい","options":["素い","皓い","白い","皙い"],"answer":2},{"id":704,"cat":"orthography","sentence":"くろいかばんです。","target":"くろい","options":["玄い","暗い","墨い","黒い"],"answer":3},{"id":705,"cat":"orthography","sentence":"きょうはよいてんきです。","target":"よい","options":["良い","善い","好い","佳い"],"answer":0},{"id":706,"cat":"orthography","sentence":"わるいことをしました。","target":"わるい","options":["惡い","悪い","邪い","劣い"],"answer":1},{"id":707,"cat":"orthography","sentence":"このへやはあかるいです。","target":"あかるい","options":["光るい","輝るい","明るい","晴るい"],"answer":2},{"id":708,"cat":"orthography","sentence":"へやがくらいです。","target":"くらい","options":["黒い","闇い","冥い","暗い"],"answer":3},{"id":709,"cat":"orthography","sentence":"あついひです。","target":"あつい","options":["暑い","熱い","温い","炎い"],"answer":0},{"id":710,"cat":"orthography","sentence":"さむいあさです。","target":"さむい","options":["冷い","寒い","涼い","凍い"],"answer":1},{"id":711,"cat":"orthography","sentence":"このスープはあついです。","target":"あつい","options":["暑い","温い","熱い","炎い"],"answer":2},{"id":712,"cat":"orthography","sentence":"みずがつめたいです。","target":"つめたい","options":["寒たい","涼たい","凍たい","冷たい"],"answer":3},{"id":713,"cat":"orthography","sentence":"そとはあたたかいです。","target":"あたたかい","options":["暖かい","温かい","熱かい","暑かい"],"answer":0},{"id":714,"cat":"orthography","sentence":"おちゃがぬるいです。","target":"ぬるい","options":["暖い","温い","熱い","緩い"],"answer":1},{"id":715,"cat":"orthography","sentence":"はやくあるきます。","target":"はやく","options":["早く","疾く","速く","急く"],"answer":2},{"id":716,"cat":"orthography","sentence":"あさはやくおきます。","target":"はやく","options":["速く","疾く","急く","早く"],"answer":3},{"id":717,"cat":"orthography","sentence":"おそいばんごはんです。","target":"おそい","options":["遅い","晩い","鈍い","緩い"],"answer":0},{"id":718,"cat":"orthography","sentence":"このたべものはおいしいです。","target":"おいしい","options":["味しい","美味しい","甘しい","旨しい"],"answer":1},{"id":719,"cat":"orthography","sentence":"にがいくすりです。","target":"にがい","options":["辛い","渋い","苦い","酸い"],"answer":2},{"id":720,"cat":"orthography","sentence":"あまいケーキです。","target":"あまい","options":["旨い","美い","糖い","甘い"],"answer":3},{"id":721,"cat":"orthography","sentence":"からいカレーです。","target":"からい","options":["辛い","鹹い","酸い","苦い"],"answer":0},{"id":722,"cat":"orthography","sentence":"おもいかばんです。","target":"おもい","options":["軽い","重い","厚い","大い"],"answer":1},{"id":723,"cat":"orthography","sentence":"かるいかばんです。","target":"かるい","options":["重い","薄い","軽い","少い"],"answer":2},{"id":724,"cat":"orthography","sentence":"つよいかぜです。","target":"つよい","options":["弱い","硬い","剛い","強い"],"answer":3},{"id":725,"cat":"orthography","sentence":"よわいこえです。","target":"よわい","options":["弱い","強い","柔い","軟い"],"answer":0},{"id":726,"cat":"orthography","sentence":"はやいくるまです。","target":"はやい","options":["早い","速い","疾い","急い"],"answer":1},{"id":727,"cat":"orthography","sentence":"ひろいこうえんです。","target":"ひろい","options":["大い","開い","広い","闊い"],"answer":2},{"id":728,"cat":"orthography","sentence":"せまいみちです。","target":"せまい","options":["窄い","小い","隘い","狭い"],"answer":3},{"id":729,"cat":"orthography","sentence":"きたないへやです。","target":"きたない","options":["汚い","穢い","濁い","醜い"],"answer":0},{"id":730,"cat":"orthography","sentence":"きれいなはなです。","target":"きれい","options":["奇麗","綺麗","清麗","美麗"],"answer":1},{"id":731,"cat":"orthography","sentence":"しずかなまちです。","target":"しずか","options":["寂か","閑か","静か","黙か"],"answer":2},{"id":732,"cat":"orthography","sentence":"にぎやかなばしょです。","target":"にぎやか","options":["繁やか","喧やか","盛やか","賑やか"],"answer":3},{"id":733,"cat":"orthography","sentence":"ひまなじかんです。","target":"ひま","options":["暇","閑","空","隙"],"answer":0},{"id":734,"cat":"orthography","sentence":"いそがしいひです。","target":"いそがしい","options":["繁しい","忙しい","急しい","慌しい"],"answer":1},{"id":735,"cat":"orthography","sentence":"しんせつなひとです。","target":"しんせつ","options":["新設","親接","親切","親節"],"answer":2},{"id":736,"cat":"orthography","sentence":"げんきなこどもです。","target":"げんき","options":["原気","玄気","源気","元気"],"answer":3},{"id":737,"cat":"orthography","sentence":"ゆうめいなひとです。","target":"ゆうめい","options":["有名","有明","友名","優名"],"answer":0},{"id":738,"cat":"orthography","sentence":"べんりなどうぐです。","target":"べんり","options":["弁利","便利","便理","辺利"],"answer":1},{"id":739,"cat":"orthography","sentence":"ふべんなばしょです。","target":"ふべん","options":["不弁","否便","不便","無便"],"answer":2},{"id":740,"cat":"orthography","sentence":"たいせつなもののです。","target":"たいせつ","options":["太切","大節","大設","大切"],"answer":3},{"id":741,"cat":"orthography","sentence":"じょうずなえです。","target":"じょうず","options":["上手","上巧","上達","上善"],"answer":0},{"id":742,"cat":"orthography","sentence":"へたなうたです。","target":"へた","options":["下巧","下手","下達","劣手"],"answer":1},{"id":743,"cat":"orthography","sentence":"すきなたべものです。","target":"すき","options":["好好","愛き","好き","恋き"],"answer":2},{"id":744,"cat":"orthography","sentence":"きらいなやさいです。","target":"きらい","options":["厭い","悪い","拒い","嫌い"],"answer":3},{"id":745,"cat":"orthography","sentence":"つぎのえきでおります。","target":"つぎ","options":["次","第","副","継"],"answer":0},{"id":746,"cat":"orthography","sentence":"まえのひです。","target":"まえ","options":["先","前","後","始"],"answer":1},{"id":747,"cat":"orthography","sentence":"うしろをみます。","target":"うしろ","options":["裏ろ","背ろ","後ろ","後方"],"answer":2},{"id":748,"cat":"orthography","sentence":"みぎへまがります。","target":"みぎ","options":["左","西","東","右"],"answer":3},{"id":749,"cat":"orthography","sentence":"ひだりへいきます。","target":"ひだり","options":["左","右","東","西"],"answer":0},{"id":750,"cat":"orthography","sentence":"うえをみます。","target":"うえ","options":["下","上","高","頂"],"answer":1},{"id":751,"cat":"orthography","sentence":"したにおきます。","target":"した","options":["上","低","下","底"],"answer":2},{"id":752,"cat":"orthography","sentence":"なかにあります。","target":"なか","options":["内","間","央","中"],"answer":3},{"id":753,"cat":"orthography","sentence":"そとへでます。","target":"そと","options":["外","中","表","裏"],"answer":0},{"id":754,"cat":"orthography","sentence":"きたへいきます。","target":"きた","options":["南","北","東","西"],"answer":1},{"id":755,"cat":"orthography","sentence":"みなみへいきます。","target":"みなみ","options":["北","東","南","西"],"answer":2},{"id":756,"cat":"orthography","sentence":"ひがしのほうです。","target":"ひがし","options":["西","南","北","東"],"answer":3},{"id":757,"cat":"orthography","sentence":"にしのそらです。","target":"にし","options":["西","東","北","南"],"answer":0},{"id":758,"cat":"orthography","sentence":"あさごはんです。","target":"あさ","options":["晩","朝","昼","夜"],"answer":1},{"id":759,"cat":"orthography","sentence":"ひるごはんです。","target":"ひる","options":["朝","夜","昼","晩"],"answer":2},{"id":760,"cat":"orthography","sentence":"ばんごはんです。","target":"ばん","options":["朝","昼","夕","晩"],"answer":3},{"id":761,"cat":"orthography","sentence":"よるになりました。","target":"よる","options":["夜","晩","昼","宵"],"answer":0},{"id":762,"cat":"orthography","sentence":"きょうはげつようびです。","target":"きょう","options":["昨日","今日","明日","本日"],"answer":1},{"id":763,"cat":"orthography","sentence":"あしたはやすみです。","target":"あした","options":["今日","昨日","明日","翌日"],"answer":2},{"id":764,"cat":"orthography","sentence":"きのうのこと。","target":"きのう","options":["今日","明日","前日","昨日"],"answer":3},{"id":765,"cat":"orthography","sentence":"いまなんじですか。","target":"いま","options":["今","昔","当","現"],"answer":0},{"id":766,"cat":"orthography","sentence":"むかしのはなしです。","target":"むかし","options":["今","昔","古","往"],"answer":1},{"id":767,"cat":"orthography","sentence":"あたらしいとしです。","target":"とし","options":["歳","年齢","年","年代"],"answer":2},{"id":768,"cat":"orthography","sentence":"ことしのはる。","target":"はる","options":["夏","秋","冬","春"],"answer":3},{"id":769,"cat":"orthography","sentence":"あついなつです。","target":"なつ","options":["夏","春","秋","冬"],"answer":0},{"id":770,"cat":"orthography","sentence":"すずしいあき。","target":"あき","options":["春","秋","夏","冬"],"answer":1},{"id":771,"cat":"orthography","sentence":"さむいふゆ。","target":"ふゆ","options":["秋","夏","冬","春"],"answer":2},{"id":772,"cat":"orthography","sentence":"いっしゅうかんやすみます。","target":"しゅうかん","options":["周間","週刊","旬間","週間"],"answer":3},{"id":773,"cat":"orthography","sentence":"ついたちはやすみです。","target":"ついたち","options":["一日","一月","初日","朔日"],"answer":0},{"id":774,"cat":"orthography","sentence":"にじかんまちました。","target":"じかん","options":["時刻","時間","時期","時候"],"answer":1},{"id":775,"cat":"orthography","sentence":"ながいじかんです。","target":"じかん","options":["時刻","時期","時間","時候"],"answer":2},{"id":776,"cat":"orthography","sentence":"みちがひろいです。","target":"みち","options":["路","街","途","道"],"answer":3},{"id":777,"cat":"orthography","sentence":"えきまであるきます。","target":"えき","options":["駅","站","車駅","電駅"],"answer":0},{"id":778,"cat":"orthography","sentence":"くうこうへいきます。","target":"くうこう","options":["飛場","空港","空場","航港"],"answer":1},{"id":779,"cat":"orthography","sentence":"びょういんへいきます。","target":"びょういん","options":["医院","医館","病院","病館"],"answer":2},{"id":780,"cat":"orthography","sentence":"ぎんこうでおろします。","target":"ぎんこう","options":["金行","銭行","貨行","銀行"],"answer":3},{"id":781,"cat":"orthography","sentence":"ゆうびんきょくでだします。","target":"ゆうびんきょく","options":["郵便局","郵政局","通便局","郵使局"],"answer":0},{"id":782,"cat":"orthography","sentence":"こうばんのまえ。","target":"こうばん","options":["派所","交番","警番","巡番"],"answer":1},{"id":783,"cat":"orthography","sentence":"デパートでかいます。","target":"デパート","options":["商店","商場","百貨店","大店"],"answer":2},{"id":784,"cat":"orthography","sentence":"すーぱーでかいます。","target":"スーパー","options":["市場","市店","商超","超市"],"answer":3},{"id":785,"cat":"orthography","sentence":"ほてるにとまります。","target":"ホテル","options":["旅館","酒店","旅店","宿舎"],"answer":0},{"id":786,"cat":"orthography","sentence":"きっさてんでまちます。","target":"きっさてん","options":["珈琲店","喫茶店","茶店","珈房"],"answer":1},{"id":787,"cat":"orthography","sentence":"レストランでたべます。","target":"レストラン","options":["食堂","飲食店","料理店","食店"],"answer":2},{"id":788,"cat":"orthography","sentence":"しょくどうでごはん。","target":"しょくどう","options":["飯堂","食館","飲堂","食堂"],"answer":3},{"id":789,"cat":"orthography","sentence":"としょかんでよみます。","target":"としょかん","options":["図書館","書館","蔵書館","書庫館"],"answer":0},{"id":790,"cat":"orthography","sentence":"びじゅつかんをみます。","target":"びじゅつかん","options":["芸術館","美術館","画廊","術館"],"answer":1},{"id":791,"cat":"orthography","sentence":"はくぶつかんへいきます。","target":"はくぶつかん","options":["文物館","歴史館","博物館","博物庫"],"answer":2},{"id":792,"cat":"orthography","sentence":"こうえんであそびます。","target":"こうえん","options":["花園","遊園","公苑","公園"],"answer":3},{"id":793,"cat":"orthography","sentence":"どうぶつえんへいきます。","target":"どうぶつえん","options":["動物園","動物苑","生物園","禽獣園"],"answer":0},{"id":794,"cat":"orthography","sentence":"しんごうをまちます。","target":"しんごう","options":["標識","信号","交号","指号"],"answer":1},{"id":795,"cat":"orthography","sentence":"でんしゃにのります。","target":"でんしゃ","options":["汽車","列車","電車","電気車"],"answer":2},{"id":796,"cat":"orthography","sentence":"ちかてつでいきます。","target":"ちかてつ","options":["地鉄","下鉄","地下道","地下鉄"],"answer":3},{"id":797,"cat":"orthography","sentence":"しんかんせんにのります。","target":"しんかんせん","options":["新幹線","新線","高速線","特急線"],"answer":0},{"id":798,"cat":"orthography","sentence":"ひこうきにのります。","target":"ひこうき","options":["飛行器","飛行機","航空機","飛機"],"answer":1},{"id":799,"cat":"orthography","sentence":"じてんしゃでいきます。","target":"じてんしゃ","options":["自動車","自行車","自転車","自車"],"answer":2},{"id":800,"cat":"orthography","sentence":"じどうしゃをかいます。","target":"じどうしゃ","options":["自転車","自運車","自走車","自動車"],"answer":3},{"id":801,"cat":"context_vocab","sentence":"今日は天気が（　　）です。","options":["いい","悪い","高い","安い"],"answer":0},{"id":802,"cat":"context_vocab","sentence":"さむいので、まどを（　　）。","options":["あけました","しめました","つけました","けしました"],"answer":1},{"id":803,"cat":"context_vocab","sentence":"でんきを（　　）ください。","options":["しめて","あけて","つけて","はいて"],"answer":2},{"id":804,"cat":"context_vocab","sentence":"みずを（　　）のみました。","options":["きれい","しずか","げんき","たくさん"],"answer":3},{"id":805,"cat":"context_vocab","sentence":"ともだちに（　　）もらいました。","options":["プレゼントを","プレゼントが","プレゼントは","プレゼントの"],"answer":0},{"id":806,"cat":"context_vocab","sentence":"あめがふるから、かさを（　　）。","options":["もちません","もちます","とります","おきます"],"answer":1},{"id":807,"cat":"context_vocab","sentence":"いっしょうけんめい（　　）しました。","options":["あそび","やすみ","べんきょう","げんき"],"answer":2},{"id":808,"cat":"context_vocab","sentence":"このりょうりはとても（　　）です。","options":["まずい","たかい","やすい","おいしい"],"answer":3},{"id":809,"cat":"context_vocab","sentence":"にほんごのしけんは（　　）でした。","options":["むずかしい","やさしい","たかい","ひくい"],"answer":0},{"id":810,"cat":"context_vocab","sentence":"へやが（　　）ので、そうじします。","options":["きれい","きたない","しずか","うるさい"],"answer":1},{"id":811,"cat":"context_vocab","sentence":"あかちゃんが（　　）います。","options":["おきて","たって","ねて","すわって"],"answer":2},{"id":812,"cat":"context_vocab","sentence":"バスにまにあうように（　　）はしりました。","options":["ゆっくり","しずかに","おそく","いそいで"],"answer":3},{"id":813,"cat":"context_vocab","sentence":"このみちは（　　）ので、きをつけてください。","options":["せまい","ひろい","ながい","みじかい"],"answer":0},{"id":814,"cat":"context_vocab","sentence":"パーティーはとても（　　）でした。","options":["しずか","にぎやか","ひま","いそがしい"],"answer":1},{"id":815,"cat":"context_vocab","sentence":"あしたは（　　）なので、うちにいます。","options":["いそがしい","げんき","ひま","しんせつ"],"answer":2},{"id":816,"cat":"context_vocab","sentence":"このかばんは（　　）ので、もてません。","options":["かるい","ちいさい","おおきい","おもい"],"answer":3},{"id":817,"cat":"context_vocab","sentence":"せんせいはとても（　　）ひとです。","options":["しんせつな","しつれいな","へたな","きらいな"],"answer":0},{"id":818,"cat":"context_vocab","sentence":"びょうきですから、（　　）します。","options":["はたらき","やすみ","べんきょう","あそび"],"answer":1},{"id":819,"cat":"context_vocab","sentence":"このレストランは（　　）です。","options":["しんせつ","べんり","ゆうめい","たいせつ"],"answer":2},{"id":820,"cat":"context_vocab","sentence":"えきは（　　）にあります。","options":["とおく","うえ","した","ちかく"],"answer":3},{"id":821,"cat":"context_vocab","sentence":"うちから学校まで（　　）です。","options":["とおい","ちかい","たかい","ひくい"],"answer":0},{"id":822,"cat":"context_vocab","sentence":"くすりを（　　）ました。","options":["たべ","のみ","かき","よみ"],"answer":1},{"id":823,"cat":"context_vocab","sentence":"ドアを（　　）ください。","options":["のんで","たべて","しめて","かいて"],"answer":2},{"id":824,"cat":"context_vocab","sentence":"コーヒーに（　　）をいれます。","options":["しお","こしょう","す","さとう"],"answer":3},{"id":825,"cat":"context_vocab","sentence":"テレビを（　　）とおもいます。","options":["かおう","たべよう","のもう","いこう"],"answer":0},{"id":826,"cat":"context_vocab","sentence":"えいがが（　　）から、みにいきます。","options":["きらい","すき","へた","じょうず"],"answer":1},{"id":827,"cat":"context_vocab","sentence":"やさいを（　　）りょうりします。","options":["かいて","かって","きって","もって"],"answer":2},{"id":828,"cat":"context_vocab","sentence":"あたらしいふくを（　　）ました。","options":["の","はい","もち","き"],"answer":3},{"id":829,"cat":"context_vocab","sentence":"ぼうしを（　　）ください。","options":["かぶって","はいて","きて","しめて"],"answer":0},{"id":830,"cat":"context_vocab","sentence":"くつを（　　）ください。","options":["きて","はいて","かぶって","しめて"],"answer":1},{"id":831,"cat":"context_vocab","sentence":"ネクタイを（　　）ます。","options":["はき","き","しめ","かぶり"],"answer":2},{"id":832,"cat":"context_vocab","sentence":"めがねを（　　）います。","options":["きて","はいて","しめて","かけて"],"answer":3},{"id":833,"cat":"context_vocab","sentence":"でんしゃに（　　）ました。","options":["のり","おり","はしり","あるき"],"answer":0},{"id":834,"cat":"context_vocab","sentence":"つぎのえきで（　　）ます。","options":["のり","おり","はし","あるき"],"answer":1},{"id":835,"cat":"context_vocab","sentence":"おとうとが（　　）うまれました。","options":["もう","まだ","やっと","ずっと"],"answer":2},{"id":836,"cat":"context_vocab","sentence":"わたしはにほんに（　　）きました。","options":["いつも","よく","たまに","はじめて"],"answer":3},{"id":837,"cat":"context_vocab","sentence":"かれは（　　）しんせつです。","options":["とても","すこし","ぜんぜん","あまり"],"answer":0},{"id":838,"cat":"context_vocab","sentence":"にほんごは（　　）むずかしくないです。","options":["とても","あまり","すごく","ずいぶん"],"answer":1},{"id":839,"cat":"context_vocab","sentence":"えいごは（　　）わかりません。","options":["とても","たくさん","ぜんぜん","すこし"],"answer":2},{"id":840,"cat":"context_vocab","sentence":"（　　）やすみます。","options":["はやく","すぐ","たくさん","ゆっくり"],"answer":3},{"id":841,"cat":"context_vocab","sentence":"これは（　　）もんだいです。","options":["かんたんな","むずかしい","べんりな","たいせつな"],"answer":0},{"id":842,"cat":"context_vocab","sentence":"（　　）はらいます。","options":["くるまで","クレジットカードで","ペンで","ほんで"],"answer":1},{"id":843,"cat":"context_vocab","sentence":"てを（　　）ください。","options":["みて","きいて","あらって","よんで"],"answer":2},{"id":844,"cat":"context_vocab","sentence":"はを（　　）ください。","options":["あらって","かいて","よんで","みがいて"],"answer":3},{"id":845,"cat":"context_vocab","sentence":"かおを（　　）ました。","options":["あらい","のみ","たべ","かき"],"answer":0},{"id":846,"cat":"context_vocab","sentence":"おふろに（　　）ました。","options":["のぼり","はいり","あがり","くだり"],"answer":1},{"id":847,"cat":"context_vocab","sentence":"シャワーを（　　）ました。","options":["のみ","たべ","あび","はいり"],"answer":2},{"id":848,"cat":"context_vocab","sentence":"かみを（　　）もらいました。","options":["よんで","かいて","みて","きって"],"answer":3},{"id":849,"cat":"context_vocab","sentence":"かぜを（　　）しまいました。","options":["ひいて","して","ついて","おいて"],"answer":0},{"id":850,"cat":"context_vocab","sentence":"ねつが（　　）ます。","options":["ない","あり","いき","こ"],"answer":1},{"id":851,"cat":"context_vocab","sentence":"せきが（　　）ます。","options":["あり","ない","でま","いき"],"answer":2},{"id":852,"cat":"context_vocab","sentence":"おなかが（　　）です。","options":["いっぱい","たくさん","げんき","すいた"],"answer":3},{"id":853,"cat":"context_vocab","sentence":"のどが（　　）です。","options":["かわいた","すいた","いっぱい","げんき"],"answer":0},{"id":854,"cat":"context_vocab","sentence":"つかれたから、（　　）やすみたい。","options":["ぜんぜん","すこし","あまり","まだ"],"answer":1},{"id":855,"cat":"context_vocab","sentence":"あつくてのどが（　　）。","options":["すきます","いたいです","かわきます","ねます"],"answer":2},{"id":856,"cat":"context_vocab","sentence":"にもつが（　　）から、もてません。","options":["やすい","たかい","かるい","おもすぎる"],"answer":3},{"id":857,"cat":"context_vocab","sentence":"ちちは（　　）でまいにちはたらいています。","options":["かいしゃ","がっこう","びょういん","ぎんこう"],"answer":0},{"id":858,"cat":"context_vocab","sentence":"おかねを（　　）にあずけます。","options":["ゆうびんきょく","ぎんこう","こうばん","えき"],"answer":1},{"id":859,"cat":"context_vocab","sentence":"てがみを（　　）でだします。","options":["ぎんこう","えき","ゆうびんきょく","びょういん"],"answer":2},{"id":860,"cat":"context_vocab","sentence":"きってを（　　）ました。","options":["かき","おし","ひき","はり"],"answer":3},{"id":861,"cat":"context_vocab","sentence":"でんわを（　　）ます。","options":["かけ","ひき","おし","うち"],"answer":0},{"id":862,"cat":"context_vocab","sentence":"でんわに（　　）ました。","options":["かけ","でま","ひき","おし"],"answer":1},{"id":863,"cat":"context_vocab","sentence":"しゃしんを（　　）ました。","options":["み","かき","とり","よみ"],"answer":2},{"id":864,"cat":"context_vocab","sentence":"りょうりが（　　）です。","options":["へた","きらい","すき","じょうず"],"answer":3},{"id":865,"cat":"context_vocab","sentence":"ピアノが（　　）じゃないです。","options":["じょうず","へた","きらい","すき"],"answer":0},{"id":866,"cat":"context_vocab","sentence":"うたが（　　）です。","options":["きらい","すき","じょうず","へた"],"answer":1},{"id":867,"cat":"context_vocab","sentence":"このかばんは（　　）です。","options":["ふべん","しんせつ","べんり","たいせつ"],"answer":2},{"id":868,"cat":"context_vocab","sentence":"ここは（　　）なところです。","options":["にぎやか","ひま","いそがしい","しずか"],"answer":3},{"id":869,"cat":"context_vocab","sentence":"あのひとは（　　）なひとです。","options":["ゆうめい","しんせつ","たいせつ","べんり"],"answer":0},{"id":870,"cat":"context_vocab","sentence":"けんこうは（　　）です。","options":["しんせつ","たいせつ","べんり","ゆうめい"],"answer":1},{"id":871,"cat":"context_vocab","sentence":"かぜをひいたので、（　　）をのみました。","options":["みず","おちゃ","くすり","コーヒー"],"answer":2},{"id":872,"cat":"context_vocab","sentence":"あついですから、エアコンを（　　）ました。","options":["けし","あけ","しめ","つけ"],"answer":3},{"id":873,"cat":"context_vocab","sentence":"さむいですから、ヒーターを（　　）ました。","options":["つけ","けし","あけ","しめ"],"answer":0},{"id":874,"cat":"context_vocab","sentence":"でかけるまえに、でんきを（　　）ます。","options":["つけ","けし","あけ","しめ"],"answer":1},{"id":875,"cat":"context_vocab","sentence":"へやがくらいので、でんきを（　　）ます。","options":["けし","しめ","つけ","あけ"],"answer":2},{"id":876,"cat":"context_vocab","sentence":"としょかんで、しずかに（　　）ください。","options":["いって","きて","みて","して"],"answer":3},{"id":877,"cat":"context_vocab","sentence":"これから、じゅぎょうが（　　）ます。","options":["はじまり","おわり","つかい","つくり"],"answer":0},{"id":878,"cat":"context_vocab","sentence":"じゅぎょうが（　　）、うちへかえります。","options":["はじまって","おわって","つかって","つくって"],"answer":1},{"id":879,"cat":"context_vocab","sentence":"えんぴつで（　　）ください。","options":["よんで","きいて","かいて","みて"],"answer":2},{"id":880,"cat":"context_vocab","sentence":"じしょで（　　）ください。","options":["きいて","みて","よんで","しらべて"],"answer":3},{"id":881,"cat":"context_vocab","sentence":"せんせいに（　　）ました。","options":["ききました","いいました","みました","かきました"],"answer":0},{"id":882,"cat":"context_vocab","sentence":"ともだちに（　　）ました。","options":["かき","はなし","み","きき"],"answer":1},{"id":883,"cat":"context_vocab","sentence":"これを（　　）ください。","options":["かいて","よんで","みて","きいて"],"answer":2},{"id":884,"cat":"context_vocab","sentence":"このうたを（　　）ください。","options":["みて","かいて","よんで","きいて"],"answer":3},{"id":885,"cat":"context_vocab","sentence":"このほんを（　　）ください。","options":["よんで","みて","かいて","きいて"],"answer":0},{"id":886,"cat":"context_vocab","sentence":"なまえを（　　）ください。","options":["よんで","かいて","みて","きいて"],"answer":1},{"id":887,"cat":"context_vocab","sentence":"もういちど（　　）ください。","options":["して","きて","いって","みて"],"answer":2},{"id":888,"cat":"context_vocab","sentence":"すこし（　　）ください。","options":["いって","して","きて","まって"],"answer":3},{"id":889,"cat":"context_vocab","sentence":"ゆっくり（　　）ください。","options":["はなして","いって","して","みて"],"answer":0},{"id":890,"cat":"context_vocab","sentence":"おかねを（　　）います。","options":["かいて","もって","しって","よんで"],"answer":1},{"id":891,"cat":"context_vocab","sentence":"かぎを（　　）います。","options":["かいて","しって","もって","よんで"],"answer":2},{"id":892,"cat":"context_vocab","sentence":"そのこと（　　）います。","options":["をまって","をあって","をみて","をしって"],"answer":3},{"id":893,"cat":"context_vocab","sentence":"きょうとに（　　）ことがあります。","options":["いった","た","のんだ","やすんだ"],"answer":0},{"id":894,"cat":"context_vocab","sentence":"すしを（　　）ことがあります。","options":["のんだ","たべた","いった","やすんだ"],"answer":1},{"id":895,"cat":"context_vocab","sentence":"にほんで（　　）ことがあります。","options":["のんだ","たべた","はたらいた","やすんだ"],"answer":2},{"id":896,"cat":"context_vocab","sentence":"ピアノを（　　）ことができます。","options":["する","くる","いく","ひく"],"answer":3},{"id":897,"cat":"context_vocab","sentence":"くるまを（　　）ことができます。","options":["うんてんする","ひく","する","くる"],"answer":0},{"id":898,"cat":"context_vocab","sentence":"およぐことが（　　）ます。","options":["あり","でき","い","し"],"answer":1},{"id":899,"cat":"context_vocab","sentence":"あした、しごとに（　　）なければなりません。","options":["のま","たべ","いか","み"],"answer":2},{"id":900,"cat":"context_vocab","sentence":"くすりを（　　）なければなりません。","options":["たべ","よま","かか","のま"],"answer":3},{"id":901,"cat":"context_vocab","sentence":"（　　）てから、ねます。","options":["はをみがい","かおをあらっ","ふくをき","くつをはい"],"answer":0},{"id":902,"cat":"context_vocab","sentence":"（　　）まえに、てをあらいます。","options":["ねる","ごはんをたべる","いく","おきる"],"answer":1},{"id":903,"cat":"context_vocab","sentence":"きょうしつに（　　）がいます。","options":["せんせい","ひと","がくせい","ども"],"answer":2},{"id":904,"cat":"context_vocab","sentence":"わたしは（　　）がすきです。","options":["くるま","いす","つくえ","りんご"],"answer":3},{"id":905,"cat":"context_vocab","sentence":"（　　）であそびます。","options":["こうえん","がっこう","かいしゃ","びょういん"],"answer":0},{"id":906,"cat":"context_vocab","sentence":"ほんやで（　　）をかいました。","options":["くるま","ほん","いす","つくえ"],"answer":1},{"id":907,"cat":"context_vocab","sentence":"くだものやで（　　）をかいました。","options":["ほん","くるま","りんご","いす"],"answer":2},{"id":908,"cat":"context_vocab","sentence":"はなやで（　　）をかいました。","options":["ほん","りんご","いす","はな"],"answer":3},{"id":909,"cat":"context_vocab","sentence":"にくやで（　　）をかいました。","options":["にく","はな","ほん","いす"],"answer":0},{"id":910,"cat":"context_vocab","sentence":"さかなやで（　　）をかいました。","options":["にく","さかな","はな","ほん"],"answer":1},{"id":911,"cat":"context_vocab","sentence":"やおやで（　　）をかいました。","options":["さかな","にく","やさい","はな"],"answer":2},{"id":912,"cat":"context_vocab","sentence":"パンやで（　　）をかいました。","options":["やさい","さかな","にく","パン"],"answer":3},{"id":913,"cat":"context_vocab","sentence":"あついので（　　）をのみます。","options":["みず","にく","ほん","くるま"],"answer":0},{"id":914,"cat":"context_vocab","sentence":"さむいので（　　）をのみます。","options":["みず","おちゃ","にく","ほん"],"answer":1},{"id":915,"cat":"context_vocab","sentence":"ケーキは（　　）です。","options":["からい","にがい","あまい","しおからい"],"answer":2},{"id":916,"cat":"context_vocab","sentence":"レモンは（　　）です。","options":["あまい","からい","にがい","すっぱい"],"answer":3},{"id":917,"cat":"context_vocab","sentence":"コーヒーは（　　）です。","options":["にがい","あまい","からい","すっぱい"],"answer":0},{"id":918,"cat":"context_vocab","sentence":"カレーは（　　）です。","options":["あまい","からい","にがい","すっぱい"],"answer":1},{"id":919,"cat":"context_vocab","sentence":"ぞうは（　　）どうぶつです。","options":["ちいさい","たかい","おおきい","ひくい"],"answer":2},{"id":920,"cat":"context_vocab","sentence":"ありは（　　）どうぶつです。","options":["おおきい","たかい","ひくい","ちいさい"],"answer":3},{"id":921,"cat":"context_vocab","sentence":"ふじさんは（　　）やまです。","options":["たかい","ひくい","ちいさい","ふとい"],"answer":0},{"id":922,"cat":"context_vocab","sentence":"このほんは（　　）です。","options":["つまらない","おもしろい","きたない","きれい"],"answer":1},{"id":923,"cat":"context_vocab","sentence":"このえいがは（　　）です。","options":["おもしろい","きれい","つまらない","きたない"],"answer":2},{"id":924,"cat":"context_vocab","sentence":"パーティーは（　　）でした。","options":["かなしい","さびしい","うれしい","たのしい"],"answer":3},{"id":925,"cat":"context_vocab","sentence":"おもちゃをもらって（　　）です。","options":["うれしい","かなしい","さびしい","たのしい"],"answer":0},{"id":926,"cat":"context_vocab","sentence":"ともだちがいなくて（　　）です。","options":["うれしい","さびしい","かなしい","たのしい"],"answer":1},{"id":927,"cat":"context_vocab","sentence":"ペットがしんで（　　）です。","options":["うれしい","たのしい","かなしい","さびしい"],"answer":2},{"id":928,"cat":"context_vocab","sentence":"このえは（　　）です。","options":["きたない","つよい","よわい","うつくしい"],"answer":3},{"id":929,"cat":"context_vocab","sentence":"かれは（　　）ひとです。","options":["つよい","よわい","ほそい","ふとい"],"answer":0},{"id":930,"cat":"context_vocab","sentence":"このペンは（　　）です。","options":["ふとい","ほそい","おおきい","ちいさい"],"answer":1},{"id":931,"cat":"context_vocab","sentence":"このきは（　　）です。","options":["ほそい","あかい","ふとい","あおい"],"answer":2},{"id":932,"cat":"context_vocab","sentence":"おとうさんは（　　）です。","options":["きびしい","かなしい","うれしい","やさしい"],"answer":3},{"id":933,"cat":"context_vocab","sentence":"おかあさんは（　　）です。","options":["やさしい","きびしい","かなしい","うれしい"],"answer":0},{"id":934,"cat":"context_vocab","sentence":"テストのまえは（　　）です。","options":["ひま","いそがしい","たのしい","かなしい"],"answer":1},{"id":935,"cat":"context_vocab","sentence":"しごとがおわって（　　）になります。","options":["いそがしい","たのしい","ひま","かなしい"],"answer":2},{"id":936,"cat":"context_vocab","sentence":"はるは（　　）です。","options":["さむい","あつい","すずしい","あたたかい"],"answer":3},{"id":937,"cat":"context_vocab","sentence":"なつは（　　）です。","options":["あつい","さむい","すずしい","あたたかい"],"answer":0},{"id":938,"cat":"context_vocab","sentence":"あきは（　　）です。","options":["あつい","すずしい","さむい","あたたかい"],"answer":1},{"id":939,"cat":"context_vocab","sentence":"ふゆは（　　）です。","options":["あつい","すずしい","さむい","あたたかい"],"answer":2},{"id":940,"cat":"context_vocab","sentence":"あさは（　　）おきます。","options":["おそく","たくさん","すこし","はやく"],"answer":3},{"id":941,"cat":"context_vocab","sentence":"ばんは（　　）ねます。","options":["おそく","はやく","たくさん","すこし"],"answer":0},{"id":942,"cat":"context_vocab","sentence":"（　　）ねむりました。","options":["わるく","よく","ひくく","たかく"],"answer":1},{"id":943,"cat":"context_vocab","sentence":"りょうりが（　　）できました。","options":["へたに","いそがしく","じょうずに","ひまに"],"answer":2},{"id":944,"cat":"context_vocab","sentence":"かんじを（　　）かきます。","options":["きたなく","おおきく","ちいさく","きれいに"],"answer":3},{"id":945,"cat":"context_vocab","sentence":"もっと（　　）はなしてください。","options":["ゆっくり","はやく","おおきく","ちいさく"],"answer":0},{"id":946,"cat":"context_vocab","sentence":"こえを（　　）ください。","options":["ちいさくして","おおきくして","はやくして","ゆっくりして"],"answer":1},{"id":947,"cat":"context_vocab","sentence":"きょうしつを（　　）しました。","options":["せんたく","しごと","そうじ","べんきょう"],"answer":2},{"id":948,"cat":"context_vocab","sentence":"ふくを（　　）します。","options":["そうじ","しごと","べんきょう","せんたく"],"answer":3},{"id":949,"cat":"context_vocab","sentence":"かいしゃで（　　）をします。","options":["しごと","そうじ","せんたく","べんきょう"],"answer":0},{"id":950,"cat":"context_vocab","sentence":"がっこうで（　　）をします。","options":["しごと","べんきょう","そうじ","せんたく"],"answer":1},{"id":951,"cat":"context_vocab","sentence":"あしたは（　　）ですから、がっこうへいきません。","options":["しごと","べんきょう","やすみ","しけん"],"answer":2},{"id":952,"cat":"context_vocab","sentence":"らいしゅう（　　）があります。","options":["やすみ","しごと","りょこう","しけん"],"answer":3},{"id":953,"cat":"context_vocab","sentence":"なつやすみに（　　）にいきました。","options":["りょこう","しけん","しごと","やすみ"],"answer":0},{"id":954,"cat":"context_vocab","sentence":"たんじょうびに（　　）をもらいました。","options":["しけん","プレゼント","しごと","やすみ"],"answer":1},{"id":955,"cat":"context_vocab","sentence":"クリスマスに（　　）をおくりました。","options":["しけん","しごと","プレゼント","やすみ"],"answer":2},{"id":956,"cat":"context_vocab","sentence":"おいしい（　　）をたべました。","options":["くるま","ほん","いす","りょうり"],"answer":3},{"id":957,"cat":"context_vocab","sentence":"にほんの（　　）がすきです。","options":["りょうり","くるま","ほん","いす"],"answer":0},{"id":958,"cat":"context_vocab","sentence":"あかるい（　　）です。","options":["あじ","いろ","こえ","かたち"],"answer":1},{"id":959,"cat":"context_vocab","sentence":"あまい（　　）がします。","options":["いろ","こえ","あじ","かたち"],"answer":2},{"id":960,"cat":"context_vocab","sentence":"おおきい（　　）がきこえます。","options":["いろ","あじ","かたち","おと"],"answer":3},{"id":961,"cat":"context_vocab","sentence":"いい（　　）がします。","options":["におい","いろ","おと","かたち"],"answer":0},{"id":962,"cat":"context_vocab","sentence":"まるい（　　）です。","options":["いろ","かたち","おと","あじ"],"answer":1},{"id":963,"cat":"context_vocab","sentence":"きれいな（　　）です。","options":["あじ","におい","こえ","かたち"],"answer":2},{"id":964,"cat":"context_vocab","sentence":"えいごで（　　）ください。","options":["かいて","きいて","よんで","はなして"],"answer":3},{"id":965,"cat":"context_vocab","sentence":"ナイフで（　　）ください。","options":["きって","かいて","よんで","きいて"],"answer":0},{"id":966,"cat":"context_vocab","sentence":"ハサミで（　　）ました。","options":["かき","きり","よみ","きき"],"answer":1},{"id":967,"cat":"context_vocab","sentence":"ペンで（　　）ました。","options":["きり","よみ","かき","きき"],"answer":2},{"id":968,"cat":"context_vocab","sentence":"おはしで（　　）ます。","options":["のみ","み","きき","たべ"],"answer":3},{"id":969,"cat":"context_vocab","sentence":"コップで（　　）ます。","options":["のみ","たべ","み","きき"],"answer":0},{"id":970,"cat":"context_vocab","sentence":"スプーンで（　　）ます。","options":["のみ","たべ","み","きき"],"answer":1},{"id":971,"cat":"context_vocab","sentence":"フォークで（　　）ます。","options":["のみ","み","たべ","きき"],"answer":2},{"id":972,"cat":"context_vocab","sentence":"くるまで（　　）ました。","options":["のみ","たべ","み","いき"],"answer":3},{"id":973,"cat":"context_vocab","sentence":"でんしゃで（　　）ました。","options":["いき","のみ","たべ","み"],"answer":0},{"id":974,"cat":"context_vocab","sentence":"あるいて（　　）ました。","options":["のみ","いき","たべ","み"],"answer":1},{"id":975,"cat":"context_vocab","sentence":"にほんから（　　）てがみです。","options":["いった","のんだ","きた","たべた"],"answer":2},{"id":976,"cat":"context_vocab","sentence":"あめりかへ（　　）ます。","options":["のみ","たべ","み","いき"],"answer":3},{"id":977,"cat":"context_vocab","sentence":"ちちは（　　）にいます。","options":["にわ","くるま","ほん","いす"],"answer":0},{"id":978,"cat":"context_vocab","sentence":"はなは（　　）にあります。","options":["ほん","テーブル","いす","つくえ"],"answer":1},{"id":979,"cat":"context_vocab","sentence":"ねこは（　　）のうえにいます。","options":["ほん","くるま","いす","つくえ"],"answer":2},{"id":980,"cat":"context_vocab","sentence":"いぬは（　　）のしたにいます。","options":["ほん","くるま","いす","つくえ"],"answer":3},{"id":981,"cat":"context_vocab","sentence":"とりは（　　）にいます。","options":["そら","うみ","やま","かわ"],"answer":0},{"id":982,"cat":"context_vocab","sentence":"さかなは（　　）にいます。","options":["そら","うみ","やま","みち"],"answer":1},{"id":983,"cat":"context_vocab","sentence":"きょうは（　　）です。","options":["ひろい","せまい","さむい","ちかい"],"answer":2},{"id":984,"cat":"context_vocab","sentence":"わたしは（　　）ねこをかっています。","options":["せまい","ひくい","みじかい","ちいさい"],"answer":3},{"id":985,"cat":"context_vocab","sentence":"おとうとは（　　）です。","options":["げんき","しんせつ","ゆうめい","べんり"],"answer":0},{"id":986,"cat":"context_vocab","sentence":"あねは（　　）です。","options":["げんき","しんせつ","ゆうめい","べんり"],"answer":1},{"id":987,"cat":"context_vocab","sentence":"あには（　　）がっこうのせんせいです。","options":["ちゅうがっこう","こうこう","しょうがっこう","だいがく"],"answer":2},{"id":988,"cat":"context_vocab","sentence":"わたしは（　　）せいです。","options":["しょうがっこう","ちゅうがっこう","こうこう","だいがく"],"answer":3},{"id":989,"cat":"context_vocab","sentence":"（　　）でしごとをします。","options":["かいしゃ","がっこう","びょういん","こうえん"],"answer":0},{"id":990,"cat":"context_vocab","sentence":"（　　）でほんをよみます。","options":["かいしゃ","としょかん","がっこう","こうえん"],"answer":1},{"id":991,"cat":"context_vocab","sentence":"（　　）でえいがをみます。","options":["としょかん","かいしゃ","えいがかん","がっこう"],"answer":2},{"id":992,"cat":"context_vocab","sentence":"（　　）でうたいます。","options":["えいがかん","としょかん","かいしゃ","カラオケ"],"answer":3},{"id":993,"cat":"context_vocab","sentence":"（　　）ではしります。","options":["こうえん","カラオケ","えいがかん","としょかん"],"answer":0},{"id":994,"cat":"context_vocab","sentence":"（　　）をあびてからねます。","options":["コーヒー","シャワー","ジュース","おちゃ"],"answer":1},{"id":995,"cat":"context_vocab","sentence":"（　　）できっぷをかいます。","options":["ぎんこう","ゆうびんきょく","えき","こうばん"],"answer":2},{"id":996,"cat":"context_vocab","sentence":"（　　）でかいものをします。","options":["えき","ぎんこう","こうばん","スーパー"],"answer":3},{"id":997,"cat":"context_vocab","sentence":"（　　）でりょうりをつくります。","options":["だいどころ","しんしつ","おてあらい","おふろ"],"answer":0},{"id":998,"cat":"context_vocab","sentence":"（　　）でねます。","options":["だいどころ","しんしつ","おてあらい","おふろ"],"answer":1},{"id":999,"cat":"context_vocab","sentence":"（　　）ではいります。","options":["しんしつ","だいどころ","おふろ","おてあらい"],"answer":2},{"id":1000,"cat":"context_vocab","sentence":"（　　）ではをみがきます。","options":["おふろ","しんしつ","だいどころ","おてあらい"],"answer":3}]
+[
+  {
+    "id": 501,
+    "cat": "orthography",
+    "sentence": "まいあさコーヒーをのみます。",
+    "target": "のみます",
+    "options": [
+      "飲みます",
+      "食みます",
+      "呑みます",
+      "飯みます"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 502,
+    "cat": "orthography",
+    "sentence": "ごはんをたべます。",
+    "target": "たべます",
+    "options": [
+      "飲べます",
+      "食べます",
+      "吃べます",
+      "喰べます"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 503,
+    "cat": "orthography",
+    "sentence": "テレビをみます。",
+    "target": "みます",
+    "options": [
+      "看ます",
+      "観ます",
+      "見ます",
+      "視ます"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 504,
+    "cat": "orthography",
+    "sentence": "おんがくをききます。",
+    "target": "ききます",
+    "options": [
+      "聴きます",
+      "問きます",
+      "間きます",
+      "聞きます"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 505,
+    "cat": "orthography",
+    "sentence": "ほんをよみます。",
+    "target": "よみます",
+    "options": [
+      "読みます",
+      "詠みます",
+      "語みます",
+      "誦みます"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 506,
+    "cat": "orthography",
+    "sentence": "てがみをかきます。",
+    "target": "かきます",
+    "options": [
+      "描きます",
+      "書きます",
+      "画きます",
+      "記きます"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 507,
+    "cat": "orthography",
+    "sentence": "ともだちとはなします。",
+    "target": "はなします",
+    "options": [
+      "語します",
+      "談します",
+      "話します",
+      "言します"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 508,
+    "cat": "orthography",
+    "sentence": "せんせいにいいます。",
+    "target": "いいます",
+    "options": [
+      "話います",
+      "云います",
+      "謂います",
+      "言います"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 509,
+    "cat": "orthography",
+    "sentence": "ほんをかいます。",
+    "target": "かいます",
+    "options": [
+      "買います",
+      "売います",
+      "購います",
+      "求います"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 510,
+    "cat": "orthography",
+    "sentence": "くるまをうります。",
+    "target": "うります",
+    "options": [
+      "買ります",
+      "売ります",
+      "販ります",
+      "沽ります"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 511,
+    "cat": "orthography",
+    "sentence": "がっこうへいきます。",
+    "target": "いきます",
+    "options": [
+      "来ます",
+      "往ます",
+      "行きます",
+      "去ます"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 512,
+    "cat": "orthography",
+    "sentence": "いえへきます。",
+    "target": "きます",
+    "options": [
+      "行きます",
+      "往ます",
+      "到ます",
+      "来ます"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 513,
+    "cat": "orthography",
+    "sentence": "うちへかえります。",
+    "target": "かえります",
+    "options": [
+      "帰ります",
+      "返ります",
+      "還ります",
+      "戻ります"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 514,
+    "cat": "orthography",
+    "sentence": "へやをでます。",
+    "target": "でます",
+    "options": [
+      "入ます",
+      "出ます",
+      "発ます",
+      "去ます"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 515,
+    "cat": "orthography",
+    "sentence": "へやにはいります。",
+    "target": "はいります",
+    "options": [
+      "出ります",
+      "進ります",
+      "入ります",
+      "込ります"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 516,
+    "cat": "orthography",
+    "sentence": "いすにたちます。",
+    "target": "たちます",
+    "options": [
+      "建ちます",
+      "起ちます",
+      "居ちます",
+      "立ちます"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 517,
+    "cat": "orthography",
+    "sentence": "いすにすわります。",
+    "target": "すわります",
+    "options": [
+      "座ります",
+      "坐ります",
+      "据ります",
+      "着ります"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 518,
+    "cat": "orthography",
+    "sentence": "こうえんをあるきます。",
+    "target": "あるきます",
+    "options": [
+      "走きます",
+      "歩きます",
+      "行きます",
+      "步きます"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 519,
+    "cat": "orthography",
+    "sentence": "はやくはしります。",
+    "target": "はしります",
+    "options": [
+      "歩ります",
+      "駆ります",
+      "走ります",
+      "奔ります"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 520,
+    "cat": "orthography",
+    "sentence": "ともだちにあいます。",
+    "target": "あいます",
+    "options": [
+      "合います",
+      "逢います",
+      "遇います",
+      "会います"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 521,
+    "cat": "orthography",
+    "sentence": "バスをまちます。",
+    "target": "まちます",
+    "options": [
+      "待ちます",
+      "持ちます",
+      "侍ちます",
+      "俟ちます"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 522,
+    "cat": "orthography",
+    "sentence": "そのことをしっています。",
+    "target": "しっています",
+    "options": [
+      "智っています",
+      "知っています",
+      "識っています",
+      "悟っています"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 523,
+    "cat": "orthography",
+    "sentence": "なにかをおもいます。",
+    "target": "おもいます",
+    "options": [
+      "想います",
+      "考います",
+      "思います",
+      "念います"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 524,
+    "cat": "orthography",
+    "sentence": "よくかんがえます。",
+    "target": "かんがえます",
+    "options": [
+      "思えます",
+      "慮えます",
+      "量えます",
+      "考えます"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 525,
+    "cat": "orthography",
+    "sentence": "なまえをわすれました。",
+    "target": "わすれました",
+    "options": [
+      "忘れました",
+      "亡れました",
+      "失れました",
+      "遺れました"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 526,
+    "cat": "orthography",
+    "sentence": "かんじをおぼえます。",
+    "target": "おぼえます",
+    "options": [
+      "憶えます",
+      "覚えます",
+      "記えます",
+      "識えます"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 527,
+    "cat": "orthography",
+    "sentence": "えいごをおしえます。",
+    "target": "おしえます",
+    "options": [
+      "訓えます",
+      "誨えます",
+      "教えます",
+      "導えます"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 528,
+    "cat": "orthography",
+    "sentence": "にほんごをならいます。",
+    "target": "ならいます",
+    "options": [
+      "学います",
+      "修います",
+      "練います",
+      "習います"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 529,
+    "cat": "orthography",
+    "sentence": "まいにちべんきょうします。",
+    "target": "べんきょう",
+    "options": [
+      "勉強",
+      "勉学",
+      "勤強",
+      "勉習"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 530,
+    "cat": "orthography",
+    "sentence": "ピアノのれんしゅうをします。",
+    "target": "れんしゅう",
+    "options": [
+      "練修",
+      "練習",
+      "連習",
+      "錬習"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 531,
+    "cat": "orthography",
+    "sentence": "かいしゃではたらきます。",
+    "target": "はたらきます",
+    "options": [
+      "仕きます",
+      "労きます",
+      "働きます",
+      "勤きます"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 532,
+    "cat": "orthography",
+    "sentence": "にちようびにやすみます。",
+    "target": "やすみます",
+    "options": [
+      "憩みます",
+      "歇みます",
+      "息みます",
+      "休みます"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 533,
+    "cat": "orthography",
+    "sentence": "あさしちじにおきます。",
+    "target": "おきます",
+    "options": [
+      "起きます",
+      "興きます",
+      "立きます",
+      "覚きます"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 534,
+    "cat": "orthography",
+    "sentence": "よるじゅうじにねます。",
+    "target": "ねます",
+    "options": [
+      "眠ます",
+      "寝ます",
+      "就ます",
+      "臥ます"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 535,
+    "cat": "orthography",
+    "sentence": "ケーキをつくります。",
+    "target": "つくります",
+    "options": [
+      "造ります",
+      "創ります",
+      "作ります",
+      "製ります"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 536,
+    "cat": "orthography",
+    "sentence": "えんぴつをつかいます。",
+    "target": "つかいます",
+    "options": [
+      "仕います",
+      "用います",
+      "利います",
+      "使います"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 537,
+    "cat": "orthography",
+    "sentence": "かばんをもちます。",
+    "target": "もちます",
+    "options": [
+      "持ちます",
+      "待ちます",
+      "携ちます",
+      "捧ちます"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 538,
+    "cat": "orthography",
+    "sentence": "ほんをとります。",
+    "target": "とります",
+    "options": [
+      "採ります",
+      "取ります",
+      "捕ります",
+      "執ります"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 539,
+    "cat": "orthography",
+    "sentence": "つくえにおきます。",
+    "target": "おきます",
+    "options": [
+      "起きます",
+      "据きます",
+      "置きます",
+      "設きます"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 540,
+    "cat": "orthography",
+    "sentence": "がっこうへいきます。",
+    "target": "がっこう",
+    "options": [
+      "学院",
+      "学園",
+      "学堂",
+      "学校"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 541,
+    "cat": "orthography",
+    "sentence": "きょうしつでべんきょうします。",
+    "target": "きょうしつ",
+    "options": [
+      "教室",
+      "教場",
+      "学室",
+      "授室"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 542,
+    "cat": "orthography",
+    "sentence": "ちちはかいしゃにいます。",
+    "target": "かいしゃ",
+    "options": [
+      "公司",
+      "会社",
+      "商社",
+      "企社"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 543,
+    "cat": "orthography",
+    "sentence": "へやがきれいです。",
+    "target": "へや",
+    "options": [
+      "房間",
+      "室屋",
+      "部屋",
+      "部室"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 544,
+    "cat": "orthography",
+    "sentence": "いえにかえります。",
+    "target": "いえ",
+    "options": [
+      "宅",
+      "屋",
+      "舎",
+      "家"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 545,
+    "cat": "orthography",
+    "sentence": "かぞくとたべます。",
+    "target": "かぞく",
+    "options": [
+      "家族",
+      "家属",
+      "親族",
+      "家庭"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 546,
+    "cat": "orthography",
+    "sentence": "ちちはいしゃです。",
+    "target": "ちち",
+    "options": [
+      "母",
+      "父",
+      "兄",
+      "夫"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 547,
+    "cat": "orthography",
+    "sentence": "ははははなをかいました。",
+    "target": "はは",
+    "options": [
+      "父",
+      "姉",
+      "母",
+      "婦"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 548,
+    "cat": "orthography",
+    "sentence": "ともだちとあそびます。",
+    "target": "ともだち",
+    "options": [
+      "友人",
+      "親達",
+      "友徒",
+      "友達"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 549,
+    "cat": "orthography",
+    "sentence": "せんせいはやさしいです。",
+    "target": "せんせい",
+    "options": [
+      "先生",
+      "学生",
+      "教生",
+      "師生"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 550,
+    "cat": "orthography",
+    "sentence": "がくせいがおおいです。",
+    "target": "がくせい",
+    "options": [
+      "先生",
+      "学生",
+      "生徒",
+      "学人"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 551,
+    "cat": "orthography",
+    "sentence": "こどもがかわいいです。",
+    "target": "こども",
+    "options": [
+      "小供",
+      "子共",
+      "子供",
+      "児供"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 552,
+    "cat": "orthography",
+    "sentence": "あのひとはだれですか。",
+    "target": "ひと",
+    "options": [
+      "者",
+      "民",
+      "僕",
+      "人"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 553,
+    "cat": "orthography",
+    "sentence": "なまえをかきます。",
+    "target": "なまえ",
+    "options": [
+      "名前",
+      "姓名",
+      "氏名",
+      "名称"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 554,
+    "cat": "orthography",
+    "sentence": "きょうのてんきはいいです。",
+    "target": "てんき",
+    "options": [
+      "天候",
+      "天気",
+      "気候",
+      "空気"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 555,
+    "cat": "orthography",
+    "sentence": "あめがふります。",
+    "target": "あめ",
+    "options": [
+      "雪",
+      "雲",
+      "雨",
+      "風"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 556,
+    "cat": "orthography",
+    "sentence": "ゆきがふります。",
+    "target": "ゆき",
+    "options": [
+      "雨",
+      "霜",
+      "氷",
+      "雪"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 557,
+    "cat": "orthography",
+    "sentence": "かぜがつよいです。",
+    "target": "かぜ",
+    "options": [
+      "風",
+      "雨",
+      "雪",
+      "嵐"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 558,
+    "cat": "orthography",
+    "sentence": "くもがおおいです。",
+    "target": "くも",
+    "options": [
+      "空",
+      "雲",
+      "雪",
+      "霞"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 559,
+    "cat": "orthography",
+    "sentence": "そらがあおいです。",
+    "target": "そら",
+    "options": [
+      "天",
+      "雲",
+      "空",
+      "宙"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 560,
+    "cat": "orthography",
+    "sentence": "うみでおよぎます。",
+    "target": "うみ",
+    "options": [
+      "川",
+      "湖",
+      "池",
+      "海"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 561,
+    "cat": "orthography",
+    "sentence": "かわでさかなをとります。",
+    "target": "かわ",
+    "options": [
+      "川",
+      "海",
+      "池",
+      "江"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 562,
+    "cat": "orthography",
+    "sentence": "やまへのぼります。",
+    "target": "やま",
+    "options": [
+      "岳",
+      "山",
+      "丘",
+      "峰"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 563,
+    "cat": "orthography",
+    "sentence": "はながきれいです。",
+    "target": "はな",
+    "options": [
+      "華",
+      "葉",
+      "花",
+      "草"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 564,
+    "cat": "orthography",
+    "sentence": "きがたかいです。",
+    "target": "き",
+    "options": [
+      "林",
+      "森",
+      "樹",
+      "木"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 565,
+    "cat": "orthography",
+    "sentence": "とりがとびます。",
+    "target": "とり",
+    "options": [
+      "鳥",
+      "烏",
+      "雀",
+      "禽"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 566,
+    "cat": "orthography",
+    "sentence": "さかなをたべます。",
+    "target": "さかな",
+    "options": [
+      "肴",
+      "魚",
+      "鮮",
+      "漁"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 567,
+    "cat": "orthography",
+    "sentence": "どうぶつがすきです。",
+    "target": "どうぶつ",
+    "options": [
+      "植物",
+      "生物",
+      "動物",
+      "活物"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 568,
+    "cat": "orthography",
+    "sentence": "たべものがおいしいです。",
+    "target": "たべもの",
+    "options": [
+      "飲べ物",
+      "喰べ物",
+      "吃べ物",
+      "食べ物"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 569,
+    "cat": "orthography",
+    "sentence": "のみものがつめたいです。",
+    "target": "のみもの",
+    "options": [
+      "飲み物",
+      "食み物",
+      "呑み物",
+      "飯み物"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 570,
+    "cat": "orthography",
+    "sentence": "みずをのみます。",
+    "target": "みず",
+    "options": [
+      "氷",
+      "水",
+      "湯",
+      "液"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 571,
+    "cat": "orthography",
+    "sentence": "おちゃをのみます。",
+    "target": "ちゃ",
+    "options": [
+      "湯",
+      "水",
+      "茶",
+      "酒"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 572,
+    "cat": "orthography",
+    "sentence": "にくをたべます。",
+    "target": "にく",
+    "options": [
+      "魚",
+      "骨",
+      "皮",
+      "肉"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 573,
+    "cat": "orthography",
+    "sentence": "やさいがすきです。",
+    "target": "やさい",
+    "options": [
+      "野菜",
+      "青菜",
+      "蔬菜",
+      "菜野"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 574,
+    "cat": "orthography",
+    "sentence": "くだものがあまいです。",
+    "target": "くだもの",
+    "options": [
+      "菓物",
+      "果物",
+      "実物",
+      "食物"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 575,
+    "cat": "orthography",
+    "sentence": "でんわをかけます。",
+    "target": "でんわ",
+    "options": [
+      "電語",
+      "通話",
+      "電話",
+      "電信"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 576,
+    "cat": "orthography",
+    "sentence": "てがみをおくります。",
+    "target": "てがみ",
+    "options": [
+      "手書",
+      "文紙",
+      "便紙",
+      "手紙"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 577,
+    "cat": "orthography",
+    "sentence": "しんぶんをよみます。",
+    "target": "しんぶん",
+    "options": [
+      "新聞",
+      "新文",
+      "書聞",
+      "記聞"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 578,
+    "cat": "orthography",
+    "sentence": "ほんをよみます。",
+    "target": "ほん",
+    "options": [
+      "書",
+      "本",
+      "冊",
+      "典"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 579,
+    "cat": "orthography",
+    "sentence": "ざっしをかいます。",
+    "target": "ざっし",
+    "options": [
+      "雑紙",
+      "週誌",
+      "雑誌",
+      "冊誌"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 580,
+    "cat": "orthography",
+    "sentence": "えいがをみます。",
+    "target": "えいが",
+    "options": [
+      "影画",
+      "動画",
+      "電画",
+      "映画"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 581,
+    "cat": "orthography",
+    "sentence": "おんがくをききます。",
+    "target": "おんがく",
+    "options": [
+      "音楽",
+      "音曲",
+      "楽音",
+      "声楽"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 582,
+    "cat": "orthography",
+    "sentence": "しゃしんをとります。",
+    "target": "しゃしん",
+    "options": [
+      "映真",
+      "写真",
+      "画真",
+      "像真"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 583,
+    "cat": "orthography",
+    "sentence": "りょこうにいきます。",
+    "target": "りょこう",
+    "options": [
+      "旅游",
+      "遊行",
+      "旅行",
+      "行旅"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 584,
+    "cat": "orthography",
+    "sentence": "なつやすみです。",
+    "target": "やすみ",
+    "options": [
+      "憩み",
+      "歇み",
+      "息み",
+      "休み"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 585,
+    "cat": "orthography",
+    "sentence": "じゅぎょうがはじまります。",
+    "target": "じゅぎょう",
+    "options": [
+      "授業",
+      "教業",
+      "講業",
+      "課業"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 586,
+    "cat": "orthography",
+    "sentence": "しけんをうけます。",
+    "target": "しけん",
+    "options": [
+      "試検",
+      "試験",
+      "考験",
+      "考試"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 587,
+    "cat": "orthography",
+    "sentence": "しゅくだいをします。",
+    "target": "しゅくだい",
+    "options": [
+      "学題",
+      "課題",
+      "宿題",
+      "習題"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 588,
+    "cat": "orthography",
+    "sentence": "しつもんがあります。",
+    "target": "しつもん",
+    "options": [
+      "問質",
+      "疑問",
+      "設問",
+      "質問"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 589,
+    "cat": "orthography",
+    "sentence": "こたえをかきます。",
+    "target": "こたえ",
+    "options": [
+      "答え",
+      "応え",
+      "返え",
+      "解え"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 590,
+    "cat": "orthography",
+    "sentence": "もんだいがむずかしいです。",
+    "target": "もんだい",
+    "options": [
+      "課題",
+      "問題",
+      "試題",
+      "問答"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 591,
+    "cat": "orthography",
+    "sentence": "このいえはおおきいです。",
+    "target": "おおきい",
+    "options": [
+      "太きい",
+      "巨きい",
+      "大きい",
+      "広きい"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 592,
+    "cat": "orthography",
+    "sentence": "このねこはちいさいです。",
+    "target": "ちいさい",
+    "options": [
+      "少さい",
+      "細さい",
+      "微さい",
+      "小さい"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 593,
+    "cat": "orthography",
+    "sentence": "やまがたかいです。",
+    "target": "たかい",
+    "options": [
+      "高い",
+      "貴い",
+      "崇い",
+      "尊い"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 594,
+    "cat": "orthography",
+    "sentence": "つくえがひくいです。",
+    "target": "ひくい",
+    "options": [
+      "短い",
+      "低い",
+      "卑い",
+      "下い"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 595,
+    "cat": "orthography",
+    "sentence": "はしがながいです。",
+    "target": "ながい",
+    "options": [
+      "永い",
+      "遠い",
+      "長い",
+      "久い"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 596,
+    "cat": "orthography",
+    "sentence": "えんぴつがみじかいです。",
+    "target": "みじかい",
+    "options": [
+      "少い",
+      "低い",
+      "細い",
+      "短い"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 597,
+    "cat": "orthography",
+    "sentence": "あたらしいくるまです。",
+    "target": "あたらしい",
+    "options": [
+      "新しい",
+      "旧しい",
+      "初しい",
+      "鮮しい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 598,
+    "cat": "orthography",
+    "sentence": "ふるいほんです。",
+    "target": "ふるい",
+    "options": [
+      "旧い",
+      "古い",
+      "老い",
+      "故い"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 599,
+    "cat": "orthography",
+    "sentence": "あかいはなです。",
+    "target": "あかい",
+    "options": [
+      "紅い",
+      "朱い",
+      "赤い",
+      "丹い"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 600,
+    "cat": "orthography",
+    "sentence": "あおいそらです。",
+    "target": "あおい",
+    "options": [
+      "蒼い",
+      "碧い",
+      "藍い",
+      "青い"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 601,
+    "cat": "orthography",
+    "sentence": "しろいくもです。",
+    "target": "しろい",
+    "options": [
+      "白い",
+      "素い",
+      "皓い",
+      "皙い"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 602,
+    "cat": "orthography",
+    "sentence": "くろいくるまです。",
+    "target": "くろい",
+    "options": [
+      "玄い",
+      "黒い",
+      "暗い",
+      "墨い"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 603,
+    "cat": "orthography",
+    "sentence": "あさごはんをたべました。",
+    "target": "たべました",
+    "options": [
+      "飲べました",
+      "吃べました",
+      "食べました",
+      "喰べました"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 604,
+    "cat": "orthography",
+    "sentence": "おちゃをのみました。",
+    "target": "のみました",
+    "options": [
+      "食みました",
+      "呑みました",
+      "飯みました",
+      "飲みました"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 605,
+    "cat": "orthography",
+    "sentence": "えいがをみました。",
+    "target": "みました",
+    "options": [
+      "見ました",
+      "看ました",
+      "観ました",
+      "視ました"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 606,
+    "cat": "orthography",
+    "sentence": "らじおをききました。",
+    "target": "ききました",
+    "options": [
+      "聴きました",
+      "聞きました",
+      "問きました",
+      "間きました"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 607,
+    "cat": "orthography",
+    "sentence": "しんぶんをよみました。",
+    "target": "よみました",
+    "options": [
+      "詠みました",
+      "語みました",
+      "読みました",
+      "誦みました"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 608,
+    "cat": "orthography",
+    "sentence": "なまえをかきました。",
+    "target": "かきました",
+    "options": [
+      "描きました",
+      "画きました",
+      "記きました",
+      "書きました"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 609,
+    "cat": "orthography",
+    "sentence": "ははとはなしました。",
+    "target": "はなしました",
+    "options": [
+      "話しました",
+      "語しました",
+      "談しました",
+      "言しました"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 610,
+    "cat": "orthography",
+    "sentence": "さようならといいました。",
+    "target": "いいました",
+    "options": [
+      "話いました",
+      "言いました",
+      "云いました",
+      "謂いました"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 611,
+    "cat": "orthography",
+    "sentence": "パンをかいました。",
+    "target": "かいました",
+    "options": [
+      "売いました",
+      "購いました",
+      "買いました",
+      "求いました"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 612,
+    "cat": "orthography",
+    "sentence": "ほんをうりました。",
+    "target": "うりました",
+    "options": [
+      "買りました",
+      "販りました",
+      "沽りました",
+      "売りました"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 613,
+    "cat": "orthography",
+    "sentence": "えきへいきました。",
+    "target": "いきました",
+    "options": [
+      "行きました",
+      "来ました",
+      "往ました",
+      "去ました"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 614,
+    "cat": "orthography",
+    "sentence": "ともだちがきました。",
+    "target": "きました",
+    "options": [
+      "行きました",
+      "来ました",
+      "往ました",
+      "到ました"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 615,
+    "cat": "orthography",
+    "sentence": "うちへかえりました。",
+    "target": "かえりました",
+    "options": [
+      "返りました",
+      "還りました",
+      "帰りました",
+      "戻りました"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 616,
+    "cat": "orthography",
+    "sentence": "きょうしつをでました。",
+    "target": "でました",
+    "options": [
+      "入ました",
+      "発ました",
+      "去ました",
+      "出ました"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 617,
+    "cat": "orthography",
+    "sentence": "へやにはいりました。",
+    "target": "はいりました",
+    "options": [
+      "入りました",
+      "出りました",
+      "進りました",
+      "込りました"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 618,
+    "cat": "orthography",
+    "sentence": "いすからたちました。",
+    "target": "たちました",
+    "options": [
+      "建ちました",
+      "立ちました",
+      "起ちました",
+      "居ちました"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 619,
+    "cat": "orthography",
+    "sentence": "ソファーにすわりました。",
+    "target": "すわりました",
+    "options": [
+      "坐りました",
+      "据りました",
+      "座りました",
+      "着りました"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 620,
+    "cat": "orthography",
+    "sentence": "こうえんをあるきました。",
+    "target": "あるきました",
+    "options": [
+      "走きました",
+      "行きました",
+      "步きました",
+      "歩きました"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 621,
+    "cat": "orthography",
+    "sentence": "えきまではしりました。",
+    "target": "はしりました",
+    "options": [
+      "走りました",
+      "歩りました",
+      "駆りました",
+      "奔りました"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 622,
+    "cat": "orthography",
+    "sentence": "せんせいにあいました。",
+    "target": "あいました",
+    "options": [
+      "合いました",
+      "会いました",
+      "逢いました",
+      "遇いました"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 623,
+    "cat": "orthography",
+    "sentence": "バスをまちました。",
+    "target": "まちました",
+    "options": [
+      "持ちました",
+      "侍ちました",
+      "待ちました",
+      "俟ちました"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 624,
+    "cat": "orthography",
+    "sentence": "そのひとをしりません。",
+    "target": "しりません",
+    "options": [
+      "智りません",
+      "識りません",
+      "悟りません",
+      "知りません"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 625,
+    "cat": "orthography",
+    "sentence": "そうおもいました。",
+    "target": "おもいました",
+    "options": [
+      "思いました",
+      "想いました",
+      "考いました",
+      "念いました"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 626,
+    "cat": "orthography",
+    "sentence": "よくかんがえました。",
+    "target": "かんがえました",
+    "options": [
+      "思えました",
+      "考えました",
+      "慮えました",
+      "量えました"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 627,
+    "cat": "orthography",
+    "sentence": "やくそくをわすれました。",
+    "target": "わすれました",
+    "options": [
+      "亡れました",
+      "失れました",
+      "忘れました",
+      "遺れました"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 628,
+    "cat": "orthography",
+    "sentence": "たんごをおぼえました。",
+    "target": "おぼえました",
+    "options": [
+      "憶えました",
+      "記えました",
+      "識えました",
+      "覚えました"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 629,
+    "cat": "orthography",
+    "sentence": "にほんごをおしえました。",
+    "target": "おしえました",
+    "options": [
+      "教えました",
+      "訓えました",
+      "誨えました",
+      "導えました"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 630,
+    "cat": "orthography",
+    "sentence": "ピアノをならいました。",
+    "target": "ならいました",
+    "options": [
+      "学いました",
+      "習いました",
+      "修いました",
+      "練いました"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 631,
+    "cat": "orthography",
+    "sentence": "よるべんきょうしました。",
+    "target": "べんきょう",
+    "options": [
+      "勉学",
+      "勤強",
+      "勉強",
+      "勉習"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 632,
+    "cat": "orthography",
+    "sentence": "れんしゅうしました。",
+    "target": "れんしゅう",
+    "options": [
+      "練修",
+      "連習",
+      "錬習",
+      "練習"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 633,
+    "cat": "orthography",
+    "sentence": "よくはたらきました。",
+    "target": "はたらきました",
+    "options": [
+      "働きました",
+      "仕きました",
+      "労きました",
+      "勤きました"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 634,
+    "cat": "orthography",
+    "sentence": "すこしやすみました。",
+    "target": "やすみました",
+    "options": [
+      "憩みました",
+      "休みました",
+      "歇みました",
+      "息みました"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 635,
+    "cat": "orthography",
+    "sentence": "ろくじにおきました。",
+    "target": "おきました",
+    "options": [
+      "興きました",
+      "立きました",
+      "起きました",
+      "覚きました"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 636,
+    "cat": "orthography",
+    "sentence": "はやくねました。",
+    "target": "ねました",
+    "options": [
+      "眠ました",
+      "就ました",
+      "臥ました",
+      "寝ました"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 637,
+    "cat": "orthography",
+    "sentence": "りょうりをつくりました。",
+    "target": "つくりました",
+    "options": [
+      "作りました",
+      "造りました",
+      "創りました",
+      "製りました"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 638,
+    "cat": "orthography",
+    "sentence": "パソコンをつかいました。",
+    "target": "つかいました",
+    "options": [
+      "仕いました",
+      "使いました",
+      "用いました",
+      "利いました"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 639,
+    "cat": "orthography",
+    "sentence": "かさをもちました。",
+    "target": "もちました",
+    "options": [
+      "待ちました",
+      "携ちました",
+      "持ちました",
+      "捧ちました"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 640,
+    "cat": "orthography",
+    "sentence": "ペンをとりました。",
+    "target": "とりました",
+    "options": [
+      "採りました",
+      "捕りました",
+      "執りました",
+      "取りました"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 641,
+    "cat": "orthography",
+    "sentence": "ほんをおきました。",
+    "target": "おきました",
+    "options": [
+      "置きました",
+      "起きました",
+      "据きました",
+      "設きました"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 642,
+    "cat": "orthography",
+    "sentence": "このがっこうはふるいです。",
+    "target": "がっこう",
+    "options": [
+      "学院",
+      "学校",
+      "学園",
+      "学堂"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 643,
+    "cat": "orthography",
+    "sentence": "きょうしつにだれもいません。",
+    "target": "きょうしつ",
+    "options": [
+      "教場",
+      "学室",
+      "教室",
+      "授室"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 644,
+    "cat": "orthography",
+    "sentence": "かいしゃははちじからです。",
+    "target": "かいしゃ",
+    "options": [
+      "公司",
+      "商社",
+      "企社",
+      "会社"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 645,
+    "cat": "orthography",
+    "sentence": "このへやはしずかです。",
+    "target": "へや",
+    "options": [
+      "部屋",
+      "房間",
+      "室屋",
+      "部室"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 646,
+    "cat": "orthography",
+    "sentence": "おおきないえです。",
+    "target": "いえ",
+    "options": [
+      "宅",
+      "家",
+      "屋",
+      "舎"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 647,
+    "cat": "orthography",
+    "sentence": "かぞくがおおいです。",
+    "target": "かぞく",
+    "options": [
+      "家属",
+      "親族",
+      "家族",
+      "家庭"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 648,
+    "cat": "orthography",
+    "sentence": "ちちとでかけます。",
+    "target": "ちち",
+    "options": [
+      "母",
+      "兄",
+      "夫",
+      "父"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 649,
+    "cat": "orthography",
+    "sentence": "ははのりょうりはおいしいです。",
+    "target": "はは",
+    "options": [
+      "母",
+      "父",
+      "姉",
+      "婦"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 650,
+    "cat": "orthography",
+    "sentence": "ともだちとあいます。",
+    "target": "ともだち",
+    "options": [
+      "友人",
+      "友達",
+      "親達",
+      "友徒"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 651,
+    "cat": "orthography",
+    "sentence": "せんせいがきます。",
+    "target": "せんせい",
+    "options": [
+      "学生",
+      "教生",
+      "先生",
+      "師生"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 652,
+    "cat": "orthography",
+    "sentence": "がくせいがおおぜいいます。",
+    "target": "がくせい",
+    "options": [
+      "先生",
+      "生徒",
+      "学人",
+      "学生"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 653,
+    "cat": "orthography",
+    "sentence": "こどもがあそんでいます。",
+    "target": "こども",
+    "options": [
+      "子供",
+      "小供",
+      "子共",
+      "児供"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 654,
+    "cat": "orthography",
+    "sentence": "このひとはやさしいです。",
+    "target": "ひと",
+    "options": [
+      "者",
+      "人",
+      "民",
+      "僕"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 655,
+    "cat": "orthography",
+    "sentence": "なまえをよびます。",
+    "target": "なまえ",
+    "options": [
+      "姓名",
+      "氏名",
+      "名前",
+      "名称"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 656,
+    "cat": "orthography",
+    "sentence": "あしたのてんきはどうですか。",
+    "target": "てんき",
+    "options": [
+      "天候",
+      "気候",
+      "空気",
+      "天気"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 657,
+    "cat": "orthography",
+    "sentence": "あめがたくさんふります。",
+    "target": "あめ",
+    "options": [
+      "雨",
+      "雪",
+      "雲",
+      "風"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 658,
+    "cat": "orthography",
+    "sentence": "ゆきがふっています。",
+    "target": "ゆき",
+    "options": [
+      "雨",
+      "雪",
+      "霜",
+      "氷"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 659,
+    "cat": "orthography",
+    "sentence": "かぜがふきます。",
+    "target": "かぜ",
+    "options": [
+      "雨",
+      "雪",
+      "風",
+      "嵐"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 660,
+    "cat": "orthography",
+    "sentence": "しろいくもがでます。",
+    "target": "くも",
+    "options": [
+      "空",
+      "雪",
+      "霞",
+      "雲"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 661,
+    "cat": "orthography",
+    "sentence": "そらがくらくなりました。",
+    "target": "そら",
+    "options": [
+      "空",
+      "天",
+      "雲",
+      "宙"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 662,
+    "cat": "orthography",
+    "sentence": "うみはひろいです。",
+    "target": "うみ",
+    "options": [
+      "川",
+      "海",
+      "湖",
+      "池"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 663,
+    "cat": "orthography",
+    "sentence": "かわがながれます。",
+    "target": "かわ",
+    "options": [
+      "海",
+      "池",
+      "川",
+      "江"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 664,
+    "cat": "orthography",
+    "sentence": "やまがみえます。",
+    "target": "やま",
+    "options": [
+      "岳",
+      "丘",
+      "峰",
+      "山"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 665,
+    "cat": "orthography",
+    "sentence": "はながさきます。",
+    "target": "はな",
+    "options": [
+      "花",
+      "華",
+      "葉",
+      "草"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 666,
+    "cat": "orthography",
+    "sentence": "きのはがおちます。",
+    "target": "き",
+    "options": [
+      "林",
+      "木",
+      "森",
+      "樹"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 667,
+    "cat": "orthography",
+    "sentence": "とりがなきます。",
+    "target": "とり",
+    "options": [
+      "烏",
+      "雀",
+      "鳥",
+      "禽"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 668,
+    "cat": "orthography",
+    "sentence": "さかながおよぎます。",
+    "target": "さかな",
+    "options": [
+      "肴",
+      "鮮",
+      "漁",
+      "魚"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 669,
+    "cat": "orthography",
+    "sentence": "どうぶつえんへいきます。",
+    "target": "どうぶつ",
+    "options": [
+      "動物",
+      "植物",
+      "生物",
+      "活物"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 670,
+    "cat": "orthography",
+    "sentence": "すきなたべものはなんですか。",
+    "target": "たべもの",
+    "options": [
+      "飲べ物",
+      "食べ物",
+      "喰べ物",
+      "吃べ物"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 671,
+    "cat": "orthography",
+    "sentence": "つめたいのみものがほしいです。",
+    "target": "のみもの",
+    "options": [
+      "食み物",
+      "呑み物",
+      "飲み物",
+      "飯み物"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 672,
+    "cat": "orthography",
+    "sentence": "みずをください。",
+    "target": "みず",
+    "options": [
+      "氷",
+      "湯",
+      "液",
+      "水"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 673,
+    "cat": "orthography",
+    "sentence": "おちゃがすきです。",
+    "target": "ちゃ",
+    "options": [
+      "茶",
+      "湯",
+      "水",
+      "酒"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 674,
+    "cat": "orthography",
+    "sentence": "にくをきります。",
+    "target": "にく",
+    "options": [
+      "魚",
+      "肉",
+      "骨",
+      "皮"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 675,
+    "cat": "orthography",
+    "sentence": "やさいをあらいます。",
+    "target": "やさい",
+    "options": [
+      "青菜",
+      "蔬菜",
+      "野菜",
+      "菜野"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 676,
+    "cat": "orthography",
+    "sentence": "くだものがおおいです。",
+    "target": "くだもの",
+    "options": [
+      "菓物",
+      "実物",
+      "食物",
+      "果物"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 677,
+    "cat": "orthography",
+    "sentence": "でんわばんごうをおしえてください。",
+    "target": "でんわ",
+    "options": [
+      "電話",
+      "電語",
+      "通話",
+      "電信"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 678,
+    "cat": "orthography",
+    "sentence": "てがみをかきます。",
+    "target": "てがみ",
+    "options": [
+      "手書",
+      "手紙",
+      "文紙",
+      "便紙"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 679,
+    "cat": "orthography",
+    "sentence": "しんぶんがとどきました。",
+    "target": "しんぶん",
+    "options": [
+      "新文",
+      "書聞",
+      "新聞",
+      "記聞"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 680,
+    "cat": "orthography",
+    "sentence": "ほんをかします。",
+    "target": "ほん",
+    "options": [
+      "書",
+      "冊",
+      "典",
+      "本"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 681,
+    "cat": "orthography",
+    "sentence": "ざっしをよみます。",
+    "target": "ざっし",
+    "options": [
+      "雑誌",
+      "雑紙",
+      "週誌",
+      "冊誌"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 682,
+    "cat": "orthography",
+    "sentence": "えいががはじまります。",
+    "target": "えいが",
+    "options": [
+      "影画",
+      "映画",
+      "動画",
+      "電画"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 683,
+    "cat": "orthography",
+    "sentence": "おんがくがすきです。",
+    "target": "おんがく",
+    "options": [
+      "音曲",
+      "楽音",
+      "音楽",
+      "声楽"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 684,
+    "cat": "orthography",
+    "sentence": "しゃしんをみせます。",
+    "target": "しゃしん",
+    "options": [
+      "映真",
+      "画真",
+      "像真",
+      "写真"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 685,
+    "cat": "orthography",
+    "sentence": "りょこうはたのしいです。",
+    "target": "りょこう",
+    "options": [
+      "旅行",
+      "旅游",
+      "遊行",
+      "行旅"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 686,
+    "cat": "orthography",
+    "sentence": "なつやすみがおわりました。",
+    "target": "やすみ",
+    "options": [
+      "憩み",
+      "休み",
+      "歇み",
+      "息み"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 687,
+    "cat": "orthography",
+    "sentence": "じゅぎょうがはじまります。",
+    "target": "じゅぎょう",
+    "options": [
+      "教業",
+      "講業",
+      "授業",
+      "課業"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 688,
+    "cat": "orthography",
+    "sentence": "しけんがむずかしいです。",
+    "target": "しけん",
+    "options": [
+      "試検",
+      "考験",
+      "考試",
+      "試験"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 689,
+    "cat": "orthography",
+    "sentence": "しゅくだいをだします。",
+    "target": "しゅくだい",
+    "options": [
+      "宿題",
+      "学題",
+      "課題",
+      "習題"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 690,
+    "cat": "orthography",
+    "sentence": "しつもんしてください。",
+    "target": "しつもん",
+    "options": [
+      "問質",
+      "質問",
+      "疑問",
+      "設問"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 691,
+    "cat": "orthography",
+    "sentence": "こたえをおしえてください。",
+    "target": "こたえ",
+    "options": [
+      "応え",
+      "返え",
+      "答え",
+      "解え"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 692,
+    "cat": "orthography",
+    "sentence": "もんだいをときます。",
+    "target": "もんだい",
+    "options": [
+      "課題",
+      "試題",
+      "問答",
+      "問題"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 693,
+    "cat": "orthography",
+    "sentence": "このやまはおおきいです。",
+    "target": "おおきい",
+    "options": [
+      "大きい",
+      "太きい",
+      "巨きい",
+      "広きい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 694,
+    "cat": "orthography",
+    "sentence": "このとりはちいさいです。",
+    "target": "ちいさい",
+    "options": [
+      "少さい",
+      "小さい",
+      "細さい",
+      "微さい"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 695,
+    "cat": "orthography",
+    "sentence": "このビルはたかいです。",
+    "target": "たかい",
+    "options": [
+      "貴い",
+      "崇い",
+      "高い",
+      "尊い"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 696,
+    "cat": "orthography",
+    "sentence": "このいすはひくいです。",
+    "target": "ひくい",
+    "options": [
+      "短い",
+      "卑い",
+      "下い",
+      "低い"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 697,
+    "cat": "orthography",
+    "sentence": "このかわはながいです。",
+    "target": "ながい",
+    "options": [
+      "長い",
+      "永い",
+      "遠い",
+      "久い"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 698,
+    "cat": "orthography",
+    "sentence": "このはしはみじかいです。",
+    "target": "みじかい",
+    "options": [
+      "少い",
+      "短い",
+      "低い",
+      "細い"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 699,
+    "cat": "orthography",
+    "sentence": "あたらしいふくです。",
+    "target": "あたらしい",
+    "options": [
+      "旧しい",
+      "初しい",
+      "新しい",
+      "鮮しい"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 700,
+    "cat": "orthography",
+    "sentence": "ふるいかばんです。",
+    "target": "ふるい",
+    "options": [
+      "旧い",
+      "老い",
+      "故い",
+      "古い"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 701,
+    "cat": "orthography",
+    "sentence": "あかいくつです。",
+    "target": "あかい",
+    "options": [
+      "赤い",
+      "紅い",
+      "朱い",
+      "丹い"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 702,
+    "cat": "orthography",
+    "sentence": "あおいうみです。",
+    "target": "あおい",
+    "options": [
+      "蒼い",
+      "青い",
+      "碧い",
+      "藍い"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 703,
+    "cat": "orthography",
+    "sentence": "しろいかみです。",
+    "target": "しろい",
+    "options": [
+      "素い",
+      "皓い",
+      "白い",
+      "皙い"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 704,
+    "cat": "orthography",
+    "sentence": "くろいかばんです。",
+    "target": "くろい",
+    "options": [
+      "玄い",
+      "暗い",
+      "墨い",
+      "黒い"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 705,
+    "cat": "orthography",
+    "sentence": "きょうはよいてんきです。",
+    "target": "よい",
+    "options": [
+      "良い",
+      "善い",
+      "好い",
+      "佳い"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 706,
+    "cat": "orthography",
+    "sentence": "わるいことをしました。",
+    "target": "わるい",
+    "options": [
+      "惡い",
+      "悪い",
+      "邪い",
+      "劣い"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 707,
+    "cat": "orthography",
+    "sentence": "このへやはあかるいです。",
+    "target": "あかるい",
+    "options": [
+      "光るい",
+      "輝るい",
+      "明るい",
+      "晴るい"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 708,
+    "cat": "orthography",
+    "sentence": "へやがくらいです。",
+    "target": "くらい",
+    "options": [
+      "黒い",
+      "闇い",
+      "冥い",
+      "暗い"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 709,
+    "cat": "orthography",
+    "sentence": "あついひです。",
+    "target": "あつい",
+    "options": [
+      "暑い",
+      "熱い",
+      "温い",
+      "炎い"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 710,
+    "cat": "orthography",
+    "sentence": "さむいあさです。",
+    "target": "さむい",
+    "options": [
+      "冷い",
+      "寒い",
+      "涼い",
+      "凍い"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 711,
+    "cat": "orthography",
+    "sentence": "このスープはあついです。",
+    "target": "あつい",
+    "options": [
+      "暑い",
+      "温い",
+      "熱い",
+      "炎い"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 712,
+    "cat": "orthography",
+    "sentence": "みずがつめたいです。",
+    "target": "つめたい",
+    "options": [
+      "寒たい",
+      "涼たい",
+      "凍たい",
+      "冷たい"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 713,
+    "cat": "orthography",
+    "sentence": "そとはあたたかいです。",
+    "target": "あたたかい",
+    "options": [
+      "暖かい",
+      "温かい",
+      "熱かい",
+      "暑かい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 714,
+    "cat": "orthography",
+    "sentence": "おちゃがぬるいです。",
+    "target": "ぬるい",
+    "options": [
+      "暖い",
+      "温い",
+      "熱い",
+      "緩い"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 715,
+    "cat": "orthography",
+    "sentence": "はやくあるきます。",
+    "target": "はやく",
+    "options": [
+      "早く",
+      "疾く",
+      "速く",
+      "急く"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 716,
+    "cat": "orthography",
+    "sentence": "あさはやくおきます。",
+    "target": "はやく",
+    "options": [
+      "速く",
+      "疾く",
+      "急く",
+      "早く"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 717,
+    "cat": "orthography",
+    "sentence": "おそいばんごはんです。",
+    "target": "おそい",
+    "options": [
+      "遅い",
+      "晩い",
+      "鈍い",
+      "緩い"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 718,
+    "cat": "orthography",
+    "sentence": "このたべものはおいしいです。",
+    "target": "おいしい",
+    "options": [
+      "味しい",
+      "美味しい",
+      "甘しい",
+      "旨しい"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 719,
+    "cat": "orthography",
+    "sentence": "にがいくすりです。",
+    "target": "にがい",
+    "options": [
+      "辛い",
+      "渋い",
+      "苦い",
+      "酸い"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 720,
+    "cat": "orthography",
+    "sentence": "あまいケーキです。",
+    "target": "あまい",
+    "options": [
+      "旨い",
+      "美い",
+      "糖い",
+      "甘い"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 721,
+    "cat": "orthography",
+    "sentence": "からいカレーです。",
+    "target": "からい",
+    "options": [
+      "辛い",
+      "鹹い",
+      "酸い",
+      "苦い"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 722,
+    "cat": "orthography",
+    "sentence": "おもいかばんです。",
+    "target": "おもい",
+    "options": [
+      "軽い",
+      "重い",
+      "厚い",
+      "大い"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 723,
+    "cat": "orthography",
+    "sentence": "かるいかばんです。",
+    "target": "かるい",
+    "options": [
+      "重い",
+      "薄い",
+      "軽い",
+      "少い"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 724,
+    "cat": "orthography",
+    "sentence": "つよいかぜです。",
+    "target": "つよい",
+    "options": [
+      "弱い",
+      "硬い",
+      "剛い",
+      "強い"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 725,
+    "cat": "orthography",
+    "sentence": "よわいこえです。",
+    "target": "よわい",
+    "options": [
+      "弱い",
+      "強い",
+      "柔い",
+      "軟い"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 726,
+    "cat": "orthography",
+    "sentence": "はやいくるまです。",
+    "target": "はやい",
+    "options": [
+      "早い",
+      "速い",
+      "疾い",
+      "急い"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 727,
+    "cat": "orthography",
+    "sentence": "ひろいこうえんです。",
+    "target": "ひろい",
+    "options": [
+      "大い",
+      "開い",
+      "広い",
+      "闊い"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 728,
+    "cat": "orthography",
+    "sentence": "せまいみちです。",
+    "target": "せまい",
+    "options": [
+      "窄い",
+      "小い",
+      "隘い",
+      "狭い"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 729,
+    "cat": "orthography",
+    "sentence": "きたないへやです。",
+    "target": "きたない",
+    "options": [
+      "汚い",
+      "穢い",
+      "濁い",
+      "醜い"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 730,
+    "cat": "orthography",
+    "sentence": "きれいなはなです。",
+    "target": "きれい",
+    "options": [
+      "奇麗",
+      "綺麗",
+      "清麗",
+      "美麗"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 731,
+    "cat": "orthography",
+    "sentence": "しずかなまちです。",
+    "target": "しずか",
+    "options": [
+      "寂か",
+      "閑か",
+      "静か",
+      "黙か"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 732,
+    "cat": "orthography",
+    "sentence": "にぎやかなばしょです。",
+    "target": "にぎやか",
+    "options": [
+      "繁やか",
+      "喧やか",
+      "盛やか",
+      "賑やか"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 733,
+    "cat": "orthography",
+    "sentence": "ひまなじかんです。",
+    "target": "ひま",
+    "options": [
+      "暇",
+      "閑",
+      "空",
+      "隙"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 734,
+    "cat": "orthography",
+    "sentence": "いそがしいひです。",
+    "target": "いそがしい",
+    "options": [
+      "繁しい",
+      "忙しい",
+      "急しい",
+      "慌しい"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 735,
+    "cat": "orthography",
+    "sentence": "しんせつなひとです。",
+    "target": "しんせつ",
+    "options": [
+      "新設",
+      "親接",
+      "親切",
+      "親節"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 736,
+    "cat": "orthography",
+    "sentence": "げんきなこどもです。",
+    "target": "げんき",
+    "options": [
+      "原気",
+      "玄気",
+      "源気",
+      "元気"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 737,
+    "cat": "orthography",
+    "sentence": "ゆうめいなひとです。",
+    "target": "ゆうめい",
+    "options": [
+      "有名",
+      "有明",
+      "友名",
+      "優名"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 738,
+    "cat": "orthography",
+    "sentence": "べんりなどうぐです。",
+    "target": "べんり",
+    "options": [
+      "弁利",
+      "便利",
+      "便理",
+      "辺利"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 739,
+    "cat": "orthography",
+    "sentence": "ふべんなばしょです。",
+    "target": "ふべん",
+    "options": [
+      "不弁",
+      "否便",
+      "不便",
+      "無便"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 740,
+    "cat": "orthography",
+    "sentence": "たいせつなもののです。",
+    "target": "たいせつ",
+    "options": [
+      "太切",
+      "大節",
+      "大設",
+      "大切"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 741,
+    "cat": "orthography",
+    "sentence": "じょうずなえです。",
+    "target": "じょうず",
+    "options": [
+      "上手",
+      "上巧",
+      "上達",
+      "上善"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 742,
+    "cat": "orthography",
+    "sentence": "へたなうたです。",
+    "target": "へた",
+    "options": [
+      "下巧",
+      "下手",
+      "下達",
+      "劣手"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 743,
+    "cat": "orthography",
+    "sentence": "すきなたべものです。",
+    "target": "すき",
+    "options": [
+      "好好",
+      "愛き",
+      "好き",
+      "恋き"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 744,
+    "cat": "orthography",
+    "sentence": "きらいなやさいです。",
+    "target": "きらい",
+    "options": [
+      "厭い",
+      "悪い",
+      "拒い",
+      "嫌い"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 745,
+    "cat": "orthography",
+    "sentence": "つぎのえきでおります。",
+    "target": "つぎ",
+    "options": [
+      "次",
+      "第",
+      "副",
+      "継"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 746,
+    "cat": "orthography",
+    "sentence": "まえのひです。",
+    "target": "まえ",
+    "options": [
+      "先",
+      "前",
+      "後",
+      "始"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 747,
+    "cat": "orthography",
+    "sentence": "うしろをみます。",
+    "target": "うしろ",
+    "options": [
+      "裏ろ",
+      "背ろ",
+      "後ろ",
+      "後方"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 748,
+    "cat": "orthography",
+    "sentence": "みぎへまがります。",
+    "target": "みぎ",
+    "options": [
+      "左",
+      "西",
+      "東",
+      "右"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 749,
+    "cat": "orthography",
+    "sentence": "ひだりへいきます。",
+    "target": "ひだり",
+    "options": [
+      "左",
+      "右",
+      "東",
+      "西"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 750,
+    "cat": "orthography",
+    "sentence": "うえをみます。",
+    "target": "うえ",
+    "options": [
+      "下",
+      "上",
+      "高",
+      "頂"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 751,
+    "cat": "orthography",
+    "sentence": "したにおきます。",
+    "target": "した",
+    "options": [
+      "上",
+      "低",
+      "下",
+      "底"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 752,
+    "cat": "orthography",
+    "sentence": "なかにあります。",
+    "target": "なか",
+    "options": [
+      "内",
+      "間",
+      "央",
+      "中"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 753,
+    "cat": "orthography",
+    "sentence": "そとへでます。",
+    "target": "そと",
+    "options": [
+      "外",
+      "中",
+      "表",
+      "裏"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 754,
+    "cat": "orthography",
+    "sentence": "きたへいきます。",
+    "target": "きた",
+    "options": [
+      "南",
+      "北",
+      "東",
+      "西"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 755,
+    "cat": "orthography",
+    "sentence": "みなみへいきます。",
+    "target": "みなみ",
+    "options": [
+      "北",
+      "東",
+      "南",
+      "西"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 756,
+    "cat": "orthography",
+    "sentence": "ひがしのほうです。",
+    "target": "ひがし",
+    "options": [
+      "西",
+      "南",
+      "北",
+      "東"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 757,
+    "cat": "orthography",
+    "sentence": "にしのそらです。",
+    "target": "にし",
+    "options": [
+      "西",
+      "東",
+      "北",
+      "南"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 758,
+    "cat": "orthography",
+    "sentence": "あさごはんです。",
+    "target": "あさ",
+    "options": [
+      "晩",
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 759,
+    "cat": "orthography",
+    "sentence": "ひるごはんです。",
+    "target": "ひる",
+    "options": [
+      "朝",
+      "夜",
+      "昼",
+      "晩"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 760,
+    "cat": "orthography",
+    "sentence": "ばんごはんです。",
+    "target": "ばん",
+    "options": [
+      "朝",
+      "昼",
+      "夕",
+      "晩"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 761,
+    "cat": "orthography",
+    "sentence": "よるになりました。",
+    "target": "よる",
+    "options": [
+      "夜",
+      "晩",
+      "昼",
+      "宵"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 762,
+    "cat": "orthography",
+    "sentence": "きょうはげつようびです。",
+    "target": "きょう",
+    "options": [
+      "昨日",
+      "今日",
+      "明日",
+      "本日"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 763,
+    "cat": "orthography",
+    "sentence": "あしたはやすみです。",
+    "target": "あした",
+    "options": [
+      "今日",
+      "昨日",
+      "明日",
+      "翌日"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 764,
+    "cat": "orthography",
+    "sentence": "きのうのこと。",
+    "target": "きのう",
+    "options": [
+      "今日",
+      "明日",
+      "前日",
+      "昨日"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 765,
+    "cat": "orthography",
+    "sentence": "いまなんじですか。",
+    "target": "いま",
+    "options": [
+      "今",
+      "昔",
+      "当",
+      "現"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 766,
+    "cat": "orthography",
+    "sentence": "むかしのはなしです。",
+    "target": "むかし",
+    "options": [
+      "今",
+      "昔",
+      "古",
+      "往"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 767,
+    "cat": "orthography",
+    "sentence": "あたらしいとしです。",
+    "target": "とし",
+    "options": [
+      "歳",
+      "年齢",
+      "年",
+      "年代"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 768,
+    "cat": "orthography",
+    "sentence": "ことしのはる。",
+    "target": "はる",
+    "options": [
+      "夏",
+      "秋",
+      "冬",
+      "春"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 769,
+    "cat": "orthography",
+    "sentence": "あついなつです。",
+    "target": "なつ",
+    "options": [
+      "夏",
+      "春",
+      "秋",
+      "冬"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 770,
+    "cat": "orthography",
+    "sentence": "すずしいあき。",
+    "target": "あき",
+    "options": [
+      "春",
+      "秋",
+      "夏",
+      "冬"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 771,
+    "cat": "orthography",
+    "sentence": "さむいふゆ。",
+    "target": "ふゆ",
+    "options": [
+      "秋",
+      "夏",
+      "冬",
+      "春"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 772,
+    "cat": "orthography",
+    "sentence": "いっしゅうかんやすみます。",
+    "target": "しゅうかん",
+    "options": [
+      "周間",
+      "週刊",
+      "旬間",
+      "週間"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 773,
+    "cat": "orthography",
+    "sentence": "ついたちはやすみです。",
+    "target": "ついたち",
+    "options": [
+      "一日",
+      "一月",
+      "初日",
+      "朔日"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 774,
+    "cat": "orthography",
+    "sentence": "にじかんまちました。",
+    "target": "じかん",
+    "options": [
+      "時刻",
+      "時間",
+      "時期",
+      "時候"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 775,
+    "cat": "orthography",
+    "sentence": "ながいじかんです。",
+    "target": "じかん",
+    "options": [
+      "時刻",
+      "時期",
+      "時間",
+      "時候"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 776,
+    "cat": "orthography",
+    "sentence": "みちがひろいです。",
+    "target": "みち",
+    "options": [
+      "路",
+      "街",
+      "途",
+      "道"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 777,
+    "cat": "orthography",
+    "sentence": "えきまであるきます。",
+    "target": "えき",
+    "options": [
+      "駅",
+      "站",
+      "車駅",
+      "電駅"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 778,
+    "cat": "orthography",
+    "sentence": "くうこうへいきます。",
+    "target": "くうこう",
+    "options": [
+      "飛場",
+      "空港",
+      "空場",
+      "航港"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 779,
+    "cat": "orthography",
+    "sentence": "びょういんへいきます。",
+    "target": "びょういん",
+    "options": [
+      "医院",
+      "医館",
+      "病院",
+      "病館"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 780,
+    "cat": "orthography",
+    "sentence": "ぎんこうでおろします。",
+    "target": "ぎんこう",
+    "options": [
+      "金行",
+      "銭行",
+      "貨行",
+      "銀行"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 781,
+    "cat": "orthography",
+    "sentence": "ゆうびんきょくでだします。",
+    "target": "ゆうびんきょく",
+    "options": [
+      "郵便局",
+      "郵政局",
+      "通便局",
+      "郵使局"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 782,
+    "cat": "orthography",
+    "sentence": "こうばんのまえ。",
+    "target": "こうばん",
+    "options": [
+      "派所",
+      "交番",
+      "警番",
+      "巡番"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 786,
+    "cat": "orthography",
+    "sentence": "きっさてんでまちます。",
+    "target": "きっさてん",
+    "options": [
+      "珈琲店",
+      "喫茶店",
+      "茶店",
+      "珈房"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 788,
+    "cat": "orthography",
+    "sentence": "しょくどうでごはん。",
+    "target": "しょくどう",
+    "options": [
+      "飯堂",
+      "食館",
+      "飲堂",
+      "食堂"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 789,
+    "cat": "orthography",
+    "sentence": "としょかんでよみます。",
+    "target": "としょかん",
+    "options": [
+      "図書館",
+      "書館",
+      "蔵書館",
+      "書庫館"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 790,
+    "cat": "orthography",
+    "sentence": "びじゅつかんをみます。",
+    "target": "びじゅつかん",
+    "options": [
+      "芸術館",
+      "美術館",
+      "画廊",
+      "術館"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 791,
+    "cat": "orthography",
+    "sentence": "はくぶつかんへいきます。",
+    "target": "はくぶつかん",
+    "options": [
+      "文物館",
+      "歴史館",
+      "博物館",
+      "博物庫"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 792,
+    "cat": "orthography",
+    "sentence": "こうえんであそびます。",
+    "target": "こうえん",
+    "options": [
+      "花園",
+      "遊園",
+      "公苑",
+      "公園"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 793,
+    "cat": "orthography",
+    "sentence": "どうぶつえんへいきます。",
+    "target": "どうぶつえん",
+    "options": [
+      "動物園",
+      "動物苑",
+      "生物園",
+      "禽獣園"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 794,
+    "cat": "orthography",
+    "sentence": "しんごうをまちます。",
+    "target": "しんごう",
+    "options": [
+      "標識",
+      "信号",
+      "交号",
+      "指号"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 795,
+    "cat": "orthography",
+    "sentence": "でんしゃにのります。",
+    "target": "でんしゃ",
+    "options": [
+      "汽車",
+      "列車",
+      "電車",
+      "電気車"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 796,
+    "cat": "orthography",
+    "sentence": "ちかてつでいきます。",
+    "target": "ちかてつ",
+    "options": [
+      "地鉄",
+      "下鉄",
+      "地下道",
+      "地下鉄"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 797,
+    "cat": "orthography",
+    "sentence": "しんかんせんにのります。",
+    "target": "しんかんせん",
+    "options": [
+      "新幹線",
+      "新線",
+      "高速線",
+      "特急線"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 798,
+    "cat": "orthography",
+    "sentence": "ひこうきにのります。",
+    "target": "ひこうき",
+    "options": [
+      "飛行器",
+      "飛行機",
+      "航空機",
+      "飛機"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 799,
+    "cat": "orthography",
+    "sentence": "じてんしゃでいきます。",
+    "target": "じてんしゃ",
+    "options": [
+      "自動車",
+      "自行車",
+      "自転車",
+      "自車"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 800,
+    "cat": "orthography",
+    "sentence": "じどうしゃをかいます。",
+    "target": "じどうしゃ",
+    "options": [
+      "自転車",
+      "自運車",
+      "自走車",
+      "自動車"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 801,
+    "cat": "context_vocab",
+    "sentence": "今日は天気が（　　）です。",
+    "options": [
+      "いい",
+      "悪い",
+      "高い",
+      "安い"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 802,
+    "cat": "context_vocab",
+    "sentence": "さむいので、まどを（　　）。",
+    "options": [
+      "あけました",
+      "しめました",
+      "つけました",
+      "けしました"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 803,
+    "cat": "context_vocab",
+    "sentence": "でんきを（　　）ください。",
+    "options": [
+      "しめて",
+      "あけて",
+      "つけて",
+      "はいて"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 804,
+    "cat": "context_vocab",
+    "sentence": "みずを（　　）のみました。",
+    "options": [
+      "きれい",
+      "しずか",
+      "げんき",
+      "たくさん"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 805,
+    "cat": "context_vocab",
+    "sentence": "ともだちに（　　）もらいました。",
+    "options": [
+      "プレゼントを",
+      "プレゼントが",
+      "プレゼントは",
+      "プレゼントの"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 806,
+    "cat": "context_vocab",
+    "sentence": "あめがふるから、かさを（　　）。",
+    "options": [
+      "もちません",
+      "もちます",
+      "とります",
+      "おきます"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 807,
+    "cat": "context_vocab",
+    "sentence": "いっしょうけんめい（　　）しました。",
+    "options": [
+      "あそび",
+      "やすみ",
+      "べんきょう",
+      "げんき"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 808,
+    "cat": "context_vocab",
+    "sentence": "このりょうりはとても（　　）です。",
+    "options": [
+      "まずい",
+      "たかい",
+      "やすい",
+      "おいしい"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 809,
+    "cat": "context_vocab",
+    "sentence": "にほんごのしけんは（　　）でした。",
+    "options": [
+      "むずかしい",
+      "やさしい",
+      "たかい",
+      "ひくい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 810,
+    "cat": "context_vocab",
+    "sentence": "へやが（　　）ので、そうじします。",
+    "options": [
+      "きれい",
+      "きたない",
+      "しずか",
+      "うるさい"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 811,
+    "cat": "context_vocab",
+    "sentence": "あかちゃんが（　　）います。",
+    "options": [
+      "おきて",
+      "たって",
+      "ねて",
+      "すわって"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 812,
+    "cat": "context_vocab",
+    "sentence": "バスにまにあうように（　　）はしりました。",
+    "options": [
+      "ゆっくり",
+      "しずかに",
+      "おそく",
+      "いそいで"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 813,
+    "cat": "context_vocab",
+    "sentence": "このみちは（　　）ので、きをつけてください。",
+    "options": [
+      "せまい",
+      "ひろい",
+      "ながい",
+      "みじかい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 814,
+    "cat": "context_vocab",
+    "sentence": "パーティーはとても（　　）でした。",
+    "options": [
+      "しずか",
+      "にぎやか",
+      "ひま",
+      "いそがしい"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 815,
+    "cat": "context_vocab",
+    "sentence": "あしたは（　　）なので、うちにいます。",
+    "options": [
+      "いそがしい",
+      "げんき",
+      "ひま",
+      "しんせつ"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 816,
+    "cat": "context_vocab",
+    "sentence": "このかばんは（　　）ので、もてません。",
+    "options": [
+      "かるい",
+      "ちいさい",
+      "おおきい",
+      "おもい"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 817,
+    "cat": "context_vocab",
+    "sentence": "せんせいはとても（　　）ひとです。",
+    "options": [
+      "しんせつな",
+      "しつれいな",
+      "へたな",
+      "きらいな"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 818,
+    "cat": "context_vocab",
+    "sentence": "びょうきですから、（　　）します。",
+    "options": [
+      "はたらき",
+      "やすみ",
+      "べんきょう",
+      "あそび"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 819,
+    "cat": "context_vocab",
+    "sentence": "このレストランは（　　）です。",
+    "options": [
+      "しんせつ",
+      "べんり",
+      "ゆうめい",
+      "たいせつ"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 820,
+    "cat": "context_vocab",
+    "sentence": "えきは（　　）にあります。",
+    "options": [
+      "とおく",
+      "うえ",
+      "した",
+      "ちかく"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 821,
+    "cat": "context_vocab",
+    "sentence": "うちから学校まで（　　）です。",
+    "options": [
+      "とおい",
+      "ちかい",
+      "たかい",
+      "ひくい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 822,
+    "cat": "context_vocab",
+    "sentence": "くすりを（　　）ました。",
+    "options": [
+      "たべ",
+      "のみ",
+      "かき",
+      "よみ"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 823,
+    "cat": "context_vocab",
+    "sentence": "ドアを（　　）ください。",
+    "options": [
+      "のんで",
+      "たべて",
+      "しめて",
+      "かいて"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 824,
+    "cat": "context_vocab",
+    "sentence": "コーヒーに（　　）をいれます。",
+    "options": [
+      "しお",
+      "こしょう",
+      "す",
+      "さとう"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 825,
+    "cat": "context_vocab",
+    "sentence": "テレビを（　　）とおもいます。",
+    "options": [
+      "かおう",
+      "たべよう",
+      "のもう",
+      "いこう"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 826,
+    "cat": "context_vocab",
+    "sentence": "えいがが（　　）から、みにいきます。",
+    "options": [
+      "きらい",
+      "すき",
+      "へた",
+      "じょうず"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 827,
+    "cat": "context_vocab",
+    "sentence": "やさいを（　　）りょうりします。",
+    "options": [
+      "かいて",
+      "かって",
+      "きって",
+      "もって"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 828,
+    "cat": "context_vocab",
+    "sentence": "あたらしいふくを（　　）ました。",
+    "options": [
+      "の",
+      "はい",
+      "もち",
+      "き"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 829,
+    "cat": "context_vocab",
+    "sentence": "ぼうしを（　　）ください。",
+    "options": [
+      "かぶって",
+      "はいて",
+      "きて",
+      "しめて"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 830,
+    "cat": "context_vocab",
+    "sentence": "くつを（　　）ください。",
+    "options": [
+      "きて",
+      "はいて",
+      "かぶって",
+      "しめて"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 831,
+    "cat": "context_vocab",
+    "sentence": "ネクタイを（　　）ます。",
+    "options": [
+      "はき",
+      "き",
+      "しめ",
+      "かぶり"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 832,
+    "cat": "context_vocab",
+    "sentence": "めがねを（　　）います。",
+    "options": [
+      "きて",
+      "はいて",
+      "しめて",
+      "かけて"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 833,
+    "cat": "context_vocab",
+    "sentence": "でんしゃに（　　）ました。",
+    "options": [
+      "のり",
+      "おり",
+      "はしり",
+      "あるき"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 834,
+    "cat": "context_vocab",
+    "sentence": "つぎのえきで（　　）ます。",
+    "options": [
+      "のり",
+      "おり",
+      "はし",
+      "あるき"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 835,
+    "cat": "context_vocab",
+    "sentence": "おとうとが（　　）うまれました。",
+    "options": [
+      "もう",
+      "まだ",
+      "やっと",
+      "ずっと"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 836,
+    "cat": "context_vocab",
+    "sentence": "わたしはにほんに（　　）きました。",
+    "options": [
+      "いつも",
+      "よく",
+      "たまに",
+      "はじめて"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 837,
+    "cat": "context_vocab",
+    "sentence": "かれは（　　）しんせつです。",
+    "options": [
+      "とても",
+      "すこし",
+      "ぜんぜん",
+      "あまり"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 838,
+    "cat": "context_vocab",
+    "sentence": "にほんごは（　　）むずかしくないです。",
+    "options": [
+      "とても",
+      "あまり",
+      "すごく",
+      "ずいぶん"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 839,
+    "cat": "context_vocab",
+    "sentence": "えいごは（　　）わかりません。",
+    "options": [
+      "とても",
+      "たくさん",
+      "ぜんぜん",
+      "すこし"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 840,
+    "cat": "context_vocab",
+    "sentence": "（　　）やすみます。",
+    "options": [
+      "はやく",
+      "すぐ",
+      "たくさん",
+      "ゆっくり"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 841,
+    "cat": "context_vocab",
+    "sentence": "これは（　　）もんだいです。",
+    "options": [
+      "かんたんな",
+      "むずかしい",
+      "べんりな",
+      "たいせつな"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 842,
+    "cat": "context_vocab",
+    "sentence": "（　　）はらいます。",
+    "options": [
+      "くるまで",
+      "クレジットカードで",
+      "ペンで",
+      "ほんで"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 843,
+    "cat": "context_vocab",
+    "sentence": "てを（　　）ください。",
+    "options": [
+      "みて",
+      "きいて",
+      "あらって",
+      "よんで"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 844,
+    "cat": "context_vocab",
+    "sentence": "はを（　　）ください。",
+    "options": [
+      "あらって",
+      "かいて",
+      "よんで",
+      "みがいて"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 845,
+    "cat": "context_vocab",
+    "sentence": "かおを（　　）ました。",
+    "options": [
+      "あらい",
+      "のみ",
+      "たべ",
+      "かき"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 846,
+    "cat": "context_vocab",
+    "sentence": "おふろに（　　）ました。",
+    "options": [
+      "のぼり",
+      "はいり",
+      "あがり",
+      "くだり"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 847,
+    "cat": "context_vocab",
+    "sentence": "シャワーを（　　）ました。",
+    "options": [
+      "のみ",
+      "たべ",
+      "あび",
+      "はいり"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 848,
+    "cat": "context_vocab",
+    "sentence": "かみを（　　）もらいました。",
+    "options": [
+      "よんで",
+      "かいて",
+      "みて",
+      "きって"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 849,
+    "cat": "context_vocab",
+    "sentence": "かぜを（　　）しまいました。",
+    "options": [
+      "ひいて",
+      "して",
+      "ついて",
+      "おいて"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 850,
+    "cat": "context_vocab",
+    "sentence": "ねつが（　　）ます。",
+    "options": [
+      "ない",
+      "あり",
+      "いき",
+      "こ"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 851,
+    "cat": "context_vocab",
+    "sentence": "せきが（　　）ます。",
+    "options": [
+      "あり",
+      "ない",
+      "でま",
+      "いき"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 852,
+    "cat": "context_vocab",
+    "sentence": "おなかが（　　）です。",
+    "options": [
+      "いっぱい",
+      "たくさん",
+      "げんき",
+      "すいた"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 853,
+    "cat": "context_vocab",
+    "sentence": "のどが（　　）です。",
+    "options": [
+      "かわいた",
+      "すいた",
+      "いっぱい",
+      "げんき"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 854,
+    "cat": "context_vocab",
+    "sentence": "つかれたから、（　　）やすみたい。",
+    "options": [
+      "ぜんぜん",
+      "すこし",
+      "あまり",
+      "まだ"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 855,
+    "cat": "context_vocab",
+    "sentence": "あつくてのどが（　　）。",
+    "options": [
+      "すきます",
+      "いたいです",
+      "かわきます",
+      "ねます"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 856,
+    "cat": "context_vocab",
+    "sentence": "にもつが（　　）から、もてません。",
+    "options": [
+      "やすい",
+      "たかい",
+      "かるい",
+      "おもすぎる"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 857,
+    "cat": "context_vocab",
+    "sentence": "ちちは（　　）でまいにちはたらいています。",
+    "options": [
+      "かいしゃ",
+      "がっこう",
+      "びょういん",
+      "ぎんこう"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 858,
+    "cat": "context_vocab",
+    "sentence": "おかねを（　　）にあずけます。",
+    "options": [
+      "ゆうびんきょく",
+      "ぎんこう",
+      "こうばん",
+      "えき"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 859,
+    "cat": "context_vocab",
+    "sentence": "てがみを（　　）でだします。",
+    "options": [
+      "ぎんこう",
+      "えき",
+      "ゆうびんきょく",
+      "びょういん"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 860,
+    "cat": "context_vocab",
+    "sentence": "きってを（　　）ました。",
+    "options": [
+      "かき",
+      "おし",
+      "ひき",
+      "はり"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 861,
+    "cat": "context_vocab",
+    "sentence": "でんわを（　　）ます。",
+    "options": [
+      "かけ",
+      "ひき",
+      "おし",
+      "うち"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 862,
+    "cat": "context_vocab",
+    "sentence": "でんわに（　　）ました。",
+    "options": [
+      "かけ",
+      "でま",
+      "ひき",
+      "おし"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 863,
+    "cat": "context_vocab",
+    "sentence": "しゃしんを（　　）ました。",
+    "options": [
+      "み",
+      "かき",
+      "とり",
+      "よみ"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 864,
+    "cat": "context_vocab",
+    "sentence": "りょうりが（　　）です。",
+    "options": [
+      "へた",
+      "きらい",
+      "すき",
+      "じょうず"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 865,
+    "cat": "context_vocab",
+    "sentence": "ピアノが（　　）じゃないです。",
+    "options": [
+      "じょうず",
+      "へた",
+      "きらい",
+      "すき"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 866,
+    "cat": "context_vocab",
+    "sentence": "うたが（　　）です。",
+    "options": [
+      "きらい",
+      "すき",
+      "じょうず",
+      "へた"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 867,
+    "cat": "context_vocab",
+    "sentence": "このかばんは（　　）です。",
+    "options": [
+      "ふべん",
+      "しんせつ",
+      "べんり",
+      "たいせつ"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 868,
+    "cat": "context_vocab",
+    "sentence": "ここは（　　）なところです。",
+    "options": [
+      "にぎやか",
+      "ひま",
+      "いそがしい",
+      "しずか"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 869,
+    "cat": "context_vocab",
+    "sentence": "あのひとは（　　）なひとです。",
+    "options": [
+      "ゆうめい",
+      "しんせつ",
+      "たいせつ",
+      "べんり"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 870,
+    "cat": "context_vocab",
+    "sentence": "けんこうは（　　）です。",
+    "options": [
+      "しんせつ",
+      "たいせつ",
+      "べんり",
+      "ゆうめい"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 871,
+    "cat": "context_vocab",
+    "sentence": "かぜをひいたので、（　　）をのみました。",
+    "options": [
+      "みず",
+      "おちゃ",
+      "くすり",
+      "コーヒー"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 872,
+    "cat": "context_vocab",
+    "sentence": "あついですから、エアコンを（　　）ました。",
+    "options": [
+      "けし",
+      "あけ",
+      "しめ",
+      "つけ"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 873,
+    "cat": "context_vocab",
+    "sentence": "さむいですから、ヒーターを（　　）ました。",
+    "options": [
+      "つけ",
+      "けし",
+      "あけ",
+      "しめ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 874,
+    "cat": "context_vocab",
+    "sentence": "でかけるまえに、でんきを（　　）ます。",
+    "options": [
+      "つけ",
+      "けし",
+      "あけ",
+      "しめ"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 875,
+    "cat": "context_vocab",
+    "sentence": "へやがくらいので、でんきを（　　）ます。",
+    "options": [
+      "けし",
+      "しめ",
+      "つけ",
+      "あけ"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 876,
+    "cat": "context_vocab",
+    "sentence": "としょかんで、しずかに（　　）ください。",
+    "options": [
+      "いって",
+      "きて",
+      "みて",
+      "して"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 877,
+    "cat": "context_vocab",
+    "sentence": "これから、じゅぎょうが（　　）ます。",
+    "options": [
+      "はじまり",
+      "おわり",
+      "つかい",
+      "つくり"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 878,
+    "cat": "context_vocab",
+    "sentence": "じゅぎょうが（　　）、うちへかえります。",
+    "options": [
+      "はじまって",
+      "おわって",
+      "つかって",
+      "つくって"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 879,
+    "cat": "context_vocab",
+    "sentence": "えんぴつで（　　）ください。",
+    "options": [
+      "よんで",
+      "きいて",
+      "かいて",
+      "みて"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 880,
+    "cat": "context_vocab",
+    "sentence": "じしょで（　　）ください。",
+    "options": [
+      "きいて",
+      "みて",
+      "よんで",
+      "しらべて"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 881,
+    "cat": "context_vocab",
+    "sentence": "せんせいに（　　）ました。",
+    "options": [
+      "ききました",
+      "いいました",
+      "みました",
+      "かきました"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 882,
+    "cat": "context_vocab",
+    "sentence": "ともだちに（　　）ました。",
+    "options": [
+      "かき",
+      "はなし",
+      "み",
+      "きき"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 883,
+    "cat": "context_vocab",
+    "sentence": "これを（　　）ください。",
+    "options": [
+      "かいて",
+      "よんで",
+      "みて",
+      "きいて"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 884,
+    "cat": "context_vocab",
+    "sentence": "このうたを（　　）ください。",
+    "options": [
+      "みて",
+      "かいて",
+      "よんで",
+      "きいて"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 885,
+    "cat": "context_vocab",
+    "sentence": "このほんを（　　）ください。",
+    "options": [
+      "よんで",
+      "みて",
+      "かいて",
+      "きいて"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 886,
+    "cat": "context_vocab",
+    "sentence": "なまえを（　　）ください。",
+    "options": [
+      "よんで",
+      "かいて",
+      "みて",
+      "きいて"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 887,
+    "cat": "context_vocab",
+    "sentence": "もういちど（　　）ください。",
+    "options": [
+      "して",
+      "きて",
+      "いって",
+      "みて"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 888,
+    "cat": "context_vocab",
+    "sentence": "すこし（　　）ください。",
+    "options": [
+      "いって",
+      "して",
+      "きて",
+      "まって"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 889,
+    "cat": "context_vocab",
+    "sentence": "ゆっくり（　　）ください。",
+    "options": [
+      "はなして",
+      "いって",
+      "して",
+      "みて"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 890,
+    "cat": "context_vocab",
+    "sentence": "おかねを（　　）います。",
+    "options": [
+      "かいて",
+      "もって",
+      "しって",
+      "よんで"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 891,
+    "cat": "context_vocab",
+    "sentence": "かぎを（　　）います。",
+    "options": [
+      "かいて",
+      "しって",
+      "もって",
+      "よんで"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 892,
+    "cat": "context_vocab",
+    "sentence": "そのこと（　　）います。",
+    "options": [
+      "をまって",
+      "をあって",
+      "をみて",
+      "をしって"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 893,
+    "cat": "context_vocab",
+    "sentence": "きょうとに（　　）ことがあります。",
+    "options": [
+      "いった",
+      "た",
+      "のんだ",
+      "やすんだ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 894,
+    "cat": "context_vocab",
+    "sentence": "すしを（　　）ことがあります。",
+    "options": [
+      "のんだ",
+      "たべた",
+      "いった",
+      "やすんだ"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 895,
+    "cat": "context_vocab",
+    "sentence": "にほんで（　　）ことがあります。",
+    "options": [
+      "のんだ",
+      "たべた",
+      "はたらいた",
+      "やすんだ"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 896,
+    "cat": "context_vocab",
+    "sentence": "ピアノを（　　）ことができます。",
+    "options": [
+      "する",
+      "くる",
+      "いく",
+      "ひく"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 897,
+    "cat": "context_vocab",
+    "sentence": "くるまを（　　）ことができます。",
+    "options": [
+      "うんてんする",
+      "ひく",
+      "する",
+      "くる"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 898,
+    "cat": "context_vocab",
+    "sentence": "およぐことが（　　）ます。",
+    "options": [
+      "あり",
+      "でき",
+      "い",
+      "し"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 899,
+    "cat": "context_vocab",
+    "sentence": "あした、しごとに（　　）なければなりません。",
+    "options": [
+      "のま",
+      "たべ",
+      "いか",
+      "み"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 900,
+    "cat": "context_vocab",
+    "sentence": "くすりを（　　）なければなりません。",
+    "options": [
+      "たべ",
+      "よま",
+      "かか",
+      "のま"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 901,
+    "cat": "context_vocab",
+    "sentence": "（　　）てから、ねます。",
+    "options": [
+      "はをみがい",
+      "かおをあらっ",
+      "ふくをき",
+      "くつをはい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 902,
+    "cat": "context_vocab",
+    "sentence": "（　　）まえに、てをあらいます。",
+    "options": [
+      "ねる",
+      "ごはんをたべる",
+      "いく",
+      "おきる"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 903,
+    "cat": "context_vocab",
+    "sentence": "きょうしつに（　　）がいます。",
+    "options": [
+      "せんせい",
+      "ひと",
+      "がくせい",
+      "ども"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 904,
+    "cat": "context_vocab",
+    "sentence": "わたしは（　　）がすきです。",
+    "options": [
+      "くるま",
+      "いす",
+      "つくえ",
+      "りんご"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 905,
+    "cat": "context_vocab",
+    "sentence": "（　　）であそびます。",
+    "options": [
+      "こうえん",
+      "がっこう",
+      "かいしゃ",
+      "びょういん"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 906,
+    "cat": "context_vocab",
+    "sentence": "ほんやで（　　）をかいました。",
+    "options": [
+      "くるま",
+      "ほん",
+      "いす",
+      "つくえ"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 907,
+    "cat": "context_vocab",
+    "sentence": "くだものやで（　　）をかいました。",
+    "options": [
+      "ほん",
+      "くるま",
+      "りんご",
+      "いす"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 908,
+    "cat": "context_vocab",
+    "sentence": "はなやで（　　）をかいました。",
+    "options": [
+      "ほん",
+      "りんご",
+      "いす",
+      "はな"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 909,
+    "cat": "context_vocab",
+    "sentence": "にくやで（　　）をかいました。",
+    "options": [
+      "にく",
+      "はな",
+      "ほん",
+      "いす"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 910,
+    "cat": "context_vocab",
+    "sentence": "さかなやで（　　）をかいました。",
+    "options": [
+      "にく",
+      "さかな",
+      "はな",
+      "ほん"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 911,
+    "cat": "context_vocab",
+    "sentence": "やおやで（　　）をかいました。",
+    "options": [
+      "さかな",
+      "にく",
+      "やさい",
+      "はな"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 912,
+    "cat": "context_vocab",
+    "sentence": "パンやで（　　）をかいました。",
+    "options": [
+      "やさい",
+      "さかな",
+      "にく",
+      "パン"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 913,
+    "cat": "context_vocab",
+    "sentence": "あついので（　　）をのみます。",
+    "options": [
+      "みず",
+      "にく",
+      "ほん",
+      "くるま"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 914,
+    "cat": "context_vocab",
+    "sentence": "さむいので（　　）をのみます。",
+    "options": [
+      "みず",
+      "おちゃ",
+      "にく",
+      "ほん"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 915,
+    "cat": "context_vocab",
+    "sentence": "ケーキは（　　）です。",
+    "options": [
+      "からい",
+      "にがい",
+      "あまい",
+      "しおからい"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 916,
+    "cat": "context_vocab",
+    "sentence": "レモンは（　　）です。",
+    "options": [
+      "あまい",
+      "からい",
+      "にがい",
+      "すっぱい"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 917,
+    "cat": "context_vocab",
+    "sentence": "コーヒーは（　　）です。",
+    "options": [
+      "にがい",
+      "あまい",
+      "からい",
+      "すっぱい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 918,
+    "cat": "context_vocab",
+    "sentence": "カレーは（　　）です。",
+    "options": [
+      "あまい",
+      "からい",
+      "にがい",
+      "すっぱい"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 919,
+    "cat": "context_vocab",
+    "sentence": "ぞうは（　　）どうぶつです。",
+    "options": [
+      "ちいさい",
+      "たかい",
+      "おおきい",
+      "ひくい"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 920,
+    "cat": "context_vocab",
+    "sentence": "ありは（　　）どうぶつです。",
+    "options": [
+      "おおきい",
+      "たかい",
+      "ひくい",
+      "ちいさい"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 921,
+    "cat": "context_vocab",
+    "sentence": "ふじさんは（　　）やまです。",
+    "options": [
+      "たかい",
+      "ひくい",
+      "ちいさい",
+      "ふとい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 922,
+    "cat": "context_vocab",
+    "sentence": "このほんは（　　）です。",
+    "options": [
+      "つまらない",
+      "おもしろい",
+      "きたない",
+      "きれい"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 923,
+    "cat": "context_vocab",
+    "sentence": "このえいがは（　　）です。",
+    "options": [
+      "おもしろい",
+      "きれい",
+      "つまらない",
+      "きたない"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 924,
+    "cat": "context_vocab",
+    "sentence": "パーティーは（　　）でした。",
+    "options": [
+      "かなしい",
+      "さびしい",
+      "うれしい",
+      "たのしい"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 925,
+    "cat": "context_vocab",
+    "sentence": "おもちゃをもらって（　　）です。",
+    "options": [
+      "うれしい",
+      "かなしい",
+      "さびしい",
+      "たのしい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 926,
+    "cat": "context_vocab",
+    "sentence": "ともだちがいなくて（　　）です。",
+    "options": [
+      "うれしい",
+      "さびしい",
+      "かなしい",
+      "たのしい"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 927,
+    "cat": "context_vocab",
+    "sentence": "ペットがしんで（　　）です。",
+    "options": [
+      "うれしい",
+      "たのしい",
+      "かなしい",
+      "さびしい"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 928,
+    "cat": "context_vocab",
+    "sentence": "このえは（　　）です。",
+    "options": [
+      "きたない",
+      "つよい",
+      "よわい",
+      "うつくしい"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 929,
+    "cat": "context_vocab",
+    "sentence": "かれは（　　）ひとです。",
+    "options": [
+      "つよい",
+      "よわい",
+      "ほそい",
+      "ふとい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 930,
+    "cat": "context_vocab",
+    "sentence": "このペンは（　　）です。",
+    "options": [
+      "ふとい",
+      "ほそい",
+      "おおきい",
+      "ちいさい"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 931,
+    "cat": "context_vocab",
+    "sentence": "このきは（　　）です。",
+    "options": [
+      "ほそい",
+      "あかい",
+      "ふとい",
+      "あおい"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 932,
+    "cat": "context_vocab",
+    "sentence": "おとうさんは（　　）です。",
+    "options": [
+      "きびしい",
+      "かなしい",
+      "うれしい",
+      "やさしい"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 933,
+    "cat": "context_vocab",
+    "sentence": "おかあさんは（　　）です。",
+    "options": [
+      "やさしい",
+      "きびしい",
+      "かなしい",
+      "うれしい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 934,
+    "cat": "context_vocab",
+    "sentence": "テストのまえは（　　）です。",
+    "options": [
+      "ひま",
+      "いそがしい",
+      "たのしい",
+      "かなしい"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 935,
+    "cat": "context_vocab",
+    "sentence": "しごとがおわって（　　）になります。",
+    "options": [
+      "いそがしい",
+      "たのしい",
+      "ひま",
+      "かなしい"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 936,
+    "cat": "context_vocab",
+    "sentence": "はるは（　　）です。",
+    "options": [
+      "さむい",
+      "あつい",
+      "すずしい",
+      "あたたかい"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 937,
+    "cat": "context_vocab",
+    "sentence": "なつは（　　）です。",
+    "options": [
+      "あつい",
+      "さむい",
+      "すずしい",
+      "あたたかい"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 938,
+    "cat": "context_vocab",
+    "sentence": "あきは（　　）です。",
+    "options": [
+      "あつい",
+      "すずしい",
+      "さむい",
+      "あたたかい"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 939,
+    "cat": "context_vocab",
+    "sentence": "ふゆは（　　）です。",
+    "options": [
+      "あつい",
+      "すずしい",
+      "さむい",
+      "あたたかい"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 940,
+    "cat": "context_vocab",
+    "sentence": "あさは（　　）おきます。",
+    "options": [
+      "おそく",
+      "たくさん",
+      "すこし",
+      "はやく"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 941,
+    "cat": "context_vocab",
+    "sentence": "ばんは（　　）ねます。",
+    "options": [
+      "おそく",
+      "はやく",
+      "たくさん",
+      "すこし"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 942,
+    "cat": "context_vocab",
+    "sentence": "（　　）ねむりました。",
+    "options": [
+      "わるく",
+      "よく",
+      "ひくく",
+      "たかく"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 943,
+    "cat": "context_vocab",
+    "sentence": "りょうりが（　　）できました。",
+    "options": [
+      "へたに",
+      "いそがしく",
+      "じょうずに",
+      "ひまに"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 944,
+    "cat": "context_vocab",
+    "sentence": "かんじを（　　）かきます。",
+    "options": [
+      "きたなく",
+      "おおきく",
+      "ちいさく",
+      "きれいに"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 945,
+    "cat": "context_vocab",
+    "sentence": "もっと（　　）はなしてください。",
+    "options": [
+      "ゆっくり",
+      "はやく",
+      "おおきく",
+      "ちいさく"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 946,
+    "cat": "context_vocab",
+    "sentence": "こえを（　　）ください。",
+    "options": [
+      "ちいさくして",
+      "おおきくして",
+      "はやくして",
+      "ゆっくりして"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 947,
+    "cat": "context_vocab",
+    "sentence": "きょうしつを（　　）しました。",
+    "options": [
+      "せんたく",
+      "しごと",
+      "そうじ",
+      "べんきょう"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 948,
+    "cat": "context_vocab",
+    "sentence": "ふくを（　　）します。",
+    "options": [
+      "そうじ",
+      "しごと",
+      "べんきょう",
+      "せんたく"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 949,
+    "cat": "context_vocab",
+    "sentence": "かいしゃで（　　）をします。",
+    "options": [
+      "しごと",
+      "そうじ",
+      "せんたく",
+      "べんきょう"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 950,
+    "cat": "context_vocab",
+    "sentence": "がっこうで（　　）をします。",
+    "options": [
+      "しごと",
+      "べんきょう",
+      "そうじ",
+      "せんたく"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 951,
+    "cat": "context_vocab",
+    "sentence": "あしたは（　　）ですから、がっこうへいきません。",
+    "options": [
+      "しごと",
+      "べんきょう",
+      "やすみ",
+      "しけん"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 952,
+    "cat": "context_vocab",
+    "sentence": "らいしゅう（　　）があります。",
+    "options": [
+      "やすみ",
+      "しごと",
+      "りょこう",
+      "しけん"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 953,
+    "cat": "context_vocab",
+    "sentence": "なつやすみに（　　）にいきました。",
+    "options": [
+      "りょこう",
+      "しけん",
+      "しごと",
+      "やすみ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 954,
+    "cat": "context_vocab",
+    "sentence": "たんじょうびに（　　）をもらいました。",
+    "options": [
+      "しけん",
+      "プレゼント",
+      "しごと",
+      "やすみ"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 955,
+    "cat": "context_vocab",
+    "sentence": "クリスマスに（　　）をおくりました。",
+    "options": [
+      "しけん",
+      "しごと",
+      "プレゼント",
+      "やすみ"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 956,
+    "cat": "context_vocab",
+    "sentence": "おいしい（　　）をたべました。",
+    "options": [
+      "くるま",
+      "ほん",
+      "いす",
+      "りょうり"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 957,
+    "cat": "context_vocab",
+    "sentence": "にほんの（　　）がすきです。",
+    "options": [
+      "りょうり",
+      "くるま",
+      "ほん",
+      "いす"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 958,
+    "cat": "context_vocab",
+    "sentence": "あかるい（　　）です。",
+    "options": [
+      "あじ",
+      "いろ",
+      "こえ",
+      "かたち"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 959,
+    "cat": "context_vocab",
+    "sentence": "あまい（　　）がします。",
+    "options": [
+      "いろ",
+      "こえ",
+      "あじ",
+      "かたち"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 960,
+    "cat": "context_vocab",
+    "sentence": "おおきい（　　）がきこえます。",
+    "options": [
+      "いろ",
+      "あじ",
+      "かたち",
+      "おと"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 961,
+    "cat": "context_vocab",
+    "sentence": "いい（　　）がします。",
+    "options": [
+      "におい",
+      "いろ",
+      "おと",
+      "かたち"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 962,
+    "cat": "context_vocab",
+    "sentence": "まるい（　　）です。",
+    "options": [
+      "いろ",
+      "かたち",
+      "おと",
+      "あじ"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 963,
+    "cat": "context_vocab",
+    "sentence": "きれいな（　　）です。",
+    "options": [
+      "あじ",
+      "におい",
+      "こえ",
+      "かたち"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 964,
+    "cat": "context_vocab",
+    "sentence": "えいごで（　　）ください。",
+    "options": [
+      "かいて",
+      "きいて",
+      "よんで",
+      "はなして"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 965,
+    "cat": "context_vocab",
+    "sentence": "ナイフで（　　）ください。",
+    "options": [
+      "きって",
+      "かいて",
+      "よんで",
+      "きいて"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 966,
+    "cat": "context_vocab",
+    "sentence": "ハサミで（　　）ました。",
+    "options": [
+      "かき",
+      "きり",
+      "よみ",
+      "きき"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 967,
+    "cat": "context_vocab",
+    "sentence": "ペンで（　　）ました。",
+    "options": [
+      "きり",
+      "よみ",
+      "かき",
+      "きき"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 968,
+    "cat": "context_vocab",
+    "sentence": "おはしで（　　）ます。",
+    "options": [
+      "のみ",
+      "み",
+      "きき",
+      "たべ"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 969,
+    "cat": "context_vocab",
+    "sentence": "コップで（　　）ます。",
+    "options": [
+      "のみ",
+      "たべ",
+      "み",
+      "きき"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 970,
+    "cat": "context_vocab",
+    "sentence": "スプーンで（　　）ます。",
+    "options": [
+      "のみ",
+      "たべ",
+      "み",
+      "きき"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 971,
+    "cat": "context_vocab",
+    "sentence": "フォークで（　　）ます。",
+    "options": [
+      "のみ",
+      "み",
+      "たべ",
+      "きき"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 972,
+    "cat": "context_vocab",
+    "sentence": "くるまで（　　）ました。",
+    "options": [
+      "のみ",
+      "たべ",
+      "み",
+      "いき"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 973,
+    "cat": "context_vocab",
+    "sentence": "でんしゃで（　　）ました。",
+    "options": [
+      "いき",
+      "のみ",
+      "たべ",
+      "み"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 974,
+    "cat": "context_vocab",
+    "sentence": "あるいて（　　）ました。",
+    "options": [
+      "のみ",
+      "いき",
+      "たべ",
+      "み"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 975,
+    "cat": "context_vocab",
+    "sentence": "にほんから（　　）てがみです。",
+    "options": [
+      "いった",
+      "のんだ",
+      "きた",
+      "たべた"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 976,
+    "cat": "context_vocab",
+    "sentence": "あめりかへ（　　）ます。",
+    "options": [
+      "のみ",
+      "たべ",
+      "み",
+      "いき"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 977,
+    "cat": "context_vocab",
+    "sentence": "ちちは（　　）にいます。",
+    "options": [
+      "にわ",
+      "くるま",
+      "ほん",
+      "いす"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 978,
+    "cat": "context_vocab",
+    "sentence": "はなは（　　）にあります。",
+    "options": [
+      "ほん",
+      "テーブル",
+      "いす",
+      "つくえ"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 979,
+    "cat": "context_vocab",
+    "sentence": "ねこは（　　）のうえにいます。",
+    "options": [
+      "ほん",
+      "くるま",
+      "いす",
+      "つくえ"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 980,
+    "cat": "context_vocab",
+    "sentence": "いぬは（　　）のしたにいます。",
+    "options": [
+      "ほん",
+      "くるま",
+      "いす",
+      "つくえ"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 981,
+    "cat": "context_vocab",
+    "sentence": "とりは（　　）にいます。",
+    "options": [
+      "そら",
+      "うみ",
+      "やま",
+      "かわ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 982,
+    "cat": "context_vocab",
+    "sentence": "さかなは（　　）にいます。",
+    "options": [
+      "そら",
+      "うみ",
+      "やま",
+      "みち"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 983,
+    "cat": "context_vocab",
+    "sentence": "きょうは（　　）です。",
+    "options": [
+      "ひろい",
+      "せまい",
+      "さむい",
+      "ちかい"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 984,
+    "cat": "context_vocab",
+    "sentence": "わたしは（　　）ねこをかっています。",
+    "options": [
+      "せまい",
+      "ひくい",
+      "みじかい",
+      "ちいさい"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 985,
+    "cat": "context_vocab",
+    "sentence": "おとうとは（　　）です。",
+    "options": [
+      "げんき",
+      "しんせつ",
+      "ゆうめい",
+      "べんり"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 986,
+    "cat": "context_vocab",
+    "sentence": "あねは（　　）です。",
+    "options": [
+      "げんき",
+      "しんせつ",
+      "ゆうめい",
+      "べんり"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 987,
+    "cat": "context_vocab",
+    "sentence": "あには（　　）がっこうのせんせいです。",
+    "options": [
+      "ちゅうがっこう",
+      "こうこう",
+      "しょうがっこう",
+      "だいがく"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 988,
+    "cat": "context_vocab",
+    "sentence": "わたしは（　　）せいです。",
+    "options": [
+      "しょうがっこう",
+      "ちゅうがっこう",
+      "こうこう",
+      "だいがく"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 989,
+    "cat": "context_vocab",
+    "sentence": "（　　）でしごとをします。",
+    "options": [
+      "かいしゃ",
+      "がっこう",
+      "びょういん",
+      "こうえん"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 990,
+    "cat": "context_vocab",
+    "sentence": "（　　）でほんをよみます。",
+    "options": [
+      "かいしゃ",
+      "としょかん",
+      "がっこう",
+      "こうえん"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 991,
+    "cat": "context_vocab",
+    "sentence": "（　　）でえいがをみます。",
+    "options": [
+      "としょかん",
+      "かいしゃ",
+      "えいがかん",
+      "がっこう"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 992,
+    "cat": "context_vocab",
+    "sentence": "（　　）でうたいます。",
+    "options": [
+      "えいがかん",
+      "としょかん",
+      "かいしゃ",
+      "カラオケ"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 993,
+    "cat": "context_vocab",
+    "sentence": "（　　）ではしります。",
+    "options": [
+      "こうえん",
+      "カラオケ",
+      "えいがかん",
+      "としょかん"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 994,
+    "cat": "context_vocab",
+    "sentence": "（　　）をあびてからねます。",
+    "options": [
+      "コーヒー",
+      "シャワー",
+      "ジュース",
+      "おちゃ"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 995,
+    "cat": "context_vocab",
+    "sentence": "（　　）できっぷをかいます。",
+    "options": [
+      "ぎんこう",
+      "ゆうびんきょく",
+      "えき",
+      "こうばん"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 996,
+    "cat": "context_vocab",
+    "sentence": "（　　）でかいものをします。",
+    "options": [
+      "えき",
+      "ぎんこう",
+      "こうばん",
+      "スーパー"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 997,
+    "cat": "context_vocab",
+    "sentence": "（　　）でりょうりをつくります。",
+    "options": [
+      "だいどころ",
+      "しんしつ",
+      "おてあらい",
+      "おふろ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 998,
+    "cat": "context_vocab",
+    "sentence": "（　　）でねます。",
+    "options": [
+      "だいどころ",
+      "しんしつ",
+      "おてあらい",
+      "おふろ"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 999,
+    "cat": "context_vocab",
+    "sentence": "（　　）ではいります。",
+    "options": [
+      "しんしつ",
+      "だいどころ",
+      "おふろ",
+      "おてあらい"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 1000,
+    "cat": "context_vocab",
+    "sentence": "（　　）ではをみがきます。",
+    "options": [
+      "おふろ",
+      "しんしつ",
+      "だいどころ",
+      "おてあらい"
+    ],
+    "answer": 3
+  }
+]
