@@ -419,10 +419,11 @@ function answerN2Choice(idx, boundNq) {
   setTimeout(() => speakJP(n2ReadableSentence(nq)), 300);
 
   // Build result message
+  const expl = nq.explanation ? `<div class="n2-expl">${nq.explanation}</div>` : "";
   if (ok) {
-    ui.result.innerHTML = `✅ ${t("result_correct")}<b>${correctText}</b>`;
+    ui.result.innerHTML = `✅ ${t("result_correct")}<b>${correctText}</b>${expl}`;
   } else {
-    ui.result.innerHTML = `❌ ${t("result_wrong")}<b>${correctText}</b>`;
+    ui.result.innerHTML = `❌ ${t("result_wrong")}<b>${correctText}</b>${expl}`;
   }
 
   // Record stats
