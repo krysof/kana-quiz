@@ -29,6 +29,19 @@ const ui = {
   grammarTopicTitle: $("grammarTopicTitle"),
   btnGrammarBack: $("btnGrammarBack"),
   btnGrammarTopicBack: $("btnGrammarTopicBack"),
+  btnGrammarPractice: $("btnGrammarPractice"),
+  grammarPracticeScreen: $("grammarPracticeScreen"),
+  btnGrammarPracticeBack: $("btnGrammarPracticeBack"),
+  gpHint: $("gpHint"),
+  gpQ: $("gpQ"),
+  gpOpts: $("gpOpts"),
+  gpResult: $("gpResult"),
+  btnGpNext: $("btnGpNext"),
+  gpProgressFill: $("gpProgressFill"),
+  gpDone: $("gpDone"),
+  gpTotal: $("gpTotal"),
+  gpOk: $("gpOk"),
+  gpNg: $("gpNg"),
 
   // Settings header
   settingsTitle: $("settingsTitle"),
@@ -344,12 +357,15 @@ function showScreen(screen) {
   ui.quizScreen.classList.add("hide");
   if (ui.grammarScreen) ui.grammarScreen.classList.add("hide");
   if (ui.grammarTopicScreen) ui.grammarTopicScreen.classList.add("hide");
+  if (ui.grammarPracticeScreen) ui.grammarPracticeScreen.classList.add("hide");
   screen.classList.remove("hide");
 }
 
 // ==================== Grammar Module ====================
 
 let grammarTopics = [];
+let currentGrammarTopic = null;
+let gpState = null;
 
 function renderGrammarTopics() {
   if (!ui.grammarTopics) return;
@@ -371,7 +387,12 @@ function renderGrammarTopics() {
 }
 
 function openGrammarTopic(topic) {
+  currentGrammarTopic = topic;
   ui.grammarTopicTitle.textContent = topic.title;
+  // Show practice button only if topic has practice data
+  if (ui.btnGrammarPractice) {
+    ui.btnGrammarPractice.classList.toggle("hide", !topic.practice);
+  }
   ui.grammarContent.innerHTML = "";
   (topic.sections || []).forEach((sec) => {
     const el = document.createElement("div");
@@ -422,6 +443,109 @@ function openGrammarTopic(topic) {
     ui.grammarContent.appendChild(el);
   });
   showScreen(ui.grammarTopicScreen);
+}
+
+function shuffleArr(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function startGrammarPractice() {
+  if (!currentGrammarTopic || !currentGrammarTopic.practice) return;
+  const p = currentGrammarTopic.practice;
+  gpState = {
+    practice: p,
+    items: shuffleArr(p.items || []),
+    idx: 0,
+    ok: 0,
+    ng: 0,
+    answered: false,
+  };
+  ui.gpTotal.textContent = gpState.items.length;
+  ui.gpOk.textContent = 0;
+  ui.gpNg.textContent = 0;
+  ui.gpDone.textContent = 0;
+  ui.gpProgressFill.style.width = "0%";
+  showScreen(ui.grammarPracticeScreen);
+  renderGpQuestion();
+}
+
+function renderGpQuestion() {
+  const { practice: p, items, idx } = gpState;
+  if (idx >= items.length) {
+    // Summary
+    const total = items.length;
+    const rate = total ? Math.round((gpState.ok / total) * 100) : 0;
+    ui.gpHint.textContent = "";
+    ui.gpQ.textContent = "";
+    ui.gpOpts.innerHTML = "";
+    ui.gpResult.innerHTML = `<div class="gp-summary"><div class="big">${rate}%</div><div class="sub">共 ${total} 题 · 正确 ${gpState.ok} · 错误 ${gpState.ng}</div></div>`;
+    ui.btnGpNext.textContent = "再来一次";
+    return;
+  }
+  const item = items[idx];
+  ui.gpHint.textContent = p.hint || p.question || "";
+  ui.gpQ.textContent = item.q;
+  ui.gpResult.innerHTML = "";
+  ui.btnGpNext.textContent = "下一题";
+  ui.gpOpts.innerHTML = "";
+  (p.labels || []).forEach((label, i) => {
+    const div = document.createElement("div");
+    div.className = "gp-opt";
+    div.textContent = label;
+    div.onclick = () => answerGp(i, div);
+    ui.gpOpts.appendChild(div);
+  });
+  gpState.answered = false;
+  // Speak the verb (no answer leak — question is the verb itself)
+  setTimeout(() => speakJP(item.q.replace(/[（(].*?[)）]/g, "")), 300);
+}
+
+function answerGp(idx, el) {
+  if (gpState.answered) return;
+  gpState.answered = true;
+  const item = gpState.items[gpState.idx];
+  const ok = idx === item.a;
+  if (ok) { gpState.ok++; playCorrect(); } else { gpState.ng++; playWrong(); }
+
+  // Mark options
+  const nodes = ui.gpOpts.querySelectorAll(".gp-opt");
+  nodes.forEach((n, i) => {
+    n.setAttribute("disabled", "true");
+    if (i === item.a) n.classList.add("correct");
+    else if (i === idx) n.classList.add("wrong");
+  });
+
+  const correctLabel = gpState.practice.labels[item.a];
+  ui.gpResult.innerHTML = ok
+    ? `✅ 正确：<b>${item.q}</b> 是 <b>${correctLabel}</b>${item.cn ? `（${item.cn}）` : ""}`
+    : `❌ 错了。<b>${item.q}</b> 是 <b>${correctLabel}</b>${item.cn ? `（${item.cn}）` : ""}`;
+
+  ui.gpOk.textContent = gpState.ok;
+  ui.gpNg.textContent = gpState.ng;
+  ui.gpDone.textContent = gpState.idx + 1;
+  const prog = ((gpState.idx + 1) / gpState.items.length) * 100;
+  ui.gpProgressFill.style.width = prog + "%";
+}
+
+function nextGp() {
+  if (!gpState) return;
+  if (!gpState.answered && gpState.idx < gpState.items.length) {
+    // Require answering first
+    ui.gpResult.textContent = "请先答题！";
+    return;
+  }
+  if (gpState.idx >= gpState.items.length) {
+    // Restart
+    startGrammarPractice();
+    return;
+  }
+  gpState.idx++;
+  renderGpQuestion();
 }
 
 function setUIForMode(mode) {
@@ -896,6 +1020,15 @@ function wire() {
   }
   if (ui.btnGrammarTopicBack) {
     ui.btnGrammarTopicBack.onclick = () => showScreen(ui.grammarScreen);
+  }
+  if (ui.btnGrammarPractice) {
+    ui.btnGrammarPractice.onclick = () => startGrammarPractice();
+  }
+  if (ui.btnGrammarPracticeBack) {
+    ui.btnGrammarPracticeBack.onclick = () => showScreen(ui.grammarTopicScreen);
+  }
+  if (ui.btnGpNext) {
+    ui.btnGpNext.onclick = () => nextGp();
   }
 
   // Settings change listeners

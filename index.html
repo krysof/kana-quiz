@@ -183,9 +183,35 @@
         <button class="btn-back" id="btnGrammarTopicBack">&#8592;</button>
         <h2 class="settings-title" id="grammarTopicTitle">语法</h2>
       </div>
+      <button class="btn-start" id="btnGrammarPractice" data-i18n="grammar_practice_btn">开始练习</button>
       <div class="grammar-content" id="grammarContent">
         <!-- Content injected by JS -->
       </div>
+    </div>
+
+    <!-- ========== 语法练习页 ========== -->
+    <div id="grammarPracticeScreen" class="screen hide">
+      <div class="settings-header">
+        <button class="btn-back" id="btnGrammarPracticeBack">&#8592;</button>
+        <h2 class="settings-title" id="grammarPracticeTitle">练习</h2>
+      </div>
+      <div class="gp-progress">
+        <div class="progress-bar"><div class="progress-fill" id="gpProgressFill"></div></div>
+        <div class="gp-stats">
+          <span class="stat ok" id="gpOk">0</span>
+          <span class="stat ng" id="gpNg">0</span>
+          <span class="progress-text"><b id="gpDone">0</b> / <b id="gpTotal">0</b></span>
+        </div>
+      </div>
+      <section class="card quiz-card">
+        <div class="gp-hint" id="gpHint"></div>
+        <div class="gp-q" id="gpQ"></div>
+        <div class="gp-opts" id="gpOpts"></div>
+        <div class="result" id="gpResult"></div>
+        <div class="quiz-actions">
+          <button class="btn primary btn-next" id="btnGpNext">下一题</button>
+        </div>
+      </section>
     </div>
 
     <!-- ========== 练习页面 ========== -->
