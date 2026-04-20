@@ -179,19 +179,24 @@ const N2_CAT_NAMES = {
   grammar: "文法",
 };
 
-// Build readable sentence for N2 question (fill blanks with correct answer)
-function n2ReadableSentence(nq) {
+// Build readable sentence for N2 question.
+// mode="speak": censor the answer with "B" beep so speaking doesn't leak it.
+// mode="full": fill in the correct answer (used in post-answer display).
+function n2ReadableSentence(nq, mode = "speak") {
   if (!nq) return "";
-  // For usage questions (no sentence), read the correct option
-  if (nq.cat === "usage") return nq.options[nq.answer] || "";
+  if (nq.cat === "usage") {
+    // Only read the correct sentence after answering
+    return mode === "full" ? (nq.options[nq.answer] || "") : "";
+  }
   let s = nq.sentence || "";
   const correct = nq.options[nq.answer] || "";
-  // Replace blank markers with correct answer for TTS
-  s = s.replace(/[（(][\s　_＿]+[)）]/g, correct);
-  s = s.replace(/＿+/g, correct);
-  s = s.replace(/_{2,}/g, correct);
-  // For orthography: replace hiragana target with correct kanji
-  if (nq.cat === "orthography" && nq.target && correct) {
+  const filler = mode === "full" ? correct : "B";
+  // Replace blank markers
+  s = s.replace(/[（(][\s　_＿]+[)）]/g, filler);
+  s = s.replace(/＿+/g, filler);
+  s = s.replace(/_{2,}/g, filler);
+  // For orthography: hiragana target -> kanji only in full mode; speak reads it as-is
+  if (mode === "full" && nq.cat === "orthography" && nq.target && correct) {
     s = s.replace(nq.target, correct);
   }
   return s;
@@ -430,15 +435,16 @@ function answerN2Choice(idx, boundNq) {
   if (ok) playCorrect();
   else playWrong();
 
-  // Read the sentence aloud
-  setTimeout(() => speakJP(n2ReadableSentence(nq)), 300);
+  // After answering, speak full sentence with correct answer filled in
+  setTimeout(() => speakJP(n2ReadableSentence(nq, "full")), 300);
 
   // Build result message
+  const tl = nq.translation ? `<div class="n2-translation">原文：${nq.sentence || ""}<br>译文：${nq.translation}</div>` : "";
   const expl = nq.explanation ? `<div class="n2-expl">${nq.explanation}</div>` : "";
   if (ok) {
-    ui.result.innerHTML = `✅ ${t("result_correct")}<b>${correctText}</b>${expl}`;
+    ui.result.innerHTML = `✅ ${t("result_correct")}<b>${correctText}</b>${tl}${expl}`;
   } else {
-    ui.result.innerHTML = `❌ ${t("result_wrong")}<b>${correctText}</b>${expl}`;
+    ui.result.innerHTML = `❌ ${t("result_wrong")}<b>${correctText}</b>${tl}${expl}`;
   }
 
   // Record stats
