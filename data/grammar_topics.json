@@ -1,0 +1,120 @@
+[
+  {
+    "id": "verb_groups",
+    "title": "动词分组（グループ）",
+    "subtitle": "日语动词三大类 I・II・III",
+    "emoji": "🗂",
+    "sections": [
+      {
+        "type": "intro",
+        "text": "日语动词根据「ます」前的假名属于哪一段（い段・え段）分为三组，是所有动词变形的基础。"
+      },
+      {
+        "type": "heading",
+        "text": "I グループ（五段动词）"
+      },
+      {
+        "type": "rule",
+        "text": "ます前是 <b>い段</b> 的音（き・し・ち・に・ひ・み・り・ぎ・び・ぴ 等）",
+        "color": "#6366f1"
+      },
+      {
+        "type": "verb_list",
+        "items": [
+          {"jp": "あいます", "rm": "a-i-masu", "cn": "见面"},
+          {"jp": "かいます", "rm": "ka-i-masu", "cn": "买"},
+          {"jp": "まちます", "rm": "ma-chi-masu", "cn": "等"},
+          {"jp": "たちます", "rm": "ta-chi-masu", "cn": "站立"},
+          {"jp": "とります", "rm": "to-ri-masu", "cn": "拿/取"},
+          {"jp": "かえります", "rm": "ka-e-ri-masu", "cn": "回"},
+          {"jp": "よびます", "rm": "yo-bi-masu", "cn": "呼叫"},
+          {"jp": "あそびます", "rm": "a-so-bi-masu", "cn": "玩"},
+          {"jp": "よみます", "rm": "yo-mi-masu", "cn": "读"},
+          {"jp": "のみます", "rm": "no-mi-masu", "cn": "喝"},
+          {"jp": "かきます", "rm": "ka-ki-masu", "cn": "写"},
+          {"jp": "いきます", "rm": "i-ki-masu", "cn": "去"},
+          {"jp": "いそぎます", "rm": "i-so-gi-masu", "cn": "赶快"},
+          {"jp": "およぎます", "rm": "o-yo-gi-masu", "cn": "游泳"},
+          {"jp": "はなします", "rm": "ha-na-shi-masu", "cn": "说话"},
+          {"jp": "おします", "rm": "o-shi-masu", "cn": "推/按"}
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "II グループ（一段动词）"
+      },
+      {
+        "type": "rule",
+        "text": "ます前是 <b>え段</b>（e-masu）",
+        "color": "#10b981"
+      },
+      {
+        "type": "verb_list",
+        "items": [
+          {"jp": "たべます", "rm": "ta-be-masu", "cn": "吃"},
+          {"jp": "ねます", "rm": "ne-masu", "cn": "睡"},
+          {"jp": "でます", "rm": "de-masu", "cn": "出/出发"},
+          {"jp": "つけます", "rm": "tsu-ke-masu", "cn": "打开/安装"},
+          {"jp": "あけます", "rm": "a-ke-masu", "cn": "开（门窗）"},
+          {"jp": "しらべます", "rm": "shi-ra-be-masu", "cn": "调查/查"},
+          {"jp": "すてます", "rm": "su-te-masu", "cn": "丢弃"},
+          {"jp": "みせます", "rm": "mi-se-masu", "cn": "给...看"}
+        ]
+      },
+      {
+        "type": "rule",
+        "text": "⚠️ 例外：ます前是 <b>い段</b> 但属于 II 组（i-masu 但是一段动词）",
+        "color": "#f59e0b"
+      },
+      {
+        "type": "note",
+        "text": "这些词最容易混淆，必须单独记忆。"
+      },
+      {
+        "type": "verb_list",
+        "items": [
+          {"jp": "みます", "rm": "mi-masu", "cn": "看"},
+          {"jp": "います", "rm": "i-masu", "cn": "在（生物）"},
+          {"jp": "あびます", "rm": "a-bi-masu", "cn": "冲（澡）"},
+          {"jp": "かります", "rm": "ka-ri-masu", "cn": "借入"},
+          {"jp": "（朝6時に）おきます", "rm": "o-ki-masu", "cn": "起床"},
+          {"jp": "（シャツを）きます", "rm": "ki-masu", "cn": "穿（上衣）"},
+          {"jp": "（バスを）おります", "rm": "o-ri-masu", "cn": "下（车）"},
+          {"jp": "できます", "rm": "de-ki-masu", "cn": "会/能"}
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "III グループ（不规则动词）"
+      },
+      {
+        "type": "rule",
+        "text": "只有 <b>来ます</b> 和 <b>します</b> 两个，以及「名词+します」的复合动词。",
+        "color": "#ef4444"
+      },
+      {
+        "type": "verb_list",
+        "items": [
+          {"jp": "きます", "rm": "ki-masu", "cn": "来（来る）"},
+          {"jp": "します", "rm": "shi-masu", "cn": "做（する）"},
+          {"jp": "べんきょうします", "rm": "be-n-kyou-shi-masu", "cn": "学习"},
+          {"jp": "せつめいします", "rm": "se-tsu-mei-shi-masu", "cn": "说明"}
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "快速判断方法"
+      },
+      {
+        "type": "steps",
+        "items": [
+          "看 <b>ます</b> 前面一个字是什么段：",
+          "① <b>え段</b>（たべ・ね・で...）→ <b>II 组</b>",
+          "② <b>い段</b> 且不是 III 组 → 通常是 <b>I 组</b>",
+          "③ 但 み/い/あび/かり/おき/き/おり/でき 这些 i-masu 是 <b>II 组例外</b>",
+          "④ <b>します・きます</b> → <b>III 组</b>"
+        ]
+      }
+    ]
+  }
+]

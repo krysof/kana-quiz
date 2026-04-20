@@ -110,6 +110,174 @@ body {
   color: var(--gray-500);
 }
 
+/* Grammar Module */
+.grammar-topics {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.grammar-topic-card {
+  background: rgba(255,255,255,0.95);
+  border-radius: 16px;
+  padding: 18px 16px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+  transition: all 0.18s ease;
+  touch-action: manipulation;
+}
+
+.grammar-topic-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+.grammar-topic-icon {
+  font-size: 1.9rem;
+  flex-shrink: 0;
+  width: 48px;
+  text-align: center;
+}
+
+.grammar-topic-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.grammar-topic-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--gray-900);
+  margin-bottom: 2px;
+}
+
+.grammar-topic-sub {
+  font-size: 0.8rem;
+  color: var(--gray-500);
+}
+
+.grammar-topic-arrow {
+  font-size: 1.4rem;
+  color: var(--gray-300);
+  flex-shrink: 0;
+}
+
+/* Grammar content */
+.grammar-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.g-intro {
+  background: rgba(255,255,255,0.95);
+  border-radius: 12px;
+  padding: 14px 16px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--gray-700);
+  box-shadow: var(--shadow);
+}
+
+.g-heading {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: white;
+  padding: 4px 2px;
+  margin-top: 4px;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.15);
+}
+
+.g-rule {
+  background: rgba(255,255,255,0.95);
+  border-radius: 12px;
+  padding: 12px 14px;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: var(--gray-700);
+  border-left: 4px solid var(--primary);
+  box-shadow: var(--shadow);
+}
+
+.g-rule b {
+  color: var(--gray-900);
+}
+
+.g-note {
+  background: #fef3c7;
+  border-radius: 10px;
+  padding: 10px 12px;
+  font-size: 0.85rem;
+  color: #92400e;
+  line-height: 1.5;
+}
+
+.g-verb-list {
+  background: rgba(255,255,255,0.95);
+  border-radius: 12px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  box-shadow: var(--shadow);
+}
+
+@media (max-width: 380px) {
+  .g-verb-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+.g-verb {
+  padding: 8px 10px;
+  background: var(--gray-50);
+  border-radius: 8px;
+  line-height: 1.35;
+}
+
+.g-verb .jp {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--gray-900);
+  display: block;
+}
+
+.g-verb .rm {
+  font-size: 0.72rem;
+  color: var(--gray-500);
+  display: block;
+  margin-top: 1px;
+}
+
+.g-verb .cn {
+  font-size: 0.78rem;
+  color: var(--primary-dark);
+  display: block;
+  margin-top: 2px;
+}
+
+.g-steps {
+  background: rgba(255,255,255,0.95);
+  border-radius: 12px;
+  padding: 14px 16px;
+  box-shadow: var(--shadow);
+}
+
+.g-steps .step {
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: var(--gray-700);
+  padding: 2px 0;
+}
+
+.g-steps .step b {
+  color: var(--primary-dark);
+  font-weight: 700;
+}
+
 /* Settings Header */
 .settings-header {
   display: flex;

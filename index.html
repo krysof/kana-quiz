@@ -47,6 +47,11 @@
           <div class="module-name" data-i18n="mod_n2">日本语测试</div>
           <div class="module-desc" data-i18n="mod_n2_desc">N1-N5 真题练习</div>
         </div>
+        <div class="module-card" data-module="grammar">
+          <div class="module-icon">文法</div>
+          <div class="module-name" data-i18n="mod_grammar">语法学习</div>
+          <div class="module-desc" data-i18n="mod_grammar_desc">动词分组・句型</div>
+        </div>
       </div>
 
       <div class="start-stats">
@@ -158,6 +163,29 @@
       <div class="hide" id="modeChecks"></div>
 
       <button class="btn-start" id="btnStartSession" data-i18n="start_btn">开始练习</button>
+    </div>
+
+    <!-- ========== 语法主题列表页 ========== -->
+    <div id="grammarScreen" class="screen hide">
+      <div class="settings-header">
+        <button class="btn-back" id="btnGrammarBack">&#8592;</button>
+        <h2 class="settings-title" data-i18n="mod_grammar">语法学习</h2>
+      </div>
+
+      <div class="grammar-topics" id="grammarTopics">
+        <!-- Topics injected by JS -->
+      </div>
+    </div>
+
+    <!-- ========== 语法主题详情页 ========== -->
+    <div id="grammarTopicScreen" class="screen hide">
+      <div class="settings-header">
+        <button class="btn-back" id="btnGrammarTopicBack">&#8592;</button>
+        <h2 class="settings-title" id="grammarTopicTitle">语法</h2>
+      </div>
+      <div class="grammar-content" id="grammarContent">
+        <!-- Content injected by JS -->
+      </div>
     </div>
 
     <!-- ========== 练习页面 ========== -->

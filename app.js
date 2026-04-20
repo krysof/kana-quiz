@@ -20,6 +20,15 @@ const ui = {
   moduleScreen: $("moduleScreen"),
   settingsScreen: $("settingsScreen"),
   quizScreen: $("quizScreen"),
+  grammarScreen: $("grammarScreen"),
+  grammarTopicScreen: $("grammarTopicScreen"),
+
+  // Grammar
+  grammarTopics: $("grammarTopics"),
+  grammarContent: $("grammarContent"),
+  grammarTopicTitle: $("grammarTopicTitle"),
+  btnGrammarBack: $("btnGrammarBack"),
+  btnGrammarTopicBack: $("btnGrammarTopicBack"),
 
   // Settings header
   settingsTitle: $("settingsTitle"),
@@ -218,6 +227,12 @@ function getMeaning(item) {
 // ==================== Module Selection ====================
 
 function selectModule(mod) {
+  // Grammar is a browse-only module, not a quiz
+  if (mod === "grammar") {
+    showScreen(ui.grammarScreen);
+    return;
+  }
+
   currentModule = mod;
   settings.module = mod;
   saveSettings(settings);
@@ -327,7 +342,86 @@ function showScreen(screen) {
   ui.moduleScreen.classList.add("hide");
   ui.settingsScreen.classList.add("hide");
   ui.quizScreen.classList.add("hide");
+  if (ui.grammarScreen) ui.grammarScreen.classList.add("hide");
+  if (ui.grammarTopicScreen) ui.grammarTopicScreen.classList.add("hide");
   screen.classList.remove("hide");
+}
+
+// ==================== Grammar Module ====================
+
+let grammarTopics = [];
+
+function renderGrammarTopics() {
+  if (!ui.grammarTopics) return;
+  ui.grammarTopics.innerHTML = "";
+  grammarTopics.forEach((t) => {
+    const card = document.createElement("div");
+    card.className = "grammar-topic-card";
+    card.innerHTML = `
+      <div class="grammar-topic-icon">${t.emoji || "📘"}</div>
+      <div class="grammar-topic-info">
+        <div class="grammar-topic-title">${t.title}</div>
+        <div class="grammar-topic-sub">${t.subtitle || ""}</div>
+      </div>
+      <div class="grammar-topic-arrow">›</div>
+    `;
+    card.onclick = () => openGrammarTopic(t);
+    ui.grammarTopics.appendChild(card);
+  });
+}
+
+function openGrammarTopic(topic) {
+  ui.grammarTopicTitle.textContent = topic.title;
+  ui.grammarContent.innerHTML = "";
+  (topic.sections || []).forEach((sec) => {
+    const el = document.createElement("div");
+    switch (sec.type) {
+      case "intro":
+        el.className = "g-intro";
+        el.innerHTML = sec.text;
+        break;
+      case "heading":
+        el.className = "g-heading";
+        el.innerHTML = sec.text;
+        break;
+      case "rule":
+        el.className = "g-rule";
+        el.innerHTML = sec.text;
+        if (sec.color) el.style.borderLeftColor = sec.color;
+        break;
+      case "note":
+        el.className = "g-note";
+        el.innerHTML = sec.text;
+        break;
+      case "verb_list":
+        el.className = "g-verb-list";
+        (sec.items || []).forEach((v) => {
+          const item = document.createElement("div");
+          item.className = "g-verb";
+          item.innerHTML = `
+            <span class="jp">${v.jp}</span>
+            <span class="rm">${v.rm || ""}</span>
+            <span class="cn">${v.cn || ""}</span>
+          `;
+          item.onclick = () => speakJP(v.jp.replace(/[（(].*?[)）]/g, ""));
+          el.appendChild(item);
+        });
+        break;
+      case "steps":
+        el.className = "g-steps";
+        (sec.items || []).forEach((s) => {
+          const p = document.createElement("div");
+          p.className = "step";
+          p.innerHTML = s;
+          el.appendChild(p);
+        });
+        break;
+      default:
+        return;
+    }
+    ui.grammarContent.appendChild(el);
+  });
+  showScreen(ui.grammarTopicScreen);
 }
 
 function setUIForMode(mode) {
@@ -796,6 +890,14 @@ function wire() {
     showScreen(ui.moduleScreen);
   };
 
+  // Grammar back buttons
+  if (ui.btnGrammarBack) {
+    ui.btnGrammarBack.onclick = () => showScreen(ui.moduleScreen);
+  }
+  if (ui.btnGrammarTopicBack) {
+    ui.btnGrammarTopicBack.onclick = () => showScreen(ui.grammarScreen);
+  }
+
   // Settings change listeners
   ui.modeChecksKana.addEventListener("change", readSettingsFromUIAndSave);
   ui.modeChecksWord.addEventListener("change", readSettingsFromUIAndSave);
@@ -878,6 +980,10 @@ async function init() {
     db.kana = await loadJSON("./data/kana.json");
     db.words = await loadJSON("./data/words.json");
     db.kanji = await loadJSON("./data/kanji_words.json");
+
+    // Load grammar topics (browse-only module)
+    grammarTopics = await loadJSON("./data/grammar_topics.json").catch(() => []);
+    renderGrammarTopics();
 
     // Load N2 exam questions (all files merged)
     const n2Files = await Promise.all([
