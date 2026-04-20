@@ -351,6 +351,13 @@ body {
 
 .gp-opt:active { transform: scale(0.98); }
 
+.gp-opt.selected {
+  border-color: var(--primary);
+  background: var(--primary-bg);
+  color: var(--primary-dark);
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15);
+}
+
 .gp-opt.correct {
   border-color: var(--success);
   background: var(--success-bg);

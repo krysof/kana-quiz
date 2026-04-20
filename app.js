@@ -37,6 +37,7 @@ const ui = {
   gpOpts: $("gpOpts"),
   gpResult: $("gpResult"),
   btnGpNext: $("btnGpNext"),
+  btnGpSubmit: $("btnGpSubmit"),
   gpProgressFill: $("gpProgressFill"),
   gpDone: $("gpDone"),
   gpTotal: $("gpTotal"),
@@ -509,6 +510,16 @@ function renderGpQuestion() {
   ui.btnGpNext.textContent = t("btn_next");
   ui.gpOpts.innerHTML = "";
   gpState.answered = false;
+  gpState.selected = -1;
+
+  // Reset action buttons: show Submit (disabled until selection), hide Next
+  if (ui.btnGpSubmit) {
+    ui.btnGpSubmit.classList.remove("hide");
+    ui.btnGpSubmit.disabled = true;
+    ui.btnGpSubmit.classList.remove("primary");
+    ui.btnGpSubmit.textContent = t("gp_submit");
+  }
+  if (ui.btnGpNext) ui.btnGpNext.classList.add("hide");
 
   if (p.type === "scenario") {
     // Prefer localized scene, fall back to original zh-CN
@@ -523,11 +534,10 @@ function renderGpQuestion() {
       `;
       row.querySelector(".gp-speak").onclick = (e) => {
         e.stopPropagation();
-        // Speaker just plays the audio; does NOT submit the answer.
         speakJP(opt.jp.replace(/[（(].*?[)）]/g, ""));
       };
-      // Clicking anywhere else on the row submits this option.
-      row.onclick = () => answerGp(i, row);
+      // Tap anywhere else on the row: select + preview audio (not submit)
+      row.onclick = () => selectGpOption(i);
       ui.gpOpts.appendChild(row);
     });
   } else {
@@ -537,12 +547,41 @@ function renderGpQuestion() {
       const div = document.createElement("div");
       div.className = "gp-opt";
       div.textContent = label;
-      div.onclick = () => answerGp(i, div);
+      div.onclick = () => selectGpOption(i);
       ui.gpOpts.appendChild(div);
     });
     // Auto-read the verb
     setTimeout(() => speakJP(item.q.replace(/[（(].*?[)）]/g, "")), 300);
   }
+}
+
+// Tap an option to highlight it + preview audio. Does NOT lock the answer.
+function selectGpOption(idx) {
+  if (!gpState || gpState.answered) return;
+  gpState.selected = idx;
+  const nodes = ui.gpOpts.querySelectorAll(".gp-opt");
+  nodes.forEach((n, i) => n.classList.toggle("selected", i === idx));
+  // Play audio for scenario type only (classify type already auto-reads the verb)
+  const p = gpState.practice;
+  if (p.type === "scenario") {
+    const item = gpState.items[gpState.idx];
+    const opt = item.options[idx];
+    if (opt && opt.jp) speakJP(opt.jp.replace(/[（(].*?[)）]/g, ""));
+  }
+  // Enable submit
+  if (ui.btnGpSubmit) {
+    ui.btnGpSubmit.disabled = false;
+    ui.btnGpSubmit.classList.add("primary");
+  }
+}
+
+function submitGpAnswer() {
+  if (!gpState || gpState.answered) return;
+  if (gpState.selected < 0) return;
+  answerGp(gpState.selected);
+  // Switch action buttons: hide Submit, show Next
+  if (ui.btnGpSubmit) ui.btnGpSubmit.classList.add("hide");
+  if (ui.btnGpNext) ui.btnGpNext.classList.remove("hide");
 }
 
 function answerGp(idx, el) {
@@ -1113,6 +1152,9 @@ function wire() {
   }
   if (ui.btnGpNext) {
     ui.btnGpNext.onclick = () => nextGp();
+  }
+  if (ui.btnGpSubmit) {
+    ui.btnGpSubmit.onclick = () => submitGpAnswer();
   }
 
   // Settings change listeners
