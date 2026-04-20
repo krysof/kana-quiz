@@ -371,15 +371,30 @@ function renderN2Question() {
   const catName = N2_CAT_NAMES[nq.cat] || nq.cat;
   const hint = t(N2_CAT_HINT[nq.cat] || "n2_q_context");
 
-  // Build question HTML
-  let sentenceHtml = "";
-  if (nq.target && nq.sentence.includes(nq.target)) {
-    sentenceHtml = nq.sentence.replace(
-      nq.target,
-      `<span class="n2-target">${nq.target}</span>`
-    );
-  } else {
-    sentenceHtml = nq.sentence;
+  // Build question HTML with robust target underlining
+  let sentenceHtml = nq.sentence || "";
+  if (nq.target && sentenceHtml) {
+    if (sentenceHtml.includes(nq.target)) {
+      sentenceHtml = sentenceHtml.replace(
+        nq.target,
+        `<span class="n2-target">${nq.target}</span>`
+      );
+    } else {
+      // Fallback: target may be dictionary form (eg 備える) but sentence has
+      // an inflected form (eg 備えて). Match the kanji stem + trailing kana.
+      const kanjiMatch = nq.target.match(/^([一-鿿]+)/);
+      if (kanjiMatch) {
+        const stem = kanjiMatch[1];
+        const re = new RegExp(stem + "[぀-ゟ゠-ヿ]*");
+        const m = sentenceHtml.match(re);
+        if (m) {
+          sentenceHtml = sentenceHtml.replace(
+            m[0],
+            `<span class="n2-target">${m[0]}</span>`
+          );
+        }
+      }
+    }
   }
 
   ui.q.innerHTML = `<span class="n2-cat-tag">${catName}</span><div class="n2-hint">${hint}</div><div class="n2-sentence">${sentenceHtml}</div>`;
