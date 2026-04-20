@@ -180,23 +180,26 @@ const N2_CAT_NAMES = {
 };
 
 // Build readable sentence for N2 question.
-// mode="speak": censor the answer with "B" beep so speaking doesn't leak it.
-// mode="full": fill in the correct answer (used in post-answer display).
+// mode="speak": censor the blank with "B" beep so speaking doesn't leak the answer.
+//               Only inserts "B" when the sentence actually has a blank marker.
+// mode="full":  fill in the correct answer (used in post-answer display).
 function n2ReadableSentence(nq, mode = "speak") {
   if (!nq) return "";
   if (nq.cat === "usage") {
-    // Only read the correct sentence after answering
     return mode === "full" ? (nq.options[nq.answer] || "") : "";
   }
   let s = nq.sentence || "";
   const correct = nq.options[nq.answer] || "";
-  const filler = mode === "full" ? correct : "B";
-  // Replace blank markers
-  s = s.replace(/[（(][\s　_＿]+[)）]/g, filler);
-  s = s.replace(/＿+/g, filler);
-  s = s.replace(/_{2,}/g, filler);
-  // For orthography: hiragana target -> kanji only in full mode; speak reads it as-is
-  if (mode === "full" && nq.cat === "orthography" && nq.target && correct) {
+  const blankRe = /[（(][\s　_＿]+[)）]|＿+|_{2,}/g;
+  const hasBlank = blankRe.test(s);
+  blankRe.lastIndex = 0;
+  if (hasBlank) {
+    // Blank sentence: replace with B (speak) or correct answer (full)
+    const filler = mode === "full" ? correct : "B";
+    s = s.replace(blankRe, filler);
+  } else if (mode === "full" && nq.cat === "orthography" && nq.target && correct) {
+    // Orthography: hiragana target -> kanji only in full mode.
+    // In speak mode leave as-is so the reading comes out naturally.
     s = s.replace(nq.target, correct);
   }
   return s;
