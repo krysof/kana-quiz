@@ -656,8 +656,16 @@ function answerN2Choice(idx, boundNq) {
   if (ok) playCorrect();
   else playWrong();
 
-  // After answering, speak full sentence with correct answer filled in
-  setTimeout(() => speakJP(n2ReadableSentence(nq, "full")), 300);
+  // After answering, choose what to speak based on category.
+  // - kanji_reading:  speak the target word (TTS reads it with its correct pronunciation)
+  // - orthography:    speak the correct kanji answer (the word being written)
+  // - others:         speak the full sentence with blanks filled in
+  setTimeout(() => {
+    let say = n2ReadableSentence(nq, "full");
+    if (nq.cat === "kanji_reading" && nq.target) say = nq.target;
+    else if (nq.cat === "orthography") say = correctText;
+    speakJP(say);
+  }, 300);
 
   // Build result message
   const tl = nq.translation ? `<div class="n2-translation">原文：${nq.sentence || ""}<br>译文：${nq.translation}</div>` : "";
@@ -677,8 +685,7 @@ function answerN2Choice(idx, boundNq) {
   if (r.finished) {
     stopTimer();
     const elapsed = Math.floor((Date.now() - sessionStartTime) / 1000);
-    ui.result.innerHTML += ` <b>（${t("finish_done")}${formatTime(elapsed)}${t("finish_acc")}${pct(stats.session.ok, stats.session.done)}）</b>`;
-    ui.btnNew.textContent = t("btn_finish");
+    setTimeout(() => showSessionSummary(elapsed), 1200);
   }
 }
 
@@ -898,9 +905,23 @@ function answerChoice(idx) {
   if (r.finished) {
     stopTimer();
     const elapsed = Math.floor((Date.now() - sessionStartTime) / 1000);
-    ui.result.innerHTML += ` <b>（${t("finish_done")}${formatTime(elapsed)}${t("finish_acc")}${pct(stats.session.ok, stats.session.done)}）</b>`;
-    ui.btnNew.textContent = t("btn_finish");
+    // Show summary after a brief pause so user can see the last answer's result
+    setTimeout(() => showSessionSummary(elapsed), 1200);
   }
+}
+
+function showSessionSummary(elapsed) {
+  const total = stats.session.done;
+  const ok = stats.session.ok;
+  const ng = stats.session.ng;
+  const accuracy = total ? Math.round((ok / total) * 100) : 0;
+  const emoji = accuracy >= 90 ? "🏆" : accuracy >= 70 ? "🎉" : accuracy >= 50 ? "👍" : "💪";
+  ui.q.innerHTML = `<div class="gp-summary" style="padding:32px 8px 8px"><div style="font-size:3rem;margin-bottom:8px">${emoji}</div><div class="big">${accuracy}%</div><div class="sub">共 ${total} 题 · 正确 ${ok} · 错误 ${ng}</div><div class="sub" style="margin-top:6px">用时 ${formatTime(elapsed)}</div></div>`;
+  ui.meaning.textContent = "";
+  ui.opts.innerHTML = "";
+  ui.result.innerHTML = "";
+  ui.inputWrap.classList.add("hide");
+  ui.btnNew.textContent = t("btn_finish");
 }
 
 function checkInput() {
@@ -936,8 +957,7 @@ function checkInput() {
   if (r.finished) {
     stopTimer();
     const elapsed = Math.floor((Date.now() - sessionStartTime) / 1000);
-    ui.result.innerHTML += ` <b>（${t("finish_done")}${formatTime(elapsed)}${t("finish_acc")}${pct(stats.session.ok, stats.session.done)}）</b>`;
-    ui.btnNew.textContent = t("btn_finish");
+    setTimeout(() => showSessionSummary(elapsed), 1200);
   }
 }
 
