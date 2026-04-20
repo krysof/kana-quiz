@@ -1,262 +1,3642 @@
 [
-  {"id": 1231, "cat": "paraphrase", "sentence": "この計画はようやく実現した。", "target": "ようやく", "options": ["やっと", "すっかり", "たちまち", "いきなり"], "answer": 0},
-  {"id": 1232, "cat": "paraphrase", "sentence": "天気がたちまち変わった。", "target": "たちまち", "options": ["すぐに", "ゆっくり", "わずかに", "やがて"], "answer": 0},
-  {"id": 1233, "cat": "paraphrase", "sentence": "わざわざ遠くから来てくれた。", "target": "わざわざ", "options": ["たまたま", "わざと", "仕方なく", "態々"], "answer": 3},
-  {"id": 1234, "cat": "paraphrase", "sentence": "待つよりむしろ自分で行ったほうがいい。", "target": "むしろ", "options": ["かえって", "やはり", "まさか", "そもそも"], "answer": 0},
-  {"id": 1235, "cat": "paraphrase", "sentence": "この問題はしばしば議論されている。", "target": "しばしば", "options": ["たびたび", "ときどき", "めったに", "たちまち"], "answer": 0},
-  {"id": 1236, "cat": "paraphrase", "sentence": "彼はひたすら勉強を続けた。", "target": "ひたすら", "options": ["ずっと", "少しだけ", "たまに", "やがて"], "answer": 0},
-  {"id": 1237, "cat": "paraphrase", "sentence": "彼女はもっぱら研究に集中している。", "target": "もっぱら", "options": ["主に", "少し", "全く", "むしろ"], "answer": 0},
-  {"id": 1238, "cat": "paraphrase", "sentence": "あくまで自分の意見を主張した。", "target": "あくまで", "options": ["どこまでも", "少しだけ", "たまに", "急に"], "answer": 0},
-  {"id": 1239, "cat": "paraphrase", "sentence": "長い研究の末、ついに新薬が完成した。", "target": "ついに", "options": ["とうとう", "すでに", "まだ", "もはや"], "answer": 0},
-  {"id": 1240, "cat": "paraphrase", "sentence": "彼は常に笑顔を絶やさない。", "target": "常に", "options": ["いつも", "たまに", "めったに", "突然"], "answer": 0},
-  {"id": 1241, "cat": "paraphrase", "sentence": "事故の報告を受け、直ちに対応した。", "target": "直ちに", "options": ["すぐに", "ゆっくり", "次第に", "改めて"], "answer": 0},
-  {"id": 1242, "cat": "paraphrase", "sentence": "気温が次第に上がってきた。", "target": "次第に", "options": ["だんだん", "急に", "一斉に", "常に"], "answer": 0},
-  {"id": 1243, "cat": "paraphrase", "sentence": "工事は概ね予定通りに進んでいる。", "target": "概ね", "options": ["だいたい", "完全に", "少しも", "まるで"], "answer": 0},
-  {"id": 1244, "cat": "paraphrase", "sentence": "この問題は極めて重要だ。", "target": "極めて", "options": ["非常に", "少し", "まあまあ", "やや"], "answer": 0},
-  {"id": 1245, "cat": "paraphrase", "sentence": "辛うじて試験に合格した。", "target": "辛うじて", "options": ["かろうじて", "楽に", "完全に", "すでに"], "answer": 0},
-  {"id": 1246, "cat": "paraphrase", "sentence": "予め準備しておいたほうがいい。", "target": "予め", "options": ["前もって", "突然", "後から", "急いで"], "answer": 0},
-  {"id": 1247, "cat": "paraphrase", "sentence": "敢えて危険を冒して挑戦した。", "target": "敢えて", "options": ["わざと", "偶然", "仕方なく", "ひそかに"], "answer": 0},
-  {"id": 1248, "cat": "paraphrase", "sentence": "僅かに差がついた。", "target": "僅かに", "options": ["わずかに", "大いに", "極めて", "かなり"], "answer": 0},
-  {"id": 1249, "cat": "paraphrase", "sentence": "互いに協力して問題を解決した。", "target": "互いに", "options": ["お互いに", "一人で", "勝手に", "別々に"], "answer": 0},
-  {"id": 1250, "cat": "paraphrase", "sentence": "改めてお礼を申し上げます。", "target": "改めて", "options": ["もう一度", "急いで", "初めて", "ついに"], "answer": 0},
-  {"id": 1251, "cat": "paraphrase", "sentence": "今回の成功を大いに喜んでいる。", "target": "大いに", "options": ["とても", "少し", "まあまあ", "やや"], "answer": 0},
-  {"id": 1252, "cat": "paraphrase", "sentence": "状況は依然として厳しい。", "target": "依然として", "options": ["相変わらず", "突然", "次第に", "極めて"], "answer": 0},
-  {"id": 1253, "cat": "paraphrase", "sentence": "合図とともに一斉にスタートした。", "target": "一斉に", "options": ["同時に", "順番に", "別々に", "徐々に"], "answer": 0},
-  {"id": 1254, "cat": "paraphrase", "sentence": "果たして予想通りの結果になった。", "target": "果たして", "options": ["やはり", "まさか", "突然", "偶然"], "answer": 0},
-  {"id": 1255, "cat": "paraphrase", "sentence": "彼はいきなり大声で叫んだ。", "target": "いきなり", "options": ["突然", "ゆっくり", "次第に", "わざと"], "answer": 0},
-  {"id": 1256, "cat": "paraphrase", "sentence": "たまたま昔の友人に会った。", "target": "たまたま", "options": ["偶然", "わざわざ", "必ず", "頻繁に"], "answer": 0},
-  {"id": 1257, "cat": "paraphrase", "sentence": "まさか彼が辞めるとは思わなかった。", "target": "まさか", "options": ["よもや", "やはり", "きっと", "おそらく"], "answer": 0},
-  {"id": 1258, "cat": "paraphrase", "sentence": "せっかくの休みなのに雨だ。", "target": "せっかく", "options": ["折角", "偶然", "急に", "単に"], "answer": 0},
-  {"id": 1259, "cat": "paraphrase", "sentence": "さすが彼は優秀だ。", "target": "さすが", "options": ["やはり", "まさか", "偶然", "突然"], "answer": 0},
-  {"id": 1260, "cat": "paraphrase", "sentence": "そもそもこの計画には無理があった。", "target": "そもそも", "options": ["元々", "結局", "突然", "たまに"], "answer": 0},
-  {"id": 1261, "cat": "paraphrase", "sentence": "いずれ結果が出るだろう。", "target": "いずれ", "options": ["そのうち", "すぐに", "決して", "既に"], "answer": 0},
-  {"id": 1262, "cat": "paraphrase", "sentence": "なるべく早く返事をください。", "target": "なるべく", "options": ["できるだけ", "必ず", "たまに", "少し"], "answer": 0},
-  {"id": 1263, "cat": "paraphrase", "sentence": "ぜひ一度お越しください。", "target": "ぜひ", "options": ["是非とも", "たまに", "偶然", "もしも"], "answer": 0},
-  {"id": 1264, "cat": "paraphrase", "sentence": "おそらく明日は晴れるだろう。", "target": "おそらく", "options": ["たぶん", "必ず", "決して", "まさか"], "answer": 0},
-  {"id": 1265, "cat": "paraphrase", "sentence": "まるで夢のような出来事だった。", "target": "まるで", "options": ["まさに", "少し", "やや", "かなり"], "answer": 0},
-  {"id": 1266, "cat": "paraphrase", "sentence": "彼はやたらに文句を言う。", "target": "やたらに", "options": ["むやみに", "少しだけ", "たまに", "静かに"], "answer": 0},
-  {"id": 1267, "cat": "paraphrase", "sentence": "競争がますます激しくなっている。", "target": "ますます", "options": ["いっそう", "少し", "やや", "まあまあ"], "answer": 0},
-  {"id": 1268, "cat": "paraphrase", "sentence": "結局、彼の言った通りだった。", "target": "結局", "options": ["つまり", "突然", "偶然", "最初に"], "answer": 0},
-  {"id": 1269, "cat": "paraphrase", "sentence": "万が一火事になったら、すぐに逃げてください。", "target": "万が一", "options": ["もしも", "必ず", "きっと", "いつも"], "answer": 0},
-  {"id": 1270, "cat": "paraphrase", "sentence": "彼はめったに遅刻しない。", "target": "めったに", "options": ["ほとんど～ない", "いつも", "たびたび", "必ず"], "answer": 0},
-  {"id": 1271, "cat": "paraphrase", "sentence": "彼女はしきりに時計を見ていた。", "target": "しきりに", "options": ["何度も", "たまに", "ゆっくり", "静かに"], "answer": 0},
-  {"id": 1272, "cat": "paraphrase", "sentence": "せいぜい三日で終わるだろう。", "target": "せいぜい", "options": ["多くても", "少なくとも", "ちょうど", "必ず"], "answer": 0},
-  {"id": 1273, "cat": "paraphrase", "sentence": "少なくとも百人は来るだろう。", "target": "少なくとも", "options": ["最低でも", "多くても", "ちょうど", "おそらく"], "answer": 0},
-  {"id": 1274, "cat": "paraphrase", "sentence": "むやみに触らないでください。", "target": "むやみに", "options": ["無闇に", "静かに", "ゆっくり", "丁寧に"], "answer": 0},
-  {"id": 1275, "cat": "paraphrase", "sentence": "既に手続きは済んでいます。", "target": "既に", "options": ["もう", "まだ", "これから", "やがて"], "answer": 0},
-  {"id": 1276, "cat": "paraphrase", "sentence": "割と簡単な問題だった。", "target": "割と", "options": ["比較的", "非常に", "全く", "少しも"], "answer": 0},
-  {"id": 1277, "cat": "paraphrase", "sentence": "一応確認しておいた。", "target": "一応", "options": ["念のため", "必ず", "全く", "偶然"], "answer": 0},
-  {"id": 1278, "cat": "paraphrase", "sentence": "彼はとっくに帰ってしまった。", "target": "とっくに", "options": ["とうに", "まだ", "やっと", "ちょうど"], "answer": 0},
-  {"id": 1279, "cat": "paraphrase", "sentence": "到底信じられない話だ。", "target": "到底", "options": ["とても", "少し", "かなり", "まあまあ"], "answer": 0},
-  {"id": 1280, "cat": "paraphrase", "sentence": "いよいよ試合が始まる。", "target": "いよいよ", "options": ["ついに", "たまに", "偶然", "少し"], "answer": 0},
-  {"id": 1281, "cat": "paraphrase", "sentence": "しかも彼は成績もいい。", "target": "しかも", "options": ["その上", "しかし", "つまり", "あるいは"], "answer": 0},
-  {"id": 1282, "cat": "paraphrase", "sentence": "たとえ失敗しても後悔しない。", "target": "たとえ", "options": ["仮に", "必ず", "偶然", "突然"], "answer": 0},
-  {"id": 1283, "cat": "paraphrase", "sentence": "一旦決めたことは変えない。", "target": "一旦", "options": ["いったん", "すぐに", "何度も", "偶然"], "answer": 0},
-  {"id": 1284, "cat": "paraphrase", "sentence": "とにかく急いでください。", "target": "とにかく", "options": ["ともかく", "ゆっくり", "少し", "偶然"], "answer": 0},
-  {"id": 1285, "cat": "paraphrase", "sentence": "多少の失敗は仕方がない。", "target": "多少", "options": ["少しの", "たくさんの", "全くの", "大きな"], "answer": 0},
-  {"id": 1286, "cat": "paraphrase", "sentence": "さっそく調べてみましょう。", "target": "さっそく", "options": ["早速", "ゆっくり", "後で", "たまに"], "answer": 0},
-  {"id": 1287, "cat": "paraphrase", "sentence": "案の定、彼は来なかった。", "target": "案の定", "options": ["思った通り", "意外にも", "偶然", "突然"], "answer": 0},
-  {"id": 1288, "cat": "paraphrase", "sentence": "単に知らなかっただけだ。", "target": "単に", "options": ["ただ", "非常に", "全く", "特に"], "answer": 0},
-  {"id": 1289, "cat": "paraphrase", "sentence": "滅多にない機会だから参加しよう。", "target": "滅多にない", "options": ["珍しい", "よくある", "普通の", "簡単な"], "answer": 0},
-  {"id": 1290, "cat": "paraphrase", "sentence": "彼はほぼ毎日ジョギングをしている。", "target": "ほぼ", "options": ["ほとんど", "全く", "たまに", "決して"], "answer": 0},
-  {"id": 1291, "cat": "paraphrase", "sentence": "その申し出を断ることにした。", "target": "断る", "options": ["拒否する", "受ける", "考える", "伝える"], "answer": 0},
-  {"id": 1292, "cat": "paraphrase", "sentence": "彼の実力を認めざるを得ない。", "target": "認める", "options": ["承認する", "否定する", "無視する", "疑う"], "answer": 0},
-  {"id": 1293, "cat": "paraphrase", "sentence": "この料理には多くの野菜を含んでいる。", "target": "含む", "options": ["含有する", "除く", "加える", "選ぶ"], "answer": 0},
-  {"id": 1294, "cat": "paraphrase", "sentence": "日本は世界の面積の何パーセントを占めているか。", "target": "占める", "options": ["占有する", "超える", "含む", "減る"], "answer": 0},
-  {"id": 1295, "cat": "paraphrase", "sentence": "会議で自分の考えを述べた。", "target": "述べる", "options": ["言う", "聞く", "書く", "読む"], "answer": 0},
-  {"id": 1296, "cat": "paraphrase", "sentence": "昔の恩師を訪ねた。", "target": "訪ねる", "options": ["訪問する", "見送る", "迎える", "避ける"], "answer": 0},
-  {"id": 1297, "cat": "paraphrase", "sentence": "犯人は警察から逃げた。", "target": "逃げる", "options": ["逃走する", "隠れる", "戦う", "降参する"], "answer": 0},
-  {"id": 1298, "cat": "paraphrase", "sentence": "同じ失敗を繰り返してはいけない。", "target": "繰り返す", "options": ["反復する", "避ける", "忘れる", "許す"], "answer": 0},
-  {"id": 1299, "cat": "paraphrase", "sentence": "世界記録に挑む選手たち。", "target": "挑む", "options": ["挑戦する", "諦める", "避ける", "見守る"], "answer": 0},
-  {"id": 1300, "cat": "paraphrase", "sentence": "税金を収める義務がある。", "target": "収める", "options": ["納める", "受ける", "返す", "借りる"], "answer": 0},
-  {"id": 1301, "cat": "paraphrase", "sentence": "生活習慣を改める必要がある。", "target": "改める", "options": ["直す", "続ける", "始める", "やめる"], "answer": 0},
-  {"id": 1302, "cat": "paraphrase", "sentence": "不足分を補うために残業した。", "target": "補う", "options": ["補足する", "減らす", "省く", "捨てる"], "answer": 0},
-  {"id": 1303, "cat": "paraphrase", "sentence": "騒音が勉強を妨げている。", "target": "妨げる", "options": ["邪魔する", "助ける", "促す", "支える"], "answer": 0},
-  {"id": 1304, "cat": "paraphrase", "sentence": "彼は頼みを拒んだ。", "target": "拒む", "options": ["断る", "受ける", "考える", "伝える"], "answer": 0},
-  {"id": 1305, "cat": "paraphrase", "sentence": "合格を目指して励んでいる。", "target": "励む", "options": ["努力する", "諦める", "休む", "遊ぶ"], "answer": 0},
-  {"id": 1306, "cat": "paraphrase", "sentence": "地震に備えて食料を買った。", "target": "備える", "options": ["準備する", "使う", "捨てる", "忘れる"], "answer": 0},
-  {"id": 1307, "cat": "paraphrase", "sentence": "説明に図を加えるとわかりやすい。", "target": "加える", "options": ["足す", "引く", "消す", "隠す"], "answer": 0},
-  {"id": 1308, "cat": "paraphrase", "sentence": "感情を抑えるのが難しい。", "target": "抑える", "options": ["制御する", "表す", "高める", "広げる"], "answer": 0},
-  {"id": 1309, "cat": "paraphrase", "sentence": "被害者は裁判で不当な扱いを訴えた。", "target": "訴える", "options": ["主張する", "隠す", "忘れる", "許す"], "answer": 0},
-  {"id": 1310, "cat": "paraphrase", "sentence": "新しい方法を試みたが失敗した。", "target": "試みる", "options": ["トライする", "避ける", "諦める", "続ける"], "answer": 0},
-  {"id": 1311, "cat": "paraphrase", "sentence": "先生が学生を正しい方向に導いた。", "target": "導く", "options": ["案内する", "追い出す", "放す", "叱る"], "answer": 0},
-  {"id": 1312, "cat": "paraphrase", "sentence": "健康のためにお酒を控えている。", "target": "控える", "options": ["やめる", "増やす", "始める", "楽しむ"], "answer": 0},
-  {"id": 1313, "cat": "paraphrase", "sentence": "彼は毎日一生懸命稼いでいる。", "target": "稼ぐ", "options": ["儲ける", "使う", "借りる", "貯める"], "answer": 0},
-  {"id": 1314, "cat": "paraphrase", "sentence": "将来のためにお金を蓄えている。", "target": "蓄える", "options": ["貯める", "使う", "借りる", "配る"], "answer": 0},
-  {"id": 1315, "cat": "paraphrase", "sentence": "ボランティアを募っている。", "target": "募る", "options": ["集める", "断る", "減らす", "送る"], "answer": 0},
-  {"id": 1316, "cat": "paraphrase", "sentence": "強盗に財布を奪われた。", "target": "奪う", "options": ["取り上げる", "渡す", "拾う", "見つける"], "answer": 0},
-  {"id": 1317, "cat": "paraphrase", "sentence": "子供たちにチャンスを与えるべきだ。", "target": "与える", "options": ["あげる", "もらう", "奪う", "隠す"], "answer": 0},
-  {"id": 1318, "cat": "paraphrase", "sentence": "問題の本質を捉えることが大切だ。", "target": "捉える", "options": ["つかむ", "逃す", "避ける", "忘れる"], "answer": 0},
-  {"id": 1319, "cat": "paraphrase", "sentence": "原因を探るために調査を行った。", "target": "探る", "options": ["調べる", "隠す", "避ける", "決める"], "answer": 0},
-  {"id": 1320, "cat": "paraphrase", "sentence": "被災地に支援を施した。", "target": "施す", "options": ["行う", "受ける", "断る", "避ける"], "answer": 0},
-  {"id": 1321, "cat": "paraphrase", "sentence": "危険を免れることができた。", "target": "免れる", "options": ["逃れる", "受ける", "招く", "増やす"], "answer": 0},
-  {"id": 1322, "cat": "paraphrase", "sentence": "先輩を敬う気持ちが大切だ。", "target": "敬う", "options": ["尊敬する", "嫌う", "無視する", "叱る"], "answer": 0},
-  {"id": 1323, "cat": "paraphrase", "sentence": "彼女は友人の死を嘆いた。", "target": "嘆く", "options": ["悲しむ", "喜ぶ", "笑う", "怒る"], "answer": 0},
-  {"id": 1324, "cat": "paraphrase", "sentence": "この仕事を任せてください。", "target": "任せる", "options": ["委ねる", "断る", "奪う", "隠す"], "answer": 0},
-  {"id": 1325, "cat": "paraphrase", "sentence": "彼は約束を果たした。", "target": "果たす", "options": ["達成する", "破る", "忘れる", "延ばす"], "answer": 0},
-  {"id": 1326, "cat": "paraphrase", "sentence": "新しい商品を発売に先立ち宣伝した。", "target": "先立つ", "options": ["先行する", "遅れる", "続く", "重なる"], "answer": 0},
-  {"id": 1327, "cat": "paraphrase", "sentence": "彼の意見に基づいて計画を立てた。", "target": "基づく", "options": ["もとにする", "反する", "無視する", "逆らう"], "answer": 0},
-  {"id": 1328, "cat": "paraphrase", "sentence": "交通事故を目撃した。", "target": "目撃する", "options": ["目にする", "聞く", "想像する", "忘れる"], "answer": 0},
-  {"id": 1329, "cat": "paraphrase", "sentence": "新しいアイデアを思いついた。", "target": "思いつく", "options": ["ひらめく", "忘れる", "諦める", "迷う"], "answer": 0},
-  {"id": 1330, "cat": "paraphrase", "sentence": "約束の時間に遅れてしまった。", "target": "遅れる", "options": ["遅刻する", "早まる", "間に合う", "急ぐ"], "answer": 0},
-  {"id": 1331, "cat": "paraphrase", "sentence": "彼は会社を辞めることを決意した。", "target": "決意する", "options": ["決心する", "迷う", "悩む", "躊躇する"], "answer": 0},
-  {"id": 1332, "cat": "paraphrase", "sentence": "新しい法律が施行された。", "target": "施行する", "options": ["実施する", "廃止する", "延期する", "検討する"], "answer": 0},
-  {"id": 1333, "cat": "paraphrase", "sentence": "不良品を取り除いた。", "target": "取り除く", "options": ["除去する", "加える", "混ぜる", "増やす"], "answer": 0},
-  {"id": 1334, "cat": "paraphrase", "sentence": "この薬は痛みを和らげる効果がある。", "target": "和らげる", "options": ["軽減する", "強める", "広げる", "増やす"], "answer": 0},
-  {"id": 1335, "cat": "paraphrase", "sentence": "計画を練ってから実行に移した。", "target": "練る", "options": ["考える", "捨てる", "避ける", "急ぐ"], "answer": 0},
-  {"id": 1336, "cat": "paraphrase", "sentence": "彼女は新人を育てるのが上手だ。", "target": "育てる", "options": ["育成する", "叱る", "雇う", "解雇する"], "answer": 0},
-  {"id": 1337, "cat": "paraphrase", "sentence": "この報告書には重要な事実が記されている。", "target": "記す", "options": ["書く", "消す", "隠す", "読む"], "answer": 0},
-  {"id": 1338, "cat": "paraphrase", "sentence": "長年の疑問が解けた。", "target": "解ける", "options": ["解決する", "深まる", "増える", "続く"], "answer": 0},
-  {"id": 1339, "cat": "paraphrase", "sentence": "大切な書類を紛失してしまった。", "target": "紛失する", "options": ["なくす", "見つける", "隠す", "返す"], "answer": 0},
-  {"id": 1340, "cat": "paraphrase", "sentence": "部下の仕事ぶりを褒めた。", "target": "褒める", "options": ["称賛する", "叱る", "無視する", "批判する"], "answer": 0},
-  {"id": 1341, "cat": "paraphrase", "sentence": "交渉が難航して困っている。", "target": "難航する", "options": ["行き詰まる", "順調に進む", "終了する", "始まる"], "answer": 0},
-  {"id": 1342, "cat": "paraphrase", "sentence": "新しい制度を設ける予定だ。", "target": "設ける", "options": ["作る", "壊す", "廃止する", "減らす"], "answer": 0},
-  {"id": 1343, "cat": "paraphrase", "sentence": "上司に進捗を報告した。", "target": "報告する", "options": ["知らせる", "隠す", "聞く", "忘れる"], "answer": 0},
-  {"id": 1344, "cat": "paraphrase", "sentence": "彼の態度に呆れてしまった。", "target": "呆れる", "options": ["あきれる", "感心する", "喜ぶ", "安心する"], "answer": 0},
-  {"id": 1345, "cat": "paraphrase", "sentence": "事実を隠蔽することは許されない。", "target": "隠蔽する", "options": ["隠す", "公表する", "伝える", "調べる"], "answer": 0},
-  {"id": 1346, "cat": "paraphrase", "sentence": "資源を浪費してはいけない。", "target": "浪費する", "options": ["無駄遣いする", "節約する", "蓄える", "活用する"], "answer": 0},
-  {"id": 1347, "cat": "paraphrase", "sentence": "政府は新たな政策を打ち出した。", "target": "打ち出す", "options": ["提示する", "取り消す", "隠す", "延期する"], "answer": 0},
-  {"id": 1348, "cat": "paraphrase", "sentence": "困難を乗り越えて成功した。", "target": "乗り越える", "options": ["克服する", "諦める", "避ける", "逃げる"], "answer": 0},
-  {"id": 1349, "cat": "paraphrase", "sentence": "彼の行動は周囲を驚かせた。", "target": "驚かせる", "options": ["びっくりさせる", "安心させる", "喜ばせる", "悲しませる"], "answer": 0},
-  {"id": 1350, "cat": "paraphrase", "sentence": "環境問題が人々の生活に影響を及ぼしている。", "target": "影響", "options": ["作用", "原因", "結果", "感想"], "answer": 0},
-  {"id": 1351, "cat": "paraphrase", "sentence": "事故の原因を調べている。", "target": "原因", "options": ["理由", "結果", "影響", "対策"], "answer": 0},
-  {"id": 1352, "cat": "paraphrase", "sentence": "長年の努力がようやく結果を出した。", "target": "結果", "options": ["成果", "原因", "過程", "計画"], "answer": 0},
-  {"id": 1353, "cat": "paraphrase", "sentence": "この研究の目的を説明してください。", "target": "目的", "options": ["狙い", "結果", "方法", "問題"], "answer": 0},
-  {"id": 1354, "cat": "paraphrase", "sentence": "参加するための条件を確認した。", "target": "条件", "options": ["要件", "結果", "目的", "方法"], "answer": 0},
-  {"id": 1355, "cat": "paraphrase", "sentence": "これは良い機会だから逃さないでほしい。", "target": "機会", "options": ["チャンス", "問題", "結果", "方法"], "answer": 0},
-  {"id": 1356, "cat": "paraphrase", "sentence": "この店にはたくさんの種類がある。", "target": "種類", "options": ["タイプ", "数量", "品質", "価格"], "answer": 0},
-  {"id": 1357, "cat": "paraphrase", "sentence": "地震への対策を講じるべきだ。", "target": "対策", "options": ["方策", "原因", "結果", "問題"], "answer": 0},
-  {"id": 1358, "cat": "paraphrase", "sentence": "会社の方針が変わった。", "target": "方針", "options": ["方向", "結果", "原因", "問題"], "answer": 0},
-  {"id": 1359, "cat": "paraphrase", "sentence": "彼の仕事に対する評価は高い。", "target": "評価", "options": ["判断", "批判", "無視", "拒否"], "answer": 0},
-  {"id": 1360, "cat": "paraphrase", "sentence": "彼女の第一印象はとても良かった。", "target": "印象", "options": ["イメージ", "記憶", "感情", "態度"], "answer": 0},
-  {"id": 1361, "cat": "paraphrase", "sentence": "ご協力に感謝いたします。", "target": "感謝", "options": ["お礼", "反省", "謝罪", "挨拶"], "answer": 0},
-  {"id": 1362, "cat": "paraphrase", "sentence": "これは私の責任です。", "target": "責任", "options": ["義務", "権利", "自由", "希望"], "answer": 0},
-  {"id": 1363, "cat": "paraphrase", "sentence": "彼の努力は皆が認めている。", "target": "努力", "options": ["頑張り", "怠け", "失敗", "運"], "answer": 0},
-  {"id": 1364, "cat": "paraphrase", "sentence": "プロジェクトの成功を祝った。", "target": "成功", "options": ["達成", "失敗", "中止", "延期"], "answer": 0},
-  {"id": 1365, "cat": "paraphrase", "sentence": "事業の失敗から多くを学んだ。", "target": "失敗", "options": ["不成功", "成功", "達成", "完成"], "answer": 0},
-  {"id": 1366, "cat": "paraphrase", "sentence": "企業間の競争が激化している。", "target": "競争", "options": ["競い合い", "協力", "和解", "交流"], "answer": 0},
-  {"id": 1367, "cat": "paraphrase", "sentence": "部門間の協力が不可欠だ。", "target": "協力", "options": ["連携", "競争", "対立", "分離"], "answer": 0},
-  {"id": 1368, "cat": "paraphrase", "sentence": "政府の政策に対する批判が高まっている。", "target": "批判", "options": ["非難", "賞賛", "支持", "無関心"], "answer": 0},
-  {"id": 1369, "cat": "paraphrase", "sentence": "新しい提案を検討している。", "target": "提案", "options": ["申し出", "拒否", "反対", "撤回"], "answer": 0},
-  {"id": 1370, "cat": "paraphrase", "sentence": "経済の見通しは明るい。", "target": "見通し", "options": ["予測", "結果", "過去", "事実"], "answer": 0},
-  {"id": 1371, "cat": "paraphrase", "sentence": "この仕組みを理解してください。", "target": "仕組み", "options": ["システム", "結果", "原因", "外見"], "answer": 0},
-  {"id": 1372, "cat": "paraphrase", "sentence": "入学の手続きを済ませた。", "target": "手続き", "options": ["プロセス", "結果", "原因", "目的"], "answer": 0},
-  {"id": 1373, "cat": "paraphrase", "sentence": "問題の実態を把握する必要がある。", "target": "実態", "options": ["実情", "理想", "外見", "噂"], "answer": 0},
-  {"id": 1374, "cat": "paraphrase", "sentence": "この製品の特徴を説明します。", "target": "特徴", "options": ["特色", "欠点", "問題", "価格"], "answer": 0},
-  {"id": 1375, "cat": "paraphrase", "sentence": "リーダーとしての役割を果たした。", "target": "役割", "options": ["役目", "権利", "利益", "趣味"], "answer": 0},
-  {"id": 1376, "cat": "paraphrase", "sentence": "次の段階に進む準備ができた。", "target": "段階", "options": ["ステップ", "結果", "目標", "問題"], "answer": 0},
-  {"id": 1377, "cat": "paraphrase", "sentence": "この地域の人口は減少傾向にある。", "target": "傾向", "options": ["トレンド", "結果", "原因", "事実"], "answer": 0},
-  {"id": 1378, "cat": "paraphrase", "sentence": "新しい事業の利益が出始めた。", "target": "利益", "options": ["儲け", "損失", "費用", "借金"], "answer": 0},
-  {"id": 1379, "cat": "paraphrase", "sentence": "この件について意見を聞かせてください。", "target": "意見", "options": ["考え", "事実", "命令", "報告"], "answer": 0},
-  {"id": 1380, "cat": "paraphrase", "sentence": "環境保護の重要性を訴えた。", "target": "重要性", "options": ["大切さ", "簡単さ", "便利さ", "面白さ"], "answer": 0},
-  {"id": 1381, "cat": "paraphrase", "sentence": "この文書の内容を確認してください。", "target": "内容", "options": ["中身", "表紙", "題名", "著者"], "answer": 0},
-  {"id": 1382, "cat": "paraphrase", "sentence": "問題の解決策を模索している。", "target": "解決策", "options": ["解決方法", "問題点", "原因", "結果"], "answer": 0},
-  {"id": 1383, "cat": "paraphrase", "sentence": "経験豊富な人材を求めている。", "target": "人材", "options": ["人員", "資金", "設備", "場所"], "answer": 0},
-  {"id": 1384, "cat": "paraphrase", "sentence": "この技術の進歩は著しい。", "target": "進歩", "options": ["発展", "後退", "停滞", "崩壊"], "answer": 0},
-  {"id": 1385, "cat": "paraphrase", "sentence": "社会の変化に対応する必要がある。", "target": "変化", "options": ["変動", "安定", "維持", "固定"], "answer": 0},
-  {"id": 1386, "cat": "paraphrase", "sentence": "会議の日程を調整した。", "target": "日程", "options": ["スケジュール", "場所", "内容", "参加者"], "answer": 0},
-  {"id": 1387, "cat": "paraphrase", "sentence": "長期間の不況が続いている。", "target": "不況", "options": ["景気低迷", "好景気", "発展", "成長"], "answer": 0},
-  {"id": 1388, "cat": "paraphrase", "sentence": "地域住民との交流を深めたい。", "target": "交流", "options": ["付き合い", "対立", "競争", "分離"], "answer": 0},
-  {"id": 1389, "cat": "paraphrase", "sentence": "新製品の需要が高まっている。", "target": "需要", "options": ["ニーズ", "供給", "在庫", "生産"], "answer": 0},
-  {"id": 1390, "cat": "paraphrase", "sentence": "激しい嵐が町を襲った。", "target": "激しい", "options": ["猛烈な", "穏やかな", "静かな", "弱い"], "answer": 0},
-  {"id": 1391, "cat": "paraphrase", "sentence": "今年の冬は厳しい寒さだ。", "target": "厳しい", "options": ["きつい", "やさしい", "暖かい", "軽い"], "answer": 0},
-  {"id": 1392, "cat": "paraphrase", "sentence": "素晴らしい演奏に感動した。", "target": "素晴らしい", "options": ["見事な", "普通の", "退屈な", "下手な"], "answer": 0},
-  {"id": 1393, "cat": "paraphrase", "sentence": "貧しい生活を送っていた。", "target": "貧しい", "options": ["貧困な", "裕福な", "普通の", "豪華な"], "answer": 0},
-  {"id": 1394, "cat": "paraphrase", "sentence": "彼女は鋭い観察力を持っている。", "target": "鋭い", "options": ["するどい", "鈍い", "弱い", "広い"], "answer": 0},
-  {"id": 1395, "cat": "paraphrase", "sentence": "幼い子供には難しい問題だ。", "target": "幼い", "options": ["小さい", "大きい", "賢い", "強い"], "answer": 0},
-  {"id": 1396, "cat": "paraphrase", "sentence": "彼の反応は鈍い。", "target": "鈍い", "options": ["のろい", "速い", "鋭い", "激しい"], "answer": 0},
-  {"id": 1397, "cat": "paraphrase", "sentence": "あと一点で合格だったのに惜しい。", "target": "惜しい", "options": ["残念な", "嬉しい", "楽しい", "幸せな"], "answer": 0},
-  {"id": 1398, "cat": "paraphrase", "sentence": "彼とは親しい関係だ。", "target": "親しい", "options": ["仲が良い", "疎遠な", "冷たい", "厳しい"], "answer": 0},
-  {"id": 1399, "cat": "paraphrase", "sentence": "二つの値は等しい。", "target": "等しい", "options": ["同じ", "違う", "近い", "遠い"], "answer": 0},
-  {"id": 1400, "cat": "paraphrase", "sentence": "この地域は資源が乏しい。", "target": "乏しい", "options": ["少ない", "豊富な", "十分な", "多い"], "answer": 0},
-  {"id": 1401, "cat": "paraphrase", "sentence": "健康管理は重要な問題だ。", "target": "重要", "options": ["大切", "簡単", "不要", "些細"], "answer": 0},
-  {"id": 1402, "cat": "paraphrase", "sentence": "この書類は必要不可欠です。", "target": "必要", "options": ["不可欠", "不要", "余分", "無用"], "answer": 0},
-  {"id": 1403, "cat": "paraphrase", "sentence": "このサイズが適当だと思います。", "target": "適当", "options": ["ふさわしい", "不適切", "過大", "不足"], "answer": 0},
-  {"id": 1404, "cat": "paraphrase", "sentence": "確実に届くようにした。", "target": "確実", "options": ["確か", "不確か", "危険", "曖昧"], "answer": 0},
-  {"id": 1405, "cat": "paraphrase", "sentence": "この地域は水資源が豊富だ。", "target": "豊富", "options": ["たっぷり", "少ない", "乏しい", "不足"], "answer": 0},
-  {"id": 1406, "cat": "paraphrase", "sentence": "正確な情報を伝えてください。", "target": "正確", "options": ["正しい", "曖昧", "不明", "適当"], "answer": 0},
-  {"id": 1407, "cat": "paraphrase", "sentence": "環境問題は深刻な状況だ。", "target": "深刻", "options": ["重大", "軽微", "簡単", "楽観的"], "answer": 0},
-  {"id": 1408, "cat": "paraphrase", "sentence": "この問題は複雑で解決が難しい。", "target": "複雑", "options": ["入り組んだ", "単純", "簡単", "明確"], "answer": 0},
-  {"id": 1409, "cat": "paraphrase", "sentence": "答えは単純だった。", "target": "単純", "options": ["簡単", "複雑", "難解", "不明"], "answer": 0},
-  {"id": 1410, "cat": "paraphrase", "sentence": "この方法は有効であることが証明された。", "target": "有効", "options": ["効果的", "無効", "危険", "不要"], "answer": 0},
-  {"id": 1411, "cat": "paraphrase", "sentence": "彼の立場を明確にすべきだ。", "target": "明確", "options": ["はっきりした", "曖昧", "不明", "複雑"], "answer": 0},
-  {"id": 1412, "cat": "paraphrase", "sentence": "新鮮な野菜を使った料理だ。", "target": "新鮮", "options": ["フレッシュ", "古い", "腐った", "冷凍の"], "answer": 0},
-  {"id": 1413, "cat": "paraphrase", "sentence": "彼は真剣な表情で話した。", "target": "真剣", "options": ["本気", "冗談", "適当", "無関心"], "answer": 0},
-  {"id": 1414, "cat": "paraphrase", "sentence": "これは貴重な体験だった。", "target": "貴重", "options": ["大切", "普通", "無駄", "余計"], "answer": 0},
-  {"id": 1415, "cat": "paraphrase", "sentence": "子供たちは活発に遊んでいる。", "target": "活発", "options": ["元気", "静か", "おとなしい", "弱い"], "answer": 0},
-  {"id": 1416, "cat": "paraphrase", "sentence": "穏やかな天気が続いている。", "target": "穏やか", "options": ["静か", "激しい", "荒い", "厳しい"], "answer": 0},
-  {"id": 1417, "cat": "paraphrase", "sentence": "彼の説明は曖昧だった。", "target": "曖昧", "options": ["はっきりしない", "明確な", "正確な", "詳しい"], "answer": 0},
-  {"id": 1418, "cat": "paraphrase", "sentence": "この仕事は困難を極めた。", "target": "困難", "options": ["難しい", "簡単", "楽", "容易"], "answer": 0},
-  {"id": 1419, "cat": "paraphrase", "sentence": "彼は誠実な人柄だ。", "target": "誠実", "options": ["真面目", "不正直", "いい加減", "嘘つき"], "answer": 0},
-  {"id": 1420, "cat": "paraphrase", "sentence": "彼女は優雅な身のこなしをしている。", "target": "優雅", "options": ["上品", "下品", "粗野", "乱暴"], "answer": 0},
-  {"id": 1421, "cat": "paraphrase", "sentence": "この情報は正当な手段で得た。", "target": "正当", "options": ["正しい", "不当", "違法", "怪しい"], "answer": 0},
-  {"id": 1422, "cat": "paraphrase", "sentence": "彼の行動は異常だった。", "target": "異常", "options": ["普通でない", "正常", "一般的", "平凡"], "answer": 0},
-  {"id": 1423, "cat": "paraphrase", "sentence": "このデザインは斬新だ。", "target": "斬新", "options": ["新しい", "古い", "普通の", "伝統的な"], "answer": 0},
-  {"id": 1424, "cat": "paraphrase", "sentence": "彼の態度は横柄だった。", "target": "横柄", "options": ["偉そう", "謙虚", "丁寧", "優しい"], "answer": 0},
-  {"id": 1425, "cat": "paraphrase", "sentence": "膨大な量のデータを分析した。", "target": "膨大", "options": ["非常に多い", "少ない", "わずかな", "適度な"], "answer": 0},
-  {"id": 1426, "cat": "paraphrase", "sentence": "彼女の回答は的確だった。", "target": "的確", "options": ["正確", "曖昧", "不明", "誤り"], "answer": 0},
-  {"id": 1427, "cat": "paraphrase", "sentence": "顕著な成果が見られた。", "target": "顕著", "options": ["目立つ", "地味な", "わずかな", "不明な"], "answer": 0},
-  {"id": 1428, "cat": "paraphrase", "sentence": "彼は柔軟な考え方をする。", "target": "柔軟", "options": ["しなやか", "堅い", "頑固", "厳しい"], "answer": 0},
-  {"id": 1429, "cat": "paraphrase", "sentence": "彼の発言は不適切だった。", "target": "不適切", "options": ["ふさわしくない", "適当", "正しい", "素晴らしい"], "answer": 0},
-  {"id": 1430, "cat": "paraphrase", "sentence": "新しいプロジェクトに取り組んでいる。", "target": "取り組む", "options": ["取りかかる", "諦める", "避ける", "断る"], "answer": 0},
-  {"id": 1431, "cat": "paraphrase", "sentence": "安全運転を心がけている。", "target": "心がける", "options": ["注意する", "無視する", "忘れる", "怠る"], "answer": 0},
-  {"id": 1432, "cat": "paraphrase", "sentence": "入院中の友人を見舞った。", "target": "見舞う", "options": ["お見舞いに行く", "避ける", "忘れる", "放っておく"], "answer": 0},
-  {"id": 1433, "cat": "paraphrase", "sentence": "騒ぎが落ち着いてきた。", "target": "落ち着く", "options": ["静まる", "激しくなる", "広がる", "続く"], "answer": 0},
-  {"id": 1434, "cat": "paraphrase", "sentence": "思い切って転職することにした。", "target": "思い切る", "options": ["決心する", "迷う", "諦める", "悩む"], "answer": 0},
-  {"id": 1435, "cat": "paraphrase", "sentence": "この仕事を引き受けることにした。", "target": "引き受ける", "options": ["受け持つ", "断る", "避ける", "無視する"], "answer": 0},
-  {"id": 1436, "cat": "paraphrase", "sentence": "困難に立ち向かう勇気が必要だ。", "target": "立ち向かう", "options": ["挑む", "逃げる", "避ける", "諦める"], "answer": 0},
-  {"id": 1437, "cat": "paraphrase", "sentence": "事前に打ち合わせておこう。", "target": "打ち合わせる", "options": ["相談する", "決定する", "命令する", "報告する"], "answer": 0},
-  {"id": 1438, "cat": "paraphrase", "sentence": "計画を見直す必要がある。", "target": "見直す", "options": ["再検討する", "中止する", "続ける", "忘れる"], "answer": 0},
-  {"id": 1439, "cat": "paraphrase", "sentence": "相手の条件を受け入れた。", "target": "受け入れる", "options": ["承諾する", "拒否する", "無視する", "延期する"], "answer": 0},
-  {"id": 1440, "cat": "paraphrase", "sentence": "彼の話に付き合ってあげた。", "target": "付き合う", "options": ["相手をする", "無視する", "逃げる", "怒る"], "answer": 0},
-  {"id": 1441, "cat": "paraphrase", "sentence": "締め切りに間に合うように急いだ。", "target": "間に合う", "options": ["間に合わせる", "遅れる", "諦める", "延ばす"], "answer": 0},
-  {"id": 1442, "cat": "paraphrase", "sentence": "新しい環境に馴染むのに時間がかかった。", "target": "馴染む", "options": ["慣れる", "嫌う", "避ける", "離れる"], "answer": 0},
-  {"id": 1443, "cat": "paraphrase", "sentence": "彼女は目上の人に気を遣っている。", "target": "気を遣う", "options": ["配慮する", "無視する", "怒る", "甘える"], "answer": 0},
-  {"id": 1444, "cat": "paraphrase", "sentence": "問題を先送りにしてはいけない。", "target": "先送りにする", "options": ["後回しにする", "解決する", "忘れる", "急ぐ"], "answer": 0},
-  {"id": 1445, "cat": "paraphrase", "sentence": "彼の意見を踏まえて決定した。", "target": "踏まえる", "options": ["考慮する", "無視する", "否定する", "忘れる"], "answer": 0},
-  {"id": 1446, "cat": "paraphrase", "sentence": "新しいルールが浸透してきた。", "target": "浸透する", "options": ["広まる", "消える", "減る", "隠れる"], "answer": 0},
-  {"id": 1447, "cat": "paraphrase", "sentence": "彼は責任を負うことになった。", "target": "負う", "options": ["背負う", "逃れる", "避ける", "捨てる"], "answer": 0},
-  {"id": 1448, "cat": "paraphrase", "sentence": "詳細は追って連絡します。", "target": "追って", "options": ["後ほど", "すぐに", "今すぐ", "もう"], "answer": 0},
-  {"id": 1449, "cat": "paraphrase", "sentence": "この制度は見直しが求められている。", "target": "求める", "options": ["要求する", "断る", "諦める", "避ける"], "answer": 0},
-  {"id": 1450, "cat": "paraphrase", "sentence": "彼は周囲の期待に応えた。", "target": "応える", "options": ["こたえる", "裏切る", "無視する", "避ける"], "answer": 0},
-  {"id": 1451, "cat": "paraphrase", "sentence": "この問題は早急に手を打つべきだ。", "target": "手を打つ", "options": ["対策を立てる", "諦める", "放っておく", "逃げる"], "answer": 0},
-  {"id": 1452, "cat": "paraphrase", "sentence": "彼女は場の雰囲気を和ませた。", "target": "和ませる", "options": ["なごませる", "壊す", "乱す", "冷やす"], "answer": 0},
-  {"id": 1453, "cat": "paraphrase", "sentence": "彼は話の腰を折った。", "target": "腰を折る", "options": ["邪魔をする", "助ける", "続ける", "賛成する"], "answer": 0},
-  {"id": 1454, "cat": "paraphrase", "sentence": "最後まで気を抜かないでください。", "target": "気を抜く", "options": ["油断する", "集中する", "頑張る", "注意する"], "answer": 0},
-  {"id": 1455, "cat": "paraphrase", "sentence": "彼の発言が物議を醸した。", "target": "物議を醸す", "options": ["論争を引き起こす", "解決する", "安心させる", "無視される"], "answer": 0},
-  {"id": 1456, "cat": "paraphrase", "sentence": "この商品は目を引くデザインだ。", "target": "目を引く", "options": ["注目を集める", "見えない", "地味な", "普通の"], "answer": 0},
-  {"id": 1457, "cat": "paraphrase", "sentence": "彼女は口を挟まずに聞いていた。", "target": "口を挟む", "options": ["割り込んで話す", "黙る", "聞く", "頷く"], "answer": 0},
-  {"id": 1458, "cat": "paraphrase", "sentence": "彼は自分の非を認めた。", "target": "非", "options": ["過ち", "正しさ", "功績", "成功"], "answer": 0},
-  {"id": 1459, "cat": "paraphrase", "sentence": "今回の件で彼の面目が立った。", "target": "面目が立つ", "options": ["体面が保たれる", "恥をかく", "失敗する", "無視される"], "answer": 0},
-  {"id": 1460, "cat": "paraphrase", "sentence": "彼は仕事に手を抜かない。", "target": "手を抜く", "options": ["さぼる", "頑張る", "集中する", "努力する"], "answer": 0},
-  {"id": 1461, "cat": "paraphrase", "sentence": "新しい企画が軌道に乗った。", "target": "軌道に乗る", "options": ["順調に進む", "失敗する", "中止になる", "行き詰まる"], "answer": 0},
-  {"id": 1462, "cat": "paraphrase", "sentence": "彼の説明は要領を得ない。", "target": "要領を得ない", "options": ["わかりにくい", "明確だ", "簡潔だ", "正確だ"], "answer": 0},
-  {"id": 1463, "cat": "paraphrase", "sentence": "予算の都合で計画を断念した。", "target": "断念する", "options": ["諦める", "続ける", "始める", "決める"], "answer": 0},
-  {"id": 1464, "cat": "paraphrase", "sentence": "彼は何事にも慎重だ。", "target": "慎重", "options": ["注意深い", "大胆", "無謀", "軽率"], "answer": 0},
-  {"id": 1465, "cat": "paraphrase", "sentence": "その噂は根拠がない。", "target": "根拠", "options": ["裏付け", "事実", "結論", "理論"], "answer": 0},
-  {"id": 1466, "cat": "paraphrase", "sentence": "このアプリは画期的な機能を備えている。", "target": "画期的", "options": ["革新的", "普通の", "古い", "退屈な"], "answer": 0},
-  {"id": 1467, "cat": "paraphrase", "sentence": "彼女は遠慮がちに意見を述べた。", "target": "遠慮がち", "options": ["控えめ", "大胆", "堂々と", "積極的"], "answer": 0},
-  {"id": 1468, "cat": "paraphrase", "sentence": "大幅な改善が見られた。", "target": "大幅", "options": ["大きな", "小さな", "わずかな", "少しの"], "answer": 0},
-  {"id": 1469, "cat": "paraphrase", "sentence": "彼の意見は的を射ている。", "target": "的を射る", "options": ["核心をつく", "外れる", "曖昧だ", "無関係だ"], "answer": 0},
-  {"id": 1470, "cat": "paraphrase", "sentence": "この仕事は骨が折れる。", "target": "骨が折れる", "options": ["大変だ", "簡単だ", "楽しい", "退屈だ"], "answer": 0},
-  {"id": 1471, "cat": "paraphrase", "sentence": "成功するかどうかは微妙だ。", "target": "微妙", "options": ["判断しにくい", "確実", "簡単", "明らか"], "answer": 0},
-  {"id": 1472, "cat": "paraphrase", "sentence": "彼女は律儀にお礼状を書いた。", "target": "律儀", "options": ["まじめ", "いい加減", "怠惰", "不真面目"], "answer": 0},
-  {"id": 1473, "cat": "paraphrase", "sentence": "彼は几帳面な性格だ。", "target": "几帳面", "options": ["きちんとした", "だらしない", "適当", "雑な"], "answer": 0},
-  {"id": 1474, "cat": "paraphrase", "sentence": "この問題は厄介だ。", "target": "厄介", "options": ["面倒", "簡単", "楽しい", "単純"], "answer": 0},
-  {"id": 1475, "cat": "paraphrase", "sentence": "彼女の行動は大胆だった。", "target": "大胆", "options": ["思い切った", "臆病な", "慎重な", "控えめな"], "answer": 0},
-  {"id": 1476, "cat": "paraphrase", "sentence": "彼は物事に動じない。", "target": "動じない", "options": ["冷静だ", "慌てる", "驚く", "焦る"], "answer": 0},
-  {"id": 1477, "cat": "paraphrase", "sentence": "この提案は妥当だと思う。", "target": "妥当", "options": ["適切", "不適切", "過大", "極端"], "answer": 0},
-  {"id": 1478, "cat": "paraphrase", "sentence": "彼の行動は軽率だった。", "target": "軽率", "options": ["考えが浅い", "慎重", "冷静", "堅実"], "answer": 0},
-  {"id": 1479, "cat": "paraphrase", "sentence": "些細なことで口論になった。", "target": "些細", "options": ["小さな", "重大な", "深刻な", "大きな"], "answer": 0},
-  {"id": 1480, "cat": "paraphrase", "sentence": "彼は自分の過ちを悔やんでいる。", "target": "悔やむ", "options": ["後悔する", "喜ぶ", "忘れる", "無視する"], "answer": 0},
-  {"id": 1481, "cat": "paraphrase", "sentence": "この件は保留にしておこう。", "target": "保留", "options": ["ペンディング", "決定", "中止", "完了"], "answer": 0},
-  {"id": 1482, "cat": "paraphrase", "sentence": "彼女は要領がいい。", "target": "要領がいい", "options": ["手際がいい", "不器用", "下手", "遅い"], "answer": 0},
-  {"id": 1483, "cat": "paraphrase", "sentence": "あの会社は業績が好調だ。", "target": "好調", "options": ["順調", "不調", "低迷", "停滞"], "answer": 0},
-  {"id": 1484, "cat": "paraphrase", "sentence": "彼は頑固で意見を変えない。", "target": "頑固", "options": ["強情", "柔軟", "素直", "おとなしい"], "answer": 0},
-  {"id": 1485, "cat": "paraphrase", "sentence": "彼女は気さくな人だ。", "target": "気さく", "options": ["親しみやすい", "冷たい", "高飛車", "無愛想"], "answer": 0},
-  {"id": 1486, "cat": "paraphrase", "sentence": "この本の趣旨を教えてください。", "target": "趣旨", "options": ["主旨", "結論", "感想", "題名"], "answer": 0},
-  {"id": 1487, "cat": "paraphrase", "sentence": "彼の主張には一理ある。", "target": "一理ある", "options": ["もっともだ", "間違いだ", "無意味だ", "おかしい"], "answer": 0},
-  {"id": 1488, "cat": "paraphrase", "sentence": "会議は円滑に進んだ。", "target": "円滑", "options": ["スムーズ", "困難", "不調", "停滞"], "answer": 0},
-  {"id": 1489, "cat": "paraphrase", "sentence": "彼は融通が利かない。", "target": "融通が利かない", "options": ["柔軟性がない", "器用だ", "臨機応変だ", "自由だ"], "answer": 0},
-  {"id": 1490, "cat": "paraphrase", "sentence": "あの店は繁盛している。", "target": "繁盛する", "options": ["はやる", "潰れる", "閉まる", "衰退する"], "answer": 0}
+  {
+    "id": 1231,
+    "cat": "paraphrase",
+    "sentence": "この計画はようやく実現した。",
+    "target": "ようやく",
+    "options": [
+      "やっと",
+      "すっかり",
+      "たちまち",
+      "いきなり"
+    ],
+    "answer": 0,
+    "explanation": "「ようやく」的近义表达是「やっと」，两者意思最接近。"
+  },
+  {
+    "id": 1232,
+    "cat": "paraphrase",
+    "sentence": "天気がたちまち変わった。",
+    "target": "たちまち",
+    "options": [
+      "すぐに",
+      "ゆっくり",
+      "わずかに",
+      "やがて"
+    ],
+    "answer": 0,
+    "explanation": "「たちまち」的近义表达是「すぐに」，两者意思最接近。"
+  },
+  {
+    "id": 1233,
+    "cat": "paraphrase",
+    "sentence": "わざわざ遠くから来てくれた。",
+    "target": "わざわざ",
+    "options": [
+      "たまたま",
+      "わざと",
+      "仕方なく",
+      "態々"
+    ],
+    "answer": 3,
+    "explanation": "「わざわざ」的近义表达是「態々」，两者意思最接近。"
+  },
+  {
+    "id": 1234,
+    "cat": "paraphrase",
+    "sentence": "待つよりむしろ自分で行ったほうがいい。",
+    "target": "むしろ",
+    "options": [
+      "かえって",
+      "やはり",
+      "まさか",
+      "そもそも"
+    ],
+    "answer": 0,
+    "explanation": "「むしろ」的近义表达是「かえって」，两者意思最接近。"
+  },
+  {
+    "id": 1235,
+    "cat": "paraphrase",
+    "sentence": "この問題はしばしば議論されている。",
+    "target": "しばしば",
+    "options": [
+      "たびたび",
+      "ときどき",
+      "めったに",
+      "たちまち"
+    ],
+    "answer": 0,
+    "explanation": "「しばしば」的近义表达是「たびたび」，两者意思最接近。"
+  },
+  {
+    "id": 1236,
+    "cat": "paraphrase",
+    "sentence": "彼はひたすら勉強を続けた。",
+    "target": "ひたすら",
+    "options": [
+      "ずっと",
+      "少しだけ",
+      "たまに",
+      "やがて"
+    ],
+    "answer": 0,
+    "explanation": "「ひたすら」的近义表达是「ずっと」，两者意思最接近。"
+  },
+  {
+    "id": 1237,
+    "cat": "paraphrase",
+    "sentence": "彼女はもっぱら研究に集中している。",
+    "target": "もっぱら",
+    "options": [
+      "主に",
+      "少し",
+      "全く",
+      "むしろ"
+    ],
+    "answer": 0,
+    "explanation": "「もっぱら」的近义表达是「主に」，两者意思最接近。"
+  },
+  {
+    "id": 1238,
+    "cat": "paraphrase",
+    "sentence": "あくまで自分の意見を主張した。",
+    "target": "あくまで",
+    "options": [
+      "どこまでも",
+      "少しだけ",
+      "たまに",
+      "急に"
+    ],
+    "answer": 0,
+    "explanation": "「あくまで」的近义表达是「どこまでも」，两者意思最接近。"
+  },
+  {
+    "id": 1239,
+    "cat": "paraphrase",
+    "sentence": "長い研究の末、ついに新薬が完成した。",
+    "target": "ついに",
+    "options": [
+      "とうとう",
+      "すでに",
+      "まだ",
+      "もはや"
+    ],
+    "answer": 0,
+    "explanation": "「ついに」的近义表达是「とうとう」，两者意思最接近。"
+  },
+  {
+    "id": 1240,
+    "cat": "paraphrase",
+    "sentence": "彼は常に笑顔を絶やさない。",
+    "target": "常に",
+    "options": [
+      "いつも",
+      "たまに",
+      "めったに",
+      "突然"
+    ],
+    "answer": 0,
+    "explanation": "「常に」的近义表达是「いつも」，两者意思最接近。"
+  },
+  {
+    "id": 1241,
+    "cat": "paraphrase",
+    "sentence": "事故の報告を受け、直ちに対応した。",
+    "target": "直ちに",
+    "options": [
+      "すぐに",
+      "ゆっくり",
+      "次第に",
+      "改めて"
+    ],
+    "answer": 0,
+    "explanation": "「直ちに」的近义表达是「すぐに」，两者意思最接近。"
+  },
+  {
+    "id": 1242,
+    "cat": "paraphrase",
+    "sentence": "気温が次第に上がってきた。",
+    "target": "次第に",
+    "options": [
+      "だんだん",
+      "急に",
+      "一斉に",
+      "常に"
+    ],
+    "answer": 0,
+    "explanation": "「次第に」的近义表达是「だんだん」，两者意思最接近。"
+  },
+  {
+    "id": 1243,
+    "cat": "paraphrase",
+    "sentence": "工事は概ね予定通りに進んでいる。",
+    "target": "概ね",
+    "options": [
+      "だいたい",
+      "完全に",
+      "少しも",
+      "まるで"
+    ],
+    "answer": 0,
+    "explanation": "「概ね」的近义表达是「だいたい」，两者意思最接近。"
+  },
+  {
+    "id": 1244,
+    "cat": "paraphrase",
+    "sentence": "この問題は極めて重要だ。",
+    "target": "極めて",
+    "options": [
+      "非常に",
+      "少し",
+      "まあまあ",
+      "やや"
+    ],
+    "answer": 0,
+    "explanation": "「極めて」的近义表达是「非常に」，两者意思最接近。"
+  },
+  {
+    "id": 1245,
+    "cat": "paraphrase",
+    "sentence": "辛うじて試験に合格した。",
+    "target": "辛うじて",
+    "options": [
+      "かろうじて",
+      "楽に",
+      "完全に",
+      "すでに"
+    ],
+    "answer": 0,
+    "explanation": "「辛うじて」的近义表达是「かろうじて」，两者意思最接近。"
+  },
+  {
+    "id": 1246,
+    "cat": "paraphrase",
+    "sentence": "予め準備しておいたほうがいい。",
+    "target": "予め",
+    "options": [
+      "前もって",
+      "突然",
+      "後から",
+      "急いで"
+    ],
+    "answer": 0,
+    "explanation": "「予め」的近义表达是「前もって」，两者意思最接近。"
+  },
+  {
+    "id": 1247,
+    "cat": "paraphrase",
+    "sentence": "敢えて危険を冒して挑戦した。",
+    "target": "敢えて",
+    "options": [
+      "わざと",
+      "偶然",
+      "仕方なく",
+      "ひそかに"
+    ],
+    "answer": 0,
+    "explanation": "「敢えて」的近义表达是「わざと」，两者意思最接近。"
+  },
+  {
+    "id": 1248,
+    "cat": "paraphrase",
+    "sentence": "僅かに差がついた。",
+    "target": "僅かに",
+    "options": [
+      "わずかに",
+      "大いに",
+      "極めて",
+      "かなり"
+    ],
+    "answer": 0,
+    "explanation": "「僅かに」的近义表达是「わずかに」，两者意思最接近。"
+  },
+  {
+    "id": 1249,
+    "cat": "paraphrase",
+    "sentence": "互いに協力して問題を解決した。",
+    "target": "互いに",
+    "options": [
+      "お互いに",
+      "一人で",
+      "勝手に",
+      "別々に"
+    ],
+    "answer": 0,
+    "explanation": "「互いに」的近义表达是「お互いに」，两者意思最接近。"
+  },
+  {
+    "id": 1250,
+    "cat": "paraphrase",
+    "sentence": "改めてお礼を申し上げます。",
+    "target": "改めて",
+    "options": [
+      "もう一度",
+      "急いで",
+      "初めて",
+      "ついに"
+    ],
+    "answer": 0,
+    "explanation": "「改めて」的近义表达是「もう一度」，两者意思最接近。"
+  },
+  {
+    "id": 1251,
+    "cat": "paraphrase",
+    "sentence": "今回の成功を大いに喜んでいる。",
+    "target": "大いに",
+    "options": [
+      "とても",
+      "少し",
+      "まあまあ",
+      "やや"
+    ],
+    "answer": 0,
+    "explanation": "「大いに」的近义表达是「とても」，两者意思最接近。"
+  },
+  {
+    "id": 1252,
+    "cat": "paraphrase",
+    "sentence": "状況は依然として厳しい。",
+    "target": "依然として",
+    "options": [
+      "相変わらず",
+      "突然",
+      "次第に",
+      "極めて"
+    ],
+    "answer": 0,
+    "explanation": "「依然として」的近义表达是「相変わらず」，两者意思最接近。"
+  },
+  {
+    "id": 1253,
+    "cat": "paraphrase",
+    "sentence": "合図とともに一斉にスタートした。",
+    "target": "一斉に",
+    "options": [
+      "同時に",
+      "順番に",
+      "別々に",
+      "徐々に"
+    ],
+    "answer": 0,
+    "explanation": "「一斉に」的近义表达是「同時に」，两者意思最接近。"
+  },
+  {
+    "id": 1254,
+    "cat": "paraphrase",
+    "sentence": "果たして予想通りの結果になった。",
+    "target": "果たして",
+    "options": [
+      "やはり",
+      "まさか",
+      "突然",
+      "偶然"
+    ],
+    "answer": 0,
+    "explanation": "「果たして」的近义表达是「やはり」，两者意思最接近。"
+  },
+  {
+    "id": 1255,
+    "cat": "paraphrase",
+    "sentence": "彼はいきなり大声で叫んだ。",
+    "target": "いきなり",
+    "options": [
+      "突然",
+      "ゆっくり",
+      "次第に",
+      "わざと"
+    ],
+    "answer": 0,
+    "explanation": "「いきなり」的近义表达是「突然」，两者意思最接近。"
+  },
+  {
+    "id": 1256,
+    "cat": "paraphrase",
+    "sentence": "たまたま昔の友人に会った。",
+    "target": "たまたま",
+    "options": [
+      "偶然",
+      "わざわざ",
+      "必ず",
+      "頻繁に"
+    ],
+    "answer": 0,
+    "explanation": "「たまたま」的近义表达是「偶然」，两者意思最接近。"
+  },
+  {
+    "id": 1257,
+    "cat": "paraphrase",
+    "sentence": "まさか彼が辞めるとは思わなかった。",
+    "target": "まさか",
+    "options": [
+      "よもや",
+      "やはり",
+      "きっと",
+      "おそらく"
+    ],
+    "answer": 0,
+    "explanation": "「まさか」的近义表达是「よもや」，两者意思最接近。"
+  },
+  {
+    "id": 1258,
+    "cat": "paraphrase",
+    "sentence": "せっかくの休みなのに雨だ。",
+    "target": "せっかく",
+    "options": [
+      "折角",
+      "偶然",
+      "急に",
+      "単に"
+    ],
+    "answer": 0,
+    "explanation": "「せっかく」的近义表达是「折角」，两者意思最接近。"
+  },
+  {
+    "id": 1259,
+    "cat": "paraphrase",
+    "sentence": "さすが彼は優秀だ。",
+    "target": "さすが",
+    "options": [
+      "やはり",
+      "まさか",
+      "偶然",
+      "突然"
+    ],
+    "answer": 0,
+    "explanation": "「さすが」的近义表达是「やはり」，两者意思最接近。"
+  },
+  {
+    "id": 1260,
+    "cat": "paraphrase",
+    "sentence": "そもそもこの計画には無理があった。",
+    "target": "そもそも",
+    "options": [
+      "元々",
+      "結局",
+      "突然",
+      "たまに"
+    ],
+    "answer": 0,
+    "explanation": "「そもそも」的近义表达是「元々」，两者意思最接近。"
+  },
+  {
+    "id": 1261,
+    "cat": "paraphrase",
+    "sentence": "いずれ結果が出るだろう。",
+    "target": "いずれ",
+    "options": [
+      "そのうち",
+      "すぐに",
+      "決して",
+      "既に"
+    ],
+    "answer": 0,
+    "explanation": "「いずれ」的近义表达是「そのうち」，两者意思最接近。"
+  },
+  {
+    "id": 1262,
+    "cat": "paraphrase",
+    "sentence": "なるべく早く返事をください。",
+    "target": "なるべく",
+    "options": [
+      "できるだけ",
+      "必ず",
+      "たまに",
+      "少し"
+    ],
+    "answer": 0,
+    "explanation": "「なるべく」的近义表达是「できるだけ」，两者意思最接近。"
+  },
+  {
+    "id": 1263,
+    "cat": "paraphrase",
+    "sentence": "ぜひ一度お越しください。",
+    "target": "ぜひ",
+    "options": [
+      "是非とも",
+      "たまに",
+      "偶然",
+      "もしも"
+    ],
+    "answer": 0,
+    "explanation": "「ぜひ」的近义表达是「是非とも」，两者意思最接近。"
+  },
+  {
+    "id": 1264,
+    "cat": "paraphrase",
+    "sentence": "おそらく明日は晴れるだろう。",
+    "target": "おそらく",
+    "options": [
+      "たぶん",
+      "必ず",
+      "決して",
+      "まさか"
+    ],
+    "answer": 0,
+    "explanation": "「おそらく」的近义表达是「たぶん」，两者意思最接近。"
+  },
+  {
+    "id": 1265,
+    "cat": "paraphrase",
+    "sentence": "まるで夢のような出来事だった。",
+    "target": "まるで",
+    "options": [
+      "まさに",
+      "少し",
+      "やや",
+      "かなり"
+    ],
+    "answer": 0,
+    "explanation": "「まるで」的近义表达是「まさに」，两者意思最接近。"
+  },
+  {
+    "id": 1266,
+    "cat": "paraphrase",
+    "sentence": "彼はやたらに文句を言う。",
+    "target": "やたらに",
+    "options": [
+      "むやみに",
+      "少しだけ",
+      "たまに",
+      "静かに"
+    ],
+    "answer": 0,
+    "explanation": "「やたらに」的近义表达是「むやみに」，两者意思最接近。"
+  },
+  {
+    "id": 1267,
+    "cat": "paraphrase",
+    "sentence": "競争がますます激しくなっている。",
+    "target": "ますます",
+    "options": [
+      "いっそう",
+      "少し",
+      "やや",
+      "まあまあ"
+    ],
+    "answer": 0,
+    "explanation": "「ますます」的近义表达是「いっそう」，两者意思最接近。"
+  },
+  {
+    "id": 1268,
+    "cat": "paraphrase",
+    "sentence": "結局、彼の言った通りだった。",
+    "target": "結局",
+    "options": [
+      "つまり",
+      "突然",
+      "偶然",
+      "最初に"
+    ],
+    "answer": 0,
+    "explanation": "「結局」的近义表达是「つまり」，两者意思最接近。"
+  },
+  {
+    "id": 1269,
+    "cat": "paraphrase",
+    "sentence": "万が一火事になったら、すぐに逃げてください。",
+    "target": "万が一",
+    "options": [
+      "もしも",
+      "必ず",
+      "きっと",
+      "いつも"
+    ],
+    "answer": 0,
+    "explanation": "「万が一」的近义表达是「もしも」，两者意思最接近。"
+  },
+  {
+    "id": 1270,
+    "cat": "paraphrase",
+    "sentence": "彼はめったに遅刻しない。",
+    "target": "めったに",
+    "options": [
+      "ほとんど～ない",
+      "いつも",
+      "たびたび",
+      "必ず"
+    ],
+    "answer": 0,
+    "explanation": "「めったに」的近义表达是「ほとんど～ない」，两者意思最接近。"
+  },
+  {
+    "id": 1271,
+    "cat": "paraphrase",
+    "sentence": "彼女はしきりに時計を見ていた。",
+    "target": "しきりに",
+    "options": [
+      "何度も",
+      "たまに",
+      "ゆっくり",
+      "静かに"
+    ],
+    "answer": 0,
+    "explanation": "「しきりに」的近义表达是「何度も」，两者意思最接近。"
+  },
+  {
+    "id": 1272,
+    "cat": "paraphrase",
+    "sentence": "せいぜい三日で終わるだろう。",
+    "target": "せいぜい",
+    "options": [
+      "多くても",
+      "少なくとも",
+      "ちょうど",
+      "必ず"
+    ],
+    "answer": 0,
+    "explanation": "「せいぜい」的近义表达是「多くても」，两者意思最接近。"
+  },
+  {
+    "id": 1273,
+    "cat": "paraphrase",
+    "sentence": "少なくとも百人は来るだろう。",
+    "target": "少なくとも",
+    "options": [
+      "最低でも",
+      "多くても",
+      "ちょうど",
+      "おそらく"
+    ],
+    "answer": 0,
+    "explanation": "「少なくとも」的近义表达是「最低でも」，两者意思最接近。"
+  },
+  {
+    "id": 1274,
+    "cat": "paraphrase",
+    "sentence": "むやみに触らないでください。",
+    "target": "むやみに",
+    "options": [
+      "無闇に",
+      "静かに",
+      "ゆっくり",
+      "丁寧に"
+    ],
+    "answer": 0,
+    "explanation": "「むやみに」的近义表达是「無闇に」，两者意思最接近。"
+  },
+  {
+    "id": 1275,
+    "cat": "paraphrase",
+    "sentence": "既に手続きは済んでいます。",
+    "target": "既に",
+    "options": [
+      "もう",
+      "まだ",
+      "これから",
+      "やがて"
+    ],
+    "answer": 0,
+    "explanation": "「既に」的近义表达是「もう」，两者意思最接近。"
+  },
+  {
+    "id": 1276,
+    "cat": "paraphrase",
+    "sentence": "割と簡単な問題だった。",
+    "target": "割と",
+    "options": [
+      "比較的",
+      "非常に",
+      "全く",
+      "少しも"
+    ],
+    "answer": 0,
+    "explanation": "「割と」的近义表达是「比較的」，两者意思最接近。"
+  },
+  {
+    "id": 1277,
+    "cat": "paraphrase",
+    "sentence": "一応確認しておいた。",
+    "target": "一応",
+    "options": [
+      "念のため",
+      "必ず",
+      "全く",
+      "偶然"
+    ],
+    "answer": 0,
+    "explanation": "「一応」的近义表达是「念のため」，两者意思最接近。"
+  },
+  {
+    "id": 1278,
+    "cat": "paraphrase",
+    "sentence": "彼はとっくに帰ってしまった。",
+    "target": "とっくに",
+    "options": [
+      "とうに",
+      "まだ",
+      "やっと",
+      "ちょうど"
+    ],
+    "answer": 0,
+    "explanation": "「とっくに」的近义表达是「とうに」，两者意思最接近。"
+  },
+  {
+    "id": 1279,
+    "cat": "paraphrase",
+    "sentence": "到底信じられない話だ。",
+    "target": "到底",
+    "options": [
+      "とても",
+      "少し",
+      "かなり",
+      "まあまあ"
+    ],
+    "answer": 0,
+    "explanation": "「到底」的近义表达是「とても」，两者意思最接近。"
+  },
+  {
+    "id": 1280,
+    "cat": "paraphrase",
+    "sentence": "いよいよ試合が始まる。",
+    "target": "いよいよ",
+    "options": [
+      "ついに",
+      "たまに",
+      "偶然",
+      "少し"
+    ],
+    "answer": 0,
+    "explanation": "「いよいよ」的近义表达是「ついに」，两者意思最接近。"
+  },
+  {
+    "id": 1281,
+    "cat": "paraphrase",
+    "sentence": "しかも彼は成績もいい。",
+    "target": "しかも",
+    "options": [
+      "その上",
+      "しかし",
+      "つまり",
+      "あるいは"
+    ],
+    "answer": 0,
+    "explanation": "「しかも」的近义表达是「その上」，两者意思最接近。"
+  },
+  {
+    "id": 1282,
+    "cat": "paraphrase",
+    "sentence": "たとえ失敗しても後悔しない。",
+    "target": "たとえ",
+    "options": [
+      "仮に",
+      "必ず",
+      "偶然",
+      "突然"
+    ],
+    "answer": 0,
+    "explanation": "「たとえ」的近义表达是「仮に」，两者意思最接近。"
+  },
+  {
+    "id": 1283,
+    "cat": "paraphrase",
+    "sentence": "一旦決めたことは変えない。",
+    "target": "一旦",
+    "options": [
+      "いったん",
+      "すぐに",
+      "何度も",
+      "偶然"
+    ],
+    "answer": 0,
+    "explanation": "「一旦」的近义表达是「いったん」，两者意思最接近。"
+  },
+  {
+    "id": 1284,
+    "cat": "paraphrase",
+    "sentence": "とにかく急いでください。",
+    "target": "とにかく",
+    "options": [
+      "ともかく",
+      "ゆっくり",
+      "少し",
+      "偶然"
+    ],
+    "answer": 0,
+    "explanation": "「とにかく」的近义表达是「ともかく」，两者意思最接近。"
+  },
+  {
+    "id": 1285,
+    "cat": "paraphrase",
+    "sentence": "多少の失敗は仕方がない。",
+    "target": "多少",
+    "options": [
+      "少しの",
+      "たくさんの",
+      "全くの",
+      "大きな"
+    ],
+    "answer": 0,
+    "explanation": "「多少」的近义表达是「少しの」，两者意思最接近。"
+  },
+  {
+    "id": 1286,
+    "cat": "paraphrase",
+    "sentence": "さっそく調べてみましょう。",
+    "target": "さっそく",
+    "options": [
+      "早速",
+      "ゆっくり",
+      "後で",
+      "たまに"
+    ],
+    "answer": 0,
+    "explanation": "「さっそく」的近义表达是「早速」，两者意思最接近。"
+  },
+  {
+    "id": 1287,
+    "cat": "paraphrase",
+    "sentence": "案の定、彼は来なかった。",
+    "target": "案の定",
+    "options": [
+      "思った通り",
+      "意外にも",
+      "偶然",
+      "突然"
+    ],
+    "answer": 0,
+    "explanation": "「案の定」的近义表达是「思った通り」，两者意思最接近。"
+  },
+  {
+    "id": 1288,
+    "cat": "paraphrase",
+    "sentence": "単に知らなかっただけだ。",
+    "target": "単に",
+    "options": [
+      "ただ",
+      "非常に",
+      "全く",
+      "特に"
+    ],
+    "answer": 0,
+    "explanation": "「単に」的近义表达是「ただ」，两者意思最接近。"
+  },
+  {
+    "id": 1289,
+    "cat": "paraphrase",
+    "sentence": "滅多にない機会だから参加しよう。",
+    "target": "滅多にない",
+    "options": [
+      "珍しい",
+      "よくある",
+      "普通の",
+      "簡単な"
+    ],
+    "answer": 0,
+    "explanation": "「滅多にない」的近义表达是「珍しい」，两者意思最接近。"
+  },
+  {
+    "id": 1290,
+    "cat": "paraphrase",
+    "sentence": "彼はほぼ毎日ジョギングをしている。",
+    "target": "ほぼ",
+    "options": [
+      "ほとんど",
+      "全く",
+      "たまに",
+      "決して"
+    ],
+    "answer": 0,
+    "explanation": "「ほぼ」的近义表达是「ほとんど」，两者意思最接近。"
+  },
+  {
+    "id": 1291,
+    "cat": "paraphrase",
+    "sentence": "その申し出を断ることにした。",
+    "target": "断る",
+    "options": [
+      "拒否する",
+      "受ける",
+      "考える",
+      "伝える"
+    ],
+    "answer": 0,
+    "explanation": "「断る」的近义表达是「拒否する」，两者意思最接近。"
+  },
+  {
+    "id": 1292,
+    "cat": "paraphrase",
+    "sentence": "彼の実力を認めざるを得ない。",
+    "target": "認める",
+    "options": [
+      "承認する",
+      "否定する",
+      "無視する",
+      "疑う"
+    ],
+    "answer": 0,
+    "explanation": "「認める」的近义表达是「承認する」，两者意思最接近。"
+  },
+  {
+    "id": 1293,
+    "cat": "paraphrase",
+    "sentence": "この料理には多くの野菜を含んでいる。",
+    "target": "含む",
+    "options": [
+      "含有する",
+      "除く",
+      "加える",
+      "選ぶ"
+    ],
+    "answer": 0,
+    "explanation": "「含む」的近义表达是「含有する」，两者意思最接近。"
+  },
+  {
+    "id": 1294,
+    "cat": "paraphrase",
+    "sentence": "日本は世界の面積の何パーセントを占めているか。",
+    "target": "占める",
+    "options": [
+      "占有する",
+      "超える",
+      "含む",
+      "減る"
+    ],
+    "answer": 0,
+    "explanation": "「占める」的近义表达是「占有する」，两者意思最接近。"
+  },
+  {
+    "id": 1295,
+    "cat": "paraphrase",
+    "sentence": "会議で自分の考えを述べた。",
+    "target": "述べる",
+    "options": [
+      "言う",
+      "聞く",
+      "書く",
+      "読む"
+    ],
+    "answer": 0,
+    "explanation": "「述べる」的近义表达是「言う」，两者意思最接近。"
+  },
+  {
+    "id": 1296,
+    "cat": "paraphrase",
+    "sentence": "昔の恩師を訪ねた。",
+    "target": "訪ねる",
+    "options": [
+      "訪問する",
+      "見送る",
+      "迎える",
+      "避ける"
+    ],
+    "answer": 0,
+    "explanation": "「訪ねる」的近义表达是「訪問する」，两者意思最接近。"
+  },
+  {
+    "id": 1297,
+    "cat": "paraphrase",
+    "sentence": "犯人は警察から逃げた。",
+    "target": "逃げる",
+    "options": [
+      "逃走する",
+      "隠れる",
+      "戦う",
+      "降参する"
+    ],
+    "answer": 0,
+    "explanation": "「逃げる」的近义表达是「逃走する」，两者意思最接近。"
+  },
+  {
+    "id": 1298,
+    "cat": "paraphrase",
+    "sentence": "同じ失敗を繰り返してはいけない。",
+    "target": "繰り返す",
+    "options": [
+      "反復する",
+      "避ける",
+      "忘れる",
+      "許す"
+    ],
+    "answer": 0,
+    "explanation": "「繰り返す」的近义表达是「反復する」，两者意思最接近。"
+  },
+  {
+    "id": 1299,
+    "cat": "paraphrase",
+    "sentence": "世界記録に挑む選手たち。",
+    "target": "挑む",
+    "options": [
+      "挑戦する",
+      "諦める",
+      "避ける",
+      "見守る"
+    ],
+    "answer": 0,
+    "explanation": "「挑む」的近义表达是「挑戦する」，两者意思最接近。"
+  },
+  {
+    "id": 1300,
+    "cat": "paraphrase",
+    "sentence": "税金を収める義務がある。",
+    "target": "収める",
+    "options": [
+      "納める",
+      "受ける",
+      "返す",
+      "借りる"
+    ],
+    "answer": 0,
+    "explanation": "「収める」的近义表达是「納める」，两者意思最接近。"
+  },
+  {
+    "id": 1301,
+    "cat": "paraphrase",
+    "sentence": "生活習慣を改める必要がある。",
+    "target": "改める",
+    "options": [
+      "直す",
+      "続ける",
+      "始める",
+      "やめる"
+    ],
+    "answer": 0,
+    "explanation": "「改める」的近义表达是「直す」，两者意思最接近。"
+  },
+  {
+    "id": 1302,
+    "cat": "paraphrase",
+    "sentence": "不足分を補うために残業した。",
+    "target": "補う",
+    "options": [
+      "補足する",
+      "減らす",
+      "省く",
+      "捨てる"
+    ],
+    "answer": 0,
+    "explanation": "「補う」的近义表达是「補足する」，两者意思最接近。"
+  },
+  {
+    "id": 1303,
+    "cat": "paraphrase",
+    "sentence": "騒音が勉強を妨げている。",
+    "target": "妨げる",
+    "options": [
+      "邪魔する",
+      "助ける",
+      "促す",
+      "支える"
+    ],
+    "answer": 0,
+    "explanation": "「妨げる」的近义表达是「邪魔する」，两者意思最接近。"
+  },
+  {
+    "id": 1304,
+    "cat": "paraphrase",
+    "sentence": "彼は頼みを拒んだ。",
+    "target": "拒む",
+    "options": [
+      "断る",
+      "受ける",
+      "考える",
+      "伝える"
+    ],
+    "answer": 0,
+    "explanation": "「拒む」的近义表达是「断る」，两者意思最接近。"
+  },
+  {
+    "id": 1305,
+    "cat": "paraphrase",
+    "sentence": "合格を目指して励んでいる。",
+    "target": "励む",
+    "options": [
+      "努力する",
+      "諦める",
+      "休む",
+      "遊ぶ"
+    ],
+    "answer": 0,
+    "explanation": "「励む」的近义表达是「努力する」，两者意思最接近。"
+  },
+  {
+    "id": 1306,
+    "cat": "paraphrase",
+    "sentence": "地震に備えて食料を買った。",
+    "target": "備える",
+    "options": [
+      "準備する",
+      "使う",
+      "捨てる",
+      "忘れる"
+    ],
+    "answer": 0,
+    "explanation": "「備える」的近义表达是「準備する」，两者意思最接近。"
+  },
+  {
+    "id": 1307,
+    "cat": "paraphrase",
+    "sentence": "説明に図を加えるとわかりやすい。",
+    "target": "加える",
+    "options": [
+      "足す",
+      "引く",
+      "消す",
+      "隠す"
+    ],
+    "answer": 0,
+    "explanation": "「加える」的近义表达是「足す」，两者意思最接近。"
+  },
+  {
+    "id": 1308,
+    "cat": "paraphrase",
+    "sentence": "感情を抑えるのが難しい。",
+    "target": "抑える",
+    "options": [
+      "制御する",
+      "表す",
+      "高める",
+      "広げる"
+    ],
+    "answer": 0,
+    "explanation": "「抑える」的近义表达是「制御する」，两者意思最接近。"
+  },
+  {
+    "id": 1309,
+    "cat": "paraphrase",
+    "sentence": "被害者は裁判で不当な扱いを訴えた。",
+    "target": "訴える",
+    "options": [
+      "主張する",
+      "隠す",
+      "忘れる",
+      "許す"
+    ],
+    "answer": 0,
+    "explanation": "「訴える」的近义表达是「主張する」，两者意思最接近。"
+  },
+  {
+    "id": 1310,
+    "cat": "paraphrase",
+    "sentence": "新しい方法を試みたが失敗した。",
+    "target": "試みる",
+    "options": [
+      "トライする",
+      "避ける",
+      "諦める",
+      "続ける"
+    ],
+    "answer": 0,
+    "explanation": "「試みる」的近义表达是「トライする」，两者意思最接近。"
+  },
+  {
+    "id": 1311,
+    "cat": "paraphrase",
+    "sentence": "先生が学生を正しい方向に導いた。",
+    "target": "導く",
+    "options": [
+      "案内する",
+      "追い出す",
+      "放す",
+      "叱る"
+    ],
+    "answer": 0,
+    "explanation": "「導く」的近义表达是「案内する」，两者意思最接近。"
+  },
+  {
+    "id": 1312,
+    "cat": "paraphrase",
+    "sentence": "健康のためにお酒を控えている。",
+    "target": "控える",
+    "options": [
+      "やめる",
+      "増やす",
+      "始める",
+      "楽しむ"
+    ],
+    "answer": 0,
+    "explanation": "「控える」的近义表达是「やめる」，两者意思最接近。"
+  },
+  {
+    "id": 1313,
+    "cat": "paraphrase",
+    "sentence": "彼は毎日一生懸命稼いでいる。",
+    "target": "稼ぐ",
+    "options": [
+      "儲ける",
+      "使う",
+      "借りる",
+      "貯める"
+    ],
+    "answer": 0,
+    "explanation": "「稼ぐ」的近义表达是「儲ける」，两者意思最接近。"
+  },
+  {
+    "id": 1314,
+    "cat": "paraphrase",
+    "sentence": "将来のためにお金を蓄えている。",
+    "target": "蓄える",
+    "options": [
+      "貯める",
+      "使う",
+      "借りる",
+      "配る"
+    ],
+    "answer": 0,
+    "explanation": "「蓄える」的近义表达是「貯める」，两者意思最接近。"
+  },
+  {
+    "id": 1315,
+    "cat": "paraphrase",
+    "sentence": "ボランティアを募っている。",
+    "target": "募る",
+    "options": [
+      "集める",
+      "断る",
+      "減らす",
+      "送る"
+    ],
+    "answer": 0,
+    "explanation": "「募る」的近义表达是「集める」，两者意思最接近。"
+  },
+  {
+    "id": 1316,
+    "cat": "paraphrase",
+    "sentence": "強盗に財布を奪われた。",
+    "target": "奪う",
+    "options": [
+      "取り上げる",
+      "渡す",
+      "拾う",
+      "見つける"
+    ],
+    "answer": 0,
+    "explanation": "「奪う」的近义表达是「取り上げる」，两者意思最接近。"
+  },
+  {
+    "id": 1317,
+    "cat": "paraphrase",
+    "sentence": "子供たちにチャンスを与えるべきだ。",
+    "target": "与える",
+    "options": [
+      "あげる",
+      "もらう",
+      "奪う",
+      "隠す"
+    ],
+    "answer": 0,
+    "explanation": "「与える」的近义表达是「あげる」，两者意思最接近。"
+  },
+  {
+    "id": 1318,
+    "cat": "paraphrase",
+    "sentence": "問題の本質を捉えることが大切だ。",
+    "target": "捉える",
+    "options": [
+      "つかむ",
+      "逃す",
+      "避ける",
+      "忘れる"
+    ],
+    "answer": 0,
+    "explanation": "「捉える」的近义表达是「つかむ」，两者意思最接近。"
+  },
+  {
+    "id": 1319,
+    "cat": "paraphrase",
+    "sentence": "原因を探るために調査を行った。",
+    "target": "探る",
+    "options": [
+      "調べる",
+      "隠す",
+      "避ける",
+      "決める"
+    ],
+    "answer": 0,
+    "explanation": "「探る」的近义表达是「調べる」，两者意思最接近。"
+  },
+  {
+    "id": 1320,
+    "cat": "paraphrase",
+    "sentence": "被災地に支援を施した。",
+    "target": "施す",
+    "options": [
+      "行う",
+      "受ける",
+      "断る",
+      "避ける"
+    ],
+    "answer": 0,
+    "explanation": "「施す」的近义表达是「行う」，两者意思最接近。"
+  },
+  {
+    "id": 1321,
+    "cat": "paraphrase",
+    "sentence": "危険を免れることができた。",
+    "target": "免れる",
+    "options": [
+      "逃れる",
+      "受ける",
+      "招く",
+      "増やす"
+    ],
+    "answer": 0,
+    "explanation": "「免れる」的近义表达是「逃れる」，两者意思最接近。"
+  },
+  {
+    "id": 1322,
+    "cat": "paraphrase",
+    "sentence": "先輩を敬う気持ちが大切だ。",
+    "target": "敬う",
+    "options": [
+      "尊敬する",
+      "嫌う",
+      "無視する",
+      "叱る"
+    ],
+    "answer": 0,
+    "explanation": "「敬う」的近义表达是「尊敬する」，两者意思最接近。"
+  },
+  {
+    "id": 1323,
+    "cat": "paraphrase",
+    "sentence": "彼女は友人の死を嘆いた。",
+    "target": "嘆く",
+    "options": [
+      "悲しむ",
+      "喜ぶ",
+      "笑う",
+      "怒る"
+    ],
+    "answer": 0,
+    "explanation": "「嘆く」的近义表达是「悲しむ」，两者意思最接近。"
+  },
+  {
+    "id": 1324,
+    "cat": "paraphrase",
+    "sentence": "この仕事を任せてください。",
+    "target": "任せる",
+    "options": [
+      "委ねる",
+      "断る",
+      "奪う",
+      "隠す"
+    ],
+    "answer": 0,
+    "explanation": "「任せる」的近义表达是「委ねる」，两者意思最接近。"
+  },
+  {
+    "id": 1325,
+    "cat": "paraphrase",
+    "sentence": "彼は約束を果たした。",
+    "target": "果たす",
+    "options": [
+      "達成する",
+      "破る",
+      "忘れる",
+      "延ばす"
+    ],
+    "answer": 0,
+    "explanation": "「果たす」的近义表达是「達成する」，两者意思最接近。"
+  },
+  {
+    "id": 1326,
+    "cat": "paraphrase",
+    "sentence": "新しい商品を発売に先立ち宣伝した。",
+    "target": "先立つ",
+    "options": [
+      "先行する",
+      "遅れる",
+      "続く",
+      "重なる"
+    ],
+    "answer": 0,
+    "explanation": "「先立つ」的近义表达是「先行する」，两者意思最接近。"
+  },
+  {
+    "id": 1327,
+    "cat": "paraphrase",
+    "sentence": "彼の意見に基づいて計画を立てた。",
+    "target": "基づく",
+    "options": [
+      "もとにする",
+      "反する",
+      "無視する",
+      "逆らう"
+    ],
+    "answer": 0,
+    "explanation": "「基づく」的近义表达是「もとにする」，两者意思最接近。"
+  },
+  {
+    "id": 1328,
+    "cat": "paraphrase",
+    "sentence": "交通事故を目撃した。",
+    "target": "目撃する",
+    "options": [
+      "目にする",
+      "聞く",
+      "想像する",
+      "忘れる"
+    ],
+    "answer": 0,
+    "explanation": "「目撃する」的近义表达是「目にする」，两者意思最接近。"
+  },
+  {
+    "id": 1329,
+    "cat": "paraphrase",
+    "sentence": "新しいアイデアを思いついた。",
+    "target": "思いつく",
+    "options": [
+      "ひらめく",
+      "忘れる",
+      "諦める",
+      "迷う"
+    ],
+    "answer": 0,
+    "explanation": "「思いつく」的近义表达是「ひらめく」，两者意思最接近。"
+  },
+  {
+    "id": 1330,
+    "cat": "paraphrase",
+    "sentence": "約束の時間に遅れてしまった。",
+    "target": "遅れる",
+    "options": [
+      "遅刻する",
+      "早まる",
+      "間に合う",
+      "急ぐ"
+    ],
+    "answer": 0,
+    "explanation": "「遅れる」的近义表达是「遅刻する」，两者意思最接近。"
+  },
+  {
+    "id": 1331,
+    "cat": "paraphrase",
+    "sentence": "彼は会社を辞めることを決意した。",
+    "target": "決意する",
+    "options": [
+      "決心する",
+      "迷う",
+      "悩む",
+      "躊躇する"
+    ],
+    "answer": 0,
+    "explanation": "「決意する」的近义表达是「決心する」，两者意思最接近。"
+  },
+  {
+    "id": 1332,
+    "cat": "paraphrase",
+    "sentence": "新しい法律が施行された。",
+    "target": "施行する",
+    "options": [
+      "実施する",
+      "廃止する",
+      "延期する",
+      "検討する"
+    ],
+    "answer": 0,
+    "explanation": "「施行する」的近义表达是「実施する」，两者意思最接近。"
+  },
+  {
+    "id": 1333,
+    "cat": "paraphrase",
+    "sentence": "不良品を取り除いた。",
+    "target": "取り除く",
+    "options": [
+      "除去する",
+      "加える",
+      "混ぜる",
+      "増やす"
+    ],
+    "answer": 0,
+    "explanation": "「取り除く」的近义表达是「除去する」，两者意思最接近。"
+  },
+  {
+    "id": 1334,
+    "cat": "paraphrase",
+    "sentence": "この薬は痛みを和らげる効果がある。",
+    "target": "和らげる",
+    "options": [
+      "軽減する",
+      "強める",
+      "広げる",
+      "増やす"
+    ],
+    "answer": 0,
+    "explanation": "「和らげる」的近义表达是「軽減する」，两者意思最接近。"
+  },
+  {
+    "id": 1335,
+    "cat": "paraphrase",
+    "sentence": "計画を練ってから実行に移した。",
+    "target": "練る",
+    "options": [
+      "考える",
+      "捨てる",
+      "避ける",
+      "急ぐ"
+    ],
+    "answer": 0,
+    "explanation": "「練る」的近义表达是「考える」，两者意思最接近。"
+  },
+  {
+    "id": 1336,
+    "cat": "paraphrase",
+    "sentence": "彼女は新人を育てるのが上手だ。",
+    "target": "育てる",
+    "options": [
+      "育成する",
+      "叱る",
+      "雇う",
+      "解雇する"
+    ],
+    "answer": 0,
+    "explanation": "「育てる」的近义表达是「育成する」，两者意思最接近。"
+  },
+  {
+    "id": 1337,
+    "cat": "paraphrase",
+    "sentence": "この報告書には重要な事実が記されている。",
+    "target": "記す",
+    "options": [
+      "書く",
+      "消す",
+      "隠す",
+      "読む"
+    ],
+    "answer": 0,
+    "explanation": "「記す」的近义表达是「書く」，两者意思最接近。"
+  },
+  {
+    "id": 1338,
+    "cat": "paraphrase",
+    "sentence": "長年の疑問が解けた。",
+    "target": "解ける",
+    "options": [
+      "解決する",
+      "深まる",
+      "増える",
+      "続く"
+    ],
+    "answer": 0,
+    "explanation": "「解ける」的近义表达是「解決する」，两者意思最接近。"
+  },
+  {
+    "id": 1339,
+    "cat": "paraphrase",
+    "sentence": "大切な書類を紛失してしまった。",
+    "target": "紛失する",
+    "options": [
+      "なくす",
+      "見つける",
+      "隠す",
+      "返す"
+    ],
+    "answer": 0,
+    "explanation": "「紛失する」的近义表达是「なくす」，两者意思最接近。"
+  },
+  {
+    "id": 1340,
+    "cat": "paraphrase",
+    "sentence": "部下の仕事ぶりを褒めた。",
+    "target": "褒める",
+    "options": [
+      "称賛する",
+      "叱る",
+      "無視する",
+      "批判する"
+    ],
+    "answer": 0,
+    "explanation": "「褒める」的近义表达是「称賛する」，两者意思最接近。"
+  },
+  {
+    "id": 1341,
+    "cat": "paraphrase",
+    "sentence": "交渉が難航して困っている。",
+    "target": "難航する",
+    "options": [
+      "行き詰まる",
+      "順調に進む",
+      "終了する",
+      "始まる"
+    ],
+    "answer": 0,
+    "explanation": "「難航する」的近义表达是「行き詰まる」，两者意思最接近。"
+  },
+  {
+    "id": 1342,
+    "cat": "paraphrase",
+    "sentence": "新しい制度を設ける予定だ。",
+    "target": "設ける",
+    "options": [
+      "作る",
+      "壊す",
+      "廃止する",
+      "減らす"
+    ],
+    "answer": 0,
+    "explanation": "「設ける」的近义表达是「作る」，两者意思最接近。"
+  },
+  {
+    "id": 1343,
+    "cat": "paraphrase",
+    "sentence": "上司に進捗を報告した。",
+    "target": "報告する",
+    "options": [
+      "知らせる",
+      "隠す",
+      "聞く",
+      "忘れる"
+    ],
+    "answer": 0,
+    "explanation": "「報告する」的近义表达是「知らせる」，两者意思最接近。"
+  },
+  {
+    "id": 1344,
+    "cat": "paraphrase",
+    "sentence": "彼の態度に呆れてしまった。",
+    "target": "呆れる",
+    "options": [
+      "あきれる",
+      "感心する",
+      "喜ぶ",
+      "安心する"
+    ],
+    "answer": 0,
+    "explanation": "「呆れる」的近义表达是「あきれる」，两者意思最接近。"
+  },
+  {
+    "id": 1345,
+    "cat": "paraphrase",
+    "sentence": "事実を隠蔽することは許されない。",
+    "target": "隠蔽する",
+    "options": [
+      "隠す",
+      "公表する",
+      "伝える",
+      "調べる"
+    ],
+    "answer": 0,
+    "explanation": "「隠蔽する」的近义表达是「隠す」，两者意思最接近。"
+  },
+  {
+    "id": 1346,
+    "cat": "paraphrase",
+    "sentence": "資源を浪費してはいけない。",
+    "target": "浪費する",
+    "options": [
+      "無駄遣いする",
+      "節約する",
+      "蓄える",
+      "活用する"
+    ],
+    "answer": 0,
+    "explanation": "「浪費する」的近义表达是「無駄遣いする」，两者意思最接近。"
+  },
+  {
+    "id": 1347,
+    "cat": "paraphrase",
+    "sentence": "政府は新たな政策を打ち出した。",
+    "target": "打ち出す",
+    "options": [
+      "提示する",
+      "取り消す",
+      "隠す",
+      "延期する"
+    ],
+    "answer": 0,
+    "explanation": "「打ち出す」的近义表达是「提示する」，两者意思最接近。"
+  },
+  {
+    "id": 1348,
+    "cat": "paraphrase",
+    "sentence": "困難を乗り越えて成功した。",
+    "target": "乗り越える",
+    "options": [
+      "克服する",
+      "諦める",
+      "避ける",
+      "逃げる"
+    ],
+    "answer": 0,
+    "explanation": "「乗り越える」的近义表达是「克服する」，两者意思最接近。"
+  },
+  {
+    "id": 1349,
+    "cat": "paraphrase",
+    "sentence": "彼の行動は周囲を驚かせた。",
+    "target": "驚かせる",
+    "options": [
+      "びっくりさせる",
+      "安心させる",
+      "喜ばせる",
+      "悲しませる"
+    ],
+    "answer": 0,
+    "explanation": "「驚かせる」的近义表达是「びっくりさせる」，两者意思最接近。"
+  },
+  {
+    "id": 1350,
+    "cat": "paraphrase",
+    "sentence": "環境問題が人々の生活に影響を及ぼしている。",
+    "target": "影響",
+    "options": [
+      "作用",
+      "原因",
+      "結果",
+      "感想"
+    ],
+    "answer": 0,
+    "explanation": "「影響」的近义表达是「作用」，两者意思最接近。"
+  },
+  {
+    "id": 1351,
+    "cat": "paraphrase",
+    "sentence": "事故の原因を調べている。",
+    "target": "原因",
+    "options": [
+      "理由",
+      "結果",
+      "影響",
+      "対策"
+    ],
+    "answer": 0,
+    "explanation": "「原因」的近义表达是「理由」，两者意思最接近。"
+  },
+  {
+    "id": 1352,
+    "cat": "paraphrase",
+    "sentence": "長年の努力がようやく結果を出した。",
+    "target": "結果",
+    "options": [
+      "成果",
+      "原因",
+      "過程",
+      "計画"
+    ],
+    "answer": 0,
+    "explanation": "「結果」的近义表达是「成果」，两者意思最接近。"
+  },
+  {
+    "id": 1353,
+    "cat": "paraphrase",
+    "sentence": "この研究の目的を説明してください。",
+    "target": "目的",
+    "options": [
+      "狙い",
+      "結果",
+      "方法",
+      "問題"
+    ],
+    "answer": 0,
+    "explanation": "「目的」的近义表达是「狙い」，两者意思最接近。"
+  },
+  {
+    "id": 1354,
+    "cat": "paraphrase",
+    "sentence": "参加するための条件を確認した。",
+    "target": "条件",
+    "options": [
+      "要件",
+      "結果",
+      "目的",
+      "方法"
+    ],
+    "answer": 0,
+    "explanation": "「条件」的近义表达是「要件」，两者意思最接近。"
+  },
+  {
+    "id": 1355,
+    "cat": "paraphrase",
+    "sentence": "これは良い機会だから逃さないでほしい。",
+    "target": "機会",
+    "options": [
+      "チャンス",
+      "問題",
+      "結果",
+      "方法"
+    ],
+    "answer": 0,
+    "explanation": "「機会」的近义表达是「チャンス」，两者意思最接近。"
+  },
+  {
+    "id": 1356,
+    "cat": "paraphrase",
+    "sentence": "この店にはたくさんの種類がある。",
+    "target": "種類",
+    "options": [
+      "タイプ",
+      "数量",
+      "品質",
+      "価格"
+    ],
+    "answer": 0,
+    "explanation": "「種類」的近义表达是「タイプ」，两者意思最接近。"
+  },
+  {
+    "id": 1357,
+    "cat": "paraphrase",
+    "sentence": "地震への対策を講じるべきだ。",
+    "target": "対策",
+    "options": [
+      "方策",
+      "原因",
+      "結果",
+      "問題"
+    ],
+    "answer": 0,
+    "explanation": "「対策」的近义表达是「方策」，两者意思最接近。"
+  },
+  {
+    "id": 1358,
+    "cat": "paraphrase",
+    "sentence": "会社の方針が変わった。",
+    "target": "方針",
+    "options": [
+      "方向",
+      "結果",
+      "原因",
+      "問題"
+    ],
+    "answer": 0,
+    "explanation": "「方針」的近义表达是「方向」，两者意思最接近。"
+  },
+  {
+    "id": 1359,
+    "cat": "paraphrase",
+    "sentence": "彼の仕事に対する評価は高い。",
+    "target": "評価",
+    "options": [
+      "判断",
+      "批判",
+      "無視",
+      "拒否"
+    ],
+    "answer": 0,
+    "explanation": "「評価」的近义表达是「判断」，两者意思最接近。"
+  },
+  {
+    "id": 1360,
+    "cat": "paraphrase",
+    "sentence": "彼女の第一印象はとても良かった。",
+    "target": "印象",
+    "options": [
+      "イメージ",
+      "記憶",
+      "感情",
+      "態度"
+    ],
+    "answer": 0,
+    "explanation": "「印象」的近义表达是「イメージ」，两者意思最接近。"
+  },
+  {
+    "id": 1361,
+    "cat": "paraphrase",
+    "sentence": "ご協力に感謝いたします。",
+    "target": "感謝",
+    "options": [
+      "お礼",
+      "反省",
+      "謝罪",
+      "挨拶"
+    ],
+    "answer": 0,
+    "explanation": "「感謝」的近义表达是「お礼」，两者意思最接近。"
+  },
+  {
+    "id": 1362,
+    "cat": "paraphrase",
+    "sentence": "これは私の責任です。",
+    "target": "責任",
+    "options": [
+      "義務",
+      "権利",
+      "自由",
+      "希望"
+    ],
+    "answer": 0,
+    "explanation": "「責任」的近义表达是「義務」，两者意思最接近。"
+  },
+  {
+    "id": 1363,
+    "cat": "paraphrase",
+    "sentence": "彼の努力は皆が認めている。",
+    "target": "努力",
+    "options": [
+      "頑張り",
+      "怠け",
+      "失敗",
+      "運"
+    ],
+    "answer": 0,
+    "explanation": "「努力」的近义表达是「頑張り」，两者意思最接近。"
+  },
+  {
+    "id": 1364,
+    "cat": "paraphrase",
+    "sentence": "プロジェクトの成功を祝った。",
+    "target": "成功",
+    "options": [
+      "達成",
+      "失敗",
+      "中止",
+      "延期"
+    ],
+    "answer": 0,
+    "explanation": "「成功」的近义表达是「達成」，两者意思最接近。"
+  },
+  {
+    "id": 1365,
+    "cat": "paraphrase",
+    "sentence": "事業の失敗から多くを学んだ。",
+    "target": "失敗",
+    "options": [
+      "不成功",
+      "成功",
+      "達成",
+      "完成"
+    ],
+    "answer": 0,
+    "explanation": "「失敗」的近义表达是「不成功」，两者意思最接近。"
+  },
+  {
+    "id": 1366,
+    "cat": "paraphrase",
+    "sentence": "企業間の競争が激化している。",
+    "target": "競争",
+    "options": [
+      "競い合い",
+      "協力",
+      "和解",
+      "交流"
+    ],
+    "answer": 0,
+    "explanation": "「競争」的近义表达是「競い合い」，两者意思最接近。"
+  },
+  {
+    "id": 1367,
+    "cat": "paraphrase",
+    "sentence": "部門間の協力が不可欠だ。",
+    "target": "協力",
+    "options": [
+      "連携",
+      "競争",
+      "対立",
+      "分離"
+    ],
+    "answer": 0,
+    "explanation": "「協力」的近义表达是「連携」，两者意思最接近。"
+  },
+  {
+    "id": 1368,
+    "cat": "paraphrase",
+    "sentence": "政府の政策に対する批判が高まっている。",
+    "target": "批判",
+    "options": [
+      "非難",
+      "賞賛",
+      "支持",
+      "無関心"
+    ],
+    "answer": 0,
+    "explanation": "「批判」的近义表达是「非難」，两者意思最接近。"
+  },
+  {
+    "id": 1369,
+    "cat": "paraphrase",
+    "sentence": "新しい提案を検討している。",
+    "target": "提案",
+    "options": [
+      "申し出",
+      "拒否",
+      "反対",
+      "撤回"
+    ],
+    "answer": 0,
+    "explanation": "「提案」的近义表达是「申し出」，两者意思最接近。"
+  },
+  {
+    "id": 1370,
+    "cat": "paraphrase",
+    "sentence": "経済の見通しは明るい。",
+    "target": "見通し",
+    "options": [
+      "予測",
+      "結果",
+      "過去",
+      "事実"
+    ],
+    "answer": 0,
+    "explanation": "「見通し」的近义表达是「予測」，两者意思最接近。"
+  },
+  {
+    "id": 1371,
+    "cat": "paraphrase",
+    "sentence": "この仕組みを理解してください。",
+    "target": "仕組み",
+    "options": [
+      "システム",
+      "結果",
+      "原因",
+      "外見"
+    ],
+    "answer": 0,
+    "explanation": "「仕組み」的近义表达是「システム」，两者意思最接近。"
+  },
+  {
+    "id": 1372,
+    "cat": "paraphrase",
+    "sentence": "入学の手続きを済ませた。",
+    "target": "手続き",
+    "options": [
+      "プロセス",
+      "結果",
+      "原因",
+      "目的"
+    ],
+    "answer": 0,
+    "explanation": "「手続き」的近义表达是「プロセス」，两者意思最接近。"
+  },
+  {
+    "id": 1373,
+    "cat": "paraphrase",
+    "sentence": "問題の実態を把握する必要がある。",
+    "target": "実態",
+    "options": [
+      "実情",
+      "理想",
+      "外見",
+      "噂"
+    ],
+    "answer": 0,
+    "explanation": "「実態」的近义表达是「実情」，两者意思最接近。"
+  },
+  {
+    "id": 1374,
+    "cat": "paraphrase",
+    "sentence": "この製品の特徴を説明します。",
+    "target": "特徴",
+    "options": [
+      "特色",
+      "欠点",
+      "問題",
+      "価格"
+    ],
+    "answer": 0,
+    "explanation": "「特徴」的近义表达是「特色」，两者意思最接近。"
+  },
+  {
+    "id": 1375,
+    "cat": "paraphrase",
+    "sentence": "リーダーとしての役割を果たした。",
+    "target": "役割",
+    "options": [
+      "役目",
+      "権利",
+      "利益",
+      "趣味"
+    ],
+    "answer": 0,
+    "explanation": "「役割」的近义表达是「役目」，两者意思最接近。"
+  },
+  {
+    "id": 1376,
+    "cat": "paraphrase",
+    "sentence": "次の段階に進む準備ができた。",
+    "target": "段階",
+    "options": [
+      "ステップ",
+      "結果",
+      "目標",
+      "問題"
+    ],
+    "answer": 0,
+    "explanation": "「段階」的近义表达是「ステップ」，两者意思最接近。"
+  },
+  {
+    "id": 1377,
+    "cat": "paraphrase",
+    "sentence": "この地域の人口は減少傾向にある。",
+    "target": "傾向",
+    "options": [
+      "トレンド",
+      "結果",
+      "原因",
+      "事実"
+    ],
+    "answer": 0,
+    "explanation": "「傾向」的近义表达是「トレンド」，两者意思最接近。"
+  },
+  {
+    "id": 1378,
+    "cat": "paraphrase",
+    "sentence": "新しい事業の利益が出始めた。",
+    "target": "利益",
+    "options": [
+      "儲け",
+      "損失",
+      "費用",
+      "借金"
+    ],
+    "answer": 0,
+    "explanation": "「利益」的近义表达是「儲け」，两者意思最接近。"
+  },
+  {
+    "id": 1379,
+    "cat": "paraphrase",
+    "sentence": "この件について意見を聞かせてください。",
+    "target": "意見",
+    "options": [
+      "考え",
+      "事実",
+      "命令",
+      "報告"
+    ],
+    "answer": 0,
+    "explanation": "「意見」的近义表达是「考え」，两者意思最接近。"
+  },
+  {
+    "id": 1380,
+    "cat": "paraphrase",
+    "sentence": "環境保護の重要性を訴えた。",
+    "target": "重要性",
+    "options": [
+      "大切さ",
+      "簡単さ",
+      "便利さ",
+      "面白さ"
+    ],
+    "answer": 0,
+    "explanation": "「重要性」的近义表达是「大切さ」，两者意思最接近。"
+  },
+  {
+    "id": 1381,
+    "cat": "paraphrase",
+    "sentence": "この文書の内容を確認してください。",
+    "target": "内容",
+    "options": [
+      "中身",
+      "表紙",
+      "題名",
+      "著者"
+    ],
+    "answer": 0,
+    "explanation": "「内容」的近义表达是「中身」，两者意思最接近。"
+  },
+  {
+    "id": 1382,
+    "cat": "paraphrase",
+    "sentence": "問題の解決策を模索している。",
+    "target": "解決策",
+    "options": [
+      "解決方法",
+      "問題点",
+      "原因",
+      "結果"
+    ],
+    "answer": 0,
+    "explanation": "「解決策」的近义表达是「解決方法」，两者意思最接近。"
+  },
+  {
+    "id": 1383,
+    "cat": "paraphrase",
+    "sentence": "経験豊富な人材を求めている。",
+    "target": "人材",
+    "options": [
+      "人員",
+      "資金",
+      "設備",
+      "場所"
+    ],
+    "answer": 0,
+    "explanation": "「人材」的近义表达是「人員」，两者意思最接近。"
+  },
+  {
+    "id": 1384,
+    "cat": "paraphrase",
+    "sentence": "この技術の進歩は著しい。",
+    "target": "進歩",
+    "options": [
+      "発展",
+      "後退",
+      "停滞",
+      "崩壊"
+    ],
+    "answer": 0,
+    "explanation": "「進歩」的近义表达是「発展」，两者意思最接近。"
+  },
+  {
+    "id": 1385,
+    "cat": "paraphrase",
+    "sentence": "社会の変化に対応する必要がある。",
+    "target": "変化",
+    "options": [
+      "変動",
+      "安定",
+      "維持",
+      "固定"
+    ],
+    "answer": 0,
+    "explanation": "「変化」的近义表达是「変動」，两者意思最接近。"
+  },
+  {
+    "id": 1386,
+    "cat": "paraphrase",
+    "sentence": "会議の日程を調整した。",
+    "target": "日程",
+    "options": [
+      "スケジュール",
+      "場所",
+      "内容",
+      "参加者"
+    ],
+    "answer": 0,
+    "explanation": "「日程」的近义表达是「スケジュール」，两者意思最接近。"
+  },
+  {
+    "id": 1387,
+    "cat": "paraphrase",
+    "sentence": "長期間の不況が続いている。",
+    "target": "不況",
+    "options": [
+      "景気低迷",
+      "好景気",
+      "発展",
+      "成長"
+    ],
+    "answer": 0,
+    "explanation": "「不況」的近义表达是「景気低迷」，两者意思最接近。"
+  },
+  {
+    "id": 1388,
+    "cat": "paraphrase",
+    "sentence": "地域住民との交流を深めたい。",
+    "target": "交流",
+    "options": [
+      "付き合い",
+      "対立",
+      "競争",
+      "分離"
+    ],
+    "answer": 0,
+    "explanation": "「交流」的近义表达是「付き合い」，两者意思最接近。"
+  },
+  {
+    "id": 1389,
+    "cat": "paraphrase",
+    "sentence": "新製品の需要が高まっている。",
+    "target": "需要",
+    "options": [
+      "ニーズ",
+      "供給",
+      "在庫",
+      "生産"
+    ],
+    "answer": 0,
+    "explanation": "「需要」的近义表达是「ニーズ」，两者意思最接近。"
+  },
+  {
+    "id": 1390,
+    "cat": "paraphrase",
+    "sentence": "激しい嵐が町を襲った。",
+    "target": "激しい",
+    "options": [
+      "猛烈な",
+      "穏やかな",
+      "静かな",
+      "弱い"
+    ],
+    "answer": 0,
+    "explanation": "「激しい」的近义表达是「猛烈な」，两者意思最接近。"
+  },
+  {
+    "id": 1391,
+    "cat": "paraphrase",
+    "sentence": "今年の冬は厳しい寒さだ。",
+    "target": "厳しい",
+    "options": [
+      "きつい",
+      "やさしい",
+      "暖かい",
+      "軽い"
+    ],
+    "answer": 0,
+    "explanation": "「厳しい」的近义表达是「きつい」，两者意思最接近。"
+  },
+  {
+    "id": 1392,
+    "cat": "paraphrase",
+    "sentence": "素晴らしい演奏に感動した。",
+    "target": "素晴らしい",
+    "options": [
+      "見事な",
+      "普通の",
+      "退屈な",
+      "下手な"
+    ],
+    "answer": 0,
+    "explanation": "「素晴らしい」的近义表达是「見事な」，两者意思最接近。"
+  },
+  {
+    "id": 1393,
+    "cat": "paraphrase",
+    "sentence": "貧しい生活を送っていた。",
+    "target": "貧しい",
+    "options": [
+      "貧困な",
+      "裕福な",
+      "普通の",
+      "豪華な"
+    ],
+    "answer": 0,
+    "explanation": "「貧しい」的近义表达是「貧困な」，两者意思最接近。"
+  },
+  {
+    "id": 1394,
+    "cat": "paraphrase",
+    "sentence": "彼女は鋭い観察力を持っている。",
+    "target": "鋭い",
+    "options": [
+      "するどい",
+      "鈍い",
+      "弱い",
+      "広い"
+    ],
+    "answer": 0,
+    "explanation": "「鋭い」的近义表达是「するどい」，两者意思最接近。"
+  },
+  {
+    "id": 1395,
+    "cat": "paraphrase",
+    "sentence": "幼い子供には難しい問題だ。",
+    "target": "幼い",
+    "options": [
+      "小さい",
+      "大きい",
+      "賢い",
+      "強い"
+    ],
+    "answer": 0,
+    "explanation": "「幼い」的近义表达是「小さい」，两者意思最接近。"
+  },
+  {
+    "id": 1396,
+    "cat": "paraphrase",
+    "sentence": "彼の反応は鈍い。",
+    "target": "鈍い",
+    "options": [
+      "のろい",
+      "速い",
+      "鋭い",
+      "激しい"
+    ],
+    "answer": 0,
+    "explanation": "「鈍い」的近义表达是「のろい」，两者意思最接近。"
+  },
+  {
+    "id": 1397,
+    "cat": "paraphrase",
+    "sentence": "あと一点で合格だったのに惜しい。",
+    "target": "惜しい",
+    "options": [
+      "残念な",
+      "嬉しい",
+      "楽しい",
+      "幸せな"
+    ],
+    "answer": 0,
+    "explanation": "「惜しい」的近义表达是「残念な」，两者意思最接近。"
+  },
+  {
+    "id": 1398,
+    "cat": "paraphrase",
+    "sentence": "彼とは親しい関係だ。",
+    "target": "親しい",
+    "options": [
+      "仲が良い",
+      "疎遠な",
+      "冷たい",
+      "厳しい"
+    ],
+    "answer": 0,
+    "explanation": "「親しい」的近义表达是「仲が良い」，两者意思最接近。"
+  },
+  {
+    "id": 1399,
+    "cat": "paraphrase",
+    "sentence": "二つの値は等しい。",
+    "target": "等しい",
+    "options": [
+      "同じ",
+      "違う",
+      "近い",
+      "遠い"
+    ],
+    "answer": 0,
+    "explanation": "「等しい」的近义表达是「同じ」，两者意思最接近。"
+  },
+  {
+    "id": 1400,
+    "cat": "paraphrase",
+    "sentence": "この地域は資源が乏しい。",
+    "target": "乏しい",
+    "options": [
+      "少ない",
+      "豊富な",
+      "十分な",
+      "多い"
+    ],
+    "answer": 0,
+    "explanation": "「乏しい」的近义表达是「少ない」，两者意思最接近。"
+  },
+  {
+    "id": 1401,
+    "cat": "paraphrase",
+    "sentence": "健康管理は重要な問題だ。",
+    "target": "重要",
+    "options": [
+      "大切",
+      "簡単",
+      "不要",
+      "些細"
+    ],
+    "answer": 0,
+    "explanation": "「重要」的近义表达是「大切」，两者意思最接近。"
+  },
+  {
+    "id": 1402,
+    "cat": "paraphrase",
+    "sentence": "この書類は必要不可欠です。",
+    "target": "必要",
+    "options": [
+      "不可欠",
+      "不要",
+      "余分",
+      "無用"
+    ],
+    "answer": 0,
+    "explanation": "「必要」的近义表达是「不可欠」，两者意思最接近。"
+  },
+  {
+    "id": 1403,
+    "cat": "paraphrase",
+    "sentence": "このサイズが適当だと思います。",
+    "target": "適当",
+    "options": [
+      "ふさわしい",
+      "不適切",
+      "過大",
+      "不足"
+    ],
+    "answer": 0,
+    "explanation": "「適当」的近义表达是「ふさわしい」，两者意思最接近。"
+  },
+  {
+    "id": 1404,
+    "cat": "paraphrase",
+    "sentence": "確実に届くようにした。",
+    "target": "確実",
+    "options": [
+      "確か",
+      "不確か",
+      "危険",
+      "曖昧"
+    ],
+    "answer": 0,
+    "explanation": "「確実」的近义表达是「確か」，两者意思最接近。"
+  },
+  {
+    "id": 1405,
+    "cat": "paraphrase",
+    "sentence": "この地域は水資源が豊富だ。",
+    "target": "豊富",
+    "options": [
+      "たっぷり",
+      "少ない",
+      "乏しい",
+      "不足"
+    ],
+    "answer": 0,
+    "explanation": "「豊富」的近义表达是「たっぷり」，两者意思最接近。"
+  },
+  {
+    "id": 1406,
+    "cat": "paraphrase",
+    "sentence": "正確な情報を伝えてください。",
+    "target": "正確",
+    "options": [
+      "正しい",
+      "曖昧",
+      "不明",
+      "適当"
+    ],
+    "answer": 0,
+    "explanation": "「正確」的近义表达是「正しい」，两者意思最接近。"
+  },
+  {
+    "id": 1407,
+    "cat": "paraphrase",
+    "sentence": "環境問題は深刻な状況だ。",
+    "target": "深刻",
+    "options": [
+      "重大",
+      "軽微",
+      "簡単",
+      "楽観的"
+    ],
+    "answer": 0,
+    "explanation": "「深刻」的近义表达是「重大」，两者意思最接近。"
+  },
+  {
+    "id": 1408,
+    "cat": "paraphrase",
+    "sentence": "この問題は複雑で解決が難しい。",
+    "target": "複雑",
+    "options": [
+      "入り組んだ",
+      "単純",
+      "簡単",
+      "明確"
+    ],
+    "answer": 0,
+    "explanation": "「複雑」的近义表达是「入り組んだ」，两者意思最接近。"
+  },
+  {
+    "id": 1409,
+    "cat": "paraphrase",
+    "sentence": "答えは単純だった。",
+    "target": "単純",
+    "options": [
+      "簡単",
+      "複雑",
+      "難解",
+      "不明"
+    ],
+    "answer": 0,
+    "explanation": "「単純」的近义表达是「簡単」，两者意思最接近。"
+  },
+  {
+    "id": 1410,
+    "cat": "paraphrase",
+    "sentence": "この方法は有効であることが証明された。",
+    "target": "有効",
+    "options": [
+      "効果的",
+      "無効",
+      "危険",
+      "不要"
+    ],
+    "answer": 0,
+    "explanation": "「有効」的近义表达是「効果的」，两者意思最接近。"
+  },
+  {
+    "id": 1411,
+    "cat": "paraphrase",
+    "sentence": "彼の立場を明確にすべきだ。",
+    "target": "明確",
+    "options": [
+      "はっきりした",
+      "曖昧",
+      "不明",
+      "複雑"
+    ],
+    "answer": 0,
+    "explanation": "「明確」的近义表达是「はっきりした」，两者意思最接近。"
+  },
+  {
+    "id": 1412,
+    "cat": "paraphrase",
+    "sentence": "新鮮な野菜を使った料理だ。",
+    "target": "新鮮",
+    "options": [
+      "フレッシュ",
+      "古い",
+      "腐った",
+      "冷凍の"
+    ],
+    "answer": 0,
+    "explanation": "「新鮮」的近义表达是「フレッシュ」，两者意思最接近。"
+  },
+  {
+    "id": 1413,
+    "cat": "paraphrase",
+    "sentence": "彼は真剣な表情で話した。",
+    "target": "真剣",
+    "options": [
+      "本気",
+      "冗談",
+      "適当",
+      "無関心"
+    ],
+    "answer": 0,
+    "explanation": "「真剣」的近义表达是「本気」，两者意思最接近。"
+  },
+  {
+    "id": 1414,
+    "cat": "paraphrase",
+    "sentence": "これは貴重な体験だった。",
+    "target": "貴重",
+    "options": [
+      "大切",
+      "普通",
+      "無駄",
+      "余計"
+    ],
+    "answer": 0,
+    "explanation": "「貴重」的近义表达是「大切」，两者意思最接近。"
+  },
+  {
+    "id": 1415,
+    "cat": "paraphrase",
+    "sentence": "子供たちは活発に遊んでいる。",
+    "target": "活発",
+    "options": [
+      "元気",
+      "静か",
+      "おとなしい",
+      "弱い"
+    ],
+    "answer": 0,
+    "explanation": "「活発」的近义表达是「元気」，两者意思最接近。"
+  },
+  {
+    "id": 1416,
+    "cat": "paraphrase",
+    "sentence": "穏やかな天気が続いている。",
+    "target": "穏やか",
+    "options": [
+      "静か",
+      "激しい",
+      "荒い",
+      "厳しい"
+    ],
+    "answer": 0,
+    "explanation": "「穏やか」的近义表达是「静か」，两者意思最接近。"
+  },
+  {
+    "id": 1417,
+    "cat": "paraphrase",
+    "sentence": "彼の説明は曖昧だった。",
+    "target": "曖昧",
+    "options": [
+      "はっきりしない",
+      "明確な",
+      "正確な",
+      "詳しい"
+    ],
+    "answer": 0,
+    "explanation": "「曖昧」的近义表达是「はっきりしない」，两者意思最接近。"
+  },
+  {
+    "id": 1418,
+    "cat": "paraphrase",
+    "sentence": "この仕事は困難を極めた。",
+    "target": "困難",
+    "options": [
+      "難しい",
+      "簡単",
+      "楽",
+      "容易"
+    ],
+    "answer": 0,
+    "explanation": "「困難」的近义表达是「難しい」，两者意思最接近。"
+  },
+  {
+    "id": 1419,
+    "cat": "paraphrase",
+    "sentence": "彼は誠実な人柄だ。",
+    "target": "誠実",
+    "options": [
+      "真面目",
+      "不正直",
+      "いい加減",
+      "嘘つき"
+    ],
+    "answer": 0,
+    "explanation": "「誠実」的近义表达是「真面目」，两者意思最接近。"
+  },
+  {
+    "id": 1420,
+    "cat": "paraphrase",
+    "sentence": "彼女は優雅な身のこなしをしている。",
+    "target": "優雅",
+    "options": [
+      "上品",
+      "下品",
+      "粗野",
+      "乱暴"
+    ],
+    "answer": 0,
+    "explanation": "「優雅」的近义表达是「上品」，两者意思最接近。"
+  },
+  {
+    "id": 1421,
+    "cat": "paraphrase",
+    "sentence": "この情報は正当な手段で得た。",
+    "target": "正当",
+    "options": [
+      "正しい",
+      "不当",
+      "違法",
+      "怪しい"
+    ],
+    "answer": 0,
+    "explanation": "「正当」的近义表达是「正しい」，两者意思最接近。"
+  },
+  {
+    "id": 1422,
+    "cat": "paraphrase",
+    "sentence": "彼の行動は異常だった。",
+    "target": "異常",
+    "options": [
+      "普通でない",
+      "正常",
+      "一般的",
+      "平凡"
+    ],
+    "answer": 0,
+    "explanation": "「異常」的近义表达是「普通でない」，两者意思最接近。"
+  },
+  {
+    "id": 1423,
+    "cat": "paraphrase",
+    "sentence": "このデザインは斬新だ。",
+    "target": "斬新",
+    "options": [
+      "新しい",
+      "古い",
+      "普通の",
+      "伝統的な"
+    ],
+    "answer": 0,
+    "explanation": "「斬新」的近义表达是「新しい」，两者意思最接近。"
+  },
+  {
+    "id": 1424,
+    "cat": "paraphrase",
+    "sentence": "彼の態度は横柄だった。",
+    "target": "横柄",
+    "options": [
+      "偉そう",
+      "謙虚",
+      "丁寧",
+      "優しい"
+    ],
+    "answer": 0,
+    "explanation": "「横柄」的近义表达是「偉そう」，两者意思最接近。"
+  },
+  {
+    "id": 1425,
+    "cat": "paraphrase",
+    "sentence": "膨大な量のデータを分析した。",
+    "target": "膨大",
+    "options": [
+      "非常に多い",
+      "少ない",
+      "わずかな",
+      "適度な"
+    ],
+    "answer": 0,
+    "explanation": "「膨大」的近义表达是「非常に多い」，两者意思最接近。"
+  },
+  {
+    "id": 1426,
+    "cat": "paraphrase",
+    "sentence": "彼女の回答は的確だった。",
+    "target": "的確",
+    "options": [
+      "正確",
+      "曖昧",
+      "不明",
+      "誤り"
+    ],
+    "answer": 0,
+    "explanation": "「的確」的近义表达是「正確」，两者意思最接近。"
+  },
+  {
+    "id": 1427,
+    "cat": "paraphrase",
+    "sentence": "顕著な成果が見られた。",
+    "target": "顕著",
+    "options": [
+      "目立つ",
+      "地味な",
+      "わずかな",
+      "不明な"
+    ],
+    "answer": 0,
+    "explanation": "「顕著」的近义表达是「目立つ」，两者意思最接近。"
+  },
+  {
+    "id": 1428,
+    "cat": "paraphrase",
+    "sentence": "彼は柔軟な考え方をする。",
+    "target": "柔軟",
+    "options": [
+      "しなやか",
+      "堅い",
+      "頑固",
+      "厳しい"
+    ],
+    "answer": 0,
+    "explanation": "「柔軟」的近义表达是「しなやか」，两者意思最接近。"
+  },
+  {
+    "id": 1429,
+    "cat": "paraphrase",
+    "sentence": "彼の発言は不適切だった。",
+    "target": "不適切",
+    "options": [
+      "ふさわしくない",
+      "適当",
+      "正しい",
+      "素晴らしい"
+    ],
+    "answer": 0,
+    "explanation": "「不適切」的近义表达是「ふさわしくない」，两者意思最接近。"
+  },
+  {
+    "id": 1430,
+    "cat": "paraphrase",
+    "sentence": "新しいプロジェクトに取り組んでいる。",
+    "target": "取り組む",
+    "options": [
+      "取りかかる",
+      "諦める",
+      "避ける",
+      "断る"
+    ],
+    "answer": 0,
+    "explanation": "「取り組む」的近义表达是「取りかかる」，两者意思最接近。"
+  },
+  {
+    "id": 1431,
+    "cat": "paraphrase",
+    "sentence": "安全運転を心がけている。",
+    "target": "心がける",
+    "options": [
+      "注意する",
+      "無視する",
+      "忘れる",
+      "怠る"
+    ],
+    "answer": 0,
+    "explanation": "「心がける」的近义表达是「注意する」，两者意思最接近。"
+  },
+  {
+    "id": 1432,
+    "cat": "paraphrase",
+    "sentence": "入院中の友人を見舞った。",
+    "target": "見舞う",
+    "options": [
+      "お見舞いに行く",
+      "避ける",
+      "忘れる",
+      "放っておく"
+    ],
+    "answer": 0,
+    "explanation": "「見舞う」的近义表达是「お見舞いに行く」，两者意思最接近。"
+  },
+  {
+    "id": 1433,
+    "cat": "paraphrase",
+    "sentence": "騒ぎが落ち着いてきた。",
+    "target": "落ち着く",
+    "options": [
+      "静まる",
+      "激しくなる",
+      "広がる",
+      "続く"
+    ],
+    "answer": 0,
+    "explanation": "「落ち着く」的近义表达是「静まる」，两者意思最接近。"
+  },
+  {
+    "id": 1434,
+    "cat": "paraphrase",
+    "sentence": "思い切って転職することにした。",
+    "target": "思い切る",
+    "options": [
+      "決心する",
+      "迷う",
+      "諦める",
+      "悩む"
+    ],
+    "answer": 0,
+    "explanation": "「思い切る」的近义表达是「決心する」，两者意思最接近。"
+  },
+  {
+    "id": 1435,
+    "cat": "paraphrase",
+    "sentence": "この仕事を引き受けることにした。",
+    "target": "引き受ける",
+    "options": [
+      "受け持つ",
+      "断る",
+      "避ける",
+      "無視する"
+    ],
+    "answer": 0,
+    "explanation": "「引き受ける」的近义表达是「受け持つ」，两者意思最接近。"
+  },
+  {
+    "id": 1436,
+    "cat": "paraphrase",
+    "sentence": "困難に立ち向かう勇気が必要だ。",
+    "target": "立ち向かう",
+    "options": [
+      "挑む",
+      "逃げる",
+      "避ける",
+      "諦める"
+    ],
+    "answer": 0,
+    "explanation": "「立ち向かう」的近义表达是「挑む」，两者意思最接近。"
+  },
+  {
+    "id": 1437,
+    "cat": "paraphrase",
+    "sentence": "事前に打ち合わせておこう。",
+    "target": "打ち合わせる",
+    "options": [
+      "相談する",
+      "決定する",
+      "命令する",
+      "報告する"
+    ],
+    "answer": 0,
+    "explanation": "「打ち合わせる」的近义表达是「相談する」，两者意思最接近。"
+  },
+  {
+    "id": 1438,
+    "cat": "paraphrase",
+    "sentence": "計画を見直す必要がある。",
+    "target": "見直す",
+    "options": [
+      "再検討する",
+      "中止する",
+      "続ける",
+      "忘れる"
+    ],
+    "answer": 0,
+    "explanation": "「見直す」的近义表达是「再検討する」，两者意思最接近。"
+  },
+  {
+    "id": 1439,
+    "cat": "paraphrase",
+    "sentence": "相手の条件を受け入れた。",
+    "target": "受け入れる",
+    "options": [
+      "承諾する",
+      "拒否する",
+      "無視する",
+      "延期する"
+    ],
+    "answer": 0,
+    "explanation": "「受け入れる」的近义表达是「承諾する」，两者意思最接近。"
+  },
+  {
+    "id": 1440,
+    "cat": "paraphrase",
+    "sentence": "彼の話に付き合ってあげた。",
+    "target": "付き合う",
+    "options": [
+      "相手をする",
+      "無視する",
+      "逃げる",
+      "怒る"
+    ],
+    "answer": 0,
+    "explanation": "「付き合う」的近义表达是「相手をする」，两者意思最接近。"
+  },
+  {
+    "id": 1441,
+    "cat": "paraphrase",
+    "sentence": "締め切りに間に合うように急いだ。",
+    "target": "間に合う",
+    "options": [
+      "間に合わせる",
+      "遅れる",
+      "諦める",
+      "延ばす"
+    ],
+    "answer": 0,
+    "explanation": "「間に合う」的近义表达是「間に合わせる」，两者意思最接近。"
+  },
+  {
+    "id": 1442,
+    "cat": "paraphrase",
+    "sentence": "新しい環境に馴染むのに時間がかかった。",
+    "target": "馴染む",
+    "options": [
+      "慣れる",
+      "嫌う",
+      "避ける",
+      "離れる"
+    ],
+    "answer": 0,
+    "explanation": "「馴染む」的近义表达是「慣れる」，两者意思最接近。"
+  },
+  {
+    "id": 1443,
+    "cat": "paraphrase",
+    "sentence": "彼女は目上の人に気を遣っている。",
+    "target": "気を遣う",
+    "options": [
+      "配慮する",
+      "無視する",
+      "怒る",
+      "甘える"
+    ],
+    "answer": 0,
+    "explanation": "「気を遣う」的近义表达是「配慮する」，两者意思最接近。"
+  },
+  {
+    "id": 1444,
+    "cat": "paraphrase",
+    "sentence": "問題を先送りにしてはいけない。",
+    "target": "先送りにする",
+    "options": [
+      "後回しにする",
+      "解決する",
+      "忘れる",
+      "急ぐ"
+    ],
+    "answer": 0,
+    "explanation": "「先送りにする」的近义表达是「後回しにする」，两者意思最接近。"
+  },
+  {
+    "id": 1445,
+    "cat": "paraphrase",
+    "sentence": "彼の意見を踏まえて決定した。",
+    "target": "踏まえる",
+    "options": [
+      "考慮する",
+      "無視する",
+      "否定する",
+      "忘れる"
+    ],
+    "answer": 0,
+    "explanation": "「踏まえる」的近义表达是「考慮する」，两者意思最接近。"
+  },
+  {
+    "id": 1446,
+    "cat": "paraphrase",
+    "sentence": "新しいルールが浸透してきた。",
+    "target": "浸透する",
+    "options": [
+      "広まる",
+      "消える",
+      "減る",
+      "隠れる"
+    ],
+    "answer": 0,
+    "explanation": "「浸透する」的近义表达是「広まる」，两者意思最接近。"
+  },
+  {
+    "id": 1447,
+    "cat": "paraphrase",
+    "sentence": "彼は責任を負うことになった。",
+    "target": "負う",
+    "options": [
+      "背負う",
+      "逃れる",
+      "避ける",
+      "捨てる"
+    ],
+    "answer": 0,
+    "explanation": "「負う」的近义表达是「背負う」，两者意思最接近。"
+  },
+  {
+    "id": 1448,
+    "cat": "paraphrase",
+    "sentence": "詳細は追って連絡します。",
+    "target": "追って",
+    "options": [
+      "後ほど",
+      "すぐに",
+      "今すぐ",
+      "もう"
+    ],
+    "answer": 0,
+    "explanation": "「追って」的近义表达是「後ほど」，两者意思最接近。"
+  },
+  {
+    "id": 1449,
+    "cat": "paraphrase",
+    "sentence": "この制度は見直しが求められている。",
+    "target": "求める",
+    "options": [
+      "要求する",
+      "断る",
+      "諦める",
+      "避ける"
+    ],
+    "answer": 0,
+    "explanation": "「求める」的近义表达是「要求する」，两者意思最接近。"
+  },
+  {
+    "id": 1450,
+    "cat": "paraphrase",
+    "sentence": "彼は周囲の期待に応えた。",
+    "target": "応える",
+    "options": [
+      "こたえる",
+      "裏切る",
+      "無視する",
+      "避ける"
+    ],
+    "answer": 0,
+    "explanation": "「応える」的近义表达是「こたえる」，两者意思最接近。"
+  },
+  {
+    "id": 1451,
+    "cat": "paraphrase",
+    "sentence": "この問題は早急に手を打つべきだ。",
+    "target": "手を打つ",
+    "options": [
+      "対策を立てる",
+      "諦める",
+      "放っておく",
+      "逃げる"
+    ],
+    "answer": 0,
+    "explanation": "「手を打つ」的近义表达是「対策を立てる」，两者意思最接近。"
+  },
+  {
+    "id": 1452,
+    "cat": "paraphrase",
+    "sentence": "彼女は場の雰囲気を和ませた。",
+    "target": "和ませる",
+    "options": [
+      "なごませる",
+      "壊す",
+      "乱す",
+      "冷やす"
+    ],
+    "answer": 0,
+    "explanation": "「和ませる」的近义表达是「なごませる」，两者意思最接近。"
+  },
+  {
+    "id": 1453,
+    "cat": "paraphrase",
+    "sentence": "彼は話の腰を折った。",
+    "target": "腰を折る",
+    "options": [
+      "邪魔をする",
+      "助ける",
+      "続ける",
+      "賛成する"
+    ],
+    "answer": 0,
+    "explanation": "「腰を折る」的近义表达是「邪魔をする」，两者意思最接近。"
+  },
+  {
+    "id": 1454,
+    "cat": "paraphrase",
+    "sentence": "最後まで気を抜かないでください。",
+    "target": "気を抜く",
+    "options": [
+      "油断する",
+      "集中する",
+      "頑張る",
+      "注意する"
+    ],
+    "answer": 0,
+    "explanation": "「気を抜く」的近义表达是「油断する」，两者意思最接近。"
+  },
+  {
+    "id": 1455,
+    "cat": "paraphrase",
+    "sentence": "彼の発言が物議を醸した。",
+    "target": "物議を醸す",
+    "options": [
+      "論争を引き起こす",
+      "解決する",
+      "安心させる",
+      "無視される"
+    ],
+    "answer": 0,
+    "explanation": "「物議を醸す」的近义表达是「論争を引き起こす」，两者意思最接近。"
+  },
+  {
+    "id": 1456,
+    "cat": "paraphrase",
+    "sentence": "この商品は目を引くデザインだ。",
+    "target": "目を引く",
+    "options": [
+      "注目を集める",
+      "見えない",
+      "地味な",
+      "普通の"
+    ],
+    "answer": 0,
+    "explanation": "「目を引く」的近义表达是「注目を集める」，两者意思最接近。"
+  },
+  {
+    "id": 1457,
+    "cat": "paraphrase",
+    "sentence": "彼女は口を挟まずに聞いていた。",
+    "target": "口を挟む",
+    "options": [
+      "割り込んで話す",
+      "黙る",
+      "聞く",
+      "頷く"
+    ],
+    "answer": 0,
+    "explanation": "「口を挟む」的近义表达是「割り込んで話す」，两者意思最接近。"
+  },
+  {
+    "id": 1458,
+    "cat": "paraphrase",
+    "sentence": "彼は自分の非を認めた。",
+    "target": "非",
+    "options": [
+      "過ち",
+      "正しさ",
+      "功績",
+      "成功"
+    ],
+    "answer": 0,
+    "explanation": "「非」的近义表达是「過ち」，两者意思最接近。"
+  },
+  {
+    "id": 1459,
+    "cat": "paraphrase",
+    "sentence": "今回の件で彼の面目が立った。",
+    "target": "面目が立つ",
+    "options": [
+      "体面が保たれる",
+      "恥をかく",
+      "失敗する",
+      "無視される"
+    ],
+    "answer": 0,
+    "explanation": "「面目が立つ」的近义表达是「体面が保たれる」，两者意思最接近。"
+  },
+  {
+    "id": 1460,
+    "cat": "paraphrase",
+    "sentence": "彼は仕事に手を抜かない。",
+    "target": "手を抜く",
+    "options": [
+      "さぼる",
+      "頑張る",
+      "集中する",
+      "努力する"
+    ],
+    "answer": 0,
+    "explanation": "「手を抜く」的近义表达是「さぼる」，两者意思最接近。"
+  },
+  {
+    "id": 1461,
+    "cat": "paraphrase",
+    "sentence": "新しい企画が軌道に乗った。",
+    "target": "軌道に乗る",
+    "options": [
+      "順調に進む",
+      "失敗する",
+      "中止になる",
+      "行き詰まる"
+    ],
+    "answer": 0,
+    "explanation": "「軌道に乗る」的近义表达是「順調に進む」，两者意思最接近。"
+  },
+  {
+    "id": 1462,
+    "cat": "paraphrase",
+    "sentence": "彼の説明は要領を得ない。",
+    "target": "要領を得ない",
+    "options": [
+      "わかりにくい",
+      "明確だ",
+      "簡潔だ",
+      "正確だ"
+    ],
+    "answer": 0,
+    "explanation": "「要領を得ない」的近义表达是「わかりにくい」，两者意思最接近。"
+  },
+  {
+    "id": 1463,
+    "cat": "paraphrase",
+    "sentence": "予算の都合で計画を断念した。",
+    "target": "断念する",
+    "options": [
+      "諦める",
+      "続ける",
+      "始める",
+      "決める"
+    ],
+    "answer": 0,
+    "explanation": "「断念する」的近义表达是「諦める」，两者意思最接近。"
+  },
+  {
+    "id": 1464,
+    "cat": "paraphrase",
+    "sentence": "彼は何事にも慎重だ。",
+    "target": "慎重",
+    "options": [
+      "注意深い",
+      "大胆",
+      "無謀",
+      "軽率"
+    ],
+    "answer": 0,
+    "explanation": "「慎重」的近义表达是「注意深い」，两者意思最接近。"
+  },
+  {
+    "id": 1465,
+    "cat": "paraphrase",
+    "sentence": "その噂は根拠がない。",
+    "target": "根拠",
+    "options": [
+      "裏付け",
+      "事実",
+      "結論",
+      "理論"
+    ],
+    "answer": 0,
+    "explanation": "「根拠」的近义表达是「裏付け」，两者意思最接近。"
+  },
+  {
+    "id": 1466,
+    "cat": "paraphrase",
+    "sentence": "このアプリは画期的な機能を備えている。",
+    "target": "画期的",
+    "options": [
+      "革新的",
+      "普通の",
+      "古い",
+      "退屈な"
+    ],
+    "answer": 0,
+    "explanation": "「画期的」的近义表达是「革新的」，两者意思最接近。"
+  },
+  {
+    "id": 1467,
+    "cat": "paraphrase",
+    "sentence": "彼女は遠慮がちに意見を述べた。",
+    "target": "遠慮がち",
+    "options": [
+      "控えめ",
+      "大胆",
+      "堂々と",
+      "積極的"
+    ],
+    "answer": 0,
+    "explanation": "「遠慮がち」的近义表达是「控えめ」，两者意思最接近。"
+  },
+  {
+    "id": 1468,
+    "cat": "paraphrase",
+    "sentence": "大幅な改善が見られた。",
+    "target": "大幅",
+    "options": [
+      "大きな",
+      "小さな",
+      "わずかな",
+      "少しの"
+    ],
+    "answer": 0,
+    "explanation": "「大幅」的近义表达是「大きな」，两者意思最接近。"
+  },
+  {
+    "id": 1469,
+    "cat": "paraphrase",
+    "sentence": "彼の意見は的を射ている。",
+    "target": "的を射る",
+    "options": [
+      "核心をつく",
+      "外れる",
+      "曖昧だ",
+      "無関係だ"
+    ],
+    "answer": 0,
+    "explanation": "「的を射る」的近义表达是「核心をつく」，两者意思最接近。"
+  },
+  {
+    "id": 1470,
+    "cat": "paraphrase",
+    "sentence": "この仕事は骨が折れる。",
+    "target": "骨が折れる",
+    "options": [
+      "大変だ",
+      "簡単だ",
+      "楽しい",
+      "退屈だ"
+    ],
+    "answer": 0,
+    "explanation": "「骨が折れる」的近义表达是「大変だ」，两者意思最接近。"
+  },
+  {
+    "id": 1471,
+    "cat": "paraphrase",
+    "sentence": "成功するかどうかは微妙だ。",
+    "target": "微妙",
+    "options": [
+      "判断しにくい",
+      "確実",
+      "簡単",
+      "明らか"
+    ],
+    "answer": 0,
+    "explanation": "「微妙」的近义表达是「判断しにくい」，两者意思最接近。"
+  },
+  {
+    "id": 1472,
+    "cat": "paraphrase",
+    "sentence": "彼女は律儀にお礼状を書いた。",
+    "target": "律儀",
+    "options": [
+      "まじめ",
+      "いい加減",
+      "怠惰",
+      "不真面目"
+    ],
+    "answer": 0,
+    "explanation": "「律儀」的近义表达是「まじめ」，两者意思最接近。"
+  },
+  {
+    "id": 1473,
+    "cat": "paraphrase",
+    "sentence": "彼は几帳面な性格だ。",
+    "target": "几帳面",
+    "options": [
+      "きちんとした",
+      "だらしない",
+      "適当",
+      "雑な"
+    ],
+    "answer": 0,
+    "explanation": "「几帳面」的近义表达是「きちんとした」，两者意思最接近。"
+  },
+  {
+    "id": 1474,
+    "cat": "paraphrase",
+    "sentence": "この問題は厄介だ。",
+    "target": "厄介",
+    "options": [
+      "面倒",
+      "簡単",
+      "楽しい",
+      "単純"
+    ],
+    "answer": 0,
+    "explanation": "「厄介」的近义表达是「面倒」，两者意思最接近。"
+  },
+  {
+    "id": 1475,
+    "cat": "paraphrase",
+    "sentence": "彼女の行動は大胆だった。",
+    "target": "大胆",
+    "options": [
+      "思い切った",
+      "臆病な",
+      "慎重な",
+      "控えめな"
+    ],
+    "answer": 0,
+    "explanation": "「大胆」的近义表达是「思い切った」，两者意思最接近。"
+  },
+  {
+    "id": 1476,
+    "cat": "paraphrase",
+    "sentence": "彼は物事に動じない。",
+    "target": "動じない",
+    "options": [
+      "冷静だ",
+      "慌てる",
+      "驚く",
+      "焦る"
+    ],
+    "answer": 0,
+    "explanation": "「動じない」的近义表达是「冷静だ」，两者意思最接近。"
+  },
+  {
+    "id": 1477,
+    "cat": "paraphrase",
+    "sentence": "この提案は妥当だと思う。",
+    "target": "妥当",
+    "options": [
+      "適切",
+      "不適切",
+      "過大",
+      "極端"
+    ],
+    "answer": 0,
+    "explanation": "「妥当」的近义表达是「適切」，两者意思最接近。"
+  },
+  {
+    "id": 1478,
+    "cat": "paraphrase",
+    "sentence": "彼の行動は軽率だった。",
+    "target": "軽率",
+    "options": [
+      "考えが浅い",
+      "慎重",
+      "冷静",
+      "堅実"
+    ],
+    "answer": 0,
+    "explanation": "「軽率」的近义表达是「考えが浅い」，两者意思最接近。"
+  },
+  {
+    "id": 1479,
+    "cat": "paraphrase",
+    "sentence": "些細なことで口論になった。",
+    "target": "些細",
+    "options": [
+      "小さな",
+      "重大な",
+      "深刻な",
+      "大きな"
+    ],
+    "answer": 0,
+    "explanation": "「些細」的近义表达是「小さな」，两者意思最接近。"
+  },
+  {
+    "id": 1480,
+    "cat": "paraphrase",
+    "sentence": "彼は自分の過ちを悔やんでいる。",
+    "target": "悔やむ",
+    "options": [
+      "後悔する",
+      "喜ぶ",
+      "忘れる",
+      "無視する"
+    ],
+    "answer": 0,
+    "explanation": "「悔やむ」的近义表达是「後悔する」，两者意思最接近。"
+  },
+  {
+    "id": 1481,
+    "cat": "paraphrase",
+    "sentence": "この件は保留にしておこう。",
+    "target": "保留",
+    "options": [
+      "ペンディング",
+      "決定",
+      "中止",
+      "完了"
+    ],
+    "answer": 0,
+    "explanation": "「保留」的近义表达是「ペンディング」，两者意思最接近。"
+  },
+  {
+    "id": 1482,
+    "cat": "paraphrase",
+    "sentence": "彼女は要領がいい。",
+    "target": "要領がいい",
+    "options": [
+      "手際がいい",
+      "不器用",
+      "下手",
+      "遅い"
+    ],
+    "answer": 0,
+    "explanation": "「要領がいい」的近义表达是「手際がいい」，两者意思最接近。"
+  },
+  {
+    "id": 1483,
+    "cat": "paraphrase",
+    "sentence": "あの会社は業績が好調だ。",
+    "target": "好調",
+    "options": [
+      "順調",
+      "不調",
+      "低迷",
+      "停滞"
+    ],
+    "answer": 0,
+    "explanation": "「好調」的近义表达是「順調」，两者意思最接近。"
+  },
+  {
+    "id": 1484,
+    "cat": "paraphrase",
+    "sentence": "彼は頑固で意見を変えない。",
+    "target": "頑固",
+    "options": [
+      "強情",
+      "柔軟",
+      "素直",
+      "おとなしい"
+    ],
+    "answer": 0,
+    "explanation": "「頑固」的近义表达是「強情」，两者意思最接近。"
+  },
+  {
+    "id": 1485,
+    "cat": "paraphrase",
+    "sentence": "彼女は気さくな人だ。",
+    "target": "気さく",
+    "options": [
+      "親しみやすい",
+      "冷たい",
+      "高飛車",
+      "無愛想"
+    ],
+    "answer": 0,
+    "explanation": "「気さく」的近义表达是「親しみやすい」，两者意思最接近。"
+  },
+  {
+    "id": 1486,
+    "cat": "paraphrase",
+    "sentence": "この本の趣旨を教えてください。",
+    "target": "趣旨",
+    "options": [
+      "主旨",
+      "結論",
+      "感想",
+      "題名"
+    ],
+    "answer": 0,
+    "explanation": "「趣旨」的近义表达是「主旨」，两者意思最接近。"
+  },
+  {
+    "id": 1487,
+    "cat": "paraphrase",
+    "sentence": "彼の主張には一理ある。",
+    "target": "一理ある",
+    "options": [
+      "もっともだ",
+      "間違いだ",
+      "無意味だ",
+      "おかしい"
+    ],
+    "answer": 0,
+    "explanation": "「一理ある」的近义表达是「もっともだ」，两者意思最接近。"
+  },
+  {
+    "id": 1488,
+    "cat": "paraphrase",
+    "sentence": "会議は円滑に進んだ。",
+    "target": "円滑",
+    "options": [
+      "スムーズ",
+      "困難",
+      "不調",
+      "停滞"
+    ],
+    "answer": 0,
+    "explanation": "「円滑」的近义表达是「スムーズ」，两者意思最接近。"
+  },
+  {
+    "id": 1489,
+    "cat": "paraphrase",
+    "sentence": "彼は融通が利かない。",
+    "target": "融通が利かない",
+    "options": [
+      "柔軟性がない",
+      "器用だ",
+      "臨機応変だ",
+      "自由だ"
+    ],
+    "answer": 0,
+    "explanation": "「融通が利かない」的近义表达是「柔軟性がない」，两者意思最接近。"
+  },
+  {
+    "id": 1490,
+    "cat": "paraphrase",
+    "sentence": "あの店は繁盛している。",
+    "target": "繁盛する",
+    "options": [
+      "はやる",
+      "潰れる",
+      "閉まる",
+      "衰退する"
+    ],
+    "answer": 0,
+    "explanation": "「繁盛する」的近义表达是「はやる」，两者意思最接近。"
+  }
 ]
