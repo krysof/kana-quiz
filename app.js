@@ -519,7 +519,9 @@ function renderGpQuestion() {
       `;
       row.querySelector(".gp-speak").onclick = (e) => {
         e.stopPropagation();
+        // Clicking the speaker also counts as selecting this option
         speakJP(opt.jp.replace(/[（(].*?[)）]/g, ""));
+        answerGp(i, row);
       };
       row.onclick = () => answerGp(i, row);
       ui.gpOpts.appendChild(row);
@@ -560,12 +562,14 @@ function answerGp(idx, el) {
   if (p.type === "scenario") {
     const correctOpt = item.options[correctIdx];
     const groupLabel = (p.labels && correctOpt.g !== undefined) ? p.labels[correctOpt.g] : "";
-    const note = item.note ? `<br><small>${item.note}</small>` : "";
+    const note = item.note ? `<div class="gp-note">⚠️ ${item.note}</div>` : "";
+    const usage = item.usage ? `<div class="gp-usage">💡 ${item.usage}</div>` : "";
     // Speak correct verb after answer
     setTimeout(() => speakJP(correctOpt.jp.replace(/[（(].*?[)）]/g, "")), 300);
-    ui.gpResult.innerHTML = ok
-      ? `✅ 正确：<b>${correctOpt.jp}</b> · <span class="gp-tag">${groupLabel}</span>${note}`
-      : `❌ 答案：<b>${correctOpt.jp}</b> · <span class="gp-tag">${groupLabel}</span>${note}`;
+    const head = ok
+      ? `✅ 正确：<b>${correctOpt.jp}</b> · <span class="gp-tag">${groupLabel}</span>`
+      : `❌ 答案：<b>${correctOpt.jp}</b> · <span class="gp-tag">${groupLabel}</span>`;
+    ui.gpResult.innerHTML = head + note + usage;
   } else {
     const correctLabel = p.labels[correctIdx];
     ui.gpResult.innerHTML = ok

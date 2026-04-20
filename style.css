@@ -446,6 +446,27 @@ body {
   margin-left: 4px;
 }
 
+.gp-note {
+  margin-top: 8px;
+  padding: 8px 10px;
+  background: #fef3c7;
+  border-radius: 8px;
+  font-size: 0.82rem;
+  color: #92400e;
+  line-height: 1.5;
+}
+
+.gp-usage {
+  margin-top: 8px;
+  padding: 10px 12px;
+  background: rgba(99, 102, 241, 0.08);
+  border-left: 3px solid var(--primary-light);
+  border-radius: 8px;
+  font-size: 0.85rem;
+  color: var(--gray-700);
+  line-height: 1.6;
+}
+
 .gp-hint {
   font-size: 0.85rem;
   color: var(--gray-500);
