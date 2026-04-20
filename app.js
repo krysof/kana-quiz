@@ -457,9 +457,21 @@ function shuffleArr(arr) {
 function startGrammarPractice() {
   if (!currentGrammarTopic || !currentGrammarTopic.practice) return;
   const p = currentGrammarTopic.practice;
+  // Shuffle items; for scenario type also shuffle option order inside each item
+  const rawItems = shuffleArr(p.items || []);
+  let items = rawItems;
+  if (p.type === "scenario") {
+    items = rawItems.map((it) => {
+      const opts = it.options || [];
+      const order = shuffleArr(opts.map((_, i) => i));
+      const newOpts = order.map((i) => opts[i]);
+      const newAnswer = order.indexOf(it.answer);
+      return { ...it, options: newOpts, answer: newAnswer };
+    });
+  }
   gpState = {
     practice: p,
-    items: shuffleArr(p.items || []),
+    items,
     idx: 0,
     ok: 0,
     ng: 0,
@@ -480,50 +492,86 @@ function renderGpQuestion() {
     // Summary
     const total = items.length;
     const rate = total ? Math.round((gpState.ok / total) * 100) : 0;
+    const emoji = rate >= 90 ? "🏆" : rate >= 70 ? "🎉" : rate >= 50 ? "👍" : "💪";
     ui.gpHint.textContent = "";
     ui.gpQ.textContent = "";
     ui.gpOpts.innerHTML = "";
-    ui.gpResult.innerHTML = `<div class="gp-summary"><div class="big">${rate}%</div><div class="sub">共 ${total} 题 · 正确 ${gpState.ok} · 错误 ${gpState.ng}</div></div>`;
+    ui.gpResult.innerHTML = `<div class="gp-summary"><div style="font-size:2.6rem;margin-bottom:6px">${emoji}</div><div class="big">${rate}%</div><div class="sub">共 ${total} 题 · 正确 ${gpState.ok} · 错误 ${gpState.ng}</div></div>`;
     ui.btnGpNext.textContent = "再来一次";
     return;
   }
   const item = items[idx];
   ui.gpHint.textContent = p.hint || p.question || "";
-  ui.gpQ.textContent = item.q;
   ui.gpResult.innerHTML = "";
   ui.btnGpNext.textContent = "下一题";
   ui.gpOpts.innerHTML = "";
-  (p.labels || []).forEach((label, i) => {
-    const div = document.createElement("div");
-    div.className = "gp-opt";
-    div.textContent = label;
-    div.onclick = () => answerGp(i, div);
-    ui.gpOpts.appendChild(div);
-  });
   gpState.answered = false;
-  // Speak the verb (no answer leak — question is the verb itself)
-  setTimeout(() => speakJP(item.q.replace(/[（(].*?[)）]/g, "")), 300);
+
+  if (p.type === "scenario") {
+    // Question is a Chinese scene; options are JP verbs with mini speak button
+    ui.gpQ.textContent = item.scene;
+    (item.options || []).forEach((opt, i) => {
+      const row = document.createElement("div");
+      row.className = "gp-opt gp-opt-row";
+      row.innerHTML = `
+        <button class="gp-speak" type="button" aria-label="朗读">🔊</button>
+        <span class="gp-opt-text">${opt.jp}</span>
+      `;
+      row.querySelector(".gp-speak").onclick = (e) => {
+        e.stopPropagation();
+        speakJP(opt.jp.replace(/[（(].*?[)）]/g, ""));
+      };
+      row.onclick = () => answerGp(i, row);
+      ui.gpOpts.appendChild(row);
+    });
+  } else {
+    // Classic classify type: show verb, pick group label
+    ui.gpQ.textContent = item.q;
+    (p.labels || []).forEach((label, i) => {
+      const div = document.createElement("div");
+      div.className = "gp-opt";
+      div.textContent = label;
+      div.onclick = () => answerGp(i, div);
+      ui.gpOpts.appendChild(div);
+    });
+    // Auto-read the verb
+    setTimeout(() => speakJP(item.q.replace(/[（(].*?[)）]/g, "")), 300);
+  }
 }
 
 function answerGp(idx, el) {
   if (gpState.answered) return;
   gpState.answered = true;
+  const p = gpState.practice;
   const item = gpState.items[gpState.idx];
-  const ok = idx === item.a;
+  const ok = idx === item.answer || idx === item.a; // support both new and old format
+  const correctIdx = item.answer !== undefined ? item.answer : item.a;
   if (ok) { gpState.ok++; playCorrect(); } else { gpState.ng++; playWrong(); }
 
   // Mark options
   const nodes = ui.gpOpts.querySelectorAll(".gp-opt");
   nodes.forEach((n, i) => {
     n.setAttribute("disabled", "true");
-    if (i === item.a) n.classList.add("correct");
+    if (i === correctIdx) n.classList.add("correct");
     else if (i === idx) n.classList.add("wrong");
   });
 
-  const correctLabel = gpState.practice.labels[item.a];
-  ui.gpResult.innerHTML = ok
-    ? `✅ 正确：<b>${item.q}</b> 是 <b>${correctLabel}</b>${item.cn ? `（${item.cn}）` : ""}`
-    : `❌ 错了。<b>${item.q}</b> 是 <b>${correctLabel}</b>${item.cn ? `（${item.cn}）` : ""}`;
+  // Build feedback
+  if (p.type === "scenario") {
+    const correctOpt = item.options[correctIdx];
+    const groupLabel = (p.labels && correctOpt.g !== undefined) ? p.labels[correctOpt.g] : "";
+    const note = item.note ? `<br><small>${item.note}</small>` : "";
+    // Speak correct verb after answer
+    setTimeout(() => speakJP(correctOpt.jp.replace(/[（(].*?[)）]/g, "")), 300);
+    ui.gpResult.innerHTML = ok
+      ? `✅ 正确：<b>${correctOpt.jp}</b> · <span class="gp-tag">${groupLabel}</span>${note}`
+      : `❌ 答案：<b>${correctOpt.jp}</b> · <span class="gp-tag">${groupLabel}</span>${note}`;
+  } else {
+    const correctLabel = p.labels[correctIdx];
+    ui.gpResult.innerHTML = ok
+      ? `✅ 正确：<b>${item.q}</b> 是 <b>${correctLabel}</b>${item.cn ? `（${item.cn}）` : ""}`
+      : `❌ 错了。<b>${item.q}</b> 是 <b>${correctLabel}</b>${item.cn ? `（${item.cn}）` : ""}`;
+  }
 
   ui.gpOk.textContent = gpState.ok;
   ui.gpNg.textContent = gpState.ng;

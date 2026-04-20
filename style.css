@@ -389,6 +389,75 @@ body {
   font-size: 0.95rem;
 }
 
+/* Scenario practice: row with speaker button + JP text */
+.gp-opt-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-align: left;
+  padding: 12px 12px 12px 10px;
+}
+
+.gp-speak {
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border: 1px solid var(--gray-200);
+  background: white;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gp-speak:hover {
+  background: var(--primary-bg);
+  border-color: var(--primary-light);
+}
+
+.gp-speak:active {
+  transform: scale(0.92);
+}
+
+.gp-opt-text {
+  flex: 1;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--gray-900);
+}
+
+.gp-opt.correct .gp-speak,
+.gp-opt.wrong .gp-speak {
+  background: white;
+}
+
+.gp-tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: var(--primary-bg);
+  color: var(--primary-dark);
+  margin-left: 4px;
+}
+
+.gp-hint {
+  font-size: 0.85rem;
+  color: var(--gray-500);
+  margin-bottom: 6px;
+  line-height: 1.4;
+}
+
+/* When scenario, question is Chinese text not huge gradient */
+.gp-q {
+  word-break: keep-all;
+}
+
 /* Settings Header */
 .settings-header {
   display: flex;
