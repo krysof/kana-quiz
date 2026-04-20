@@ -1,19 +1,30 @@
 #!/bin/sh
-# Auto-generate data/version.json with today's date + commit count
-# and stage it before the commit proceeds.
-
+# Auto-generate data/version.json before commit.
 set -e
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 REPO_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 
-# Use python3 if available, else python (Windows git-bash uses python)
-PY=python
-command -v python3 >/dev/null 2>&1 && PY=python3
+# Try python interpreters in order of likelihood
+PY=""
+for candidate in python3 python py; do
+  if command -v "$candidate" >/dev/null 2>&1; then
+    # Verify it actually runs (avoids Windows Store shim)
+    if "$candidate" -c "import sys" >/dev/null 2>&1; then
+      PY="$candidate"
+      break
+    fi
+  fi
+done
+
+if [ -z "$PY" ]; then
+  echo "pre-commit: no usable python found, skipping version gen" >&2
+  exit 0
+fi
 
 "$PY" "$REPO_ROOT/scripts/gen_version.py" || {
   echo "pre-commit: gen_version.py failed" >&2
   exit 1
 }
 
-git add "$REPO_ROOT/data/version.json"
+git add "$REPO_ROOT/data/version.json" "$REPO_ROOT/sw.js" "$REPO_ROOT/index.html"
