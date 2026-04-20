@@ -523,10 +523,10 @@ function renderGpQuestion() {
       `;
       row.querySelector(".gp-speak").onclick = (e) => {
         e.stopPropagation();
-        // Clicking the speaker also counts as selecting this option
+        // Speaker just plays the audio; does NOT submit the answer.
         speakJP(opt.jp.replace(/[（(].*?[)）]/g, ""));
-        answerGp(i, row);
       };
+      // Clicking anywhere else on the row submits this option.
       row.onclick = () => answerGp(i, row);
       ui.gpOpts.appendChild(row);
     });
