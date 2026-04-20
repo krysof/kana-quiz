@@ -1,7 +1,7 @@
 const LANGS = {
   "zh-CN": {
     // Header
-    title: "50音训练",
+    title: "日本语同学会",
     subtitle: "选择练习模块",
     // Module cards
     mod_kana: "50音基础",
@@ -119,7 +119,7 @@ const LANGS = {
     data_error: "加载数据失败，请确保通过 HTTP 服务器访问（如 GitHub Pages 或本地服务器）",
   },
   "zh-TW": {
-    title: "50音訓練",
+    title: "日本語同學會",
     subtitle: "選擇練習模組",
     mod_kana: "50音基礎",
     mod_kana_desc: "清音・濁音・拗音",
@@ -220,7 +220,7 @@ const LANGS = {
     data_error: "載入資料失敗，請確保透過 HTTP 伺服器存取（如 GitHub Pages 或本地伺服器）",
   },
   ja: {
-    title: "50音トレーニング",
+    title: "日本語クラスメート",
     subtitle: "練習モジュールを選択",
     mod_kana: "50音基礎",
     mod_kana_desc: "清音・濁音・拗音",
@@ -321,7 +321,7 @@ const LANGS = {
     data_error: "データの読み込みに失敗しました。HTTPサーバー経由でアクセスしてください",
   },
   en: {
-    title: "Kana Trainer",
+    title: "Nihongo Class",
     subtitle: "Choose a practice module",
     mod_kana: "50 Kana",
     mod_kana_desc: "Seion, Dakuon, Yoon",

@@ -1,0 +1,23 @@
+{
+  "id": "/index.html",
+  "name": "日本语同学会",
+  "short_name": "同学会",
+  "description": "50音・词汇・汉字・JLPT・语法 全能日语学习",
+  "start_url": "../index.html",
+  "scope": "../",
+  "display": "standalone",
+  "theme_color": "#6366f1",
+  "background_color": "#0f0f1a",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
