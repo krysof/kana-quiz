@@ -496,20 +496,24 @@ function renderGpQuestion() {
     ui.gpHint.textContent = "";
     ui.gpQ.textContent = "";
     ui.gpOpts.innerHTML = "";
-    ui.gpResult.innerHTML = `<div class="gp-summary"><div style="font-size:2.6rem;margin-bottom:6px">${emoji}</div><div class="big">${rate}%</div><div class="sub">共 ${total} 题 · 正确 ${gpState.ok} · 错误 ${gpState.ng}</div></div>`;
-    ui.btnGpNext.textContent = "再来一次";
+    ui.gpResult.innerHTML = `<div class="gp-summary"><div style="font-size:2.6rem;margin-bottom:6px">${emoji}</div><div class="big">${rate}%</div><div class="sub">${t("gp_summary_sub", total, gpState.ok, gpState.ng)}</div></div>`;
+    ui.btnGpNext.textContent = t("gp_again");
     return;
   }
   const item = items[idx];
-  ui.gpHint.textContent = p.hint || p.question || "";
+  const lang = getLang();
+  // Prefer language-specific hint: p.hint_en / hint_zh_TW / hint_ja else p.hint
+  const hintLocalized = p[`hint_${lang.replace("-","_")}`] || p.hint || p.question || "";
+  ui.gpHint.textContent = hintLocalized;
   ui.gpResult.innerHTML = "";
-  ui.btnGpNext.textContent = "下一题";
+  ui.btnGpNext.textContent = t("btn_next");
   ui.gpOpts.innerHTML = "";
   gpState.answered = false;
 
   if (p.type === "scenario") {
-    // Question is a Chinese scene; options are JP verbs with mini speak button
-    ui.gpQ.textContent = item.scene;
+    // Prefer localized scene, fall back to original zh-CN
+    const sceneLocal = item[`scene_${lang.replace("-","_")}`] || item.scene;
+    ui.gpQ.textContent = sceneLocal;
     (item.options || []).forEach((opt, i) => {
       const row = document.createElement("div");
       row.className = "gp-opt gp-opt-row";
@@ -559,22 +563,30 @@ function answerGp(idx, el) {
   });
 
   // Build feedback
+  const lang2 = getLang();
+  const pickLang = (obj, key) =>
+    (obj && (obj[`${key}_${lang2.replace("-","_")}`] || obj[key])) || "";
+
   if (p.type === "scenario") {
     const correctOpt = item.options[correctIdx];
-    const groupLabel = (p.labels && correctOpt.g !== undefined) ? p.labels[correctOpt.g] : "";
-    const note = item.note ? `<div class="gp-note">⚠️ ${item.note}</div>` : "";
-    const usage = item.usage ? `<div class="gp-usage">💡 ${item.usage}</div>` : "";
+    const labelsArr = p[`labels_${lang2.replace("-","_")}`] || p.labels || [];
+    const groupLabel = (labelsArr && correctOpt.g !== undefined) ? labelsArr[correctOpt.g] : "";
+    const noteText = pickLang(item, "note");
+    const usageText = pickLang(item, "usage");
+    const note = noteText ? `<div class="gp-note">⚠️ ${noteText}</div>` : "";
+    const usage = usageText ? `<div class="gp-usage">💡 ${usageText}</div>` : "";
     // Speak correct verb after answer
     setTimeout(() => speakJP(correctOpt.jp.replace(/[（(].*?[)）]/g, "")), 300);
     const head = ok
-      ? `✅ 正确：<b>${correctOpt.jp}</b> · <span class="gp-tag">${groupLabel}</span>`
-      : `❌ 答案：<b>${correctOpt.jp}</b> · <span class="gp-tag">${groupLabel}</span>`;
+      ? `✅ ${t("gp_right")}<b>${correctOpt.jp}</b> · <span class="gp-tag">${groupLabel}</span>`
+      : `❌ ${t("gp_answer")}<b>${correctOpt.jp}</b> · <span class="gp-tag">${groupLabel}</span>`;
     ui.gpResult.innerHTML = head + note + usage;
   } else {
     const correctLabel = p.labels[correctIdx];
+    const cn = pickLang(item, "cn");
     ui.gpResult.innerHTML = ok
-      ? `✅ 正确：<b>${item.q}</b> 是 <b>${correctLabel}</b>${item.cn ? `（${item.cn}）` : ""}`
-      : `❌ 错了。<b>${item.q}</b> 是 <b>${correctLabel}</b>${item.cn ? `（${item.cn}）` : ""}`;
+      ? `✅ ${t("gp_right")}<b>${item.q}</b> → <b>${correctLabel}</b>${cn ? `（${cn}）` : ""}`
+      : `❌ ${t("gp_wrong")}<b>${item.q}</b> → <b>${correctLabel}</b>${cn ? `（${cn}）` : ""}`;
   }
 
   ui.gpOk.textContent = gpState.ok;
@@ -588,7 +600,7 @@ function nextGp() {
   if (!gpState) return;
   if (!gpState.answered && gpState.idx < gpState.items.length) {
     // Require answering first
-    ui.gpResult.textContent = "请先答题！";
+    ui.gpResult.textContent = t("please_answer");
     return;
   }
   if (gpState.idx >= gpState.items.length) {
@@ -968,7 +980,7 @@ function showSessionSummary(elapsed) {
   const ng = stats.session.ng;
   const accuracy = total ? Math.round((ok / total) * 100) : 0;
   const emoji = accuracy >= 90 ? "🏆" : accuracy >= 70 ? "🎉" : accuracy >= 50 ? "👍" : "💪";
-  ui.q.innerHTML = `<div class="gp-summary" style="padding:32px 8px 8px"><div style="font-size:3rem;margin-bottom:8px">${emoji}</div><div class="big">${accuracy}%</div><div class="sub">共 ${total} 题 · 正确 ${ok} · 错误 ${ng}</div><div class="sub" style="margin-top:6px">用时 ${formatTime(elapsed)}</div></div>`;
+  ui.q.innerHTML = `<div class="gp-summary" style="padding:32px 8px 8px"><div style="font-size:3rem;margin-bottom:8px">${emoji}</div><div class="big">${accuracy}%</div><div class="sub">${t("gp_summary_sub", total, ok, ng)}</div><div class="sub" style="margin-top:6px">${t("gp_summary_time")}${formatTime(elapsed)}</div></div>`;
   ui.meaning.textContent = "";
   ui.opts.innerHTML = "";
   ui.result.innerHTML = "";

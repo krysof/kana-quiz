@@ -285,7 +285,13 @@
             }
           ],
           "answer": 0,
-          "usage": "のみます 用于喝液体（水・お茶・コーヒー・お酒）。固体是 たべます。"
+          "usage": "のみます 用于喝液体（水・お茶・コーヒー・お酒）。固体是 たべます。",
+          "scene_en": "Drinking coffee in the morning",
+          "scene_ja": "朝にコーヒーを飲む",
+          "scene_zh_TW": "早上喝咖啡",
+          "usage_en": "Use のみます for liquids (water, tea, coffee, alcohol). Solid food uses たべます.",
+          "usage_ja": "飲み物は のみます、固体は たべます。",
+          "usage_zh_TW": "のみます 用於喝液體（水・お茶・コーヒー・お酒）。固體是 たべます。"
         },
         {
           "scene": "在餐厅吃寿司",
@@ -308,7 +314,13 @@
             }
           ],
           "answer": 0,
-          "usage": "たべます 用于固体食物。汤・药等液体用 のみます。"
+          "usage": "たべます 用于固体食物。汤・药等液体用 のみます。",
+          "scene_en": "Eating sushi at a restaurant",
+          "scene_ja": "レストランで寿司を食べる",
+          "scene_zh_TW": "在餐廳吃壽司",
+          "usage_en": "たべます for solid food. Soup and medicine use のみます.",
+          "usage_ja": "固体の食べ物には たべます、液体は のみます。",
+          "usage_zh_TW": "たべます 用於固體食物。湯・藥等液體用 のみます。"
         },
         {
           "scene": "每天早上6点起床",
@@ -331,7 +343,13 @@
             }
           ],
           "answer": 0,
-          "usage": "おきます 起床。相对词：ねます 睡觉。虽然 i-masu 却属 II 组。"
+          "usage": "おきます 起床。相对词：ねます 睡觉。虽然 i-masu 却属 II 组。",
+          "scene_en": "Waking up at 6am every morning",
+          "scene_ja": "毎朝6時に起きる",
+          "scene_zh_TW": "每天早上6點起床",
+          "usage_en": "おきます = wake up. Opposite: ねます (sleep). Despite ending in i-masu, it's Group II.",
+          "usage_ja": "おきます（起きる）は II 類例外。反対語：ねます。",
+          "usage_zh_TW": "おきます 起床。相對詞：ねます 睡覺。雖然 i-masu 卻屬 II 組。"
         },
         {
           "scene": "图书馆里看书",
@@ -354,7 +372,13 @@
             }
           ],
           "answer": 0,
-          "usage": "よみます 专指用眼睛读（书/报/信）。单纯看画面用 みます。"
+          "usage": "よみます 专指用眼睛读（书/报/信）。单纯看画面用 みます。",
+          "scene_en": "Reading books at the library",
+          "scene_ja": "図書館で本を読む",
+          "scene_zh_TW": "圖書館裡看書",
+          "usage_en": "よみます = read (books, papers, letters). Watching something uses みます.",
+          "usage_ja": "よみます＝本・新聞を読む。見るだけは みます。",
+          "usage_zh_TW": "よみます 專指用眼睛讀（書/報/信）。單純看畫面用 みます。"
         },
         {
           "scene": "在卡拉 OK 唱歌",
@@ -377,7 +401,13 @@
             }
           ],
           "answer": 0,
-          "usage": "うたいます 唱歌（歌を〜）。听音乐用 ききます。"
+          "usage": "うたいます 唱歌（歌を〜）。听音乐用 ききます。",
+          "scene_en": "Singing at karaoke",
+          "scene_ja": "カラオケで歌う",
+          "scene_zh_TW": "在卡拉 OK 唱歌",
+          "usage_en": "うたいます = to sing (歌を). Listen to music = ききます.",
+          "usage_ja": "歌は うたいます、音楽は ききます。",
+          "usage_zh_TW": "うたいます 唱歌（歌を〜）。聽音樂用 ききます。"
         },
         {
           "scene": "和朋友见面",
@@ -400,7 +430,13 @@
             }
           ],
           "answer": 0,
-          "usage": "あいます 接 に 助词：友達に 会います。不是 と。"
+          "usage": "あいます 接 に 助词：友達に 会います。不是 と。",
+          "scene_en": "Meeting a friend",
+          "scene_ja": "友達に会う",
+          "scene_zh_TW": "和朋友見面",
+          "usage_en": "あいます takes に: 友達に 会います (not と).",
+          "usage_ja": "「〜に 会います」助詞は に（×と）。",
+          "usage_zh_TW": "あいます 接 に 助詞：友達に 会います。不是 と。"
         },
         {
           "scene": "穿上新衣服",
@@ -424,7 +460,16 @@
           ],
           "answer": 0,
           "note": "穿上衣是 II 组例外",
-          "usage": "きます 专用于上身衣物（シャツ・コート）。裤/鞋用 はきます；帽子 かぶります。"
+          "usage": "きます 专用于上身衣物（シャツ・コート）。裤/鞋用 はきます；帽子 かぶります。",
+          "scene_en": "Putting on new clothes",
+          "scene_ja": "新しい服を着る",
+          "scene_zh_TW": "穿上新衣服",
+          "usage_en": "きます = to wear (upper body). Pants/shoes = はきます, hat = かぶります.",
+          "usage_ja": "上半身：きます。ズボン・靴：はきます。帽子：かぶります。",
+          "usage_zh_TW": "きます 專用於上身衣物（シャツ・コート）。褲/鞋用 はきます；帽子 かぶります。",
+          "note_en": "II-group exception",
+          "note_ja": "II グループ例外",
+          "note_zh_TW": "II 組例外"
         },
         {
           "scene": "坐电车回家",
@@ -447,7 +492,13 @@
             }
           ],
           "answer": 0,
-          "usage": "かえります 回（原处/家/国）。去其他地方用 いきます。"
+          "usage": "かえります 回（原处/家/国）。去其他地方用 いきます。",
+          "scene_en": "Going home by train",
+          "scene_ja": "電車で家へ帰る",
+          "scene_zh_TW": "坐電車回家",
+          "usage_en": "かえります = return to origin/home/country. Going elsewhere = いきます.",
+          "usage_ja": "元の場所に戻る＝かえります。別の場所へ＝いきます。",
+          "usage_zh_TW": "かえります 回（原處/家/國）。去其他地方用 いきます。"
         },
         {
           "scene": "写信给妈妈",
@@ -470,7 +521,13 @@
             }
           ],
           "answer": 0,
-          "usage": "かきます 写字/写信/写文章。画画也用它（絵を かきます）。"
+          "usage": "かきます 写字/写信/写文章。画画也用它（絵を かきます）。",
+          "scene_en": "Writing a letter to mom",
+          "scene_ja": "母に手紙を書く",
+          "scene_zh_TW": "寫信給媽媽",
+          "usage_en": "かきます = write/draw (letters, essays, pictures).",
+          "usage_ja": "字・手紙・絵を書く＝かきます。",
+          "usage_zh_TW": "かきます 寫字/寫信/寫文章。畫畫也用它（絵を かきます）。"
         },
         {
           "scene": "在海边游泳",
@@ -493,7 +550,13 @@
             }
           ],
           "answer": 0,
-          "usage": "およぎます 游泳。接 で 表示地点：海で 泳ぎます。"
+          "usage": "およぎます 游泳。接 で 表示地点：海で 泳ぎます。",
+          "scene_en": "Swimming at the beach",
+          "scene_ja": "海で泳ぐ",
+          "scene_zh_TW": "在海邊游泳",
+          "usage_en": "およぎます = to swim. Place uses で: 海で 泳ぎます.",
+          "usage_ja": "場所には で：海で 泳ぎます。",
+          "usage_zh_TW": "およぎます 游泳。接 で 表示地點：海で 泳ぎます。"
         },
         {
           "scene": "做作业/学习",
@@ -517,7 +580,16 @@
           ],
           "answer": 0,
           "note": "III 组复合动词",
-          "usage": "べんきょうします 学习（名词+します）。教别人是 おしえます。"
+          "usage": "べんきょうします 学习（名词+します）。教别人是 おしえます。",
+          "scene_en": "Doing homework / studying",
+          "scene_ja": "宿題をする／勉強する",
+          "scene_zh_TW": "做作業／學習",
+          "usage_en": "べんきょうします = to study (noun+します). Teaching is おしえます.",
+          "usage_ja": "勉強＝べんきょうします（名詞+します）。教えるは おしえます。",
+          "usage_zh_TW": "べんきょうします 學習（名詞+します）。教別人是 おしえます。",
+          "note_en": "III-group compound",
+          "note_ja": "III グループ（複合動詞）",
+          "note_zh_TW": "III 組複合動詞"
         },
         {
           "scene": "老师来教室",
@@ -540,7 +612,13 @@
             }
           ],
           "answer": 0,
-          "usage": "きます 来。对方从远处移动到说话人这里用它。去别处是 いきます。"
+          "usage": "きます 来。对方从远处移动到说话人这里用它。去别处是 いきます。",
+          "scene_en": "The teacher comes to the classroom",
+          "scene_ja": "先生が教室に来る",
+          "scene_zh_TW": "老師來教室",
+          "usage_en": "きます = to come (toward speaker). Going elsewhere = いきます.",
+          "usage_ja": "話者の方へ来る＝きます。離れる方向は いきます。",
+          "usage_zh_TW": "きます 來。對方從遠處移動到說話人這裡用它。去別處是 いきます。"
         },
         {
           "scene": "冲澡洗身体",
@@ -564,7 +642,16 @@
           ],
           "answer": 0,
           "note": "II 组例外",
-          "usage": "あびます 专指冲澡（シャワーを〜）。泡澡是 はいります（お風呂に）。"
+          "usage": "あびます 专指冲澡（シャワーを〜）。泡澡是 はいります（お風呂に）。",
+          "scene_en": "Taking a shower",
+          "scene_ja": "シャワーを浴びる",
+          "scene_zh_TW": "沖澡洗身體",
+          "usage_en": "あびます = to shower (シャワーを〜). Bath = お風呂に はいります.",
+          "usage_ja": "シャワーは あびます、湯船は お風呂に はいります。",
+          "usage_zh_TW": "あびます 專指沖澡（シャワーを〜）。泡澡是 はいります（お風呂に）。",
+          "note_en": "II-group exception",
+          "note_ja": "II グループ例外",
+          "note_zh_TW": "II 組例外"
         },
         {
           "scene": "打开窗户透气",
@@ -587,7 +674,13 @@
             }
           ],
           "answer": 0,
-          "usage": "あけます 开（关着的门/窗/盖子）。开灯/电器用 つけます。"
+          "usage": "あけます 开（关着的门/窗/盖子）。开灯/电器用 つけます。",
+          "scene_en": "Opening the window for air",
+          "scene_ja": "窓を開けて換気する",
+          "scene_zh_TW": "打開窗戶透氣",
+          "usage_en": "あけます = open (door/window). Turn on (light/device) = つけます.",
+          "usage_ja": "ドア・窓は あけます。電気・機械は つけます。",
+          "usage_zh_TW": "あけます 開（關著的門/窗/蓋子）。開燈/電器用 つけます。"
         },
         {
           "scene": "等公交车 10 分钟",
@@ -610,7 +703,13 @@
             }
           ],
           "answer": 0,
-          "usage": "まちます 等人或事。接 を：バスを 待ちます。"
+          "usage": "まちます 等人或事。接 を：バスを 待ちます。",
+          "scene_en": "Waiting 10 min for the bus",
+          "scene_ja": "バスを10分待つ",
+          "scene_zh_TW": "等公車 10 分鐘",
+          "usage_en": "まちます = to wait. Takes を: バスを 待ちます.",
+          "usage_ja": "「〜を 待ちます」助詞は を。",
+          "usage_zh_TW": "まちます 等人或事。接 を：バスを 待ちます。"
         },
         {
           "scene": "丢掉不要的东西",
@@ -633,7 +732,13 @@
             }
           ],
           "answer": 0,
-          "usage": "すてます 丢弃（不要的东西/垃圾）。不慎掉落是 おとします。"
+          "usage": "すてます 丢弃（不要的东西/垃圾）。不慎掉落是 おとします。",
+          "scene_en": "Throwing away unwanted items",
+          "scene_ja": "要らない物を捨てる",
+          "scene_zh_TW": "丟掉不要的東西",
+          "usage_en": "すてます = to throw away. Accidentally drop = おとします.",
+          "usage_ja": "すてます＝捨てる、うっかり落とすは おとします。",
+          "usage_zh_TW": "すてます 丟棄（不要的東西/垃圾）。不慎掉落是 おとします。"
         },
         {
           "scene": "从图书馆借书",
@@ -657,7 +762,16 @@
           ],
           "answer": 0,
           "note": "II 组例外",
-          "usage": "かります 借入（从别人那里拿来使用）。相对：かします 借出给别人；かえします 归还。"
+          "usage": "かります 借入（从别人那里拿来使用）。相对：かします 借出给别人；かえします 归还。",
+          "scene_en": "Borrowing a book from the library",
+          "scene_ja": "図書館で本を借りる",
+          "scene_zh_TW": "從圖書館借書",
+          "usage_en": "かります = to borrow. Opposite: かします (lend), かえします (return).",
+          "usage_ja": "借りる＝かります。貸すは かします、返すは かえします。",
+          "usage_zh_TW": "かります 借入（從別人那裡拿來使用）。相對：かします 借出給別人；かえします 歸還。",
+          "note_en": "II-group exception",
+          "note_ja": "II グループ例外",
+          "note_zh_TW": "II 組例外"
         },
         {
           "scene": "说明新项目内容",
@@ -680,7 +794,13 @@
             }
           ],
           "answer": 0,
-          "usage": "せつめいします 说明（名词+します）。单纯说话用 はなします。"
+          "usage": "せつめいします 说明（名词+します）。单纯说话用 はなします。",
+          "scene_en": "Explaining a new project",
+          "scene_ja": "新しいプロジェクトを説明する",
+          "scene_zh_TW": "說明新專案內容",
+          "usage_en": "せつめいします = explain (noun+します). Just talk = はなします.",
+          "usage_ja": "説明＝せつめいします（名詞+します）。ただ話すは はなします。",
+          "usage_zh_TW": "せつめいします 說明（名詞+します）。單純說話用 はなします。"
         },
         {
           "scene": "午夜睡觉前刷牙",
@@ -703,7 +823,13 @@
             }
           ],
           "answer": 0,
-          "usage": "ねます 睡觉/躺下。起床是 おきます。"
+          "usage": "ねます 睡觉/躺下。起床是 おきます。",
+          "scene_en": "Brushing teeth before bed",
+          "scene_ja": "寝る前に歯を磨く",
+          "scene_zh_TW": "午夜睡覺前刷牙",
+          "usage_en": "ねます = sleep / go to bed. Wake up = おきます.",
+          "usage_ja": "ねます＝寝る。起きるは おきます。",
+          "usage_zh_TW": "ねます 睡覺/躺下。起床是 おきます。"
         },
         {
           "scene": "便利店买饮料",
@@ -726,7 +852,13 @@
             }
           ],
           "answer": 0,
-          "usage": "かいます 买（用钱换取）。对应 うります 卖。"
+          "usage": "かいます 买（用钱换取）。对应 うります 卖。",
+          "scene_en": "Buying a drink at the convenience store",
+          "scene_ja": "コンビニで飲み物を買う",
+          "scene_zh_TW": "便利商店買飲料",
+          "usage_en": "かいます = to buy. Opposite: うります (sell).",
+          "usage_ja": "買う＝かいます。売るは うります。",
+          "usage_zh_TW": "かいます 買（用錢換取）。對應 うります 賣。"
         },
         {
           "scene": "给朋友展示照片",
@@ -749,7 +881,13 @@
             }
           ],
           "answer": 0,
-          "usage": "みせます 给人看（让对方看）。自己看是 みます。接 に：友達に 見せます。"
+          "usage": "みせます 给人看（让对方看）。自己看是 みます。接 に：友達に 見せます。",
+          "scene_en": "Showing photos to a friend",
+          "scene_ja": "友達に写真を見せる",
+          "scene_zh_TW": "給朋友展示照片",
+          "usage_en": "みせます = show to someone. Viewing yourself = みます. Takes に: 友達に 見せます.",
+          "usage_ja": "相手に見せる＝みせます。自分が見るは みます。",
+          "usage_zh_TW": "みせます 給人看（讓對方看）。自己看是 みます。接 に：友達に 見せます。"
         },
         {
           "scene": "下公交车",
@@ -773,7 +911,16 @@
           ],
           "answer": 0,
           "note": "II 组例外",
-          "usage": "おります 下（车/楼）。上车是 のります。接 を：バスを 降ります。"
+          "usage": "おります 下（车/楼）。上车是 のります。接 を：バスを 降ります。",
+          "scene_en": "Getting off the bus",
+          "scene_ja": "バスを降りる",
+          "scene_zh_TW": "下公車",
+          "usage_en": "おります = get off (vehicle/floor). Get on = のります. Takes を: バスを 降ります.",
+          "usage_ja": "降りる＝おります。乗るは のります。「バスを」。",
+          "usage_zh_TW": "おります 下（車/樓）。上車是 のります。接 を：バスを 降ります。",
+          "note_en": "II-group exception",
+          "note_ja": "II グループ例外",
+          "note_zh_TW": "II 組例外"
         },
         {
           "scene": "我能说日语",
@@ -797,7 +944,16 @@
           ],
           "answer": 0,
           "note": "II 组例外",
-          "usage": "できます 会/能做（表示能力），同时也表示某事完成。接 が：日本語が できます。"
+          "usage": "できます 会/能做（表示能力），同时也表示某事完成。接 が：日本語が できます。",
+          "scene_en": "I can speak Japanese",
+          "scene_ja": "日本語ができる",
+          "scene_zh_TW": "我能說日語",
+          "usage_en": "できます = can do / completed. Takes が: 日本語が できます.",
+          "usage_ja": "能力／完了＝できます。「〜が できます」。",
+          "usage_zh_TW": "できます 會/能做（表示能力），同時也表示某事完成。接 が：日本語が できます。",
+          "note_en": "II-group exception",
+          "note_ja": "II グループ例外",
+          "note_zh_TW": "II 組例外"
         },
         {
           "scene": "周末和家人玩耍",
@@ -820,7 +976,13 @@
             }
           ],
           "answer": 0,
-          "usage": "あそびます 玩耍/游玩（不是正事）。小孩玩耍、大人休闲都用。"
+          "usage": "あそびます 玩耍/游玩（不是正事）。小孩玩耍、大人休闲都用。",
+          "scene_en": "Playing with family on weekends",
+          "scene_ja": "週末家族と遊ぶ",
+          "scene_zh_TW": "週末和家人玩耍",
+          "usage_en": "あそびます = play/hang out (leisure, not work).",
+          "usage_ja": "あそびます＝遊ぶ・余暇。",
+          "usage_zh_TW": "あそびます 玩耍/遊玩（不是正事）。小孩玩耍、大人休閒都用。"
         },
         {
           "scene": "房间有一只猫",
@@ -844,7 +1006,16 @@
           ],
           "answer": 0,
           "note": "II 组例外（生物用 います）",
-          "usage": "います 有/在（生物：人、动物）。非生物是 あります。"
+          "usage": "います 有/在（生物：人、动物）。非生物是 あります。",
+          "scene_en": "There's a cat in the room",
+          "scene_ja": "部屋に猫がいる",
+          "scene_zh_TW": "房間有一隻貓",
+          "usage_en": "います = exist (living: people, animals). Non-living = あります.",
+          "usage_ja": "生物＝います、無生物＝あります。",
+          "usage_zh_TW": "います 有/在（生物：人、動物）。非生物是 あります。",
+          "note_en": "II-group exception (use います for living things)",
+          "note_ja": "II グループ例外（生物は います）",
+          "note_zh_TW": "II 組例外（生物用 います）"
         },
         {
           "scene": "桌子上有一本书",
@@ -867,7 +1038,13 @@
             }
           ],
           "answer": 0,
-          "usage": "あります 有/在（非生物：物品、植物、事情）。生物用 います。"
+          "usage": "あります 有/在（非生物：物品、植物、事情）。生物用 います。",
+          "scene_en": "There's a book on the desk",
+          "scene_ja": "机の上に本がある",
+          "scene_zh_TW": "桌子上有一本書",
+          "usage_en": "あります = exist (non-living). Living = います.",
+          "usage_ja": "無生物＝あります、生物＝います。",
+          "usage_zh_TW": "あります 有/在（非生物）。生物用 います。"
         },
         {
           "scene": "打电话给客户",
@@ -890,7 +1067,13 @@
             }
           ],
           "answer": 0,
-          "usage": "かけます 打电话（電話を〜）。接电话是 でます。"
+          "usage": "かけます 打电话（電話を〜）。接电话是 でます。",
+          "scene_en": "Calling a customer",
+          "scene_ja": "お客様に電話する",
+          "scene_zh_TW": "打電話給客戶",
+          "usage_en": "かけます = make a phone call (電話を〜). Answer = でます.",
+          "usage_ja": "電話を かけます／電話に でます。",
+          "usage_zh_TW": "かけます 打電話（電話を〜）。接電話是 でます。"
         },
         {
           "scene": "学习新单词记住",
@@ -913,7 +1096,13 @@
             }
           ],
           "answer": 0,
-          "usage": "おぼえます 记住。忘记是 わすれます。"
+          "usage": "おぼえます 记住。忘记是 わすれます。",
+          "scene_en": "Memorizing new words",
+          "scene_ja": "新しい単語を覚える",
+          "scene_zh_TW": "學習新單字記住",
+          "usage_en": "おぼえます = memorize/remember. Forget = わすれます.",
+          "usage_ja": "覚える＝おぼえます、忘れるは わすれます。",
+          "usage_zh_TW": "おぼえます 記住。忘記是 わすれます。"
         },
         {
           "scene": "跟老师报告结果",
@@ -936,7 +1125,13 @@
             }
           ],
           "answer": 0,
-          "usage": "ほうこくします 报告（名词+します）。单纯告知用 いいます。"
+          "usage": "ほうこくします 报告（名词+します）。单纯告知用 いいます。",
+          "scene_en": "Reporting results to the teacher",
+          "scene_ja": "先生に結果を報告する",
+          "scene_zh_TW": "跟老師報告結果",
+          "usage_en": "ほうこくします = report (noun+します). Simply telling = いいます.",
+          "usage_ja": "報告＝ほうこくします（名詞+します）。",
+          "usage_zh_TW": "ほうこくします 報告（名詞+します）。單純告知用 いいます。"
         },
         {
           "scene": "看电影一部新片",
@@ -960,13 +1155,40 @@
           ],
           "answer": 0,
           "note": "II 组例外",
-          "usage": "みます 看（影像/景色/展示）。阅读文字用 よみます。"
+          "usage": "みます 看（影像/景色/展示）。阅读文字用 よみます。",
+          "scene_en": "Watching a new movie",
+          "scene_ja": "映画（新作）を見る",
+          "scene_zh_TW": "看電影（新片）",
+          "usage_en": "みます = watch (images/scenery/shows). Reading text = よみます.",
+          "usage_ja": "映像・景色・展示＝みます。文字を読むは よみます。",
+          "usage_zh_TW": "みます 看（影像/景色/展示）。閱讀文字用 よみます。",
+          "note_en": "II-group exception",
+          "note_ja": "II グループ例外",
+          "note_zh_TW": "II 組例外"
         }
       ],
       "labels": [
         "I グループ（五段）",
         "II グループ（一段）",
         "III グループ（不规则）"
+      ],
+      "hint_zh_TW": "根據中文場景選最合適的日語動詞（答題後會告訴你它屬於哪一組）",
+      "hint_ja": "場面に合う動詞を選んでください（答えた後、どのグループか分かります）",
+      "hint_en": "Pick the best verb for the scene (after answering you'll see its group)",
+      "labels_en": [
+        "Group I (godan)",
+        "Group II (ichidan)",
+        "Group III (irregular)"
+      ],
+      "labels_ja": [
+        "I グループ（五段）",
+        "II グループ（一段）",
+        "III グループ（不規則）"
+      ],
+      "labels_zh_TW": [
+        "I 組（五段）",
+        "II 組（一段）",
+        "III 組（不規則）"
       ]
     }
   }
