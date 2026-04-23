@@ -771,7 +771,7 @@ function answerN2Choice(idx, boundNq) {
   }, 300);
 
   // Build result message
-  const tl = nq.translation ? `<div class="n2-translation">原文：${nq.sentence || ""}<br>译文：${nq.translation}</div>` : "";
+  const tl = nq.translation ? `<div class="n2-translation">${t("n2_original")}${nq.sentence || ""}<br>${t("n2_translation")}${nq.translation}</div>` : "";
   const expl = nq.explanation ? `<div class="n2-expl">${nq.explanation}</div>` : "";
   if (ok) {
     ui.result.innerHTML = `✅ ${t("result_correct")}<b>${correctText}</b>${tl}${expl}`;
