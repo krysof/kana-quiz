@@ -368,52 +368,60 @@ let grammarTopics = [];
 let currentGrammarTopic = null;
 let gpState = null;
 
+// Pick a localized field on an object: obj.key_<lang> (zh_TW/ja/en) else obj.key.
+function pickLocField(obj, key) {
+  if (!obj) return "";
+  const lang = getLang().replace("-", "_");
+  return obj[`${key}_${lang}`] ?? obj[key] ?? "";
+}
+
 function renderGrammarTopics() {
   if (!ui.grammarTopics) return;
   ui.grammarTopics.innerHTML = "";
-  grammarTopics.forEach((t) => {
+  grammarTopics.forEach((topic) => {
     const card = document.createElement("div");
     card.className = "grammar-topic-card";
     card.innerHTML = `
-      <div class="grammar-topic-icon">${t.emoji || "📘"}</div>
+      <div class="grammar-topic-icon">${topic.emoji || "📘"}</div>
       <div class="grammar-topic-info">
-        <div class="grammar-topic-title">${t.title}</div>
-        <div class="grammar-topic-sub">${t.subtitle || ""}</div>
+        <div class="grammar-topic-title">${pickLocField(topic, "title")}</div>
+        <div class="grammar-topic-sub">${pickLocField(topic, "subtitle")}</div>
       </div>
       <div class="grammar-topic-arrow">›</div>
     `;
-    card.onclick = () => openGrammarTopic(t);
+    card.onclick = () => openGrammarTopic(topic);
     ui.grammarTopics.appendChild(card);
   });
 }
 
 function openGrammarTopic(topic) {
   currentGrammarTopic = topic;
-  ui.grammarTopicTitle.textContent = topic.title;
+  ui.grammarTopicTitle.textContent = pickLocField(topic, "title");
   // Show practice button only if topic has practice data
   if (ui.btnGrammarPractice) {
     ui.btnGrammarPractice.classList.toggle("hide", !topic.practice);
   }
   ui.grammarContent.innerHTML = "";
+  const lang = getLang().replace("-", "_");
   (topic.sections || []).forEach((sec) => {
     const el = document.createElement("div");
     switch (sec.type) {
       case "intro":
         el.className = "g-intro";
-        el.innerHTML = sec.text;
+        el.innerHTML = pickLocField(sec, "text");
         break;
       case "heading":
         el.className = "g-heading";
-        el.innerHTML = sec.text;
+        el.innerHTML = pickLocField(sec, "text");
         break;
       case "rule":
         el.className = "g-rule";
-        el.innerHTML = sec.text;
+        el.innerHTML = pickLocField(sec, "text");
         if (sec.color) el.style.borderLeftColor = sec.color;
         break;
       case "note":
         el.className = "g-note";
-        el.innerHTML = sec.text;
+        el.innerHTML = pickLocField(sec, "text");
         break;
       case "verb_list":
         el.className = "g-verb-list";
@@ -423,7 +431,7 @@ function openGrammarTopic(topic) {
           item.innerHTML = `
             <span class="jp">${v.jp}</span>
             <span class="rm">${v.rm || ""}</span>
-            <span class="cn">${v.cn || ""}</span>
+            <span class="cn">${pickLocField(v, "cn")}</span>
           `;
           item.onclick = () => speakJP(v.jp.replace(/[（(].*?[)）]/g, ""));
           el.appendChild(item);
@@ -431,7 +439,8 @@ function openGrammarTopic(topic) {
         break;
       case "steps":
         el.className = "g-steps";
-        (sec.items || []).forEach((s) => {
+        const stepsItems = sec[`items_${lang}`] || sec.items || [];
+        stepsItems.forEach((s) => {
           const p = document.createElement("div");
           p.className = "step";
           p.innerHTML = s;
@@ -1121,6 +1130,16 @@ function switchLang(lang) {
   }
   updateDashboard();
   if (current) renderQuestion();
+  // Re-render grammar screens if visible
+  if (ui.grammarScreen && !ui.grammarScreen.classList.contains("hide")) {
+    renderGrammarTopics();
+  }
+  if (ui.grammarTopicScreen && !ui.grammarTopicScreen.classList.contains("hide") && currentGrammarTopic) {
+    openGrammarTopic(currentGrammarTopic);
+  }
+  if (ui.grammarPracticeScreen && !ui.grammarPracticeScreen.classList.contains("hide") && gpState) {
+    renderGpQuestion();
+  }
 }
 
 function wire() {

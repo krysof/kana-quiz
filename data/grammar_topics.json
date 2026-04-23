@@ -7,16 +7,25 @@
     "sections": [
       {
         "type": "intro",
-        "text": "日语动词根据「ます」前的假名属于哪一段（い段・え段）分为三组，是所有动词变形的基础。"
+        "text": "日语动词根据「ます」前的假名属于哪一段（い段・え段）分为三组，是所有动词变形的基础。",
+        "text_zh_TW": "日語動詞根據「ます」前的假名屬於哪一段（い段・え段）分為三組，是所有動詞變形的基礎。",
+        "text_ja": "日本語の動詞は「ます」の直前の音がどの段（い段・え段）かで三つのグループに分かれ、すべての活用の基礎になります。",
+        "text_en": "Japanese verbs split into three groups based on the kana before ます (い-row vs. え-row). This is the foundation for every conjugation."
       },
       {
         "type": "heading",
-        "text": "I グループ（五段动词）"
+        "text": "I グループ（五段动词）",
+        "text_zh_TW": "I グループ（五段動詞）",
+        "text_ja": "I グループ（五段動詞）",
+        "text_en": "Group I (Godan verbs)"
       },
       {
         "type": "rule",
         "text": "ます前是 <b>い段</b> 的音（き・し・ち・に・ひ・み・り・ぎ・び・ぴ 等）",
-        "color": "#6366f1"
+        "color": "#6366f1",
+        "text_zh_TW": "ます前是 <b>い段</b> 的音（き・し・ち・に・ひ・み・り・ぎ・び・ぴ 等）",
+        "text_ja": "ます の前が <b>い段</b> の音（き・し・ち・に・ひ・み・り・ぎ・び・ぴ など）",
+        "text_en": "Before ます is an <b>i-row</b> kana (き・し・ち・に・ひ・み・り・ぎ・び・ぴ etc.)"
       },
       {
         "type": "verb_list",
@@ -24,93 +33,147 @@
           {
             "jp": "あいます",
             "rm": "a-i-masu",
-            "cn": "见面"
+            "cn": "见面",
+            "cn_zh_TW": "見面",
+            "cn_ja": "会う",
+            "cn_en": "meet"
           },
           {
             "jp": "かいます",
             "rm": "ka-i-masu",
-            "cn": "买"
+            "cn": "买",
+            "cn_zh_TW": "買",
+            "cn_ja": "買う",
+            "cn_en": "buy"
           },
           {
             "jp": "まちます",
             "rm": "ma-chi-masu",
-            "cn": "等"
+            "cn": "等",
+            "cn_zh_TW": "等",
+            "cn_ja": "待つ",
+            "cn_en": "wait"
           },
           {
             "jp": "たちます",
             "rm": "ta-chi-masu",
-            "cn": "站立"
+            "cn": "站立",
+            "cn_zh_TW": "站立",
+            "cn_ja": "立つ",
+            "cn_en": "stand"
           },
           {
             "jp": "とります",
             "rm": "to-ri-masu",
-            "cn": "拿/取"
+            "cn": "拿/取",
+            "cn_zh_TW": "拿/取",
+            "cn_ja": "取る",
+            "cn_en": "take"
           },
           {
             "jp": "かえります",
             "rm": "ka-e-ri-masu",
-            "cn": "回"
+            "cn": "回",
+            "cn_zh_TW": "回",
+            "cn_ja": "帰る",
+            "cn_en": "return"
           },
           {
             "jp": "よびます",
             "rm": "yo-bi-masu",
-            "cn": "呼叫"
+            "cn": "呼叫",
+            "cn_zh_TW": "呼叫",
+            "cn_ja": "呼ぶ",
+            "cn_en": "call"
           },
           {
             "jp": "あそびます",
             "rm": "a-so-bi-masu",
-            "cn": "玩"
+            "cn": "玩",
+            "cn_zh_TW": "玩",
+            "cn_ja": "遊ぶ",
+            "cn_en": "play"
           },
           {
             "jp": "よみます",
             "rm": "yo-mi-masu",
-            "cn": "读"
+            "cn": "读",
+            "cn_zh_TW": "讀",
+            "cn_ja": "読む",
+            "cn_en": "read"
           },
           {
             "jp": "のみます",
             "rm": "no-mi-masu",
-            "cn": "喝"
+            "cn": "喝",
+            "cn_zh_TW": "喝",
+            "cn_ja": "飲む",
+            "cn_en": "drink"
           },
           {
             "jp": "かきます",
             "rm": "ka-ki-masu",
-            "cn": "写"
+            "cn": "写",
+            "cn_zh_TW": "寫",
+            "cn_ja": "書く",
+            "cn_en": "write"
           },
           {
             "jp": "いきます",
             "rm": "i-ki-masu",
-            "cn": "去"
+            "cn": "去",
+            "cn_zh_TW": "去",
+            "cn_ja": "行く",
+            "cn_en": "go"
           },
           {
             "jp": "いそぎます",
             "rm": "i-so-gi-masu",
-            "cn": "赶快"
+            "cn": "赶快",
+            "cn_zh_TW": "趕快",
+            "cn_ja": "急ぐ",
+            "cn_en": "hurry"
           },
           {
             "jp": "およぎます",
             "rm": "o-yo-gi-masu",
-            "cn": "游泳"
+            "cn": "游泳",
+            "cn_zh_TW": "游泳",
+            "cn_ja": "泳ぐ",
+            "cn_en": "swim"
           },
           {
             "jp": "はなします",
             "rm": "ha-na-shi-masu",
-            "cn": "说话"
+            "cn": "说话",
+            "cn_zh_TW": "說話",
+            "cn_ja": "話す",
+            "cn_en": "speak"
           },
           {
             "jp": "おします",
             "rm": "o-shi-masu",
-            "cn": "推/按"
+            "cn": "推/按",
+            "cn_zh_TW": "推/按",
+            "cn_ja": "押す",
+            "cn_en": "push"
           }
         ]
       },
       {
         "type": "heading",
-        "text": "II グループ（一段动词）"
+        "text": "II グループ（一段动词）",
+        "text_zh_TW": "II グループ（一段動詞）",
+        "text_ja": "II グループ（一段動詞）",
+        "text_en": "Group II (Ichidan verbs)"
       },
       {
         "type": "rule",
         "text": "ます前是 <b>え段</b>（e-masu）",
-        "color": "#10b981"
+        "color": "#10b981",
+        "text_zh_TW": "ます前是 <b>え段</b>（e-masu）",
+        "text_ja": "ます の前が <b>え段</b>（e-masu）",
+        "text_en": "Before ます is an <b>e-row</b> kana (e-masu)"
       },
       {
         "type": "verb_list",
@@ -118,53 +181,83 @@
           {
             "jp": "たべます",
             "rm": "ta-be-masu",
-            "cn": "吃"
+            "cn": "吃",
+            "cn_zh_TW": "吃",
+            "cn_ja": "食べる",
+            "cn_en": "eat"
           },
           {
             "jp": "ねます",
             "rm": "ne-masu",
-            "cn": "睡"
+            "cn": "睡",
+            "cn_zh_TW": "睡",
+            "cn_ja": "寝る",
+            "cn_en": "sleep"
           },
           {
             "jp": "でます",
             "rm": "de-masu",
-            "cn": "出/出发"
+            "cn": "出/出发",
+            "cn_zh_TW": "出/出發",
+            "cn_ja": "出る",
+            "cn_en": "go out / leave"
           },
           {
             "jp": "つけます",
             "rm": "tsu-ke-masu",
-            "cn": "打开/安装"
+            "cn": "打开/安装",
+            "cn_zh_TW": "打開/安裝",
+            "cn_ja": "つける",
+            "cn_en": "turn on / attach"
           },
           {
             "jp": "あけます",
             "rm": "a-ke-masu",
-            "cn": "开（门窗）"
+            "cn": "开（门窗）",
+            "cn_zh_TW": "開（門窗）",
+            "cn_ja": "開ける",
+            "cn_en": "open (door/window)"
           },
           {
             "jp": "しらべます",
             "rm": "shi-ra-be-masu",
-            "cn": "调查/查"
+            "cn": "调查/查",
+            "cn_zh_TW": "調查/查",
+            "cn_ja": "調べる",
+            "cn_en": "look up / investigate"
           },
           {
             "jp": "すてます",
             "rm": "su-te-masu",
-            "cn": "丢弃"
+            "cn": "丢弃",
+            "cn_zh_TW": "丟棄",
+            "cn_ja": "捨てる",
+            "cn_en": "throw away"
           },
           {
             "jp": "みせます",
             "rm": "mi-se-masu",
-            "cn": "给...看"
+            "cn": "给...看",
+            "cn_zh_TW": "給…看",
+            "cn_ja": "見せる",
+            "cn_en": "show"
           }
         ]
       },
       {
         "type": "rule",
         "text": "⚠️ 例外：ます前是 <b>い段</b> 但属于 II 组（i-masu 但是一段动词）",
-        "color": "#f59e0b"
+        "color": "#f59e0b",
+        "text_zh_TW": "⚠️ 例外：ます前是 <b>い段</b> 但屬於 II 組（i-masu 但是一段動詞）",
+        "text_ja": "⚠️ 例外：ます の前が <b>い段</b> でも II グループ（i-masu でも一段動詞）",
+        "text_en": "⚠️ Exception: ends in い-row but still Group II (i-masu yet ichidan)"
       },
       {
         "type": "note",
-        "text": "这些词最容易混淆，必须单独记忆。"
+        "text": "这些词最容易混淆，必须单独记忆。",
+        "text_zh_TW": "這些詞最容易混淆，必須單獨記憶。",
+        "text_ja": "これらは最も紛らわしく、個別に覚える必要があります。",
+        "text_en": "These are the easiest to confuse — memorize them individually."
       },
       {
         "type": "verb_list",
@@ -172,53 +265,83 @@
           {
             "jp": "みます",
             "rm": "mi-masu",
-            "cn": "看"
+            "cn": "看",
+            "cn_zh_TW": "看",
+            "cn_ja": "見る",
+            "cn_en": "watch"
           },
           {
             "jp": "います",
             "rm": "i-masu",
-            "cn": "在（生物）"
+            "cn": "在（生物）",
+            "cn_zh_TW": "在（生物）",
+            "cn_ja": "いる",
+            "cn_en": "be (animate)"
           },
           {
             "jp": "あびます",
             "rm": "a-bi-masu",
-            "cn": "冲（澡）"
+            "cn": "冲（澡）",
+            "cn_zh_TW": "沖（澡）",
+            "cn_ja": "浴びる",
+            "cn_en": "shower"
           },
           {
             "jp": "かります",
             "rm": "ka-ri-masu",
-            "cn": "借入"
+            "cn": "借入",
+            "cn_zh_TW": "借入",
+            "cn_ja": "借りる",
+            "cn_en": "borrow"
           },
           {
             "jp": "（朝6時に）おきます",
             "rm": "o-ki-masu",
-            "cn": "起床"
+            "cn": "起床",
+            "cn_zh_TW": "起床",
+            "cn_ja": "起きる",
+            "cn_en": "wake up"
           },
           {
             "jp": "（シャツを）きます",
             "rm": "ki-masu",
-            "cn": "穿（上衣）"
+            "cn": "穿（上衣）",
+            "cn_zh_TW": "穿（上衣）",
+            "cn_ja": "着る",
+            "cn_en": "wear (upper body)"
           },
           {
             "jp": "（バスを）おります",
             "rm": "o-ri-masu",
-            "cn": "下（车）"
+            "cn": "下（车）",
+            "cn_zh_TW": "下（車）",
+            "cn_ja": "降りる",
+            "cn_en": "get off"
           },
           {
             "jp": "できます",
             "rm": "de-ki-masu",
-            "cn": "会/能"
+            "cn": "会/能",
+            "cn_zh_TW": "會/能",
+            "cn_ja": "できる",
+            "cn_en": "can do"
           }
         ]
       },
       {
         "type": "heading",
-        "text": "III グループ（不规则动词）"
+        "text": "III グループ（不规则动词）",
+        "text_zh_TW": "III グループ（不規則動詞）",
+        "text_ja": "III グループ（不規則動詞）",
+        "text_en": "Group III (Irregular verbs)"
       },
       {
         "type": "rule",
         "text": "只有 <b>来ます</b> 和 <b>します</b> 两个，以及「名词+します」的复合动词。",
-        "color": "#ef4444"
+        "color": "#ef4444",
+        "text_zh_TW": "只有 <b>来ます</b> 和 <b>します</b> 兩個，以及「名詞+します」的複合動詞。",
+        "text_ja": "<b>来ます</b> と <b>します</b> の二つ、および「名詞+します」の複合動詞のみ。",
+        "text_en": "Only <b>来ます</b> and <b>します</b>, plus 'noun + します' compound verbs."
       },
       {
         "type": "verb_list",
@@ -226,28 +349,43 @@
           {
             "jp": "きます",
             "rm": "ki-masu",
-            "cn": "来（来る）"
+            "cn": "来（来る）",
+            "cn_zh_TW": "來（来る）",
+            "cn_ja": "来る",
+            "cn_en": "come"
           },
           {
             "jp": "します",
             "rm": "shi-masu",
-            "cn": "做（する）"
+            "cn": "做（する）",
+            "cn_zh_TW": "做（する）",
+            "cn_ja": "する",
+            "cn_en": "do"
           },
           {
             "jp": "べんきょうします",
             "rm": "be-n-kyou-shi-masu",
-            "cn": "学习"
+            "cn": "学习",
+            "cn_zh_TW": "學習",
+            "cn_ja": "勉強する",
+            "cn_en": "study"
           },
           {
             "jp": "せつめいします",
             "rm": "se-tsu-mei-shi-masu",
-            "cn": "说明"
+            "cn": "说明",
+            "cn_zh_TW": "說明",
+            "cn_ja": "説明する",
+            "cn_en": "explain"
           }
         ]
       },
       {
         "type": "heading",
-        "text": "快速判断方法"
+        "text": "快速判断方法",
+        "text_zh_TW": "快速判斷方法",
+        "text_ja": "素早く見分けるコツ",
+        "text_en": "Quick identification steps"
       },
       {
         "type": "steps",
@@ -257,6 +395,27 @@
           "② <b>い段</b> 且不是 III 组 → 通常是 <b>I 组</b>",
           "③ 但 み/い/あび/かり/おき/き/おり/でき 这些 i-masu 是 <b>II 组例外</b>",
           "④ <b>します・きます</b> → <b>III 组</b>"
+        ],
+        "items_zh_TW": [
+          "看 <b>ます</b> 前面一個字是什麼段：",
+          "① <b>え段</b>（たべ・ね・で...）→ <b>II 組</b>",
+          "② <b>い段</b> 且不是 III 組 → 通常是 <b>I 組</b>",
+          "③ 但 み/い/あび/かり/おき/き/おり/でき 這些 i-masu 是 <b>II 組例外</b>",
+          "④ <b>します・きます</b> → <b>III 組</b>"
+        ],
+        "items_ja": [
+          "<b>ます</b> の直前の音が何段か見る：",
+          "① <b>え段</b>（たべ・ね・で…）→ <b>II グループ</b>",
+          "② <b>い段</b> で III でなければ → たいてい <b>I グループ</b>",
+          "③ ただし み／い／あび／かり／おき／き／おり／でき などの i-masu は <b>II グループ例外</b>",
+          "④ <b>します・きます</b> → <b>III グループ</b>"
+        ],
+        "items_en": [
+          "Check which row the kana right before <b>ます</b> belongs to:",
+          "① <b>e-row</b> (たべ / ね / で …) → <b>Group II</b>",
+          "② <b>i-row</b> and not Group III → usually <b>Group I</b>",
+          "③ But み / い / あび / かり / おき / き / おり / でき (i-masu) → <b>Group II exceptions</b>",
+          "④ <b>します / きます</b> → <b>Group III</b>"
         ]
       }
     ],
@@ -1190,6 +1349,12 @@
         "II 組（一段）",
         "III 組（不規則）"
       ]
-    }
+    },
+    "title_zh_TW": "動詞分組（グループ）",
+    "title_ja": "動詞のグループ分類",
+    "title_en": "Verb Groups",
+    "subtitle_zh_TW": "日語動詞三大類 I・II・III",
+    "subtitle_ja": "日本語動詞の三分類 I・II・III",
+    "subtitle_en": "The three Japanese verb groups: I / II / III"
   }
 ]
