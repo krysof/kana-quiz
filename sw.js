@@ -1,4 +1,4 @@
-const CACHE_VERSION = '2026-04-23.2';
+const CACHE_VERSION = '2026-04-26.1';
 const CACHE_NAME = `gojuon-${CACHE_VERSION}`;
 
 // App shell - precached on install

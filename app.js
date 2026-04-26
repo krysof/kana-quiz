@@ -693,10 +693,22 @@ function pickN2Question() {
     n2AnsweredIds.clear();
     const resetPool = bank.filter(q => cats.has(q.cat));
     if (!resetPool.length) return null;
-    return resetPool[Math.floor(Math.random() * resetPool.length)];
+    return shuffleN2Question(resetPool[Math.floor(Math.random() * resetPool.length)]);
   }
 
-  return pool[Math.floor(Math.random() * pool.length)];
+  return shuffleN2Question(pool[Math.floor(Math.random() * pool.length)]);
+}
+
+// Most JLPT banks were generated with answer=0. Shuffle options at pick time
+// so the correct slot is randomized; remap answer index accordingly.
+function shuffleN2Question(q) {
+  if (!q || !Array.isArray(q.options) || typeof q.answer !== "number") return q;
+  const idxs = q.options.map((_, i) => i);
+  for (let i = idxs.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [idxs[i], idxs[j]] = [idxs[j], idxs[i]];
+  }
+  return { ...q, options: idxs.map(i => q.options[i]), answer: idxs.indexOf(q.answer) };
 }
 
 function renderN2Question() {
