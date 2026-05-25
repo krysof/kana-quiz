@@ -8,7 +8,7 @@
   <title>日本语同学会</title>
   <link rel="manifest" href="./pwa/manifest.json" />
   <link rel="apple-touch-icon" href="./pwa/icons/icon-192.png" />
-  <link rel="stylesheet" href="./style.css?v=2026-05-25.2" />
+  <link rel="stylesheet" href="./style.css?v=2026-05-25.3" />
 </head>
 <body>
   <div class="container">
@@ -103,6 +103,9 @@
           <label class="chk" data-i18n="mode_jp_mc"><input type="checkbox" value="jp_mc" checked> 假名→选罗马音</label>
           <label class="chk" data-i18n="mode_rm_mean"><input type="checkbox" value="rm_mean"> 读音→选意思</label>
           <label class="chk" data-i18n="mode_mean_rm"><input type="checkbox" value="mean_rm"> 意思→选读音</label>
+          <label class="chk" data-i18n="mode_word_synonym"><input type="checkbox" value="word_synonym"> 同义词</label>
+          <label class="chk" data-i18n="mode_word_near"><input type="checkbox" value="word_near"> 近义词</label>
+          <label class="chk" data-i18n="mode_word_antonym"><input type="checkbox" value="word_antonym"> 反义词</label>
         </div>
       </section>
 
@@ -280,7 +283,7 @@
     </div>
   </div>
 
-  <script type="module" src="./app.js?v=2026-05-25.2"></script>
+  <script type="module" src="./app.js?v=2026-05-25.3"></script>
   <script>
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('./sw.js').then((reg) => {

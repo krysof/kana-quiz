@@ -1,0 +1,544 @@
+[
+  {
+    "kind": "synonym",
+    "source": "ie",
+    "target": {
+      "hira": "うち",
+      "rm": "uchi",
+      "meaning": "家/家里",
+      "meaning_zh_TW": "家/家裡",
+      "meaning_ja": "家・自宅",
+      "meaning_en": "home"
+    }
+  },
+  {
+    "kind": "synonym",
+    "source": "tomodachi",
+    "target": {
+      "hira": "ゆうじん",
+      "rm": "yuujin",
+      "meaning": "友人",
+      "meaning_zh_TW": "友人",
+      "meaning_ja": "友人",
+      "meaning_en": "friend"
+    }
+  },
+  {
+    "kind": "synonym",
+    "source": "asagohan",
+    "target": {
+      "hira": "ちょうしょく",
+      "rm": "choushoku",
+      "meaning": "早餐",
+      "meaning_zh_TW": "早餐",
+      "meaning_ja": "朝食",
+      "meaning_en": "breakfast"
+    }
+  },
+  {
+    "kind": "synonym",
+    "source": "hirugohan",
+    "target": {
+      "hira": "ちゅうしょく",
+      "rm": "chuushoku",
+      "meaning": "午餐",
+      "meaning_zh_TW": "午餐",
+      "meaning_ja": "昼食",
+      "meaning_en": "lunch"
+    }
+  },
+  {
+    "kind": "synonym",
+    "source": "bangohan",
+    "target": {
+      "hira": "ゆうしょく",
+      "rm": "yuushoku",
+      "meaning": "晚餐",
+      "meaning_zh_TW": "晚餐",
+      "meaning_ja": "夕食",
+      "meaning_en": "dinner"
+    }
+  },
+  {
+    "kind": "synonym",
+    "source": "isha",
+    "target": {
+      "hira": "いし",
+      "rm": "ishi_doctor",
+      "meaning": "医生",
+      "meaning_zh_TW": "醫生",
+      "meaning_ja": "医師",
+      "meaning_en": "doctor"
+    }
+  },
+  {
+    "kind": "synonym",
+    "source": "ishab",
+    "target": {
+      "hira": "いし",
+      "rm": "ishi_doctor",
+      "meaning": "医生",
+      "meaning_zh_TW": "醫生",
+      "meaning_ja": "医師",
+      "meaning_en": "doctor"
+    }
+  },
+  {
+    "kind": "synonym",
+    "source": "kuruma",
+    "target": {
+      "hira": "じどうしゃ",
+      "rm": "jidousha",
+      "meaning": "汽车",
+      "meaning_zh_TW": "汽車",
+      "meaning_ja": "自動車",
+      "meaning_en": "automobile"
+    }
+  },
+  {
+    "kind": "synonym",
+    "source": "kippu",
+    "target": {
+      "hira": "チケット",
+      "kata": "チケット",
+      "rm": "chiketto",
+      "meaning": "票",
+      "meaning_zh_TW": "票",
+      "meaning_ja": "チケット",
+      "meaning_en": "ticket"
+    }
+  },
+  {
+    "kind": "synonym",
+    "source": "zenbu",
+    "target": {
+      "hira": "すべて",
+      "rm": "subete",
+      "meaning": "全部",
+      "meaning_zh_TW": "全部",
+      "meaning_ja": "すべて",
+      "meaning_en": "everything/all"
+    }
+  },
+  {
+    "kind": "synonym",
+    "source": "saisho",
+    "target": {
+      "hira": "はじめ",
+      "rm": "hajime",
+      "meaning": "开始/最初",
+      "meaning_zh_TW": "開始/最初",
+      "meaning_ja": "初め",
+      "meaning_en": "beginning"
+    }
+  },
+  {
+    "kind": "synonym",
+    "source": "saigo",
+    "target": {
+      "hira": "おわり",
+      "rm": "owari",
+      "meaning": "结束/最后",
+      "meaning_zh_TW": "結束/最後",
+      "meaning_ja": "終わり",
+      "meaning_en": "end"
+    }
+  },
+  {
+    "kind": "synonym",
+    "source": "sukoshi",
+    "target": {
+      "hira": "ちょっと",
+      "rm": "chotto",
+      "meaning": "一点儿",
+      "meaning_zh_TW": "一點兒",
+      "meaning_ja": "少し",
+      "meaning_en": "a little"
+    }
+  },
+  {
+    "kind": "synonym",
+    "source": "mochiron",
+    "target": {
+      "hira": "とうぜん",
+      "rm": "touzen",
+      "meaning": "当然",
+      "meaning_zh_TW": "當然",
+      "meaning_ja": "当然",
+      "meaning_en": "of course"
+    }
+  },
+  {
+    "kind": "synonym",
+    "source": "ryokou",
+    "target": {
+      "hira": "たび",
+      "rm": "tabi",
+      "meaning": "旅行",
+      "meaning_zh_TW": "旅行",
+      "meaning_ja": "旅",
+      "meaning_en": "trip"
+    }
+  },
+  {
+    "kind": "synonym",
+    "source": "ii",
+    "target": "yoi"
+  },
+  {
+    "kind": "synonym",
+    "source": "mori",
+    "target": "morib"
+  },
+  {
+    "kind": "synonym",
+    "source": "hoshi",
+    "target": "hoshib"
+  },
+  {
+    "kind": "synonym",
+    "source": "tomodachib",
+    "target": {
+      "hira": "ゆうじん",
+      "rm": "yuujin",
+      "meaning": "友人",
+      "meaning_zh_TW": "友人",
+      "meaning_ja": "友人",
+      "meaning_en": "friend"
+    }
+  },
+  {
+    "kind": "synonym",
+    "source": "hon",
+    "target": "tosho"
+  },
+  {
+    "kind": "near",
+    "source": "narau",
+    "target": "manabu"
+  },
+  {
+    "kind": "near",
+    "source": "benkyou",
+    "target": "manabu"
+  },
+  {
+    "kind": "near",
+    "source": "omou",
+    "target": "kangaeru"
+  },
+  {
+    "kind": "near",
+    "source": "kotaeru",
+    "target": {
+      "hira": "へんじ",
+      "rm": "henji",
+      "meaning": "回复/回答",
+      "meaning_zh_TW": "回覆/回答",
+      "meaning_ja": "返事",
+      "meaning_en": "reply"
+    }
+  },
+  {
+    "kind": "near",
+    "source": "tasukeru",
+    "target": "tetsudaub"
+  },
+  {
+    "kind": "near",
+    "source": "kiku",
+    "target": "kikoeru"
+  },
+  {
+    "kind": "near",
+    "source": "miru",
+    "target": "mieru"
+  },
+  {
+    "kind": "near",
+    "source": "ureshii",
+    "target": "tanoshii"
+  },
+  {
+    "kind": "near",
+    "source": "kanashii",
+    "target": "sabishii"
+  },
+  {
+    "kind": "near",
+    "source": "kowai",
+    "target": "shinpai"
+  },
+  {
+    "kind": "near",
+    "source": "kirei",
+    "target": "kawaii"
+  },
+  {
+    "kind": "near",
+    "source": "sugoi",
+    "target": "subarashii"
+  },
+  {
+    "kind": "near",
+    "source": "genki",
+    "target": "kenkou"
+  },
+  {
+    "kind": "near",
+    "source": "raku",
+    "target": "kantan"
+  },
+  {
+    "kind": "near",
+    "source": "daiji",
+    "target": "hitsuyou"
+  },
+  {
+    "kind": "near",
+    "source": "kaimono",
+    "target": "kau"
+  },
+  {
+    "kind": "near",
+    "source": "renshuu",
+    "target": "benkyou"
+  },
+  {
+    "kind": "near",
+    "source": "setsumei",
+    "target": "oshieru"
+  },
+  {
+    "kind": "near",
+    "source": "soudan",
+    "target": "hanasu"
+  },
+  {
+    "kind": "near",
+    "source": "renraku",
+    "target": "denwa"
+  },
+  {
+    "kind": "near",
+    "source": "shigoto",
+    "target": "kinmu"
+  },
+  {
+    "kind": "near",
+    "source": "kaisha",
+    "target": "koujou"
+  },
+  {
+    "kind": "near",
+    "source": "machi",
+    "target": "shakai"
+  },
+  {
+    "kind": "near",
+    "source": "jiko",
+    "target": "jiken"
+  },
+  {
+    "kind": "near",
+    "source": "heiwa",
+    "target": "anzen"
+  },
+  {
+    "kind": "antonym",
+    "source": "ookii",
+    "target": "chiisai"
+  },
+  {
+    "kind": "antonym",
+    "source": "takai",
+    "target": "yasui"
+  },
+  {
+    "kind": "antonym",
+    "source": "atarashii",
+    "target": "furui"
+  },
+  {
+    "kind": "antonym",
+    "source": "ii",
+    "target": "warui"
+  },
+  {
+    "kind": "antonym",
+    "source": "atsui",
+    "target": "samui"
+  },
+  {
+    "kind": "antonym",
+    "source": "suki",
+    "target": "kirai"
+  },
+  {
+    "kind": "antonym",
+    "source": "muzukashii",
+    "target": "kantan"
+  },
+  {
+    "kind": "antonym",
+    "source": "ue",
+    "target": "shita"
+  },
+  {
+    "kind": "antonym",
+    "source": "soto",
+    "target": "naka"
+  },
+  {
+    "kind": "antonym",
+    "source": "migi",
+    "target": "hidari"
+  },
+  {
+    "kind": "antonym",
+    "source": "mae",
+    "target": "ushiro"
+  },
+  {
+    "kind": "antonym",
+    "source": "chikai",
+    "target": "tooi"
+  },
+  {
+    "kind": "antonym",
+    "source": "nagai",
+    "target": "mijikai"
+  },
+  {
+    "kind": "antonym",
+    "source": "hiroi",
+    "target": "semai"
+  },
+  {
+    "kind": "antonym",
+    "source": "futoi",
+    "target": "hosoi"
+  },
+  {
+    "kind": "antonym",
+    "source": "omoi",
+    "target": "karui"
+  },
+  {
+    "kind": "antonym",
+    "source": "katai",
+    "target": "yawarakai"
+  },
+  {
+    "kind": "antonym",
+    "source": "akarui",
+    "target": "kurai"
+  },
+  {
+    "kind": "antonym",
+    "source": "urusai",
+    "target": "shizuka"
+  },
+  {
+    "kind": "antonym",
+    "source": "kirei",
+    "target": "kitanai"
+  },
+  {
+    "kind": "antonym",
+    "source": "tsuyoi",
+    "target": "yowai"
+  },
+  {
+    "kind": "antonym",
+    "source": "hayai",
+    "target": "osoi"
+  },
+  {
+    "kind": "antonym",
+    "source": "anzen",
+    "target": "abunai"
+  },
+  {
+    "kind": "antonym",
+    "source": "tadashii",
+    "target": "machigai"
+  },
+  {
+    "kind": "antonym",
+    "source": "jiyuu",
+    "target": {
+      "hira": "ふじゆう",
+      "rm": "fujiyuu",
+      "meaning": "不自由",
+      "meaning_zh_TW": "不自由",
+      "meaning_ja": "不自由",
+      "meaning_en": "not free/inconvenient"
+    }
+  },
+  {
+    "kind": "antonym",
+    "source": "seikou",
+    "target": "shippai"
+  },
+  {
+    "kind": "antonym",
+    "source": "shuppatsu",
+    "target": "touchaku"
+  },
+  {
+    "kind": "antonym",
+    "source": "nyuuin",
+    "target": "taiin"
+  },
+  {
+    "kind": "antonym",
+    "source": "tedou",
+    "target": "jidou"
+  },
+  {
+    "kind": "antonym",
+    "source": "sansei",
+    "target": "hantai"
+  },
+  {
+    "kind": "antonym",
+    "source": "shusseki",
+    "target": "kesseki"
+  },
+  {
+    "kind": "antonym",
+    "source": "suiteiru",
+    "target": "kondeiru"
+  },
+  {
+    "kind": "antonym",
+    "source": "akeru",
+    "target": "shimeru"
+  },
+  {
+    "kind": "antonym",
+    "source": "tsukeru",
+    "target": "kesu"
+  },
+  {
+    "kind": "antonym",
+    "source": "hajimaru",
+    "target": "owaru"
+  },
+  {
+    "kind": "antonym",
+    "source": "uru",
+    "target": "kau"
+  },
+  {
+    "kind": "antonym",
+    "source": "kariru",
+    "target": "kasu"
+  },
+  {
+    "kind": "antonym",
+    "source": "ageru",
+    "target": "morau"
+  }
+]

@@ -25,7 +25,8 @@ export function buildPools(db, settings){
   const word = db.words.map(x => ({ ...x, type:"word" }));
   const kanji = (db.kanji || []).map(x => ({ ...x, type:"kanji" }));
   const n2 = (db.n2 || []).map(x => ({ ...x, type:"n2" }));
-  return { kana, word, kanji, n2, all:[...kana, ...word, ...kanji, ...n2] };
+  const wordRelations = db.wordRelations || [];
+  return { kana, word, kanji, n2, wordRelations, all:[...kana, ...word, ...kanji, ...n2] };
 }
 
 function pickOne(arr){ return arr[Math.floor(Math.random()*arr.length)]; }
@@ -41,6 +42,60 @@ function shuffle(arr){
 export function chooseMode(settings){
   const ms = settings.modes?.length ? settings.modes : ["rm_mc","jp_mc"];
   return pickOne(ms);
+}
+
+const WORD_RELATION_MODES = {
+  word_synonym: "synonym",
+  word_near: "near",
+  word_antonym: "antonym",
+};
+
+function resolveWordRef(ref, wordMap){
+  if (!ref) return null;
+  if (typeof ref === "string") return wordMap.get(ref) || null;
+  return { ...ref, type: "word" };
+}
+
+function newWordRelationQuestion(mode, pools){
+  const kind = WORD_RELATION_MODES[mode];
+  if (!kind) return null;
+  const wordMap = new Map(pools.word.map(w => [w.rm, w]));
+  const candidates = (pools.wordRelations || [])
+    .filter(r => r.kind === kind)
+    .map(r => ({
+      raw: r,
+      source: resolveWordRef(r.source, wordMap),
+      target: resolveWordRef(r.target, wordMap),
+      distractors: (r.distractors || []).map(x => resolveWordRef(x, wordMap)).filter(Boolean),
+    }))
+    .filter(r => r.source && r.target);
+  if (!candidates.length) return null;
+
+  const rel = pickOne(candidates);
+  const used = new Set([rel.source.rm, rel.target.rm]);
+  const wrongs = [];
+  for (const d of shuffle(rel.distractors)) {
+    if (wrongs.length >= 3) break;
+    if (!used.has(d.rm)) {
+      wrongs.push(d);
+      used.add(d.rm);
+    }
+  }
+  const sameTypePool = shuffle(pools.word.filter(w => !used.has(w.rm)));
+  for (const w of sameTypePool) {
+    if (wrongs.length >= 3) break;
+    wrongs.push(w);
+    used.add(w.rm);
+  }
+  const choices = shuffle([rel.target, ...wrongs]);
+  return {
+    mode,
+    relationKind: kind,
+    source: rel.source,
+    correct: rel.target,
+    choices,
+    correctIndex: choices.findIndex(x => x.rm === rel.target.rm),
+  };
 }
 
 export function newQuestion(db, settings, stats){
@@ -80,9 +135,16 @@ export function newQuestion(db, settings, stats){
 
   const kanjiModes = ["kanji_read", "read_kanji", "kanji_mean"];
   const wordModes = ["rm_mean", "mean_rm"];
+  const wordRelationModes = Object.keys(WORD_RELATION_MODES);
   const kanaModes = ["rm_mc", "jp_mc", "rm_in", "jp_in"];
 
   let mode = chooseMode(settings);
+
+  if (wordRelationModes.includes(mode)) {
+    const relQ = newWordRelationQuestion(mode, pools);
+    if (relQ) return relQ;
+    mode = "rm_mean";
+  }
 
   // Pool availability
   const hasKana = pools.kana.length > 0 && wantKana;

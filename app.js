@@ -1,17 +1,17 @@
 import {
   loadSettings, saveSettings, resetSettings,
   loadStats, saveStats, resetDaily, resetAllStats
-} from "./core/storage.js?v=2026-05-25.2";
+} from "./core/storage.js?v=2026-05-25.3";
 
-import { speakJP, warmupTTS } from "./core/tts.js?v=2026-05-25.2";
-import { playCorrect, playWrong, unlockAudio } from "./core/audio.js?v=2026-05-25.2";
+import { speakJP, warmupTTS } from "./core/tts.js?v=2026-05-25.3";
+import { playCorrect, playWrong, unlockAudio } from "./core/audio.js?v=2026-05-25.3";
 
 import {
   newQuestion, recordResult, startSession,
   normalizeRomaji, pct
-} from "./core/quiz.js?v=2026-05-25.2";
+} from "./core/quiz.js?v=2026-05-25.3";
 
-import { t, getLang, setLang, applyI18nDOM } from "./core/i18n.js?v=2026-05-25.2";
+import { t, getLang, setLang, applyI18nDOM } from "./core/i18n.js?v=2026-05-25.3";
 
 const $ = (id) => document.getElementById(id);
 
@@ -124,7 +124,7 @@ const ui = {
 
 let settings = loadSettings();
 let stats = loadStats();
-let db = { kana: [], words: [], kanji: [], n2Questions: [], jlptBanks: {}, meanings: {} };
+let db = { kana: [], words: [], wordRelations: [], kanji: [], n2Questions: [], jlptBanks: {}, meanings: {} };
 let current = null;
 let answered = false;
 let currentModule = settings.module || "kana";
@@ -205,6 +205,11 @@ const N2_CAT_NAME_KEYS = {
 };
 
 const JLPT_CAT_ORDER = ["kanji_reading", "orthography", "context_vocab", "paraphrase", "usage", "grammar"];
+const WORD_RELATION_MODES = ["word_synonym", "word_near", "word_antonym"];
+
+function isWordRelationMode(mode) {
+  return WORD_RELATION_MODES.includes(mode);
+}
 
 // Build readable sentence for N2 question.
 // mode="speak": censor the blank with "B" beep so speaking doesn't leak the answer.
@@ -261,6 +266,8 @@ function getMeaning(item) {
   if (!item.meaning) return "";
   const lang = getLang();
   if (lang === "zh-CN") return item.meaning;
+  const inline = item[`meaning_${lang.replace("-", "_")}`];
+  if (inline) return inline;
   const map = db.meanings[lang];
   if (map && map[item.rm]) return map[item.rm];
   return item.meaning;
@@ -926,9 +933,29 @@ function renderQuestion() {
   const it = current.correct;
   const kana = getKana(it);
   const meaning = getMeaning(it);
+  const sourceMeaning = current.source ? getMeaning(current.source) : "";
 
   const shouldHide = ui.hideMeaning.checked;
-  if (current.mode === "rm_mean" || current.mode === "kanji_mean") {
+  if (isWordRelationMode(current.mode)) {
+    if (sourceMeaning) {
+      if (shouldHide) {
+        ui.meaning.textContent = t("meaning_hidden");
+        ui.meaning.style.cursor = "pointer";
+        ui.meaning.onclick = () => {
+          ui.meaning.textContent = `${t("meaning_label")}${sourceMeaning}`;
+          ui.meaning.style.cursor = "default";
+          ui.meaning.onclick = null;
+        };
+      } else {
+        ui.meaning.textContent = `${t("meaning_label")}${sourceMeaning}`;
+        ui.meaning.style.cursor = "default";
+        ui.meaning.onclick = null;
+      }
+    } else {
+      ui.meaning.textContent = "";
+      ui.meaning.onclick = null;
+    }
+  } else if (current.mode === "rm_mean" || current.mode === "kanji_mean") {
     ui.meaning.textContent = "";
     ui.meaning.onclick = null;
   } else if (current.mode === "mean_rm") {
@@ -973,7 +1000,10 @@ function renderQuestion() {
   }
   ui.result.textContent = "";
 
-  if (current.mode === "rm_mean") {
+  if (isWordRelationMode(current.mode)) {
+    const srcKana = getKana(current.source);
+    ui.q.innerHTML = `<span class="big">${srcKana}</span>${t(`q_${current.mode}`)}`;
+  } else if (current.mode === "rm_mean") {
     ui.q.innerHTML = `<span class="big">${kana}</span>${t("q_what_meaning")}`;
   } else if (current.mode === "mean_rm") {
     ui.q.innerHTML = `${t("q_how_read_meaning_pre")}${meaning}${t("q_how_read_meaning")}`;
@@ -989,7 +1019,16 @@ function renderQuestion() {
     ui.q.innerHTML = `<span class="big">${kana}</span>${t("q_how_read")}`;
   }
 
-  if (current.mode === "rm_mean") {
+  if (isWordRelationMode(current.mode)) {
+    ui.opts.innerHTML = "";
+    current.choices.forEach((c, idx) => {
+      const div = document.createElement("div");
+      div.className = "opt";
+      div.innerHTML = `<div class="jp">${getKana(c)}</div><div class="meaning-opt">${getMeaning(c)}</div>`;
+      div.onclick = () => answerChoice(idx);
+      ui.opts.appendChild(div);
+    });
+  } else if (current.mode === "rm_mean") {
     ui.opts.innerHTML = "";
     current.choices.forEach((c, idx) => {
       const div = document.createElement("div");
@@ -1125,7 +1164,16 @@ function answerChoice(idx) {
 
   setTimeout(() => speakJP(kana), 300);
 
-  if (current.mode === "rm_mean" || current.mode === "mean_rm") {
+  if (isWordRelationMode(current.mode)) {
+    const srcKana = getKana(current.source);
+    const srcMeaning = getMeaning(current.source);
+    ui.result.innerHTML = ok
+      ? `✅ ${t("result_correct")}<b>${srcKana}</b> → <b>${kana}</b>（${meaning}）`
+      : `❌ ${t("result_wrong")}<b>${srcKana}</b> → <b>${kana}</b>（${meaning}）`;
+    if (srcMeaning) {
+      ui.result.innerHTML += `<div class="n2-expl">${t(`rel_${current.relationKind}`)}：${srcMeaning} → ${meaning}</div>`;
+    }
+  } else if (current.mode === "rm_mean" || current.mode === "mean_rm") {
     ui.result.innerHTML = ok
       ? `✅ ${t("result_correct")}<b>${kana}</b> = <b>${meaning}</b>`
       : `❌ ${t("result_wrong")}<b>${kana}</b> = <b>${meaning}</b>`;
@@ -1225,7 +1273,12 @@ function showAnswer() {
   answered = true;
   const kana = getKana(current.correct);
   const meaning = getMeaning(current.correct);
-  ui.result.innerHTML = `${t("result_answer")}<b>${current.correct.rm}</b> = <b>${kana}</b>${meaning ? `（${meaning}）` : ""}`;
+  if (isWordRelationMode(current.mode)) {
+    const srcKana = getKana(current.source);
+    ui.result.innerHTML = `${t("result_answer")}<b>${srcKana}</b> → <b>${kana}</b>${meaning ? `（${meaning}）` : ""}`;
+  } else {
+    ui.result.innerHTML = `${t("result_answer")}<b>${current.correct.rm}</b> = <b>${kana}</b>${meaning ? `（${meaning}）` : ""}`;
+  }
   speakJP(kana);
 }
 
@@ -1347,6 +1400,8 @@ function wire() {
     if (!current) return;
     if (current.mode === "n2_exam" || current.mode === "n2_study" || current.mode === "n2_progressive") {
       speakJP(n2ReadableSentence(current.n2Q, current.mode === "n2_exam" ? "speak" : "full"));
+    } else if (isWordRelationMode(current.mode) && current.source) {
+      speakJP(getKana(current.source));
     } else {
       speakJP(getKana(current.correct));
     }
@@ -1362,6 +1417,8 @@ function wire() {
     if (!current) return;
     if (current.mode === "n2_exam" || current.mode === "n2_study" || current.mode === "n2_progressive") {
       speakJP(n2ReadableSentence(current.n2Q, current.mode === "n2_exam" ? "speak" : "full"));
+    } else if (isWordRelationMode(current.mode) && current.source) {
+      speakJP(getKana(current.source));
     } else {
       speakJP(getKana(current.correct));
     }
@@ -1406,6 +1463,7 @@ async function init() {
   try {
     db.kana = await loadJSON("./data/kana.json");
     db.words = await loadJSON("./data/words.json");
+    db.wordRelations = await loadJSON("./data/word_relations.json").catch(() => []);
     db.kanji = await loadJSON("./data/kanji_words.json");
 
     // Load grammar topics (browse-only module)
@@ -1459,9 +1517,9 @@ async function init() {
 
     // Load translation meaning files
     const [zhTW, ja, en] = await Promise.all([
-      loadJSON("./data/meanings_zh_TW.json?v=2026-05-25.2").catch(() => ({})),
-      loadJSON("./data/meanings_ja.json?v=2026-05-25.2").catch(() => ({})),
-      loadJSON("./data/meanings_en.json?v=2026-05-25.2").catch(() => ({})),
+      loadJSON("./data/meanings_zh_TW.json?v=2026-05-25.3").catch(() => ({})),
+      loadJSON("./data/meanings_ja.json?v=2026-05-25.3").catch(() => ({})),
+      loadJSON("./data/meanings_en.json?v=2026-05-25.3").catch(() => ({})),
     ]);
     db.meanings = { "zh-TW": zhTW, ja, en };
   } catch (e) {
