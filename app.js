@@ -1,17 +1,17 @@
 import {
   loadSettings, saveSettings, resetSettings,
   loadStats, saveStats, resetDaily, resetAllStats
-} from "./core/storage.js?v=2026-05-25.1";
+} from "./core/storage.js?v=2026-05-25.2";
 
-import { speakJP, warmupTTS } from "./core/tts.js?v=2026-05-25.1";
-import { playCorrect, playWrong, unlockAudio } from "./core/audio.js?v=2026-05-25.1";
+import { speakJP, warmupTTS } from "./core/tts.js?v=2026-05-25.2";
+import { playCorrect, playWrong, unlockAudio } from "./core/audio.js?v=2026-05-25.2";
 
 import {
   newQuestion, recordResult, startSession,
   normalizeRomaji, pct
-} from "./core/quiz.js?v=2026-05-25.1";
+} from "./core/quiz.js?v=2026-05-25.2";
 
-import { t, getLang, setLang, applyI18nDOM } from "./core/i18n.js?v=2026-05-25.1";
+import { t, getLang, setLang, applyI18nDOM } from "./core/i18n.js?v=2026-05-25.2";
 
 const $ = (id) => document.getElementById(id);
 
@@ -72,6 +72,7 @@ const ui = {
   n2CatChecks: $("n2CatChecks"),
   jlptLevelChecks: $("jlptLevelChecks"),
   jlptModeChecks: $("jlptModeChecks"),
+  btnResetJlptProgress: $("btnResetJlptProgress"),
 
   // Kana-specific
   kanaSetChecks: $("kanaSetChecks"),
@@ -202,6 +203,8 @@ const N2_CAT_NAME_KEYS = {
   usage: "n2_usage",
   grammar: "n2_grammar",
 };
+
+const JLPT_CAT_ORDER = ["kanji_reading", "orthography", "context_vocab", "paraphrase", "usage", "grammar"];
 
 // Build readable sentence for N2 question.
 // mode="speak": censor the blank with "B" beep so speaking doesn't leak the answer.
@@ -713,8 +716,60 @@ function setUIForMode(mode) {
 
 // ==================== N2 Exam Question ====================
 
+function getSelectedN2Cats() {
+  const selected = settings.n2Cats?.length ? settings.n2Cats : ["kanji_reading", "orthography", "context_vocab", "grammar"];
+  return JLPT_CAT_ORDER.filter((cat) => selected.includes(cat));
+}
+
+function makeJlptProgressKey(level, cats) {
+  return `${level}:${cats.join(",")}`;
+}
+
+function getOrderedJlptPool(level, cats) {
+  const bank = db.jlptBanks[level] || db.n2Questions || [];
+  const catSet = new Set(cats);
+  const catRank = new Map(JLPT_CAT_ORDER.map((cat, i) => [cat, i]));
+  return bank
+    .filter(q => catSet.has(q.cat))
+    .slice()
+    .sort((a, b) => {
+      const ca = catRank.get(a.cat) ?? 999;
+      const cb = catRank.get(b.cat) ?? 999;
+      if (ca !== cb) return ca - cb;
+      return (+a.id || 0) - (+b.id || 0);
+    });
+}
+
+function pickProgressiveN2Question() {
+  const level = settings.jlptLevel || "n2";
+  const cats = getSelectedN2Cats();
+  const pool = getOrderedJlptPool(level, cats);
+  if (!pool.length) return null;
+
+  settings.jlptProgress ||= {};
+  const key = makeJlptProgressKey(level, cats);
+  let idx = Number(settings.jlptProgress[key] || 0);
+  if (!Number.isFinite(idx) || idx < 0 || idx >= pool.length) idx = 0;
+
+  const q = shuffleN2Question(pool[idx]);
+  q._progress = {
+    key,
+    index: idx,
+    total: pool.length,
+    nextIndex: (idx + 1) % pool.length,
+  };
+  return q;
+}
+
+function advanceProgressiveN2Question(nq) {
+  if (!nq?._progress) return;
+  settings.jlptProgress ||= {};
+  settings.jlptProgress[nq._progress.key] = nq._progress.nextIndex;
+  saveSettings(settings);
+}
+
 function pickN2Question() {
-  const cats = new Set(settings.n2Cats?.length ? settings.n2Cats : ["kanji_reading", "orthography", "context_vocab", "grammar"]);
+  const cats = new Set(getSelectedN2Cats());
   const level = settings.jlptLevel || "n2";
   const bank = db.jlptBanks[level] || db.n2Questions || [];
   const pool = bank.filter(q => cats.has(q.cat) && !n2AnsweredIds.has(`${level}_${q.id}`));
@@ -744,7 +799,8 @@ function shuffleN2Question(q) {
 
 function renderN2Question() {
   const nq = current.n2Q;
-  const isStudy = current.mode === "n2_study";
+  const isStudy = current.mode === "n2_study" || current.mode === "n2_progressive";
+  const isProgressive = current.mode === "n2_progressive";
   ui.meaning.textContent = "";
   ui.meaning.onclick = null;
   ui.result.textContent = "";
@@ -779,7 +835,10 @@ function renderN2Question() {
     }
   }
 
-  ui.q.innerHTML = `<span class="n2-cat-tag">${catName}</span><div class="n2-hint">${hint}</div><div class="n2-sentence">${sentenceHtml}</div>`;
+  const progressBadge = isProgressive && nq._progress
+    ? `<div class="n2-progress-badge">${t("jlpt_progress_badge", nq._progress.index + 1, nq._progress.total)}</div>`
+    : "";
+  ui.q.innerHTML = `<span class="n2-cat-tag">${catName}</span>${progressBadge}<div class="n2-hint">${hint}</div><div class="n2-sentence">${sentenceHtml}</div>`;
 
   // Build options
   const isUsage = nq.cat === "usage";
@@ -859,7 +918,7 @@ function renderQuestion() {
   }
 
   // N2 exam mode
-  if (current.mode === "n2_exam" || current.mode === "n2_study") {
+  if (current.mode === "n2_exam" || current.mode === "n2_study" || current.mode === "n2_progressive") {
     renderN2Question();
     return;
   }
@@ -1011,7 +1070,8 @@ function nextQuestion() {
   }
 
   if (currentModule === "n2") {
-    const isStudy = settings.jlptMode === "study";
+    const isStudy = settings.jlptMode === "study" || settings.jlptMode === "progressive";
+    const isProgressive = settings.jlptMode === "progressive";
     if (isStudy && stats.session.done >= stats.session.size && stats.session.done > 0) {
       stats.session.active = false;
       stats.daily.rounds = stats.session.round;
@@ -1023,19 +1083,21 @@ function nextQuestion() {
       return;
     }
 
-    const nq = pickN2Question();
+    const nq = isProgressive ? pickProgressiveN2Question() : pickN2Question();
     if (!nq) {
       ui.q.textContent = t("no_questions");
       return;
     }
     current = {
-      mode: isStudy ? "n2_study" : "n2_exam",
+      mode: isProgressive ? "n2_progressive" : (isStudy ? "n2_study" : "n2_exam"),
       n2Q: nq,
       correct: { type: "n2", rm: `n2_${nq.id}`, hira: `n2_${nq.id}` }
     };
     answered = isStudy;
     if (isStudy && stats.session.active) {
       stats.session.done++;
+      n2AnsweredIds.add(`${settings.jlptLevel || "n2"}_${nq.id}`);
+      if (isProgressive) advanceProgressiveN2Question(nq);
     }
     renderQuestion();
     saveStats(stats);
@@ -1152,7 +1214,7 @@ function checkInput() {
 
 function showAnswer() {
   if (!current) return;
-  if (current.mode === "n2_exam" || current.mode === "n2_study") {
+  if (current.mode === "n2_exam" || current.mode === "n2_study" || current.mode === "n2_progressive") {
     answered = true;
     const nq = current.n2Q;
     const correctText = nq.options[nq.answer];
@@ -1266,6 +1328,12 @@ function wire() {
     readSettingsFromUIAndSave();
     n2AnsweredIds.clear();
   });
+  ui.btnResetJlptProgress?.addEventListener("click", () => {
+    settings.jlptProgress = {};
+    saveSettings(settings);
+    n2AnsweredIds.clear();
+    alert(t("alert_reset_jlpt_progress"));
+  });
   ui.kanaSetChecks.addEventListener("change", readSettingsFromUIAndSave);
   ui.kanaMode.addEventListener("change", () => { readSettingsFromUIAndSave(); if (current) renderQuestion(); });
   ui.sessionSize.addEventListener("change", readSettingsFromUIAndSave);
@@ -1277,8 +1345,8 @@ function wire() {
   ui.btnNew.onclick = nextQuestion;
   ui.btnSpeak.onclick = () => {
     if (!current) return;
-    if (current.mode === "n2_exam" || current.mode === "n2_study") {
-      speakJP(n2ReadableSentence(current.n2Q, current.mode === "n2_study" ? "full" : "speak"));
+    if (current.mode === "n2_exam" || current.mode === "n2_study" || current.mode === "n2_progressive") {
+      speakJP(n2ReadableSentence(current.n2Q, current.mode === "n2_exam" ? "speak" : "full"));
     } else {
       speakJP(getKana(current.correct));
     }
@@ -1292,8 +1360,8 @@ function wire() {
   ui.inp.addEventListener("keydown", (e) => { if (e.key === "Enter") checkInput(); });
   ui.q.addEventListener("click", () => {
     if (!current) return;
-    if (current.mode === "n2_exam" || current.mode === "n2_study") {
-      speakJP(n2ReadableSentence(current.n2Q, current.mode === "n2_study" ? "full" : "speak"));
+    if (current.mode === "n2_exam" || current.mode === "n2_study" || current.mode === "n2_progressive") {
+      speakJP(n2ReadableSentence(current.n2Q, current.mode === "n2_exam" ? "speak" : "full"));
     } else {
       speakJP(getKana(current.correct));
     }
@@ -1391,9 +1459,9 @@ async function init() {
 
     // Load translation meaning files
     const [zhTW, ja, en] = await Promise.all([
-      loadJSON("./data/meanings_zh_TW.json?v=2026-05-25.1").catch(() => ({})),
-      loadJSON("./data/meanings_ja.json?v=2026-05-25.1").catch(() => ({})),
-      loadJSON("./data/meanings_en.json?v=2026-05-25.1").catch(() => ({})),
+      loadJSON("./data/meanings_zh_TW.json?v=2026-05-25.2").catch(() => ({})),
+      loadJSON("./data/meanings_ja.json?v=2026-05-25.2").catch(() => ({})),
+      loadJSON("./data/meanings_en.json?v=2026-05-25.2").catch(() => ({})),
     ]);
     db.meanings = { "zh-TW": zhTW, ja, en };
   } catch (e) {

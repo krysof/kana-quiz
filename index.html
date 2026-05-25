@@ -8,7 +8,7 @@
   <title>日本语同学会</title>
   <link rel="manifest" href="./pwa/manifest.json" />
   <link rel="apple-touch-icon" href="./pwa/icons/icon-192.png" />
-  <link rel="stylesheet" href="./style.css?v=2026-05-25.1" />
+  <link rel="stylesheet" href="./style.css?v=2026-05-25.2" />
 </head>
 <body>
   <div class="container">
@@ -130,7 +130,9 @@
         <div class="checks" id="jlptModeChecks">
           <label class="chk" data-i18n="jlpt_mode_quiz"><input type="radio" name="jlptMode" value="quiz" checked> 测试模式</label>
           <label class="chk" data-i18n="jlpt_mode_study"><input type="radio" name="jlptMode" value="study"> 学习模式</label>
+          <label class="chk" data-i18n="jlpt_mode_progressive"><input type="radio" name="jlptMode" value="progressive"> 循序学习</label>
         </div>
+        <button class="btn small" id="btnResetJlptProgress" type="button" style="margin-top:8px" data-i18n="jlpt_reset_progress">重置学习进度</button>
         <div class="label" style="margin-top:12px" data-i18n="n2_cat_label">题目类型（可多选）</div>
         <div class="checks" id="n2CatChecks">
           <label class="chk" data-i18n="n2_kanji_reading"><input type="checkbox" value="kanji_reading" checked> 漢字読み</label>
@@ -278,7 +280,7 @@
     </div>
   </div>
 
-  <script type="module" src="./app.js?v=2026-05-25.1"></script>
+  <script type="module" src="./app.js?v=2026-05-25.2"></script>
   <script>
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('./sw.js').then((reg) => {
