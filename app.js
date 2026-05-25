@@ -1,17 +1,17 @@
 import {
   loadSettings, saveSettings, resetSettings,
   loadStats, saveStats, resetDaily, resetAllStats
-} from "./core/storage.js?v=2026-05-25.3";
+} from "./core/storage.js?v=2026-05-25.4";
 
-import { speakJP, warmupTTS } from "./core/tts.js?v=2026-05-25.3";
-import { playCorrect, playWrong, unlockAudio } from "./core/audio.js?v=2026-05-25.3";
+import { speakJP, warmupTTS } from "./core/tts.js?v=2026-05-25.4";
+import { playCorrect, playWrong, unlockAudio } from "./core/audio.js?v=2026-05-25.4";
 
 import {
   newQuestion, recordResult, startSession,
   normalizeRomaji, pct
-} from "./core/quiz.js?v=2026-05-25.3";
+} from "./core/quiz.js?v=2026-05-25.4";
 
-import { t, getLang, setLang, applyI18nDOM } from "./core/i18n.js?v=2026-05-25.3";
+import { t, getLang, setLang, applyI18nDOM } from "./core/i18n.js?v=2026-05-25.4";
 
 const $ = (id) => document.getElementById(id);
 
@@ -92,6 +92,7 @@ const ui = {
   btnBack: $("btnBack"),
   btnResetSettings: $("btnResetSettings"),
   btnResetDay: $("btnResetDay"),
+  btnRefreshApp: $("btnRefreshApp"),
   btnResetAllStats: $("btnResetAllStats"),
 
   // Stats - Quiz screen
@@ -1308,6 +1309,27 @@ function backToModules() {
   updateDashboard();
 }
 
+async function refreshApp() {
+  try {
+    ui.btnRefreshApp.disabled = true;
+    ui.btnRefreshApp.textContent = t("refreshing_app");
+
+    if ("serviceWorker" in navigator) {
+      const reg = await navigator.serviceWorker.getRegistration();
+      await reg?.update();
+    }
+
+    if ("caches" in window) {
+      const keys = await caches.keys();
+      await Promise.all(keys.map((key) => caches.delete(key)));
+    }
+  } catch (e) {
+    console.warn("refreshApp failed", e);
+  } finally {
+    location.reload();
+  }
+}
+
 async function loadJSON(path) {
   const res = await fetch(path, { cache: "no-store" });
   if (!res.ok) throw new Error(`${path} load failed`);
@@ -1439,6 +1461,10 @@ function wire() {
     alert(t("alert_reset_today"));
   };
 
+  if (ui.btnRefreshApp) {
+    ui.btnRefreshApp.onclick = refreshApp;
+  }
+
   ui.btnResetAllStats.onclick = () => {
     if (confirm(t("confirm_clear_all"))) {
       resetAllStats();
@@ -1517,9 +1543,9 @@ async function init() {
 
     // Load translation meaning files
     const [zhTW, ja, en] = await Promise.all([
-      loadJSON("./data/meanings_zh_TW.json?v=2026-05-25.3").catch(() => ({})),
-      loadJSON("./data/meanings_ja.json?v=2026-05-25.3").catch(() => ({})),
-      loadJSON("./data/meanings_en.json?v=2026-05-25.3").catch(() => ({})),
+      loadJSON("./data/meanings_zh_TW.json?v=2026-05-25.4").catch(() => ({})),
+      loadJSON("./data/meanings_ja.json?v=2026-05-25.4").catch(() => ({})),
+      loadJSON("./data/meanings_en.json?v=2026-05-25.4").catch(() => ({})),
     ]);
     db.meanings = { "zh-TW": zhTW, ja, en };
   } catch (e) {

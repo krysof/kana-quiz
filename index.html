@@ -4,11 +4,17 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,viewport-fit=cover" />
   <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="同学会" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <meta name="theme-color" content="#6366f1" />
   <title>日本语同学会</title>
   <link rel="manifest" href="./pwa/manifest.json" />
-  <link rel="apple-touch-icon" href="./pwa/icons/icon-192.png" />
-  <link rel="stylesheet" href="./style.css?v=2026-05-25.3" />
+  <link rel="icon" type="image/png" sizes="192x192" href="./pwa/icons/icon-192.png" />
+  <link rel="icon" type="image/png" sizes="512x512" href="./pwa/icons/icon-512.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./pwa/icons/icon-180.png" />
+  <link rel="apple-touch-icon" sizes="192x192" href="./pwa/icons/icon-192.png" />
+  <link rel="stylesheet" href="./style.css?v=2026-05-25.4" />
 </head>
 <body>
   <div class="container">
@@ -64,6 +70,7 @@
       <div class="start-footer">
         <button class="btn" id="btnResetSettings" data-i18n="reset_settings">复位设置</button>
         <button class="btn" id="btnResetDay" data-i18n="reset_today">重置今日</button>
+        <button class="btn" id="btnRefreshApp" data-i18n="refresh_app">刷新/更新</button>
         <button class="btn danger" id="btnResetAllStats" data-i18n="clear_all">清空全部</button>
       </div>
 
@@ -283,7 +290,7 @@
     </div>
   </div>
 
-  <script type="module" src="./app.js?v=2026-05-25.3"></script>
+  <script type="module" src="./app.js?v=2026-05-25.4"></script>
   <script>
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('./sw.js').then((reg) => {

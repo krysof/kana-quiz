@@ -1,4 +1,4 @@
-const CACHE_VERSION = '2026-05-25.3';
+const CACHE_VERSION = '2026-05-25.4';
 const CACHE_NAME = `gojuon-${CACHE_VERSION}`;
 
 // App shell - precached on install
@@ -6,6 +6,7 @@ const PRECACHE_URLS = [
   './',
   'index.html',
   'pwa/manifest.json',
+  'pwa/icons/icon-180.png',
   'pwa/icons/icon-192.png',
   'pwa/icons/icon-512.png'
 ];
