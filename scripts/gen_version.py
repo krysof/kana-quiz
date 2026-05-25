@@ -58,6 +58,24 @@ def bump_index_cache_bust(version: str) -> None:
         print(f"bumped index.html ?v= -> {version}")
 
 
+def bump_app_import_cache_bust(version: str) -> None:
+    """Update ?v=... inside app.js imports/fetches too.
+
+    The top-level app.js URL changes via index.html, but its module imports
+    (core/*.js) can keep the same URL and be served from an older HTTP cache on
+    mobile Safari. Bumping these URLs makes every commit a full module-graph
+    refresh.
+    """
+    app = ROOT / "app.js"
+    if not app.exists():
+        return
+    text = app.read_text(encoding="utf-8")
+    new_text = re.sub(r"\?v=[0-9][^\"'\s]*", f"?v={version}", text)
+    if new_text != text:
+        app.write_text(new_text, encoding="utf-8")
+        print(f"bumped app.js ?v= -> {version}")
+
+
 def main() -> None:
     today = datetime.date.today().isoformat()  # YYYY-MM-DD
     n = count_today_commits() + 1  # +1 for the commit about to happen
@@ -72,6 +90,7 @@ def main() -> None:
 
     bump_sw(version)
     bump_index_cache_bust(version)
+    bump_app_import_cache_bust(version)
 
 
 if __name__ == "__main__":

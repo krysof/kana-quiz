@@ -27,4 +27,4 @@ fi
   exit 1
 }
 
-git add "$REPO_ROOT/data/version.json" "$REPO_ROOT/sw.js" "$REPO_ROOT/index.html"
+git add "$REPO_ROOT/data/version.json" "$REPO_ROOT/sw.js" "$REPO_ROOT/index.html" "$REPO_ROOT/app.js"

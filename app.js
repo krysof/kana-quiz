@@ -1,17 +1,17 @@
 import {
   loadSettings, saveSettings, resetSettings,
   loadStats, saveStats, resetDaily, resetAllStats
-} from "./core/storage.js?v=2.1";
+} from "./core/storage.js?v=2026-05-25.1";
 
-import { speakJP, warmupTTS } from "./core/tts.js?v=2.1";
-import { playCorrect, playWrong, unlockAudio } from "./core/audio.js?v=2.1";
+import { speakJP, warmupTTS } from "./core/tts.js?v=2026-05-25.1";
+import { playCorrect, playWrong, unlockAudio } from "./core/audio.js?v=2026-05-25.1";
 
 import {
   newQuestion, recordResult, startSession,
   normalizeRomaji, pct
-} from "./core/quiz.js?v=2.1";
+} from "./core/quiz.js?v=2026-05-25.1";
 
-import { t, getLang, setLang, applyI18nDOM } from "./core/i18n.js?v=2.1";
+import { t, getLang, setLang, applyI18nDOM } from "./core/i18n.js?v=2026-05-25.1";
 
 const $ = (id) => document.getElementById(id);
 
@@ -71,6 +71,7 @@ const ui = {
   // N2 category checks
   n2CatChecks: $("n2CatChecks"),
   jlptLevelChecks: $("jlptLevelChecks"),
+  jlptModeChecks: $("jlptModeChecks"),
 
   // Kana-specific
   kanaSetChecks: $("kanaSetChecks"),
@@ -192,14 +193,14 @@ const N2_CAT_HINT = {
   grammar: "n2_q_grammar",
 };
 
-// N2 category display names
-const N2_CAT_NAMES = {
-  kanji_reading: "漢字読み",
-  orthography: "表記",
-  context_vocab: "文脈規定",
-  paraphrase: "言い換え",
-  usage: "用法",
-  grammar: "文法",
+// N2 category display name i18n keys
+const N2_CAT_NAME_KEYS = {
+  kanji_reading: "n2_kanji_reading",
+  orthography: "n2_orthography",
+  context_vocab: "n2_context_vocab",
+  paraphrase: "n2_paraphrase",
+  usage: "n2_usage",
+  grammar: "n2_grammar",
 };
 
 // Build readable sentence for N2 question.
@@ -226,6 +227,30 @@ function n2ReadableSentence(nq, mode = "speak") {
     s = s.replace(nq.target, correct);
   }
   return s;
+}
+
+function pickN2Field(nq, key) {
+  if (!nq) return "";
+  const lang = getLang().replace("-", "_");
+  return nq[`${key}_${lang}`] || nq[key] || "";
+}
+
+function n2OriginalText(nq, correctText = "") {
+  if (!nq) return "";
+  if (nq.sentence) return nq.sentence;
+  if (nq.cat === "usage") return correctText || nq.options?.[nq.answer] || "";
+  return "";
+}
+
+function buildN2DetailsHTML(nq, correctText, prefixKey = "result_answer") {
+  const original = n2OriginalText(nq, correctText);
+  const translation = pickN2Field(nq, "translation");
+  const explanation = pickN2Field(nq, "explanation");
+  const tl = translation
+    ? `<div class="n2-translation">${original ? `${t("n2_original")}${original}<br>` : ""}${t("n2_translation")}${translation}</div>`
+    : "";
+  const expl = explanation ? `<div class="n2-expl">${explanation}</div>` : "";
+  return `${t(prefixKey)}<b>${correctText}</b>${tl}${expl}`;
 }
 
 // Get meaning for an item based on current language
@@ -276,6 +301,10 @@ function applySettingsToUI() {
   ui.jlptLevelChecks.querySelectorAll('input[type="radio"]').forEach(r => {
     r.checked = (r.value === lvl);
   });
+  const mode = settings.jlptMode || "quiz";
+  ui.jlptModeChecks?.querySelectorAll('input[type="radio"]').forEach(r => {
+    r.checked = (r.value === mode);
+  });
   ui.kanaMode.value = settings.kanaMode || "hira";
   ui.sessionSize.value = settings.sessionSize ?? 20;
   ui.hideMeaning.checked = settings.hideMeaning || false;
@@ -290,6 +319,8 @@ function readSettingsFromUIAndSave() {
   // Read JLPT level
   const selectedLevel = ui.jlptLevelChecks.querySelector('input[type="radio"]:checked');
   settings.jlptLevel = selectedLevel ? selectedLevel.value : (settings.jlptLevel || "n2");
+  const selectedJlptMode = ui.jlptModeChecks?.querySelector('input[type="radio"]:checked');
+  settings.jlptMode = selectedJlptMode ? selectedJlptMode.value : (settings.jlptMode || "quiz");
 
   const sets = getChecked(ui.kanaSetChecks);
   settings.kanaSets = sets.length ? sets : ["seion"];
@@ -713,12 +744,13 @@ function shuffleN2Question(q) {
 
 function renderN2Question() {
   const nq = current.n2Q;
+  const isStudy = current.mode === "n2_study";
   ui.meaning.textContent = "";
   ui.meaning.onclick = null;
   ui.result.textContent = "";
 
   // Category tag
-  const catName = N2_CAT_NAMES[nq.cat] || nq.cat;
+  const catName = t(N2_CAT_NAME_KEYS[nq.cat] || "n2_context_vocab") || nq.cat;
   const hint = t(N2_CAT_HINT[nq.cat] || "n2_q_context");
 
   // Build question HTML with robust target underlining
@@ -755,13 +787,21 @@ function renderN2Question() {
   nq.options.forEach((opt, idx) => {
     const div = document.createElement("div");
     div.className = isUsage ? "opt opt-sentence" : "opt";
+    if (isStudy) {
+      div.classList.add(idx === nq.answer ? "correct" : "disabled");
+    }
     div.innerHTML = isUsage
       ? `<div class="jp">${opt}</div>`
       : `<div class="jp">${idx + 1}. ${opt}</div>`;
     // Capture nq in closure to avoid current.n2Q drift
-    div.onclick = () => answerN2Choice(idx, nq);
+    div.onclick = isStudy ? null : () => answerN2Choice(idx, nq);
     ui.opts.appendChild(div);
   });
+
+  if (isStudy) {
+    const correctText = nq.options[nq.answer];
+    ui.result.innerHTML = `📘 ${buildN2DetailsHTML(nq, correctText, "jlpt_study_answer")}`;
+  }
 
   setUIForMode("n2_exam");
 }
@@ -791,13 +831,10 @@ function answerN2Choice(idx, boundNq) {
     speakJP(say);
   }, 300);
 
-  // Build result message
-  const tl = nq.translation ? `<div class="n2-translation">${t("n2_original")}${nq.sentence || ""}<br>${t("n2_translation")}${nq.translation}</div>` : "";
-  const expl = nq.explanation ? `<div class="n2-expl">${nq.explanation}</div>` : "";
   if (ok) {
-    ui.result.innerHTML = `✅ ${t("result_correct")}<b>${correctText}</b>${tl}${expl}`;
+    ui.result.innerHTML = `✅ ${buildN2DetailsHTML(nq, correctText, "result_correct")}`;
   } else {
-    ui.result.innerHTML = `❌ ${t("result_wrong")}<b>${correctText}</b>${tl}${expl}`;
+    ui.result.innerHTML = `❌ ${buildN2DetailsHTML(nq, correctText, "result_wrong")}`;
   }
 
   // Record stats
@@ -822,7 +859,7 @@ function renderQuestion() {
   }
 
   // N2 exam mode
-  if (current.mode === "n2_exam") {
+  if (current.mode === "n2_exam" || current.mode === "n2_study") {
     renderN2Question();
     return;
   }
@@ -973,15 +1010,33 @@ function nextQuestion() {
     stats.session.size = settings.sessionSize;
   }
 
-  // N2 exam mode
   if (currentModule === "n2") {
-    const nq = pickN2Question();
-    if (!nq) {
-      ui.q.textContent = "No questions available";
+    const isStudy = settings.jlptMode === "study";
+    if (isStudy && stats.session.done >= stats.session.size && stats.session.done > 0) {
+      stats.session.active = false;
+      stats.daily.rounds = stats.session.round;
+      saveStats(stats);
+      updateDashboard();
+      stopTimer();
+      const elapsed = Math.floor((Date.now() - sessionStartTime) / 1000);
+      showStudySummary(elapsed);
       return;
     }
-    current = { mode: "n2_exam", n2Q: nq, correct: { type: "n2", rm: `n2_${nq.id}`, hira: `n2_${nq.id}` } };
-    answered = false;
+
+    const nq = pickN2Question();
+    if (!nq) {
+      ui.q.textContent = t("no_questions");
+      return;
+    }
+    current = {
+      mode: isStudy ? "n2_study" : "n2_exam",
+      n2Q: nq,
+      correct: { type: "n2", rm: `n2_${nq.id}`, hira: `n2_${nq.id}` }
+    };
+    answered = isStudy;
+    if (isStudy && stats.session.active) {
+      stats.session.done++;
+    }
     renderQuestion();
     saveStats(stats);
     updateDashboard();
@@ -1048,6 +1103,16 @@ function showSessionSummary(elapsed) {
   ui.btnNew.textContent = t("btn_finish");
 }
 
+function showStudySummary(elapsed) {
+  const total = stats.session.done;
+  ui.q.innerHTML = `<div class="gp-summary" style="padding:32px 8px 8px"><div style="font-size:3rem;margin-bottom:8px">📘</div><div class="big">${total}</div><div class="sub">${t("jlpt_study_done", total)}</div><div class="sub" style="margin-top:6px">${t("gp_summary_time")}${formatTime(elapsed)}</div></div>`;
+  ui.meaning.textContent = "";
+  ui.opts.innerHTML = "";
+  ui.result.innerHTML = "";
+  ui.inputWrap.classList.add("hide");
+  ui.btnNew.textContent = t("btn_finish");
+}
+
 function checkInput() {
   if (!current) return;
   if (answered) return;
@@ -1087,11 +1152,11 @@ function checkInput() {
 
 function showAnswer() {
   if (!current) return;
-  if (current.mode === "n2_exam") {
+  if (current.mode === "n2_exam" || current.mode === "n2_study") {
     answered = true;
     const nq = current.n2Q;
     const correctText = nq.options[nq.answer];
-    ui.result.innerHTML = `${t("result_answer")}<b>${correctText}</b>`;
+    ui.result.innerHTML = buildN2DetailsHTML(nq, correctText);
     n2AnsweredIds.add(`${settings.jlptLevel || "n2"}_${nq.id}`);
     return;
   }
@@ -1197,6 +1262,10 @@ function wire() {
     readSettingsFromUIAndSave();
     n2AnsweredIds.clear();
   });
+  ui.jlptModeChecks?.addEventListener("change", () => {
+    readSettingsFromUIAndSave();
+    n2AnsweredIds.clear();
+  });
   ui.kanaSetChecks.addEventListener("change", readSettingsFromUIAndSave);
   ui.kanaMode.addEventListener("change", () => { readSettingsFromUIAndSave(); if (current) renderQuestion(); });
   ui.sessionSize.addEventListener("change", readSettingsFromUIAndSave);
@@ -1208,8 +1277,8 @@ function wire() {
   ui.btnNew.onclick = nextQuestion;
   ui.btnSpeak.onclick = () => {
     if (!current) return;
-    if (current.mode === "n2_exam") {
-      speakJP(n2ReadableSentence(current.n2Q));
+    if (current.mode === "n2_exam" || current.mode === "n2_study") {
+      speakJP(n2ReadableSentence(current.n2Q, current.mode === "n2_study" ? "full" : "speak"));
     } else {
       speakJP(getKana(current.correct));
     }
@@ -1223,8 +1292,8 @@ function wire() {
   ui.inp.addEventListener("keydown", (e) => { if (e.key === "Enter") checkInput(); });
   ui.q.addEventListener("click", () => {
     if (!current) return;
-    if (current.mode === "n2_exam") {
-      speakJP(n2ReadableSentence(current.n2Q));
+    if (current.mode === "n2_exam" || current.mode === "n2_study") {
+      speakJP(n2ReadableSentence(current.n2Q, current.mode === "n2_study" ? "full" : "speak"));
     } else {
       speakJP(getKana(current.correct));
     }
@@ -1291,16 +1360,19 @@ async function init() {
     db.n2Questions = n2Files.flat();
     db.jlptBanks.n2 = db.n2Questions;
 
-    // Load N1, N3, N4, N5 banks (4 files per level)
+    // Load N1, N3, N4, N5 banks. Only request files that exist to avoid
+    // noisy 404s in browser consoles and service-worker logs.
+    const JLPT_LEVEL_FILES = {
+      n1: ["n1_q_reading.json", "n1_q_ortho_context.json", "n1_q_context_para.json", "n1_q_usage_grammar.json", "n1_q_fill.json"],
+      n3: ["n3_q_reading.json", "n3_q_ortho_context.json", "n3_q_context_para.json", "n3_q_usage_grammar.json", "n3_q_fill.json"],
+      n4: ["n4_q_reading.json", "n4_q_ortho_context.json", "n4_q_context_para.json", "n4_q_usage_grammar.json", "n4_q_grammar.json"],
+      n5: ["n5_q_reading.json", "n5_q_ortho_context.json", "n5_q_context_para.json", "n5_q_usage_grammar.json"],
+    };
+
     const loadLevel = async (lvl) => {
-      const files = await Promise.all([
-        loadJSON(`./data/${lvl}_q_reading.json`).catch(() => []),
-        loadJSON(`./data/${lvl}_q_ortho_context.json`).catch(() => []),
-        loadJSON(`./data/${lvl}_q_context_para.json`).catch(() => []),
-        loadJSON(`./data/${lvl}_q_usage_grammar.json`).catch(() => []),
-        loadJSON(`./data/${lvl}_q_grammar.json`).catch(() => []),
-        loadJSON(`./data/${lvl}_q_fill.json`).catch(() => []),
-      ]);
+      const files = await Promise.all(
+        (JLPT_LEVEL_FILES[lvl] || []).map((fn) => loadJSON(`./data/${fn}`).catch(() => []))
+      );
       return files.flat();
     };
     const [n1Bank, n3Bank, n4Bank, n5Bank] = await Promise.all([
@@ -1319,9 +1391,9 @@ async function init() {
 
     // Load translation meaning files
     const [zhTW, ja, en] = await Promise.all([
-      loadJSON("./data/meanings_zh_TW.json?v=2.1").catch(() => ({})),
-      loadJSON("./data/meanings_ja.json?v=2.1").catch(() => ({})),
-      loadJSON("./data/meanings_en.json?v=2.1").catch(() => ({})),
+      loadJSON("./data/meanings_zh_TW.json?v=2026-05-25.1").catch(() => ({})),
+      loadJSON("./data/meanings_ja.json?v=2026-05-25.1").catch(() => ({})),
+      loadJSON("./data/meanings_en.json?v=2026-05-25.1").catch(() => ({})),
     ]);
     db.meanings = { "zh-TW": zhTW, ja, en };
   } catch (e) {

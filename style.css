@@ -1029,6 +1029,22 @@ input[type="number"] {
   transform: translateY(0);
 }
 
+.opt.correct {
+  border-color: var(--success);
+  background: var(--success-bg);
+  box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.12);
+}
+
+.opt.wrong {
+  border-color: var(--danger);
+  background: var(--danger-bg);
+}
+
+.opt.disabled {
+  cursor: default;
+  opacity: 0.72;
+}
+
 .opt .jp {
   font-size: 2.25rem;
   font-weight: 800;

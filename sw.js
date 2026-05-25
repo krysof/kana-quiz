@@ -1,4 +1,4 @@
-const CACHE_VERSION = '2026-04-26.1';
+const CACHE_VERSION = '2026-05-25.1';
 const CACHE_NAME = `gojuon-${CACHE_VERSION}`;
 
 // App shell - precached on install
@@ -58,7 +58,7 @@ self.addEventListener('fetch', (e) => {
   const isDynamic = /\.(js|css|json)(\?|$)/i.test(url.pathname + url.search);
   if (isDynamic) {
     e.respondWith(
-      fetch(req)
+      fetch(req, { cache: 'no-store' })
         .then((resp) => {
           if (resp && resp.status === 200 && resp.type === 'basic') {
             const clone = resp.clone();
