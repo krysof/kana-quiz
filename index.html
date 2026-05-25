@@ -14,7 +14,7 @@
   <link rel="icon" type="image/png" sizes="512x512" href="./pwa/icons/icon-512.png" />
   <link rel="apple-touch-icon" sizes="180x180" href="./pwa/icons/icon-180.png" />
   <link rel="apple-touch-icon" sizes="192x192" href="./pwa/icons/icon-192.png" />
-  <link rel="stylesheet" href="./style.css?v=2026-05-25.4" />
+  <link rel="stylesheet" href="./style.css?v=2026-05-26.1" />
 </head>
 <body>
   <div class="container">
@@ -41,7 +41,7 @@
         <div class="module-card" data-module="word">
           <div class="module-icon">言</div>
           <div class="module-name" data-i18n="mod_word">日常短词</div>
-          <div class="module-desc" data-i18n="mod_word_desc">常用词汇练习</div>
+          <div class="module-desc" data-i18n="mod_word_desc">词汇・同近反义词</div>
         </div>
         <div class="module-card" data-module="kanji">
           <div class="module-icon">漢</div>
@@ -54,7 +54,7 @@
           <div class="module-desc" data-i18n="mod_n2_desc">N1-N5 模拟练习</div>
         </div>
         <div class="module-card" data-module="grammar">
-          <div class="module-icon">文法</div>
+          <div class="module-icon" data-i18n="mod_grammar_icon">语法</div>
           <div class="module-name" data-i18n="mod_grammar">语法学习</div>
           <div class="module-desc" data-i18n="mod_grammar_desc">动词分组・句型</div>
         </div>
@@ -110,6 +110,7 @@
           <label class="chk" data-i18n="mode_jp_mc"><input type="checkbox" value="jp_mc" checked> 假名→选罗马音</label>
           <label class="chk" data-i18n="mode_rm_mean"><input type="checkbox" value="rm_mean"> 读音→选意思</label>
           <label class="chk" data-i18n="mode_mean_rm"><input type="checkbox" value="mean_rm"> 意思→选读音</label>
+          <div class="chk-group-title" data-i18n="word_relation_label">词义关系</div>
           <label class="chk" data-i18n="mode_word_synonym"><input type="checkbox" value="word_synonym"> 同义词</label>
           <label class="chk" data-i18n="mode_word_near"><input type="checkbox" value="word_near"> 近义词</label>
           <label class="chk" data-i18n="mode_word_antonym"><input type="checkbox" value="word_antonym"> 反义词</label>
@@ -145,12 +146,12 @@
         <button class="btn small" id="btnResetJlptProgress" type="button" style="margin-top:8px" data-i18n="jlpt_reset_progress">重置学习进度</button>
         <div class="label" style="margin-top:12px" data-i18n="n2_cat_label">题目类型（可多选）</div>
         <div class="checks" id="n2CatChecks">
-          <label class="chk" data-i18n="n2_kanji_reading"><input type="checkbox" value="kanji_reading" checked> 漢字読み</label>
-          <label class="chk" data-i18n="n2_orthography"><input type="checkbox" value="orthography" checked> 表記</label>
-          <label class="chk" data-i18n="n2_context_vocab"><input type="checkbox" value="context_vocab" checked> 文脈規定</label>
-          <label class="chk" data-i18n="n2_paraphrase"><input type="checkbox" value="paraphrase" checked> 言い換え</label>
+          <label class="chk" data-i18n="n2_kanji_reading"><input type="checkbox" value="kanji_reading" checked> 汉字读音</label>
+          <label class="chk" data-i18n="n2_orthography"><input type="checkbox" value="orthography" checked> 汉字写法</label>
+          <label class="chk" data-i18n="n2_context_vocab"><input type="checkbox" value="context_vocab" checked> 语境词汇</label>
+          <label class="chk" data-i18n="n2_paraphrase"><input type="checkbox" value="paraphrase" checked> 近义替换</label>
           <label class="chk" data-i18n="n2_usage"><input type="checkbox" value="usage"> 用法</label>
-          <label class="chk" data-i18n="n2_grammar"><input type="checkbox" value="grammar" checked> 文法</label>
+          <label class="chk" data-i18n="n2_grammar"><input type="checkbox" value="grammar" checked> 语法</label>
         </div>
       </section>
 
@@ -290,7 +291,7 @@
     </div>
   </div>
 
-  <script type="module" src="./app.js?v=2026-05-25.4"></script>
+  <script type="module" src="./app.js?v=2026-05-26.1"></script>
   <script>
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('./sw.js').then((reg) => {

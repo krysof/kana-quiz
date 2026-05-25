@@ -881,6 +881,16 @@ body {
   background: var(--primary-bg);
 }
 
+.chk-group-title {
+  flex-basis: 100%;
+  margin-top: 6px;
+  margin-bottom: -2px;
+  font-size: 0.78rem;
+  font-weight: 800;
+  color: var(--gray-500);
+  letter-spacing: 0.04em;
+}
+
 .chk:has(input:checked) {
   border-color: var(--primary);
   background: var(--primary-bg);
