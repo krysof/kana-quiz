@@ -1,17 +1,17 @@
 import {
   loadSettings, saveSettings, resetSettings,
   loadStats, saveStats, resetDaily, resetAllStats
-} from "./core/storage.js?v=2026-05-26.3";
+} from "./core/storage.js?v=2026-05-26.4";
 
-import { speakJP, warmupTTS } from "./core/tts.js?v=2026-05-26.3";
-import { playCorrect, playWrong, unlockAudio } from "./core/audio.js?v=2026-05-26.3";
+import { speakJP, warmupTTS } from "./core/tts.js?v=2026-05-26.4";
+import { playCorrect, playWrong, unlockAudio } from "./core/audio.js?v=2026-05-26.4";
 
 import {
   newQuestion, recordResult, startSession,
   normalizeRomaji, pct
-} from "./core/quiz.js?v=2026-05-26.3";
+} from "./core/quiz.js?v=2026-05-26.4";
 
-import { t, getLang, setLang, applyI18nDOM } from "./core/i18n.js?v=2026-05-26.3";
+import { t, getLang, setLang, applyI18nDOM } from "./core/i18n.js?v=2026-05-26.4";
 
 const $ = (id) => document.getElementById(id);
 
@@ -236,6 +236,56 @@ function n2ReadableSentence(nq, mode = "speak") {
     s = s.replace(nq.target, correct);
   }
   return s;
+}
+
+function escapeRegExp(s) {
+  return String(s).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function inflectedKanjiReadingSurface(nq) {
+  if (!nq || nq.cat !== "kanji_reading" || !nq.sentence || !nq.target || nq.sentence.includes(nq.target)) {
+    return null;
+  }
+  const kanjiMatch = nq.target.match(/^([\u4e00-\u9fff々]+)/);
+  if (!kanjiMatch) return null;
+  const stem = kanjiMatch[1];
+  const m = nq.sentence.match(new RegExp(`${escapeRegExp(stem)}[ぁ-ゖァ-ヺー]*`));
+  if (!m || !m[0] || m[0] === nq.target) return null;
+  return { stem, surface: m[0] };
+}
+
+function matchReadingToSurface(reading, targetTail, surfaceTail) {
+  if (!reading || !targetTail || !surfaceTail || targetTail === surfaceTail) return reading;
+  if (reading.endsWith(targetTail)) {
+    return `${reading.slice(0, -targetTail.length)}${surfaceTail}`;
+  }
+  return reading;
+}
+
+function normalizeKanjiReadingSurfaceQuestion(q) {
+  const info = inflectedKanjiReadingSurface(q);
+  if (!info || !Array.isArray(q.options) || typeof q.answer !== "number") return q;
+
+  const targetTail = q.target.slice(info.stem.length);
+  const surfaceTail = info.surface.slice(info.stem.length);
+  const options = q.options.map(opt => matchReadingToSurface(opt, targetTail, surfaceTail));
+  const correctBase = q.options[q.answer] || "";
+  const correctSurface = options[q.answer] || correctBase;
+  if (!correctSurface || correctSurface === correctBase) {
+    return { ...q, _targetSurface: info.surface };
+  }
+
+  return {
+    ...q,
+    options,
+    _targetSurface: info.surface,
+    _baseTarget: q.target,
+    _baseAnswer: correctBase,
+    explanation: `「${info.surface}」读作「${correctSurface}」。原形「${q.target}」读作「${correctBase}」。`,
+    explanation_zh_TW: `「${info.surface}」讀作「${correctSurface}」。原形「${q.target}」讀作「${correctBase}」。`,
+    explanation_ja: `「${info.surface}」は「${correctSurface}」と読みます。辞書形「${q.target}」は「${correctBase}」です。`,
+    explanation_en: `Read 「${info.surface}」 as 「${correctSurface}」. The dictionary form 「${q.target}」 is read 「${correctBase}」.`,
+  };
 }
 
 function pickN2Field(nq, key) {
@@ -840,7 +890,11 @@ function shuffleN2Question(q) {
     const j = Math.floor(Math.random() * (i + 1));
     [idxs[i], idxs[j]] = [idxs[j], idxs[i]];
   }
-  return { ...q, options: idxs.map(i => q.options[i]), answer: idxs.indexOf(q.answer) };
+  return normalizeKanjiReadingSurfaceQuestion({
+    ...q,
+    options: idxs.map(i => q.options[i]),
+    answer: idxs.indexOf(q.answer),
+  });
 }
 
 function renderN2Question() {
@@ -931,7 +985,7 @@ function answerN2Choice(idx, boundNq) {
   // - others:         speak the full sentence with blanks filled in
   setTimeout(() => {
     let say = n2ReadableSentence(nq, "full");
-    if (nq.cat === "kanji_reading" && nq.target) say = nq.target;
+    if (nq.cat === "kanji_reading" && (nq._targetSurface || nq.target)) say = nq._targetSurface || nq.target;
     else if (nq.cat === "orthography") say = correctText;
     speakJP(say);
   }, 300);
@@ -1582,9 +1636,9 @@ async function init() {
 
     // Load translation meaning files
     const [zhTW, ja, en] = await Promise.all([
-      loadJSON("./data/meanings_zh_TW.json?v=2026-05-26.3").catch(() => ({})),
-      loadJSON("./data/meanings_ja.json?v=2026-05-26.3").catch(() => ({})),
-      loadJSON("./data/meanings_en.json?v=2026-05-26.3").catch(() => ({})),
+      loadJSON("./data/meanings_zh_TW.json?v=2026-05-26.4").catch(() => ({})),
+      loadJSON("./data/meanings_ja.json?v=2026-05-26.4").catch(() => ({})),
+      loadJSON("./data/meanings_en.json?v=2026-05-26.4").catch(() => ({})),
     ]);
     db.meanings = { "zh-TW": zhTW, ja, en };
   } catch (e) {
