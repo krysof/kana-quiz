@@ -1,17 +1,17 @@
 import {
   loadSettings, saveSettings, resetSettings,
   loadStats, saveStats, resetDaily, resetAllStats
-} from "./core/storage.js?v=2026-05-26.4";
+} from "./core/storage.js?v=2026-05-26.5";
 
-import { speakJP, warmupTTS } from "./core/tts.js?v=2026-05-26.4";
-import { playCorrect, playWrong, unlockAudio } from "./core/audio.js?v=2026-05-26.4";
+import { speakJP, warmupTTS } from "./core/tts.js?v=2026-05-26.5";
+import { playCorrect, playWrong, unlockAudio } from "./core/audio.js?v=2026-05-26.5";
 
 import {
   newQuestion, recordResult, startSession,
   normalizeRomaji, pct
-} from "./core/quiz.js?v=2026-05-26.4";
+} from "./core/quiz.js?v=2026-05-26.5";
 
-import { t, getLang, setLang, applyI18nDOM } from "./core/i18n.js?v=2026-05-26.4";
+import { t, getLang, setLang, applyI18nDOM } from "./core/i18n.js?v=2026-05-26.5";
 
 const $ = (id) => document.getElementById(id);
 
@@ -242,6 +242,36 @@ function escapeRegExp(s) {
   return String(s).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
+const JLPT_INFLECTED_TAIL_ENDINGS = [
+  "ませんでした", "てしまいました", "でしまいました", "てしまった", "でしまった",
+  "てください", "でください", "られなかった", "れなかった", "させられた",
+  "させられる", "させなかった", "せなかった", "なければ", "なかった",
+  "ています", "でいます", "ていました", "でいました", "ている", "でいる",
+  "ていた", "でいた", "られます", "られました", "られる", "られた",
+  "れます", "れました", "れる", "れた", "させる", "させた", "せる", "せた",
+  "ました", "ません", "ます", "ましょう", "たい", "たかった",
+  "かったら", "かった", "くなかった", "くない", "くて", "しくて",
+  "とした", "として", "になった", "になる", "だった", "でした",
+  "っている", "っていた", "ってください", "ってしまった", "ってしまう",
+  "ったら", "った", "って", "んだら", "んだ", "んで",
+  "いたら", "いた", "いて", "いだら", "いだ", "いで",
+  "したら", "した", "して",
+  "たら", "だら", "れば", "けば", "げば", "せば", "めば", "べば", "ねば",
+  "よう", "ろう", "く", "ず", "ぬ", "た", "だ", "て", "で",
+];
+
+function trimInflectedSurfaceTail(rawTail) {
+  if (!rawTail) return "";
+  let best = "";
+  for (let i = 1; i <= rawTail.length; i++) {
+    const prefix = rawTail.slice(0, i);
+    if (JLPT_INFLECTED_TAIL_ENDINGS.some(end => prefix.endsWith(end))) {
+      best = prefix;
+    }
+  }
+  return best || rawTail;
+}
+
 function inflectedKanjiReadingSurface(nq) {
   if (!nq || nq.cat !== "kanji_reading" || !nq.sentence || !nq.target || nq.sentence.includes(nq.target)) {
     return null;
@@ -251,7 +281,11 @@ function inflectedKanjiReadingSurface(nq) {
   const stem = kanjiMatch[1];
   const m = nq.sentence.match(new RegExp(`${escapeRegExp(stem)}[ぁ-ゖァ-ヺー]*`));
   if (!m || !m[0] || m[0] === nq.target) return null;
-  return { stem, surface: m[0] };
+  const rawTail = m[0].slice(stem.length);
+  const surfaceTail = trimInflectedSurfaceTail(rawTail);
+  const surface = `${stem}${surfaceTail}`;
+  if (!surface || surface === nq.target) return null;
+  return { stem, surface };
 }
 
 function matchReadingToSurface(reading, targetTail, surfaceTail) {
@@ -911,7 +945,12 @@ function renderN2Question() {
 
   // Build question HTML with robust target underlining
   let sentenceHtml = nq.sentence || "";
-  if (nq.target && sentenceHtml) {
+  if (nq._targetSurface && sentenceHtml.includes(nq._targetSurface)) {
+    sentenceHtml = sentenceHtml.replace(
+      nq._targetSurface,
+      `<span class="n2-target">${nq._targetSurface}</span>`
+    );
+  } else if (nq.target && sentenceHtml) {
     if (sentenceHtml.includes(nq.target)) {
       sentenceHtml = sentenceHtml.replace(
         nq.target,
@@ -1191,7 +1230,17 @@ function nextQuestion() {
   }
 
   if (!stats.session.active && stats.session.done >= stats.session.size && stats.session.done > 0) {
-    backToModules();
+    if (ui.q.querySelector(".gp-summary")) {
+      backToModules();
+    } else {
+      stopTimer();
+      const elapsed = Math.floor((Date.now() - sessionStartTime) / 1000);
+      if (currentModule === "n2" && (settings.jlptMode === "study" || settings.jlptMode === "progressive")) {
+        showStudySummary(elapsed);
+      } else {
+        showSessionSummary(elapsed);
+      }
+    }
     return;
   }
 
@@ -1636,9 +1685,9 @@ async function init() {
 
     // Load translation meaning files
     const [zhTW, ja, en] = await Promise.all([
-      loadJSON("./data/meanings_zh_TW.json?v=2026-05-26.4").catch(() => ({})),
-      loadJSON("./data/meanings_ja.json?v=2026-05-26.4").catch(() => ({})),
-      loadJSON("./data/meanings_en.json?v=2026-05-26.4").catch(() => ({})),
+      loadJSON("./data/meanings_zh_TW.json?v=2026-05-26.5").catch(() => ({})),
+      loadJSON("./data/meanings_ja.json?v=2026-05-26.5").catch(() => ({})),
+      loadJSON("./data/meanings_en.json?v=2026-05-26.5").catch(() => ({})),
     ]);
     db.meanings = { "zh-TW": zhTW, ja, en };
   } catch (e) {

@@ -193,10 +193,19 @@ export function newQuestion(db, settings, stats){
   // === Choice generation ===
 
   if (mode === "rm_mc" || mode === "jp_mc") {
-    const allPool = [...pools.kana, ...pools.word];
-    const pool2 = allPool.filter(x => x.rm !== correct.rm);
-
     const correctLen = correct.hira.length;
+    const isKanaCorrect = correct.type === "kana";
+    const primaryPool = isKanaCorrect
+      // 50音基础：单音只混单音，拗音等双音只混双音，不再混入词汇。
+      ? pools.kana.filter(x => x.hira.length === correctLen)
+      // 日常短词：优先只在词汇内出干扰项。
+      : pools.word;
+    const fallbackPool = isKanaCorrect ? pools.kana : [...pools.word, ...pools.kana];
+    let pool2 = primaryPool.filter(x => x.rm !== correct.rm);
+    if (pool2.length < 3) {
+      pool2 = fallbackPool.filter(x => x.rm !== correct.rm);
+    }
+
     const correctFirst = correct.hira[0];
 
     const score = (x) => {
