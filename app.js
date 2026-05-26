@@ -1,17 +1,17 @@
 import {
   loadSettings, saveSettings, resetSettings,
   loadStats, saveStats, resetDaily, resetAllStats
-} from "./core/storage.js?v=2026-05-26.2";
+} from "./core/storage.js?v=2026-05-26.3";
 
-import { speakJP, warmupTTS } from "./core/tts.js?v=2026-05-26.2";
-import { playCorrect, playWrong, unlockAudio } from "./core/audio.js?v=2026-05-26.2";
+import { speakJP, warmupTTS } from "./core/tts.js?v=2026-05-26.3";
+import { playCorrect, playWrong, unlockAudio } from "./core/audio.js?v=2026-05-26.3";
 
 import {
   newQuestion, recordResult, startSession,
   normalizeRomaji, pct
-} from "./core/quiz.js?v=2026-05-26.2";
+} from "./core/quiz.js?v=2026-05-26.3";
 
-import { t, getLang, setLang, applyI18nDOM } from "./core/i18n.js?v=2026-05-26.2";
+import { t, getLang, setLang, applyI18nDOM } from "./core/i18n.js?v=2026-05-26.3";
 
 const $ = (id) => document.getElementById(id);
 
@@ -733,6 +733,36 @@ function makeJlptProgressKey(level, cats) {
   return `${level}:${cats.join(",")}`;
 }
 
+function makeJlptProgressOrderKey(level, cats, total) {
+  return `${makeJlptProgressKey(level, cats)}:${total}`;
+}
+
+function shuffledIndexOrder(total) {
+  const order = Array.from({ length: total }, (_, i) => i);
+  for (let i = order.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [order[i], order[j]] = [order[j], order[i]];
+  }
+  return order;
+}
+
+function getProgressiveJlptOrder(level, cats, total) {
+  settings.jlptProgressOrders ||= {};
+  const key = makeJlptProgressOrderKey(level, cats, total);
+  let order = settings.jlptProgressOrders[key];
+  const valid = Array.isArray(order)
+    && order.length === total
+    && order.every((v) => Number.isInteger(v) && v >= 0 && v < total)
+    && new Set(order).size === total;
+
+  if (!valid) {
+    order = shuffledIndexOrder(total);
+    settings.jlptProgressOrders[key] = order;
+    saveSettings(settings);
+  }
+  return order;
+}
+
 function getOrderedJlptPool(level, cats) {
   const bank = db.jlptBanks[level] || db.n2Questions || [];
   const catSet = new Set(cats);
@@ -756,15 +786,19 @@ function pickProgressiveN2Question() {
 
   settings.jlptProgress ||= {};
   const key = makeJlptProgressKey(level, cats);
+  const orderKey = makeJlptProgressOrderKey(level, cats, pool.length);
+  const order = getProgressiveJlptOrder(level, cats, pool.length);
   let idx = Number(settings.jlptProgress[key] || 0);
-  if (!Number.isFinite(idx) || idx < 0 || idx >= pool.length) idx = 0;
+  if (!Number.isFinite(idx) || idx < 0 || idx >= order.length) idx = 0;
 
-  const q = shuffleN2Question(pool[idx]);
+  const poolIndex = order[idx] ?? idx;
+  const q = shuffleN2Question(pool[poolIndex]);
   q._progress = {
     key,
+    orderKey,
     index: idx,
     total: pool.length,
-    nextIndex: (idx + 1) % pool.length,
+    nextIndex: (idx + 1) % order.length,
   };
   return q;
 }
@@ -773,6 +807,10 @@ function advanceProgressiveN2Question(nq) {
   if (!nq?._progress) return;
   settings.jlptProgress ||= {};
   settings.jlptProgress[nq._progress.key] = nq._progress.nextIndex;
+  if (nq._progress.nextIndex === 0 && nq._progress.orderKey) {
+    settings.jlptProgressOrders ||= {};
+    delete settings.jlptProgressOrders[nq._progress.orderKey];
+  }
   saveSettings(settings);
 }
 
@@ -1405,6 +1443,7 @@ function wire() {
   });
   ui.btnResetJlptProgress?.addEventListener("click", () => {
     settings.jlptProgress = {};
+    settings.jlptProgressOrders = {};
     saveSettings(settings);
     n2AnsweredIds.clear();
     alert(t("alert_reset_jlpt_progress"));
@@ -1543,9 +1582,9 @@ async function init() {
 
     // Load translation meaning files
     const [zhTW, ja, en] = await Promise.all([
-      loadJSON("./data/meanings_zh_TW.json?v=2026-05-26.2").catch(() => ({})),
-      loadJSON("./data/meanings_ja.json?v=2026-05-26.2").catch(() => ({})),
-      loadJSON("./data/meanings_en.json?v=2026-05-26.2").catch(() => ({})),
+      loadJSON("./data/meanings_zh_TW.json?v=2026-05-26.3").catch(() => ({})),
+      loadJSON("./data/meanings_ja.json?v=2026-05-26.3").catch(() => ({})),
+      loadJSON("./data/meanings_en.json?v=2026-05-26.3").catch(() => ({})),
     ]);
     db.meanings = { "zh-TW": zhTW, ja, en };
   } catch (e) {
