@@ -1,17 +1,17 @@
 import {
   loadSettings, saveSettings, resetSettings,
   loadStats, saveStats, resetDaily, resetAllStats
-} from "./core/storage.js?v=2026-06-09.2";
+} from "./core/storage.js?v=2026-06-09.3";
 
-import { speakJP, warmupTTS } from "./core/tts.js?v=2026-06-09.2";
-import { playCorrect, playWrong, unlockAudio } from "./core/audio.js?v=2026-06-09.2";
+import { speakJP, warmupTTS } from "./core/tts.js?v=2026-06-09.3";
+import { playCorrect, playWrong, unlockAudio } from "./core/audio.js?v=2026-06-09.3";
 
 import {
   newQuestion, recordResult, startSession,
   normalizeRomaji, pct
-} from "./core/quiz.js?v=2026-06-09.2";
+} from "./core/quiz.js?v=2026-06-09.3";
 
-import { t, getLang, setLang, applyI18nDOM } from "./core/i18n.js?v=2026-06-09.2";
+import { t, getLang, setLang, applyI18nDOM } from "./core/i18n.js?v=2026-06-09.3";
 
 const $ = (id) => document.getElementById(id);
 
@@ -125,11 +125,12 @@ const ui = {
 
 let settings = loadSettings();
 let stats = loadStats();
-let db = { kana: [], words: [], wordRelations: [], kanji: [], n2Questions: [], jlptBanks: {}, meanings: {} };
+let db = { kana: [], words: [], wordRelations: [], kanji: [], n2Questions: [], jlptBanks: {}, meanings: {}, furiganaExtra: {} };
 let current = null;
 let answered = false;
 let currentModule = settings.module || "kana";
 let furiganaEntries = [];
+let furiganaInflectableEntries = [];
 
 // N2 session tracking: avoid repeating questions
 let n2AnsweredIds = new Set();
@@ -221,6 +222,20 @@ const COMMON_FURIGANA_ENTRIES = [
   ["病院", "びょういん"], ["銀行", "ぎんこう"], ["店員", "てんいん"], ["駅員", "えきいん"],
   ["日本", "にほん"], ["日本語", "にほんご"], ["中国", "ちゅうごく"], ["韓国", "かんこく"],
   ["英語", "えいご"], ["東京", "とうきょう"], ["大阪", "おおさか"], ["京都", "きょうと"],
+  // Common verbs/adjectives used in grammar/context sentences
+  ["忘れる", "わすれる"], ["覚える", "おぼえる"], ["教える", "おしえる"], ["伝える", "つたえる"],
+  ["考える", "かんがえる"], ["答える", "こたえる"], ["変える", "かえる"], ["帰る", "かえる"],
+  ["始める", "はじめる"], ["続ける", "つづける"], ["終わる", "おわる"], ["戻る", "もどる"],
+  ["進む", "すすむ"], ["通う", "かよう"], ["遅れる", "おくれる"], ["残る", "のこる"],
+  ["探す", "さがす"], ["見つける", "みつける"], ["届く", "とどく"], ["預ける", "あずける"],
+  ["認める", "みとめる"], ["述べる", "のべる"], ["選ぶ", "えらぶ"], ["決める", "きめる"],
+  ["使う", "つかう"], ["作る", "つくる"], ["持つ", "もつ"], ["待つ", "まつ"],
+  ["買う", "かう"], ["売る", "うる"], ["読む", "よむ"], ["書く", "かく"], ["聞く", "きく"],
+  ["話す", "はなす"], ["言う", "いう"], ["見る", "みる"], ["来る", "くる"], ["行く", "いく"],
+  ["食べる", "たべる"], ["飲む", "のむ"], ["入る", "はいる"], ["出る", "でる"],
+  ["激しい", "はげしい"], ["素晴らしい", "すばらしい"], ["新しい", "あたらしい"],
+  ["古い", "ふるい"], ["高い", "たかい"], ["安い", "やすい"], ["近い", "ちかい"],
+  ["遠い", "とおい"], ["早い", "はやい"], ["速い", "はやい"], ["遅い", "おそい"],
 ];
 
 function isWordRelationMode(mode) {
@@ -253,6 +268,30 @@ function addFuriganaEntry(map, kanji, reading) {
   if (!map.has(kanji)) map.set(kanji, reading);
 }
 
+function makeInflectableFuriganaEntry(entry) {
+  const m = entry.kanji.match(/^([\u4e00-\u9fff々]+)([ぁ-ゖァ-ヺー]+)$/);
+  if (!m || !entry.reading.endsWith(m[2])) return null;
+  const readingStem = entry.reading.slice(0, -m[2].length);
+  if (!readingStem) return null;
+  return {
+    stem: m[1],
+    baseTail: m[2],
+    readingStem,
+  };
+}
+
+function matchInflectedFuriganaAt(s, index, inf) {
+  if (!inf || !s.startsWith(inf.stem, index)) return null;
+  const rest = s.slice(index + inf.stem.length);
+  const rawTail = rest.match(/^[ぁ-ゖァ-ヺー]+/)?.[0] || "";
+  const surfaceTail = trimInflectedSurfaceTail(rawTail, false);
+  if (!surfaceTail || surfaceTail === inf.baseTail) return null;
+  return {
+    surface: `${inf.stem}${surfaceTail}`,
+    reading: `${inf.readingStem}${surfaceTail}`,
+  };
+}
+
 function questionFuriganaEntries(nq) {
   const out = [];
   if (!nq || !Array.isArray(nq.options) || typeof nq.answer !== "number") return out;
@@ -273,6 +312,9 @@ function buildFuriganaEntries() {
     addFuriganaEntry(map, item.kanji, item.hira);
   });
   COMMON_FURIGANA_ENTRIES.forEach(([kanji, reading]) => addFuriganaEntry(map, kanji, reading));
+  Object.entries(db.furiganaExtra || {}).forEach(([kanji, reading]) => {
+    addFuriganaEntry(map, kanji, reading);
+  });
 
   Object.values(db.jlptBanks || {}).flat().forEach((q) => {
     if (!q || !Array.isArray(q.options) || typeof q.answer !== "number") return;
@@ -294,6 +336,10 @@ function buildFuriganaEntries() {
   furiganaEntries = [...map.entries()]
     .map(([kanji, reading]) => ({ kanji, reading }))
     .sort((a, b) => b.kanji.length - a.kanji.length);
+  furiganaInflectableEntries = furiganaEntries
+    .map(makeInflectableFuriganaEntry)
+    .filter(Boolean)
+    .sort((a, b) => b.stem.length - a.stem.length || b.baseTail.length - a.baseTail.length);
 }
 
 function furiganaHtml(text, extraEntries = [], opts = {}) {
@@ -302,12 +348,24 @@ function furiganaHtml(text, extraEntries = [], opts = {}) {
   if (!hasKanji(s)) return escapeHtml(s);
 
   const skip = Array.isArray(opts.skip) ? opts.skip.filter(Boolean) : [];
-  const merged = new Map();
-  [...extraEntries, ...furiganaEntries].forEach((e) => addFuriganaEntry(merged, e.kanji, e.reading));
-  const entries = [...merged.entries()]
-    .map(([kanji, reading]) => ({ kanji, reading }))
+  const hasExtra = Array.isArray(extraEntries) && extraEntries.length > 0;
+  let allEntries = furiganaEntries;
+  let allInflectableEntries = furiganaInflectableEntries;
+  if (hasExtra) {
+    const merged = new Map();
+    [...extraEntries, ...furiganaEntries].forEach((e) => addFuriganaEntry(merged, e.kanji, e.reading));
+    allEntries = [...merged.entries()]
+      .map(([kanji, reading]) => ({ kanji, reading }))
+      .sort((a, b) => b.kanji.length - a.kanji.length);
+    allInflectableEntries = allEntries
+      .map(makeInflectableFuriganaEntry)
+      .filter(Boolean)
+      .sort((a, b) => b.stem.length - a.stem.length || b.baseTail.length - a.baseTail.length);
+  }
+  const entries = allEntries
     .filter(e => s.includes(e.kanji))
     .sort((a, b) => b.kanji.length - a.kanji.length);
+  const inflectableEntries = allInflectableEntries.filter(e => s.includes(e.stem));
 
   let html = "";
   for (let i = 0; i < s.length;) {
@@ -323,8 +381,16 @@ function furiganaHtml(text, extraEntries = [], opts = {}) {
       html += makeRuby(hit.kanji, hit.reading);
       i += hit.kanji.length;
     } else {
-      html += escapeHtml(s[i]);
-      i += 1;
+      const inflectedHit = inflectableEntries
+        .map(e => matchInflectedFuriganaAt(s, i, e))
+        .find(Boolean);
+      if (inflectedHit) {
+        html += makeRuby(inflectedHit.surface, inflectedHit.reading);
+        i += inflectedHit.surface.length;
+      } else {
+        html += escapeHtml(s[i]);
+        i += 1;
+      }
     }
   }
   return html;
@@ -369,6 +435,7 @@ const JLPT_INFLECTED_TAIL_ENDINGS = [
   "ませんでした", "てしまいました", "でしまいました", "てしまった", "でしまった",
   "てください", "でください", "られなかった", "れなかった", "させられた",
   "させられる", "させなかった", "せなかった", "なければ", "なかった",
+  "ないで", "なくて", "ない", "なく", "ずに",
   "ています", "でいます", "ていました", "でいました", "ている", "でいる",
   "ていた", "でいた", "られます", "られました", "られる", "られた",
   "れます", "れました", "れる", "れた", "させる", "させた", "せる", "せた",
@@ -383,7 +450,7 @@ const JLPT_INFLECTED_TAIL_ENDINGS = [
   "よう", "ろう", "く", "ず", "ぬ", "た", "だ", "て", "で",
 ];
 
-function trimInflectedSurfaceTail(rawTail) {
+function trimInflectedSurfaceTail(rawTail, fallbackRaw = true) {
   if (!rawTail) return "";
   let best = "";
   for (let i = 1; i <= rawTail.length; i++) {
@@ -392,7 +459,7 @@ function trimInflectedSurfaceTail(rawTail) {
       best = prefix;
     }
   }
-  return best || rawTail;
+  return best || (fallbackRaw ? rawTail : "");
 }
 
 function inflectedKanjiReadingSurface(nq) {
@@ -1756,6 +1823,7 @@ async function init() {
     db.words = await loadJSON("./data/words.json");
     db.wordRelations = await loadJSON("./data/word_relations.json").catch(() => []);
     db.kanji = await loadJSON("./data/kanji_words.json");
+    db.furiganaExtra = await loadJSON("./data/furigana_extra.json").catch(() => ({}));
 
     // Load grammar topics (browse-only module)
     grammarTopics = await loadJSON("./data/grammar_topics.json").catch(() => []);
@@ -1810,9 +1878,9 @@ async function init() {
 
     // Load translation meaning files
     const [zhTW, ja, en] = await Promise.all([
-      loadJSON("./data/meanings_zh_TW.json?v=2026-06-09.2").catch(() => ({})),
-      loadJSON("./data/meanings_ja.json?v=2026-06-09.2").catch(() => ({})),
-      loadJSON("./data/meanings_en.json?v=2026-06-09.2").catch(() => ({})),
+      loadJSON("./data/meanings_zh_TW.json?v=2026-06-09.3").catch(() => ({})),
+      loadJSON("./data/meanings_ja.json?v=2026-06-09.3").catch(() => ({})),
+      loadJSON("./data/meanings_en.json?v=2026-06-09.3").catch(() => ({})),
     ]);
     db.meanings = { "zh-TW": zhTW, ja, en };
   } catch (e) {
