@@ -997,6 +997,31 @@ input[type="number"] {
   vertical-align: middle;
 }
 
+ruby {
+  ruby-align: center;
+}
+
+rt {
+  font-size: 0.46em;
+  font-weight: 700;
+  color: var(--primary);
+  letter-spacing: 0.02em;
+  user-select: none;
+}
+
+.q ruby,
+.opt ruby,
+.n2-sentence ruby,
+.n2-translation ruby {
+  line-height: 1.15;
+}
+
+.q .big rt {
+  -webkit-text-fill-color: var(--primary);
+  color: var(--primary);
+  font-size: 0.32em;
+}
+
 .meaning {
   font-size: 0.9375rem;
   color: var(--gray-500);

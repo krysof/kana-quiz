@@ -1,17 +1,17 @@
 import {
   loadSettings, saveSettings, resetSettings,
   loadStats, saveStats, resetDaily, resetAllStats
-} from "./core/storage.js?v=2026-06-09.1";
+} from "./core/storage.js?v=2026-06-09.2";
 
-import { speakJP, warmupTTS } from "./core/tts.js?v=2026-06-09.1";
-import { playCorrect, playWrong, unlockAudio } from "./core/audio.js?v=2026-06-09.1";
+import { speakJP, warmupTTS } from "./core/tts.js?v=2026-06-09.2";
+import { playCorrect, playWrong, unlockAudio } from "./core/audio.js?v=2026-06-09.2";
 
 import {
   newQuestion, recordResult, startSession,
   normalizeRomaji, pct
-} from "./core/quiz.js?v=2026-06-09.1";
+} from "./core/quiz.js?v=2026-06-09.2";
 
-import { t, getLang, setLang, applyI18nDOM } from "./core/i18n.js?v=2026-06-09.1";
+import { t, getLang, setLang, applyI18nDOM } from "./core/i18n.js?v=2026-06-09.2";
 
 const $ = (id) => document.getElementById(id);
 
@@ -129,6 +129,7 @@ let db = { kana: [], words: [], wordRelations: [], kanji: [], n2Questions: [], j
 let current = null;
 let answered = false;
 let currentModule = settings.module || "kana";
+let furiganaEntries = [];
 
 // N2 session tracking: avoid repeating questions
 let n2AnsweredIds = new Set();
@@ -208,8 +209,130 @@ const N2_CAT_NAME_KEYS = {
 const JLPT_CAT_ORDER = ["kanji_reading", "orthography", "context_vocab", "paraphrase", "usage", "grammar"];
 const WORD_RELATION_MODES = ["word_synonym", "word_near", "word_antonym"];
 
+const COMMON_FURIGANA_ENTRIES = [
+  ["自分", "じぶん"], ["無事", "ぶじ"], ["友人", "ゆうじん"], ["家族", "かぞく"],
+  ["場合", "ばあい"], ["理由", "りゆう"], ["方法", "ほうほう"], ["結果", "けっか"],
+  ["必要", "ひつよう"], ["重要", "じゅうよう"], ["問題", "もんだい"], ["意味", "いみ"],
+  ["言葉", "ことば"], ["時間", "じかん"], ["仕事", "しごと"], ["会議", "かいぎ"],
+  ["予定", "よてい"], ["資料", "しりょう"], ["説明", "せつめい"], ["確認", "かくにん"],
+  ["連絡", "れんらく"], ["電話", "でんわ"], ["部屋", "へや"], ["料理", "りょうり"],
+  ["食事", "しょくじ"], ["天気", "てんき"], ["旅行", "りょこう"], ["写真", "しゃしん"],
+  ["映画", "えいが"], ["音楽", "おんがく"], ["新聞", "しんぶん"], ["図書館", "としょかん"],
+  ["病院", "びょういん"], ["銀行", "ぎんこう"], ["店員", "てんいん"], ["駅員", "えきいん"],
+  ["日本", "にほん"], ["日本語", "にほんご"], ["中国", "ちゅうごく"], ["韓国", "かんこく"],
+  ["英語", "えいご"], ["東京", "とうきょう"], ["大阪", "おおさか"], ["京都", "きょうと"],
+];
+
 function isWordRelationMode(mode) {
   return WORD_RELATION_MODES.includes(mode);
+}
+
+function escapeHtml(s) {
+  return String(s ?? "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+}
+
+function hasKanji(s) {
+  return /[\u4e00-\u9fff々]/.test(String(s || ""));
+}
+
+function makeRuby(kanji, reading, className = "") {
+  if (!kanji || !reading || !hasKanji(kanji)) return escapeHtml(kanji || "");
+  const cls = className ? ` class="${className}"` : "";
+  return `<ruby${cls}>${escapeHtml(kanji)}<rt>${escapeHtml(reading)}</rt></ruby>`;
+}
+
+function addFuriganaEntry(map, kanji, reading) {
+  if (!kanji || !reading || !hasKanji(kanji)) return;
+  if (kanji.length > 18 || reading.length > 32) return;
+  if (!/^[ぁ-ゖァ-ヺー]+$/.test(reading)) return;
+  if (!map.has(kanji)) map.set(kanji, reading);
+}
+
+function questionFuriganaEntries(nq) {
+  const out = [];
+  if (!nq || !Array.isArray(nq.options) || typeof nq.answer !== "number") return out;
+  const correct = nq.options[nq.answer] || "";
+  if (nq.cat === "kanji_reading") {
+    if (nq.target && correct) out.push({ kanji: nq.target, reading: correct });
+    if (nq._targetSurface && correct) out.push({ kanji: nq._targetSurface, reading: correct });
+  } else if (nq.cat === "orthography" && nq.target && correct) {
+    out.push({ kanji: correct, reading: nq.target });
+  }
+  return out;
+}
+
+function buildFuriganaEntries() {
+  const map = new Map();
+
+  (db.kanji || []).forEach((item) => {
+    addFuriganaEntry(map, item.kanji, item.hira);
+  });
+  COMMON_FURIGANA_ENTRIES.forEach(([kanji, reading]) => addFuriganaEntry(map, kanji, reading));
+
+  Object.values(db.jlptBanks || {}).flat().forEach((q) => {
+    if (!q || !Array.isArray(q.options) || typeof q.answer !== "number") return;
+    const correct = q.options[q.answer] || "";
+    if (q.cat === "kanji_reading") {
+      addFuriganaEntry(map, q.target, correct);
+      const info = inflectedKanjiReadingSurface(q);
+      if (info && q.target) {
+        const stem = info.stem;
+        const targetTail = q.target.slice(stem.length);
+        const surfaceTail = info.surface.slice(stem.length);
+        addFuriganaEntry(map, info.surface, matchReadingToSurface(correct, targetTail, surfaceTail));
+      }
+    } else if (q.cat === "orthography") {
+      addFuriganaEntry(map, correct, q.target);
+    }
+  });
+
+  furiganaEntries = [...map.entries()]
+    .map(([kanji, reading]) => ({ kanji, reading }))
+    .sort((a, b) => b.kanji.length - a.kanji.length);
+}
+
+function furiganaHtml(text, extraEntries = [], opts = {}) {
+  const s = String(text || "");
+  if (!s) return "";
+  if (!hasKanji(s)) return escapeHtml(s);
+
+  const skip = Array.isArray(opts.skip) ? opts.skip.filter(Boolean) : [];
+  const merged = new Map();
+  [...extraEntries, ...furiganaEntries].forEach((e) => addFuriganaEntry(merged, e.kanji, e.reading));
+  const entries = [...merged.entries()]
+    .map(([kanji, reading]) => ({ kanji, reading }))
+    .filter(e => s.includes(e.kanji))
+    .sort((a, b) => b.kanji.length - a.kanji.length);
+
+  let html = "";
+  for (let i = 0; i < s.length;) {
+    const skipHit = skip.find(k => k && s.startsWith(k, i));
+    if (skipHit) {
+      html += escapeHtml(skipHit);
+      i += skipHit.length;
+      continue;
+    }
+
+    const hit = entries.find(e => s.startsWith(e.kanji, i));
+    if (hit) {
+      html += makeRuby(hit.kanji, hit.reading);
+      i += hit.kanji.length;
+    } else {
+      html += escapeHtml(s[i]);
+      i += 1;
+    }
+  }
+  return html;
+}
+
+function itemKanjiHtml(item) {
+  if (!item?.kanji) return "";
+  return item.hira ? makeRuby(item.kanji, item.hira) : furiganaHtml(item.kanji);
 }
 
 // Build readable sentence for N2 question.
@@ -339,11 +462,14 @@ function buildN2DetailsHTML(nq, correctText, prefixKey = "result_answer") {
   const original = n2OriginalText(nq, correctText);
   const translation = pickN2Field(nq, "translation");
   const explanation = pickN2Field(nq, "explanation");
+  const furi = questionFuriganaEntries(nq);
+  const correctHtml = furiganaHtml(correctText, furi);
+  const originalHtml = furiganaHtml(original, furi);
   const tl = translation
-    ? `<div class="n2-translation">${original ? `${t("n2_original")}${original}<br>` : ""}${t("n2_translation")}${translation}</div>`
+    ? `<div class="n2-translation">${original ? `${t("n2_original")}${originalHtml}<br>` : ""}${t("n2_translation")}${escapeHtml(translation)}</div>`
     : "";
-  const expl = explanation ? `<div class="n2-expl">${explanation}</div>` : "";
-  return `${t(prefixKey)}<b>${correctText}</b>${tl}${expl}`;
+  const expl = explanation ? `<div class="n2-expl">${escapeHtml(explanation)}</div>` : "";
+  return `${t(prefixKey)}<b>${correctHtml}</b>${tl}${expl}`;
 }
 
 // Get meaning for an item based on current language
@@ -943,35 +1069,25 @@ function renderN2Question() {
   const catName = t(N2_CAT_NAME_KEYS[nq.cat] || "n2_context_vocab") || nq.cat;
   const hint = t(N2_CAT_HINT[nq.cat] || "n2_q_context");
 
-  // Build question HTML with robust target underlining
-  let sentenceHtml = nq.sentence || "";
-  if (nq._targetSurface && sentenceHtml.includes(nq._targetSurface)) {
-    sentenceHtml = sentenceHtml.replace(
-      nq._targetSurface,
-      `<span class="n2-target">${nq._targetSurface}</span>`
-    );
-  } else if (nq.target && sentenceHtml) {
-    if (sentenceHtml.includes(nq.target)) {
-      sentenceHtml = sentenceHtml.replace(
-        nq.target,
-        `<span class="n2-target">${nq.target}</span>`
-      );
-    } else {
-      // Fallback: target may be dictionary form (eg 備える) but sentence has
-      // an inflected form (eg 備えて). Match the kanji stem + trailing kana.
-      const kanjiMatch = nq.target.match(/^([一-鿿]+)/);
-      if (kanjiMatch) {
-        const stem = kanjiMatch[1];
-        const re = new RegExp(stem + "[぀-ゟ゠-ヿ]*");
-        const m = sentenceHtml.match(re);
-        if (m) {
-          sentenceHtml = sentenceHtml.replace(
-            m[0],
-            `<span class="n2-target">${m[0]}</span>`
-          );
-        }
-      }
-    }
+  // Build question HTML with robust target underlining + safe furigana.
+  let sentenceHtml = "";
+  const sentence = nq.sentence || "";
+  const furi = questionFuriganaEntries(nq);
+  const targetSurface = nq._targetSurface
+    || (nq.target && sentence.includes(nq.target) ? nq.target : inflectedKanjiReadingSurface(nq)?.surface)
+    || "";
+  if (sentence && targetSurface && sentence.includes(targetSurface)) {
+    const pos = sentence.indexOf(targetSurface);
+    const before = sentence.slice(0, pos);
+    const after = sentence.slice(pos + targetSurface.length);
+    const showTargetRuby = nq.cat !== "kanji_reading" || isStudy || answered;
+    sentenceHtml = [
+      furiganaHtml(before, furi),
+      `<span class="n2-target">${showTargetRuby ? furiganaHtml(targetSurface, furi) : escapeHtml(targetSurface)}</span>`,
+      furiganaHtml(after, furi),
+    ].join("");
+  } else {
+    sentenceHtml = furiganaHtml(sentence, furi);
   }
 
   const progressBadge = isProgressive && nq._progress
@@ -988,9 +1104,11 @@ function renderN2Question() {
     if (isStudy) {
       div.classList.add(idx === nq.answer ? "correct" : "disabled");
     }
+    const canAnnotateOption = isStudy || (nq.cat !== "kanji_reading" && nq.cat !== "orthography");
+    const optHtml = canAnnotateOption ? furiganaHtml(opt, furi) : escapeHtml(opt);
     div.innerHTML = isUsage
-      ? `<div class="jp">${opt}</div>`
-      : `<div class="jp">${idx + 1}. ${opt}</div>`;
+      ? `<div class="jp">${optHtml}</div>`
+      : `<div class="jp">${idx + 1}. ${optHtml}</div>`;
     // Capture nq in closure to avoid current.n2Q drift
     div.onclick = isStudy ? null : () => answerN2Choice(idx, nq);
     ui.opts.appendChild(div);
@@ -1140,11 +1258,12 @@ function renderQuestion() {
   } else if (current.mode === "mean_rm") {
     ui.q.innerHTML = `${t("q_how_read_meaning_pre")}${meaning}${t("q_how_read_meaning")}`;
   } else if (current.mode === "kanji_read") {
-    ui.q.innerHTML = `<span class="big">${it.kanji}</span>${t("q_how_read")}`;
+    // Do not add furigana here: this mode is testing the reading.
+    ui.q.innerHTML = `<span class="big">${escapeHtml(it.kanji)}</span>${t("q_how_read")}`;
   } else if (current.mode === "read_kanji") {
     ui.q.innerHTML = `<span class="big">${kana}</span>${t("q_kanji_of")}`;
   } else if (current.mode === "kanji_mean") {
-    ui.q.innerHTML = `<span class="big">${it.kanji}</span>${t("q_what_meaning")}`;
+    ui.q.innerHTML = `<span class="big">${itemKanjiHtml(it)}</span>${t("q_what_meaning")}`;
   } else if (current.mode === "rm_mc" || current.mode === "rm_in") {
     ui.q.innerHTML = `<b>${it.rm}</b>${it.type === "word" ? t("q_writing_of") : t("q_kana_of")}`;
   } else {
@@ -1192,7 +1311,8 @@ function renderQuestion() {
     current.choices.forEach((c, idx) => {
       const div = document.createElement("div");
       div.className = "opt";
-      div.innerHTML = `<div class="jp">${c.kanji}</div>`;
+      // Do not add furigana here: this mode is testing kanji selection.
+      div.innerHTML = `<div class="jp">${escapeHtml(c.kanji)}</div>`;
       div.onclick = () => answerChoice(idx);
       ui.opts.appendChild(div);
     });
@@ -1320,9 +1440,10 @@ function answerChoice(idx) {
       ? `✅ ${t("result_correct")}<b>${kana}</b> = <b>${meaning}</b>`
       : `❌ ${t("result_wrong")}<b>${kana}</b> = <b>${meaning}</b>`;
   } else if (current.mode === "kanji_read" || current.mode === "read_kanji" || current.mode === "kanji_mean") {
+    const kanjiHtml = itemKanjiHtml(current.correct);
     ui.result.innerHTML = ok
-      ? `✅ ${t("result_correct")}<b>${current.correct.kanji}</b>（${kana}）= <b>${meaning}</b>`
-      : `❌ ${t("result_wrong")}<b>${current.correct.kanji}</b>（${kana}）= <b>${meaning}</b>`;
+      ? `✅ ${t("result_correct")}<b>${kanjiHtml}</b>（${kana}）= <b>${escapeHtml(meaning)}</b>`
+      : `❌ ${t("result_wrong")}<b>${kanjiHtml}</b>（${kana}）= <b>${escapeHtml(meaning)}</b>`;
   } else {
     ui.result.innerHTML = ok
       ? `✅ ${t("result_correct")}<b>${current.correct.rm}</b> = <b>${kana}</b>`
@@ -1418,6 +1539,8 @@ function showAnswer() {
   if (isWordRelationMode(current.mode)) {
     const srcKana = getKana(current.source);
     ui.result.innerHTML = `${t("result_answer")}<b>${srcKana}</b> → <b>${kana}</b>${meaning ? `（${meaning}）` : ""}`;
+  } else if (current.mode === "kanji_read" || current.mode === "read_kanji" || current.mode === "kanji_mean") {
+    ui.result.innerHTML = `${t("result_answer")}<b>${itemKanjiHtml(current.correct)}</b>（${kana}）${meaning ? ` = <b>${escapeHtml(meaning)}</b>` : ""}`;
   } else {
     ui.result.innerHTML = `${t("result_answer")}<b>${current.correct.rm}</b> = <b>${kana}</b>${meaning ? `（${meaning}）` : ""}`;
   }
@@ -1653,6 +1776,7 @@ async function init() {
     ]);
     db.n2Questions = n2Files.flat();
     db.jlptBanks.n2 = db.n2Questions;
+    buildFuriganaEntries();
 
     // Load N1, N3, N4, N5 banks. Only request files that exist to avoid
     // noisy 404s in browser consoles and service-worker logs.
@@ -1676,6 +1800,7 @@ async function init() {
     db.jlptBanks.n3 = n3Bank;
     db.jlptBanks.n4 = n4Bank;
     db.jlptBanks.n5 = n5Bank;
+    buildFuriganaEntries();
 
     // Load version
     loadJSON("./data/version.json").then((v) => {
@@ -1685,9 +1810,9 @@ async function init() {
 
     // Load translation meaning files
     const [zhTW, ja, en] = await Promise.all([
-      loadJSON("./data/meanings_zh_TW.json?v=2026-06-09.1").catch(() => ({})),
-      loadJSON("./data/meanings_ja.json?v=2026-06-09.1").catch(() => ({})),
-      loadJSON("./data/meanings_en.json?v=2026-06-09.1").catch(() => ({})),
+      loadJSON("./data/meanings_zh_TW.json?v=2026-06-09.2").catch(() => ({})),
+      loadJSON("./data/meanings_ja.json?v=2026-06-09.2").catch(() => ({})),
+      loadJSON("./data/meanings_en.json?v=2026-06-09.2").catch(() => ({})),
     ]);
     db.meanings = { "zh-TW": zhTW, ja, en };
   } catch (e) {
