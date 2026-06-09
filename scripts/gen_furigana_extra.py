@@ -47,6 +47,13 @@ MANUAL = {
     "下手": "へた",
     "部屋": "へや",
     "紅葉": "こうよう",
+    # Single-kanji verb stems seen before grammar blanks.  Automatic conversion
+    # tends to read these as on-yomi when the following inflection is hidden.
+    "着": "き",
+    "来": "く",
+    "見": "み",
+    "出": "で",
+    "忘": "わす",
 }
 
 

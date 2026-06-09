@@ -1,17 +1,17 @@
 import {
   loadSettings, saveSettings, resetSettings,
   loadStats, saveStats, resetDaily, resetAllStats
-} from "./core/storage.js?v=2026-06-09.3";
+} from "./core/storage.js?v=2026-06-09.4";
 
-import { speakJP, warmupTTS } from "./core/tts.js?v=2026-06-09.3";
-import { playCorrect, playWrong, unlockAudio } from "./core/audio.js?v=2026-06-09.3";
+import { speakJP, warmupTTS } from "./core/tts.js?v=2026-06-09.4";
+import { playCorrect, playWrong, unlockAudio } from "./core/audio.js?v=2026-06-09.4";
 
 import {
   newQuestion, recordResult, startSession,
   normalizeRomaji, pct
-} from "./core/quiz.js?v=2026-06-09.3";
+} from "./core/quiz.js?v=2026-06-09.4";
 
-import { t, getLang, setLang, applyI18nDOM } from "./core/i18n.js?v=2026-06-09.3";
+import { t, getLang, setLang, applyI18nDOM } from "./core/i18n.js?v=2026-06-09.4";
 
 const $ = (id) => document.getElementById(id);
 
@@ -255,8 +255,26 @@ function hasKanji(s) {
   return /[\u4e00-\u9fff々]/.test(String(s || ""));
 }
 
+function hasKatakana(s) {
+  return /[ァ-ヺー]/.test(String(s || ""));
+}
+
+function katakanaToHiragana(s) {
+  return String(s || "").replace(/[ァ-ヶ]/g, (ch) => {
+    return String.fromCharCode(ch.charCodeAt(0) - 0x60);
+  });
+}
+
+function matchKatakanaAt(s, index) {
+  const m = s.slice(index).match(/^[ァ-ヺー]+/);
+  if (!m) return null;
+  const surface = m[0];
+  if (!surface || /^ー+$/.test(surface)) return null;
+  return { surface, reading: katakanaToHiragana(surface) };
+}
+
 function makeRuby(kanji, reading, className = "") {
-  if (!kanji || !reading || !hasKanji(kanji)) return escapeHtml(kanji || "");
+  if (!kanji || !reading || (!hasKanji(kanji) && !hasKatakana(kanji))) return escapeHtml(kanji || "");
   const cls = className ? ` class="${className}"` : "";
   return `<ruby${cls}>${escapeHtml(kanji)}<rt>${escapeHtml(reading)}</rt></ruby>`;
 }
@@ -345,7 +363,7 @@ function buildFuriganaEntries() {
 function furiganaHtml(text, extraEntries = [], opts = {}) {
   const s = String(text || "");
   if (!s) return "";
-  if (!hasKanji(s)) return escapeHtml(s);
+  if (!hasKanji(s) && !hasKatakana(s)) return escapeHtml(s);
 
   const skip = Array.isArray(opts.skip) ? opts.skip.filter(Boolean) : [];
   const hasExtra = Array.isArray(extraEntries) && extraEntries.length > 0;
@@ -388,8 +406,14 @@ function furiganaHtml(text, extraEntries = [], opts = {}) {
         html += makeRuby(inflectedHit.surface, inflectedHit.reading);
         i += inflectedHit.surface.length;
       } else {
-        html += escapeHtml(s[i]);
-        i += 1;
+        const katakanaHit = matchKatakanaAt(s, i);
+        if (katakanaHit) {
+          html += makeRuby(katakanaHit.surface, katakanaHit.reading, "kata-ruby");
+          i += katakanaHit.surface.length;
+        } else {
+          html += escapeHtml(s[i]);
+          i += 1;
+        }
       }
     }
   }
@@ -979,10 +1003,74 @@ function nextGp() {
   renderGpQuestion();
 }
 
+function isN2ExamMode(mode) {
+  return mode === "n2_exam";
+}
+
+function isInputMode(mode) {
+  return mode === "rm_in" || mode === "jp_in";
+}
+
+function isMainChoiceMode(mode) {
+  if (!current || answered) return false;
+  if (isN2ExamMode(mode)) return true;
+  return !isInputMode(mode) && Array.isArray(current.choices) && current.choices.length > 0;
+}
+
+function updateMainActionButton() {
+  if (!ui.btnNew) return;
+  if (isMainChoiceMode(current?.mode)) {
+    ui.btnNew.textContent = t("btn_answer");
+    ui.btnNew.disabled = !(current.selectedChoiceIndex >= 0);
+  } else {
+    ui.btnNew.textContent = t("btn_next");
+    ui.btnNew.disabled = false;
+  }
+}
+
+function selectMainChoice(idx) {
+  if (!current || answered) return;
+  current.selectedChoiceIndex = idx;
+  ui.result.textContent = "";
+  [...ui.opts.querySelectorAll(".opt")].forEach((node, i) => {
+    node.classList.toggle("selected", i === idx);
+  });
+  updateMainActionButton();
+}
+
+function markMainChoiceResult(selectedIdx, correctIdx) {
+  [...ui.opts.querySelectorAll(".opt")].forEach((node, i) => {
+    node.classList.remove("selected");
+    node.classList.add("disabled");
+    if (i === correctIdx) node.classList.add("correct");
+    if (i === selectedIdx && selectedIdx !== correctIdx) node.classList.add("wrong");
+  });
+}
+
+function submitMainChoice() {
+  if (!current || answered) return;
+  const idx = current.selectedChoiceIndex;
+  if (!(idx >= 0)) {
+    ui.result.textContent = t("please_answer");
+    return;
+  }
+  if (isN2ExamMode(current.mode)) {
+    answerN2Choice(idx, current.n2Q);
+  } else {
+    answerChoice(idx);
+  }
+}
+
+function handleMainActionButton() {
+  if (isMainChoiceMode(current?.mode)) submitMainChoice();
+  else nextQuestion();
+}
+
 function setUIForMode(mode) {
   if (mode === "n2_exam") {
     ui.inputWrap.classList.add("hide");
     ui.opts.classList.remove("hide");
+    updateMainActionButton();
     return;
   }
   const isInput = (mode === "rm_in" || mode === "jp_in");
@@ -997,6 +1085,7 @@ function setUIForMode(mode) {
       : t("input_romaji");
     setTimeout(() => ui.inp.focus?.(), 0);
   }
+  updateMainActionButton();
 }
 
 // ==================== N2 Exam Question ====================
@@ -1128,6 +1217,7 @@ function renderN2Question() {
   const nq = current.n2Q;
   const isStudy = current.mode === "n2_study" || current.mode === "n2_progressive";
   const isProgressive = current.mode === "n2_progressive";
+  if (!answered) current.selectedChoiceIndex = -1;
   ui.meaning.textContent = "";
   ui.meaning.onclick = null;
   ui.result.textContent = "";
@@ -1176,8 +1266,8 @@ function renderN2Question() {
     div.innerHTML = isUsage
       ? `<div class="jp">${optHtml}</div>`
       : `<div class="jp">${idx + 1}. ${optHtml}</div>`;
-    // Capture nq in closure to avoid current.n2Q drift
-    div.onclick = isStudy ? null : () => answerN2Choice(idx, nq);
+    // Selecting only highlights the option; the bottom "Submit" button scores it.
+    div.onclick = isStudy ? null : () => selectMainChoice(idx);
     ui.opts.appendChild(div);
   });
 
@@ -1197,6 +1287,8 @@ function answerN2Choice(idx, boundNq) {
   const nq = boundNq || current.n2Q;
   const ok = idx === nq.answer;
   const correctText = nq.options[nq.answer];
+  markMainChoiceResult(idx, nq.answer);
+  updateMainActionButton();
 
   n2AnsweredIds.add(`${settings.jlptLevel || "n2"}_${nq.id}`);
 
@@ -1251,6 +1343,7 @@ function renderQuestion() {
   const kana = getKana(it);
   const meaning = getMeaning(it);
   const sourceMeaning = current.source ? getMeaning(current.source) : "";
+  if (!answered) current.selectedChoiceIndex = -1;
 
   const shouldHide = ui.hideMeaning.checked;
   if (isWordRelationMode(current.mode)) {
@@ -1343,7 +1436,7 @@ function renderQuestion() {
       const div = document.createElement("div");
       div.className = "opt";
       div.innerHTML = `<div class="jp">${getKana(c)}</div><div class="meaning-opt">${getMeaning(c)}</div>`;
-      div.onclick = () => answerChoice(idx);
+      div.onclick = () => selectMainChoice(idx);
       ui.opts.appendChild(div);
     });
   } else if (current.mode === "rm_mean") {
@@ -1352,7 +1445,7 @@ function renderQuestion() {
       const div = document.createElement("div");
       div.className = "opt";
       div.innerHTML = `<div class="meaning-opt">${getMeaning(c)}</div>`;
-      div.onclick = () => answerChoice(idx);
+      div.onclick = () => selectMainChoice(idx);
       ui.opts.appendChild(div);
     });
   } else if (current.mode === "mean_rm") {
@@ -1361,7 +1454,7 @@ function renderQuestion() {
       const div = document.createElement("div");
       div.className = "opt";
       div.innerHTML = `<div class="jp">${getKana(c)}</div>`;
-      div.onclick = () => answerChoice(idx);
+      div.onclick = () => selectMainChoice(idx);
       ui.opts.appendChild(div);
     });
   } else if (current.mode === "kanji_read") {
@@ -1370,7 +1463,7 @@ function renderQuestion() {
       const div = document.createElement("div");
       div.className = "opt";
       div.innerHTML = `<div class="jp">${getKana(c)}</div>`;
-      div.onclick = () => answerChoice(idx);
+      div.onclick = () => selectMainChoice(idx);
       ui.opts.appendChild(div);
     });
   } else if (current.mode === "read_kanji") {
@@ -1380,7 +1473,7 @@ function renderQuestion() {
       div.className = "opt";
       // Do not add furigana here: this mode is testing kanji selection.
       div.innerHTML = `<div class="jp">${escapeHtml(c.kanji)}</div>`;
-      div.onclick = () => answerChoice(idx);
+      div.onclick = () => selectMainChoice(idx);
       ui.opts.appendChild(div);
     });
   } else if (current.mode === "kanji_mean") {
@@ -1389,7 +1482,7 @@ function renderQuestion() {
       const div = document.createElement("div");
       div.className = "opt";
       div.innerHTML = `<div class="meaning-opt">${getMeaning(c)}</div>`;
-      div.onclick = () => answerChoice(idx);
+      div.onclick = () => selectMainChoice(idx);
       ui.opts.appendChild(div);
     });
   } else if (current.mode === "rm_mc" || current.mode === "jp_mc") {
@@ -1400,7 +1493,7 @@ function renderQuestion() {
       div.innerHTML = (current.mode === "rm_mc")
         ? `<div class="jp">${getKana(c)}</div>`
         : `<div class="rm">${c.rm}</div>`;
-      div.onclick = () => answerChoice(idx);
+      div.onclick = () => selectMainChoice(idx);
       ui.opts.appendChild(div);
     });
   } else {
@@ -1487,6 +1580,8 @@ function answerChoice(idx) {
   const ok = idx === current.correctIndex;
   const kana = getKana(current.correct);
   const meaning = getMeaning(current.correct);
+  markMainChoiceResult(idx, current.correctIndex);
+  updateMainActionButton();
 
   if (ok) playCorrect();
   else playWrong();
@@ -1596,6 +1691,8 @@ function showAnswer() {
     answered = true;
     const nq = current.n2Q;
     const correctText = nq.options[nq.answer];
+    markMainChoiceResult(-1, nq.answer);
+    updateMainActionButton();
     ui.result.innerHTML = buildN2DetailsHTML(nq, correctText);
     n2AnsweredIds.add(`${settings.jlptLevel || "n2"}_${nq.id}`);
     return;
@@ -1611,6 +1708,8 @@ function showAnswer() {
   } else {
     ui.result.innerHTML = `${t("result_answer")}<b>${current.correct.rm}</b> = <b>${kana}</b>${meaning ? `（${meaning}）` : ""}`;
   }
+  markMainChoiceResult(-1, current.correctIndex);
+  updateMainActionButton();
   speakJP(kana);
 }
 
@@ -1749,7 +1848,7 @@ function wire() {
   ui.wrongFirst.addEventListener("change", readSettingsFromUIAndSave);
 
   // Quiz buttons
-  ui.btnNew.onclick = nextQuestion;
+  ui.btnNew.onclick = handleMainActionButton;
   ui.btnSpeak.onclick = () => {
     if (!current) return;
     if (current.mode === "n2_exam" || current.mode === "n2_study" || current.mode === "n2_progressive") {
@@ -1878,9 +1977,9 @@ async function init() {
 
     // Load translation meaning files
     const [zhTW, ja, en] = await Promise.all([
-      loadJSON("./data/meanings_zh_TW.json?v=2026-06-09.3").catch(() => ({})),
-      loadJSON("./data/meanings_ja.json?v=2026-06-09.3").catch(() => ({})),
-      loadJSON("./data/meanings_en.json?v=2026-06-09.3").catch(() => ({})),
+      loadJSON("./data/meanings_zh_TW.json?v=2026-06-09.4").catch(() => ({})),
+      loadJSON("./data/meanings_ja.json?v=2026-06-09.4").catch(() => ({})),
+      loadJSON("./data/meanings_en.json?v=2026-06-09.4").catch(() => ({})),
     ]);
     db.meanings = { "zh-TW": zhTW, ja, en };
   } catch (e) {
@@ -1890,3 +1989,4 @@ async function init() {
 }
 
 init();
+
